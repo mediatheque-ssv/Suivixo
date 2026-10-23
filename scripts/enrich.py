@@ -504,6 +504,25 @@ def couverture_fr(ident: str, bnf: dict | None, forcer: bool = False) -> dict | 
     return None
 
 
+def tester_page_manga_news(mn: dict | None) -> None:
+    """Mode test : télécharge la fiche Manga-News et affiche le texte autour des volumes VF / VO."""
+    url = (mn or {}).get("url")
+    if not url:
+        dbg("    Fiche Manga-News : pas d'adresse")
+        return
+    try:
+        html = http(url).decode("utf-8", errors="replace")
+    except Exception as ex:
+        dbg(f"    Fiche Manga-News : ÉCHEC {ex}")
+        return
+    dbg(f"    Fiche Manga-News : {len(html)} caractères")
+    texte = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S)
+    for motif in ["numberblock", "Nb volumes", "Volumes VF", "Volumes VO", "VF :", "VO :", "En cours", "Terminé", "Prochain", "paraître", "topinfo"]:
+        for m in list(re.finditer(re.escape(motif), texte))[:2]:
+            extrait = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", texte[max(0, m.start() - 200): m.end() + 300]))
+            dbg(f"      [{motif}] …{extrait[:420]}…")
+
+
 def tester_couvertures(bnf: dict) -> None:
     """Mode test : essaie plusieurs sources de couverture pour le tome 1 et affiche le résultat."""
     ark, isbn = bnf.get("ark1"), bnf.get("isbn1")
@@ -674,6 +693,7 @@ def main() -> int:
             if debug:
                 if e.get("bnf"):
                     tester_couvertures(e["bnf"])
+                tester_page_manga_news(e.get("mangaNews"))
                 dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1
