@@ -105,6 +105,12 @@ Q_ID = "query ($id: Int) { Media(id: $id, type: MANGA) { %s } }" % CHAMPS
 Q_CHERCHE = "query ($q: String) { Page(perPage: 8) { media(search: $q, type: MANGA, sort: SEARCH_MATCH) { %s } } }" % CHAMPS
 DEMOGRAPHIES = {"Shounen": "Shonen", "Seinen": "Seinen", "Shoujo": "Shojo", "Josei": "Josei", "Kids": "Kodomo"}
 _dernier_appel = 0.0
+JOURNAL: list[str] = []
+
+
+def dbg(msg: str) -> None:
+    print(msg, flush=True)
+    JOURNAL.append(msg)
 
 
 def anilist(query: str, variables: dict) -> dict:
@@ -170,7 +176,7 @@ def chercher_anilist(serie: dict, debug: bool = False) -> dict | None:
         for m in cands:
             sc = score(titres, m)
             if debug:
-                print(f"    [{q}] {m['id']} {noms(m)[:3]} {m.get('status')} vol={m.get('volumes')} score={sc:.2f}")
+                dbg(f"    [{q}] {m['id']} {noms(m)[:3]} {m.get('status')} vol={m.get('volumes')} score={sc:.2f}")
             if sc > meilleur_sc:
                 meilleur, meilleur_sc = m, sc
         if meilleur_sc >= 0.95:
@@ -246,7 +252,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, debug: bool = False) -> dict |
             n = next((e.text for e in racine.iter() if sans_ns(e.tag) == "numberOfRecords"), "0")
             total = int(n or 0)
             if debug:
-                print(f"    BnF {requete} -> {total} notices")
+                dbg(f"    BnF {requete} -> {total} notices")
         recs = [e for e in racine.iter() if sans_ns(e.tag) == "recordData"]
         for rd in recs:
             f = champs(rd)
@@ -268,7 +274,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, debug: bool = False) -> dict |
             creee = premier(f, "100", "a")[:8]
             tomes.append({"n": num, "editeur": editeur, "annee": annee, "creee": creee})
             if debug:
-                print(f"      t{num} | {titre} | {serie_t} | {editeur} | {annee} | {creee}")
+                dbg(f"      t{num} | {titre} | {serie_t} | {editeur} | {annee} | {creee}")
         debut += 100
         if debut > min(total or 0, 600):
             break
@@ -403,7 +409,7 @@ def main() -> int:
             cache[s["id"]] = e
             faites += 1
             if debug:
-                print(json.dumps(e, ensure_ascii=False, indent=1))
+                dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1
             print(f"  erreur : {ex}", file=sys.stderr, flush=True)
@@ -413,11 +419,25 @@ def main() -> int:
         if faites and faites % 25 == 0:
             ecrire(chemin, cache)
 
-    ecrire(chemin, cache)
+    if debug:
+        annoter("\n".join(JOURNAL))
+    else:
+        ecrire(chemin, cache)
     reliees = sum(1 for v in cache.values() if v.get("anilist"))
     avec_bnf = sum(1 for v in cache.values() if (v.get("bnf") or {}).get("dernier"))
     print(f"Vérifiées ce passage : {faites}, erreurs : {erreurs}. Total : {len(cache)} séries, {reliees} reliées à AniList, {avec_bnf} trouvées à la BnF.")
     return 0 if erreurs <= 25 else 1
+
+
+def annoter(texte: str) -> None:
+    """En test, renvoie le détail sous forme d'annotations GitHub (lisibles par l'API)."""
+    import os
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    morceaux = [texte[i:i + 3500] for i in range(0, len(texte), 3500)][:9]
+    for n, m in enumerate(morceaux, 1):
+        m = m.replace("%", "%25").replace("\r", "").replace("\n", "%0A")
+        print(f"::notice title=Test {n}/{len(morceaux)}::{m}", flush=True)
 
 
 def ecrire(chemin: Path, cache: dict) -> None:
