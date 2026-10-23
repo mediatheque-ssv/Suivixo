@@ -17,6 +17,10 @@ on:
         description: "Tout revérifier, même les séries vues récemment"
         type: boolean
         default: false
+      bnf_seulement:
+        description: "Refaire seulement la BnF (plus rapide, garde AniList)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,11 +45,13 @@ jobs:
           SERIE: ${{ inputs.serie }}
           LIMITE: ${{ inputs.limite }}
           FORCER: ${{ inputs.forcer }}
+          BNF: ${{ inputs.bnf_seulement }}
         run: |
           ARGS="--max-minutes 120"
           [ -n "$SERIE" ] && ARGS="$ARGS --serie $SERIE"
           [ -n "$LIMITE" ] && ARGS="$ARGS --limite $LIMITE"
           [ "$FORCER" = "true" ] && ARGS="$ARGS --forcer"
+          [ "$BNF" = "true" ] && ARGS="$ARGS --bnf-seulement"
           python scripts/enrich.py $ARGS
 
       - name: Enregistrer les résultats

@@ -234,8 +234,21 @@ def numero(s: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
+# Les éditeurs de mangas apparaissent sous plusieurs noms à la BnF (« Kana », « Dargaud Bénélux-Kana »,
+# « Dargaud-Lombard Kana »…). On les ramène à un nom unique ; l'ordre compte (vega avant dupuis).
+EDITEURS = ["kana", "glenat", "pika", "kurokawa", "kioon", "crunchyroll", "kaze", "delcourt", "tonkam", "akata",
+            "ankama", "panini", "soleil", "casterman", "dokidoki", "mangetsu", "meian", "noeve", "vega", "dupuis",
+            "nobinobi", "komikku", "imho", "taifu", "ototo", "akileos", "blackbox", "bamboo", "jailu", "michellafon",
+            "hachette", "kotoji", "kbooks", "sakka", "pika", "kidpaddle", "dargaud", "lezard", "omake", "boykoff"]
+ALIAS_EDITEURS = {"dargaud": "kana", "tonkam": "delcourt", "kaze": "crunchyroll", "sakka": "casterman"}
+
+
 def norm_editeur(e: str) -> str:
     s = sans_accents(e or "").lower()
+    brut = re.sub(r"[^a-z0-9]", "", s)
+    for nom in EDITEURS:
+        if nom in brut:
+            return ALIAS_EDITEURS.get(nom, nom)
     s = re.sub(r"\b(editions?|ed|impr|imprimerie|maury|sa|sas|france|publishing|presse)\b\.?", " ", s)
     return re.sub(r"[^a-z0-9]", "", s)
 
@@ -355,6 +368,7 @@ def main() -> int:
     ap.add_argument("--serie", default="", help="identifiant d'une seule série (test, affiche le détail)")
     ap.add_argument("--max-minutes", type=float, default=100)
     ap.add_argument("--forcer", action="store_true", help="ignorer le cache")
+    ap.add_argument("--bnf-seulement", action="store_true", help="refaire seulement la BnF (garde AniList)")
     args = ap.parse_args()
 
     series = json.loads((DATA / "series.json").read_text())["series"]
@@ -389,7 +403,7 @@ def main() -> int:
         al = e.get("anilist")
         termine = bool(al and al.get("statut") == "FINISHED")
         complet = termine and al.get("volumes") and (e.get("bnf") or {}).get("dernier") and e["bnf"]["dernier"] >= al["volumes"]
-        if not args.forcer and not debug:
+        if not args.forcer and not debug and not args.bnf_seulement:
             recent = age_jours(e.get("verifie")) < (120 if complet else 6)
             if recent and not (lien and (not al or al.get("id") != lien)):
                 continue
@@ -397,7 +411,9 @@ def main() -> int:
         try:
             one_shot = s.get("type") == "One shot"
             # AniList
-            if lien:
+            if args.bnf_seulement:
+                pass
+            elif lien:
                 if not al or al.get("id") != lien or age_jours(e.get("anilistVerifie")) > 6 or args.forcer:
                     m = anilist(Q_ID, {"id": int(lien)}).get("Media")
                     e["anilist"] = resume_anilist(m, False, None) if m else {"id": lien, "titre": "Introuvable sur AniList", "statut": None, "auto": False}
