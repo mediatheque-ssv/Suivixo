@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T16:12:31Z",
+ "maj": "2026-10-23T16:18:21Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -9557,12 +9557,12 @@
     "tomes": 4,
     "editeur": "Hugo Publishing",
     "url": "https://www.manga-news.com/index.php/serie/Cursed-Princess-Club",
-    "date": "2026-08-04",
-    "editeurDifferent": true
+    "date": "2026-08-04"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Cursed-Princess-Club",
     "lu": false,
+    "vfDernierDate": "2025-11-13",
     "verifie": "2026-10-23"
    },
    "anilistVerifie": "2026-10-23"
@@ -14889,6 +14889,7 @@
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Harem-de-limperatrice-Le",
     "lu": false,
+    "vfDernierDate": "2026-08-26",
     "verifie": "2026-10-23"
    },
    "anilistVerifie": "2026-10-23"
@@ -21072,6 +21073,7 @@
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Morgana-Oz",
     "lu": false,
+    "vfDernierDate": "2026-06-03",
     "verifie": "2026-10-23"
    },
    "anilistVerifie": "2026-10-23"
@@ -32110,12 +32112,12 @@
     "tomes": 4,
     "editeur": "Hugo Publishing",
     "url": "https://www.manga-news.com/index.php/serie/Unordinary",
-    "date": "2026-08-04",
-    "editeurDifferent": true
+    "date": "2026-08-04"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Unordinary",
     "lu": false,
+    "vfDernierDate": "2026-05-13",
     "verifie": "2026-10-23"
    },
    "anilistVerifie": "2026-10-23"
