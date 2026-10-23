@@ -21,7 +21,11 @@ Suivixo remplace le classeur Excel « MangaV2-3 » (créé par Erick Bagliniere)
 | Prêts, emprunts, réservations | Export Orphée | Restent dans le navigateur de la personne qui importe, jamais publiés |
 | État de la série au Japon, nombre de tomes en VO | [AniList](https://anilist.co) | Chaque lundi (GitHub Actions) |
 | Tomes parus en France et date du dernier | [Catalogue général de la BnF](https://catalogue.bnf.fr) (dépôt légal), sous Licence Ouverte | Chaque lundi |
+| Tomes parus en France (deuxième source) | [Jeu de données Manga-News sur data.gouv.fr](https://www.data.gouv.fr/datasets/manga-news), sous licence ODbL | Chaque lundi |
+| Couvertures françaises | BnF, sinon [Open Library](https://openlibrary.org) ; à défaut, couverture VO d'AniList | Une fois par série |
 | Genre, public, commandes, commentaires, liens | Saisis dans Suivixo (repris de l'ancien Excel) | À la main |
+
+Le nombre de tomes parus en France retenu est le plus grand entre la BnF, Manga-News et les exemplaires du réseau (un tome présent dans une médiathèque est forcément paru). Les données dérivées de Manga-News dans `data/enrich.json` sont sous licence ODbL.
 
 Quand les sources se trompent (édition française différente, série arrêtée par l'éditeur…), on peut forcer le nombre de tomes parus et l'état dans la fiche de la série.
 

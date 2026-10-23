@@ -25,6 +25,10 @@ on:
         description: "Revérifier les liens AniList automatiques avec l'auteur d'Orphée"
         type: boolean
         default: false
+      manga_news_seulement:
+        description: "Mettre à jour seulement le nombre de tomes Manga-News (rapide)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -55,6 +59,7 @@ jobs:
           FORCER: ${{ inputs.forcer }}
           BNF: ${{ inputs.bnf_seulement }}
           AUTEURS: ${{ inputs.verifier_auteurs }}
+          MN: ${{ inputs.manga_news_seulement }}
         run: |
           ARGS="--max-minutes 120"
           [ -n "$SERIE" ] && ARGS="$ARGS --serie $SERIE"
@@ -62,6 +67,7 @@ jobs:
           [ "$FORCER" = "true" ] && ARGS="$ARGS --forcer"
           [ "$BNF" = "true" ] && ARGS="$ARGS --bnf-seulement"
           [ "$AUTEURS" = "true" ] && ARGS="$ARGS --verifier-auteurs"
+          [ "$MN" = "true" ] && ARGS="$ARGS --manga-news-seulement"
           python scripts/enrich.py $ARGS
 
       - name: Enregistrer les résultats

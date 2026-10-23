@@ -82,6 +82,9 @@ t("état de parution", () => {
   assert.equal(C.infosParution(s, arrete).etat, "Arrêtée en France ?");
   assert.equal(C.infosParution({ titre: "X", ancien: { total: 5, etat: "Terminée" } }, null).parus, 5);
   assert.equal(C.infosParution({ titre: "X", manuel: { parus: 9, etat: "En cours" } }, fini).parus, 9);
+  // Manga-News plus à jour que la BnF
+  assert.equal(C.infosParution({ titre: "X" }, { bnf: { dernier: 8, tomes: "1-8" }, mangaNews: { tomes: 12 } }).parus, 12);
+  assert.equal(C.infosParution({ titre: "X" }, { bnf: { dernier: 8, tomes: "1-8" }, mangaNews: { tomes: 12 } }).sourceParus, "mangaNews");
   // le réseau a le tome 10 alors que la BnF s'arrête à 8 : 10 tomes sont parus
   const monaLisa = { anilist: { statut: "FINISHED", volumes: 10 }, bnf: { dernier: 8, tomes: "1-8", dateDernier: "2024-09" } };
   const i2 = C.infosParution({ titre: "X" }, monaLisa, Date.now(), 10);

@@ -423,7 +423,7 @@ function ouvrirFiche(id) {
   const urlBD = L.bedetheque ? (L.bedetheque.startsWith("http") ? L.bedetheque : "https://www.bedetheque.com/" + L.bedetheque) : null;
   const urlBnf = `https://catalogue.bnf.fr/rechercher.do?motRecherche=${encodeURIComponent(s.titre)}`;
   const meta = [f?.editeur, s.public, v.genre, s.age, s.type === "One shot" ? "One shot" : ""].filter(Boolean).join(", ");
-  const src = { manuel: "ta saisie", bnf: "la BnF", excel: "l'ancien Excel", type: "le type one shot", reseau: "les exemplaires du réseau" };
+  const src = { manuel: "ta saisie", bnf: "la BnF", mangaNews: "Manga-News", excel: "l'ancien Excel", type: "le type one shot", reseau: "les exemplaires du réseau" };
   const lien = (url, texte) => `<a href="${h(url)}" target="_blank" rel="noopener">${texte}</a>`;
 
   const notes = [];
@@ -462,7 +462,7 @@ function ouvrirFiche(id) {
       <summary>Sources et liens</summary>
       <div class="sources">
         <p><strong>VO</strong> : ${al ? `${h(enVO(al))}, série ${h(ETATS_AL[al.statut] || "?")}${al.volumes ? ` en ${pluriel(al.volumes, "tome")}` : ""}, d'après AniList (« ${h(al.titre)} »)${al.auto ? ", reliée automatiquement" : ""}.` : "série pas encore reliée à AniList. Colle son adresse dans « Modifier la série »."}</p>
-        <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}</p>
+        <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}${v.enr?.mangaNews ? ` Sur Manga-News : ${pluriel(v.enr.mangaNews.tomes, "tome")}${v.enr.mangaNews.editeur ? ` chez ${h(v.enr.mangaNews.editeur)}` : ""} (données du ${dateFr(v.enr.mangaNews.date)}).` : ""}</p>
         ${s.ancien && (s.ancien.total || s.ancien.etat) ? `<p><strong>Ancien Excel</strong> : ${s.ancien.total ? pluriel(s.ancien.total, "tome") : ""}${s.ancien.etat ? `, ${h(s.ancien.etat.toLowerCase())}` : ""}${s.ancien.annee ? `, dernière parution en ${s.ancien.annee}` : ""}.</p>` : ""}
         <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `édition française, tome ${v.enr.couvFR.tome}, d'après ${v.enr.couvFR.source === "BnF" ? "la BnF" : "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
         <p>Voir sur ${liens.join(", ")}.</p>

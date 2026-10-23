@@ -10,7 +10,9 @@ Données BnF : Licence Ouverte (Etalab). Données AniList : https://anilist.co
 from __future__ import annotations
 
 import argparse
+import csv
 import datetime as dt
+import io
 import difflib
 import json
 import re
@@ -220,6 +222,73 @@ def chercher_anilist(serie: dict, auteur: str = "", debug: bool = False) -> dict
     if meme_auteur(auteur, m) is False:
         r["auteurDifferent"] = True  # gardé comme simple proposition, pas utilisé
     return r
+
+# --------------------------------------------------------------------------- Manga-News (data.gouv.fr)
+# Jeu de données « Manga-News » publié sur data.gouv.fr (licence ODbL) : nombre de tomes parus en France
+# pour environ 11 700 séries. Sert de deuxième source française à côté de la BnF.
+
+MN_API = "https://www.data.gouv.fr/api/1/datasets/manga-news/"
+_MN: dict | None = None
+_MN_DATE = ""
+
+
+def manga_news() -> dict:
+    global _MN, _MN_DATE
+    if _MN is not None:
+        return _MN
+    _MN = {}
+    try:
+        meta = json.loads(http(MN_API))
+        res = next((r for r in meta.get("resources", []) if (r.get("format") or "").lower() == "csv"), None)
+        if not res:
+            return _MN
+        _MN_DATE = (res.get("last_modified") or "")[:10]
+        brut = http(res["url"]).decode("utf-8-sig", errors="replace")
+        try:
+            dialecte = csv.Sniffer().sniff(brut[:20000], delimiters=",;\t")
+        except csv.Error:
+            dialecte = csv.excel
+        lignes = list(csv.DictReader(io.StringIO(brut), dialect=dialecte))
+        if not lignes:
+            return _MN
+        colonnes = list(lignes[0].keys())
+
+        def col(*mots):
+            for c in colonnes:
+                cl = sans_accents(c or "").lower()
+                if all(m in cl for m in mots):
+                    return c
+            return None
+
+        c_titre = col("titre") or col("title") or col("nom")
+        c_tomes = col("tome", "par") or col("nombre", "tome") or col("tome") or col("volume")
+        c_ed = col("editeur") or col("publisher")
+        c_url = col("url")
+        dbg(f"Manga-News ({_MN_DATE}) : {len(lignes)} séries, colonnes {colonnes} ; titre={c_titre}, tomes={c_tomes}, éditeur={c_ed}")
+        for r in lignes:
+            t = (r.get(c_titre) or "").strip()
+            m = re.search(r"\d+", r.get(c_tomes) or "")
+            if not t or not m or int(m.group(0)) == 0:
+                continue
+            _MN.setdefault(cle(t), []).append({"tomes": int(m.group(0)), "editeur": (r.get(c_ed) or "").strip(), "url": (r.get(c_url) or "").strip()})
+    except Exception as ex:
+        print(f"::warning title=Manga-News::Fichier data.gouv.fr illisible : {str(ex)[:200]}", flush=True)
+    return _MN
+
+
+def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False) -> dict | None:
+    idx = manga_news()
+    cands = []
+    for t in titres_de(serie):
+        cands += idx.get(cle(t), [])
+    if debug:
+        dbg(f"    Manga-News : {cands[:6]}")
+    if not cands:
+        return None
+    eo = norm_editeur(editeur_orphee)
+    memes = [c for c in cands if eo and norm_editeur(c["editeur"]) == eo]
+    c = max(memes or cands, key=lambda c: c["tomes"])
+    return {"tomes": c["tomes"], "editeur": c["editeur"], "url": c["url"], "date": _MN_DATE, **({} if memes or not eo else {"editeurDifferent": True})}
 
 # --------------------------------------------------------------------------- BnF
 
@@ -488,6 +557,7 @@ def main() -> int:
     ap.add_argument("--forcer", action="store_true", help="ignorer le cache")
     ap.add_argument("--bnf-seulement", action="store_true", help="refaire seulement la BnF (garde AniList)")
     ap.add_argument("--verifier-auteurs", action="store_true", help="revérifier les liens AniList automatiques avec l'auteur d'Orphée")
+    ap.add_argument("--manga-news-seulement", action="store_true", help="mettre à jour seulement le nombre de tomes Manga-News (rapide)")
     args = ap.parse_args()
 
     series = json.loads((DATA / "series.json").read_text())["series"]
@@ -523,6 +593,13 @@ def main() -> int:
         termine = bool(al and al.get("statut") == "FINISHED")
         complet = termine and al.get("volumes") and (e.get("bnf") or {}).get("dernier") and e["bnf"]["dernier"] >= al["volumes"]
         auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
+        editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
+        if args.manga_news_seulement:
+            if s.get("type") != "One shot":
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug)
+                cache[s["id"]] = e
+                faites += 1
+            continue
         if args.verifier_auteurs:
             # Revérifie les liens AniList trouvés automatiquement, sans toucher à la BnF ni aux couvertures
             if lien or not auteur or s.get("type") == "One shot":
@@ -577,6 +654,7 @@ def main() -> int:
                 vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
                 e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
                 e["bnfVerifie"] = AUJOURDHUI.isoformat()
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug)
             # Couverture française, une seule fois (puis tous les 6 mois si elle manque)
             if not debug and (args.forcer or not e.get("couvFR") and age_jours(e.get("couvEssai")) > 180
                               or e.get("couvFR") and not (DOSSIER_COUV / f"{s['id']}.jpg").exists()):
@@ -635,7 +713,7 @@ def annoter(texte: str) -> None:
 def ecrire(chemin: Path, cache: dict) -> None:
     contenu = {
         "maj": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
+        "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
         "series": dict(sorted(cache.items())),
     }
     chemin.write_text(json.dumps(contenu, ensure_ascii=False, indent=1) + "\n")

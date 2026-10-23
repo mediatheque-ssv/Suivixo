@@ -334,8 +334,13 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
 
   // --- parus en France
   let parus = null, sourceParus = null;
+  const mn = enr?.mangaNews && Number.isFinite(enr.mangaNews.tomes) && !enr.mangaNews.editeurDifferent ? enr.mangaNews.tomes : null;
   if (Number.isFinite(man.parus)) { parus = man.parus; sourceParus = "manuel"; }
-  else if (dernierBnf(bnf)) { parus = dernierBnf(bnf); sourceParus = "bnf"; }
+  else if (dernierBnf(bnf) || mn) {
+    // BnF et Manga-News : on garde le plus grand (la BnF a du retard, Manga-News date de sa dernière publication)
+    const b = dernierBnf(bnf) || 0;
+    if (mn && mn > b) { parus = mn; sourceParus = "mangaNews"; } else { parus = b; sourceParus = "bnf"; }
+  }
   else if (Number.isFinite(leg.total)) { parus = leg.total; sourceParus = "excel"; }
   // Le réseau a déjà un tome plus récent que ce que disent les sources : il est forcément paru
   // (la BnF a parfois plusieurs mois de retard).
