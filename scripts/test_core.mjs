@@ -82,6 +82,12 @@ t("état de parution", () => {
   assert.equal(C.infosParution(s, arrete).etat, "Arrêtée en France ?");
   assert.equal(C.infosParution({ titre: "X", ancien: { total: 5, etat: "Terminée" } }, null).parus, 5);
   assert.equal(C.infosParution({ titre: "X", manuel: { parus: 9, etat: "En cours" } }, fini).parus, 9);
+  // le réseau a le tome 10 alors que la BnF s'arrête à 8 : 10 tomes sont parus
+  const monaLisa = { anilist: { statut: "FINISHED", volumes: 10 }, bnf: { dernier: 8, tomes: "1-8", dateDernier: "2024-09" } };
+  const i2 = C.infosParution({ titre: "X" }, monaLisa, Date.now(), 10);
+  assert.equal(i2.parus, 10);
+  assert.equal(i2.sourceParus, "reseau");
+  assert.equal(i2.etat, "Terminée");
   // numéro aberrant (« 202 » lu dans « 2024 ») écarté
   assert.equal(C.dernierBnf({ dernier: 202, tomes: "1-8,202" }), 8);
   assert.equal(C.dernierBnf({ dernier: 35, tomes: "35" }), 35);

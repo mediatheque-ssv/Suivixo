@@ -111,9 +111,9 @@ function calculer() {
   etat.vues = etat.series.map((s) => {
     const f = etat.fonds.series?.[s.id] || null;
     const enr = etat.enrich.series?.[s.id] || null;
-    const info = C.infosParution(s, enr);
     const ici = f?.tomes?.[bib] || [];
     const reseau = C.tomesReseau(f);
+    const info = C.infosParution(s, enr, Date.now(), reseau.length ? reseau[reseau.length - 1] : 0);
     const statut = C.statutSerie(surMoi ? ici : reseau, info);
     const setIci = new Set(ici), setRes = new Set(reseau);
     const manquantsIci = [], manquantsReseau = [];
@@ -218,7 +218,8 @@ function bornes(v) {
   const maxPossede = v.reseau.length ? v.reseau[v.reseau.length - 1] : 0;
   const n = Math.max(v.info.parus || 0, maxPossede);
   const vo = v.info.totalVO || 0;
-  const avenir = vo > n ? Math.min(vo - n, 60) : 0;
+  const enCoursFR = /en cours/i.test(v.info.etat || "") && !v.info.doute;
+  const avenir = enCoursFR && vo > n ? Math.min(vo - n, 60) : 0;
   return { n, total: n + avenir };
 }
 
@@ -245,6 +246,17 @@ function resumeTomes(v) {
   const ici = v.ici.length ? C.listeCompacte(v.ici) : "aucun";
   const res = v.reseau.length ? C.listeCompacte(v.reseau) : "aucun";
   return `Tomes à ${bib} : ${ici}. Dans le réseau : ${res}.`;
+}
+
+/** « 8 sur 10 parus en VF » : tomes de ma médiathèque sur tomes parus en France. */
+function compteVF(v, avecVO = false) {
+  const ici = v.ici.length;
+  const p = v.info.parus;
+  const vo = v.info.totalVO;
+  if (p === null) return `${pluriel(ici, "tome")}, parution VF inconnue`;
+  let t = `<strong>${nf.format(ici)}</strong> sur ${nf.format(p)} parus en VF`;
+  if (avecVO && vo && vo !== p) t += `, ${nf.format(vo)} en VO`;
+  return t;
 }
 
 function legende() {
@@ -335,6 +347,7 @@ function carteSerie(v) {
     ${couverture(v, true)}
     <span class="carte-titre">${h(v.s.titre)}</span>
     ${v.f?.editeur ? `<span class="carte-meta">${h(v.f.editeur)}</span>` : ""}
+    <span class="compte-vf" title="Tomes à ${h(court(etat.prefs.bib))} sur tomes parus en France">${compteVF(v)}</span>
     ${etagere(v, 160, 16, 1.4)}
     ${statut(v.statut.cle)}
   </button>`;
@@ -345,7 +358,7 @@ function ligneSerie(v) {
   return `<button type="button" class="ligne" data-serie="${h(v.s.id)}">
     <span class="vignette">${couverture(v)}</span>
     <span><span class="ligne-titre">${h(v.s.titre)}</span>${meta ? `<span class="ligne-meta">${h(meta)}</span>` : ""}</span>
-    <span>${etagere(v)}</span>
+    <span>${etagere(v)}<span class="compte-vf">${compteVF(v, true)}</span></span>
     <span>${statut(v.statut.cle)}</span>
     ${v.prets === null ? "" : `<span class="ligne-prets">${pluriel(v.pretsIci, "prêt")}</span>`}
   </button>`;
@@ -364,12 +377,15 @@ function phraseStatut(v) {
   const bib = court(etat.prefs.bib);
   const al = v.enr?.anilist;
   const morceaux = [];
-  if (al && !al.rejete && al.statut) {
+  if (al && !al.rejete && !al.auteurDifferent && al.statut) {
     const ou = enVO(al);
     morceaux.push(`${ou.charAt(0).toUpperCase() + ou.slice(1)}, la série est ${ETATS_AL[al.statut] || al.statut}${info.totalVO ? ` (${pluriel(info.totalVO, "tome")})` : al.pays === "KR" || al.pays === "CN" ? " (publication en ligne)" : ""}.`);
   }
   if (info.parus !== null) {
-    morceaux.push(`${pluriel(info.parus, "tome paru", "tomes parus")} en France${info.dateDernier ? `, le dernier en ${moisFr(info.dateDernier)}` : ""}${info.aVenir ? `, ${info.aVenir} encore à venir` : ""}.`);
+    const date = info.sourceParus === "bnf" && info.dateDernier ? `, le dernier en ${moisFr(info.dateDernier)}` : "";
+    const venir = info.aVenir && /en cours/i.test(info.etat || "") && !info.doute ? `, ${info.aVenir} encore à venir` : "";
+    morceaux.push(`${pluriel(info.parus, "tome paru", "tomes parus")} en France${date}${venir}.`);
+    if (info.sourceParus === "reseau") morceaux.push(`Ce nombre vient des exemplaires du réseau${info.sourceEnRetard === "bnf" ? " : la BnF ne recense pas encore les derniers tomes" : ""}.`);
   } else morceaux.push("Le nombre de tomes parus en France est inconnu.");
   if (/arr[eê]t/i.test(info.etat || "")) morceaux.push(`Plus rien n'est paru en France depuis ${moisFr(info.dateDernier) || "longtemps"} : la série a peut-être été arrêtée par l'éditeur, ou l'édition française est différente. Si tu sais ce qu'il en est, indique-le dans « Modifier la série ».`);
   if (info.parus !== null) {
@@ -407,7 +423,7 @@ function ouvrirFiche(id) {
   const urlBD = L.bedetheque ? (L.bedetheque.startsWith("http") ? L.bedetheque : "https://www.bedetheque.com/" + L.bedetheque) : null;
   const urlBnf = `https://catalogue.bnf.fr/rechercher.do?motRecherche=${encodeURIComponent(s.titre)}`;
   const meta = [f?.editeur, s.public, v.genre, s.age, s.type === "One shot" ? "One shot" : ""].filter(Boolean).join(", ");
-  const src = { manuel: "ta saisie", bnf: "la BnF", excel: "l'ancien Excel", type: "le type one shot" };
+  const src = { manuel: "ta saisie", bnf: "la BnF", excel: "l'ancien Excel", type: "le type one shot", reseau: "les exemplaires du réseau" };
   const lien = (url, texte) => `<a href="${h(url)}" target="_blank" rel="noopener">${texte}</a>`;
 
   const notes = [];
@@ -430,6 +446,11 @@ function ouvrirFiche(id) {
       </div>
     </div>
     <div class="fiche-corps">
+    <div class="chiffres-serie">
+      <div><strong>${nf.format(v.ici.length)}</strong><span>à ${h(court(bib))}</span></div>
+      <div><strong>${info.parus !== null ? nf.format(info.parus) : "?"}</strong><span>parus en VF</span></div>
+      ${info.totalVO ? `<div><strong>${nf.format(info.totalVO)}</strong><span>en VO</span></div>` : ""}
+    </div>
     <p class="resume">${h(phraseStatut(v))}</p>
     ${total ? `<div class="rayon-complet">${tranches.join("")}</div>${legende()}` : ""}
 
@@ -629,7 +650,7 @@ function controles() {
   });
   const sansExemplaire = etat.vues.filter((v) => v.presence === "aucune");
   const nouvelles = etat.vues.filter((v) => v.s.ajout || v.s.nouvelle);
-  const auDela = etat.vues.filter((v) => v.info.parus !== null && v.info.sourceParus !== "manuel" && v.reseau.length && v.reseau[v.reseau.length - 1] > v.info.parus);
+  const auDela = etat.vues.filter((v) => v.info.parus !== null && v.info.sourceParus === "manuel" && v.reseau.length && v.reseau[v.reseau.length - 1] > v.info.parus);
   const anomalies = (etat.fonds.anomalies || []);
   const aRelier = mes.filter((v) => !v.s.liens?.anilist && (!v.enr?.anilist || v.enr.anilist.auteurDifferent || v.enr.anilist.auto && (v.enr.anilist.score ?? 1) < 0.9) && v.s.genre !== "Comics" && v.s.type !== "One shot");
   const incomplet = mes.filter((v) => !v.genre || !v.s.public);
@@ -670,8 +691,8 @@ function rendreControles() {
       "Ils ne sont pas comptés, car le champ tome est vide dans Orphée.", true),
     bloc(`Séries de ${h(bib)} à relier à AniList`, c.aRelier.map((v) => li(v.s.id, v.s.titre, v.enr?.anilist ? `Proposition : ${v.enr.anilist.titre}${v.enr.anilist.auteurDifferent ? ", mais l'auteur ne correspond pas" : ""}` : "")),
       "Sans ce lien, Suivixo ne sait pas où en est la série au Japon. Ouvre la fiche, cherche la série sur anilist.co et colle son adresse dans « Modifier la série »."),
-    bloc("Plus de tomes que de tomes parus", c.auDela.map((v) => li(v.s.id, v.s.titre, `Le réseau va jusqu'au tome ${v.reseau[v.reseau.length - 1]}, la source dit ${pluriel(v.info.parus, "tome paru", "tomes parus")}`)),
-      "Le nombre de tomes parus n'est plus à jour. Corrige-le dans la fiche si la vérification automatique ne le fait pas."),
+    bloc("Nombre de tomes saisi à la main dépassé", c.auDela.map((v) => li(v.s.id, v.s.titre, `Le réseau va jusqu'au tome ${v.reseau[v.reseau.length - 1]}, la fiche dit ${pluriel(v.info.parus, "tome paru", "tomes parus")}`)),
+      "Le nombre saisi dans la fiche n'est plus à jour : mets-le à jour ou vide le champ pour revenir au calcul automatique."),
     bloc("Sans exemplaire au dernier import", c.sansExemplaire.map((v) => {
       const sug = suggestions(v);
       return li(v.s.id, v.s.titre, sug.length ? `Peut-être : ${sug.map((o) => o.s.titre).join(", ")}` : "", `

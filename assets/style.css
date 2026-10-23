@@ -423,3 +423,14 @@ details.repli[open] > summary { margin-bottom: 12px; }
   .entete, .bandeau, .barre, .statuts, .repartition, .liens-vue, .item-actions, .actions, .pied { display: none !important; }
   body { background: #fff; }
 }
+
+/* nombre de tomes parus en VF */
+.compte-vf { display: block; font-size: 0.8125rem; color: var(--encre-2); margin-top: 3px; }
+.compte-vf strong { color: var(--encre); }
+.carte .compte-vf { margin-top: -4px; }
+.chiffres-serie { display: flex; gap: 0; margin: 0 0 16px; }
+.chiffres-serie div { padding: 0 22px; border-left: 1px solid var(--filet); }
+.chiffres-serie div:first-child { padding-left: 0; border-left: 0; }
+.chiffres-serie strong { display: block; font-size: 1.75rem; font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
+.chiffres-serie span { font-size: 0.8125rem; color: var(--encre-2); }
+@media (max-width: 760px) { .carte .compte-vf { font-size: 0.75rem; } }

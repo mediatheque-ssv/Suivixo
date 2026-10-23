@@ -326,7 +326,7 @@ export function dernierBnf(bnf) {
  * Combien de tomes sont parus en France, et où en est la série ?
  * Ordre de priorité : saisie manuelle > BnF + AniList > ancien Excel (Manga-News).
  */
-export function infosParution(serie, enr, maintenant = Date.now()) {
+export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0) {
   const man = serie.manuel || {};
   const al = enr?.anilist && !enr.anilist.rejete && !enr.anilist.auteurDifferent ? enr.anilist : null;
   const bnf = enr?.bnf || null;
@@ -337,6 +337,14 @@ export function infosParution(serie, enr, maintenant = Date.now()) {
   if (Number.isFinite(man.parus)) { parus = man.parus; sourceParus = "manuel"; }
   else if (dernierBnf(bnf)) { parus = dernierBnf(bnf); sourceParus = "bnf"; }
   else if (Number.isFinite(leg.total)) { parus = leg.total; sourceParus = "excel"; }
+  // Le réseau a déjà un tome plus récent que ce que disent les sources : il est forcément paru
+  // (la BnF a parfois plusieurs mois de retard).
+  let sourceEnRetard = null;
+  if (sourceParus !== "manuel" && maxReseau > 0 && (parus === null || maxReseau > parus)) {
+    sourceEnRetard = sourceParus;
+    parus = maxReseau;
+    sourceParus = "reseau";
+  }
 
   // --- état
   const totalVO = al && Number.isFinite(al.volumes) && al.volumes > 0 ? al.volumes : null;
@@ -369,7 +377,7 @@ export function infosParution(serie, enr, maintenant = Date.now()) {
   if (serie.type === "One shot" && !etat) { etat = "Terminée"; sourceEtat = sourceEtat || "type"; }
   if (serie.type === "One shot" && parus === null) { parus = 1; sourceParus = sourceParus || "type"; }
 
-  return { parus, sourceParus, etat, sourceEtat, totalVO, aVenir, doute, dateDernier: bnf?.dateDernier || null };
+  return { parus, sourceParus, sourceEnRetard, etat, sourceEtat, totalVO, aVenir, doute, dateDernier: bnf?.dateDernier || null };
 }
 
 /** Libellés repris de l'ancien Excel. */
