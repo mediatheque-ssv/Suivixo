@@ -610,10 +610,14 @@ def main() -> int:
         if args.verifier_auteurs:
             # Revérifie les liens AniList trouvés automatiquement, sans toucher à la BnF ni aux couvertures
             if lien or not auteur or s.get("type") == "One shot":
+                if s.get("type") != "One shot":
+                    e["mangaNews"] = tomes_manga_news(s, editeur, debug)
+                    cache[s["id"]] = e
                 continue
             print(f"- {s['titre']}", flush=True)
             try:
                 e["anilist"] = chercher_anilist(s, auteur, debug)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug)
                 e["anilistVerifie"] = AUJOURDHUI.isoformat()
                 cache[s["id"]] = e
                 faites += 1
