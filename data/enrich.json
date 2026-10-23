@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T10:57:25Z",
+ "maj": "2026-10-23T13:34:42Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -28,10 +28,35 @@
     "editeur": "Kana",
     "notices": 3,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb469470320",
+    "isbn1": "9782505089827",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb469470320",
+      "isbn": "9782505089827"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46947033b",
+      "isbn": "9782505089834"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb471582511",
+      "isbn": "9782505113515"
+     }
+    ],
     "requete": "bib.title all \"10th couper le souffle\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "300-jours-avec-toi": {
    "anilist": {
@@ -60,10 +85,30 @@
     "editeur": "Bamboo édition",
     "notices": 2,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46991020k",
+    "isbn1": "9782818991978",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46991020k",
+      "isbn": "9782818991978"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46991021x",
+      "isbn": "9782818991985"
+     }
+    ],
     "requete": "bib.title all \"300 jours avec toi\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "5-minutes-forward": {
    "anilist": {
@@ -93,10 +138,40 @@
     "editeur": "Kana",
     "notices": 7,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46566898m",
+    "isbn1": "9782505083047",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46566898m",
+      "isbn": "9782505083047"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47007963h",
+      "isbn": "9782505083054"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47010868g",
+      "isbn": "9782505083061"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46687088x",
+      "isbn": "9782505083078"
+     }
+    ],
     "requete": "bib.title all \"5 minutes forward\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "a-l-image-de-mona-lisa": {
    "anilist": {
@@ -125,10 +200,40 @@
     "editeur": "Éditions Akata",
     "notices": 8,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47133306v",
+    "isbn1": "9782382124109",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47133306v",
+      "isbn": "9782382124109"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb472064339",
+      "isbn": "9782382124376"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47267084k",
+      "isbn": "9782382124796"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47318060z",
+      "isbn": "9782382124918"
+     }
+    ],
     "requete": "bib.title all \"image de mona lisa\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "a-sign-of-affection": {
    "anilist": {
@@ -156,10 +261,40 @@
     "editeur": "Éditions Akata",
     "notices": 14,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb468045977",
+    "isbn1": "9782382120255",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb468045977",
+      "isbn": "9782382120255"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46824798j",
+      "isbn": "9782382120507"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46865143p",
+      "isbn": "9782382120712"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46919552v",
+      "isbn": "9782382122044"
+     }
+    ],
     "requete": "bib.title all \"sign of affection\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "a-silent-voice": {
    "anilist": {
@@ -188,10 +323,40 @@
     "editeur": "Ki-oon",
     "notices": 8,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb44257174x",
+    "isbn1": "9782355927713",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44257174x",
+      "isbn": "9782355927713"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb442990023",
+      "isbn": "9782355927942"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb44342558j",
+      "isbn": "9782355928222"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb443357009",
+      "isbn": "9782355928222"
+     }
+    ],
     "requete": "bib.title all \"silent voice\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "ad-astra-scipion-l-africain-hannibal-barca": {
    "anilist": {
@@ -221,10 +386,40 @@
     "editeur": "Ki-oon",
     "notices": 14,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb437839108",
+    "isbn1": "9782355926525",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb437839108",
+      "isbn": "9782355926525"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb438650492",
+      "isbn": "9782355926815"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43498653m",
+      "isbn": "9782355926815"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43498660w",
+      "isbn": "9782355927188"
+     }
+    ],
     "requete": "bib.title all \"ad astra scipion africain hannibal barca\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "agence-de-detectives-layton-katrielle-et-les-enquetes-mysterieuses": {
    "anilist": null,
@@ -276,10 +471,40 @@
      "Éd. France loisirs"
     ],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb45053441m",
+    "isbn1": "9782344012406",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45053441m",
+      "isbn": "9782344012406"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb37678708f",
+      "isbn": "2723427374"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb35453217s",
+      "isbn": "2723412164"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45281006g",
+      "isbn": "9782344012413"
+     }
+    ],
     "requete": "bib.title all \"akira\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "alice-au-royaume-de-trefle": {
    "anilist": null,
@@ -291,10 +516,40 @@
     "editeur": "Ki-oon",
     "notices": 7,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb436679877",
+    "isbn1": "9782355925665",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb436679877",
+      "isbn": "9782355925665"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43667994h",
+      "isbn": "9782355925672"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43698973d",
+      "isbn": "9782355925900"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb43743424r",
+      "isbn": "9782355926082"
+     }
+    ],
     "requete": "bib.title all \"alice au royaume de trefle\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "alice-in-borderland": {
    "anilist": {
@@ -326,10 +581,40 @@
     "editeur": "Éditions Delcourt",
     "notices": 18,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43615647n",
+    "isbn1": "9782756037035",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43615647n",
+      "isbn": "9782756037035"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb436514516",
+      "isbn": "9782756037042"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb436945960",
+      "isbn": "9782756037059"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb437494126",
+      "isbn": "9782756037066"
+     }
+    ],
     "requete": "bib.title all \"alice in borderland\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "all-out": {
    "anilist": {
@@ -356,10 +641,40 @@
     "editeur": "Pika éditions",
     "notices": 17,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb473231429",
+    "isbn1": "9782811682545",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb473231429",
+      "isbn": "9782811682545"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47364707h",
+      "isbn": "9782811682941"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47391901w",
+      "isbn": "9782811682958"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb474355579",
+      "isbn": "9782811682965"
+     }
+    ],
     "requete": "bib.title all \"all out\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "all-you-need-is-kill": {
    "anilist": {
@@ -391,10 +706,30 @@
     "editeur": "Kazé",
     "notices": 2,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43498619f",
+    "isbn1": "9782820317193",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43498619f",
+      "isbn": "9782820317193"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb442297168",
+      "isbn": "9782820317209"
+     }
+    ],
     "requete": "bib.title all \"all you need is kill\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "alpi-the-soul-sender": {
    "anilist": {
@@ -422,10 +757,35 @@
     "editeur": "Ki-oon",
     "notices": 7,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb466113389",
+    "isbn1": "9791032706299",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb466113389",
+      "isbn": "9791032706299"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46647965x",
+      "isbn": "9791032706558"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb466836309",
+      "isbn": "9791032706848"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46760041b",
+      "isbn": "9791032707609"
+     }
+    ],
     "requete": "bib.title all \"alpi the soul sender\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "amatsuki": {
    "anilist": {
@@ -584,10 +944,35 @@
      "Meunier B.",
      "Ototo"
     ],
+    "ark1": "ark:/12148/cb40079086n",
+    "isbn1": "235180015X",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb40079086n",
+      "isbn": "235180015X"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb400790750",
+      "isbn": "2351800192"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb401526255",
+      "isbn": "2351800362"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb401812739",
+      "isbn": "235180046X"
+     }
+    ],
     "requete": "bib.title all \"anima\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "animal-crossing-new-horizons-l-ile-de-la-detente": {
    "anilist": null,
@@ -3314,10 +3699,35 @@
     "editeur": "Nobi nobi !",
     "notices": 3,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46736999z",
+    "isbn1": "9782373494150",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46736999z",
+      "isbn": "9782373494150"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46788342v",
+      "isbn": "9782373495522"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46840194z",
+      "isbn": "9782373495539"
+     }
+    ],
     "requete": "bib.title all \"cooking karine\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "couleur-de-peau-miel": {
    "anilist": {
