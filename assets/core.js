@@ -366,6 +366,7 @@ export function statutSerie(possedes, info) {
   const manquants = [];
   for (let i = 1; i <= parus; i++) if (!set.has(i)) manquants.push(i);
   if (/abandon/i.test(etat)) return { cle: "abandonnee", manquants };
+  if (info.doute || /\?\s*$/.test(etat)) return { cle: "verifier", manquants };
   const termine = /termin|arr[eê]t/i.test(etat);
   if (termine) return { cle: manquants.length ? "completer" : "finie", manquants };
   return { cle: manquants.length ? "continuer" : "attente", manquants };

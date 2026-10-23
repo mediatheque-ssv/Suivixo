@@ -73,6 +73,7 @@ t("statut de la série", () => {
   assert.equal(C.statutSerie([1, 2], { parus: 5, etat: "En cours" }).cle, "continuer");
   assert.equal(C.statutSerie([1, 2, 3, 4, 5], { parus: 5, etat: "En cours" }).cle, "attente");
   assert.equal(C.statutSerie([1], { parus: null, etat: null }).cle, "verifier");
+  assert.equal(C.statutSerie([1, 2, 3, 4, 5, 6, 7, 8], { parus: 8, etat: "Arrêtée en France ?", doute: true }).cle, "verifier");
 });
 
 console.log(`${ok} tests réussis${process.exitCode ? ", des échecs ci-dessus" : ""}.`);
