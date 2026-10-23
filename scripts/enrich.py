@@ -425,6 +425,8 @@ def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> N
                 print(f"  fiche Manga-News (secours) : {ex2}", file=sys.stderr, flush=True)
     if debug:
         dbg(f"    Fiche Manga-News lue : {e.get('mangaNewsFiche')}")
+        if (e.get("mangaNewsFiche") or {}).get("lu") is False:
+            tester_page_manga_news({"url": url})
 
 # --------------------------------------------------------------------------- BnF
 
@@ -480,8 +482,10 @@ def numero(s: str) -> int | None:
 EDITEURS = ["kana", "glenat", "pika", "kurokawa", "kioon", "crunchyroll", "kaze", "delcourt", "tonkam", "akata",
             "ankama", "panini", "soleil", "casterman", "dokidoki", "mangetsu", "meian", "noeve", "vega", "dupuis",
             "nobinobi", "komikku", "imho", "taifu", "ototo", "akileos", "blackbox", "bamboo", "jailu", "michellafon",
-            "hachette", "kotoji", "kbooks", "sakka", "pika", "kidpaddle", "dargaud", "lezard", "omake", "boykoff"]
-ALIAS_EDITEURS = {"dargaud": "kana", "tonkam": "delcourt", "kaze": "crunchyroll", "sakka": "casterman"}
+            "hachette", "kotoji", "kbooks", "sakka", "pika", "kidpaddle", "dargaud", "lezard", "omake", "boykoff",
+            "neotoon", "hugo", "albinmichel", "webtoonfr", "michel"]
+ALIAS_EDITEURS = {"dargaud": "kana", "tonkam": "delcourt", "kaze": "crunchyroll", "sakka": "casterman",
+                  "neotoon": "hugo", "albinmichel": "albin", "michel": "albin"}
 
 
 def norm_editeur(e: str) -> str:
@@ -646,7 +650,7 @@ def tester_page_manga_news(mn: dict | None) -> None:
         return
     dbg(f"    Fiche Manga-News : {len(html)} caractères")
     texte = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S)
-    for motif in ["numberblock", "Dernier paru", "Prochain", "paraître", "Volume suivant"]:
+    for motif in ["numberblock", "Les Volumes", "Nb volumes", "Statut", "VF", "Dernier paru", "paraître"]:
         for m in list(re.finditer(re.escape(motif), texte))[:2]:
             extrait = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", texte[max(0, m.start() - 60): m.end() + 700]))
             dbg(f"      [{motif}] …{extrait[:700]}…")
