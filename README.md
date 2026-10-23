@@ -4,7 +4,7 @@ Suivi des séries mangas du réseau des médiathèques (Châteaugiron, Domloup, 
 
 Suivixo remplace le classeur Excel « MangaV2-3 » (créé par Erick Bagliniere) par un site web, sans macros.
 
-**Site :** https://mediatheque-ssv.github.io/Suivixo/ (une fois GitHub Pages activé, voir plus bas)
+**Site :** https://mediatheque-ssv.github.io/Suivixo/
 
 ## Ce que fait le site
 
@@ -46,12 +46,11 @@ data/fonds.json            le dernier import Orphée publié (tomes par médiath
 data/enrich.json           les infos AniList et BnF (écrit par la vérification automatique)
 scripts/enrich.py          la vérification automatique des parutions
 scripts/seed_from_excel.mjs  la migration depuis l'ancien Excel (déjà faite)
-.github/workflows/         la tâche planifiée du lundi
+.github/workflows/         la vérification planifiée du lundi
 ```
 
 ## Maintenance
 
 - Tests de la logique : `npm install` puis `npm test`.
 - Lancer la vérification des parutions à la main : onglet **Actions** → « Vérifier les parutions » → *Run workflow*. Le champ « Tester une seule série » affiche le détail pour une série sans rien enregistrer.
-- Le site est publié par GitHub Pages via la tâche « Mettre le site en ligne », à chaque modification et après chaque vérification des parutions.
-- **Activation (une seule fois, compte mediatheque-ssv)** : *Settings* → *Pages* → *Build and deployment* → *Source* : **GitHub Actions**. Puis onglet *Actions* → « Mettre le site en ligne » → *Run workflow*.
+- Le site est servi par GitHub Pages depuis la branche `main`, à la racine (*Settings* → *Pages* → *Deploy from a branch*). Il se met à jour tout seul après chaque publication et chaque vérification des parutions.
