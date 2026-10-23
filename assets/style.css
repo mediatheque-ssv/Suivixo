@@ -434,3 +434,23 @@ details.repli[open] > summary { margin-bottom: 12px; }
 .chiffres-serie strong { display: block; font-size: 1.75rem; font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; }
 .chiffres-serie span { font-size: 0.8125rem; color: var(--encre-2); }
 @media (max-width: 760px) { .carte .compte-vf { font-size: 0.75rem; } }
+
+/* tranche présente ici et ailleurs : bande tramée en haut */
+.t-coiffe { stroke: none; }
+.tranche.double { color: var(--surface); background: linear-gradient(var(--encre), var(--encre)) bottom / 100% 64% no-repeat, radial-gradient(circle, var(--trame) 0.85px, var(--trame-fond) 1px) 0 0 / 3px 3px; }
+
+/* tableau de répartition tomes × médiathèques */
+.rp { overflow-x: auto; padding-bottom: 4px; }
+.rp-ligne { display: flex; align-items: center; gap: 10px; min-width: max-content; }
+.rp-ligne + .rp-ligne { margin-top: 3px; }
+.rp-nom { width: 84px; flex: none; font-size: 0.875rem; color: var(--encre-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rp-ligne.moi .rp-nom { color: var(--encre); font-weight: 700; }
+.rp-cases { display: flex; gap: 2px; }
+.rp-case { width: var(--rp); height: var(--rp); border-radius: 2px; background: var(--filet); flex: none; }
+.rp-case.pleine { background: var(--encre-2); }
+.rp-ligne.moi .rp-case.pleine { background: var(--encre); }
+.rp-ligne.moi .rp-case.double { background: linear-gradient(var(--encre), var(--encre)) bottom / 100% 62% no-repeat, radial-gradient(circle, var(--trame) 0.85px, var(--trame-fond) 1px) 0 0 / 3px 3px; }
+.rp-tete .rp-num { width: var(--rp); flex: none; font-size: 0.625rem; color: var(--encre-3); text-align: center; overflow: visible; white-space: nowrap; }
+.rp-tete .rp-num.avenir { opacity: 0.5; }
+.rp-total { font-size: 0.8125rem; color: var(--encre-3); min-width: 40px; }
+.rp-resume { margin: 10px 0 0; }

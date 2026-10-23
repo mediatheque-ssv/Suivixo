@@ -204,11 +204,20 @@ function statut(cle) {
   return `<span class="st st-${cle}">${C.STATUTS[cle]}</span>`;
 }
 
+/** Médiathèques (autres que la mienne) qui ont le tome i. */
+function ailleurs(v, i) {
+  const bib = etat.prefs.bib;
+  return Object.entries(v.f?.tomes || {}).filter(([b, l]) => b !== bib && l.includes(i)).map(([b]) => court(b));
+}
+
 function classeTome(v, i) {
   const setIci = new Set(v.ici), setRes = new Set(v.reseau);
   const parus = v.info.parus;
-  if (setIci.has(i)) return ["ici", `Tome ${i} : à ${court(etat.prefs.bib)}`];
-  if (setRes.has(i)) return ["reseau", `Tome ${i} : ailleurs dans le réseau`];
+  if (setIci.has(i)) {
+    const autres = ailleurs(v, i);
+    return autres.length ? ["double", `Tome ${i} : à ${court(etat.prefs.bib)} et à ${autres.join(", ")}`] : ["ici", `Tome ${i} : à ${court(etat.prefs.bib)} seulement`];
+  }
+  if (setRes.has(i)) return ["reseau", `Tome ${i} : à ${ailleurs(v, i).join(", ")}`];
   if (parus !== null && i <= parus) return ["manque", `Tome ${i} : absent du réseau`];
   if (parus !== null && i > parus) return ["avenir", `Tome ${i} : pas encore paru en France`];
   return ["inconnu", `Tome ${i}`];
@@ -236,8 +245,15 @@ function etagere(v, largeur = 340, haut = 22, pasMin = 2.5) {
     const [c, titre] = classeTome(v, i);
     const x = ((i - 1) * pas).toFixed(2);
     const fill = c === "reseau" ? ' fill="url(#trame)"' : "";
-    const cls = { ici: "t-ici", reseau: "t-reseau", manque: "t-manque", avenir: "t-avenir", inconnu: "t-avenir" }[c];
-    rects += `<rect x="${x}" y="1" width="${w.toFixed(2)}" height="${haut - 2}" rx="${w > 4 ? 1 : 0.5}" class="${cls}"${fill}><title>${h(titre)}</title></rect>`;
+    const cls = { ici: "t-ici", double: "t-ici", reseau: "t-reseau", manque: "t-manque", avenir: "t-avenir", inconnu: "t-avenir" }[c];
+    const rx = w > 4 ? 1 : 0.5;
+    if (c === "double") {
+      // présent ici ET ailleurs : tranche pleine, coiffée d'une bande tramée
+      const coiffe = Math.max(4, Math.round((haut - 2) * 0.38));
+      rects += `<g><title>${h(titre)}</title><rect x="${x}" y="1" width="${w.toFixed(2)}" height="${haut - 2}" rx="${rx}" class="t-ici"/><rect x="${x}" y="1" width="${w.toFixed(2)}" height="${coiffe}" rx="${rx}" fill="url(#trame)" class="t-coiffe"/></g>`;
+      continue;
+    }
+    rects += `<rect x="${x}" y="1" width="${w.toFixed(2)}" height="${haut - 2}" rx="${rx}" class="${cls}"${fill}><title>${h(titre)}</title></rect>`;
   }
   const larg = (total * pas).toFixed(1);
   return `<svg class="etagere" width="${larg}" height="${haut}" viewBox="0 0 ${larg} ${haut}" style="height:${haut}px" role="img" aria-label="${h(resumeTomes(v))}">${rects}</svg>`;
@@ -266,8 +282,10 @@ function compteVF(v) {
 
 function legende() {
   const t = (cls, fill = "") => `<svg viewBox="0 0 7 14" aria-hidden="true"><rect x="0.5" y="0.5" width="6" height="13" rx="1" class="${cls}" ${fill}/></svg>`;
+  const double = `<svg viewBox="0 0 7 14" aria-hidden="true"><rect x="0.5" y="0.5" width="6" height="13" rx="1" class="t-ici"/><rect x="0.5" y="0.5" width="6" height="5" rx="1" fill="url(#trame)" class="t-coiffe"/></svg>`;
   return `<p class="legende">
-    <span>${t("t-ici")} À ${h(court(etat.prefs.bib))}</span>
+    <span>${t("t-ici")} À ${h(court(etat.prefs.bib))} seulement</span>
+    <span>${double} À ${h(court(etat.prefs.bib))} et ailleurs</span>
     <span>${t("t-reseau", 'fill="url(#trame)"')} Ailleurs dans le réseau</span>
     <span>${t("t-manque")} Absent du réseau</span>
     <span>${t("t-avenir")} Pas encore paru en France</span>
@@ -414,12 +432,7 @@ function ouvrirFiche(id) {
     const [c, titre] = classeTome(v, i);
     tranches.push(`<span class="tranche ${c}" title="${h(titre)}"><span>${i}</span></span>`);
   }
-  const bibs = bibliotheques().filter((b) => (f?.tomes?.[b] || []).length || f?.hs?.[b] || b === bib).map((b) => {
-    const l = f?.tomes?.[b] || [];
-    const hs = f?.hs?.[b];
-    const cls = b === bib ? ' class="moi"' : "";
-    return `<dt${cls}>${h(b)}</dt><dd${cls}>${l.length ? h(C.listeCompacte(l)) : "Aucun tome"}${hs ? `, + ${pluriel(hs, "hors-série")}` : ""}</dd>`;
-  }).join("");
+  const bibs = repartition(v);
   const al = v.enr?.anilist && !v.enr.anilist.rejete && !v.enr.anilist.auteurDifferent ? v.enr.anilist : null;
   const bnf = v.enr?.bnf;
   const st = etat.stats?.series?.[s.id];
@@ -459,8 +472,8 @@ function ouvrirFiche(id) {
     <p class="resume">${h(phraseStatut(v))}</p>
     ${total ? `<div class="rayon-complet">${tranches.join("")}</div>${legende()}` : ""}
 
-    <h2>Par médiathèque</h2>
-    <dl class="bibs">${bibs}</dl>
+    <h2>Dans le réseau</h2>
+    ${bibs}
     ${notes.length ? `<ul class="notes">${notes.map((n) => `<li>${h(n)}</li>`).join("")}</ul>` : ""}
 
     <details class="repli">
@@ -482,6 +495,45 @@ function ouvrirFiche(id) {
   document.body.style.overflow = "hidden";
   $(".fiche-panneau").scrollTop = 0;
   $(".fiche-fermer").focus();
+}
+
+/** Tableau tomes × médiathèques : les doublons se lisent en colonne. */
+function repartition(v) {
+  const bib = etat.prefs.bib;
+  const f = v.f;
+  const { n } = bornes(v);
+  const lignes = bibliotheques().filter((b) => (f?.tomes?.[b] || []).length || f?.hs?.[b] || b === bib)
+    .sort((a, b) => (a === bib ? -1 : b === bib ? 1 : a.localeCompare(b, "fr")));
+  if (!n) return `<p class="discret">Aucun tome numéroté dans le réseau.</p>`;
+  const taille = n <= 25 ? 16 : n <= 40 ? 10 : n <= 60 ? 7 : 5;
+  const pasNum = taille >= 16 ? 1 : taille >= 10 ? 5 : 10;
+  const parus = v.info.parus ?? n;
+  const entete = Array.from({ length: n }, (_, k) => {
+    const i = k + 1;
+    const montre = pasNum === 1 || i === 1 || i % pasNum === 0;
+    return `<span class="rp-num${i > parus ? " avenir" : ""}">${montre ? i : ""}</span>`;
+  }).join("");
+  const rangees = lignes.map((b) => {
+    const l = new Set(f?.tomes?.[b] || []);
+    const hs = f?.hs?.[b];
+    const cases = Array.from({ length: n }, (_, k) => {
+      const i = k + 1;
+      if (!l.has(i)) return `<span class="rp-case"></span>`;
+      const autres = Object.entries(f.tomes).filter(([x, t]) => x !== b && t.includes(i)).length;
+      return `<span class="rp-case pleine${b === bib && autres ? " double" : ""}" title="${h(`${court(b)} : tome ${i}${autres ? `, aussi dans ${pluriel(autres, "autre médiathèque", "autres médiathèques")}` : ""}`)}"></span>`;
+    }).join("");
+    return `<div class="rp-ligne${b === bib ? " moi" : ""}"><span class="rp-nom">${h(court(b))}</span><span class="rp-cases">${cases}</span><span class="rp-total">${l.size}${hs ? ` + ${hs} HS` : ""}</span></div>`;
+  }).join("");
+  const doubles = v.ici.filter((i) => ailleurs(v, i).length);
+  const seuls = v.ici.filter((i) => !ailleurs(v, i).length);
+  const resume = !v.ici.length ? "" : doubles.length === 0
+    ? `Tous les tomes de ${court(bib)} sont les seuls exemplaires du réseau.`
+    : `${seuls.length ? `Seul exemplaire du réseau à ${court(bib)} : ${C.listeCompacte(seuls)}. ` : ""}Aussi présents ailleurs : ${C.listeCompacte(doubles)}.`;
+  return `<div class="rp" style="--rp:${taille}px">
+      <div class="rp-ligne rp-tete"><span class="rp-nom"></span><span class="rp-cases">${entete}</span><span class="rp-total">tomes</span></div>
+      ${rangees}
+    </div>
+    ${resume ? `<p class="discret petit rp-resume">${h(resume)}</p>` : ""}`;
 }
 
 function fermerFiche() {
