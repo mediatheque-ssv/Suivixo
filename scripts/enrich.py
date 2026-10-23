@@ -271,31 +271,56 @@ def manga_news() -> dict:
         c_tomes = col("tome", "par") or col("nombre", "tome") or col("tome") or col("volume")
         c_ed = col("editeur") or col("publisher")
         c_url = col("url")
+        c_aut = [c for c in colonnes if any(m in sans_accents(c or "").lower() for m in ("artist", "writer", "auteur", "dessin", "scenar"))]
         dbg(f"Manga-News ({_MN_DATE}) : {len(lignes)} séries, colonnes {colonnes} ; titre={c_titre}, tomes={c_tomes}, éditeur={c_ed}")
         for r in lignes:
             t = (r.get(c_titre) or "").strip()
             m = re.search(r"\d+", r.get(c_tomes) or "")
             if not t or not m or int(m.group(0)) == 0:
                 continue
-            _MN.setdefault(cle(t), []).append({"tomes": int(m.group(0)), "editeur": (r.get(c_ed) or "").strip(), "url": (r.get(c_url) or "").strip()})
+            _MN.setdefault(cle(t), []).append({"tomes": int(m.group(0)), "editeur": (r.get(c_ed) or "").strip(), "url": (r.get(c_url) or "").strip(),
+                                               "titre": t, "auteurs": " ; ".join((r.get(c) or "") for c in c_aut)})
+        for liste in _MN.values():
+            for c in liste:
+                c["_ed"] = norm_editeur(c["editeur"])
+                c["_aut"] = jetons_nom(c["auteurs"])
     except Exception as ex:
         print(f"::warning title=Manga-News::Fichier data.gouv.fr illisible : {str(ex)[:200]}", flush=True)
     return _MN
 
 
-def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False) -> dict | None:
+def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: dict | None = None,
+                     auteur: str = "") -> dict | None:
     idx = manga_news()
-    cands = []
+    eo = norm_editeur(editeur_orphee)
+    ja = jetons_nom(auteur)
+    meme_ed = lambda c: bool(eo) and c.get("_ed", norm_editeur(c["editeur"])) == eo
+    meme_aut = lambda c: bool(ja) and bool(ja & c.get("_aut", set()))
+    cands, approx = [], False
     for t in titres_de(serie):
         cands += idx.get(cle(t), [])
+    if not cands and al and not al.get("rejete") and not al.get("auteurDifferent"):
+        # titre anglais ou japonais d'AniList (fréquent pour les webtoons), chez le même éditeur ou du même auteur
+        for t in {al.get("titre") or "", al.get("titreVO") or ""} - {""}:
+            cands += [c for c in idx.get(cle(t), []) if meme_ed(c) or meme_aut(c)]
+    if not cands and eo and ja:
+        # titre un peu différent (sous-titre, ponctuation) : même éditeur, même auteur et titres proches
+        import difflib
+        ks = [cle(t) for t in titres_de(serie) if len(cle(t)) >= 4]
+        for k2, liste in idx.items():
+            ok = [c for c in liste if meme_ed(c) and meme_aut(c)]
+            if ok and any(k2.startswith(k) or k.startswith(k2) or difflib.SequenceMatcher(None, k, k2).ratio() >= 0.75 for k in ks):
+                cands += ok
+        approx = bool(cands)
     if debug:
-        dbg(f"    Manga-News : {cands[:6]}")
+        dbg(f"    Manga-News : {[{k: v for k, v in c.items() if k[0] != '_'} for c in cands[:6]]}{' (titre approché)' if approx else ''}")
     if not cands:
         return None
-    eo = norm_editeur(editeur_orphee)
-    memes = [c for c in cands if eo and norm_editeur(c["editeur"]) == eo]
+    memes = [c for c in cands if meme_ed(c)]
     c = max(memes or cands, key=lambda c: c["tomes"])
-    return {"tomes": c["tomes"], "editeur": c["editeur"], "url": c["url"], "date": _MN_DATE, **({} if memes or not eo else {"editeurDifferent": True})}
+    return {"tomes": c["tomes"], "editeur": c["editeur"], "url": c["url"], "date": _MN_DATE,
+            **({"titre": c["titre"], "approche": True} if approx else {}),
+            **({} if memes or not eo else {"editeurDifferent": True})}
 
 RE_VF = re.compile(r"\bVF\s*:\s*(\d+)\s*\(([^)]{3,40})\)", re.I)
 RE_VO = re.compile(r"\bVO\s*:\s*(\d+)\s*\(([^)]{3,40})\)", re.I)
@@ -727,7 +752,7 @@ def main() -> int:
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
         if args.manga_news_seulement:
             if s.get("type") != "One shot":
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
                 lire_fiche(s, e, args.forcer, debug)
                 cache[s["id"]] = e
                 faites += 1
@@ -738,14 +763,14 @@ def main() -> int:
             # Revérifie les liens AniList trouvés automatiquement, sans toucher à la BnF ni aux couvertures
             if lien or not auteur or s.get("type") == "One shot":
                 if s.get("type") != "One shot":
-                    e["mangaNews"] = tomes_manga_news(s, editeur, debug)
+                    e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
                     lire_fiche(s, e, False, debug)
                     cache[s["id"]] = e
                 continue
             print(f"- {s['titre']}", flush=True)
             try:
                 e["anilist"] = chercher_anilist(s, auteur, debug)
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
                 lire_fiche(s, e, False, debug)
                 e["anilistVerifie"] = AUJOURDHUI.isoformat()
                 cache[s["id"]] = e
@@ -787,7 +812,7 @@ def main() -> int:
                 vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
                 e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
                 e["bnfVerifie"] = AUJOURDHUI.isoformat()
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
                 lire_fiche(s, e, args.forcer, debug)
             # Couverture française, une seule fois (puis tous les 6 mois si elle manque)
             if not debug and (args.forcer or not e.get("couvFR") and age_jours(e.get("couvEssai")) > 180

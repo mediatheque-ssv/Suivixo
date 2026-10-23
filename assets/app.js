@@ -408,7 +408,7 @@ function phraseStatut(v) {
   }
   if (info.parus !== null) {
     const fiche = v.enr?.mangaNewsFiche;
-    const dateSure = info.sourceParus === "bnf" || (info.sourceParus === "mangaNews" && fiche?.vfDernier === info.parus);
+    const dateSure = info.sourceParus === "bnf" || (info.sourceParus === "mangaNews" && fiche && (fiche.vfDernier ?? fiche.vf) === info.parus);
     const date = dateSure && info.dateDernier ? `, le dernier sorti ${String(info.dateDernier).length > 7 ? `le ${jourMois(info.dateDernier)}` : `en ${moisFr(info.dateDernier)}`}` : "";
     const venir = info.aVenir && /en cours/i.test(info.etat || "") && !info.doute ? `, ${info.aVenir} encore à venir` : "";
     const fin = info.sourceEtat === "mangaNews" && info.etat === "Terminée" ? " : l'édition française est terminée"
