@@ -1,0 +1,13 @@
+{
+  "name": "suivixo",
+  "private": true,
+  "type": "module",
+  "description": "Suivi des séries mangas du réseau des médiathèques",
+  "scripts": {
+    "seed": "node scripts/seed_from_excel.mjs",
+    "test": "node scripts/test_core.mjs"
+  },
+  "devDependencies": {
+    "xlsx": "0.18.5"
+  }
+}

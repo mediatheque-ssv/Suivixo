@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suivixo · Suivi des séries mangas</title>
+  <meta name="description" content="Suivi des séries mangas du réseau des médiathèques : tomes présents, manquants, à acheter.">
+  <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- motifs partagés par toutes les tranches -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <pattern id="trame" width="3" height="3" patternUnits="userSpaceOnUse">
+        <rect width="3" height="3" class="trame-fond"/>
+        <circle cx="1.5" cy="1.5" r="0.85" class="trame-point"/>
+      </pattern>
+    </defs>
+  </svg>
+
+  <header class="entete">
+    <div class="entete-ligne">
+      <a class="marque" href="#series" aria-label="Suivixo, accueil">
+        <svg class="marque-logo" viewBox="0 0 22 24" aria-hidden="true">
+          <rect x="1" y="2" width="5" height="20" rx="1" class="t-ici"/>
+          <rect x="8.5" y="2" width="5" height="20" rx="1" fill="url(#trame)" class="t-reseau"/>
+          <rect x="16" y="2" width="5" height="20" rx="1" class="t-manque"/>
+        </svg>
+        <span>Suivixo</span>
+      </a>
+      <label class="choix-bib">
+        <span>Ma médiathèque</span>
+        <select id="bib"></select>
+      </label>
+      <div class="entete-droite">
+        <span id="infos-donnees" class="discret"></span>
+        <button id="btn-publier" class="btn btn-fort" hidden></button>
+        <button id="btn-reglages" class="btn btn-icone" aria-label="Réglages" title="Réglages">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8.1-2.3.1-1.2-.1-1.2 2-1.6-2-3.4-2.4 1a8 8 0 0 0-2-1.2L15.3 3h-4l-.4 2.6a8 8 0 0 0-2 1.2l-2.4-1-2 3.4 2 1.6-.1 1.2.1 1.2-2 1.6 2 3.4 2.4-1a8 8 0 0 0 2 1.2l.4 2.6h4l.4-2.6a8 8 0 0 0 2-1.2l2.4 1 2-3.4-2-1.6Z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="onglets" aria-label="Sections">
+      <a href="#series" data-vue="series">Séries</a>
+      <a href="#acheter" data-vue="acheter">À acheter</a>
+      <a href="#controles" data-vue="controles">Contrôles <span class="pastille" id="nb-controles"></span></a>
+      <a href="#import" data-vue="import">Importer</a>
+    </nav>
+  </header>
+
+  <div id="bandeau" class="bandeau" hidden></div>
+
+  <main id="vue" tabindex="-1">
+    <p class="chargement">Chargement des séries…</p>
+  </main>
+
+  <aside id="fiche" class="fiche" hidden aria-labelledby="fiche-titre">
+    <div class="fiche-fond" data-fermer></div>
+    <div class="fiche-panneau" role="dialog" aria-modal="true">
+      <button class="btn btn-icone fiche-fermer" data-fermer aria-label="Fermer la fiche">✕</button>
+      <div id="fiche-contenu"></div>
+    </div>
+  </aside>
+
+  <dialog id="dlg-reglages" class="dialogue">
+    <form method="dialog">
+      <h2>Réglages</h2>
+      <h3>Publier les modifications</h3>
+      <p>Pour enregistrer les modifications dans le dépôt GitHub, Suivixo a besoin d'une clé d'accès. Elle reste dans ce navigateur. Sans clé, tu peux tout consulter et importer, mais rien n'est publié.</p>
+      <details>
+        <summary>Créer une clé d'accès</summary>
+        <ol>
+          <li>Connecte-toi à GitHub avec le compte <strong>mediatheque-ssv</strong>.</li>
+          <li>Ouvre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">la création de clé « fine-grained »</a>.</li>
+          <li>Nom : « Suivixo », expiration : 1 an. Accès : <em>Only select repositories</em> → <strong>suivixo</strong>.</li>
+          <li>Permissions du dépôt : <strong>Contents → Read and write</strong>. Rien d'autre.</li>
+          <li>Génère la clé, copie-la et colle-la ci-dessous.</li>
+        </ol>
+      </details>
+      <label class="champ">
+        <span>Clé d'accès GitHub</span>
+        <input id="in-token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+      </label>
+      <label class="champ">
+        <span>Dépôt</span>
+        <input id="in-depot" type="text" spellcheck="false">
+      </label>
+      <h3>Statistiques de prêt</h3>
+      <p id="txt-stats"></p>
+      <div class="actions">
+        <button type="button" id="btn-oublier-stats" class="btn">Effacer les stats de ce navigateur</button>
+        <span class="espace"></span>
+        <button value="annuler" class="btn">Annuler</button>
+        <button value="ok" id="btn-reglages-ok" class="btn btn-fort">Enregistrer</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="assets/vendor/xlsx.full.min.js" defer></script>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

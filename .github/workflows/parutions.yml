@@ -1,0 +1,63 @@
+name: Vérifier les parutions
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # chaque lundi vers 5 h (heure de Paris)
+  workflow_dispatch:
+    inputs:
+      serie:
+        description: "Tester une seule série (identifiant, ex. atelier-des-sorciers). Rien n'est enregistré."
+        required: false
+        default: ""
+      limite:
+        description: "Nombre maximum de séries à vérifier (vide = toutes)"
+        required: false
+        default: ""
+      forcer:
+        description: "Tout revérifier, même les séries vues récemment"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: parutions
+  cancel-in-progress: false
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Interroger AniList et la BnF
+        env:
+          SERIE: ${{ inputs.serie }}
+          LIMITE: ${{ inputs.limite }}
+          FORCER: ${{ inputs.forcer }}
+        run: |
+          ARGS="--max-minutes 120"
+          [ -n "$SERIE" ] && ARGS="$ARGS --serie $SERIE"
+          [ -n "$LIMITE" ] && ARGS="$ARGS --limite $LIMITE"
+          [ "$FORCER" = "true" ] && ARGS="$ARGS --forcer"
+          python scripts/enrich.py $ARGS
+
+      - name: Enregistrer les résultats
+        if: ${{ inputs.serie == '' }}
+        run: |
+          git config user.name "suivixo-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/enrich.json
+          if git diff --cached --quiet; then echo "Rien de nouveau."; exit 0; fi
+          git commit -m "Vérification des parutions (AniList, BnF)"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 5
+          done
+          exit 1

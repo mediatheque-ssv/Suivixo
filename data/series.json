@@ -1,0 +1,8292 @@
+{
+ "version": 1,
+ "series": [
+  {
+   "id": "cooking-karine",
+   "titre": "#Cooking Karine",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "anima",
+   "titre": "+ Anima",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Anima"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "10th-a-couper-le-souffle",
+   "titre": "10th : à couper le souffle",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "20th-century-boys",
+   "titre": "20th Century boys",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/20th-century-boys",
+    "bedetheque": "serie-4518-BD-20th-Century-Boys.html"
+   },
+   "ancien": {
+    "total": 22,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "300-jours-avec-toi",
+   "titre": "300 jours avec toi",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "5-minutes-forward",
+   "titre": "5 minutes forward",
+   "genre": "Shonen",
+   "public": "Ado",
+   "age": "12+ (public averti, violence modérée)",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/5-Minutes-Forward",
+    "bedetheque": "serie-70126-BD-5-minutes-forward.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "7-shakespeares",
+   "titre": "7 Shakespeares",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Seven-Shakespeares",
+    "bedetheque": "serie-33344-BD-7-Shakespeares.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Abandonnée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "a-l-image-de-mona-lisa",
+   "titre": "A l'image de Mona Lisa...",
+   "public": "Ado",
+   "age": "13+",
+   "type": "Série",
+   "ancien": {
+    "total": 6,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "a-sign-of-affection",
+   "titre": "A sign of affection",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "a-silent-voice",
+   "titre": "A silent voice",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/A-Silent-Voice",
+    "bedetheque": "serie-46085-BD-A-Silent-Voice.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "ad-astra-scipion-l-africain-hannibal-barca",
+   "titre": "Ad Astra : Scipion l'Africain & Hannibal Barca",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ad-Astra-Scipion-lafricain-Hanibal-Barca",
+    "bedetheque": "serie-42405-BD-Ad-Astra.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "afterschool-charisma",
+   "titre": "Afterschool Charisma",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/After-school-Charisma",
+    "bedetheque": "serie-29783-BD-Afterschool-Charisma.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "aishite-knight",
+   "titre": "Aishite Knight",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Aishite-Night",
+    "bedetheque": "serie-32835-BD-Aishite-Knight-Lucile-amour-et-rock-n-roll.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "akira",
+   "titre": "Akira",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Akira",
+    "bedetheque": "serie-6183-BD-Akira-Glenat-en-NB.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "alice-au-royaume-de-trefle",
+   "titre": "Alice au royaume de Trefle",
+   "genre": "Josei",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Alice-au-royaume-de-Trefle",
+    "bedetheque": "serie-39784-BD-Alice-au-royaume-de-Trefle-Cheshire-Cat-Waltz.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "alice-in-borderland",
+   "titre": "Alice in Borderland",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Alice-in-borderland",
+    "bedetheque": "serie-39001-BD-Alice-in-Borderland.html"
+   },
+   "ancien": {
+    "total": 18,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "all-out",
+   "titre": "All out !!",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "ancien": {
+    "total": 4,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "all-you-need-is-kill",
+   "titre": "All you need is kill",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/All-you-need-is-kill",
+    "bedetheque": "serie-43478-BD-All-You-Need-Is-Kill.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "alpi-the-soul-sender",
+   "titre": "Alpi the soul sender",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Alpi-the-Soul-Sender",
+    "bedetheque": "serie-70808-BD-Alpi-the-Soul-Sender.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "amanchu",
+   "titre": "Amanchu !",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Amanchu",
+    "bedetheque": "serie-27307-BD-Amanchu.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "amatsuki",
+   "titre": "Amatsuki",
+   "genre": "Josei",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Amatsuki",
+    "bedetheque": "serie-27364-BD-Amatsuki.html"
+   },
+   "ancien": {
+    "total": 24,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "american-gods",
+   "titre": "American gods",
+   "genre": "Comics",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-63178-BD-American-Gods.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "amour-sucre",
+   "titre": "Amour sucre",
+   "genre": "Global-Manga",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Amour-sucre",
+    "bedetheque": "serie-44183-BD-Amour-sucre.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "amulet",
+   "titre": "Amulet",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-19329-BD-Amulet.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "En cours",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "animal-crossing-new-horizons-le-journal-de-l-ile",
+   "titre": "Animal Crossing : New Horizons - Le journal de l'île",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "age": "8",
+   "type": "Série"
+  },
+  {
+   "id": "animal-crossing-new-horizons-l-ile-de-la-detente",
+   "titre": "Animal Crossing New Horizons : L'île de la détente",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "animal-kingdom",
+   "titre": "Animal Kingdom",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Animal-kingdom",
+    "bedetheque": "serie-41825-BD-Animal-Kingdom.html"
+   },
+   "ancien": {
+    "total": 14,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "ao-ashi-playmaker",
+   "titre": "Ao Ashi playmaker",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "appare-ranman",
+   "titre": "Appare Ranman!",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Appare-ranman"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "apres-la-pluie",
+   "titre": "Après la pluie",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Apres-la-pluie",
+    "bedetheque": "serie-56295-BD-Apres-la-pluie.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "aria-the-masterpiece",
+   "titre": "Aria The Masterpiece",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "aromantic-love-story",
+   "titre": "Aromantic (love) story",
+   "genre": "Shojo",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Aromantic-Love-Story",
+    "bedetheque": "serie-61333-BD-Aromantic-Love-Story.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "asadora-feuilleton-manga",
+   "titre": "Asadora ! : feuilleton manga",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Asadora",
+    "bedetheque": "serie-68401-BD-Asadora.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "asadora",
+   "titre": "Asadora!",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Asadora"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "ascension",
+   "titre": "Ascension",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ascension",
+    "bedetheque": "serie-25238-BD-Ascension-Sakamoto.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "ashita-no-joe",
+   "titre": "Ashita no Joe",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ashita-no-Joe",
+    "bedetheque": "serie-23036-BD-Ashita-no-Joe.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "assassination-classroom",
+   "titre": "Assassination classroom",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Assassination-classroom",
+    "bedetheque": "serie-40190-BD-Assassination-classroom.html"
+   },
+   "ancien": {
+    "total": 21,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "assassination-classroom-2",
+   "titre": "Assassination classroom 2",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "astra-lost-in-space",
+   "titre": "Astra : lost in space",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Astra-Lost-In-Space",
+    "bedetheque": "serie-65866-BD-Astra-Lost-in-Space.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "astro-boy",
+   "titre": "Astro Boy",
+   "genre": "Kodomo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Astro-boy-Kana",
+    "bedetheque": "serie-37011-BD-Astro-Boy-Kana.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "au-coeur-de-fukushima",
+   "titre": "Au coeur de Fukushima",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Au-Coeur-de-Fukushima",
+    "bedetheque": "serie-51572-BD-Au-coeur-de-Fukushima.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "ayakashi",
+   "titre": "AYAKASHI",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ayakashi-Legendes-des-5-royaumes",
+    "bedetheque": "serie-53180-BD-Ayakashi-Legendes-des-Cinq-Royaumes.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "ayako",
+   "titre": "Ayako",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ayako",
+    "bedetheque": "serie-7361-BD-Ayako.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "ayanashi",
+   "titre": "Ayanashi",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ayanashi",
+    "bedetheque": "serie-65451-BD-Ayanashi.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "ayashimon",
+   "titre": "Ayashimon",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "azumanga-daioh",
+   "titre": "Azumanga Daioh",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Azumanga-Daioh"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2006
+   }
+  },
+  {
+   "id": "b-side",
+   "titre": "B-Side",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "age": "14+",
+   "type": "Série",
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "badducks",
+   "titre": "Badducks",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Badducks"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2024
+   }
+  },
+  {
+   "id": "bakuman",
+   "titre": "Bakuman",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bakuman",
+    "bedetheque": "serie-25014-BD-Bakuman.html"
+   },
+   "ancien": {
+    "total": 20,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "bamboo-blade",
+   "titre": "Bamboo blade",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bamboo-Blade2",
+    "bedetheque": "serie-21076-BD-Bamboo-blade.html"
+   },
+   "ancien": {
+    "total": 14,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "banana-sioule",
+   "titre": "Banana sioule",
+   "genre": "Global-Manga",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Banana-Sioule",
+    "bedetheque": "serie-77351-BD-Banana-Sioule.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "barakamon",
+   "titre": "Barakamon",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Barakamon",
+    "bedetheque": "serie-37993-BD-Barakamon.html"
+   },
+   "ancien": {
+    "total": 18,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "batman",
+   "titre": "Batman",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "batman-gotham-aventures",
+   "titre": "Batman Gotham aventures",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "batman-le-chevalier-noir-integrale",
+   "titre": "Batman, le chevalier noir : integrale",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "battle-game-in-5-seconds",
+   "titre": "Battle game in 5 seconds",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Battle-Game-in-5-Seconds",
+    "bedetheque": "serie-62842-BD-Battle-Game-in-5-seconds.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "battling-boy",
+   "titre": "Battling Boy",
+   "genre": "Comics",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-40191-BD-Battling-Boy.html"
+   }
+  },
+  {
+   "id": "baymax",
+   "titre": "Baymax",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Baymax",
+    "bedetheque": "serie-45867-BD-Baymax.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "bayou-bastardise",
+   "titre": "Bayou bastardise",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-48485-BD-Bayou-Bastardise.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "bd-entre-ciel-et-terre",
+   "titre": "BD Entre ciel et terre",
+   "genre": "Manhwa",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Entre-ciel-et-terre",
+    "bedetheque": "serie-42636-BD-Entre-ciel-et-terre.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "bd-northlanders",
+   "titre": "BD Northlanders",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-42395-BD-Northlanders-Urban-comics.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "beastars",
+   "titre": "Beastars",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Beastars",
+    "bedetheque": "serie-64333-BD-Beastars.html"
+   },
+   "ancien": {
+    "total": 22,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "beck",
+   "titre": "Beck",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Beck",
+    "bedetheque": "serie-9634-BD-Beck.html"
+   },
+   "ancien": {
+    "total": 34,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "beet-the-vandel-buster",
+   "titre": "Beet : the Vandel Buster",
+   "alias": [
+    "Beet : The Vandel Buster"
+   ],
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Beet-the-Vandel-Buster",
+    "bedetheque": "serie-14076-BD-Beet-the-Vandel-Buster.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "En cours",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "berry-dynamite",
+   "titre": "Berry Dynamite",
+   "genre": "Shojo",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Berry-Dynamite",
+    "bedetheque": "serie-28209-BD-Berry-Dynamite.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "berserk",
+   "titre": "Berserk",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "16+ (public averti, nudité + violence)",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Berserk-2Ed",
+    "bedetheque": "serie-5831-BD-Berserk.html"
+   },
+   "ancien": {
+    "total": 41,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "beyblade-metal-fusion",
+   "titre": "Beyblade metal fusion",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "age": "8+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Beyblade-Metal-Fusion",
+    "bedetheque": "serie-27706-BD-Beyblade-Metal.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "beyond-the-clouds-la-fillette-tombee-du-ciel",
+   "titre": "Beyond the clouds : la fillette tombée du ciel",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Beyond-the-Clouds",
+    "bedetheque": "serie-61769-BD-Beyond-the-Clouds-La-Fillette-tombee-du-ciel.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "bienvenue-au-club",
+   "titre": "Bienvenue au club",
+   "genre": "Shojo",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bienvenue-au-club",
+    "bedetheque": "serie-42821-BD-Bienvenue-au-club.html"
+   },
+   "ancien": {
+    "total": 16,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "billy-bat",
+   "titre": "Billy Bat",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Billy-Bat",
+    "bedetheque": "serie-32790-BD-Billy-Bat.html"
+   },
+   "ancien": {
+    "total": 20,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "bitter-root",
+   "titre": "Bitter root",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "black-bard-le-menestrel",
+   "titre": "Black Bard : le menestrel",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Black-Bard",
+    "bedetheque": "serie-40305-BD-Black-Bard-Le-Menestrel.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "black-butler",
+   "titre": "Black Butler",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Black-Butler",
+    "bedetheque": "serie-22144-BD-Black-Butler.html"
+   },
+   "ancien": {
+    "total": 32,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "black-clover",
+   "titre": "Black Clover",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Black-Clover",
+    "bedetheque": "serie-52948-BD-Black-Clover.html"
+   },
+   "ancien": {
+    "total": 32,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "black-shadow",
+   "titre": "Black shadow",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Black-Shadow"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "black-torch",
+   "titre": "Black torch",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Black-Torch",
+    "bedetheque": "serie-59822-BD-Black-Torch.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "bleach",
+   "titre": "Bleach",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bleach",
+    "bedetheque": "serie-7624-BD-Bleach.html"
+   },
+   "ancien": {
+    "total": 74,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "blissful-land",
+   "titre": "Blissful Land",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "blitz",
+   "titre": "Blitz",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "blood-alone",
+   "titre": "Blood Alone",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Blood-alone",
+    "bedetheque": "serie-14334-BD-Blood-alone.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "blood-lad",
+   "titre": "Blood lad",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Blood-Lad",
+    "bedetheque": "serie-34115-BD-Blood-Lad.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "bloody-cross",
+   "titre": "Bloody Cross",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bloody-Cross",
+    "bedetheque": "serie-34103-BD-Bloody-Cross.html"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "bloody-prince",
+   "titre": "Bloody Prince",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bloody-prince",
+    "bedetheque": "serie-40306-BD-Bloody-prince.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "bloom-into-you",
+   "titre": "Bloom into you",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "blue-box",
+   "titre": "Blue box",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "blue-lock",
+   "titre": "Blue lock",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "blue-period",
+   "titre": "Blue period",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "blue-spring-ride",
+   "titre": "Blue Spring Ride",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Blue-spring-ride2",
+    "bedetheque": "serie-40377-BD-Blue-Spring-Ride.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Terminée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "blue-summer",
+   "titre": "Blue summer",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 2,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "bokko-stratege",
+   "titre": "Bokko : stratège",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bonne-nuit-punpun",
+   "titre": "Bonne nuit Punpun",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bonne-nuit-Punpun",
+    "bedetheque": "serie-31876-BD-Bonne-nuit-Punpun.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "boruto-naruto-next-generations",
+   "titre": "Boruto : Naruto next generations",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Boruto-Naruto-Next-Generations",
+    "bedetheque": "serie-55668-BD-Boruto-Naruto-Next-Generations.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "box-qu-y-a-t-il-dans-la-boite",
+   "titre": "Box : qu'y a-t-il dans la boîte ?",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bride-stories",
+   "titre": "Bride stories",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bride-stories",
+    "bedetheque": "serie-28916-BD-Bride-Stories.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "brigade-d-outre-tombe",
+   "titre": "Brigade d'outre-tombe",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Brigade-doutre-tombe",
+    "bedetheque": "serie-74497-BD-Brigade-d-outre-tombe.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "brume",
+   "titre": "Brume",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "buster-keel",
+   "titre": "Buster Keel !",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Buster-Keel",
+    "bedetheque": "serie-34104-BD-Buster-Keel.html"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "capitaine-albator",
+   "titre": "Capitaine Albator",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Capitaine-Albator-Dimension-Voyage",
+    "bedetheque": "serie-51430-BD-Capitaine-Albator-Dimension-voyage.html"
+   },
+   "ancien": {
+    "annee": 2020
+   }
+  },
+  {
+   "id": "captain-tsubasa",
+   "titre": "Captain Tsubasa",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "captain-tsubasa-olive-et-tom",
+   "titre": "Captain Tsubasa : Olive et Tom",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Captain-Tsubasa-Glenat",
+    "bedetheque": "serie-7626-BD-Captain-Tsubasa-Olive-Tom.html"
+   },
+   "ancien": {
+    "total": 37,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "captain-tsubasa-world-youth",
+   "titre": "Captain Tsubasa world youth",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Capitain-Tsubasa-World-youth",
+    "bedetheque": "serie-6295-BD-Captain-Tsubasa-Olive-Tom-World-Youth.html"
+   },
+   "ancien": {
+    "total": 18,
+    "etat": "Terminée",
+    "annee": 2004
+   }
+  },
+  {
+   "id": "card-captor-sakura",
+   "titre": "Card Captor Sakura",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "age": "10-12",
+   "type": "Série",
+   "ancien": {
+    "total": 12,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "card-captor-sakura-clear-card-arc",
+   "titre": "Card Captor Sakura : Clear Card Arc",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Card-Captor-Sakura-Clear-Card-Arc",
+    "bedetheque": "serie-59480-BD-Card-Captor-Sakura-Clear-Card-Arc.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "cat-street",
+   "titre": "Cat street",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Cat-street",
+    "bedetheque": "serie-25387-BD-Cat-Street.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "cat-s-ai",
+   "titre": "Cat's Ai",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Cats-Ai",
+    "bedetheque": "serie-39093-BD-Cat-s-Ai.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "cats",
+   "titre": "Cats",
+   "genre": "Manhwa",
+   "public": "Jeunesse",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Cats",
+    "bedetheque": "serie-14912-BD-Cats.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2008
+   }
+  },
+  {
+   "id": "chacun-ses-gouts",
+   "titre": "Chacun ses goûts",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "chainsaw-man",
+   "titre": "Chainsaw Man",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "age": "16+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chainsaw-Man"
+   },
+   "ancien": {
+    "total": 19,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "chasse-au-cadavre",
+   "titre": "Chasse au cadavre",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "chat-de-yakuza",
+   "titre": "Chat de yakuza",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chat-malgre-moi",
+   "titre": "Chat malgré moi",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chi-une-vie-de-chat",
+   "titre": "Chi, une vie de chat",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/CHI-Une-vie-de-chat",
+    "bedetheque": "serie-47104-BD-Chi-Une-vie-de-chat-grand-format.html"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "chibi-vampire-karin",
+   "titre": "Chibi vampire : Karin",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Karin-Chibi-Vampire",
+    "bedetheque": "serie-22994-BD-Chibi-vampire-Karin.html"
+   },
+   "ancien": {
+    "total": 14,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "chiisakobe",
+   "titre": "Chiisakobe",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chiisakobee",
+    "bedetheque": "serie-49170-BD-Chiisakobe.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "chobits",
+   "titre": "Chobits",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "chocola-vanilla-sugar-sugar-rune",
+   "titre": "Chocola & Vanilla : Sugar Sugar Rune",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chocola-et-Vanilla",
+    "bedetheque": "serie-15154-BD-Chocola-Vanilla-Sugar-Sugar-Rune.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2008
+   }
+  },
+  {
+   "id": "chocolate-cosmos",
+   "titre": "Chocolate cosmos",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chocolate-Cosmos",
+    "bedetheque": "serie-27100-BD-Chocolate-Cosmos.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "chocotan",
+   "titre": "Chocotan",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "age": "10-12",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chocotan",
+    "bedetheque": "serie-59525-BD-Chocotan.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "choubi-choubi-mon-chat-pour-la-vie",
+   "titre": "Choubi-Choubi, mon chat pour la vie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "choubi-choubi-mon-chat-tout-petit",
+   "titre": "Choubi-Choubi, mon chat tout petit",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chroniques-de-la-mariee-de-bretagne",
+   "titre": "Chroniques de la mariée de Bretagne",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "chronoctis-express",
+   "titre": "Chronoctis express",
+   "genre": "Global-Manga",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chronoctis-Express",
+    "bedetheque": "serie-61190-BD-Chronoctis-express.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "cicatrices",
+   "titre": "Cicatrices",
+   "genre": "Global-Manga",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Cicatrices-Vega"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "city-hall",
+   "titre": "City Hall",
+   "genre": "Global-Manga",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/City-Hall",
+    "bedetheque": "serie-34229-BD-City-Hall.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "classroom-of-the-elite",
+   "titre": "Classroom of the elite",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 1,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "coco-l-ile-magique",
+   "titre": "Coco, l'île magique",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "code-breaker",
+   "titre": "Code breaker",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Code-Breaker",
+    "bedetheque": "serie-26937-BD-Code-Breaker.html"
+   },
+   "ancien": {
+    "total": 26,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "colere-nucleaire",
+   "titre": "Colère nucleaire",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Colere-nucleaire",
+    "bedetheque": "serie-49902-BD-Colere-nucleaire.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "colocataires-a-leur-maniere",
+   "titre": "Colocataires à leur manière",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 9,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "comme-les-autres",
+   "titre": "Comme les autres",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "couleur-de-peau-miel",
+   "titre": "Couleur de peau : miel",
+   "genre": "Autre Manga",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Couleur-de-peau-miel",
+    "bedetheque": "serie-16320-BD-Couleur-de-peau-miel.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "country-diary",
+   "titre": "Country diary",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "crazy-zoo",
+   "titre": "Crazy Zoo",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Crazy-zoo",
+    "bedetheque": "serie-44009-BD-Crazy-Zoo.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "creatures-fantastiques",
+   "titre": "Créatures fantastiques",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "cross-game",
+   "titre": "Cross game",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Cross-game",
+    "bedetheque": "serie-15072-BD-Cross-Game.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "d-gray-man",
+   "titre": "D.Gray-Man",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/DGray-man",
+    "bedetheque": "serie-14013-BD-DGray-Man.html"
+   },
+   "ancien": {
+    "total": 27,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "daisy",
+   "titre": "Daisy",
+   "genre": "Shojo",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Daisy",
+    "bedetheque": "serie-43793-BD-Daisy-Lyceennes-a-Fukushima.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "dandadan",
+   "titre": "Dandadan",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 11,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "dans-l-ombre-de-creamy",
+   "titre": "Dans l'ombre de Creamy",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "age": "10-14",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Dans-lombre-de-Creamy",
+    "bedetheque": "serie-74502-BD-Dans-l-ombre-de-Creamy.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "dark-knights-of-steel",
+   "titre": "Dark knights of steel",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "dark-souls-redemption",
+   "titre": "Dark Souls Redemption",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "darwin-s-game",
+   "titre": "Darwin's game",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Darwins-Game",
+    "bedetheque": "serie-44387-BD-Darwin-s-Game.html"
+   },
+   "ancien": {
+    "total": 24,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "darwin-s-incident",
+   "titre": "Darwin's incident",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dc-superhero-girls",
+   "titre": "DC superhero girls",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "death-note",
+   "titre": "Death note",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Death-note",
+    "bedetheque": "serie-14704-BD-Death-Note.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "death-note-black-edition",
+   "titre": "Death note - black edition",
+   "genre": "Shonen",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-24902-BD-Death-note-Black-Edition.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "deep-3",
+   "titre": "Deep 3",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "deep-sea-aquarium-magmell",
+   "titre": "Deep Sea Aquarium MagMell",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "defense-devil",
+   "titre": "Défense devil",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Defense-Devil",
+    "bedetheque": "serie-35723-BD-Defense-Devil.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "demande-a-modigliani",
+   "titre": "Demande à Modigliani !",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "demon-slayer",
+   "titre": "Demon Slayer",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "demon-slayer-kimetsu-no-yaiba",
+   "titre": "Demon slayer : Kimetsu no yaiba",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "demon-tune",
+   "titre": "Demon tune",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Demon-Tune",
+    "bedetheque": "serie-70794-BD-Demon-tune.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "demons-star",
+   "titre": "Demons star",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Demon-Star"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2023
+   }
+  },
+  {
+   "id": "desert-9",
+   "titre": "Desert 9",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "detective-conan",
+   "titre": "Détective Conan",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Detective-Conan",
+    "bedetheque": "serie-5038-BD-Detective-Conan.html"
+   },
+   "ancien": {
+    "total": 100,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "detonations",
+   "titre": "Détonations",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dmz-integrale",
+   "titre": "DMZ : integrale",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-38963-BD-DMZ-Urban-Comics.html"
+   }
+  },
+  {
+   "id": "dofus",
+   "titre": "Dofus",
+   "genre": "Global-Manga",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Dofus",
+    "bedetheque": "serie-13943-BD-Dofus.html"
+   },
+   "ancien": {
+    "total": 28,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "dog-signal",
+   "titre": "Dog Signal",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Dog-Signal"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "doraemon",
+   "titre": "Doraemon",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "age": "8",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Doraemon"
+   }
+  },
+  {
+   "id": "doraemon-le-chat-venu-du-futur",
+   "titre": "Doraemon : le chat venu du futur",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "age": "8",
+   "type": "Série",
+   "ancien": {
+    "total": 45,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "doubt",
+   "titre": "Doubt",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Doubt2",
+    "bedetheque": "serie-21366-BD-Doubt.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "dr-stone",
+   "titre": "Dr Stone",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Dr-Stone",
+    "bedetheque": "serie-60578-BD-Dr-Stone.html"
+   },
+   "ancien": {
+    "total": 21,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "dragon-ball-sd",
+   "titre": "Dragon ball SD",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Dragon-Ball-SD",
+    "bedetheque": "serie-49613-BD-Dragon-Ball-SD.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "dragon-ball-super",
+   "titre": "Dragon ball super",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Dragon-Ball-Super",
+    "bedetheque": "serie-56200-BD-Dragon-Ball-Super.html"
+   }
+  },
+  {
+   "id": "dragon-quest-la-quete-de-dai",
+   "titre": "Dragon Quest : La quete de Dai",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Dragon-quest-La-quete-de-Dai",
+    "bedetheque": "serie-14769-BD-Dragon-Quest-La-quete-de-Dai.html"
+   },
+   "ancien": {
+    "total": 37,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "dreamaker",
+   "titre": "DreaMaker",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "dreamland",
+   "titre": "Dreamland",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Dreamland",
+    "bedetheque": "serie-13065-BD-DreamLand.html"
+   },
+   "ancien": {
+    "total": 21,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "droners-tales-of-nui",
+   "titre": "Droners : tales of Nuï",
+   "public": "Jeunesse",
+   "age": "10",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Droners-Tales-of-nui"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "du-mouvement-de-la-terre",
+   "titre": "Du mouvement de la Terre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "durarara",
+   "titre": "Durarara !!",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 7,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "eclat-s-d-ame",
+   "titre": "Eclat(s) d'âme",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Eclats-dame"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "edens-zero",
+   "titre": "Edens Zero",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Edens-Zero",
+    "bedetheque": "serie-63187-BD-Edens-Zero.html"
+   },
+   "ancien": {
+    "total": 21,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "elden-ring-le-chemin-vers-l-arbre-monde",
+   "titre": "Elden Ring : Le chemin vers l'Arbre-Monde",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "emma",
+   "titre": "Emma",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Emma",
+    "bedetheque": "serie-14981-BD-Emma-Mori-Kurokawa.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Abandonnée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "en-proie-au-silence",
+   "titre": "En proie au silence",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+ (public averti, sexe)",
+   "type": "Série",
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "en-scene",
+   "titre": "En scène !",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/En-scene",
+    "bedetheque": "serie-53944-BD-En-Scene-Cuvie.html"
+   }
+  },
+  {
+   "id": "entre-deux",
+   "titre": "Entre deux",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "entre-nos-mains",
+   "titre": "Entre nos mains",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "erased",
+   "titre": "Erased",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Erased",
+    "bedetheque": "serie-43707-BD-Erased.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "escale-a-yokohama",
+   "titre": "Escale a Yokohama",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Escale-a-Yokohama",
+    "bedetheque": "serie-73997-BD-Escale-a-Yokohama.html"
+   },
+   "ancien": {
+    "total": 14,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "evil-heart",
+   "titre": "Evil Heart",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Evil-Heart",
+    "bedetheque": "serie-14323-BD-Evil-Heart.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "ex-machina",
+   "titre": "Ex machina",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-40274-BD-Ex-Machina-Urban-Comics.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "eyeshield-21",
+   "titre": "Eyeshield 21",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Eye-Shield-21",
+    "bedetheque": "serie-11234-BD-Eye-Shield-21.html"
+   },
+   "ancien": {
+    "total": 37,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "fairy-tail",
+   "titre": "Fairy Tail",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Fairy-Tail",
+    "bedetheque": "serie-18878-BD-Fairy-Tail.html"
+   },
+   "ancien": {
+    "total": 63,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "fairy-tail-blue-mistral",
+   "titre": "Fairy Tail Blue Mistral",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Fairy-tail-Blue-mistral",
+    "bedetheque": "serie-48089-BD-Fairy-Tail-Blue-Mistral.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "felin-pour-l-autre",
+   "titre": "Félin pour l'autre !",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10-12",
+   "type": "Série",
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "fire-force",
+   "titre": "Fire force",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "flying-witch",
+   "titre": "Flying witch",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Flying-Witch",
+    "bedetheque": "serie-56196-BD-Flying-witch.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "food-wars",
+   "titre": "Food wars",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Food-wars2",
+    "bedetheque": "serie-43455-BD-Food-Wars.html"
+   },
+   "ancien": {
+    "total": 36,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "four-knights-of-the-apocalypse",
+   "titre": "Four knights of the Apocalypse",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "fox-boy",
+   "titre": "Fox-Boy",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-68616-BD-Fox-Boy-Komics-Initiative.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "freaks-squeele",
+   "titre": "Freaks'squeele",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Freaks-Squeele",
+    "bedetheque": "serie-18228-BD-Freaks-Squeele.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "frieren",
+   "titre": "Frieren",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "fruits-basket",
+   "titre": "Fruits basket",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Fruits-Basket",
+    "bedetheque": "serie-5838-BD-Fruits-Basket.html"
+   },
+   "ancien": {
+    "total": 23,
+    "etat": "Terminée",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "fukuneko-les-chats-du-bonheur",
+   "titre": "Fukuneko, les chats du bonheur",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "fullmetal-alchemist",
+   "titre": "Fullmetal Alchemist",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/FullMetal-Alchemist",
+    "bedetheque": "serie-12235-BD-FullMetal-Alchemist.html"
+   },
+   "ancien": {
+    "total": 27,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "gamaran",
+   "titre": "Gamaran",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ancien": {
+    "total": 22,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "gen-d-hiroshima",
+   "titre": "Gen d'Hiroshima",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Gen-dHiroshima",
+    "bedetheque": "serie-28991-BD-Gen-d-Hiroshima-poche.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "geobreeders",
+   "titre": "Geobreeders",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Geobreeders",
+    "bedetheque": "serie-13493-BD-Geobreeders.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Abandonnée",
+    "annee": 2009
+   }
+  },
+  {
+   "id": "gin-tama",
+   "titre": "Gin Tama",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Gintama",
+    "bedetheque": "serie-15333-BD-Gintama.html"
+   },
+   "ancien": {
+    "total": 74,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "goal-masters",
+   "titre": "Goal masters",
+   "genre": "Manhwa",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Goal-masters",
+    "bedetheque": "serie-49625-BD-Goal-Masters.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "Abandonnée",
+    "annee": 2008
+   }
+  },
+  {
+   "id": "goldfish",
+   "titre": "Goldfish",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Goldfish",
+    "bedetheque": "serie-64687-BD-GoldFish-Yaa.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "gon",
+   "titre": "Gon",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Gon"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "goodnight-i-love-you",
+   "titre": "Goodnight, I love you...",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "green-blood",
+   "titre": "Green Blood",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-38638-BD-Green-Blood.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "En cours",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "green-mechanic",
+   "titre": "Green mechanic",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "grimms",
+   "titre": "Grimms",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Grimms",
+    "bedetheque": "serie-22319-BD-Grimms-manga.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "gto-shonan-14-days",
+   "titre": "GTO : Shonan 14 days",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/GTO-14-Days",
+    "bedetheque": "serie-29804-BD-GTO-Shonan-14-days.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "Terminée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "gunnm",
+   "titre": "Gunnm",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 9,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "gunnm-edition-originale",
+   "titre": "Gunnm - edition originale",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Gunnm-Edition-Originale",
+    "bedetheque": "serie-64026-BD-Gunnm-Last-Order-Edition-Originale.html"
+   }
+  },
+  {
+   "id": "gunnm-mars-chronicle",
+   "titre": "Gunnm Mars Chronicle",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Gunnm-Mars-Chronicle",
+    "bedetheque": "serie-54051-BD-Gunnm-Mars-Chronicle.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "hachi-maruru-chats-des-rues",
+   "titre": "Hachi & Maruru, chats des rues",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "haikyu-les-as-du-volley",
+   "titre": "Haikyû !! : Les As du volley",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "haikyu-les-as-du-volley-smash-edition",
+   "titre": "Haikyû !! Les As du volley - Smash édition",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "hajime-teddy-riner-l-ascension-d-une-legende",
+   "titre": "Hajime ! Teddy Riner, l'ascension d'une légende",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "hamster-et-boule-de-gomme",
+   "titre": "Hamster et boule de gomme",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "happy",
+   "titre": "Happy !",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Happy-Deluxe"
+   },
+   "ancien": {
+    "total": 15,
+    "etat": "Terminée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "harley-quinn",
+   "titre": "Harley Quinn",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-48181-BD-Harley-Quinn.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "harley-quinn-rebirth",
+   "titre": "Harley Quinn rebirth",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-59424-BD-Harley-Quinn-Rebirth.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "hellboy",
+   "titre": "Hellboy",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-4185-BD-Hellboy-Delcourt.html"
+   },
+   "ancien": {
+    "total": 16,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "hikari-no-densetsu-cynthia-ou-le-rythme-de-la-vie",
+   "titre": "Hikari no densetsu : Cynthia ou le rythme de la vie",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Cynthia-Le-rythmetme-de-la-vie",
+    "bedetheque": "serie-29388-BD-Hikari-no-Densetsu.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "hikaru-no-go",
+   "titre": "Hikaru no go",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Hikaru-no-go",
+    "bedetheque": "serie-46675-BD-Hikaru-No-Go-Edition-deluxe.html"
+   },
+   "ancien": {
+    "total": 23,
+    "etat": "En cours",
+    "annee": 2006
+   }
+  },
+  {
+   "id": "hip-hop",
+   "titre": "Hip Hop",
+   "genre": "Manhwa",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Hip-Hop",
+    "bedetheque": "serie-15946-BD-Hip-Hop.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Abandonnée",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "hirayasumi",
+   "titre": "Hirayasumi",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "histoire-couleur-terre",
+   "titre": "Histoire couleur terre",
+   "genre": "Manhwa",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Histoire-couleur-terre",
+    "bedetheque": "serie-14200-BD-Histoire-couleur-terre.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "histoires-courtes",
+   "titre": "Histoires courtes",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Histoires-Courtes",
+    "bedetheque": "serie-1102-BD-Histoires-Courtes-Toriyama.html"
+   },
+   "ancien": {
+    "total": 1,
+    "etat": "Abandonnée",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "horseland",
+   "titre": "Horseland",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-22266-BD-Horseland.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "hunter-x-hunter",
+   "titre": "Hunter X hunter",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Hunter-X-hunter",
+    "bedetheque": "serie-5676-BD-Hunter-X-Hunter.html"
+   },
+   "ancien": {
+    "total": 36,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "ice-age-chronicle-of-the-earth",
+   "titre": "Ice age chronicle of the earth",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ice-Age-Chronicle-Of-The-Earth",
+    "bedetheque": "serie-46887-BD-Ice-age-chronicle-of-the-earth.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "ichiko-et-niko",
+   "titre": "Ichiko et Niko",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ichiko-et-Niko",
+    "bedetheque": "serie-52162-BD-Ichiko-Niko.html"
+   },
+   "ancien": {
+    "total": 14,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "ikigami-preavis-de-mort",
+   "titre": "Ikigami, preavis de mort",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ikigami",
+    "bedetheque": "serie-19844-BD-Ikigami-Preavis-de-mort.html"
+   }
+  },
+  {
+   "id": "il-creatore-che-ha-distrutto-cesare",
+   "titre": "Il Creatore che ha distrutto : Cesare",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "imago",
+   "titre": "Imago",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "inazuma-eleven-go",
+   "titre": "Inazuma eleven go",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Inazuma-Eleven-GO",
+    "bedetheque": "serie-49653-BD-Inazuma-Eleven-go.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "injustice-les-dieux-sont-parmi-nous",
+   "titre": "Injustice : les dieux sont parmi nous",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-45499-BD-Injustice-Les-Dieux-sont-parmi-nous.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "innocent",
+   "titre": "Innocent",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "insomniaques",
+   "titre": "Insomniaques",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "instinct",
+   "titre": "Instinct",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "integral-monster",
+   "titre": "Integral Monster",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ippo-la-rage-de-vaincre",
+   "titre": "Ippo la rage de vaincre",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ippo-la-rage-de-vaincre",
+    "bedetheque": "serie-16296-BD-Ippo-La-rage-de-vaincre.html"
+   },
+   "ancien": {
+    "total": 124,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "iruma-a-l-ecole-des-demons",
+   "titre": "Iruma a l'ecole des demons",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Iruma-a-lecole-des-demons",
+    "bedetheque": "serie-71046-BD-Iruma-a-l-Ecole-des-Demons.html"
+   },
+   "ancien": {
+    "total": 15,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "isabella-bird-femme-exploratrice",
+   "titre": "Isabella Bird, femme exploratrice",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Isabella-Bird-femme-exploratrice",
+    "bedetheque": "serie-58236-BD-Isabella-Bird-Femme-exploratrice.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "j-aime-les-sushis",
+   "titre": "J'aime les sushis",
+   "genre": "Shojo",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Jaime-les-sushis",
+    "bedetheque": "serie-25466-BD-J-aime-les-sushis.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "jimbocho-sisters",
+   "titre": "Jimbôchô sisters",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "journal-d-une-fangirl",
+   "titre": "Journal d'une fangirl",
+   "genre": "Shojo",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Journal-d-une-fangirl2",
+    "bedetheque": "serie-53995-BD-Journal-d-une-Fangirl.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "judge",
+   "titre": "Judge",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Judge",
+    "bedetheque": "serie-28892-BD-Judge.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "jujutsu-kaisen",
+   "titre": "Jujutsu kaisen",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Jujutsu-Kaisen",
+    "bedetheque": "serie-68302-BD-Jujutsu-Kaisen.html"
+   },
+   "ancien": {
+    "total": 16,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "jumping",
+   "titre": "Jumping",
+   "genre": "Josei",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Jumping",
+    "bedetheque": "serie-59505-BD-Jumping.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "justice-league-aventures",
+   "titre": "Justice league aventures",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "kagurabachi",
+   "titre": "Kagurabachi",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "kaiju-n-8",
+   "titre": "Kaiju n° 8",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "12+ (public averti, violence modérée)",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kaiju-N8",
+    "bedetheque": "serie-75924-BD-Kaiju-n8.html"
+   },
+   "commande": "6",
+   "ancien": {
+    "total": 6,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "kaiju-no-8",
+   "titre": "Kaiju No 8",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "kamakura-diary",
+   "titre": "Kamakura Diary",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kamakura-Diary",
+    "bedetheque": "serie-38138-BD-Kamakura-Diary.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "kamichu",
+   "titre": "Kamichu !",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kamichu",
+    "bedetheque": "serie-24113-BD-Kamichu.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "kamikaze-kaito-jeanne",
+   "titre": "Kamikaze kaito Jeanne",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kamikaze-Kaito-Jeanne",
+    "bedetheque": "serie-45742-BD-Kamikaze-Kaito-Jeanne.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "kamisama",
+   "titre": "Kamisama",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kamisama",
+    "bedetheque": "serie-14159-BD-Kamisama.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "kekkaishi",
+   "titre": "Kekkaishi",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kekkaishi",
+    "bedetheque": "serie-13006-BD-Kekkaishi.html"
+   },
+   "ancien": {
+    "total": 35,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "kemono-incidents",
+   "titre": "Kemono incidents",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kemono-Incidents",
+    "bedetheque": "serie-66100-BD-Kemono-incidents.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "ken-en-comme-chien-et-singe",
+   "titre": "Ken'en : comme chien et singe",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kenen-Comme-chien-et-singe",
+    "bedetheque": "serie-60758-BD-Ken-en-Comme-chien-et-singe.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "kindergarten-wars",
+   "titre": "Kindergarten wars",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "king-s-game",
+   "titre": "King's game",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kings-Game2",
+    "bedetheque": "serie-37831-BD-King-s-Game.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "king-s-game-extreme",
+   "titre": "King's game extreme",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kings-Game-Extreme",
+    "bedetheque": "serie-41951-BD-King-s-Game-Extreme.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "kingdom-hearts",
+   "titre": "Kingdom Hearts",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kingdom-Hearts",
+    "bedetheque": "serie-34292-BD-Kingdom-Hearts.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "koko-debut",
+   "titre": "Koko début",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Koko-Debut",
+    "bedetheque": "serie-18732-BD-Koko-debut.html"
+   },
+   "ancien": {
+    "total": 15,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "komi-cherche-ses-mots",
+   "titre": "Komi cherche ses mots",
+   "genre": "Shonen",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Komi-cherche-ses-mots",
+    "bedetheque": "serie-79915-BD-Komi-cherche-ses-mots.html"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "kuma-kuma-kuma-bear",
+   "titre": "Kuma Kuma Kuma bear",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kuma-Kuma-Kuma-Bear",
+    "bedetheque": "serie-74883-BD-Kuma-kuma-kuma-bear.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "kuro",
+   "titre": "Kuro",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "kuro-un-coeur-de-chat",
+   "titre": "Kuro, un coeur de chat",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kuro-un-coeur-de-chat",
+    "bedetheque": "serie-46565-BD-Kuro-un-coeur-de-chat.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "kushi",
+   "titre": "Kushi",
+   "genre": "Manhwa",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kushi",
+    "bedetheque": "serie-55026-BD-Kushi.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "kylooe",
+   "titre": "Kylooe",
+   "genre": "Manhwa",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Kylooe",
+    "bedetheque": "serie-23507-BD-Kylooe.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "agence-de-detectives-layton-katrielle-et-les-enquetes-mysterieuses",
+   "titre": "L'Agence de detectives Layton : Katrielle et les enquetes mysterieuses",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Agence-de-Detectives-Layton-Katrielle-et-les-Enquetes-Mysterieuses",
+    "bedetheque": "serie-70825-BD-Agence-de-detectives-Layton.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "amour-est-au-menu",
+   "titre": "L'Amour est au menu",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "amour-est-dans-le-the",
+   "titre": "L'Amour est dans le Thé",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "arcane-de-l-aube",
+   "titre": "L'Arcane de l'aube",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Arcane-de-laube-l",
+    "bedetheque": "serie-27866-BD-Arcane-de-l-aube.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "Terminée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "atelier-des-sorciers",
+   "titre": "L'Atelier des sorciers",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Atelier-des-sorciers-l",
+    "bedetheque": "serie-60298-BD-Atelier-des-sorciers.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "attaque-des-titans",
+   "titre": "L'Attaque des titans",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Attaque-Des-Titans-l",
+    "bedetheque": "serie-39078-BD-Attaque-des-Titans.html"
+   },
+   "ancien": {
+    "total": 34,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "attaque-des-titans-before-the-fall",
+   "titre": "L'Attaque des titans - before the fall",
+   "genre": "Shonen",
+   "public": "Ado",
+   "age": "14+ (public averti, violence)",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Attaque-Des-Titans-l-Before-the-Fall",
+    "bedetheque": "serie-44646-BD-Attaque-des-Titans-Before-The-Fall.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "attaque-des-titans-edition-colossale",
+   "titre": "L'Attaque des titans : edition colossale",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "enfant-du-dragon-fantome",
+   "titre": "L'Enfant du dragon fantome",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Enfant-du-dragon-fantome",
+    "bedetheque": "serie-75076-BD-Enfant-du-Dragon-fantome.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "enfant-et-le-maudit-siuil-a-run",
+   "titre": "L'Enfant et le maudit : Siuil, a Run",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Enfant-et-le-maudit-l",
+    "bedetheque": "serie-55986-BD-Enfant-et-le-Maudit.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "etrange-noel-de-zero",
+   "titre": "L'Étrange Noël de Zéro",
+   "genre": "Global-Manga",
+   "public": "Jeunesse",
+   "age": "8-10",
+   "type": "Série"
+  },
+  {
+   "id": "habitant-de-l-infini",
+   "titre": "L'Habitant de l'infini",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Habitant-de-linfini-l-2eme-edition",
+    "bedetheque": "serie-1957-BD-Habitant-de-l-infini.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "histoire-des-3-adolf-integrale",
+   "titre": "L'Histoire des 3 Adolf : intégrale",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-1755-BD-Histoire-des-3-Adolf.html"
+   }
+  },
+  {
+   "id": "histoire-en-manga",
+   "titre": "L'Histoire en MANGA",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Histoire-en-manga-l",
+    "bedetheque": "serie-72479-BD-Histoire-en-manga.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "ile-de-hozuki",
+   "titre": "L'Ile de Hozuki",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ile-de-Hozuki-l",
+    "bedetheque": "serie-23524-BD-Ile-de-Hozuki.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "oiseau-d-or-de-kainis",
+   "titre": "L'Oiseau d'or de Kainis",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "orchestre-des-doigts",
+   "titre": "L'Orchestre des doigts",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Orchestre-des-doigts-l",
+    "bedetheque": "serie-14502-BD-Orchestre-des-doigts.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "balade-de-yaya",
+   "titre": "La Balade de Yaya",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bicyclette-rouge",
+   "titre": "La Bicyclette rouge",
+   "genre": "Manhwa",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bicyclette-rouge-La",
+    "bedetheque": "serie-12357-BD-Bicyclette-rouge.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "cantine-de-minuit",
+   "titre": "La Cantine de minuit",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Cantine-de-minuit-la",
+    "bedetheque": "serie-55431-BD-Cantine-de-minuit.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "confrerie-des-lions-blancs",
+   "titre": "La Confrérie des lions blancs",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Confrerie-du-lion-blanc-la",
+    "bedetheque": "serie-49336-BD-Confrerie-des-Lions-Blancs.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "cuisine-du-tengu",
+   "titre": "La Cuisine du Tengu",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "decheance-d-un-homme",
+   "titre": "La déchéance d'un homme",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2025-09-19"
+  },
+  {
+   "id": "foret-de-miyori",
+   "titre": "La Forêt de Miyori",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Foret-de-Miyori-la",
+    "bedetheque": "serie-17618-BD-Foret-de-Miyori.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2009
+   }
+  },
+  {
+   "id": "foret-magique-de-hoshigahara",
+   "titre": "La Forêt magique de Hoshigahara",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "gameuse-et-son-chat",
+   "titre": "La Gameuse et son chat",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 3,
+    "annee": 2017
+   }
+  },
+  {
+   "id": "grossesse-de-m-hiyama",
+   "titre": "La grossesse de M. Hiyama",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2025-09-19"
+  },
+  {
+   "id": "lanterne-de-nyx",
+   "titre": "La Lanterne de Nyx",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Lanterne-de-Nyx-la",
+    "bedetheque": "serie-65060-BD-Lanterne-de-Nyx.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "ligue-des-justiciers-nouvelle-generation",
+   "titre": "La Ligue des Justiciers - Nouvelle génération",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "main-droite-de-lucifer",
+   "titre": "La Main droite de Lucifer",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Main-droite-de-lucifer-la",
+    "bedetheque": "serie-39177-BD-Main-droite-de-Lucifer.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "petite-faiseuse-de-livres-ascendance-of-a-bookworm",
+   "titre": "La Petite faiseuse de livres : ascendance of a bookworm",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "princesse-vagabonde",
+   "titre": "La Princesse vagabonde",
+   "genre": "Manhwa",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Li-Princesse-vagabonde",
+    "bedetheque": "serie-46183-BD-Princesse-vagabonde.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "En cours",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "sorciere-aux-champignons",
+   "titre": "La Sorcière aux champignons",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "age": "10-12",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sorciere-aux-champigons"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "vie-de-bouddha",
+   "titre": "La Vie de Bouddha",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Bouddha-Deluxe",
+    "bedetheque": "serie-24396-BD-Vie-de-Bouddha.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "voie-du-tablier",
+   "titre": "La Voie du tablier",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Voie-du-Tablier-la",
+    "bedetheque": "serie-66395-BD-Voie-du-tablier.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "lady-snowblood",
+   "titre": "Lady Snowblood",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "age": "16+ (public averti, violence modérée)",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Lady-Snowblood",
+    "bedetheque": "serie-16832-BD-Lady-Snowblood.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Abandonnée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "land",
+   "titre": "Land",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "last-hero-inuyashiki",
+   "titre": "Last hero inuyashiki",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Last-Hero-Inuyashiki",
+    "bedetheque": "serie-48344-BD-Last-Hero-Inuyashiki.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "last-man",
+   "titre": "Last man",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Lastman",
+    "bedetheque": "serie-37416-BD-LastMan.html"
+   }
+  },
+  {
+   "id": "chateau-ambulant",
+   "titre": "Le Château ambulant",
+   "genre": "Autre Manga",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chateau-ambulant-le",
+    "bedetheque": "serie-16577-BD-Chateau-ambulant.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2006
+   }
+  },
+  {
+   "id": "chateau-dans-le-ciel",
+   "titre": "Le Château dans le ciel",
+   "genre": "Autre Manga",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chateau-dans-le-ciel-le",
+    "bedetheque": "serie-7834-BD-Chateau-dans-le-ciel.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "chateau-solitaire-dans-le-miroir",
+   "titre": "Le Château solitaire dans le miroir",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chien-gardien-d-etoiles",
+   "titre": "Le Chien gardien d'étoiles",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chien-gardien-detoiles-le",
+    "bedetheque": "serie-27899-BD-Chien-gardien-d-etoiles.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "couvent-des-damnees",
+   "titre": "Le Couvent des damnées",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Couvent-des-Damnees"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "fantome-de-l-opera",
+   "titre": "Le Fantôme de l'Opéra",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "garcon-et-la-bete",
+   "titre": "Le Garcon et la bête",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Garcon-et-la-bete-le",
+    "bedetheque": "serie-50493-BD-Garcon-et-la-Bete.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "gout-des-retrouvailles",
+   "titre": "Le Goût des retrouvailles",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gros-chat-et-la-sorciere-grincheuse",
+   "titre": "Le Gros chat et la sorcière grincheuse",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "journal-de-mobu",
+   "titre": "Le Journal de Mobu",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "maitre-des-livres",
+   "titre": "Le Maitre des livres",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Maitre-des-livres-le",
+    "bedetheque": "serie-44513-BD-Maitre-des-livres.html"
+   },
+   "ancien": {
+    "total": 15,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "maitre-magicien-negima-neo",
+   "titre": "Le Maitre magicien Negima !? Neo",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Negima",
+    "bedetheque": "serie-25905-BD-Negima-neo-Le-Maitre-Magicien.html"
+   },
+   "ancien": {
+    "total": 38,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "mari-de-mon-frere",
+   "titre": "Le Mari de mon frère",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mari-de-mon-frere-le",
+    "bedetheque": "serie-53919-BD-Mari-de-mon-frere.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "monde-dans-leurs-yeux",
+   "titre": "Le monde dans leurs yeux",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2025-09-19"
+  },
+  {
+   "id": "monde-de-wan-wan",
+   "titre": "Le Monde de Wan Wan",
+   "genre": "Manhwa",
+   "public": "Jeunesse",
+   "age": "6+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Monde-de-Wan-Wan",
+    "bedetheque": "serie-46592-BD-Monde-de-Wan-Wan.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "En cours",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "nouveau-tom-sawyer",
+   "titre": "Le Nouveau Tom Sawyer",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nouveau-Tom-Sawyer-le",
+    "bedetheque": "serie-44155-BD-Nouveau-Tom-Sawyer.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "palais-des-assassins",
+   "titre": "Le Palais des assassins",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 1,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "paradis-des-chiens",
+   "titre": "Le Paradis des chiens",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "age": "8-10",
+   "type": "Série",
+   "ancien": {
+    "total": 11,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "peche-originel-de-takopi",
+   "titre": "Le Péché originel de Takopi",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "prix-du-reste-de-ma-vie",
+   "titre": "Le Prix du reste de ma vie",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Prix-du-reste-de-ma-vie-le",
+    "bedetheque": "serie-68761-BD-Prix-du-reste-de-ma-vie.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "renard-et-le-petit-tanuki",
+   "titre": "Le Renard et le petit tanuki",
+   "genre": "Josei",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Renard-et-le-petit-Tanuki-le",
+    "bedetheque": "serie-71623-BD-Renard-et-le-petit-tanuki.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "requiem-du-roi-des-roses",
+   "titre": "Le Requiem du roi des roses",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Requiem-du-roi-des-roses-le",
+    "bedetheque": "serie-48949-BD-Requiem-du-Roi-des-Roses.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "roi-leo",
+   "titre": "Le Roi Leo",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Roi-Leo-le",
+    "bedetheque": "serie-41057-BD-Roi-Leo-Kaze.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "secret-de-madoka",
+   "titre": "Le Secrêt de Madoka",
+   "genre": "Josei",
+   "public": "Jeunesse",
+   "age": "8-10",
+   "type": "One shot",
+   "liens": {
+    "mangaNews": "index.php/serie/Secret-de-Madoka-le",
+    "bedetheque": "serie-75405-BD-Secret-de-Madoka.html"
+   },
+   "ancien": {
+    "total": 1,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "siege-des-exilees",
+   "titre": "Le Siége des exilées",
+   "genre": "Josei",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Siege-des-exiles-le",
+    "bedetheque": "serie-72608-BD-Siege-des-exilees.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "sommet-des-dieux",
+   "titre": "Le Sommet des dieux",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sommet-des-dieux-le",
+    "bedetheque": "serie-8691-BD-Sommet-des-dieux.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "souffle-des-legendes",
+   "titre": "Le Souffle des légendes",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tigre-des-neiges",
+   "titre": "Le Tigre des neiges",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tigre-des-neiges",
+    "bedetheque": "serie-63921-BD-Tigre-des-neiges.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "voleur-d-estampes",
+   "titre": "Le Voleur d'estampes",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Voleur-destampes-le",
+    "bedetheque": "serie-50422-BD-Voleur-d-estampes.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "voyage-de-chihiro",
+   "titre": "Le Voyage de Chihiro",
+   "genre": "Autre Manga",
+   "public": "Jeunesse",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Voyage-de-Chihiro-le",
+    "bedetheque": "serie-5893-BD-Voyage-de-Chihiro.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "voyage-de-kuro-histoire-d-une-itinerante",
+   "titre": "Le Voyage de Kuro : Histoire d'une itinerante",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Voyage-de-Kuro-le",
+    "bedetheque": "serie-23936-BD-Voyage-de-Kuro.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "xxe-siecle-en-manga",
+   "titre": "Le XXe siècle en manga",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "brigades-immunitaires",
+   "titre": "Les Brigades immunitaires",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Brigades-Immunitaires-les",
+    "bedetheque": "serie-56849-BD-Brigades-Immunitaires.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "carnets-de-l-apothicaire",
+   "titre": "Les Carnets de l'apothicaire",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "chaventures-de-tai-mamie-sue",
+   "titre": "Les Chaventures de Tai & Mamie Sue",
+   "genre": "Josei",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Chaventures-de-Tai-et-Mamie-Sue-les",
+    "bedetheque": "serie-67586-BD-Chaventures-de-Tai-Mamie-Sue.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "chaventures-de-tai-et-mamie-sue",
+   "titre": "Les Chaventures de Taï et Mamie Sue",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "enfants-d-hippocrate",
+   "titre": "Les Enfants d'Hippocrate",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Enfants-dHippocrate-les",
+    "bedetheque": "serie-79479-BD-Enfants-d-Hippocrate.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "enfants-de-gorre",
+   "titre": "Les Enfants de Gorre",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 4,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "enfants-de-la-baleine",
+   "titre": "Les Enfants de la Baleine",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Enfants-de-la-baleine-les",
+    "bedetheque": "serie-50494-BD-Enfants-de-la-baleine.html"
+   },
+   "ancien": {
+    "total": 20,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "enfants-de-la-mer",
+   "titre": "Les Enfants de la mer",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Enfants-de-la-mer-les",
+    "bedetheque": "serie-32020-BD-Enfants-de-la-mer.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "enfants-loups-ame-yuki",
+   "titre": "Les Enfants loups : Ame & Yuki",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Enfants-loups-les",
+    "bedetheque": "serie-38695-BD-Enfants-Loups-Ame-Yuki.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "fils-de-la-terre",
+   "titre": "Les Fils de la terre",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Enfant-de-la-terre-l",
+    "bedetheque": "serie-16523-BD-Fils-de-la-terre.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "gouttes-de-dieu",
+   "titre": "Les Gouttes de Dieu",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Gouttes-de-Dieu-les",
+    "bedetheque": "serie-17695-BD-Gouttes-de-Dieu.html"
+   },
+   "ancien": {
+    "total": 44,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "montagnes-hallucinees",
+   "titre": "Les Montagnes hallucinées",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "naufrages",
+   "titre": "Les Naufragés",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "oublies",
+   "titre": "Les Oubliés",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Oublies-les",
+    "bedetheque": "serie-50089-BD-Oublies-Koike.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "petits-velos",
+   "titre": "Les Petits vélos",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Petits-velos-les",
+    "bedetheque": "serie-54727-BD-Petits-Velos.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "quatre-freres-yuzuki",
+   "titre": "Les Quatre frères Yuzuki",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "secrets-de-lea",
+   "titre": "Les Secrêts de Lea",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Secrets-de-Lea-les",
+    "bedetheque": "serie-36554-BD-Secrets-de-Lea.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "sorcieres-de-la-fin-du-monde",
+   "titre": "Les Sorcières de la fin du monde",
+   "genre": "Josei",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sorcieres-de-la-fin-du-monde-les",
+    "bedetheque": "serie-76570-BD-Sorcieres-de-la-fin-du-monde.html"
+   },
+   "ancien": {
+    "total": 23,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "temps-retrouves",
+   "titre": "Les Temps retrouvés",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Temps-retrouves-les",
+    "bedetheque": "serie-66869-BD-Temps-retrouves.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "tresors-de-tsukasa-hojo",
+   "titre": "Les trésors de Tsukasa Hojo",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2025-09-19"
+  },
+  {
+   "id": "triplees",
+   "titre": "Les Triplées",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Les-triplees",
+    "bedetheque": "serie-19952-BD-Triplees.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Abandonnée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "vacances-de-jesus-et-bouddha",
+   "titre": "Les Vacances de Jesus et Bouddha",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/vacances-de-Jesus-et-Bouddha",
+    "bedetheque": "serie-27620-BD-Vacances-de-Jesus-et-Bouddha.html"
+   },
+   "ancien": {
+    "total": 19,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "letter-44",
+   "titre": "Letter 44",
+   "genre": "Comics",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-47668-BD-Letter-44.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "letter-bee",
+   "titre": "Letter Bee",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Letter-Bee",
+    "bedetheque": "serie-20848-BD-Letter-Bee.html"
+   },
+   "ancien": {
+    "total": 20,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "levius",
+   "titre": "Levius",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "library-wars-love-war",
+   "titre": "Library wars : Love & War",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Toshokan-Senso-Love-War",
+    "bedetheque": "serie-24374-BD-Library-wars-Love-and-War.html"
+   },
+   "ancien": {
+    "total": 15,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "liselotte-et-la-foret-des-sorcieres",
+   "titre": "LISELOTTE et la forêt des sorcières",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Liselotte-et-la-foret-des-sorcieres",
+    "bedetheque": "serie-45840-BD-Liselotte-et-la-Foret-des-sorcieres.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "En cours",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "little-witch-academia",
+   "titre": "Little witch academia",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Little-Witch-Academia",
+    "bedetheque": "serie-61614-BD-Little-Witch-Academia.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "locke-key",
+   "titre": "Locke & Key",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-26200-BD-Locke-Key.html"
+   }
+  },
+  {
+   "id": "loin-de-moi-pres-de-toi",
+   "titre": "Loin de moi, près de toi",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "lonely-world",
+   "titre": "Lonely world",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Lonely-World",
+    "bedetheque": "serie-61614-BD-Little-Witch-Academia.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "lost-lad-london",
+   "titre": "Lost Lad London",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "louve",
+   "titre": "Louve",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "love-my-life",
+   "titre": "Love my life",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2025-09-19"
+  },
+  {
+   "id": "lovely-hair",
+   "titre": "Lovely hair",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Lovely-Hair",
+    "bedetheque": "serie-75199-BD-Lonely-World.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "luca-veterinaire-draconique",
+   "titre": "Luca, vétérinaire draconique",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ryui-no-Luka"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "lucika-lucika",
+   "titre": "Lucika Lucika",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Lucika-Lucika",
+    "bedetheque": "serie-40502-BD-Lucika-Lucika.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "lusky-mon-ami-pour-la-vie",
+   "titre": "Lusky : mon ami pour la vie",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Lusky-mon-ami-pour-la-vie",
+    "bedetheque": "serie-55452-BD-Lusky-mon-ami-pour-la-vie.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "ma-mamie-adoree",
+   "titre": "Ma mamie adorée",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ma-vie-dans-les-bois",
+   "titre": "Ma vie dans les bois",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mabinogi",
+   "titre": "Mabinogi",
+   "genre": "Manhwa",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mabinogi",
+    "bedetheque": "serie-29671-BD-Mabinogi.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "mad-world",
+   "titre": "Mad world",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mad-World",
+    "bedetheque": "serie-34463-BD-Mad-World.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "made-in-abyss",
+   "titre": "Made in Abyss",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Made-In-Abyss",
+    "bedetheque": "serie-61206-BD-Made-in-Abyss.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "maestros",
+   "titre": "Maestros",
+   "genre": "Comics",
+   "public": "Ado",
+   "type": "One shot",
+   "ancien": {
+    "total": 1,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "magic-maker",
+   "titre": "Magic maker",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "magu-god-of-destruction",
+   "titre": "Magu : god of destruction",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "magus-of-the-library",
+   "titre": "Magus of the library",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Magus-of-the-Library",
+    "bedetheque": "serie-65005-BD-Magus-of-the-Library.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "mai-ball-feminine-football-team",
+   "titre": "Mai ball! : feminine football team",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mais-moi-je-l-aime",
+   "titre": "Mais moi je l'aime",
+   "genre": "Shojo",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Jy-peux-rien-si-je-taime",
+    "bedetheque": "serie-15626-BD-Mais-moi-je-l-aime.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "majo-no-michi",
+   "titre": "Majo No Michi",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "malicious-code",
+   "titre": "Malicious Code",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Malicious-Code",
+    "bedetheque": "serie-38729-BD-Malicious-Code.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "man-in-the-window",
+   "titre": "Man in the window",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Man-in-the-Window",
+    "bedetheque": "serie-56341-BD-Man-in-the-Window.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "manga-arsene-lupin",
+   "titre": "Manga Arsene Lupin",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Arsene-Lupin",
+    "bedetheque": "serie-79478-BD-Arsene-Lupin-Morita-2022.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "manga-les-miserables",
+   "titre": "Manga Les Misérables",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Miserables-les-Kurokawa",
+    "bedetheque": "serie-46829-BD-Miserables-Arai.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "mar",
+   "titre": "Mär",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10-12",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mar",
+    "bedetheque": "serie-11875-BD-MAR-Marchen-Awaken-Romance.html"
+   },
+   "ancien": {
+    "total": 15,
+    "etat": "Terminée",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "mar-omega",
+   "titre": "Mär omega",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10-12",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mar-Omega",
+    "bedetheque": "serie-18645-BD-MAR-Omega.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2008
+   }
+  },
+  {
+   "id": "mashima-en",
+   "titre": "Mashima-en",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mashima-en",
+    "bedetheque": "serie-25457-BD-Mashima-en.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "mashle",
+   "titre": "Mashle",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mauvaise-herbe",
+   "titre": "Mauvaise herbe",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "maux-meles",
+   "titre": "Maux mêlés",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "memesis",
+   "titre": "Memesis",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Memesis",
+    "bedetheque": "serie-65964-BD-Memesis.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "mes-cent-contes-mortels",
+   "titre": "Mes cent contes mortels",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mes-voisins-les-esprits",
+   "titre": "Mes voisins les esprits",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mes-Voisins-les-esprits",
+    "bedetheque": "serie-66393-BD-Mes-voisins-les-esprits.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "miaou-big-boss-le-magnifique",
+   "titre": "Miaou ! Big-Boss le magnifique",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "age": "8",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Miaou-Big-Boss-le-magnifique",
+    "bedetheque": "serie-50279-BD-Miaou-Big-Boss-le-magnifique.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "miaou-le-quotidien-de-moustic",
+   "titre": "Miaou ! Le quotidien de Moustic",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Miaou-Le-quotidien-de-Moustic",
+    "bedetheque": "serie-49279-BD-Miaou-Le-quotidien-de-Moustic.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "mille-et-une-nuits",
+   "titre": "Mille et une nuits",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mille-et-une-nuits",
+    "bedetheque": "serie-15737-BD-Mille-et-une-nuits.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Abandonnée",
+    "annee": 2008
+   }
+  },
+  {
+   "id": "mimizuku-et-le-roi-de-la-nuit",
+   "titre": "Mimizuku et le roi de la nuit",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "minuscule",
+   "titre": "Minuscule",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Minuscule",
+    "bedetheque": "serie-46352-BD-Minuscule.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "miraculous",
+   "titre": "Miraculous",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "miss-marvel",
+   "titre": "Miss Marvel",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-3541-BD-Miss-Marvel.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 1982
+   }
+  },
+  {
+   "id": "mission-yozakura-family",
+   "titre": "Mission : Yozakura family",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mob-psycho-100",
+   "titre": "Mob Psycho 100",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mob-Psycho-100",
+    "bedetheque": "serie-57067-BD-Mob-Psycho-100.html"
+   },
+   "ancien": {
+    "total": 16,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "mochi-et-compagnie",
+   "titre": "Mochi et compagnie",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mochi-et-Compagnie",
+    "bedetheque": "serie-71699-BD-Mochi-et-compagnie.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "moi-ce-que-j-aime-c-est-les-monstres",
+   "titre": "Moi, ce que j'aime, c'est les monstres",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-62038-BD-Moi-ce-que-j-aime-c-est-les-monstres.html"
+   },
+   "ancien": {
+    "total": 1,
+    "annee": 2018
+   }
+  },
+  {
+   "id": "moi-jardinier-citadin",
+   "titre": "Moi, jardinier citadin",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Moi-jardinier-citadin",
+    "bedetheque": "serie-42581-BD-Moi-jardinier-citadin.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "momo-et-le-messager-du-soleil",
+   "titre": "Momo et le messager du Soleil",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Momo-et-le-messager-du-soleil",
+    "bedetheque": "serie-62497-BD-Momo-et-le-messager-du-Soleil.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "mon-amie-des-tenebres",
+   "titre": "Mon amie des tenèbres",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mon-amie-des-tenebres",
+    "bedetheque": "serie-76558-BD-Mon-amie-des-tenebres.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "monsieur-mechant-va-detruire-la-terre-apres-ses-conges",
+   "titre": "Monsieur Méchant va détruire la terre (après ses congés)",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "monster",
+   "titre": "Monster",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Monster",
+    "bedetheque": "serie-3319-BD-Monster-Urasawa.html"
+   },
+   "ancien": {
+    "total": 18,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "monster-hunter-orage",
+   "titre": "Monster hunter orage",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Monster-Hunter-Orage",
+    "bedetheque": "serie-24994-BD-Monster-Hunter-Orage.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "monster-soul",
+   "titre": "Monster Soul",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Monster-Soul",
+    "bedetheque": "serie-26099-BD-Monster-soul.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "monstress",
+   "titre": "Monstress",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Monstress",
+    "bedetheque": "serie-55105-BD-Monstress.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "moon-et-iro",
+   "titre": "Moon et Iro",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mother-sarah",
+   "titre": "Mother Sarah",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mother-Sarah",
+    "bedetheque": "serie-131-BD-Mother-Sarah.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "Terminée",
+    "annee": 2006
+   }
+  },
+  {
+   "id": "mr-nobody",
+   "titre": "Mr.Nobody",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mr-Nobody",
+    "bedetheque": "serie-43209-BD-Mr-Nobody.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "mushishi",
+   "titre": "Mushishi",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Mushishi",
+    "bedetheque": "serie-15389-BD-Mushishi.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2009
+   }
+  },
+  {
+   "id": "my-broken-mariko",
+   "titre": "My broken Mariko",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2025-09-19"
+  },
+  {
+   "id": "my-fair-honey-boy",
+   "titre": "My fair honey boy",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "my-happy-marriage",
+   "titre": "My happy marriage",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "my-hero-academia",
+   "titre": "My hero academia",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/My-Hero-Academia",
+    "bedetheque": "serie-51637-BD-My-Hero-Academia.html"
+   },
+   "ancien": {
+    "total": 34,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "my-love-story-with-yamada-kun-at-lvl999",
+   "titre": "My love story with Yamada-kun at LVL999",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "nana",
+   "titre": "Nana",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nana",
+    "bedetheque": "serie-5840-BD-Nana.html"
+   },
+   "ancien": {
+    "total": 21,
+    "etat": "En cours",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "nanja-monja",
+   "titre": "Nanja Monja+",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nanja-Monja",
+    "bedetheque": "serie-26345-BD-Nanja-Monja.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "naruto",
+   "titre": "Naruto",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Naruto",
+    "bedetheque": "serie-5226-BD-Naruto.html"
+   },
+   "ancien": {
+    "total": 72,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "naruto-sasuke-retsuden",
+   "titre": "Naruto - Sasuke Retsuden",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "nausicaa-de-la-vallee-du-vent",
+   "titre": "Nausicaä : de la vallée du vent",
+   "genre": "Autre Manga",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nausicaa-de-la-vallee-du-vent-Artbook",
+    "bedetheque": "serie-3100-BD-Nausicaa-de-la-vallee-du-vent.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2007
+   }
+  },
+  {
+   "id": "nekogahara",
+   "titre": "Nekogahara",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "nekomura-san",
+   "titre": "Nekomura-San",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nekomura-San",
+    "bedetheque": "serie-19953-BD-Nekomura-san.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "En cours",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "nikuko-du-port-de-peche",
+   "titre": "Nikuko du port de pêche",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ningyo",
+   "titre": "Ningyo",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2025-09-19"
+  },
+  {
+   "id": "noise",
+   "titre": "Noise",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Noise-Tetsuya-Tsutsui",
+    "bedetheque": "serie-62453-BD-Noise-Tsutsui.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "noragami",
+   "titre": "Noragami",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nos-choeurs-evanescents",
+    "bedetheque": "serie-45085-BD-Noragami.html"
+   },
+   "ancien": {
+    "total": 23,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "nos-c-h-oeurs-evanescents",
+   "titre": "Nos c(h)oeurs évanescents",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nos-choeurs-evanescents",
+    "bedetheque": "serie-69996-BD-Nos-Choeurs-evanescents.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "nova",
+   "titre": "Nova",
+   "genre": "Global-Manga",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nova",
+    "bedetheque": "serie-71729-BD-Nova-Caly.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "nura-le-seigneur-des-yokai",
+   "titre": "Nura, le seigneur des Yokai",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Nura-Le-seigneur-des-yokai",
+    "bedetheque": "serie-26704-BD-Nura-le-seigneur-des-Yokai.html"
+   },
+   "ancien": {
+    "total": 25,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "oblivion-song",
+   "titre": "Oblivion Song",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "oblivion-song-le-chant-de-l-oubli",
+   "titre": "Oblivion song : le chant de l'oubli",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-60247-BD-Oblivion-Song.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "ocean-rush",
+   "titre": "Ocean rush",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "olympia-kyklos",
+   "titre": "Olympia kyklos",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "omni",
+   "titre": "Omni",
+   "genre": "Comics",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-68697-BD-Omni.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "one-piece",
+   "titre": "One Piece",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/One-piece-Edition-originale",
+    "bedetheque": "serie-4594-BD-One-Piece.html"
+   },
+   "ancien": {
+    "total": 102,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "one-punch-man",
+   "titre": "One-punch man",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/One-Punch-Man",
+    "bedetheque": "serie-50347-BD-One-Punch-Man.html"
+   },
+   "ancien": {
+    "total": 24,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "orange",
+   "titre": "Orange",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Orange-Ichigo-Takano",
+    "bedetheque": "serie-45234-BD-Orange-Takano.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "En cours",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "othello",
+   "titre": "Othello",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Othello",
+    "bedetheque": "serie-39096-BD-Othello-Ikezawa.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2009
+   }
+  },
+  {
+   "id": "our-colorful-days",
+   "titre": "Our colorful days",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "pan-pan-panda-une-vie-en-douceur",
+   "titre": "Pan'Pan panda, une vie en douceur",
+   "genre": "Kodomo",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Pan-Pan-Panda-Une-vie-en-douceur",
+    "bedetheque": "serie-40533-BD-Pan-Pan-Panda-une-vie-en-douceur.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "pandemonium",
+   "titre": "Pandemonium",
+   "genre": "Manhwa",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Pandemonium-tokebi",
+    "bedetheque": "serie-45256-BD-Pandemonium-Shibamoto.html"
+   }
+  },
+  {
+   "id": "paradise-lost",
+   "titre": "Paradise lost",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Paradise-lost",
+    "bedetheque": "serie-46680-BD-Paradise-Lost.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "parmi-eux-hanakimi",
+   "titre": "Parmi eux : HanaKimi",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Parmi-eux-Hanakimi",
+    "bedetheque": "serie-11847-BD-Parmi-eux-Hana-Kimi.html"
+   },
+   "ancien": {
+    "total": 25,
+    "etat": "En cours",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "peace-maker",
+   "titre": "Peace Maker",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "perfect-world",
+   "titre": "Perfect World",
+   "genre": "Josei",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Perfect-World",
+    "bedetheque": "serie-54074-BD-Perfect-World.html"
+   }
+  },
+  {
+   "id": "petit-requin",
+   "titre": "Petit Requin",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "phenix-l-oiseau-de-feu-integrale",
+   "titre": "Phenix : l'oiseau de feu : integrale",
+   "genre": "Shonen",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Phenix-Loiseau-de-feu",
+    "bedetheque": "serie-9482-BD-Phenix-l-oiseau-de-feu.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "phonogram",
+   "titre": "Phonogram",
+   "genre": "Josei",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-56091-BD-Phonogram.html"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "pichi-pichi-pitch",
+   "titre": "Pichi pichi pitch",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Pichi-Pichi-Pitch-La-Melodie-des-sirenes",
+    "bedetheque": "serie-14601-BD-Mermaid-Melody-Pichi-Pichi-Pitch.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "pink-diary",
+   "titre": "Pink Diary",
+   "genre": "Global-Manga",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Pink-diary",
+    "bedetheque": "serie-13419-BD-Pink-Diary.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "planetes",
+   "titre": "Planetes",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Planetes",
+    "bedetheque": "serie-4121-BD-Planetes.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2005
+   }
+  },
+  {
+   "id": "pline",
+   "titre": "Pline",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Pline",
+    "bedetheque": "serie-55133-BD-Pline.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "plum-un-amour-de-chat",
+   "titre": "Plum, un amour de chat",
+   "genre": "Josei",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Plum-un-amour-de-chat",
+    "bedetheque": "serie-42555-BD-Plum-un-amour-de-chat.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "pluto",
+   "titre": "Pluto",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Pluto",
+    "bedetheque": "serie-23575-BD-Pluto.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "pokemon-epee-et-bouclier",
+   "titre": "Pokémon : Epée et Bouclier",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "age": "8-10",
+   "type": "Série",
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "pokemon-la-grande-aventure-diamant-et-perle",
+   "titre": "Pokémon : la grande aventure : Diamant et Perle",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pokemon-soleil-et-lune",
+   "titre": "Pokemon : Soleil et Lune",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Pokemon-la-grande-aventure-Soleil-et-Lune",
+    "bedetheque": "serie-59396-BD-Pokemon-Soleil-et-Lune.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "pokemon-xy",
+   "titre": "Pokemon XY",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "age": "8-12",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Pokemon-X/Y",
+    "bedetheque": "serie-49379-BD-Pokemon-XY.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "power-gamer-adventure",
+   "titre": "Power gamer adventure",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Power-Gamer-Adventure",
+    "bedetheque": "serie-74919-BD-Power-Gamer-Adventure.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "pretty-deadly",
+   "titre": "Pretty deadly",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-47665-BD-Pretty-Deadly.html"
+   },
+   "ancien": {
+    "total": 1,
+    "etat": "Abandonnée",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "princesse-detective",
+   "titre": "Princesse détective",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Princesse-Detective",
+    "bedetheque": "serie-64249-BD-Princesse-detective.html"
+   },
+   "ancien": {
+    "total": 14,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "princesse-kilala",
+   "titre": "Princesse Kilala",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "age": "8",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Princesse-Kilala",
+    "bedetheque": "serie-40375-BD-Princesse-Kilala.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "princesse-mononoke",
+   "titre": "Princesse Mononoke",
+   "genre": "Autre Manga",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Princesse-Mononoke",
+    "bedetheque": "serie-6166-BD-Princesse-Mononoke.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "prisonnier-riku",
+   "titre": "Prisonnier Riku",
+   "genre": "Shonen",
+   "public": "Adulte",
+   "age": "13+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Prisonnier-Riku",
+    "bedetheque": "serie-44505-BD-Prisonnier-Riku.html"
+   },
+   "ancien": {
+    "total": 38,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "professeur-eiji",
+   "titre": "Professeur Eiji",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Professeur-Eiji",
+    "bedetheque": "serie-20898-BD-Professeur-Eiji.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "prophecy",
+   "titre": "Prophecy",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Prophecy",
+    "bedetheque": "serie-34405-BD-Prophecy.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "psyren",
+   "titre": "Psyren",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Psyren",
+    "bedetheque": "serie-29174-BD-Psyren.html"
+   },
+   "ancien": {
+    "total": 16,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "quand-takagi-me-taquine",
+   "titre": "Quand Takagi me taquine",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Quand-Takagi-Me-Taquine",
+    "bedetheque": "serie-67100-BD-Quand-Takagi-me-taquine.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "quartier-lointain",
+   "titre": "Quartier lointain",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Quartier-lointain",
+    "bedetheque": "serie-4441-BD-Quartier-lointain.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2003
+   }
+  },
+  {
+   "id": "que-sa-volonte-soit-faite",
+   "titre": "Que sa volonté soit faite",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Que-sa-volonte-soit-faite",
+    "bedetheque": "serie-26961-BD-Que-sa-volonte-soit-faite.html"
+   },
+   "ancien": {
+    "total": 26,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "qui-suis-je-pour-t-aimer",
+   "titre": "Qui suis-je pour t'aimer ?",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "quitter-la-ville",
+   "titre": "Quitter la ville",
+   "genre": "Chungnyun",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Quitter-la-ville",
+    "bedetheque": "serie-23083-BD-Quitter-la-ville.html"
+   },
+   "ancien": {
+    "total": 1,
+    "etat": "En cours",
+    "annee": 2009
+   }
+  },
+  {
+   "id": "radiant",
+   "titre": "Radiant",
+   "genre": "Global-Manga",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Radiant",
+    "bedetheque": "serie-38404-BD-Radiant.html"
+   },
+   "ancien": {
+    "total": 16,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "ranking-of-kings",
+   "titre": "Ranking of kings",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "rat-queens",
+   "titre": "Rat queens",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-51768-BD-Rat-Queens.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "ratman",
+   "titre": "Ratman",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "reine-d-egypte",
+   "titre": "Reine d'Egypte",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Reine-dEgypte",
+    "bedetheque": "serie-55082-BD-Reine-d-Egypte.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "reversal",
+   "titre": "Reversal",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/:REverSAL",
+    "bedetheque": "serie-41252-BD-Reversal.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "ripper",
+   "titre": "Ripper",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "roji",
+   "titre": "Roji !",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Roji",
+    "bedetheque": "serie-36347-BD-Roji.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "royal-city",
+   "titre": "Royal City",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-59497-BD-Royal-City.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "running-girl-ma-course-vers-les-paralympiques",
+   "titre": "Running girl : ma course vers les paralympiques",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "sacrificers",
+   "titre": "Sacrificers",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "saga",
+   "titre": "Saga",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-37516-BD-Saga-Vaughan-Staples.html"
+   }
+  },
+  {
+   "id": "sailor-moon",
+   "titre": "Sailor Moon",
+   "genre": "Shojo",
+   "public": "Adulte",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sailor-Moon-Histoires-courtes",
+    "bedetheque": "serie-34511-BD-Sailor-Moon-Pretty-Guardian.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "sailor-moon-pretty-guardian",
+   "titre": "Sailor Moon : pretty guardian",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sailor-Moon-Pretty-Guardian",
+    "bedetheque": "serie-34511-BD-Sailor-Moon-Pretty-Guardian.html"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "saint-seiya-les-chevaliers-du-zodiaque",
+   "titre": "Saint Seiya : les chevaliers du zodiaque",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "sakamoto-days",
+   "titre": "Sakamoto days",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "sakura-saku",
+   "titre": "Sakura Saku",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "samurai-8-la-legende-de-hachimaru",
+   "titre": "Samurai 8 : la légende de Hachimaru",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Samurai-8-:-Hachimaruden",
+    "bedetheque": "serie-67898-BD-Samurai-8-La-Legende-de-Hachimaru.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "save-me-pythie",
+   "titre": "Save me Pythie",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Save-my-pythie",
+    "bedetheque": "serie-43627-BD-Save-Me-Pythie.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "say-i-love-you",
+   "titre": "Say I love you",
+   "genre": "Shojo",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Say-I-love-you",
+    "bedetheque": "serie-44092-BD-Say-I-love-you.html"
+   },
+   "ancien": {
+    "total": 18,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "sayonara-football",
+   "titre": "SAYONARA FOOTBALL",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sayonara-Football",
+    "bedetheque": "serie-53286-BD-Sayonara-football.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "sayonara-miniskirt",
+   "titre": "Sayonara miniskirt",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sayonara-Miniskirt",
+    "bedetheque": "serie-69528-BD-Sayonara-Miniskirt.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "sayonara-rose-garden",
+   "titre": "Sayonara rose garden",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "search-and-destroy",
+   "titre": "Search and Destroy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "seki-mon-voisin-de-classe",
+   "titre": "Seki mon voisin de classe",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Voisin",
+    "bedetheque": "serie-49331-BD-Seki-mon-voisin-de-classe.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "En cours",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "sengo",
+   "titre": "Sengo",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sengo",
+    "bedetheque": "serie-68389-BD-Sengo.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "servamp",
+   "titre": "Servamp",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Servamp",
+    "bedetheque": "serie-38068-BD-Servamp.html"
+   },
+   "ancien": {
+    "total": 17,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "seule-la-mort-attend-la-vilaine",
+   "titre": "Seule la mort attend la vilaine",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "seven-deadly-sins",
+   "titre": "Seven deadly sins",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Seven-deadly-sins",
+    "bedetheque": "serie-42467-BD-Seven-Deadly-Sins.html"
+   },
+   "ancien": {
+    "total": 41,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "shangri-la-frontier",
+   "titre": "Shangri-La Frontier",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Shangri-La-Frontier",
+    "bedetheque": "serie-76365-BD-Shangri-La-Frontier.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "she-wasn-t-a-guy",
+   "titre": "She wasn't a guy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sherlock",
+   "titre": "Sherlock",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sherlock",
+    "bedetheque": "serie-55081-BD-Sherlock-Moffat-Jay.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "En cours",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "shiita-et-la-foret-des-minuscules",
+   "titre": "Shiita et la forêt des minuscules",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "age": "8-10",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Shiita-et-la-foret-des-minuscules"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2024
+   }
+  },
+  {
+   "id": "shirayuki-aux-cheveux-rouges",
+   "titre": "Shirayuki aux cheveux rouges",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Shirayuki-aux-cheveux-rouges",
+    "bedetheque": "serie-31525-BD-Shirayuki-aux-cheveux-rouges.html"
+   },
+   "ancien": {
+    "total": 24,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "show-ha-shoten",
+   "titre": "Show-ha Shoten !",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "shugo-chara",
+   "titre": "Shugo Chara !",
+   "genre": "Shojo",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Shugo-Chara",
+    "bedetheque": "serie-20344-BD-Shugo-Chara.html"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "silence",
+   "titre": "Silence",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "silver-spoon",
+   "titre": "Silver Spoon",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Silver-Spoon-La-cuillere-dargent",
+    "bedetheque": "serie-37505-BD-Silver-Spoon.html"
+   },
+   "ancien": {
+    "total": 15,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "sin-city",
+   "titre": "Sin City",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-320-BD-Sin-City.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2001
+   }
+  },
+  {
+   "id": "sixteen-life",
+   "titre": "Sixteen Life",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sixteen-life",
+    "bedetheque": "serie-42230-BD-Sixteen-life-16-life.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "sk8r-s",
+   "titre": "SK8R'S",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sk8rs",
+    "bedetheque": "serie-53886-BD-Sk8r-s.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "skull-dragon-s-precious-daughter",
+   "titre": "Skull dragon's precious daughter",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Enfant-du-dragon-fantome",
+    "bedetheque": "serie-75076-BD-Enfant-du-Dragon-fantome.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "sky-wars",
+   "titre": "Sky wars",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sky-Wars",
+    "bedetheque": "serie-65978-BD-Sky-Wars.html"
+   },
+   "ancien": {
+    "total": 8,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "slam-dunk",
+   "titre": "Slam Dunk",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Slam-dunk",
+    "bedetheque": "serie-5264-BD-Slam-Dunk.html"
+   },
+   "ancien": {
+    "total": 31,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "snack-world",
+   "titre": "Snack world",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Snack-World"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "solanin",
+   "titre": "Solanin",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Solanin",
+    "bedetheque": "serie-16842-BD-Solanin.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "solo",
+   "titre": "Solo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "solo-cycle-1",
+   "titre": "Solo cycle 1",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "total": 5,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "solo-leveling",
+   "titre": "Solo leveling",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Solo-Leveling",
+    "bedetheque": "serie-74398-BD-Solo-Leveling.html"
+   },
+   "ancien": {
+    "total": 12,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "soloist-in-a-cage",
+   "titre": "Soloist in a cage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "somali-et-l-esprit-de-la-foret",
+   "titre": "Somali et l'esprit de la forêt",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Somali-et-lesprit-de-la-foret",
+    "bedetheque": "serie-55044-BD-Somali-et-l-esprit-de-la-foret.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "En cours",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "soul-eater",
+   "titre": "Soul Eater",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Soul-Eater",
+    "bedetheque": "serie-20165-BD-Soul-Eater.html"
+   },
+   "ancien": {
+    "total": 25,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "sounds-of-life",
+   "titre": "Sounds of life",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "spider-man",
+   "titre": "Spider-Man",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "splatoon",
+   "titre": "Splatoon",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Splatoon",
+    "bedetheque": "serie-58439-BD-Splatoon.html"
+   },
+   "ancien": {
+    "total": 16,
+    "etat": "En cours",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "spy-x-family",
+   "titre": "Spy x Family",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Spy-X-Family",
+    "bedetheque": "serie-71084-BD-Spy-x-Family.html"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "star-wars-etoiles-perdues",
+   "titre": "Star Wars : étoiles perdues",
+   "genre": "Shonen",
+   "public": "Ado",
+   "age": "12",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Star-Wars-Etoiles-Perdues",
+    "bedetheque": "serie-79360-BD-Star-Wars-Etoiles-perdues.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "star-wars-rebels",
+   "titre": "Star Wars Rebels",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "steel-ball-run",
+   "titre": "Steel ball run",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "street-fighting-cat",
+   "titre": "Street fighting cat",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Street-Fighting-Cat",
+    "bedetheque": "serie-57305-BD-Street-Fighting-Cat.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "suicide-squad-rebirth",
+   "titre": "Suicide squad rebirth",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-56919-BD-Suicide-Squad-Rebirth.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "super-mario-manga-adventures",
+   "titre": "Super Mario-Manga Adventures",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "superman-aventures",
+   "titre": "Superman aventures",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "sweet-tooth",
+   "titre": "Sweet tooth",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-50124-BD-Sweet-Tooth.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "sword-art-online-aincrad",
+   "titre": "Sword art online : Aincrad",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Sword-Art-Online-Aincrad",
+    "bedetheque": "serie-45207-BD-Sword-Art-Online-Aincrad.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "tales-of-destiny",
+   "titre": "Tales of destiny",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tales-of-Destiny",
+    "bedetheque": "serie-25097-BD-Tales-of-Destiny.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "tales-of-symphonia",
+   "titre": "Tales of symphonia",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tales-of-Symphonia",
+    "bedetheque": "serie-20246-BD-Tales-of-Symphonia.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "talli-fille-de-la-lune",
+   "titre": "Talli, fille de la lune",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "team-phoenix",
+   "titre": "Team Phoenix",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "tenjin-le-dieu-du-ciel",
+   "titre": "Tenjin Le dieu du ciel",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tenjin",
+    "bedetheque": "serie-57166-BD-Tenjin.html"
+   },
+   "ancien": {
+    "total": 13,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "tenor-saxophone-miyamoto-dai-blue-giant",
+   "titre": "Tenor saxophone, Miyamoto Dai : Blue giant",
+   "genre": "Autre",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-61415-BD-Blue-Giant.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "terra-formars",
+   "titre": "Terra Formars",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Terra-Formars",
+    "bedetheque": "serie-37362-BD-Terra-formars.html"
+   },
+   "ancien": {
+    "total": 22,
+    "etat": "En cours",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "terrarium",
+   "titre": "Terrarium",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Terrarium",
+    "bedetheque": "serie-75182-BD-Terrarium.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "the-arms-peddler",
+   "titre": "The arms peddler",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/The-Arms-Peddler",
+    "bedetheque": "serie-32194-BD-Arms-Peddler.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "En cours",
+    "annee": 2015
+   }
+  },
+  {
+   "id": "the-bugle-call",
+   "titre": "The Bugle Call",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "the-earl-and-the-fairy",
+   "titre": "The Earl and the Fairy",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/The-earl-and-the-fairy",
+    "bedetheque": "serie-36463-BD-Earl-and-the-Fairy.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2013
+   }
+  },
+  {
+   "id": "the-elusive-samurai",
+   "titre": "The elusive samurai",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "the-faraway-paladin",
+   "titre": "The Faraway Paladin",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "the-ghost-in-the-shell",
+   "titre": "The ghost in the shell",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Ghost-in-the-shell-Perfect-Edition",
+    "bedetheque": "serie-36463-BD-Earl-and-the-Fairy.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "the-ichinose-family-s-deadly-sins",
+   "titre": "The Ichinose family's deadly sins",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "the-labyrinth-of-magic-magi",
+   "titre": "The labyrinth of magic : MAGI",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Magi-The-Labyrinth-of-Magic",
+    "bedetheque": "serie-29024-BD-Magi-The-labyrinth-of-magic.html"
+   },
+   "ancien": {
+    "total": 37,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "the-legend-of-zelda-twilight-princess",
+   "titre": "The Legend of Zelda - Twilight Princess",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "age": "10-12",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/The-Legend-of-Zelda-Twilight-Princess"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "Terminée",
+    "annee": 2023
+   }
+  },
+  {
+   "id": "the-nice-house-on-the-lake",
+   "titre": "The nice house on the lake",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "the-one",
+   "titre": "The one",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "the-promised-neverland",
+   "titre": "The promised Neverland",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/The-Promised-Neverland",
+    "bedetheque": "serie-60827-BD-Promised-Neverland.html"
+   },
+   "ancien": {
+    "total": 20,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "the-sound-of-my-soul",
+   "titre": "The sound of my soul",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "the-summer-hikaru-died",
+   "titre": "The Summer Hikaru Died",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "the-unexpected-goddess",
+   "titre": "The Unexpected Goddess",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "the-unwritten",
+   "titre": "The unwritten",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-27069-BD-Unwritten-Entre-les-lignes.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "the-witch-and-the-beast",
+   "titre": "The Witch and the Beast",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/The-Witch-and-the-Beast",
+    "bedetheque": "serie-75270-BD-Witch-and-the-Beast.html"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "thermae-romae",
+   "titre": "Thermae Romae",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Thermae-Romae",
+    "bedetheque": "serie-32800-BD-Thermae-Romae.html"
+   },
+   "ancien": {
+    "total": 6,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "timing",
+   "titre": "Timing",
+   "genre": "Manhwa",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Timing",
+    "bedetheque": "serie-18568-BD-Timing.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2008
+   }
+  },
+  {
+   "id": "today-s-burger",
+   "titre": "Today's Burger",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "total": 2
+   }
+  },
+  {
+   "id": "toilet-bound-hanako-kun",
+   "titre": "Toilet-bound Hanako-Kun",
+   "genre": "Shonen",
+   "public": "Ado",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Toilet-bound-Hanako-kun"
+   },
+   "ancien": {
+    "total": 22,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "tokyo-ghost",
+   "titre": "Tokyo ghost",
+   "genre": "Autre",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-52120-BD-Tokyo-Ghost-Remender-Murphy.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2006
+   }
+  },
+  {
+   "id": "tokyo-ghoul",
+   "titre": "Tokyo Ghoul",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tokyo-ghoul",
+    "bedetheque": "serie-40443-BD-Tokyo-Ghoul.html"
+   },
+   "ancien": {
+    "total": 14,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "tokyo-revengers",
+   "titre": "Tokyo revengers",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tokyo-toybox",
+   "titre": "Tokyo toybox",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tokyo-Toy-Box",
+    "bedetheque": "serie-18920-BD-Tokyo-Toybox.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2008
+   }
+  },
+  {
+   "id": "tokyo-ces-jours-ci",
+   "titre": "Tokyo, ces jours-ci",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "toriko",
+   "titre": "Toriko",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Toriko",
+    "bedetheque": "serie-30533-BD-Toriko.html"
+   },
+   "ancien": {
+    "total": 43,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "toto",
+   "titre": "Toto !",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Toto-the-wonderful-adventure",
+    "bedetheque": "serie-15983-BD-Toto-The-wonderful-adventure.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2008
+   }
+  },
+  {
+   "id": "trait-pour-trait-dessine-et-tais-toi",
+   "titre": "Trait pour trait : dessine et tais-toi !",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "trillion-game",
+   "titre": "Trillion game",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tsubasa",
+   "titre": "Tsubasa",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "liens": {
+    "mangaNews": "index.php/serie/Tsubasa",
+    "bedetheque": "serie-7935-BD-Tsubasa-Les-ailes-d-argent.html"
+   },
+   "ancien": {
+    "total": 1,
+    "etat": "Terminée",
+    "annee": 2003
+   }
+  },
+  {
+   "id": "tsugai-daemons-of-the-shadow-realm",
+   "titre": "Tsugai - Daemons of the Shadow Realm",
+   "genre": "Kodomo",
+   "public": "Ado",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tsugai-Daemons-of-the-Shadow-Realm"
+   },
+   "ancien": {
+    "total": 7,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "tsukasa-hojo-recueil",
+   "titre": "Tsukasa Hojo recueil.",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-5266-BD-Tsukasa-Hojo-recueil.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée"
+   }
+  },
+  {
+   "id": "tsukihime",
+   "titre": "Tsukihime",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tsukihime",
+    "bedetheque": "serie-14085-BD-Tsukihime.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "tsuru-princesse-des-mers",
+   "titre": "Tsuru princesse des mers",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Tsuru-princesse-des-mers",
+    "bedetheque": "serie-10275-BD-Tsuru-princesse-des-mers.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2005
+   }
+  },
+  {
+   "id": "twinkle-stars-le-chant-des-etoiles",
+   "titre": "Twinkle stars : le chant des etoiles",
+   "genre": "Shojo",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Twinkle-Star",
+    "bedetheque": "serie-20516-BD-Twinkle-Stars-Le-chant-des-etoiles.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "twisted-wonderland-la-maison-heartslabyul",
+   "titre": "Twisted-Wonderland. La Maison Heartslabyul",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "two-f-aced-tamon",
+   "titre": "Two F/aced Tamon",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ultimates",
+   "titre": "Ultimates",
+   "genre": "Comics",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-4543-BD-Ultimates.html"
+   },
+   "ancien": {
+    "total": 43,
+    "etat": "Terminée",
+    "annee": 2009
+   }
+  },
+  {
+   "id": "umbrella-academy",
+   "titre": "Umbrella academy",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "bedetheque": "serie-20075-BD-Umbrella-Academy.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "un-drole-de-pere",
+   "titre": "Un Drôle de père",
+   "genre": "Josei",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Drole-de-Pere-un",
+    "bedetheque": "serie-18939-BD-Un-drole-de-pere.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "un-pont-entre-les-etoiles",
+   "titre": "Un pont entre les étoiles",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "un-second-au-revoir",
+   "titre": "Un second au revoir",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "12+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Un-second-au-revoir"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "Terminée",
+    "annee": 2024
+   }
+  },
+  {
+   "id": "underwater-le-village-immerge",
+   "titre": "Underwater - Le village immergé",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Underwater-Un-village-immerge",
+    "bedetheque": "serie-50448-BD-Underwater-Le-Village-immerge.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "une-fille-atypique",
+   "titre": "Une fille atypique",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Fille-atypique-une"
+   },
+   "ancien": {
+    "total": 9,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "une-sacree-mamie",
+   "titre": "Une Sacrée mamie",
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Une-sacree-mamie",
+    "bedetheque": "serie-20584-BD-Une-sacree-mamie.html"
+   },
+   "ancien": {
+    "total": 11,
+    "etat": "Terminée",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "une-vie-dans-les-marges",
+   "titre": "Une vie dans les marges",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Vie-Dans-les-Marges-une",
+    "bedetheque": "serie-27577-BD-Une-vie-dans-les-marges.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2011
+   }
+  },
+  {
+   "id": "unico",
+   "titre": "Unico",
+   "genre": "Shojo",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Unico-la-petite-licorne",
+    "bedetheque": "serie-11334-BD-Unico.html"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "Terminée",
+    "annee": 2005
+   }
+  },
+  {
+   "id": "usagi-yojimbo",
+   "titre": "Usagi Yojimbo",
+   "genre": "Autre Manga",
+   "public": "Ado",
+   "age": "12",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Usagi-Yojimbo",
+    "bedetheque": "serie-2235-BD-Usagi-Yojimbo.html"
+   },
+   "ancien": {
+    "total": 30,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "vagabond",
+   "titre": "Vagabond",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Vagabond",
+    "bedetheque": "serie-5996-BD-Vagabond.html"
+   },
+   "ancien": {
+    "total": 34,
+    "etat": "En cours",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "vampire-knight-edition-double",
+   "titre": "Vampire knight : edition double",
+   "genre": "Shojo",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Vampire-Knight",
+    "bedetheque": "serie-15620-BD-Vampire-Knight.html"
+   },
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2018
+   }
+  },
+  {
+   "id": "venom",
+   "titre": "Venom",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "versus",
+   "titre": "Versus",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 11,
+    "etat": "En cours",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "vinland-saga",
+   "titre": "Vinland saga",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Vinland-Saga",
+    "bedetheque": "serie-19763-BD-Vinland-Saga.html"
+   },
+   "ancien": {
+    "total": 23,
+    "etat": "En cours",
+    "annee": 2022
+   }
+  },
+  {
+   "id": "wakfu-la-grande-vague",
+   "titre": "Wakfu, La Grande Vague",
+   "genre": "Global-Manga",
+   "public": "Ado",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Wakfu-La-Grande-Vague"
+   },
+   "ancien": {
+    "total": 2,
+    "etat": "En cours",
+    "annee": 2025
+   }
+  },
+  {
+   "id": "walking-dead",
+   "titre": "Walking dead",
+   "genre": "Autre",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "total": 33,
+    "etat": "Terminée",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "walking-dead-clementine",
+   "titre": "Walking dead : Clementine",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "wet-moon",
+   "titre": "Wet moon",
+   "genre": "Seinen",
+   "public": "Ado",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Wet-moon",
+    "bedetheque": "serie-41546-BD-Wet-Moon.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "wind-breaker",
+   "titre": "Wind breaker",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "wonder-woman-rebirth",
+   "titre": "Wonder Woman rebirth",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "total": 7,
+    "etat": "Terminée",
+    "annee": 2019
+   }
+  },
+  {
+   "id": "world-war-wolves",
+   "titre": "World war wolves",
+   "genre": "Autre",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "total": 3,
+    "etat": "En cours",
+    "annee": 2016
+   }
+  },
+  {
+   "id": "wynd",
+   "titre": "Wynd",
+   "public": "Adulte",
+   "type": "Série",
+   "ancien": {
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "y-le-dernier-homme",
+   "titre": "Y, le dernier homme",
+   "genre": "Autre",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ancien": {
+    "total": 10,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "yaiba",
+   "titre": "Yaiba",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Yaiba",
+    "bedetheque": "serie-13151-BD-Yaiba.html"
+   },
+   "ancien": {
+    "total": 24,
+    "etat": "Terminée",
+    "annee": 2012
+   }
+  },
+  {
+   "id": "yakitate-ja-pan-un-pain-c-est-tout",
+   "titre": "Yakitate Ja-pan !! : Un pain c'est tout",
+   "genre": "Shonen",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Yakitate-Ja-pan-Un-pain-cest-tout",
+    "bedetheque": "serie-12735-BD-Yakitate-Ja-pan-Un-pain-c-est-tout.html"
+   },
+   "ancien": {
+    "total": 26,
+    "etat": "Terminée",
+    "annee": 2010
+   }
+  },
+  {
+   "id": "yako-et-poko",
+   "titre": "Yako et Poko",
+   "genre": "Josei",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Yako-et-Poko",
+    "bedetheque": "serie-51792-BD-Yako-et-Poko.html"
+   },
+   "ancien": {
+    "total": 4,
+    "etat": "En cours",
+    "annee": 2020
+   }
+  },
+  {
+   "id": "yamada-kun-the-7-witches",
+   "titre": "Yamada kun & the 7 witches",
+   "genre": "Shonen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Yamada-Kun-the-7-witches",
+    "bedetheque": "serie-47970-BD-Yamada-kun-the-7-Witches.html"
+   },
+   "ancien": {
+    "total": 27,
+    "etat": "En cours",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "yan",
+   "titre": "Yan",
+   "genre": "Manhua",
+   "public": "Adulte",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Yan"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2024
+   }
+  },
+  {
+   "id": "yo-kai-watch",
+   "titre": "Yo-kai watch",
+   "public": "Jeunesse",
+   "age": "6",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Yokai-Watch",
+    "bedetheque": "serie-55074-BD-Yo-Kai-watch.html"
+   },
+   "ancien": {
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "yokai-war-guardians",
+   "titre": "Yôkai War - Guardians",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ancien": {
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "yon",
+   "titre": "Yon",
+   "public": "Ado",
+   "type": "Série",
+   "ancien": {
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "yoshi-s-new-island",
+   "titre": "Yoshi's new island",
+   "genre": "Kodomo",
+   "public": "Jeunesse",
+   "age": "8-10",
+   "type": "One shot",
+   "liens": {
+    "mangaNews": "index.php/serie/Yoshis-New-Island",
+    "bedetheque": "serie-75366-BD-Yoshi-s-new-island.html"
+   },
+   "ancien": {
+    "total": 1,
+    "etat": "Terminée",
+    "annee": 2021
+   }
+  },
+  {
+   "id": "yotsuba",
+   "titre": "Yotsuba",
+   "alias": [
+    "Yotsuba & !"
+   ],
+   "genre": "Seinen",
+   "public": "Jeunesse",
+   "age": "14+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Yotsuba",
+    "bedetheque": "serie-13941-BD-Yotsuba.html"
+   },
+   "ancien": {
+    "total": 15,
+    "etat": "En cours",
+    "annee": 2023
+   }
+  },
+  {
+   "id": "your-lie-in-april",
+   "titre": "Your lie in april",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Your-lie-in-april",
+    "bedetheque": "serie-48379-BD-Your-Lie-in-April.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "your-name",
+   "titre": "Your name",
+   "genre": "Seinen",
+   "public": "Adulte",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Your-Name",
+    "bedetheque": "serie-57179-BD-Your-Name.html"
+   },
+   "ancien": {
+    "total": 3,
+    "etat": "Terminée",
+    "annee": 2017
+   }
+  },
+  {
+   "id": "yu-gi-oh",
+   "titre": "Yu-Gi-Oh !",
+   "genre": "Shonen",
+   "public": "Ado",
+   "age": "10+",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Yu-Gi-Oh"
+   },
+   "ancien": {
+    "total": 38,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "yuzu-la-petite-veterinaire",
+   "titre": "Yuzu, la petite vétérinaire",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ancien": {
+    "etat": "En cours"
+   }
+  },
+  {
+   "id": "zero-pour-l-eternite",
+   "titre": "Zéro pour l'éternité",
+   "genre": "Seinen",
+   "public": "Ado",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Zero-pour-l-eternite",
+    "bedetheque": "serie-36562-BD-Zero-pour-l-eternite.html"
+   },
+   "ancien": {
+    "total": 5,
+    "etat": "Terminée",
+    "annee": 2014
+   }
+  },
+  {
+   "id": "zita-la-fille-de-l-espace",
+   "titre": "Zita, la fille de l'espace",
+   "genre": "Autre",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "zozo-zombie",
+   "titre": "Zozo zombie",
+   "public": "Jeunesse",
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Zo-Zo-Zo-Zombie-kun",
+    "bedetheque": "serie-67483-BD-Zozo-Zombie.html"
+   },
+   "ancien": {
+    "etat": "En cours"
+   }
+  }
+ ]
+}

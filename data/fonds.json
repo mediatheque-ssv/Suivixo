@@ -1,0 +1,8824 @@
+{
+ "import": {
+  "date": "2025-09-19",
+  "source": "Ancien classeur Excel (onglet MajReseau)",
+  "exemplaires": 4296
+ },
+ "bibliotheques": [
+  "Chateaugiron",
+  "Domloup",
+  "Noyal-sur-Vilaine",
+  "Ossé",
+  "Piré-Chancé",
+  "Servon-sur-Vilaine",
+  "St-Aubin du Pavail"
+ ],
+ "series": {
+  "300-jours-avec-toi": {
+   "titreOrphee": "300 jours avec toi",
+   "editeur": "",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2
+    ]
+   }
+  },
+  "5-minutes-forward": {
+   "titreOrphee": "5 minutes forward",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "a-l-image-de-mona-lisa": {
+   "titreOrphee": "A l'image de Mona Lisa",
+   "editeur": "Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "a-silent-voice": {
+   "titreOrphee": "A silent voice",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "alice-in-borderland": {
+   "titreOrphee": "Alice in Borderland",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  },
+  "all-out": {
+   "titreOrphee": "All Out!!",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "all-you-need-is-kill": {
+   "titreOrphee": "All you need is kill",
+   "editeur": "Kazé",
+   "tomes": {
+    "Ossé": [
+     1,
+     2
+    ]
+   }
+  },
+  "amatsuki": {
+   "titreOrphee": "Amatsuki",
+   "editeur": "Kazé",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "amour-sucre": {
+   "titreOrphee": "Amour sucré",
+   "editeur": "Akiléos",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   }
+  },
+  "ao-ashi-playmaker": {
+   "titreOrphee": "Ao Ashi playmaker",
+   "editeur": "Mangetsu",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   }
+  },
+  "appare-ranman": {
+   "titreOrphee": "Appare Ranman!",
+   "editeur": "Bamboo",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "aria-the-masterpiece": {
+   "titreOrphee": "Aria The Masterpiece",
+   "editeur": "Editons Ki-oon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "aromantic-love-story": {
+   "titreOrphee": "Aromantic (love) story",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "asadora": {
+   "titreOrphee": "Asadora!",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "ascension": {
+   "titreOrphee": "Ascension",
+   "editeur": "Delcourt\r\nImpr. Aubin\r\nDelcourt",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   }
+  },
+  "assassination-classroom": {
+   "titreOrphee": "Assassination classroom",
+   "editeur": "Kana\r\nImpr. Maury",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     13,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Domloup",
+     "tome": 21,
+     "statut": "Perdu",
+     "cote": "MA  ASS"
+    }
+   ]
+  },
+  "astra-lost-in-space": {
+   "titreOrphee": "Astra : lost in space",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "bakuman": {
+   "titreOrphee": "Bakuman",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     6
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ],
+    "Domloup": [
+     6
+    ]
+   }
+  },
+  "banana-sioule": {
+   "titreOrphee": "Banana sioule",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "battle-game-in-5-seconds": {
+   "titreOrphee": "Battle game in 5 seconds",
+   "editeur": "Bamboo",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   }
+  },
+  "bd-entre-ciel-et-terre": {
+   "titreOrphee": "BD Entre ciel et terre",
+   "editeur": "Cambourakis",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "bienvenue-au-club": {
+   "titreOrphee": "Bienvenue au club",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "black-butler": {
+   "titreOrphee": "Black Butler",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Domloup",
+     "tome": 1,
+     "statut": "Hors service",
+     "cote": "BDM TOB t1"
+    }
+   ]
+  },
+  "black-torch": {
+   "titreOrphee": "Black torch",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "bleach": {
+   "titreOrphee": "Bleach",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47
+    ]
+   }
+  },
+  "blissful-land": {
+   "titreOrphee": "Blissful Land",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "blood-lad": {
+   "titreOrphee": "Blood lad",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "bloody-cross": {
+   "titreOrphee": "Bloody Cross",
+   "editeur": "Ki-oon\r\nCPI Aubin impr.",
+   "tomes": {
+    "Domloup": [
+     1,
+     2
+    ]
+   }
+  },
+  "bloom-into-you": {
+   "titreOrphee": "Bloom into you",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "tenor-saxophone-miyamoto-dai-blue-giant": {
+   "titreOrphee": "Tenor saxophone, Miyamoto Dai",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "blue-period": {
+   "titreOrphee": "Blue period",
+   "editeur": "Pika",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "blue-summer": {
+   "titreOrphee": "Blue summer",
+   "editeur": "Boy's love",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "bride-stories": {
+   "titreOrphee": "Bride stories",
+   "editeur": "Kaoru Mori",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     14,
+     15
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Ossé",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD MOR T1"
+    }
+   ]
+  },
+  "brigade-d-outre-tombe": {
+   "titreOrphee": "Brigade d'outre-tombe",
+   "editeur": "Editions H2T",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     3
+    ]
+   }
+  },
+  "capitaine-albator": {
+   "titreOrphee": "Capitaine Albator",
+   "editeur": "Big Kana",
+   "tomes": {
+    "Ossé": [
+     1,
+     2
+    ]
+   }
+  },
+  "cat-s-ai": {
+   "titreOrphee": "Cat's Aï",
+   "editeur": "Panini manga",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "chacun-ses-gouts": {
+   "titreOrphee": "Chacun ses goûts",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "chainsaw-man": {
+   "titreOrphee": "Chainsaw Man",
+   "editeur": "Kazé Editions",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "chasse-au-cadavre": {
+   "titreOrphee": "Chasse au cadavre",
+   "editeur": "Casterman",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "chroniques-de-la-mariee-de-bretagne": {
+   "titreOrphee": "Chroniques de la mariée de Bretagne",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "chronoctis-express": {
+   "titreOrphee": "Chronoctis express",
+   "editeur": "Kotoji",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "cicatrices": {
+   "titreOrphee": "Cicatrices",
+   "editeur": "Vega-Dupuis",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "city-hall": {
+   "titreOrphee": "City Hall",
+   "editeur": "Ankama",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "classroom-of-the-elite": {
+   "titreOrphee": "Classroom of the elite",
+   "editeur": "Mahô éditions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "colocataires-a-leur-maniere": {
+   "titreOrphee": "Colocataires à leur manière",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "comme-les-autres": {
+   "titreOrphee": "Comme les autres",
+   "editeur": "Kana",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "country-diary": {
+   "titreOrphee": "Country diary",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   }
+  },
+  "daisy": {
+   "titreOrphee": "Daisy",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "dandadan": {
+   "titreOrphee": "Dandadan",
+   "editeur": "Crunchyroll",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "dark-souls-redemption": {
+   "titreOrphee": "Dark Souls Redemption",
+   "editeur": "Mana books",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "darwin-s-game": {
+   "titreOrphee": "Darwin's game",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   }
+  },
+  "death-note": {
+   "titreOrphee": "Death note",
+   "editeur": "Kana",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "death-note-black-edition": {
+   "titreOrphee": "Death note - black edition",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "demande-a-modigliani": {
+   "titreOrphee": "Demande à Modigliani !",
+   "editeur": "Naban",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "demon-tune": {
+   "titreOrphee": "Demon tune",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "desert-9": {
+   "titreOrphee": "Desert 9",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "dreamland": {
+   "titreOrphee": "Dreamland",
+   "editeur": "Pika",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "durarara": {
+   "titreOrphee": "Durarara !!",
+   "editeur": "Ofelbe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "edens-zero": {
+   "titreOrphee": "Edens Zero",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ]
+   }
+  },
+  "elden-ring-le-chemin-vers-l-arbre-monde": {
+   "titreOrphee": "Elden Ring : Le chemin vers l'Arbre-Monde",
+   "editeur": "Mana books",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "entre-deux": {
+   "titreOrphee": "Entre deux",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "eyeshield-21": {
+   "titreOrphee": "Eyeshield 21",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   }
+  },
+  "fairy-tail": {
+   "titreOrphee": "Fairy Tail",
+   "editeur": "Pika",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     15,
+     30,
+     36,
+     37,
+     50
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     53,
+     54,
+     55,
+     56,
+     57
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63
+    ],
+    "Domloup": [
+     1,
+     2,
+     4,
+     13,
+     18,
+     30
+    ]
+   }
+  },
+  "flying-witch": {
+   "titreOrphee": "Flying witch",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "food-wars": {
+   "titreOrphee": "Food wars",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "four-knights-of-the-apocalypse": {
+   "titreOrphee": "Four knights of the Apocalypse",
+   "editeur": "Pika",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "fruits-basket": {
+   "titreOrphee": "Fruits basket",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Domloup",
+     "tome": 1,
+     "statut": "Hors service",
+     "cote": "BDM TAK t1"
+    },
+    {
+     "bib": "Domloup",
+     "tome": 2,
+     "statut": "Hors service",
+     "cote": "BDM TAK t2"
+    }
+   ]
+  },
+  "fullmetal-alchemist": {
+   "titreOrphee": "Fullmetal Alchemist",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   }
+  },
+  "geobreeders": {
+   "titreOrphee": "Geobreeders",
+   "editeur": "Bamboo\r\nDoki Doki",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "goodnight-i-love-you": {
+   "titreOrphee": "Goodnight, I love you...",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "gto-shonan-14-days": {
+   "titreOrphee": "GTO : Shonan 14 days",
+   "editeur": "Pika",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "hajime-teddy-riner-l-ascension-d-une-legende": {
+   "titreOrphee": "Hajime ! Teddy Riner, l'ascension d'une légende",
+   "editeur": "Pika Edition",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   }
+  },
+  "hikaru-no-go": {
+   "titreOrphee": "Hikaru no go",
+   "editeur": "Tonkam",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "hip-hop": {
+   "titreOrphee": "Hip Hop",
+   "editeur": "Milan",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "hunter-x-hunter": {
+   "titreOrphee": "Hunter X hunter",
+   "editeur": "Dargaud",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     26,
+     27
+    ],
+    "Ossé": [
+     1,
+     2,
+     5
+    ],
+    "Piré-Chancé": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "isabella-bird-femme-exploratrice": {
+   "titreOrphee": "Isabella Bird : femme exploratrice",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "jimbocho-sisters": {
+   "titreOrphee": "Jimbôchô sisters",
+   "editeur": "Mangetsu",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   }
+  },
+  "journal-d-une-fangirl": {
+   "titreOrphee": "Journal d'une fangirl",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "judge": {
+   "titreOrphee": "Judge",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "jumping": {
+   "titreOrphee": "Jumping",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "kaiju-no-8": {
+   "titreOrphee": "Kaiju No 8",
+   "editeur": "Kazé Manga",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "kamisama": {
+   "titreOrphee": "Kamisama",
+   "editeur": "Ki-oon kids\r\nKi-oon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "kemono-incidents": {
+   "titreOrphee": "Kemono incidents",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Noyal-sur-Vilaine",
+     "tome": 3,
+     "statut": "Perdu",
+     "cote": "BD AIM"
+    }
+   ]
+  },
+  "ken-en-comme-chien-et-singe": {
+   "titreOrphee": "KEN'EN comme chien et singe",
+   "editeur": "Bamboo\r\nDoki Doki",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "king-s-game-extreme": {
+   "titreOrphee": "King's game extreme",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "komi-cherche-ses-mots": {
+   "titreOrphee": "Komi cherche ses mots",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   }
+  },
+  "amour-est-au-menu": {
+   "titreOrphee": "L'amour est au menu",
+   "editeur": "Akata",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "amour-est-dans-le-the": {
+   "titreOrphee": "L'Amour est dans le Thé",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "arcane-de-l-aube": {
+   "titreOrphee": "L'arcane de l'aube",
+   "editeur": "Kaze Manga",
+   "tomes": {},
+   "retires": [
+    {
+     "bib": "Ossé",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD TOM T1"
+    }
+   ]
+  },
+  "atelier-des-sorciers": {
+   "titreOrphee": "L'atelier des sorciers",
+   "editeur": "Pika",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     13
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Noyal-sur-Vilaine",
+     "tome": 8,
+     "statut": "Remplacement, rachat",
+     "cote": "BD SHI"
+    },
+    {
+     "bib": "Noyal-sur-Vilaine",
+     "tome": 9,
+     "statut": "Remplacement, rachat",
+     "cote": "BD SHI"
+    }
+   ]
+  },
+  "attaque-des-titans": {
+   "titreOrphee": "L'attaque des titans",
+   "editeur": "Pika",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ]
+   }
+  },
+  "attaque-des-titans-before-the-fall": {
+   "titreOrphee": "L'attaque des titans - Before the fall",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "enfant-du-dragon-fantome": {
+   "titreOrphee": "L'enfant du dragon fantôme",
+   "editeur": "Komikku",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "enfant-et-le-maudit-siuil-a-run": {
+   "titreOrphee": "L'enfant et le maudit",
+   "editeur": "Komikku",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  "oiseau-d-or-de-kainis": {
+   "titreOrphee": "L'oiseau d'or de Kainis",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "foret-de-miyori": {
+   "titreOrphee": "La Forêt de Miyori",
+   "editeur": "Milan",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "foret-magique-de-hoshigahara": {
+   "titreOrphee": "La forêt magique de Hoshigahara",
+   "editeur": "Rue de Sèvres",
+   "tomes": {
+    "Ossé": [
+     1
+    ],
+    "Domloup": [
+     1,
+     2
+    ]
+   }
+  },
+  "gameuse-et-son-chat": {
+   "titreOrphee": "La gameuse et son chat",
+   "editeur": "Bamboo Editions",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "vie-de-bouddha": {
+   "titreOrphee": "La vie de Bouddha",
+   "editeur": "Tonkam",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "last-man": {
+   "titreOrphee": "Last Man",
+   "editeur": "La Poule qui pond",
+   "tomes": {
+    "Domloup": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "prix-du-reste-de-ma-vie": {
+   "titreOrphee": "Le prix du reste de ma vie",
+   "editeur": "Editions Delcourt",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "garcon-et-la-bete": {
+   "titreOrphee": "Le garçon et la bête",
+   "editeur": "Kaze Manga\r\nKazé",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "gros-chat-et-la-sorciere-grincheuse": {
+   "titreOrphee": "Le gros chat et la sorcière grincheuse",
+   "editeur": "Bamboo Editions",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "maitre-des-livres": {
+   "titreOrphee": "Le maître des livres",
+   "editeur": "Komikku",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "mari-de-mon-frere": {
+   "titreOrphee": "Le mari de mon frère",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "monde-dans-leurs-yeux": {
+   "titreOrphee": "Le monde dans leurs yeux",
+   "editeur": "Vega-Dupuis",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "palais-des-assassins": {
+   "titreOrphee": "Le palais des assassins",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "peche-originel-de-takopi": {
+   "titreOrphee": "Le péché originel de Takopi",
+   "editeur": "Pika",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2
+    ]
+   }
+  },
+  "tigre-des-neiges": {
+   "titreOrphee": "Le tigre des neiges",
+   "editeur": "le Lézard noir",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "voleur-d-estampes": {
+   "titreOrphee": "Le voleur d'estampes",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ],
+    "St-Aubin du Pavail": [
+     1,
+     2
+    ],
+    "Piré-Chancé": [
+     1,
+     2
+    ],
+    "Domloup": [
+     1,
+     2
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "carnets-de-l-apothicaire": {
+   "titreOrphee": "Les carnets de l'apothicaire",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "enfants-de-gorre": {
+   "titreOrphee": "Les enfants de Gorre",
+   "editeur": "Mahô éditions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "enfants-de-la-mer": {
+   "titreOrphee": "Les enfants de la mer",
+   "editeur": "Sarbacane",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   }
+  },
+  "gouttes-de-dieu": {
+   "titreOrphee": "Les Gouttes de Dieu",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Domloup": [
+     1
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "sorcieres-de-la-fin-du-monde": {
+   "titreOrphee": "Les sorcières de la fin du monde",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "loin-de-moi-pres-de-toi": {
+   "titreOrphee": "Loin de moi, près de toi",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "luca-veterinaire-draconique": {
+   "titreOrphee": "Luca, vétérinaire draconique",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "ma-vie-dans-les-bois": {
+   "titreOrphee": "Ma vie dans les bois",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     8,
+     9,
+     10
+    ],
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "made-in-abyss": {
+   "titreOrphee": "Made in Abyss",
+   "editeur": "Ototo",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "magus-of-the-library": {
+   "titreOrphee": "Magus of the library",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "mai-ball-feminine-football-team": {
+   "titreOrphee": "Mai ball! : feminine football team",
+   "editeur": "Ototo",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "malicious-code": {
+   "titreOrphee": "Malicious Code",
+   "editeur": "Komikku",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "manga-arsene-lupin": {
+   "titreOrphee": "Manga Arsène Lupin",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "manga-les-miserables": {
+   "titreOrphee": "Manga Les Misérables",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "mashle": {
+   "titreOrphee": "Mashle",
+   "editeur": "Crunchyroll",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   }
+  },
+  "maux-meles": {
+   "titreOrphee": "Maux mêlés",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "mes-cent-contes-mortels": {
+   "titreOrphee": "Mes cent contes mortels",
+   "editeur": "Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "mob-psycho-100": {
+   "titreOrphee": "Mob Psycho 100",
+   "editeur": "Kurokawa",
+   "tomes": {},
+   "retires": [
+    {
+     "bib": "Chateaugiron",
+     "tome": 2,
+     "statut": "Perdu",
+     "cote": "BDA MOB"
+    }
+   ]
+  },
+  "monster": {
+   "titreOrphee": "Monster",
+   "editeur": "Dargaud",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "my-love-story-with-yamada-kun-at-lvl999": {
+   "titreOrphee": "My love story with Yamada-kun at LVL999",
+   "editeur": "Mana books",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "nana": {
+   "titreOrphee": "Nana",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   }
+  },
+  "nekogahara": {
+   "titreOrphee": "Nekogahara",
+   "editeur": "Pika",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "ningyo": {
+   "titreOrphee": "Ningyo",
+   "editeur": "Glénat",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "nos-c-h-oeurs-evanescents": {
+   "titreOrphee": "Nos c(h)oeurs évanescents",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "olympia-kyklos": {
+   "titreOrphee": "Olympia kyklos",
+   "editeur": "Casterman",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "one-punch-man": {
+   "titreOrphee": "One-punch man",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "Piré-Chancé": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     8
+    ]
+   }
+  },
+  "one-piece": {
+   "titreOrphee": "One piece",
+   "editeur": "Glénat",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74,
+     75,
+     76,
+     77,
+     78,
+     79,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90
+    ],
+    "Chateaugiron": [
+     2,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     61,
+     90,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Domloup": [
+     1
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     30
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     25,
+     32,
+     33,
+     39,
+     48,
+     60,
+     77,
+     78
+    ],
+    "Servon-sur-Vilaine": [
+     65,
+     70,
+     79,
+     80,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD ODA"
+    },
+    {
+     "bib": "Piré-Chancé",
+     "tome": 11,
+     "statut": "Perdu",
+     "cote": "ME ONE"
+    },
+    {
+     "bib": "Piré-Chancé",
+     "tome": 22,
+     "statut": "Perdu",
+     "cote": "ME ONE"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 69,
+     "statut": "Perdu",
+     "cote": "BD ODA"
+    }
+   ]
+  },
+  "orange": {
+   "titreOrphee": "Orange",
+   "editeur": "Éd. Akata\r\nImpr. Laballery",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "our-colorful-days": {
+   "titreOrphee": "Our colorful days",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "paradise-lost": {
+   "titreOrphee": "Paradise lost",
+   "editeur": "Soleil",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "phenix-l-oiseau-de-feu-integrale": {
+   "titreOrphee": "Phénix : l'oiseau de feu : intégrale",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "pline": {
+   "titreOrphee": "Pline",
+   "editeur": "Casterman",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "pluto": {
+   "titreOrphee": "Pluto",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Noyal-sur-Vilaine",
+     "tome": 7,
+     "statut": "Perdu",
+     "cote": "741.5 TEZU"
+    }
+   ]
+  },
+  "prisonnier-riku": {
+   "titreOrphee": "Prisonnier Riku",
+   "editeur": "Éd. Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   }
+  },
+  "professeur-eiji": {
+   "titreOrphee": "Professeur Eiji",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "prophecy": {
+   "titreOrphee": "Prophecy",
+   "editeur": "Ki-oon\r\nCPI Aubin impr.",
+   "tomes": {
+    "Domloup": [
+     1,
+     2
+    ]
+   }
+  },
+  "ranking-of-kings": {
+   "titreOrphee": "Ranking of kings",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "ratman": {
+   "titreOrphee": "Ratman",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "ripper": {
+   "titreOrphee": "Ripper",
+   "editeur": "Ankama",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ],
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "sailor-moon": {
+   "titreOrphee": "Sailor Moon",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "saint-seiya-les-chevaliers-du-zodiaque": {
+   "titreOrphee": "Saint Seiya : les chevaliers du zodiaque",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "sakamoto-days": {
+   "titreOrphee": "Sakamoto days",
+   "editeur": "Glénat",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "say-i-love-you": {
+   "titreOrphee": "Say I love you",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "sayonara-football": {
+   "titreOrphee": "SAYONARA FOOTBALL",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Ossé": [
+     1,
+     2
+    ],
+    "Chateaugiron": [
+     1
+    ]
+   }
+  },
+  "sayonara-rose-garden": {
+   "titreOrphee": "Sayonara rose garden",
+   "editeur": "Komikku",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "servamp": {
+   "titreOrphee": "Servamp",
+   "editeur": "Bamboo\r\nImpr. Hérissey\r\nDoki Doki",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "seule-la-mort-attend-la-vilaine": {
+   "titreOrphee": "Seule la mort attend la vilaine",
+   "editeur": "Kotoon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Noyal-sur-Vilaine",
+     "tome": 3,
+     "statut": "Perdu",
+     "cote": "BD SUO"
+    }
+   ]
+  },
+  "silence": {
+   "titreOrphee": "Silence",
+   "editeur": "Kana",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "sixteen-life": {
+   "titreOrphee": "Sixteen Life",
+   "editeur": "Soleil\r\nSoleil Manga",
+   "tomes": {
+    "Ossé": [
+     1,
+     2
+    ]
+   }
+  },
+  "sky-wars": {
+   "titreOrphee": "Sky wars",
+   "editeur": "Casterman",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "solo-leveling": {
+   "titreOrphee": "Solo leveling",
+   "editeur": "Kbooks",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "somali-et-l-esprit-de-la-foret": {
+   "titreOrphee": "Somali et l'esprit de la forêt",
+   "editeur": "Komikku",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "soul-eater": {
+   "titreOrphee": "Soul Eater",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ],
+    "Chateaugiron": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   }
+  },
+  "spy-x-family": {
+   "titreOrphee": "Spy x Family",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   "hs": {
+    "Noyal-sur-Vilaine": 1
+   }
+  },
+  "star-wars-etoiles-perdues": {
+   "titreOrphee": "Star Wars : étoiles perdues",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "steel-ball-run": {
+   "titreOrphee": "Steel ball run",
+   "editeur": "Ed. Tonkam",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "sword-art-online-aincrad": {
+   "titreOrphee": "Sword art online : Aincrad",
+   "editeur": "Ototo",
+   "tomes": {
+    "Ossé": [
+     1,
+     2
+    ]
+   }
+  },
+  "tales-of-destiny": {
+   "titreOrphee": "Tales of destiny",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "tales-of-symphonia": {
+   "titreOrphee": "Tales of symphonia",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "talli-fille-de-la-lune": {
+   "titreOrphee": "Talli, fille de la lune",
+   "editeur": "Ankama",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "team-phoenix": {
+   "titreOrphee": "Team Phoenix",
+   "editeur": "Vega-Dupuis",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "terrarium": {
+   "titreOrphee": "Terrarium",
+   "editeur": "Glénat",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "the-arms-peddler": {
+   "titreOrphee": "The arms peddler",
+   "editeur": "Ki-oon\r\nCPI Aubin impr.",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "the-bugle-call": {
+   "titreOrphee": "The Bugle Call",
+   "editeur": "Editons Ki-oon",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "the-elusive-samurai": {
+   "titreOrphee": "The elusive samurai",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "the-faraway-paladin": {
+   "titreOrphee": "The Faraway Paladin",
+   "editeur": "Lanovel Edition",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "the-summer-hikaru-died": {
+   "titreOrphee": "The Summer Hikaru Died",
+   "editeur": "Pika Edition",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "timing": {
+   "titreOrphee": "Timing",
+   "editeur": "Casterman",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "today-s-burger": {
+   "titreOrphee": "Today's Burger",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "toilet-bound-hanako-kun": {
+   "titreOrphee": "Toilet-bound Hanako-Kun",
+   "editeur": "Pika Edition",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "tokyo-revengers": {
+   "titreOrphee": "Tokyo revengers",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31
+    ]
+   }
+  },
+  "tokyo-toybox": {
+   "titreOrphee": "Tokyo toybox",
+   "editeur": "",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "trait-pour-trait-dessine-et-tais-toi": {
+   "titreOrphee": "Trait pour trait : dessine et tais-toi !",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "tsugai-daemons-of-the-shadow-realm": {
+   "titreOrphee": "Tsugai - Daemons of the Shadow Realm",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "un-drole-de-pere": {
+   "titreOrphee": "Un Drôle de père",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Domloup": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     5,
+     6
+    ]
+   }
+  },
+  "une-sacree-mamie": {
+   "titreOrphee": "Une Sacrée mamie",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Chateaugiron": [
+     3,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  "usagi-yojimbo": {
+   "titreOrphee": "Usagi Yojimbo",
+   "editeur": "Paquet",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "vagabond": {
+   "titreOrphee": "Vagabond",
+   "editeur": "Tonkam",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "versus": {
+   "titreOrphee": "Versus",
+   "editeur": "Pika Edition",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "wakfu-la-grande-vague": {
+   "titreOrphee": "Wakfu, La Grande Vague",
+   "editeur": "Ankama éditions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "wet-moon": {
+   "titreOrphee": "Wet moon",
+   "editeur": "Casterman",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "yamada-kun-the-7-witches": {
+   "titreOrphee": "Yamada kun & the 7 witches",
+   "editeur": "Editions Delcourt",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "yon": {
+   "titreOrphee": "Yon",
+   "editeur": "Dargaud",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "your-lie-in-april": {
+   "titreOrphee": "Your lie in april",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "yu-gi-oh": {
+   "titreOrphee": "Yu-Gi-Oh !",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "zero-pour-l-eternite": {
+   "titreOrphee": "Zéro pour l'éternité",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "St-Aubin du Pavail": [
+     5
+    ],
+    "Servon-sur-Vilaine": [
+     5
+    ],
+    "Domloup": [
+     5
+    ],
+    "Ossé": [
+     5
+    ],
+    "Noyal-sur-Vilaine": [
+     5
+    ],
+    "Piré-Chancé": [
+     5
+    ]
+   }
+  },
+  "ad-astra-scipion-l-africain-hannibal-barca": {
+   "titreOrphee": "Ad Astra",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "akira": {
+   "titreOrphee": "Akira",
+   "editeur": "Glénat",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "alpi-the-soul-sender": {
+   "titreOrphee": "Alpi the soul sender",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "apres-la-pluie": {
+   "titreOrphee": "Après la pluie",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "au-coeur-de-fukushima": {
+   "titreOrphee": "Au coeur de Fukushima",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "badducks": {
+   "titreOrphee": "Badducks",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "batman": {
+   "titreOrphee": "Batman",
+   "editeur": "Dargaud",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "bd-northlanders": {
+   "titreOrphee": "BD Northlanders",
+   "editeur": "Urban Comics",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "beastars": {
+   "titreOrphee": "Beastars",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   }
+  },
+  "berserk": {
+   "titreOrphee": "Berserk",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "Domloup": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   }
+  },
+  "billy-bat": {
+   "titreOrphee": "Billy Bat",
+   "editeur": "Pika",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Domloup": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "bokko-stratege": {
+   "titreOrphee": "Bokko : stratège",
+   "editeur": "Vega-Dupuis",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "chiisakobe": {
+   "titreOrphee": "Chiisakobé",
+   "editeur": "le Lézard noir",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "chobits": {
+   "titreOrphee": "Chobits",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "colere-nucleaire": {
+   "titreOrphee": "Colère nucleaire",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "couleur-de-peau-miel": {
+   "titreOrphee": "Couleur de peau : miel",
+   "editeur": "Quadrants",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "darwin-s-incident": {
+   "titreOrphee": "Darwin's incident",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "deep-3": {
+   "titreOrphee": "Deep 3",
+   "editeur": "Mangetsu",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "deep-sea-aquarium-magmell": {
+   "titreOrphee": "Deep Sea Aquarium MagMell",
+   "editeur": "Véga",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "demons-star": {
+   "titreOrphee": "Demons star",
+   "editeur": "M. Lafon",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "detonations": {
+   "titreOrphee": "Détonations",
+   "editeur": "Pika Edition",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "dog-signal": {
+   "titreOrphee": "Dog Signal",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "doubt": {
+   "titreOrphee": "Doubt",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "du-mouvement-de-la-terre": {
+   "titreOrphee": "Du mouvement de la Terre",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "eclat-s-d-ame": {
+   "titreOrphee": "Eclat(s) d'âme",
+   "editeur": "Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "en-proie-au-silence": {
+   "titreOrphee": "En proie au silence",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "entre-nos-mains": {
+   "titreOrphee": "Entre nos mains",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "erased": {
+   "titreOrphee": "Erased",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "escale-a-yokohama": {
+   "titreOrphee": "Escale à Yokohama",
+   "editeur": "Meian éditions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "fox-boy": {
+   "titreOrphee": "Fox-Boy",
+   "editeur": "Komics initiative",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     2,
+     3
+    ]
+   }
+  },
+  "gen-d-hiroshima": {
+   "titreOrphee": "Gen d'Hiroshima",
+   "editeur": "",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     8
+    ]
+   }
+  },
+  "green-blood": {
+   "titreOrphee": "Green Blood",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "gunnm-edition-originale": {
+   "titreOrphee": "Gunnm - édition originale",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "gunnm-mars-chronicle": {
+   "titreOrphee": "Gunnm Mars Chronicle",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "haikyu-les-as-du-volley": {
+   "titreOrphee": "Haikyû !! : Les As du volley",
+   "editeur": "Kazé Editions",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   }
+  },
+  "hirayasumi": {
+   "titreOrphee": "Hirayasumi",
+   "editeur": "le Lézard noir",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "ice-age-chronicle-of-the-earth": {
+   "titreOrphee": "Ice age chronicle of the earth",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "ikigami-preavis-de-mort": {
+   "titreOrphee": "Ikigami, préavis de mort",
+   "editeur": "Asuka",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "innocent": {
+   "titreOrphee": "Innocent",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "insomniaques": {
+   "titreOrphee": "Insomniaques",
+   "editeur": "Soleil",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "integral-monster": {
+   "titreOrphee": "Intégral Monster",
+   "editeur": "Big Kana",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "kindergarten-wars": {
+   "titreOrphee": "Kindergarten Wars",
+   "editeur": "Editons Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "king-s-game": {
+   "titreOrphee": "King's game",
+   "editeur": "Ki-oon\r\nImpr. Hérissey",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "ile-de-hozuki": {
+   "titreOrphee": "L' île de Hôzuki",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "attaque-des-titans-edition-colossale": {
+   "titreOrphee": "L'attaque des titans : édition colossale",
+   "editeur": "Pika",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     3,
+     4
+    ]
+   }
+  },
+  "habitant-de-l-infini": {
+   "titreOrphee": "L'habitant de l'infini",
+   "editeur": "Casterman",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ],
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "histoire-des-3-adolf-integrale": {
+   "titreOrphee": "L'histoire des 3 Adolf : intégrale",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "cantine-de-minuit": {
+   "titreOrphee": "La cantine de minuit",
+   "editeur": "Le lézard noir",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "cuisine-du-tengu": {
+   "titreOrphee": "La cuisine du Tengu",
+   "editeur": "Le Lézard Noir",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "decheance-d-un-homme": {
+   "titreOrphee": "La déchéance d'un homme",
+   "editeur": "Ed. IMHO",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "grossesse-de-m-hiyama": {
+   "titreOrphee": "La grossesse de M. Hiyama",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "main-droite-de-lucifer": {
+   "titreOrphee": "La main droite de Lucifer",
+   "editeur": "Ki-oon\r\nCPI Aubin impr.\r\nEditions Ki-oon",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "voie-du-tablier": {
+   "titreOrphee": "La voie du tablier",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "land": {
+   "titreOrphee": "Land",
+   "editeur": "Mangetsu",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "last-hero-inuyashiki": {
+   "titreOrphee": "Last hero inuyashiki",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     10
+    ]
+   }
+  },
+  "chien-gardien-d-etoiles": {
+   "titreOrphee": "Le chien gardien d'étoiles",
+   "editeur": "Sarbacane",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "couvent-des-damnees": {
+   "titreOrphee": "Le couvent des damnées",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "fantome-de-l-opera": {
+   "titreOrphee": "Le fantôme de l'Opéra",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "siege-des-exilees": {
+   "titreOrphee": "Le siège des exilées",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "sommet-des-dieux": {
+   "titreOrphee": "Le Sommet des dieux",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "enfants-d-hippocrate": {
+   "titreOrphee": "Les enfants d'Hippocrate",
+   "editeur": "Mangetsu",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "montagnes-hallucinees": {
+   "titreOrphee": "Les montagnes hallucinées",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Domloup": [
+     1,
+     2
+    ]
+   }
+  },
+  "naufrages": {
+   "titreOrphee": "Les naufragés",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "oublies": {
+   "titreOrphee": "Les oubliés",
+   "editeur": "Komikku",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "temps-retrouves": {
+   "titreOrphee": "Les temps retrouvés",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "tresors-de-tsukasa-hojo": {
+   "titreOrphee": "Les trésors de Tsukasa Hojo",
+   "editeur": "Editions Ki-oon",
+   "tomes": {}
+  },
+  "vacances-de-jesus-et-bouddha": {
+   "titreOrphee": "Les vacances de Jésus et Bouddha",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   }
+  },
+  "levius": {
+   "titreOrphee": "Levius",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "lost-lad-london": {
+   "titreOrphee": "Lost Lad London",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "love-my-life": {
+   "titreOrphee": "Love my life",
+   "editeur": "Asuka",
+   "tomes": {}
+  },
+  "mad-world": {
+   "titreOrphee": "Mad world",
+   "editeur": "Soleil",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "man-in-the-window": {
+   "titreOrphee": "Man in the window",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "mauvaise-herbe": {
+   "titreOrphee": "Mauvaise herbe",
+   "editeur": "Le Lézard Noir",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "moi-jardinier-citadin": {
+   "titreOrphee": "Moi, jardinier citadin",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "mother-sarah": {
+   "titreOrphee": "Mother Sarah",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "mr-nobody": {
+   "titreOrphee": "Mr.Nobody",
+   "editeur": "Bamboo",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "mushishi": {
+   "titreOrphee": "Mushishi",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "my-broken-mariko": {
+   "titreOrphee": "My broken Mariko",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "noise": {
+   "titreOrphee": "Noise",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "pandemonium": {
+   "titreOrphee": "Pandemonium",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "peace-maker": {
+   "titreOrphee": "Peace Maker",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "planetes": {
+   "titreOrphee": "Planètes",
+   "editeur": "Panini",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Domloup": [
+     1
+    ]
+   }
+  },
+  "princesse-detective": {
+   "titreOrphee": "Princesse Détective",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   }
+  },
+  "quartier-lointain": {
+   "titreOrphee": "Quartier lointain",
+   "editeur": "Casterman",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ],
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "quitter-la-ville": {
+   "titreOrphee": "Quitter la ville",
+   "editeur": "",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   }
+  },
+  "reine-d-egypte": {
+   "titreOrphee": "Reine d'Egypte",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "royal-city": {
+   "titreOrphee": "Royal City",
+   "editeur": "Urban Comics",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "sacrificers": {
+   "titreOrphee": "Sacrificers",
+   "editeur": "Urban comics",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "saga": {
+   "titreOrphee": "Saga",
+   "editeur": "Urban Comics",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "search-and-destroy": {
+   "titreOrphee": "Search and Destroy",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "sengo": {
+   "titreOrphee": "Sengo",
+   "editeur": "Casterman",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "she-wasn-t-a-guy": {
+   "titreOrphee": "She wasn't a guy",
+   "editeur": "Mangetsu",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "sherlock": {
+   "titreOrphee": "Sherlock",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "solanin": {
+   "titreOrphee": "Solanin",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "soloist-in-a-cage": {
+   "titreOrphee": "Soloist in a cage",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "sweet-tooth": {
+   "titreOrphee": "Sweet tooth",
+   "editeur": "Urban Comics",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     2,
+     3
+    ]
+   }
+  },
+  "terra-formars": {
+   "titreOrphee": "Terra Formars",
+   "editeur": "Kaze Manga",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "the-ghost-in-the-shell": {
+   "titreOrphee": "The ghost in the shell",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2
+    ]
+   }
+  },
+  "the-one": {
+   "titreOrphee": "The one",
+   "editeur": "Meian éditions",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "the-unwritten": {
+   "titreOrphee": "The unwritten",
+   "editeur": "Urban Comics",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "the-witch-and-the-beast": {
+   "titreOrphee": "The Witch and the Beast",
+   "editeur": "Pika",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "thermae-romae": {
+   "titreOrphee": "Thermae Romae",
+   "editeur": "Casterman",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "tokyo-ghoul": {
+   "titreOrphee": "Tokyo Ghoul",
+   "editeur": "Glénat\r\nImpr. Hérissey",
+   "tomes": {
+    "Domloup": [
+     1,
+     2
+    ]
+   }
+  },
+  "tokyo-ces-jours-ci": {
+   "titreOrphee": "Tokyo, ces jours-ci",
+   "editeur": "Kana",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "trillion-game": {
+   "titreOrphee": "Trillion game",
+   "editeur": "Glénat",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "umbrella-academy": {
+   "titreOrphee": "Umbrella academy",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     3
+    ]
+   }
+  },
+  "un-second-au-revoir": {
+   "titreOrphee": "Un second au revoir",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "underwater-le-village-immerge": {
+   "titreOrphee": "Underwater - Le village immergé",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "une-fille-atypique": {
+   "titreOrphee": "Une fille atypique",
+   "editeur": "Pika Edition",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "une-vie-dans-les-marges": {
+   "titreOrphee": "Une vie dans les marges",
+   "editeur": "Cornélius",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "vampire-knight-edition-double": {
+   "titreOrphee": "Vampire knight : édition double",
+   "editeur": "Panini manga",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "vinland-saga": {
+   "titreOrphee": "Vinland saga",
+   "editeur": "",
+   "tomes": {
+    "Chateaugiron": [
+     3,
+     4
+    ]
+   }
+  },
+  "walking-dead-clementine": {
+   "titreOrphee": "Walking dead : Clementine",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "wind-breaker": {
+   "titreOrphee": "Wind breaker",
+   "editeur": "Pika",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "yako-et-poko": {
+   "titreOrphee": "Yako et Poko",
+   "editeur": "Komikku",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "yan": {
+   "titreOrphee": "Yan",
+   "editeur": "Glénat",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "your-name": {
+   "titreOrphee": "Your name",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ],
+    "Domloup": [
+     3
+    ],
+    "Piré-Chancé": [
+     3
+    ],
+    "Chateaugiron": [
+     3
+    ],
+    "Ossé": [
+     3
+    ]
+   }
+  },
+  "cooking-karine": {
+   "titreOrphee": "#Cooking Karine",
+   "editeur": "",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "anima": {
+   "titreOrphee": "+ Anima",
+   "editeur": "Taifu comics",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "10th-a-couper-le-souffle": {
+   "titreOrphee": "10th : à couper le souffle",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "a-sign-of-affection": {
+   "titreOrphee": "A sign of affection",
+   "editeur": "Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "alice-au-royaume-de-trefle": {
+   "titreOrphee": "Alice au royaume de Trèfle",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "amulet": {
+   "titreOrphee": "Amulet",
+   "editeur": "Akiléos",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "Noyal-sur-Vilaine": [
+     7
+    ]
+   }
+  },
+  "animal-crossing-new-horizons-le-journal-de-l-ile": {
+   "titreOrphee": "Animal Crossing : New Horizons - Le journal de l'île",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "animal-crossing-new-horizons-l-ile-de-la-detente": {
+   "titreOrphee": "Animal Crossing New Horizons : L'île de la détente",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "animal-kingdom": {
+   "titreOrphee": "Animal Kingdom",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "assassination-classroom-2": {
+   "titreOrphee": "Assassination classroom 2",
+   "editeur": "Kana",
+   "tomes": {
+    "Domloup": [
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "ayashimon": {
+   "titreOrphee": "Ayashimon",
+   "editeur": "Crunchyroll",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "b-side": {
+   "titreOrphee": "B-Side",
+   "editeur": "Editons Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "bamboo-blade": {
+   "titreOrphee": "Bamboo blade",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   }
+  },
+  "barakamon": {
+   "titreOrphee": "Barakamon",
+   "editeur": "Ki-oon\r\nImpr. Hérissey",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "baymax": {
+   "titreOrphee": "Baymax",
+   "editeur": "Pika",
+   "tomes": {
+    "Ossé": [
+     1,
+     2
+    ]
+   }
+  },
+  "beyblade-metal-fusion": {
+   "titreOrphee": "Beyblade metal fusion",
+   "editeur": "Kazé",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "beyond-the-clouds-la-fillette-tombee-du-ciel": {
+   "titreOrphee": "Beyond the clouds : la fillette tombée du ciel",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "black-clover": {
+   "titreOrphee": "Black Clover",
+   "editeur": "Kaze Manga",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36
+    ]
+   }
+  },
+  "black-shadow": {
+   "titreOrphee": "Black shadow",
+   "editeur": "Pika",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "blitz": {
+   "titreOrphee": "Blitz",
+   "editeur": "IWA",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "blue-box": {
+   "titreOrphee": "Blue box",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "blue-lock": {
+   "titreOrphee": "Blue lock",
+   "editeur": "Pika",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   }
+  },
+  "blue-spring-ride": {
+   "titreOrphee": "Blue Spring Ride",
+   "editeur": "Kana\r\nDARGAUD LOMBARD",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "boruto-naruto-next-generations": {
+   "titreOrphee": "Boruto : Naruto next generations",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "Servon-sur-Vilaine": [
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  "box-qu-y-a-t-il-dans-la-boite": {
+   "titreOrphee": "Box : qu'y a-t-il dans la boîte ?",
+   "editeur": "le Lézard noir",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "buster-keel": {
+   "titreOrphee": "Buster Keel !",
+   "editeur": "Kana",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "captain-tsubasa": {
+   "titreOrphee": "Captain Tsubasa",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Ossé": [
+     1,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  "captain-tsubasa-world-youth": {
+   "titreOrphee": "Captain Tsubasa world youth",
+   "editeur": "J'ai lu",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     11
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 4,
+     "statut": "Perdu",
+     "cote": "BD TAK"
+    }
+   ]
+  },
+  "card-captor-sakura": {
+   "titreOrphee": "Card Captor Sakura",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "card-captor-sakura-clear-card-arc": {
+   "titreOrphee": "Card Captor Sakura : Clear Card Arc",
+   "editeur": "Pika",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "cat-street": {
+   "titreOrphee": "Cat street",
+   "editeur": "Kana\r\nImpr. Hérissey",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "cats": {
+   "titreOrphee": "Cats",
+   "editeur": "Milan",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ],
+    "Domloup": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "chat-de-yakuza": {
+   "titreOrphee": "Chat de yakuza",
+   "editeur": "Bamboo",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "chat-malgre-moi": {
+   "titreOrphee": "Chat malgré moi",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "chi-une-vie-de-chat": {
+   "titreOrphee": "Chi une vie de chat",
+   "editeur": "Glénat",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     9,
+     11,
+     12
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     10
+    ],
+    "Noyal-sur-Vilaine": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     10
+    ],
+    "Domloup": [
+     14,
+     15,
+     16,
+     17
+    ]
+   }
+  },
+  "chibi-vampire-karin": {
+   "titreOrphee": "Chibi vampire : Karin",
+   "editeur": "Pika",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "chocola-vanilla-sugar-sugar-rune": {
+   "titreOrphee": "Chocola & Vanilla",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     8
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     3
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Noyal-sur-Vilaine",
+     "tome": 1,
+     "statut": "À pilonner",
+     "cote": "BD ANNO"
+    }
+   ]
+  },
+  "chocolate-cosmos": {
+   "titreOrphee": "Chocolate cosmos",
+   "editeur": "Panini",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "chocotan": {
+   "titreOrphee": "Chocotan",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "choubi-choubi-mon-chat-pour-la-vie": {
+   "titreOrphee": "Choubi-Choubi, mon chat pour la vie",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Domloup": [
+     3,
+     4
+    ]
+   }
+  },
+  "choubi-choubi-mon-chat-tout-petit": {
+   "titreOrphee": "Choubi-Choubi, mon chat tout petit",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Domloup": [
+     1,
+     2
+    ]
+   }
+  },
+  "coco-l-ile-magique": {
+   "titreOrphee": "Coco - L'île magique",
+   "editeur": "Editons Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Ossé": [
+     1,
+     2
+    ]
+   }
+  },
+  "code-breaker": {
+   "titreOrphee": "Code breaker",
+   "editeur": "Pika",
+   "tomes": {},
+   "retires": [
+    {
+     "bib": "Domloup",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD KAM t1"
+    },
+    {
+     "bib": "Domloup",
+     "tome": 2,
+     "statut": "Perdu",
+     "cote": "BD KAM t2"
+    },
+    {
+     "bib": "Domloup",
+     "tome": 3,
+     "statut": "Perdu",
+     "cote": "BD KAM T3"
+    },
+    {
+     "bib": "Domloup",
+     "tome": 4,
+     "statut": "Perdu",
+     "cote": "BD KAM t4"
+    },
+    {
+     "bib": "Domloup",
+     "tome": 5,
+     "statut": "Perdu",
+     "cote": "BD KAM t5"
+    }
+   ]
+  },
+  "crazy-zoo": {
+   "titreOrphee": "Crazy Zoo",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "creatures-fantastiques": {
+   "titreOrphee": "Créatures fantastiques",
+   "editeur": "Editions Komikku",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "d-gray-man": {
+   "titreOrphee": "D. Gray-Man",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  },
+  "dans-l-ombre-de-creamy": {
+   "titreOrphee": "Dans l'ombre de Creamy",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "demon-slayer": {
+   "titreOrphee": "Demon Slayer",
+   "editeur": "Panini Manga",
+   "tomes": {
+    "Chateaugiron": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  "demon-slayer-kimetsu-no-yaiba": {
+   "titreOrphee": "Demon slayer : Kimetsu no yaiba",
+   "editeur": "Panini manga",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  },
+  "detective-conan": {
+   "titreOrphee": "Détective Conan",
+   "editeur": "Dargaud",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     14,
+     43
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     50,
+     57,
+     58,
+     60,
+     65,
+     66
+    ]
+   }
+  },
+  "dofus": {
+   "titreOrphee": "Dofus",
+   "editeur": "Ankama Editions",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  },
+  "doraemon": {
+   "titreOrphee": "Doraemon",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "dr-stone": {
+   "titreOrphee": "Dr Stone",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   }
+  },
+  "dragon-ball-sd": {
+   "titreOrphee": "Dragon ball SD",
+   "editeur": "Glénat",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "dragon-ball-super": {
+   "titreOrphee": "Dragon ball super",
+   "editeur": "Glénat",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  "dragon-quest-la-quete-de-dai": {
+   "titreOrphee": "Dragon Quest",
+   "editeur": "Tonkam",
+   "tomes": {
+    "Chateaugiron": [
+     16,
+     18,
+     22
+    ]
+   }
+  },
+  "dreamaker": {
+   "titreOrphee": "DreaMaker",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "droners-tales-of-nui": {
+   "titreOrphee": "Droners : tales of Nuï",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "en-scene": {
+   "titreOrphee": "En scène",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  "fairy-tail-blue-mistral": {
+   "titreOrphee": "Fairy Tail Blue Mistral",
+   "editeur": "Pika",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "felin-pour-l-autre": {
+   "titreOrphee": "Félin pour l'autre",
+   "editeur": "Bamboo",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "fire-force": {
+   "titreOrphee": "Fire force",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   }
+  },
+  "frieren": {
+   "titreOrphee": "Frieren",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "fukuneko-les-chats-du-bonheur": {
+   "titreOrphee": "Fukuneko, les chats du bonheur",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "gamaran": {
+   "titreOrphee": "Gamaran",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "goal-masters": {
+   "titreOrphee": "Goal masters",
+   "editeur": "Milan jeunesse",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     6
+    ]
+   }
+  },
+  "goldfish": {
+   "titreOrphee": "Goldfish",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "green-mechanic": {
+   "titreOrphee": "Green mechanic",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "grimms": {
+   "titreOrphee": "Grimms",
+   "editeur": "Pika",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "hachi-maruru-chats-des-rues": {
+   "titreOrphee": "Hachi & Maruru, chats des rues",
+   "editeur": "Bamboo Editions",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "haikyu-les-as-du-volley-smash-edition": {
+   "titreOrphee": "Haikyû !! Les As du volley - Smash édition",
+   "editeur": "Kazé Editions",
+   "tomes": {
+    "Chateaugiron": [
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   }
+  },
+  "hamster-et-boule-de-gomme": {
+   "titreOrphee": "Hamster et boule de gomme",
+   "editeur": "Bamboo Editions",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "horseland": {
+   "titreOrphee": "Horseland",
+   "editeur": "Delcourt jeunesse",
+   "tomes": {
+    "Ossé": [
+     2,
+     3,
+     4
+    ],
+    "St-Aubin du Pavail": [
+     5
+    ]
+   }
+  },
+  "ichiko-et-niko": {
+   "titreOrphee": "Ichiko et Niko",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "imago": {
+   "titreOrphee": "Imago",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "inazuma-eleven-go": {
+   "titreOrphee": "Inazuma eleven go",
+   "editeur": "Kurokawa\r\nAubin impr.",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "instinct": {
+   "titreOrphee": "Instinct",
+   "editeur": "Michel Lafon",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   }
+  },
+  "iruma-a-l-ecole-des-demons": {
+   "titreOrphee": "Iruma à l'école des démons",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Noyal-sur-Vilaine",
+     "tome": 2,
+     "statut": "Perdu",
+     "cote": "BD NIS"
+    }
+   ]
+  },
+  "jujutsu-kaisen": {
+   "titreOrphee": "Jujutsu kaisen",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  "kagurabachi": {
+   "titreOrphee": "Kagurabachi",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "kamakura-diary": {
+   "titreOrphee": "Kamakura Diary",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "kamikaze-kaito-jeanne": {
+   "titreOrphee": "Kamikaze kaito Jeanne",
+   "editeur": "Glénat",
+   "tomes": {
+    "Piré-Chancé": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Piré-Chancé",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "ME JEA"
+    }
+   ]
+  },
+  "kingdom-hearts": {
+   "titreOrphee": "Kingdom Hearts",
+   "editeur": "Pika",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "koko-debut": {
+   "titreOrphee": "Koko debut",
+   "editeur": "Panini manga",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "kuma-kuma-kuma-bear": {
+   "titreOrphee": "Kuma Kuma Kuma bear",
+   "editeur": "Meian éditions",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "kuro": {
+   "titreOrphee": "Kuro",
+   "editeur": "Glénat",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "kuro-un-coeur-de-chat": {
+   "titreOrphee": "Kuro, un coeur de chat",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "kushi": {
+   "titreOrphee": "Kushi",
+   "editeur": "les Ed. Fei",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "agence-de-detectives-layton-katrielle-et-les-enquetes-mysterieuses": {
+   "titreOrphee": "L'agence de détectives Layton : Katrielle et les enquêtes mystérieuses",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "etrange-noel-de-zero": {
+   "titreOrphee": "L'étrange Noël de Zéro",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "histoire-en-manga": {
+   "titreOrphee": "L'histoire en MANGA",
+   "editeur": "Bayard jeunesse",
+   "tomes": {
+    "Piré-Chancé": [
+     2,
+     4
+    ]
+   }
+  },
+  "balade-de-yaya": {
+   "titreOrphee": "La Balade de Yaya",
+   "editeur": "Fei",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     9
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "confrerie-des-lions-blancs": {
+   "titreOrphee": "La confrérie des lions blancs",
+   "editeur": "Komikku",
+   "tomes": {
+    "Ossé": [
+     1,
+     2
+    ]
+   }
+  },
+  "petite-faiseuse-de-livres-ascendance-of-a-bookworm": {
+   "titreOrphee": "La petite faiseuse de livres : ascendance of a bookworm",
+   "editeur": "Ototo",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "princesse-vagabonde": {
+   "titreOrphee": "La princesse vagabonde",
+   "editeur": "Urban China",
+   "tomes": {
+    "Chateaugiron": [
+     3,
+     4
+    ]
+   }
+  },
+  "sorciere-aux-champignons": {
+   "titreOrphee": "La sorcière aux champignons",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "chateau-ambulant": {
+   "titreOrphee": "Le Château ambulant",
+   "editeur": "",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "chateau-solitaire-dans-le-miroir": {
+   "titreOrphee": "Le château solitaire dans le miroir",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "gout-des-retrouvailles": {
+   "titreOrphee": "Le goût des retrouvailles",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "journal-de-mobu": {
+   "titreOrphee": "Le journal de Mobu",
+   "editeur": "Gallimard BD",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "maitre-magicien-negima-neo": {
+   "titreOrphee": "Le maître magicien Negima !? Neo",
+   "editeur": "Pika\r\nImpr. Aubin",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "paradis-des-chiens": {
+   "titreOrphee": "Le paradis des chiens",
+   "editeur": "Glénat",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "renard-et-le-petit-tanuki": {
+   "titreOrphee": "Le renard et le petit tanuki",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "secret-de-madoka": {
+   "titreOrphee": "Le secret de Madoka",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "souffle-des-legendes": {
+   "titreOrphee": "Le souffle des légendes",
+   "editeur": "Komikku",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "voyage-de-chihiro": {
+   "titreOrphee": "Le voyage de Chihiro",
+   "editeur": "",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "xxe-siecle-en-manga": {
+   "titreOrphee": "Le XXe siècle en manga",
+   "editeur": "Bayard jeunesse",
+   "tomes": {
+    "Piré-Chancé": [
+     4
+    ]
+   }
+  },
+  "chaventures-de-tai-mamie-sue": {
+   "titreOrphee": "Les chaventures de Taï & Mamie Sue",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "St-Aubin du Pavail": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "chaventures-de-tai-et-mamie-sue": {
+   "titreOrphee": "Les Chaventures de Taï et Mamie Sue",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Chateaugiron": [
+     5
+    ],
+    "St-Aubin du Pavail": [
+     5
+    ]
+   }
+  },
+  "enfants-loups-ame-yuki": {
+   "titreOrphee": "Les enfants loups : Ame & Yuki",
+   "editeur": "Kaze Manga",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "petits-velos": {
+   "titreOrphee": "Les petits vélos",
+   "editeur": "Komikku",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     5,
+     6
+    ]
+   }
+  },
+  "quatre-freres-yuzuki": {
+   "titreOrphee": "Les quatre frères Yuzuki",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Ossé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "secrets-de-lea": {
+   "titreOrphee": "Les secrets de Léa",
+   "editeur": "Delcourt-Akata",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "letter-bee": {
+   "titreOrphee": "Letter Bee",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "liselotte-et-la-foret-des-sorcieres": {
+   "titreOrphee": "LISELOTTE et la forêt des sorcières",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Ossé": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Ossé",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BDJ TAK T1"
+    }
+   ]
+  },
+  "little-witch-academia": {
+   "titreOrphee": "Little witch academia",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "lonely-world": {
+   "titreOrphee": "Lonely world",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "louve": {
+   "titreOrphee": "Louve",
+   "editeur": "Rue de Sèvres",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "lovely-hair": {
+   "titreOrphee": "Lovely hair",
+   "editeur": "Pika",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "lucika-lucika": {
+   "titreOrphee": "Lucika Lucika",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "Ossé": [
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "lusky-mon-ami-pour-la-vie": {
+   "titreOrphee": "Lusky",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "ma-mamie-adoree": {
+   "titreOrphee": "Ma mamie adorée",
+   "editeur": "Rue de Sèvres",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ],
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "magic-maker": {
+   "titreOrphee": "Magic maker",
+   "editeur": "Komikku",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "magu-god-of-destruction": {
+   "titreOrphee": "Magu : god of destruction",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "majo-no-michi": {
+   "titreOrphee": "Majo No Michi",
+   "editeur": "Dargaud",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "mar": {
+   "titreOrphee": "Mär",
+   "editeur": "Dargaud",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "mar-omega": {
+   "titreOrphee": "Mär omega",
+   "editeur": "Kana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "memesis": {
+   "titreOrphee": "Memesis",
+   "editeur": "Kana",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "mes-voisins-les-esprits": {
+   "titreOrphee": "Mes voisins les esprits",
+   "editeur": "Bamboo",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "miaou-big-boss-le-magnifique": {
+   "titreOrphee": "Miaou ! Big-Boss le magnifique",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     5,
+     6
+    ]
+   }
+  },
+  "miaou-le-quotidien-de-moustic": {
+   "titreOrphee": "Miaou ! Le quotidien de Moustic",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "mimizuku-et-le-roi-de-la-nuit": {
+   "titreOrphee": "Mimizuku et le roi de la nuit",
+   "editeur": "Vega-Dupuis",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "minuscule": {
+   "titreOrphee": "Minuscule",
+   "editeur": "Komikku\r\nKomikku",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "miraculous": {
+   "titreOrphee": "Miraculous",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "miss-marvel": {
+   "titreOrphee": "Miss Marvel",
+   "editeur": "Panini comics",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "mission-yozakura-family": {
+   "titreOrphee": "Mission : Yozakura family",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "mochi-et-compagnie": {
+   "titreOrphee": "Mochi et compagnie",
+   "editeur": "Nobi nobi !",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "momo-et-le-messager-du-soleil": {
+   "titreOrphee": "Momo et le messager du Soleil",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "mon-amie-des-tenebres": {
+   "titreOrphee": "Mon amie des ténèbres",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   }
+  },
+  "monsieur-mechant-va-detruire-la-terre-apres-ses-conges": {
+   "titreOrphee": "Monsieur Méchant va détruire la terre (après ses congés)",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "monster-hunter-orage": {
+   "titreOrphee": "Monster hunter orage",
+   "editeur": "Pika",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Chateaugiron": [
+     1,
+     2,
+     4
+    ]
+   }
+  },
+  "moon-et-iro": {
+   "titreOrphee": "Moon et Iro",
+   "editeur": "Yam Yam",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "my-fair-honey-boy": {
+   "titreOrphee": "My fair honey boy",
+   "editeur": "Akata",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "my-happy-marriage": {
+   "titreOrphee": "My happy marriage",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "my-hero-academia": {
+   "titreOrphee": "My hero academia",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   }
+  },
+  "nanja-monja": {
+   "titreOrphee": "Nanja Monja+",
+   "editeur": "Glénat",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "naruto": {
+   "titreOrphee": "Naruto",
+   "editeur": "Dargaud",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72
+    ],
+    "Ossé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     23,
+     24
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     30
+    ]
+   }
+  },
+  "naruto-sasuke-retsuden": {
+   "titreOrphee": "Naruto - Sasuke Retsuden",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "nikuko-du-port-de-peche": {
+   "titreOrphee": "Nikuko du port de pêche",
+   "editeur": "Rue de Sèvres",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2
+    ]
+   }
+  },
+  "nova": {
+   "titreOrphee": "Nova",
+   "editeur": "H2T",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "nura-le-seigneur-des-yokai": {
+   "titreOrphee": "Nura, le seigneur des Yokai",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     10
+    ]
+   }
+  },
+  "ocean-rush": {
+   "titreOrphee": "Ocean rush",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "perfect-world": {
+   "titreOrphee": "Perfect world",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "petit-requin": {
+   "titreOrphee": "Petit Requin",
+   "editeur": "Rue de Sèvres",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     3
+    ],
+    "Domloup": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "pink-diary": {
+   "titreOrphee": "Pink Diary",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "plum-un-amour-de-chat": {
+   "titreOrphee": "Plum, un amour de chat",
+   "editeur": "Soleil\r\nSoleil strawberry",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   }
+  },
+  "pokemon-epee-et-bouclier": {
+   "titreOrphee": "Pokémon : Epée et bouclier",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "pokemon-la-grande-aventure-diamant-et-perle": {
+   "titreOrphee": "Pokémon : la grande aventure : Diamant et Perle",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Domloup": [
+     1,
+     2,
+     3,
+     5
+    ]
+   }
+  },
+  "pokemon-soleil-et-lune": {
+   "titreOrphee": "Pokémon : Soleil et Lune",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "pokemon-xy": {
+   "titreOrphee": "Pokemon XY",
+   "editeur": "Kurokawa\r\nAubin impr.",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "power-gamer-adventure": {
+   "titreOrphee": "Power gamer adventure",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "princesse-kilala": {
+   "titreOrphee": "Princesse Kilala",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "princesse-mononoke": {
+   "titreOrphee": "Princesse Mononoke",
+   "editeur": "Glénat",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "quand-takagi-me-taquine": {
+   "titreOrphee": "Quand Takagi me taquine",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   }
+  },
+  "que-sa-volonte-soit-faite": {
+   "titreOrphee": "Que sa volonté soit faite",
+   "editeur": "Kana",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "qui-suis-je-pour-t-aimer": {
+   "titreOrphee": "Qui suis-je pour t'aimer ?",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "radiant": {
+   "titreOrphee": "Radiant",
+   "editeur": "Ankama",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   }
+  },
+  "roji": {
+   "titreOrphee": "Roji !",
+   "editeur": "Ki-oon",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     4
+    ],
+    "Ossé": [
+     1,
+     2,
+     4,
+     5,
+     6
+    ],
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   }
+  },
+  "running-girl-ma-course-vers-les-paralympiques": {
+   "titreOrphee": "Running girl : ma course vers les paralympiques",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "sailor-moon-pretty-guardian": {
+   "titreOrphee": "Sailor Moon : pretty guardian",
+   "editeur": "Pika",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   }
+  },
+  "sakura-saku": {
+   "titreOrphee": "Sakura Saku",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "save-me-pythie": {
+   "titreOrphee": "Save me Pythie",
+   "editeur": "Kana",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "sayonara-miniskirt": {
+   "titreOrphee": "Sayonara miniskirt",
+   "editeur": "Delcourt",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "seki-mon-voisin-de-classe": {
+   "titreOrphee": "Séki mon voisin de classe",
+   "editeur": "Editions Akata\r\nÉd. Akata",
+   "tomes": {
+    "Ossé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "seven-deadly-sins": {
+   "titreOrphee": "Seven deadly sins",
+   "editeur": "Pika",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "shangri-la-frontier": {
+   "titreOrphee": "Shangri-La Frontier",
+   "editeur": "Glénat",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  },
+  "shiita-et-la-foret-des-minuscules": {
+   "titreOrphee": "Shiita et la forêt des minuscules",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "shirayuki-aux-cheveux-rouges": {
+   "titreOrphee": "Shirayuki aux cheveux rouges",
+   "editeur": "Kana",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "show-ha-shoten": {
+   "titreOrphee": "Show-ha Shoten !",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "shugo-chara": {
+   "titreOrphee": "Shugo Chara !",
+   "editeur": "Pika",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "silver-spoon": {
+   "titreOrphee": "Silver Spoon",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   }
+  },
+  "sk8r-s": {
+   "titreOrphee": "SK8R'S",
+   "editeur": "Kana",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "snack-world": {
+   "titreOrphee": "Snack world",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "sounds-of-life": {
+   "titreOrphee": "Sounds of life",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "spider-man": {
+   "titreOrphee": "Spider-Man",
+   "editeur": "Panini",
+   "tomes": {},
+   "retires": [
+    {
+     "bib": "Domloup",
+     "tome": 1,
+     "statut": "À pilonner",
+     "cote": "BDC BEN"
+    }
+   ]
+  },
+  "splatoon": {
+   "titreOrphee": "Splatoon",
+   "editeur": "Soleil",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "star-wars-rebels": {
+   "titreOrphee": "Star Wars Rebels",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "street-fighting-cat": {
+   "titreOrphee": "Street fighting cat",
+   "editeur": "Bamboo",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "super-mario-manga-adventures": {
+   "titreOrphee": "Super Mario-Manga Adventures",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "tenjin-le-dieu-du-ciel": {
+   "titreOrphee": "Tenjin Le dieu du ciel",
+   "editeur": "Kana\r\nImpr. Maury",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2
+    ]
+   }
+  },
+  "the-ichinose-family-s-deadly-sins": {
+   "titreOrphee": "The Ichinose family's deadly sins",
+   "editeur": "Kana",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "the-legend-of-zelda-twilight-princess": {
+   "titreOrphee": "The Legend of Zelda - Twilight Princess",
+   "editeur": "Soleil Productions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "the-promised-neverland": {
+   "titreOrphee": "The promised Neverland",
+   "editeur": "Kazé Manga",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   }
+  },
+  "the-sound-of-my-soul": {
+   "titreOrphee": "The sound of my soul",
+   "editeur": "Editions Akata",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   }
+  },
+  "the-unexpected-goddess": {
+   "titreOrphee": "The Unexpected Goddess",
+   "editeur": "Bamboo Editions",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "toriko": {
+   "titreOrphee": "Toriko",
+   "editeur": "Kazé",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     11,
+     12,
+     13,
+     18,
+     19,
+     20
+    ]
+   }
+  },
+  "toto": {
+   "titreOrphee": "Toto !",
+   "editeur": "Panini",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "tsubasa": {
+   "titreOrphee": "Tsubasa",
+   "editeur": "Pika",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     9,
+     10
+    ],
+    "Ossé": [
+     1
+    ]
+   }
+  },
+  "twisted-wonderland-la-maison-heartslabyul": {
+   "titreOrphee": "Twisted-Wonderland. La Maison Heartslabyul",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "two-f-aced-tamon": {
+   "titreOrphee": "Two F/aced Tamon",
+   "editeur": "Crunchyroll",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "yaiba": {
+   "titreOrphee": "Yaiba",
+   "editeur": "Soleil\r\nAubin impr.",
+   "tomes": {
+    "Chateaugiron": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  },
+  "yo-kai-watch": {
+   "titreOrphee": "Yo-kai watch",
+   "editeur": "Crunchyroll",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   }
+  },
+  "yokai-war-guardians": {
+   "titreOrphee": "Yôkai War - Guardians",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Piré-Chancé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "yoshi-s-new-island": {
+   "titreOrphee": "Yoshi's new island",
+   "editeur": "Soleil",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "yotsuba": {
+   "titreOrphee": "Yotsuba",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Chateaugiron": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "yuzu-la-petite-veterinaire": {
+   "titreOrphee": "Yuzu, la petite vétérinaire",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "Ossé": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "zozo-zombie": {
+   "titreOrphee": "Zozo zombie",
+   "editeur": "Vega",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "Ossé": [
+     9
+    ],
+    "Servon-sur-Vilaine": [
+     9
+    ],
+    "St-Aubin du Pavail": [
+     9
+    ],
+    "Chateaugiron": [
+     9
+    ],
+    "Piré-Chancé": [
+     9
+    ],
+    "Domloup": [
+     9
+    ]
+   }
+  }
+ },
+ "anomalies": [
+  {
+   "type": "tome-inconnu",
+   "serie": "tresors-de-tsukasa-hojo",
+   "titre": "Les trésors de Tsukasa Hojo",
+   "album": "Le temps des cerisiers",
+   "bib": "Domloup",
+   "cote": "MA HOJ",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "love-my-life",
+   "titre": "Love my life",
+   "album": "Love my life",
+   "bib": "Noyal-sur-Vilaine",
+   "cote": "741.5 YAMA",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "the-ghost-in-the-shell",
+   "titre": "The ghost in the shell",
+   "album": "The ghost in the shell",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "M GHO",
+   "brut": "Tome :"
+  }
+ ]
+}
