@@ -741,7 +741,8 @@ function rendreImport() {
   const parBib = ip.parBib.map(([b, n]) => `${court(b)} ${nf.format(n)}`).join(", ");
   $("#vue").innerHTML = `
     <h1>Vérifier l'import</h1>
-    <p class="chapo">« ${h(ip.nom)} » : ${pluriel(ip.nbExemplaires, "exemplaire")} dans ${pluriel(Object.keys(ip.res.fonds.series).length, "série")}${parBib ? ` (${h(parBib)})` : ""}. Rien n'est encore modifié.</p>
+    <p class="chapo">« ${h(ip.nom)} » : ${pluriel(ip.nbExemplaires, "exemplaire")}${ip.annonce === ip.nbExemplaires ? " (tous ceux annoncés par Orphée)" : ""} dans ${pluriel(Object.keys(ip.res.fonds.series).length, "série")}${parBib ? ` (${h(parBib)})` : ""}. Rien n'est encore modifié.</p>
+    ${ip.annonce && ip.nbExemplaires && ip.annonce !== ip.nbExemplaires ? `<p class="explication"><strong>Attention :</strong> Orphée annonce ${pluriel(ip.annonce, "document")}, mais Suivixo n'en a reconnu que ${nf.format(ip.nbExemplaires)}. Les autres ont une forme inattendue.</p>` : ""}
     ${ip.nbExemplaires === 0 ? `<p class="explication">Aucun exemplaire reconnu. Vérifie que c'est bien l'édition des mangas d'Orphée : une ligne par tome, suivie d'une ligne par exemplaire.</p>` : ""}
     <label class="champ" style="max-width:220px"><span>Date de l'export</span><input type="date" id="date-import" value="${h(ip.date)}"></label>
     <div class="actions" style="margin-bottom:24px">
@@ -763,8 +764,8 @@ async function lireFichier(fichier) {
     const wb = window.XLSX.read(await fichier.arrayBuffer(), { type: "array" });
     const nomFeuille = wb.SheetNames.includes("MajReseau") ? "MajReseau" : wb.SheetNames[0];
     const rows = window.XLSX.utils.sheet_to_json(wb.Sheets[nomFeuille], { header: 1, defval: null, raw: false });
-    const { exemplaires } = C.lireExportOrphee(rows, bibliotheques());
-    const dateDefaut = nomFeuille === "MajReseau" ? (etat.fonds.import?.date || new Date().toISOString().slice(0, 10)) : new Date(fichier.lastModified || Date.now()).toISOString().slice(0, 10);
+    const { exemplaires, annonce, date } = C.lireExportOrphee(rows, bibliotheques());
+    const dateDefaut = date || (nomFeuille === "MajReseau" ? (etat.fonds.import?.date || new Date().toISOString().slice(0, 10)) : new Date(fichier.lastModified || Date.now()).toISOString().slice(0, 10));
     const res = C.construireFonds(exemplaires, etat.series, { date: dateDefaut, source: fichier.name });
     const bib = etat.prefs.bib;
     const titreDe = (id) => etat.series.find((s) => s.id === id)?.titre || res.nouvelles.find((s) => s.id === id)?.titre || id;
@@ -781,7 +782,7 @@ async function lireFichier(fichier) {
     const parBib = {};
     exemplaires.forEach((e) => { parBib[e.bib] = (parBib[e.bib] || 0) + 1; });
     etat.importPrevu = {
-      nom: fichier.name, date: dateDefaut, res, nbExemplaires: exemplaires.length,
+      nom: fichier.name, date: dateDefaut, res, nbExemplaires: exemplaires.length, annonce,
       parBib: Object.entries(parBib).sort((a, b) => b[1] - a[1]),
       diff: { ajouts: ajouts.sort(tri), retraits: retraits.sort(tri) },
     };

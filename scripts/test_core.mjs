@@ -49,6 +49,27 @@ t("lecture d'un export Orphée", () => {
   assert.equal(r.stats.series.radiant.empruntes.Chateaugiron, 1);
   assert.equal(r.nouvelles.length, 0);
 });
+t("export Orphée avec lignes vides et sauts de page", () => {
+  const vide = Array(27).fill(null);
+  const rows = [
+    [null, "Séries romans jeunesse et ados"], vide, ["Pour effectuer une recherche : CTRL+F"],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "Nombre de notices bibliographiques: 1\nNombre de documents: 3"],
+    ["Dog Signal", null, null, null, null, "Tome : 1", null, null, null, "Dog Signal 1"], vide,
+    ["Servon-sur-Vilaine", null, "M DOG 1", null, null, "Disponible", null, "Ado", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "Nb prêts total : 2"], vide,
+    [null, null, null, "Page 1 of 2"], vide,
+    ["Noyal-sur-Vilaine", null, "M DOG 1", null, null, "Emprunté", null, "Ado", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "Nb prêts total : 4"], vide,
+    ["Dog Signal", null, null, null, null, "Tome :", null, null, null, "Dog Signal"], vide,
+    ["Servon-sur-Vilaine", null, "M DOG 4", null, null, "Disponible", null, "Ado", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "Nb prêts total : 1"],
+  ];
+  const { exemplaires, annonce } = C.lireExportOrphee(rows);
+  assert.equal(exemplaires.length, 3);
+  assert.equal(annonce, 3);
+  assert.equal(C.dateFrancaise("Le 23 octobre 2026"), "2026-10-23");
+  assert.equal(C.dateFrancaise("Le 1er août 2025"), "2025-08-01");
+  const r = C.construireFonds(exemplaires, [{ id: "dog-signal", titre: "Dog Signal" }]);
+  assert.deepEqual(r.fonds.series["dog-signal"].tomes, { "Servon-sur-Vilaine": [1, 4], "Noyal-sur-Vilaine": [1] });
+  assert.equal(r.fonds.anomalies.length, 0);
+});
 t("état de parution", () => {
   const s = { titre: "X" };
   const fini = { anilist: { statut: "FINISHED", volumes: 22 }, bnf: { dernier: 22, dateDernier: "2024-05" } };

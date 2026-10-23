@@ -119,8 +119,16 @@ export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
   const exemplaires = [];
   let titre = null;
   let lignesTitre = 0;
+  let annonce = null; // « Nombre de documents: 4834 » dans l'en-tête de l'édition
+  let date = null;    // « Le 23 octobre 2026 »
   for (const row of rows) {
-    if (!row || !row.length) continue;
+    // les exports Orphée intercalent des lignes vides : on les saute sans perdre le titre en cours
+    if (!row || !row.some((v) => texte(v) !== "")) continue;
+    if (annonce === null) {
+      const m = row.map(texte).join(" ").match(/nombre de documents\s*:\s*(\d+)/i);
+      if (m) annonce = +m[1];
+    }
+    if (date === null && lignesTitre === 0) date = dateFrancaise(row.map(texte).join(" "));
     const a = texte(row[0]);
     const bib = bibs.get(cleTitre(a));
     const celluleTome = row.findIndex((v) => /^\s*tome\s*:/i.test(texte(v)));
@@ -145,11 +153,22 @@ export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
         auteur: texte(row[16]),
         editeur: texte(row[24]),
       };
-    } else if (!bib) {
-      titre = null; // ligne d'en-tête ou inconnue
     }
+    // Les autres lignes (titre de l'édition, « Page 12 of 360 » aux sauts de page…) sont ignorées
+    // sans perdre le tome en cours : ses exemplaires peuvent continuer sur la page suivante.
   }
-  return { exemplaires, lignesTitre };
+  return { exemplaires, lignesTitre, annonce, date };
+}
+
+const MOIS_FR = ["janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "decembre"];
+
+/** « Le 23 octobre 2026 » → « 2026-10-23 » */
+export function dateFrancaise(txt) {
+  const m = sansAccents(txt).toLowerCase().match(/\b(\d{1,2})(?:er)?\s+([a-z]+)\s+(\d{4})\b/);
+  if (!m) return null;
+  const mois = MOIS_FR.indexOf(m[2]);
+  if (mois < 0) return null;
+  return `${m[3]}-${String(mois + 1).padStart(2, "0")}-${m[1].padStart(2, "0")}`;
 }
 
 export function estRetire(statut) {
@@ -236,7 +255,7 @@ export function construireFonds(exemplaires, series, meta = {}) {
     const tome = parseTome(ex.tomeBrut, ex.album);
     if (tome.type === "inconnu") {
       // dernier recours : le numéro dans la cote (« MA BUG T.1 », « 741.5 SAN T9 »)
-      const m = ex.cote.match(/\bT\.?\s*(\d{1,3})\b/i);
+      const m = ex.cote.match(/\bT\.?\s*(\d{1,3})\b/i) || ex.cote.match(/^[A-Z]{1,4}\s+[A-Z0-9]{2,6}\s+(\d{1,3})$/i);
       if (m) Object.assign(tome, { type: "num", nums: [+m[1]], deduit: true });
     }
 
