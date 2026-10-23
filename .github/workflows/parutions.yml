@@ -75,11 +75,21 @@ jobs:
         run: |
           git config user.name "suivixo-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/enrich.json couvertures 2>/dev/null || git add data/enrich.json
-          if git diff --cached --quiet; then echo "Rien de nouveau."; exit 0; fi
-          git commit -m "Vérification des parutions (AniList, BnF)"
-          for i in 1 2 3; do
-            git pull --rebase && git push && exit 0
-            sleep 5
+          if git diff --quiet data/enrich.json && [ -z "$(git status --porcelain couvertures 2>/dev/null)" ]; then echo "Rien de nouveau."; exit 0; fi
+          git show HEAD:data/enrich.json > /tmp/base.json
+          cp data/enrich.json /tmp/nous.json
+          mkdir -p /tmp/couv && cp -r couvertures/. /tmp/couv/ 2>/dev/null || true
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            # fusion avec ce qu'une autre vérification a pu enregistrer entre-temps
+            python scripts/fusion_enrich.py /tmp/base.json /tmp/nous.json data/enrich.json > /tmp/fusion.json
+            cp /tmp/fusion.json data/enrich.json
+            mkdir -p couvertures && cp -r /tmp/couv/. couvertures/ 2>/dev/null || true
+            git add data/enrich.json couvertures 2>/dev/null || git add data/enrich.json
+            git diff --cached --quiet && { echo "Rien de nouveau."; exit 0; }
+            git commit -q -m "Vérification des parutions (AniList, BnF, Manga-News)"
+            git push -q origin HEAD:main && exit 0
+            sleep 7
           done
           exit 1
