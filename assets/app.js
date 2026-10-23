@@ -218,8 +218,10 @@ function bornes(v) {
   const maxPossede = v.reseau.length ? v.reseau[v.reseau.length - 1] : 0;
   const n = Math.max(v.info.parus || 0, maxPossede);
   const vo = v.info.totalVO || 0;
-  const enCoursFR = /en cours/i.test(v.info.etat || "") && !v.info.doute;
-  const avenir = enCoursFR && vo > n ? Math.min(vo - n, 60) : 0;
+  // Tranches « pas encore parues en VF » jusqu'au total de la VO, sauf si l'édition française est
+  // découpée autrement (plusieurs éditions) ou déclarée terminée à la main.
+  const decoupageDifferent = v.enr?.bnf?.plusieursEditions || /termin/i.test(v.s.manuel?.etat || "");
+  const avenir = !decoupageDifferent && vo > n ? Math.min(vo - n, 60) : 0;
   return { n, total: n + avenir };
 }
 
@@ -249,13 +251,16 @@ function resumeTomes(v) {
 }
 
 /** « 8 sur 10 parus en VF » : tomes de ma médiathèque sur tomes parus en France. */
-function compteVF(v, avecVO = false) {
+/** « 7 sur 9 parus en VF, 12 au Japon » : tomes de ma médiathèque, parus en France, total de la VO. */
+function compteVF(v) {
   const ici = v.ici.length;
   const p = v.info.parus;
   const vo = v.info.totalVO;
-  if (p === null) return `${pluriel(ici, "tome")}, parution VF inconnue`;
-  let t = `<strong>${nf.format(ici)}</strong> sur ${nf.format(p)} parus en VF`;
-  if (avecVO && vo && vo !== p) t += `, ${nf.format(vo)} en VO`;
+  const al = v.enr?.anilist && !v.enr.anilist.rejete && !v.enr.anilist.auteurDifferent ? v.enr.anilist : null;
+  let t = p === null ? `<strong>${nf.format(ici)}</strong> ${ici > 1 ? "tomes" : "tome"}, parution VF inconnue`
+    : `<strong>${nf.format(ici)}</strong> sur ${nf.format(p)} parus en VF`;
+  if (vo && (p === null || vo > p)) t += `, ${nf.format(vo)} ${enVO(al)}`;
+  else if (al && (al.statut === "RELEASING" || al.statut === "HIATUS")) t += `, en cours ${enVO(al)}`;
   return t;
 }
 
@@ -347,7 +352,7 @@ function carteSerie(v) {
     ${couverture(v, true)}
     <span class="carte-titre">${h(v.s.titre)}</span>
     ${v.f?.editeur ? `<span class="carte-meta">${h(v.f.editeur)}</span>` : ""}
-    <span class="compte-vf" title="Tomes à ${h(court(etat.prefs.bib))} sur tomes parus en France">${compteVF(v)}</span>
+    <span class="compte-vf" title="Tomes à ${h(court(etat.prefs.bib))}, tomes parus en France, total de la série en VO">${compteVF(v)}</span>
     ${etagere(v, 160, 16, 1.4)}
     ${statut(v.statut.cle)}
   </button>`;
@@ -358,7 +363,7 @@ function ligneSerie(v) {
   return `<button type="button" class="ligne" data-serie="${h(v.s.id)}">
     <span class="vignette">${couverture(v)}</span>
     <span><span class="ligne-titre">${h(v.s.titre)}</span>${meta ? `<span class="ligne-meta">${h(meta)}</span>` : ""}</span>
-    <span>${etagere(v)}<span class="compte-vf">${compteVF(v, true)}</span></span>
+    <span>${etagere(v)}<span class="compte-vf">${compteVF(v)}</span></span>
     <span>${statut(v.statut.cle)}</span>
     ${v.prets === null ? "" : `<span class="ligne-prets">${pluriel(v.pretsIci, "prêt")}</span>`}
   </button>`;
@@ -449,7 +454,7 @@ function ouvrirFiche(id) {
     <div class="chiffres-serie">
       <div><strong>${nf.format(v.ici.length)}</strong><span>à ${h(court(bib))}</span></div>
       <div><strong>${info.parus !== null ? nf.format(info.parus) : "?"}</strong><span>parus en VF</span></div>
-      ${info.totalVO ? `<div><strong>${nf.format(info.totalVO)}</strong><span>en VO</span></div>` : ""}
+      ${info.totalVO ? `<div><strong>${nf.format(info.totalVO)}</strong><span>${h(enVO(v.enr?.anilist))}</span></div>` : v.enr?.anilist?.statut === "RELEASING" && !v.enr.anilist.auteurDifferent ? `<div><strong>…</strong><span>en cours ${h(enVO(v.enr.anilist))}</span></div>` : ""}
     </div>
     <p class="resume">${h(phraseStatut(v))}</p>
     ${total ? `<div class="rayon-complet">${tranches.join("")}</div>${legende()}` : ""}
