@@ -184,6 +184,9 @@ function fausseCouv(titre, editeur) {
 }
 
 function urlsCouv(v) {
+  // couverture française (BnF ou Open Library), réduite et rangée dans le dépôt
+  const fr = v.enr?.couvFR;
+  if (fr) { const u = `couvertures/${encodeURIComponent(v.s.id)}.jpg?v=${fr.maj || ""}`; return { petite: u, grande: u, fr: true }; }
   const al = v.enr?.anilist && !v.enr.anilist.rejete ? v.enr.anilist : null;
   if (!al?.image) return null;
   return { petite: al.image, grande: al.imageGrande || al.image.replace("/cover/small/", "/cover/medium/") };
@@ -437,6 +440,7 @@ function ouvrirFiche(id) {
         <p><strong>Japon</strong> : ${al ? `série ${h(ETATS_AL[al.statut] || "?")}${al.volumes ? ` en ${pluriel(al.volumes, "tome")}` : ""}, d'après AniList (« ${h(al.titre)} »)${al.auto ? ", reliée automatiquement" : ""}.` : "série pas encore reliée à AniList. Colle son adresse dans « Modifier la série »."}</p>
         <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}</p>
         ${s.ancien && (s.ancien.total || s.ancien.etat) ? `<p><strong>Ancien Excel</strong> : ${s.ancien.total ? pluriel(s.ancien.total, "tome") : ""}${s.ancien.etat ? `, ${h(s.ancien.etat.toLowerCase())}` : ""}${s.ancien.annee ? `, dernière parution en ${s.ancien.annee}` : ""}.</p>` : ""}
+        <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `édition française, tome ${v.enr.couvFR.tome}, d'après ${v.enr.couvFR.source === "BnF" ? "la BnF" : "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
         <p>Voir sur ${liens.join(", ")}.</p>
       </div>
     </details>

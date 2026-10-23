@@ -321,9 +321,12 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         dernier, plusieurs_editions = volumes_vo, True
         nums = [n for n in nums if n <= volumes_vo]
     rec_dernier = max((t for t in g if t["n"] == dernier), key=lambda t: t["creee"] or "")
-    # Tome 1 de l'édition retenue (la plus récente s'il y a eu une réédition), pour la couverture
-    premiers = [t for t in g if t["n"] == nums[0] and (t["ark"] or t["isbn"])]
-    t1 = max(premiers, key=lambda t: t["creee"] or "") if premiers else None
+    # Candidats pour la couverture : le tome 1 de l'édition retenue (réédition la plus récente
+    # d'abord), puis les tomes suivants.
+    candidats = sorted((t for t in g if (t["ark"] or t["isbn"]) and t["n"] in nums),
+                       key=lambda t: (t["n"], -int(t["creee"]) if (t["creee"] or "").isdigit() else 0))
+    candidats = [{"n": t["n"], "ark": t["ark"], "isbn": t["isbn"]} for t in candidats][:4]
+    t1 = candidats[0] if candidats else None
     date = None
     if rec_dernier["creee"] and len(rec_dernier["creee"]) == 8:
         a, m = rec_dernier["creee"][:4], rec_dernier["creee"][4:6]
@@ -338,9 +341,56 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         "notices": len(g),
         "autresEditeurs": sorted({t["editeur"] for k, v in groupes.items() if k != choix for t in v})[:5],
         **({"plusieursEditions": True} if plusieurs_editions else {}),
-        **({"ark1": t1["ark"], "isbn1": t1["isbn"]} if t1 else {}),
+        **({"ark1": t1["ark"], "isbn1": t1["isbn"], "candidatsCouv": candidats} if t1 else {}),
         "requete": requete,
     }
+
+
+DOSSIER_COUV = RACINE / "couvertures"
+
+
+def telecharger(url: str) -> bytes | None:
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=40) as r:
+            if not (r.headers.get("Content-Type") or "").startswith("image/"):
+                return None
+            corps = r.read()
+            return corps if len(corps) > 1500 else None
+    except Exception:
+        return None
+
+
+def couverture_fr(ident: str, bnf: dict | None, forcer: bool = False) -> dict | None:
+    """Cherche la couverture française (BnF, sinon Open Library) et l'enregistre en vignette."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return None
+    import io
+    fichier = DOSSIER_COUV / f"{ident}.jpg"
+    for c in (bnf or {}).get("candidatsCouv", []):
+        sources = []
+        if c.get("ark"):
+            sources.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1"))
+        if c.get("isbn"):
+            sources.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false"))
+        for nom, url in sources:
+            time.sleep(0.8)
+            corps = telecharger(url)
+            if not corps:
+                continue
+            try:
+                img = Image.open(io.BytesIO(corps)).convert("RGB")
+            except Exception:
+                continue
+            if img.width < 80 or img.height < 100 or not (1.05 < img.height / img.width < 2.2):
+                continue  # vignette vide, image trop petite ou pas au format d'une couverture
+            img.thumbnail((300, 460))
+            DOSSIER_COUV.mkdir(exist_ok=True)
+            img.save(fichier, "JPEG", quality=82, optimize=True, progressive=True)
+            return {"source": nom, "tome": c["n"], "maj": AUJOURDHUI.isoformat()}
+    return None
 
 
 def tester_couvertures(bnf: dict) -> None:
@@ -465,6 +515,15 @@ def main() -> int:
                 vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
                 e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
                 e["bnfVerifie"] = AUJOURDHUI.isoformat()
+            # Couverture française, une seule fois (puis tous les 6 mois si elle manque)
+            if not debug and (args.forcer or not e.get("couvFR") and age_jours(e.get("couvEssai")) > 180
+                              or e.get("couvFR") and not (DOSSIER_COUV / f"{s['id']}.jpg").exists()):
+                trouvee = couverture_fr(s["id"], e.get("bnf"))
+                e["couvEssai"] = AUJOURDHUI.isoformat()
+                if trouvee:
+                    e["couvFR"] = trouvee
+                else:
+                    e.pop("couvFR", None)
             e["verifie"] = AUJOURDHUI.isoformat()
             cache[s["id"]] = e
             faites += 1
