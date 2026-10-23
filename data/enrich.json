@@ -1,4 +1,1154 @@
 {
- "maj": null,
- "series": {}
+ "maj": "2026-10-23T08:19:44Z",
+ "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
+ "series": {
+  "10th-a-couper-le-souffle": {
+   "anilist": {
+    "id": 108156,
+    "titre": "10th",
+    "titreVO": "10th",
+    "statut": "FINISHED",
+    "volumes": 3,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shojo",
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx108156-2dgkJER2YduS.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2022-12",
+    "editeur": "Kana",
+    "notices": 3,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"10th couper le souffle\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "300-jours-avec-toi": {
+   "anilist": {
+    "id": 120249,
+    "titre": "Boku wa Mata, Kimi ni Sayonara no Kazu wo Miru",
+    "titreVO": "Boku wa Mata, Kimi ni Sayonara no Kazu wo Miru",
+    "statut": "FINISHED",
+    "volumes": 2,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": null,
+    "genres": [
+     "Drama",
+     "Romance",
+     "Supernatural"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx120249-phA5RLNeuJOP.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2022-03",
+    "editeur": "Bamboo édition",
+    "notices": 2,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"300 jours avec toi\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "5-minutes-forward": {
+   "anilist": {
+    "id": 105140,
+    "titre": "5-fungo no Sekai",
+    "titreVO": "5-fungo no Sekai",
+    "statut": "FINISHED",
+    "volumes": 7,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Action",
+     "Adventure",
+     "Horror",
+     "Mystery"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/n105140-6OQCTe74mueB.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2021-09",
+    "editeur": "Kana",
+    "notices": 7,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"5 minutes forward\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "a-l-image-de-mona-lisa": {
+   "anilist": {
+    "id": 104231,
+    "titre": "Just Like Mona Lisa",
+    "titreVO": "Seibetsu \"Mona Lisa\" no Kimi e.",
+    "statut": "FINISHED",
+    "volumes": 10,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Drama",
+     "Romance",
+     "Slice of Life"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx104231-PdknHubs6lol.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 202,
+    "tomes": "1-8,202",
+    "dateDernier": "2024-11",
+    "editeur": "Éditions Akata",
+    "notices": 9,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"image de mona lisa\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "a-sign-of-affection": {
+   "anilist": {
+    "id": 111189,
+    "titre": "A Sign of Affection",
+    "titreVO": "Yubisaki to Renren",
+    "statut": "RELEASING",
+    "volumes": null,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shojo",
+    "genres": [
+     "Romance",
+     "Slice of Life"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx111189-tvPJRVj5nGic.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 14,
+    "tomes": "1-14",
+    "dateDernier": "2026-09",
+    "editeur": "Éditions Akata",
+    "notices": 14,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"sign of affection\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "a-silent-voice": {
+   "anilist": {
+    "id": 85135,
+    "titre": "A Silent Voice",
+    "titreVO": "Koe no Katachi",
+    "statut": "FINISHED",
+    "volumes": 7,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Drama",
+     "Romance",
+     "Slice of Life"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx85135-11OOnyaqV71k.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2016-04",
+    "editeur": "Ki-oon",
+    "notices": 8,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"silent voice\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "ad-astra-scipion-l-africain-hannibal-barca": {
+   "anilist": {
+    "id": 59799,
+    "titre": "Ad Astra: Scipio to Hannibal",
+    "titreVO": "Ad Astra: Scipio to Hannibal",
+    "statut": "FINISHED",
+    "volumes": 13,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Action",
+     "Adventure",
+     "Drama",
+     "Psychological"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx59799-qo8ry26p5rtV.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 13,
+    "tomes": "1-13",
+    "dateDernier": "2018-11",
+    "editeur": "Ki-oon",
+    "notices": 14,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"ad astra scipion africain hannibal barca\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "akira": {
+   "anilist": {
+    "id": 30664,
+    "titre": "Akira",
+    "titreVO": "AKIRA",
+    "statut": "FINISHED",
+    "volumes": 6,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Action",
+     "Horror",
+     "Psychological",
+     "Sci-Fi"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30664-JJq9tosQvlpW.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 14,
+    "tomes": "1-11,14",
+    "dateDernier": "1996",
+    "editeur": "Glénat",
+    "notices": 24,
+    "autresEditeurs": [
+     "Akileos",
+     "Dargaud Bénélux-Kana",
+     "Elyna Marquez",
+     "[SM 4 SARL]",
+     "Éd. France loisirs"
+    ],
+    "requete": "bib.title all \"akira\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "alice-au-royaume-de-trefle": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2014-07",
+    "editeur": "Ki-oon",
+    "notices": 7,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"alice au royaume de trefle\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "alice-in-borderland": {
+   "anilist": {
+    "id": 63031,
+    "titre": "Alice in Borderland",
+    "titreVO": "Imawa no Kuni no Alice",
+    "statut": "FINISHED",
+    "volumes": 18,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Action",
+     "Drama",
+     "Horror",
+     "Psychological",
+     "Supernatural",
+     "Thriller"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx63031-lE9pKD3cpmVK.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 18,
+    "tomes": "5-18",
+    "dateDernier": "2017-07",
+    "editeur": "Éditions Delcourt",
+    "notices": 14,
+    "autresEditeurs": [
+     "Delcourt-Akata"
+    ],
+    "requete": "bib.title all \"alice in borderland\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "all-out": {
+   "anilist": {
+    "id": 86474,
+    "titre": "All Out!!",
+    "titreVO": "ALL OUT!!",
+    "statut": "FINISHED",
+    "volumes": 17,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Sports"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx86474-HV9QoO0C4eG0.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 17,
+    "tomes": "1-17",
+    "dateDernier": "2026-06",
+    "editeur": "Pika éditions",
+    "notices": 17,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"all out\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "all-you-need-is-kill": {
+   "anilist": {
+    "id": 85215,
+    "titre": "All You Need Is Kill",
+    "titreVO": "All You Need Is Kill",
+    "statut": "FINISHED",
+    "volumes": 2,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Action",
+     "Drama",
+     "Mecha",
+     "Psychological",
+     "Romance",
+     "Sci-Fi"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx85215-Uo4ZWJS1s8BH.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2014-11",
+    "editeur": "Kazé",
+    "notices": 2,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"all you need is kill\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "alpi-the-soul-sender": {
+   "anilist": {
+    "id": 112491,
+    "titre": "Alpi the Soul Sender",
+    "titreVO": "Soukon no Shoujo to Sourei no Tabi",
+    "statut": "FINISHED",
+    "volumes": 7,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Adventure",
+     "Fantasy"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx112491-yzMLyEb2yP27.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2022-12",
+    "editeur": "Ki-oon",
+    "notices": 7,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"alpi the soul sender\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "amatsuki": {
+   "anilist": {
+    "id": 31299,
+    "titre": "Amatsuki",
+    "titreVO": "Amatsuki",
+    "statut": "FINISHED",
+    "volumes": 24,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Josei",
+    "genres": [
+     "Action",
+     "Fantasy",
+     "Supernatural"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx31299-8hPxo4Lw3syi.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 24,
+    "tomes": "1-24",
+    "dateDernier": "2020",
+    "editeur": "Kazé",
+    "notices": 24,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"amatsuki\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "amour-sucre": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2014",
+    "editeur": "Akiléos",
+    "notices": 5,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"amour sucre\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "amulet": {
+   "anilist": {
+    "id": 186784,
+    "titre": "Amulet",
+    "titreVO": "Siagwi",
+    "statut": "FINISHED",
+    "volumes": null,
+    "format": "MANGA",
+    "pays": "KR",
+    "demographie": null,
+    "genres": [
+     "Drama",
+     "Mystery",
+     "Romance",
+     "Supernatural"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b186784-BB2oAtCtaXLa.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 9,
+    "tomes": "1-9",
+    "dateDernier": "2024",
+    "editeur": "Akiléos",
+    "notices": 9,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"amulet\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "anima": {
+   "anilist": {
+    "id": 30038,
+    "titre": "+Anima",
+    "titreVO": "+Anima",
+    "statut": "FINISHED",
+    "volumes": 10,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Adventure",
+     "Fantasy"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30038-7C8FTYWe8AAD.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 10,
+    "tomes": "1-8,10",
+    "dateDernier": "2007-09",
+    "editeur": "Taifu comics",
+    "notices": 9,
+    "autresEditeurs": [
+     "Béatrice Florin",
+     "Libraginaire",
+     "Mary Sara",
+     "Meunier B.",
+     "Ototo"
+    ],
+    "requete": "bib.title all \"anima\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "animal-crossing-new-horizons-l-ile-de-la-detente": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "2",
+    "dateDernier": "2023-12",
+    "editeur": "Soleil",
+    "notices": 1,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"animal crossing new horizons ile de la detente\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "animal-crossing-new-horizons-le-journal-de-l-ile": {
+   "anilist": {
+    "id": 48315,
+    "titre": "Dobutsu no Mori: Hohinda Mura Dayori",
+    "titreVO": "Dobutsu no Mori: Hohinda Mura Dayori",
+    "statut": "FINISHED",
+    "volumes": 12,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": null,
+    "genres": [
+     "Slice of Life"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx48315-cyuwLf65QGWQ.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"animal crossing new horizons le journal de ile\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "animal-kingdom": {
+   "anilist": {
+    "id": 126027,
+    "titre": "Wild Love of Beasts",
+    "titreVO": "Dongmurui Wangguk",
+    "statut": "FINISHED",
+    "volumes": null,
+    "format": "MANGA",
+    "pays": "KR",
+    "demographie": null,
+    "genres": [
+     "Comedy",
+     "Hentai",
+     "Romance",
+     "Supernatural"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b126027-M4idqcwC3GoH.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 14,
+    "tomes": "1-14",
+    "dateDernier": "2016-01",
+    "editeur": "Ki-oon",
+    "notices": 14,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"animal kingdom\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "ao-ashi-playmaker": {
+   "anilist": {
+    "id": 107279,
+    "titre": "Aoashi",
+    "titreVO": "Aoashi",
+    "statut": "FINISHED",
+    "volumes": 40,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Sports"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx107279-R2vxyPQRqV0X.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 35,
+    "tomes": "35",
+    "dateDernier": "2026-07",
+    "editeur": "Mangetsu",
+    "notices": 1,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"ao ashi playmaker\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "appare-ranman": {
+   "anilist": {
+    "id": 117551,
+    "titre": "Appare-Ranman!",
+    "titreVO": "Appare-Ranman!",
+    "statut": "FINISHED",
+    "volumes": 3,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Action",
+     "Adventure",
+     "Comedy",
+     "Drama"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx117551-F3eaoHhgsLaQ.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2022-08",
+    "editeur": "Bamboo édition",
+    "notices": 3,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"appare ranman\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "apres-la-pluie": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 10,
+    "tomes": "1-10",
+    "dateDernier": "2019-08",
+    "editeur": "Kana",
+    "notices": 10,
+    "autresEditeurs": [
+     "Casterman",
+     "Delcourt",
+     "William Alcyon",
+     "[Gallimard]"
+    ],
+    "requete": "bib.title all \"apres la pluie\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "aria-the-masterpiece": {
+   "anilist": {
+    "id": 30081,
+    "titre": "Aria",
+    "titreVO": "ARIA",
+    "statut": "FINISHED",
+    "volumes": 12,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": null,
+    "genres": [
+     "Adventure",
+     "Comedy",
+     "Drama",
+     "Fantasy",
+     "Sci-Fi",
+     "Slice of Life"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30081-oCRaPkTGq4vP.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2021-06",
+    "editeur": "Ki-oon",
+    "notices": 8,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"aria the masterpiece\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "aromantic-love-story": {
+   "anilist": {
+    "id": 98869,
+    "titre": "Kiryuu-sensei wa Renai ga Wakaranai",
+    "titreVO": "Kiryuu-sensei wa Renai ga Wakaranai",
+    "statut": "FINISHED",
+    "volumes": 5,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Josei",
+    "genres": [
+     "Comedy",
+     "Drama",
+     "Romance"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx98869-GWnX2PhJ1M8C.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2019-05",
+    "editeur": "Éditions Akata",
+    "notices": 5,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"aromantic love story\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "asadora": {
+   "anilist": {
+    "id": 104487,
+    "titre": "Asadora!",
+    "titreVO": "Asadora!",
+    "statut": "RELEASING",
+    "volumes": null,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Action",
+     "Drama",
+     "Mystery"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx104487-sct3z5M0DttW.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 9,
+    "tomes": "1-9",
+    "dateDernier": "2025-06",
+    "editeur": "Kana",
+    "notices": 9,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"asadora\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "ascension": {
+   "anilist": {
+    "id": 37375,
+    "titre": "The Climber",
+    "titreVO": "Kokou no Hito",
+    "statut": "FINISHED",
+    "volumes": 17,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Adventure",
+     "Drama",
+     "Psychological",
+     "Sports"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx37375-wkgev4kXhamw.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 17,
+    "tomes": "10,13-17",
+    "dateDernier": "2014-04",
+    "editeur": "Delcourt",
+    "notices": 6,
+    "autresEditeurs": [
+     "Beta publisher",
+     "Black coat press",
+     "BoD-Books on demand",
+     "Delcourt-Akata",
+     "Ella Nabi"
+    ],
+    "requete": "bib.title all \"ascension\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "assassination-classroom": {
+   "anilist": {
+    "id": 69883,
+    "titre": "Assassination Classroom",
+    "titreVO": "Ansatsu Kyoushitsu",
+    "statut": "FINISHED",
+    "volumes": 21,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Action",
+     "Comedy",
+     "Sci-Fi",
+     "Supernatural"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx69883-zDt4DUXkQS5N.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 21,
+    "tomes": "1-13,15-21",
+    "dateDernier": "2018-08",
+    "editeur": "Kana",
+    "notices": 20,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"assassination classroom\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "assassination-classroom-2": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"assassination classroom 2\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "astra-lost-in-space": {
+   "anilist": {
+    "id": 87442,
+    "titre": "Astra Lost in Space",
+    "titreVO": "Kanata no Astra",
+    "statut": "FINISHED",
+    "volumes": 5,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Action",
+     "Adventure",
+     "Drama",
+     "Mystery",
+     "Sci-Fi"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx87442-hLlQTsu1hXC0.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"astra lost in space\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "au-coeur-de-fukushima": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2016",
+    "editeur": "Kana",
+    "notices": 3,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"au coeur de fukushima\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "ayashimon": {
+   "anilist": {
+    "id": 141261,
+    "titre": "Ayashimon",
+    "titreVO": "Ayashimon",
+    "statut": "FINISHED",
+    "volumes": 3,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Action",
+     "Supernatural"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx141261-mt54KpSPn8zh.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2023-08",
+    "editeur": "Crunchyroll",
+    "notices": 3,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"ayashimon\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "b-side": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2025-08",
+    "editeur": "Ki-oon",
+    "notices": 4,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"side\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "badducks": {
+   "anilist": {
+    "id": 139945,
+    "titre": "BADDUCKS",
+    "titreVO": "BADDUCKS",
+    "statut": "FINISHED",
+    "volumes": 4,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Action",
+     "Comedy",
+     "Drama",
+     "Sci-Fi"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx139945-3PuJivwfkpkh.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2024-02",
+    "editeur": "Ki-oon",
+    "notices": 4,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"badducks\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "bakuman": {
+   "anilist": {
+    "id": 39711,
+    "titre": "Bakuman。",
+    "titreVO": "Bakuman.",
+    "statut": "FINISHED",
+    "volumes": 20,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Comedy",
+     "Drama",
+     "Romance",
+     "Slice of Life"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx39711-tjPWXT1AW321.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 20,
+    "tomes": "1-20",
+    "dateDernier": "2014",
+    "editeur": "Kana",
+    "notices": 20,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"bakuman\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "bamboo-blade": {
+   "anilist": {
+    "id": 30720,
+    "titre": "Bamboo Blade",
+    "titreVO": "BAMBOO BLADE",
+    "statut": "FINISHED",
+    "volumes": 14,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Comedy",
+     "Sports"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30720-sh5GgakeQS8M.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 14,
+    "tomes": "1-14",
+    "dateDernier": "2011",
+    "editeur": "Ki-oon",
+    "notices": 14,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"bamboo blade\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "banana-sioule": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2024-02",
+    "editeur": "Glénat",
+    "notices": 3,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"banana sioule\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "barakamon": {
+   "anilist": {
+    "id": 47051,
+    "titre": "Barakamon",
+    "titreVO": "Barakamon",
+    "statut": "FINISHED",
+    "volumes": 19,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shonen",
+    "genres": [
+     "Comedy",
+     "Slice of Life"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx47051-2Qdu2XyoAv1z.jpg",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 19,
+    "tomes": "1-19",
+    "dateDernier": "2025-05",
+    "editeur": "Ki-oon",
+    "notices": 20,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"barakamon\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "battle-game-in-5-seconds": {
+   "anilist": null,
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 26,
+    "tomes": "1-26",
+    "dateDernier": "2026-03",
+    "editeur": "Bamboo édition",
+    "notices": 26,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"battle game in 5 seconds\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "cooking-karine": {
+   "anilist": {
+    "id": 132757,
+    "titre": "Karin Channel Hajimete Mita!",
+    "titreVO": "Karin Channel Hajimete Mita!",
+    "statut": "FINISHED",
+    "volumes": 3,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shojo",
+    "genres": [
+     "Comedy",
+     "Romance",
+     "Slice of Life"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx132757-ZV4PPb1x0jMT.png",
+    "auto": true,
+    "score": 1.0
+   },
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2021-07",
+    "editeur": "Nobi nobi !",
+    "notices": 3,
+    "autresEditeurs": [],
+    "requete": "bib.title all \"cooking karine\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  }
+ }
 }
