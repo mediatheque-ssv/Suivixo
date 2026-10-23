@@ -364,10 +364,10 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
   // Sur la fiche, « VF : 20 » pourrait compter un tome annoncé : on se fie d'abord à l'encadré « Dernier paru ».
   let fvf = fiche && Number.isFinite(fiche.vf) ? fiche.vf : null;
   if (fvf !== null && fiche.vfDernier > 0 && fiche.vfDernier <= fvf) fvf = fiche.vfDernier;
-  else if (fvf !== null && fiche.vfProchain > 0 && fiche.vfProchain <= fvf
+  else if (fvf !== null && etatFiche !== "Terminée" && fiche.vfProchain > 0 && fiche.vfProchain <= fvf
     && !(fiche.vfProchainDate && Date.parse(fiche.vfProchainDate) <= maintenant)) fvf = fiche.vfProchain - 1;
   // le tome annoncé est sorti depuis la lecture de la fiche
-  if (fvf !== null && fiche.vfProchain > fvf && fiche.vfProchainDate && Date.parse(fiche.vfProchainDate) <= maintenant) fvf = fiche.vfProchain;
+  if (fvf !== null && etatFiche !== "Terminée" && fiche.vfProchain > fvf && fiche.vfProchainDate && Date.parse(fiche.vfProchainDate) <= maintenant) fvf = fiche.vfProchain;
   if (Number.isFinite(man.parus)) { parus = man.parus; sourceParus = "manuel"; }
   else if (fvf !== null && etatFiche === "Terminée") { parus = fvf; sourceParus = "mangaNews"; }
   else if (dernierBnf(bnf) || mn || fvf) {
@@ -426,7 +426,8 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
 
   const pays = al?.pays || fiche?.pays || null;
   // Prochain tome annoncé en France (date de sortie), s'il n'est pas déjà sorti depuis la lecture de la fiche
-  const prochain = fiche?.vfProchainDate && Date.parse(fiche.vfProchainDate) > maintenant
+  // (une série terminée en France peut annoncer un hors-série ou une réédition : on n'en parle pas)
+  const prochain = fiche?.vfProchainDate && etatFiche !== "Terminée" && Date.parse(fiche.vfProchainDate) > maintenant
     ? { tome: fiche.vfProchain || null, date: fiche.vfProchainDate } : null;
   return { parus, sourceParus, sourceEnRetard, etat, sourceEtat, totalVO, etatVO, pays, aVenir, doute, prochain,
     dateDernier: fiche?.vfDernierDate || bnf?.dateDernier || null };

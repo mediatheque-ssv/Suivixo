@@ -125,6 +125,10 @@ t("fiche Manga-News", () => {
   const stop = { mangaNews: { tomes: 6, url: "u" }, mangaNewsFiche: { url: "u", vf: 6, vfStatut: "Abandonné", vo: 14, voStatut: "Terminé" } };
   assert.equal(C.statutSerie([1, 2, 3, 4, 5, 6], C.infosParution(s, stop, maintenant)).cle, "abandonnee");
   assert.equal(C.etatMangaNews("Stoppé"), "Abandonnée");
+  // Aria : terminée en France (7 tomes), un tome 8 annoncé (hors-série) n'est ni compté ni affiché
+  const aria = { mangaNews: { tomes: 7, url: "u" }, mangaNewsFiche: { url: "u", vf: 7, vfStatut: "Terminé", vo: 7, voStatut: "Terminé", vfDernier: 7, vfProchain: 8, vfProchainDate: "2027-02-18" } };
+  const ar = C.infosParution(s, aria, Date.parse("2027-03-01"));
+  assert.equal(ar.parus, 7); assert.equal(ar.prochain, null); assert.equal(ar.etat, "Terminée");
   // page indiquée à la main (ancien Excel) : seule sa fiche compte, sauf si elle a disparu
   const lien = { titre: "X", liens: { mangaNews: "index.php/serie/X-Kana" } };
   const fl = { mangaNews: { tomes: 3, url: "https://www.manga-news.com/index.php/serie/X" }, mangaNewsFiche: { url: "https://www.manga-news.com/index.php/serie/X-Kana", vf: 7, vfStatut: "En cours" } };
