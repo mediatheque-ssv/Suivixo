@@ -330,9 +330,9 @@ export function dernierBnf(bnf) {
  * Fiche Manga-News lue par la vérification hebdo, si elle parle bien de l'édition du réseau
  * (même éditeur, ou page indiquée à la main dans « Modifier la série »).
  */
-export function ficheMangaNews(serie, enr) {
+export function ficheMangaNews(serie, enr, memeIllisible = false) {
   const f = enr?.mangaNewsFiche;
-  if (!f || f.lu === false || !(Number.isFinite(f.vf) || Number.isFinite(f.vo))) return null;
+  if (!f || (!memeIllisible && (f.lu === false || !(Number.isFinite(f.vf) || Number.isFinite(f.vo))))) return null;
   const manuel = serie.liens?.mangaNews;
   const okManuel = manuel && f.url && f.url.endsWith(manuel.replace(/^https?:\/\/(www\.)?manga-news\.com\//, ""));
   // page trouvée dans le jeu de données Manga-News (même éditeur), si aucune page n'est indiquée ou si elle a disparu
@@ -423,6 +423,13 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
     else if (al.statut === "NOT_YET_RELEASED") etat = "En cours";
   } else if (leg.etat) { etat = leg.etat; sourceEtat = "excel"; }
 
+  // Aucune source ne donne l'état (webtoons surtout) : un tome sorti en France depuis moins d'un an,
+  // c'est que la série continue.
+  if (!etat && parus !== null && serie.type !== "One shot") {
+    const fr = ficheMangaNews(serie, enr, true);
+    const d = Math.max(Date.parse(fr?.vfDernierDate || "") || 0, Date.parse(bnf?.dateDernier || "") || 0);
+    if (d && maintenant - d < 12 * MOIS) { etat = "En cours"; sourceEtat = "recent"; }
+  }
   if (serie.type === "One shot" && !etat) { etat = "Terminée"; sourceEtat = sourceEtat || "type"; }
   if (serie.type === "One shot" && parus === null) { parus = 1; sourceParus = sourceParus || "type"; }
 

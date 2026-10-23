@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=13";
+import * as C from "./core.js?v=14";
 import { publier, verifierCle } from "./github.js";
 
 // ---------------------------------------------------------------------------
@@ -414,6 +414,7 @@ function phraseStatut(v) {
     const fin = info.sourceEtat === "mangaNews" && info.etat === "Terminée" ? " : l'édition française est terminée"
       : info.sourceEtat === "mangaNews" && info.etat === "Abandonnée" ? " : l'éditeur français a arrêté la série" : "";
     morceaux.push(`${pluriel(info.parus, "tome paru", "tomes parus")} en France${date}${venir}${fin}.`);
+    if (info.sourceEtat === "recent") morceaux.push("Aucune source ne dit où en est la série, mais un tome est sorti en France il y a moins d'un an : elle continue sans doute.");
     if (info.prochain) morceaux.push(`Prochain tome${info.prochain.tome ? ` (${info.prochain.tome})` : ""} annoncé pour le ${jourMois(info.prochain.date)}.`);
     if (info.sourceParus === "reseau") morceaux.push(`Ce nombre vient des exemplaires du réseau${info.sourceEnRetard === "bnf" ? " : la BnF ne recense pas encore les derniers tomes" : ""}.`);
   } else morceaux.push("Le nombre de tomes parus en France est inconnu.");

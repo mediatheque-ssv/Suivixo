@@ -130,6 +130,11 @@ t("fiche Manga-News", () => {
   const m = C.infosParution(s, ml, maintenant, 10);
   assert.equal(m.parus, 10); assert.equal(m.etat, "Terminée");
   assert.equal(C.infosParution(s, ml, maintenant, 9).etat, "En cours");
+  // webtoon : fiche sans état, mais un tome paru il y a 5 mois : en cours
+  const wt = { mangaNews: { tomes: 4, url: "u" }, mangaNewsFiche: { url: "u", lu: false, vfDernierDate: "2026-06-03" } };
+  const w = C.infosParution(s, wt, maintenant);
+  assert.equal(w.parus, 4); assert.equal(w.etat, "En cours"); assert.equal(w.sourceEtat, "recent");
+  assert.equal(C.infosParution(s, wt, Date.parse("2027-09-01")).etat, null);
   // Aria : terminée en France (7 tomes), un tome 8 annoncé (hors-série) n'est ni compté ni affiché
   const aria = { mangaNews: { tomes: 7, url: "u" }, mangaNewsFiche: { url: "u", vf: 7, vfStatut: "Terminé", vo: 7, voStatut: "Terminé", vfDernier: 7, vfProchain: 8, vfProchainDate: "2027-02-18" } };
   const ar = C.infosParution(s, aria, Date.parse("2027-03-01"));

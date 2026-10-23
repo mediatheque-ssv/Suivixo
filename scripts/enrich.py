@@ -334,7 +334,6 @@ def url_manga_news(serie: dict, mn: dict | None) -> str | None:
     return (mn or {}).get("url") or None
 
 
-DEBUG_MN = False
 RE_VOL = re.compile(r"/vol-(\d{1,3})\b")
 RE_DATE = re.compile(r"\b(\d{2})/(\d{2})/(\d{4})\b")
 PAYS_MN = {"japon": "JP", "coree": "KR", "coree du sud": "KR", "chine": "CN", "taiwan": "TW", "france": "FR"}
@@ -368,24 +367,10 @@ def fiche_manga_news(url: str | None) -> dict | None:
     vf, vo = RE_VF.search(texte), RE_VO.search(texte)
     r = {"url": url}
     if not vf and not vo:
-        # Webtoon : la fiche compte les chapitres en ligne ; les tomes papier sont sur la page « Editions VF »
-        m = re.search(r'href="([^"]*/serie/editions/[^"]+)"', page)
-        if m:
-            url_ed = m.group(1) if m.group(1).startswith("http") else "https://www.manga-news.com/" + m.group(1).lstrip("/")
-            time.sleep(2)
-            _dernier_mn = time.time()
-            page_ed = h.unescape(re.sub(r"<script.*?</script>|<style.*?</style>", " ", http(url_ed).decode("utf-8", errors="replace"), flags=re.S))
-            texte_ed = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page_ed))
-            if DEBUG_MN:
-                for motif in ["VF", "olume", "Statut", "Terminé", "En cours", "paraître"]:
-                    for mm in list(re.finditer(re.escape(motif), page_ed))[:3]:
-                        dbg("      [éditions " + motif + "] …" + re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", page_ed[max(0, mm.start() - 150): mm.end() + 350]))[:500] + "…")
-            vf, vo = RE_VF.search(texte_ed), RE_VO.search(texte_ed)
-            if vf or vo:
-                r["editions"] = url_ed
-                page, texte = page_ed + page, texte_ed + " " + texte
-    if not vf and not vo:
-        return {"url": url, "lu": False, "verifie": AUJOURDHUI.isoformat()}
+        # Webtoon : la fiche compte les chapitres en ligne, sans état de l'édition papier ;
+        # on garde au moins la date du dernier tome paru en France.
+        _, d = _bloc_volume(page, "Dernier paru", "paraître")
+        return {"url": url, "lu": False, **({"vfDernierDate": d} if d else {}), "verifie": AUJOURDHUI.isoformat()}
     if vf:
         r.update(vf=int(vf.group(1)), vfStatut=vf.group(2).strip())
     if vo:
@@ -412,8 +397,8 @@ def fiche_manga_news(url: str | None) -> dict | None:
 
 def fiche_a_lire(e: dict, forcer: bool = False) -> bool:
     f = e.get("mangaNewsFiche") or {}
-    if forcer or not f.get("verifie"):
-        return True
+    if forcer or not f.get("verifie") or f.get("lu") is False:
+        return True  # (les fiches illisibles, des webtoons surtout, sont rares : on les relit à chaque passage)
     fini = "termin" in sans_accents(f.get("vfStatut") or "").lower()
     return age_jours(f.get("verifie")) >= (90 if fini else 6)
 
@@ -744,8 +729,6 @@ def main() -> int:
     cache: dict = enrich.get("series") or {}
     debut = time.time()
     debug = bool(args.serie)
-    global DEBUG_MN
-    DEBUG_MN = debug
 
     a_faire = []
     for s in series:
