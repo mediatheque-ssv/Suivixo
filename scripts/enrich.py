@@ -293,6 +293,9 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         choix = max(groupes, key=lambda k: len({t["n"] for t in groupes[k]}))
     g = groupes[choix]
     nums = sorted({t["n"] for t in g})
+    # Numéro isolé très loin des autres (ex. « 202 » lu dans « 2024 ») : on l'écarte.
+    while len(nums) > 1 and nums[-1] - nums[-2] > 20:
+        nums.pop()
     dernier = max(nums)
     plusieurs_editions = False
     # Plus de tomes en France qu'au Japon : souvent deux éditions mélangées (ex. Akira 14 tomes

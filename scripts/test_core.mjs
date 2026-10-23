@@ -61,6 +61,10 @@ t("état de parution", () => {
   assert.equal(C.infosParution(s, arrete).etat, "Arrêtée en France ?");
   assert.equal(C.infosParution({ titre: "X", ancien: { total: 5, etat: "Terminée" } }, null).parus, 5);
   assert.equal(C.infosParution({ titre: "X", manuel: { parus: 9, etat: "En cours" } }, fini).parus, 9);
+  // numéro aberrant (« 202 » lu dans « 2024 ») écarté
+  assert.equal(C.dernierBnf({ dernier: 202, tomes: "1-8,202" }), 8);
+  assert.equal(C.dernierBnf({ dernier: 35, tomes: "35" }), 35);
+  assert.equal(C.dernierBnf({ dernier: 17, tomes: "1-3,9,17" }), 17);
 });
 t("statut de la série", () => {
   const info = { parus: 5, etat: "Terminée" };

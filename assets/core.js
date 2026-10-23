@@ -291,6 +291,15 @@ export function tomesReseau(f) {
 
 const MOIS = 30.44 * 24 * 3600 * 1000;
 
+/** Dernier tome paru d'après la BnF, en écartant les numéros aberrants (ex. « 202 » lu dans « 2024 »). */
+export function dernierBnf(bnf) {
+  if (!bnf || !Number.isFinite(bnf.dernier) || bnf.dernier <= 0) return null;
+  const nums = lireListe(bnf.tomes);
+  if (!nums.length) return bnf.dernier;
+  while (nums.length > 1 && nums[nums.length - 1] - nums[nums.length - 2] > 20) nums.pop();
+  return Math.min(bnf.dernier, nums[nums.length - 1]);
+}
+
 /**
  * Combien de tomes sont parus en France, et où en est la série ?
  * Ordre de priorité : saisie manuelle > BnF + AniList > ancien Excel (Manga-News).
@@ -304,7 +313,7 @@ export function infosParution(serie, enr, maintenant = Date.now()) {
   // --- parus en France
   let parus = null, sourceParus = null;
   if (Number.isFinite(man.parus)) { parus = man.parus; sourceParus = "manuel"; }
-  else if (bnf && Number.isFinite(bnf.dernier) && bnf.dernier > 0) { parus = bnf.dernier; sourceParus = "bnf"; }
+  else if (dernierBnf(bnf)) { parus = dernierBnf(bnf); sourceParus = "bnf"; }
   else if (Number.isFinite(leg.total)) { parus = leg.total; sourceParus = "excel"; }
 
   // --- état
