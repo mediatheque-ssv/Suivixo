@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T13:34:42Z",
+ "maj": "2026-10-23T15:31:38Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -172,6 +172,49 @@
     "tome": 1,
     "maj": "2026-10-23"
    }
+  },
+  "a-crocs-a-toi": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-09",
+    "editeur": "Éditions Akata",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48705264s",
+    "isbn1": "9782385314644",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48705264s",
+      "isbn": "9782385314644"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48754711c",
+      "isbn": "9782385314651"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48815394c",
+      "isbn": "9782385314668"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48839225n",
+      "isbn": "9782385693084"
+     }
+    ],
+    "requete": "bib.title all \"crocs toi\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
   },
   "a-l-image-de-mona-lisa": {
    "anilist": {
@@ -421,6 +464,34 @@
     "maj": "2026-10-23"
    }
   },
+  "aether-dreams": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2024-07",
+    "editeur": "Hachette romans graphiques",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47506857x",
+    "isbn1": "9782017232131",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47506857x",
+      "isbn": "9782017232131"
+     }
+    ],
+    "requete": "bib.title all \"aether dreams\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "agence-de-detectives-layton-katrielle-et-les-enquetes-mysterieuses": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -434,6 +505,16 @@
     "requete": "bib.title all \"agence de detectives layton katrielle et les enquetes mysterieuses\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "agents-of-the-four-seasons-la-danse-du-printemps": {
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"agents of the four seasons la danse du printemps\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
    "verifie": "2026-10-23"
   },
   "akira": {
@@ -505,6 +586,39 @@
     "tome": 1,
     "maj": "2026-10-23"
    }
+  },
+  "alice-au-dela-des-etoiles": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-09",
+    "editeur": "Glénat",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48801921n",
+    "isbn1": "9782344073001",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48801921n",
+      "isbn": "9782344073001"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb488296304",
+      "isbn": "9782344075715"
+     }
+    ],
+    "requete": "bib.title all \"alice au dela des etoiles\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
   },
   "alice-au-royaume-de-trefle": {
    "anilist": null,
@@ -615,6 +729,39 @@
     "tome": 1,
     "maj": "2026-10-23"
    }
+  },
+  "alice-in-kyoto-forest": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2024-06",
+    "editeur": "Delcourt-Tonkam",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47501485v",
+    "isbn1": "9782413083542",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47501485v",
+      "isbn": "9782413083542"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47499803d",
+      "isbn": "9782413083559"
+     }
+    ],
+    "requete": "bib.title all \"alice in kyoto forest\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
   },
   "all-out": {
    "anilist": {
@@ -814,9 +961,77 @@
     "editeur": "Kazé",
     "notices": 24,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42408082j",
+    "isbn1": "9782820300652",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42408082j",
+      "isbn": "9782820300652"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb424551390",
+      "isbn": "9782820301376"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb425345833",
+      "isbn": "9782820301963"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42589972s",
+      "isbn": "9782820302540"
+     }
+    ],
     "requete": "bib.title all \"amatsuki\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
+  },
+  "amer-beton": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "1996-12",
+    "editeur": "Éd. Tonkam",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb358168020",
+    "isbn1": "2910645371",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb358168020",
+      "isbn": "2910645371"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb35837457t",
+      "isbn": "291064538X"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb35855637p",
+      "isbn": "2910645398"
+     }
+    ],
+    "requete": "bib.title all \"amer beton\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "amour-est-au-menu": {
@@ -874,10 +1089,40 @@
     "editeur": "Akiléos",
     "notices": 5,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43808650d",
+    "isbn1": "9782355741197",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43808650d",
+      "isbn": "9782355741197"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43632353f",
+      "isbn": "9782355741364"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb438288820",
+      "isbn": "9782355741616"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb44264841c",
+      "isbn": "9782355741654"
+     }
+    ],
     "requete": "bib.title all \"amour sucre\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "amulet": {
    "anilist": {
@@ -907,10 +1152,40 @@
     "editeur": "Akiléos",
     "notices": 9,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb414288198",
+    "isbn1": "9782355740282",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb414288198",
+      "isbn": "9782355740282"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb421249850",
+      "isbn": "9782355740497"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42305778b",
+      "isbn": "9782355740718"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42579167s",
+      "isbn": "9782355740923"
+     }
+    ],
     "requete": "bib.title all \"amulet\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "anima": {
    "anilist": {
@@ -984,10 +1259,25 @@
     "editeur": "Soleil",
     "notices": 1,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47385397v",
+    "isbn1": "9782302100251",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47385397v",
+      "isbn": "9782302100251"
+     }
+    ],
     "requete": "bib.title all \"animal crossing new horizons ile de la detente\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   }
   },
   "animal-crossing-new-horizons-le-journal-de-l-ile": {
    "anilist": {
@@ -1013,7 +1303,8 @@
     "requete": "bib.title all \"animal crossing new horizons le journal de ile\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "animal-kingdom": {
    "anilist": {
@@ -1043,10 +1334,40 @@
     "editeur": "Ki-oon",
     "notices": 14,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43739182b",
+    "isbn1": "9782355926174",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43739182b",
+      "isbn": "9782355926174"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43739252p",
+      "isbn": "9782355926181"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43782140r",
+      "isbn": "9782355926464"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb43842968p",
+      "isbn": "9782355926754"
+     }
+    ],
     "requete": "bib.title all \"animal kingdom\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "ao-ashi-playmaker": {
    "anilist": {
@@ -1073,10 +1394,25 @@
     "editeur": "Mangetsu",
     "notices": 1,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48816202v",
+    "isbn1": "9782382815373",
+    "candidatsCouv": [
+     {
+      "n": 35,
+      "ark": "ark:/12148/cb48816202v",
+      "isbn": "9782382815373"
+     }
+    ],
     "requete": "bib.title all \"ao ashi playmaker\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 35,
+    "maj": "2026-10-23"
+   }
   },
   "appare-ranman": {
    "anilist": {
@@ -1126,10 +1462,35 @@
      "William Alcyon",
      "[Gallimard]"
     ],
+    "ark1": "ark:/12148/cb45272466g",
+    "isbn1": "9782505068235",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45272466g",
+      "isbn": "9782505068235"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45338572g",
+      "isbn": "9782505068242"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45369299j",
+      "isbn": "9782505068259"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45430643d",
+      "isbn": "9782505068266"
+     }
+    ],
     "requete": "bib.title all \"apres la pluie\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "arcane-de-l-aube": {
    "anilist": {
@@ -1192,10 +1553,35 @@
     "editeur": "Ki-oon",
     "notices": 8,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46505211k",
+    "isbn1": "9791032705759",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46505211k",
+      "isbn": "9791032705759"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46545398k",
+      "isbn": "9791032705841"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb465555730",
+      "isbn": "9791032706237"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb465997275",
+      "isbn": "9791032706404"
+     }
+    ],
     "requete": "bib.title all \"aria the masterpiece\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "aromantic-love-story": {
    "anilist": {
@@ -1224,10 +1610,40 @@
     "editeur": "Éditions Akata",
     "notices": 5,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45500311h",
+    "isbn1": "9782369742715",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45500311h",
+      "isbn": "9782369742715"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb455648175",
+      "isbn": "9782369742722"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45696274m",
+      "isbn": "9782369743286"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45696539x",
+      "isbn": "9782369743682"
+     }
+    ],
     "requete": "bib.title all \"aromantic love story\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "asadora": {
    "anilist": {
@@ -1256,10 +1672,40 @@
     "editeur": "Kana",
     "notices": 9,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46515187r",
+    "isbn1": "9782505085249",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46515187r",
+      "isbn": "9782505085249"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb466307822",
+      "isbn": "9782505085256"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb466307853",
+      "isbn": "9782505085263"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46750761p",
+      "isbn": "9782505085270"
+     }
+    ],
     "requete": "bib.title all \"asadora\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "ascension": {
    "anilist": {
@@ -1295,10 +1741,40 @@
      "Ella Nabi",
      "Guillaume Pérodeau"
     ],
+    "ark1": "ark:/12148/cb42610541z",
+    "isbn1": "9782756016641",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42610541z",
+      "isbn": "9782756016641"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42309503v",
+      "isbn": "9782756020433"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb423448844",
+      "isbn": "9782756020440"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb423793581",
+      "isbn": "9782756020457"
+     }
+    ],
     "requete": "bib.title all \"ascension\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "assassination-classroom": {
    "anilist": {
@@ -1328,10 +1804,40 @@
     "editeur": "Kana",
     "notices": 20,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb436977770",
+    "isbn1": "9782505019442",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb436977770",
+      "isbn": "9782505019442"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb436977321",
+      "isbn": "9782505019459"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb437746334",
+      "isbn": "9782505060055"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb438254616",
+      "isbn": "9782505060413"
+     }
+    ],
     "requete": "bib.title all \"assassination classroom\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "assassination-classroom-2": {
    "anilist": null,
@@ -1342,7 +1848,8 @@
     "requete": "bib.title all \"assassination classroom 2\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "astra-lost-in-space": {
    "anilist": {
@@ -1372,6 +1879,78 @@
     "requete": "bib.title all \"astra lost in space\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
+  },
+  "astro-royale": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-08",
+    "editeur": "Glénat",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48649325s",
+    "isbn1": "9782344069189",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48649325s",
+      "isbn": "9782344069189"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48707725r",
+      "isbn": "9782344071458"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb487809258",
+      "isbn": "9782344071465"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48816622k",
+      "isbn": "9782344071472"
+     }
+    ],
+    "requete": "bib.title all \"astro royale\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "atelier-des-fees": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026",
+    "editeur": "Rue de Sèvres",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48602841w",
+    "isbn1": "9782810208975",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48602841w",
+      "isbn": "9782810208975"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48671869g",
+      "isbn": "9782810209071"
+     }
+    ],
+    "requete": "bib.title all \"atelier des fees\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
    "verifie": "2026-10-23"
   },
   "atelier-des-sorciers": {
@@ -1485,6 +2064,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "au-bout-du-chemin": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-2,5",
+    "dateDernier": "2012-03",
+    "editeur": "Delcourt",
+    "notices": 3,
+    "autresEditeurs": [
+     "Ki-oon",
+     "Ki-oon kids",
+     "Éditions Elvifrance",
+     "Éditions Harlequin"
+    ],
+    "ark1": "ark:/12148/cb48617673c",
+    "isbn1": "9782413085744",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48617673c",
+      "isbn": "9782413085744"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb488216515",
+      "isbn": "9782413094005"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb42616187m",
+      "isbn": "9782756028569"
+     }
+    ],
+    "requete": "bib.title all \"au bout du chemin\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "au-coeur-de-fukushima": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -1495,9 +2117,98 @@
     "editeur": "Kana",
     "notices": 3,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb445195866",
+    "isbn1": "9782505064596",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb445195866",
+      "isbn": "9782505064596"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45083482t",
+      "isbn": "9782505064602"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45682866g",
+      "isbn": "9782505066361"
+     }
+    ],
     "requete": "bib.title all \"au coeur de fukushima\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
+  },
+  "aux-cotes-du-dieu-loup": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-02",
+    "editeur": "Bamboo édition",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47572984k",
+    "isbn1": "9791041107810",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47572984k",
+      "isbn": "9791041107810"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47640274d",
+      "isbn": "9791041111800"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48693957n",
+      "isbn": "9791041117116"
+     }
+    ],
+    "requete": "bib.title all \"aux cotes du dieu loup\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "avatar-le-dernier-maitre-de-l-air": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "2",
+    "dateDernier": "2026-06",
+    "editeur": "Pika Edition / Animacomi corp.",
+    "notices": 1,
+    "autresEditeurs": [
+     "Hachette",
+     "Hachette Livre Comics"
+    ],
+    "ark1": "ark:/12148/cb48795591c",
+    "isbn1": "9791043307430",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48795591c",
+      "isbn": "9791043307430"
+     }
+    ],
+    "requete": "bib.title all \"avatar le dernier maitre de air\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "ayashimon": {
@@ -1544,6 +2255,44 @@
     "requete": "bib.title all \"side\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "baby": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2025-10",
+    "editeur": "Glénat",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb485073499",
+    "isbn1": "9782344067420",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb485073499",
+      "isbn": "9782344067420"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48552144v",
+      "isbn": "9782344067437"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48623712p",
+      "isbn": "9782344067444"
+     }
+    ],
+    "requete": "bib.title all \"baby\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "badducks": {
@@ -1702,9 +2451,82 @@
     "editeur": "Ki-oon",
     "notices": 20,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb427809692",
+    "isbn1": "9782355924491",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb427809692",
+      "isbn": "9782355924491"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43501984b",
+      "isbn": "9782355924736"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb435450165",
+      "isbn": "9782355924934"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb435936000",
+      "isbn": "9782355925207"
+     }
+    ],
     "requete": "bib.title all \"barakamon\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
+  },
+  "basara": {
+   "bnf": {
+    "dernier": 27,
+    "tomes": "1-27",
+    "dateDernier": "2006-05",
+    "editeur": "Dargaud Bénélux-Kana",
+    "notices": 30,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb488369266",
+    "isbn1": "9782505132486",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb488369266",
+      "isbn": "9782505132486"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39980501j",
+      "isbn": "2871293589"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48836906k",
+      "isbn": "9782505132493"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb39980502w",
+      "isbn": "2871293597"
+     }
+    ],
+    "requete": "bib.title all \"basara\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "battle-game-in-5-seconds": {
@@ -1717,10 +2539,40 @@
     "editeur": "Bamboo édition",
     "notices": 26,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45598111r",
+    "isbn1": "9782818949702",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45598111r",
+      "isbn": "9782818949702"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb455986861",
+      "isbn": "9782818949719"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45628019z",
+      "isbn": "9782818965948"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45667197m",
+      "isbn": "9782818966273"
+     }
+    ],
     "requete": "bib.title all \"battle game in 5 seconds\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 3,
+    "maj": "2026-10-23"
+   }
   },
   "baymax": {
    "anilist": {
@@ -1750,10 +2602,30 @@
     "autresEditeurs": [
      "Hachette"
     ],
+    "ark1": "ark:/12148/cb44292733m",
+    "isbn1": "9782811621254",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44292733m",
+      "isbn": "9782811621254"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44439298m",
+      "isbn": "9782811623272"
+     }
+    ],
     "requete": "bib.title all \"baymax\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   }
   },
   "bd-entre-ciel-et-terre": {
    "anilist": null,
@@ -1764,6 +2636,52 @@
     "requete": "bib.title all \"bd entre ciel et terre\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
+  },
+  "be-blues": {
+   "bnf": {
+    "dernier": 25,
+    "tomes": "1-15,17-23,25",
+    "dateDernier": "2026-07",
+    "editeur": "Meian",
+    "notices": 23,
+    "autresEditeurs": [
+     "IDP home video music"
+    ],
+    "ark1": "ark:/12148/cb47630810m",
+    "isbn1": "9782385036195",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47630810m",
+      "isbn": "9782385036195"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb476308129",
+      "isbn": "9782385036201"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47630815b",
+      "isbn": "9782385036218"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47630820x",
+      "isbn": "9782385036225"
+     }
+    ],
+    "requete": "bib.title all \"be blues\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "beastars": {
@@ -1795,10 +2713,35 @@
     "editeur": "Ki-oon",
     "notices": 22,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45650630t",
+    "isbn1": "9791032703793",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45650630t",
+      "isbn": "9791032703793"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb456506377",
+      "isbn": "9791032703786"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45682046n",
+      "isbn": "9791032703977"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45727724d",
+      "isbn": "9791032704127"
+     }
+    ],
     "requete": "bib.title all \"beastars\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "berserk": {
    "anilist": {
@@ -1833,10 +2776,40 @@
      "Jupiter Phaeton",
      "Panda Jones"
     ],
+    "ark1": "ark:/12148/cb485545731",
+    "isbn1": "9782344067802",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb485545731",
+      "isbn": "9782344067802"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48545114f",
+      "isbn": "9782344020685"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39268401k",
+      "isbn": "2723448126"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48549907b",
+      "isbn": "9782344067819"
+     }
+    ],
     "requete": "bib.title all \"berserk\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "beyblade-metal-fusion": {
    "anilist": null,
@@ -1848,10 +2821,40 @@
     "editeur": "Kaze Manga",
     "notices": 13,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb424554103",
+    "isbn1": "9782820300751",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb424554103",
+      "isbn": "9782820300751"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb424553177",
+      "isbn": "9782820301239"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42455406v",
+      "isbn": "9782820301437"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42534317r",
+      "isbn": "9782820301598"
+     }
+    ],
     "requete": "bib.title all \"beyblade metal fusion\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "beyond-the-clouds-la-fillette-tombee-du-ciel": {
    "anilist": {
@@ -1881,10 +2884,20 @@
     "notices": 5,
     "autresEditeurs": [],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb455366044",
+    "isbn1": "9791032702864",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb455366044",
+      "isbn": "9791032702864"
+     }
+    ],
     "requete": "bib.title all \"beyond the clouds la fillette tombee du ciel\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "bienvenue-au-club": {
    "anilist": {
@@ -1918,10 +2931,40 @@
      "Bayard éditions",
      "Dargaud"
     ],
+    "ark1": "ark:/12148/cb43810656r",
+    "isbn1": "9782369740070",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43810656r",
+      "isbn": "9782369740070"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43846734s",
+      "isbn": "9782369740155"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43880657j",
+      "isbn": "9782369740223"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb44229234t",
+      "isbn": "9782369740322"
+     }
+    ],
     "requete": "bib.title all \"bienvenue au club\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "billy-bat": {
    "anilist": {
@@ -1951,10 +2994,40 @@
     "editeur": "Pika édition",
     "notices": 20,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42638463b",
+    "isbn1": "9782811606336",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42638463b",
+      "isbn": "9782811606336"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42638454c",
+      "isbn": "9782811606343"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb426996772",
+      "isbn": "9782811606947"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42761591z",
+      "isbn": "9782811608538"
+     }
+    ],
     "requete": "bib.title all \"billy bat\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "black-butler": {
    "anilist": {
@@ -1984,10 +3057,35 @@
     "editeur": "Kana",
     "notices": 39,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47491972k",
+    "isbn1": "9782505119296",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47491972k",
+      "isbn": "9782505119296"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb421038376",
+      "isbn": "9782505007654"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47491976z",
+      "isbn": "9782505119302"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42162459d",
+      "isbn": "9782505008293"
+     }
+    ],
     "requete": "bib.title all \"black butler\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "black-clover": {
    "anilist": {
@@ -2197,10 +3295,40 @@
     "editeur": "Kurokawa",
     "notices": 17,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43575497q",
+    "isbn1": "9782351426920",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43575497q",
+      "isbn": "9782351426920"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42728287r",
+      "isbn": "9782351426937"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42792331d",
+      "isbn": "9782351426944"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb43538385b",
+      "isbn": "9782351426951"
+     }
+    ],
     "requete": "bib.title all \"blood lad\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "bloody-cross": {
    "anilist": {
@@ -2228,10 +3356,40 @@
     "editeur": "Ki-oon",
     "notices": 12,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42717985j",
+    "isbn1": "9782355923906",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42717985j",
+      "isbn": "9782355923906"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42717991g",
+      "isbn": "9782355923913"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42729123g",
+      "isbn": "9782355924187"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb427791078",
+      "isbn": "9782355924378"
+     }
+    ],
     "requete": "bib.title all \"bloody cross\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "bloom-into-you": {
    "anilist": {
@@ -2260,10 +3418,40 @@
     "editeur": "Kana",
     "notices": 8,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb458315839",
+    "isbn1": "9782505076773",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb458315839",
+      "isbn": "9782505076773"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45833460v",
+      "isbn": "9782505076780"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45869122j",
+      "isbn": "9782505079507"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46567723p",
+      "isbn": "9782505079514"
+     }
+    ],
     "requete": "bib.title all \"bloom into you\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "blue-box": {
    "anilist": {
@@ -2291,9 +3479,82 @@
     "editeur": "Delcourt-Tonkam",
     "notices": 11,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb472018007",
+    "isbn1": "9782413049029",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb472018007",
+      "isbn": "9782413049029"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47240376p",
+      "isbn": "9782413049036"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47287131p",
+      "isbn": "9782413078609"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47344634q",
+      "isbn": "9782413078616"
+     }
+    ],
     "requete": "bib.title all \"blue box\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
+  },
+  "blue-flag": {
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2021-03",
+    "editeur": "Kurokawa",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb456877981",
+    "isbn1": "9782368526132",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb456877981",
+      "isbn": "9782368526132"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb457555360",
+      "isbn": "9782368527412"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb458049887",
+      "isbn": "9782368527528"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46507834c",
+      "isbn": "9782368528488"
+     }
+    ],
+    "requete": "bib.title all \"blue flag\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "blue-lock": {
@@ -2325,10 +3586,40 @@
     "autresEditeurs": [
      "The Marketing Store Worldwide"
     ],
+    "ark1": "ark:/12148/cb48539089t",
+    "isbn1": "9791043302183",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48539089t",
+      "isbn": "9791043302183"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb472446874",
+      "isbn": "9782811679804"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46788522s",
+      "isbn": "9782811650254"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47353973d",
+      "isbn": "9782811682330"
+     }
+    ],
     "requete": "bib.title all \"blue lock\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "blue-period": {
    "anilist": {
@@ -2356,10 +3647,35 @@
     "notices": 23,
     "autresEditeurs": [],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb485153073",
+    "isbn1": "9791043301506",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb485153073",
+      "isbn": "9791043301506"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47138714s",
+      "isbn": "9782811674960"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46683634p",
+      "isbn": "9782811645380"
+     }
+    ],
     "requete": "bib.title all \"blue period\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "blue-spring-ride": {
    "anilist": {
@@ -2389,10 +3705,40 @@
     "editeur": "Kana",
     "notices": 11,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43629268p",
+    "isbn1": "9782505017202",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43629268p",
+      "isbn": "9782505017202"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43697746q",
+      "isbn": "9782505017219"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb43774683p",
+      "isbn": "9782505017226"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb438243323",
+      "isbn": "9782505017233"
+     }
+    ],
     "requete": "bib.title all \"blue spring ride\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   }
   },
   "blue-summer": {
    "anilist": {
@@ -2421,10 +3767,35 @@
     "editeur": "Boy's love",
     "notices": 3,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46749159f",
+    "isbn1": "9782382760079",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46749159f",
+      "isbn": "9782382760079"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46939358s",
+      "isbn": "9782382760710"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47566678k",
+      "isbn": "9782382762530"
+     }
+    ],
     "requete": "bib.title all \"blue summer\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 3,
+    "maj": "2026-10-23"
+   }
   },
   "bokko-stratege": {
    "anilist": {
@@ -2454,10 +3825,35 @@
     "autresEditeurs": [
      ""
     ],
+    "ark1": "ark:/12148/cb47246001d",
+    "isbn1": "9782379502262",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47246001d",
+      "isbn": "9782379502262"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb472827763",
+      "isbn": "9782379502279"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb473120955",
+      "isbn": "9782379502286"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb47400647f",
+      "isbn": "9782379502309"
+     }
+    ],
     "requete": "bib.title all \"bokko stratege\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "boruto-naruto-next-generations": {
    "anilist": {
@@ -2486,10 +3882,40 @@
     "editeur": "Kana",
     "notices": 7,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45221955x",
+    "isbn1": "9782505067436",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45221955x",
+      "isbn": "9782505067436"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb453389539",
+      "isbn": "9782505068723"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45400113g",
+      "isbn": "9782505068730"
+     },
+     {
+      "n": 8,
+      "ark": "ark:/12148/cb46568068z",
+      "isbn": "9782505078654"
+     }
+    ],
     "requete": "bib.title all \"boruto naruto next generations\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 2,
+    "maj": "2026-10-23"
+   }
   },
   "box-qu-y-a-t-il-dans-la-boite": {
    "anilist": {
@@ -2516,9 +3942,117 @@
     "editeur": "Le lézard noir",
     "notices": 3,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47367922p",
+    "isbn1": "9782353482757",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47367922p",
+      "isbn": "9782353482757"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47367820q",
+      "isbn": "9782353482764"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47367768f",
+      "isbn": "9782353482771"
+     }
+    ],
     "requete": "bib.title all \"box qu il dans la boite\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
+  },
+  "brave-bell": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-3,5-6",
+    "dateDernier": "2026-02",
+    "editeur": "Bamboo édition",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47648450w",
+    "isbn1": "9791041110391",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47648450w",
+      "isbn": "9791041110391"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47688072x",
+      "isbn": "9791041110407"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb485310009",
+      "isbn": "9791041110414"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb48647883v",
+      "isbn": "9791041112883"
+     }
+    ],
+    "requete": "bib.title all \"brave bell\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "bravest-journey": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2024-07",
+    "editeur": "Nouvelle hydre",
+    "notices": 3,
+    "autresEditeurs": [
+     "Éditions H2T"
+    ],
+    "ark1": "ark:/12148/cb47303636b",
+    "isbn1": "9782494841048",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47303636b",
+      "isbn": "9782494841048"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47351212s",
+      "isbn": "9782494841062"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb475227484",
+      "isbn": "9782494841055"
+     }
+    ],
+    "requete": "bib.title all \"bravest journey\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "bride-stories": {
@@ -2548,10 +4082,40 @@
     "editeur": "Ki-oon",
     "notices": 30,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb427809870",
+    "isbn1": "9782355924507",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb427809870",
+      "isbn": "9782355924507"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb424427925",
+      "isbn": "9782355922749"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb435482858",
+      "isbn": "9782355924965"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb425374826",
+      "isbn": "9782355923081"
+     }
+    ],
     "requete": "bib.title all \"bride stories\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "brigade-d-outre-tombe": {
    "anilist": null,
@@ -2563,10 +4127,35 @@
     "editeur": "Éditions H2T",
     "notices": 3,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46747876g",
+    "isbn1": "9782377773862",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46747876g",
+      "isbn": "9782377773862"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46907836r",
+      "isbn": "9782377774746"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47059949g",
+      "isbn": "9782377774760"
+     }
+    ],
     "requete": "bib.title all \"brigade outre tombe\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "buster-keel": {
    "anilist": {
@@ -2597,10 +4186,40 @@
     "editeur": "Kana",
     "notices": 12,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb427283631",
+    "isbn1": "9782505014461",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb427283631",
+      "isbn": "9782505014461"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb427402428",
+      "isbn": "9782505014478"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb427279089",
+      "isbn": "9782505014751"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42773359m",
+      "isbn": "9782505015338"
+     }
+    ],
     "requete": "bib.title all \"buster keel\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "cantine-de-minuit": {
    "anilist": {
@@ -2660,10 +4279,40 @@
     "editeur": "Kana",
     "notices": 18,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45788284c",
+    "isbn1": "9782505070511",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45788284c",
+      "isbn": "9782505070511"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb444956620",
+      "isbn": "9782505064749"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb389148906",
+      "isbn": "2871294739"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45868433s",
+      "isbn": "9782505070528"
+     }
+    ],
     "requete": "bib.title all \"capitaine albator\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "captain-tsubasa": {
    "anilist": {
@@ -2935,6 +4584,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "cats-and-dragon": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2026-09",
+    "editeur": "Bamboo édition",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48713144m",
+    "isbn1": "9791041114641",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48713144m",
+      "isbn": "9791041114641"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48713142x",
+      "isbn": "9791041114658"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48793082j",
+      "isbn": "9791041114665"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb488162752",
+      "isbn": "9791041114672"
+     }
+    ],
+    "requete": "bib.title all \"cats and dragon\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "chacun-ses-gouts": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -2981,10 +4673,40 @@
     "editeur": "Kazé",
     "notices": 27,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb486537965",
+    "isbn1": "9782820354730",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb486537965",
+      "isbn": "9782820354730"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb473427931",
+      "isbn": "9782820347800"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47130065t",
+      "isbn": "9782820345165"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46545987k",
+      "isbn": "9782820337825"
+     }
+    ],
     "requete": "bib.title all \"chainsaw man\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "chasse-au-cadavre": {
    "anilist": {
@@ -3014,10 +4736,35 @@
     "editeur": "Casterman",
     "notices": 4,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb472717848",
+    "isbn1": "9782203251656",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb472717848",
+      "isbn": "9782203251656"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47362916j",
+      "isbn": "9782203272781"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47501409r",
+      "isbn": "9782203281653"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48541408c",
+      "isbn": "9782203290990"
+     }
+    ],
     "requete": "bib.title all \"chasse au cadavre\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "chat-de-yakuza": {
    "anilist": {
@@ -3045,10 +4792,40 @@
     "editeur": "Bamboo édition",
     "notices": 4,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb470238076",
+    "isbn1": "9782818993460",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb470238076",
+      "isbn": "9782818993460"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb470613222",
+      "isbn": "9782818993477"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47113138h",
+      "isbn": "9782818996485"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47269040f",
+      "isbn": "9791041100767"
+     }
+    ],
     "requete": "bib.title all \"chat de yakuza\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "chat-malgre-moi": {
    "anilist": null,
@@ -3062,10 +4839,40 @@
     "autresEditeurs": [
      "Pika édition-nobi nobi !"
     ],
+    "ark1": "ark:/12148/cb45383348w",
+    "isbn1": "9782373491555",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45383348w",
+      "isbn": "9782373491555"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45439529r",
+      "isbn": "9782373491944"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45505020v",
+      "isbn": "9782373492262"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb456493330",
+      "isbn": "9782373493061"
+     }
+    ],
     "requete": "bib.title all \"chat malgre moi\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "chateau-ambulant": {
    "anilist": null,
@@ -3168,10 +4975,40 @@
      "France loisirs"
     ],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb444416175",
+    "isbn1": "9782344011652",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb444416175",
+      "isbn": "9782344011652"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44298247c",
+      "isbn": "9782344006504"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb438696579",
+      "isbn": "9782723499620"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42404052n",
+      "isbn": "9782723478380"
+     }
+    ],
     "requete": "bib.title all \"chi une vie de chat\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "chibi-vampire-karin": {
    "anilist": {
@@ -3201,10 +5038,40 @@
     "editeur": "Pika éd.",
     "notices": 13,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb41330865j",
+    "isbn1": "9782845999176",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb41330865j",
+      "isbn": "9782845999176"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb41386377n",
+      "isbn": "9782845999497"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb41401191z",
+      "isbn": "9782845999893"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb414475366",
+      "isbn": "9782811600198"
+     }
+    ],
     "requete": "bib.title all \"chibi vampire karin\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "chien-gardien-d-etoiles": {
    "anilist": null,
@@ -3244,10 +5111,35 @@
     "editeur": "le Lézard noir",
     "notices": 3,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb452507594",
+    "isbn1": "9782353480821",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb452507594",
+      "isbn": "9782353480821"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb452507563",
+      "isbn": "9782353480838"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45250754d",
+      "isbn": "9782353480845"
+     }
+    ],
     "requete": "bib.title all \"chiisakobe\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   }
   },
   "chobits": {
    "anilist": {
@@ -3311,10 +5203,30 @@
     "notices": 10,
     "autresEditeurs": [],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb45634193w",
+    "isbn1": "9782368527078",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45634193w",
+      "isbn": "9782368527078"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb41011784v",
+      "isbn": "9782351421833"
+     }
+    ],
     "requete": "bib.title all \"chocola vanilla sugar sugar rune\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "chocolate-cosmos": {
    "anilist": {
@@ -3341,10 +5253,40 @@
     "editeur": "Panini manga",
     "notices": 4,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42363734g",
+    "isbn1": "9782809417388",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42363734g",
+      "isbn": "9782809417388"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb424155398",
+      "isbn": "9782809418224"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42455189j",
+      "isbn": "9782809419245"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42522343m",
+      "isbn": "9782809420272"
+     }
+    ],
     "requete": "bib.title all \"chocolate cosmos\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "chocotan": {
    "anilist": {
@@ -3372,10 +5314,40 @@
     "editeur": "Nobi nobi !",
     "notices": 13,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45430626t",
+    "isbn1": "9782373491678",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45430626t",
+      "isbn": "9782373491678"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45452388f",
+      "isbn": "9782373491685"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45491549p",
+      "isbn": "9782373491692"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45531520w",
+      "isbn": "9782373491708"
+     }
+    ],
     "requete": "bib.title all \"chocotan\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "choubi-choubi-mon-chat-pour-la-vie": {
    "anilist": {
@@ -3403,7 +5375,8 @@
     "requete": "bib.title all \"choubi choubi mon chat pour la vie\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "choubi-choubi-mon-chat-tout-petit": {
    "anilist": {
@@ -3430,7 +5403,8 @@
     "requete": "bib.title all \"choubi choubi mon chat tout petit\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "chroniques-de-la-mariee-de-bretagne": {
    "anilist": null,
@@ -3442,10 +5416,40 @@
     "editeur": "Kurokawa",
     "notices": 6,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47463008v",
+    "isbn1": "9791042013349",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47463008v",
+      "isbn": "9791042013349"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47545948t",
+      "isbn": "9791042015053"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47609418t",
+      "isbn": "9791042015176"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb485021513",
+      "isbn": "9791042018771"
+     }
+    ],
     "requete": "bib.title all \"chroniques de la mariee de bretagne\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "chronoctis-express": {
    "anilist": null,
@@ -3457,10 +5461,30 @@
     "editeur": "Inky Moko éditions",
     "notices": 2,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb450601716",
+    "isbn1": "9782954539317",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb450601716",
+      "isbn": "9782954539317"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47130999m",
+      "isbn": "9782956812609"
+     }
+    ],
     "requete": "bib.title all \"chronoctis express\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "cicatrices": {
    "anilist": {
@@ -3495,10 +5519,20 @@
      "Emmanuel Boitier éditeur"
     ],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb474017667",
+    "isbn1": "9782379503658",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb474017667",
+      "isbn": "9782379503658"
+     }
+    ],
     "requete": "bib.title all \"cicatrices\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "city-hall": {
    "anilist": null,
@@ -3510,10 +5544,40 @@
     "editeur": "Ankama",
     "notices": 9,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43726278f",
+    "isbn1": "9782359104615",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43726278f",
+      "isbn": "9782359104615"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb427309002",
+      "isbn": "9782359103120"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44433302k",
+      "isbn": "9782359107876"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb427797026",
+      "isbn": "9782359103144"
+     }
+    ],
     "requete": "bib.title all \"city hall\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "classroom-of-the-elite": {
    "anilist": {
@@ -3545,10 +5609,40 @@
      "",
      "Ototo"
     ],
+    "ark1": "ark:/12148/cb47703912v",
+    "isbn1": "9782491806835",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47703912v",
+      "isbn": "9782491806835"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47703472b",
+      "isbn": "9782491806996"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47703942s",
+      "isbn": "9782487369177"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb487899917",
+      "isbn": "9782487369375"
+     }
+    ],
     "requete": "bib.title all \"classroom of the elite\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "coco-l-ile-magique": {
    "anilist": null,
@@ -3559,7 +5653,8 @@
     "requete": "bib.title all \"coco ile magique\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "code-breaker": {
    "anilist": {
@@ -3589,10 +5684,40 @@
     "editeur": "Pika éd.",
     "notices": 26,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42370821w",
+    "isbn1": "9782811604189",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42370821w",
+      "isbn": "9782811604189"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb424010340",
+      "isbn": "9782811604493"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42448220c",
+      "isbn": "9782811604882"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42493723m",
+      "isbn": "9782811605162"
+     }
+    ],
     "requete": "bib.title all \"code breaker\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "colere-nucleaire": {
    "anilist": null,
@@ -3604,10 +5729,35 @@
     "editeur": "Éditions Akata",
     "notices": 3,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb444458437",
+    "isbn1": "9782369740834",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb444458437",
+      "isbn": "9782369740834"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44489312c",
+      "isbn": "9782369740889"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb450346232",
+      "isbn": "9782369740940"
+     }
+    ],
     "requete": "bib.title all \"colere nucleaire\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "colocataires-a-leur-maniere": {
    "anilist": null,
@@ -3619,10 +5769,40 @@
     "editeur": "Nobi nobi !",
     "notices": 11,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47053940x",
+    "isbn1": "9782373495713",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47053940x",
+      "isbn": "9782373495713"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47108740q",
+      "isbn": "9782373495720"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47140779n",
+      "isbn": "9782373495737"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb471588312",
+      "isbn": "9782373495744"
+     }
+    ],
     "requete": "bib.title all \"colocataires leur maniere\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "comme-les-autres": {
    "anilist": {
@@ -3652,10 +5832,40 @@
     "autresEditeurs": [
      ""
     ],
+    "ark1": "ark:/12148/cb467621595",
+    "isbn1": "9782505088790",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb467621595",
+      "isbn": "9782505088790"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46830773f",
+      "isbn": "9782505088806"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb469602448",
+      "isbn": "9782505088813"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47015134f",
+      "isbn": "9782505112044"
+     }
+    ],
     "requete": "bib.title all \"comme les autres\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "confrerie-des-lions-blancs": {
    "anilist": null,
@@ -3755,10 +5965,40 @@
     "editeur": "Quadrants astrolabe",
     "notices": 6,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47514780w",
+    "isbn1": "9782302103535",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47514780w",
+      "isbn": "9782302103535"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb41125000d",
+      "isbn": "9782849469507"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47691136v",
+      "isbn": "9782302103542"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb41302468b",
+      "isbn": "9782302000926"
+     }
+    ],
     "requete": "bib.title all \"couleur de peau miel\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "country-diary": {
    "anilist": {
@@ -3786,10 +6026,30 @@
     "editeur": "Éditions Akata",
     "notices": 2,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47356419z",
+    "isbn1": "9782382124956",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47356419z",
+      "isbn": "9782382124956"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47401355g",
+      "isbn": "9782382124963"
+     }
+    ],
     "requete": "bib.title all \"country diary\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "couvent-des-damnees": {
    "anilist": null,
@@ -3833,10 +6093,40 @@
     "editeur": "Éditions Delcourt",
     "notices": 5,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43835131n",
+    "isbn1": "9782756035925",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43835131n",
+      "isbn": "9782756035925"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43849395m",
+      "isbn": "9782756035932"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43497704f",
+      "isbn": "9782756035949"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb442305200",
+      "isbn": "9782756035956"
+     }
+    ],
     "requete": "bib.title all \"crazy zoo\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "creatures-fantastiques": {
    "anilist": null,
@@ -3854,9 +6144,82 @@
      "PAL",
      "Rouge & or"
     ],
+    "ark1": "ark:/12148/cb456596889",
+    "isbn1": "9782372873147",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb456596889",
+      "isbn": "9782372873147"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45702068g",
+      "isbn": "9782372873154"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45766386f",
+      "isbn": "9782372874366"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46588670k",
+      "isbn": "9782372874540"
+     }
+    ],
     "requete": "bib.title all \"creatures fantastiques\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
+  },
+  "crows": {
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2026-08",
+    "editeur": "Kana",
+    "notices": 7,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48566806d",
+    "isbn1": "9782505127529",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48566806d",
+      "isbn": "9782505127529"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb485668141",
+      "isbn": "9782505127536"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb486480440",
+      "isbn": "9782505127543"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48733461f",
+      "isbn": "9782505127550"
+     }
+    ],
+    "requete": "bib.title all \"crows\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "cuisine-du-tengu": {
@@ -3872,6 +6235,46 @@
     "requete": "bib.title all \"cuisine du tengu\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "cursed-princess-club": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2025-07",
+    "editeur": "Hugo neotoon",
+    "notices": 3,
+    "autresEditeurs": [
+     "Hugo publishing"
+    ],
+    "ark1": "ark:/12148/cb47491298b",
+    "isbn1": "9782755672930",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47491298b",
+      "isbn": "9782755672930"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb476001462",
+      "isbn": "9782755672947"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48554054c",
+      "isbn": "9782755672954"
+     }
+    ],
+    "requete": "bib.title all \"cursed princess club\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "d-gray-man": {
@@ -3901,10 +6304,40 @@
     "editeur": "Glénat",
     "notices": 29,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb40233092n",
+    "isbn1": "272345584X",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb40233092n",
+      "isbn": "272345584X"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb40948234n",
+      "isbn": "2723455858"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb409913348",
+      "isbn": "9782723457507"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb41024386c",
+      "isbn": "9782723457514"
+     }
+    ],
     "requete": "bib.title all \"gray man\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 3,
+    "maj": "2026-10-23"
+   }
   },
   "daisy": {
    "anilist": {
@@ -3937,10 +6370,30 @@
      "Unique héritage éditions",
      "Éditions Béthel"
     ],
+    "ark1": "ark:/12148/cb43832737n",
+    "isbn1": "9782369740124",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43832737n",
+      "isbn": "9782369740124"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43864141b",
+      "isbn": "9782369740162"
+     }
+    ],
     "requete": "bib.title all \"daisy\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "dandadan": {
    "anilist": {
@@ -3972,10 +6425,40 @@
     "editeur": "Crunchyroll",
     "notices": 31,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb473428203",
+    "isbn1": "9782820347220",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb473428203",
+      "isbn": "9782820347220"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47141827x",
+      "isbn": "9782820344960"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb471418315",
+      "isbn": "9782820344977"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47159438m",
+      "isbn": "9782820345066"
+     }
+    ],
     "requete": "bib.title all \"dandadan\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "dans-l-ombre-de-creamy": {
    "anilist": {
@@ -4004,9 +6487,72 @@
     "editeur": "Kurokawa",
     "notices": 7,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb467717709",
+    "isbn1": "9782380711554",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb467717709",
+      "isbn": "9782380711554"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb468552594",
+      "isbn": "9782380711561"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46908838p",
+      "isbn": "9782380711578"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb469601440",
+      "isbn": "9782380712636"
+     }
+    ],
     "requete": "bib.title all \"dans ombre de creamy\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
+  },
+  "dans-le-premier-train-du-matin": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2025-04",
+    "editeur": "Delcourt-Tonkam",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47704620w",
+    "isbn1": "9782413085362",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47704620w",
+      "isbn": "9782413085362"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb477051918",
+      "isbn": "9782413085379"
+     }
+    ],
+    "requete": "bib.title all \"dans le premier train du matin\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "dark-souls-redemption": {
@@ -4019,10 +6565,30 @@
     "editeur": "Mana books",
     "notices": 2,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47510009m",
+    "isbn1": "9791035504304",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47510009m",
+      "isbn": "9791035504304"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48574501k",
+      "isbn": "9791035505806"
+     }
+    ],
     "requete": "bib.title all \"dark souls redemption\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "darwin-s-game": {
    "anilist": {
@@ -4050,10 +6616,40 @@
     "editeur": "Ki-oon",
     "notices": 31,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43876825q",
+    "isbn1": "9782355927645",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43876825q",
+      "isbn": "9782355927645"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb434986481",
+      "isbn": "9782355927157"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44218668s",
+      "isbn": "9782355927416"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb442561709",
+      "isbn": "9782355927683"
+     }
+    ],
     "requete": "bib.title all \"darwin game\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "darwin-s-incident": {
    "anilist": {
@@ -4080,10 +6676,40 @@
     "editeur": "Kana",
     "notices": 10,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb471234376",
+    "isbn1": "9782505113799",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb471234376",
+      "isbn": "9782505113799"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47138982t",
+      "isbn": "9782505114932"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47191596z",
+      "isbn": "9782505119197"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47271712d",
+      "isbn": "9782505120193"
+     }
+    ],
     "requete": "bib.title all \"darwin incident\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "death-note": {
    "anilist": {
@@ -4117,10 +6743,40 @@
      "Éd. France loisirs"
     ],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb42238405g",
+    "isbn1": "9782505009054",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42238405g",
+      "isbn": "9782505009054"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb40977483s",
+      "isbn": "9782505000327"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42280537g",
+      "isbn": "9782505009061"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb40984520n",
+      "isbn": "9782505000426"
+     }
+    ],
     "requete": "bib.title all \"death note\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "death-note-black-edition": {
    "anilist": null,
@@ -4131,7 +6787,8 @@
     "requete": "bib.title all \"death note black edition\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "decheance-d-un-homme": {
    "verifie": "2026-10-23"
@@ -4162,10 +6819,40 @@
     "editeur": "Mangetsu",
     "notices": 12,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb471488655",
+    "isbn1": "9782382811993",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb471488655",
+      "isbn": "9782382811993"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47148863g",
+      "isbn": "9782382811115"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb472019115",
+      "isbn": "9782382811429"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47222451p",
+      "isbn": "9782382811047"
+     }
+    ],
     "requete": "bib.title all \"deep 3\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   }
   },
   "deep-sea-aquarium-magmell": {
    "anilist": {
@@ -4192,10 +6879,35 @@
     "editeur": "Vega",
     "notices": 10,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45604368m",
+    "isbn1": "9782379500015",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45604368m",
+      "isbn": "9782379500015"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45662030v",
+      "isbn": "9782379500145"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45729499z",
+      "isbn": "9782379500213"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46735568b",
+      "isbn": "9782379500381"
+     }
+    ],
     "requete": "bib.title all \"deep sea aquarium magmell\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
   },
   "demande-a-modigliani": {
    "anilist": null,
@@ -4237,10 +6949,40 @@
     "editeur": "Panini manga",
     "notices": 58,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb486525444",
+    "isbn1": "9791039140898",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb486525444",
+      "isbn": "9791039140898"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47334746s",
+      "isbn": "9791039120791"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47303523q",
+      "isbn": "9791039118880"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47142893z",
+      "isbn": "9791039111720"
+     }
+    ],
     "requete": "bib.title all \"demon slayer\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "demon-slayer-kimetsu-no-yaiba": {
    "anilist": {
@@ -4302,10 +7044,40 @@
     "editeur": "Kurokawa",
     "notices": 4,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46554432w",
+    "isbn1": "9782368527825",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46554432w",
+      "isbn": "9782368527825"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb465896777",
+      "isbn": "9782368529751"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb466509612",
+      "isbn": "9782368529768"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb466886655",
+      "isbn": "9782368529775"
+     }
+    ],
     "requete": "bib.title all \"demon tune\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   }
   },
   "demons-star": {
    "anilist": {
@@ -4332,9 +7104,67 @@
     "editeur": "Michel Lafon",
     "notices": 4,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb472701057",
+    "isbn1": "9782749953311",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb472701057",
+      "isbn": "9782749953311"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb472967706",
+      "isbn": "9782749953328"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47357223w",
+      "isbn": "9782749953335"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb473964351",
+      "isbn": "9782749953342"
+     }
+    ],
     "requete": "bib.title all \"demons star\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23",
+   "couvEssai": "2026-10-23"
+  },
+  "dernier-ecrivain": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-08",
+    "editeur": "Glénat",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48780944j",
+    "isbn1": "9782344070390",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48780944j",
+      "isbn": "9782344070390"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb488267869",
+      "isbn": "9782344074855"
+     }
+    ],
+    "requete": "bib.title all \"dernier ecrivain\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "desert-9": {
@@ -4369,6 +7199,16 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "destin-de-la-princesse-sirene": {
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"destin de la princesse sirene\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
   "detective-conan": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -4399,6 +7239,117 @@
     "requete": "bib.title all \"detonations\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "developpeurs": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-09",
+    "editeur": "Mana books",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48751534r",
+    "isbn1": "9791035508487",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48751534r",
+      "isbn": "9791035508487"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb488127713",
+      "isbn": "9791035508746"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48837140s",
+      "isbn": "9791035509057"
+     }
+    ],
+    "requete": "bib.title all \"developpeurs\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "diable-s-habille-en-papa": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "2",
+    "dateDernier": "2026-09",
+    "editeur": "Mana books",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48839391q",
+    "isbn1": "9791035509040",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48839391q",
+      "isbn": "9791035509040"
+     }
+    ],
+    "requete": "bib.title all \"diable habille en papa\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "divines": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2019-11",
+    "editeur": "Pika édition",
+    "notices": 6,
+    "autresEditeurs": [
+     "les Herbes rouges"
+    ],
+    "ark1": "ark:/12148/cb48675672s",
+    "isbn1": "9791043303708",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48675672s",
+      "isbn": "9791043303708"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45750855w",
+      "isbn": "9782811649456"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb487118086",
+      "isbn": "9791043303739"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48675675t",
+      "isbn": "9791043303739"
+     }
+    ],
+    "requete": "bib.title all \"divines\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "dofus": {
@@ -4772,6 +7723,44 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "eden-des-sorcieres": {
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2025-08",
+    "editeur": "Ki-oon",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46825289f",
+    "isbn1": "9791032710036",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46825289f",
+      "isbn": "9791032710036"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb469131002",
+      "isbn": "9791032710272"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb470293701",
+      "isbn": "9791032711118"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47123495c",
+      "isbn": "9791032712504"
+     }
+    ],
+    "requete": "bib.title all \"eden des sorcieres\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
   "edens-zero": {
    "anilist": {
     "id": 101860,
@@ -4888,6 +7877,89 @@
     "requete": "bib.title all \"en scene\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "en-selle-sakamichi": {
+   "bnf": {
+    "dernier": 15,
+    "tomes": "1-15",
+    "dateDernier": "2026-09",
+    "editeur": "Kurokawa",
+    "notices": 15,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47512465p",
+    "isbn1": "9791042014964",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47512465p",
+      "isbn": "9791042014964"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47519695v",
+      "isbn": "9791042014971"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb475633572",
+      "isbn": "9791042014988"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb475833684",
+      "isbn": "9791042014995"
+     }
+    ],
+    "requete": "bib.title all \"en selle sakamichi\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "enfant-des-abysses": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2023-10",
+    "editeur": "Nouvelle hydre",
+    "notices": 3,
+    "autresEditeurs": [
+     "Éditions H2T"
+    ],
+    "ark1": "ark:/12148/cb473036261",
+    "isbn1": "9782494841017",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb473036261",
+      "isbn": "9782494841017"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47303616q",
+      "isbn": "9782494841024"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47344163x",
+      "isbn": "9782494841031"
+     }
+    ],
+    "requete": "bib.title all \"enfant des abysses\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "enfant-du-dragon-fantome": {
@@ -5138,6 +8210,44 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "erio-the-electric-doll": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1,3-4",
+    "dateDernier": "2026-03",
+    "editeur": "Mangetsu",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48529811w",
+    "isbn1": "9782382816363",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48529811w",
+      "isbn": "9782382816363"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb486431024",
+      "isbn": "9782382815199"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb487326027",
+      "isbn": "9782382812679"
+     }
+    ],
+    "requete": "bib.title all \"erio the electric doll\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "escale-a-yokohama": {
    "anilist": {
     "id": 30004,
@@ -5167,6 +8277,41 @@
     "requete": "bib.title all \"escale yokohama\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "et-plus-si-affinites": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2024-06",
+    "editeur": "Éditions Akata",
+    "notices": 2,
+    "autresEditeurs": [
+     "Éd. de la Voûte"
+    ],
+    "ark1": "ark:/12148/cb474993887",
+    "isbn1": "9782385312633",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb474993887",
+      "isbn": "9782385312633"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47499381t",
+      "isbn": "9782385312640"
+     }
+    ],
+    "requete": "bib.title all \"et plus si affinites\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "etrange-noel-de-zero": {
@@ -5274,6 +8419,92 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "fall-in-love-false-angels": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-09",
+    "editeur": "Pika",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48793921t",
+    "isbn1": "9782811692254",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48793921t",
+      "isbn": "9782811692254"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb487443879",
+      "isbn": "9782811692254"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48820290q",
+      "isbn": "9791043306372"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb50013740p",
+      "isbn": "9791043306372"
+     }
+    ],
+    "requete": "bib.title all \"fall in love false angels\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "fantastique-voyage-de-nicola-au-pays-des-demons": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2025-04",
+    "editeur": "Nobi nobi !",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47587641w",
+    "isbn1": "9782373493092",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47587641w",
+      "isbn": "9782373493092"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb476077619",
+      "isbn": "9782384963065"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb476526370",
+      "isbn": "9782384963263"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47716469c",
+      "isbn": "9782384963270"
+     }
+    ],
+    "requete": "bib.title all \"fantastique voyage de nicola au pays des demons\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "fantome-de-l-opera": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -5310,6 +8541,67 @@
     "requete": "bib.title all \"felin pour autre\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "fiancee-du-clan-kyougane": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-09",
+    "editeur": "Ki-oon",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb50005577r",
+    "isbn1": "9791032723883",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb50005577r",
+      "isbn": "9791032723883"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb500201008",
+      "isbn": "9791032723562"
+     }
+    ],
+    "requete": "bib.title all \"fiancee du clan kyougane\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "fin-du-monde-avec-mon-shiba-inu": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "2-3",
+    "dateDernier": "2023",
+    "editeur": "Meian",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47359954k",
+    "isbn1": "9782382754528",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47359954k",
+      "isbn": "9782382754528"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb474014443",
+      "isbn": "9782382754535"
+     }
+    ],
+    "requete": "bib.title all \"fin du monde avec mon shiba inu\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "fire-force": {
@@ -5600,6 +8892,44 @@
     "requete": "bib.title all \"fullmetal alchemist\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "galaxias": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-09",
+    "editeur": "Pika",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb488131303",
+    "isbn1": "9791043304026",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb488131303",
+      "isbn": "9791043304026"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48744392w",
+      "isbn": "9791043304026"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb488305468",
+      "isbn": "9791043304064"
+     }
+    ],
+    "requete": "bib.title all \"galaxias\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "gamaran": {
@@ -6086,6 +9416,183 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "harem-de-l-imperatrice": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-09",
+    "editeur": "Pika",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48642272b",
+    "isbn1": "9782811689230",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48642272b",
+      "isbn": "9782811689230"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb487080659",
+      "isbn": "9782811692827"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48790243g",
+      "isbn": "9782811692834"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48758448v",
+      "isbn": "9782811692834"
+     }
+    ],
+    "requete": "bib.title all \"harem de imperatrice\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "heartstopper": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2026-07",
+    "editeur": "Hachette romans",
+    "notices": 11,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47148027d",
+    "isbn1": "9782017160250",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47148027d",
+      "isbn": "9782017160250"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb471233566",
+      "isbn": "9782016281321"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45831262h",
+      "isbn": "9782017108313"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47148025q",
+      "isbn": "9782017160274"
+     }
+    ],
+    "requete": "bib.title all \"heartstopper\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "hero-organization": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-07",
+    "editeur": "Glénat",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48802879x",
+    "isbn1": "9782344073186",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48802879x",
+      "isbn": "9782344073186"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48802882t",
+      "isbn": "9782344073230"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48776079z",
+      "isbn": "9782344073230"
+     }
+    ],
+    "requete": "bib.title all \"hero organization\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "heterogenia-linguistico": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2026-09",
+    "editeur": "Nobi nobi !",
+    "notices": 6,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb470151829",
+    "isbn1": "9782373495904",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb470151829",
+      "isbn": "9782373495904"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47071717s",
+      "isbn": "9782373495911"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47312691f",
+      "isbn": "9782373497892"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47381965x",
+      "isbn": "9782373499803"
+     }
+    ],
+    "requete": "bib.title all \"heterogenia linguistico\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "hikari-reve-de-star": {
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"hikari reve de star\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
   "hikaru-no-go": {
    "anilist": {
     "id": 30020,
@@ -6118,6 +9625,39 @@
     "requete": "bib.title all \"hikaru no go\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "hina-et-bambi": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2025-09",
+    "editeur": "Nobi nobi !",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb485968228",
+    "isbn1": "9782384961283",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb485968228",
+      "isbn": "9782384961283"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48596832k",
+      "isbn": "9782384965649"
+     }
+    ],
+    "requete": "bib.title all \"hina et bambi\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "hip-hop": {
@@ -6299,6 +9839,49 @@
     "requete": "bib.title all \"ice age chronicle of the earth\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "ichi-the-witch": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2026-09",
+    "editeur": "Ki-oon",
+    "notices": 6,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48678999c",
+    "isbn1": "9791032724699",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48678999c",
+      "isbn": "9791032724699"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb488010068",
+      "isbn": "9791032724484"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48679016m",
+      "isbn": "9791032724484"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48800983z",
+      "isbn": "9791032724217"
+     }
+    ],
+    "requete": "bib.title all \"ichi the witch\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "ichiko-et-niko": {
@@ -6631,6 +10214,51 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "jalouses": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2025-12",
+    "editeur": "Éditions Akata",
+    "notices": 5,
+    "autresEditeurs": [
+     "Hachette livre"
+    ],
+    "ark1": "ark:/12148/cb475673660",
+    "isbn1": "9782382126134",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb475673660",
+      "isbn": "9782382126134"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb476446823",
+      "isbn": "9782382126141"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47644578k",
+      "isbn": "9782382127414"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48509399b",
+      "isbn": "9782385313555"
+     }
+    ],
+    "requete": "bib.title all \"jalouses\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "jimbocho-sisters": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -6646,6 +10274,16 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "jojo-s-bizarre-adventure-steel-ball-run": {
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"jojo bizarre adventure steel ball run\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
   "journal-d-une-fangirl": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -6659,6 +10297,39 @@
     "requete": "bib.title all \"journal une fangirl\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "journal-de-hanako": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2025-09",
+    "editeur": "IMHO",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47712161t",
+    "isbn1": "9782364811416",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47712161t",
+      "isbn": "9782364811416"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48606215n",
+      "isbn": "9782364811423"
+     }
+    ],
+    "requete": "bib.title all \"journal de hanako\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "journal-de-mobu": {
@@ -6775,6 +10446,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "jungle-juice": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2024-06",
+    "editeur": "Panini toon",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb488097827",
+    "isbn1": "9791039126878",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb488097827",
+      "isbn": "9791039126878"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb472721062",
+      "isbn": "9791039119108"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48838737s",
+      "isbn": "9791039127684"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47304107m",
+      "isbn": "9791039116879"
+     }
+    ],
+    "requete": "bib.title all \"jungle juice\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "kagurabachi": {
    "anilist": {
     "id": 169355,
@@ -6805,6 +10519,34 @@
     "requete": "bib.title all \"kagurabachi\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "kaguya-sama-love-is-war": {
+   "bnf": {
+    "dernier": 17,
+    "tomes": "17",
+    "dateDernier": "2023-09",
+    "editeur": "Pika Édition",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47335685n",
+    "isbn1": "9782811679781",
+    "candidatsCouv": [
+     {
+      "n": 17,
+      "ark": "ark:/12148/cb47335685n",
+      "isbn": "9782811679781"
+     }
+    ],
+    "requete": "bib.title all \"kaguya sama love is war\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 17,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "kaiju-no-8": {
@@ -6933,6 +10675,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "kamisama-school": {
+   "bnf": {
+    "dernier": 12,
+    "tomes": "1-12",
+    "dateDernier": "2026-09",
+    "editeur": "Ki-oon",
+    "notices": 12,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb472818942",
+    "isbn1": "9791032713440",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb472818942",
+      "isbn": "9791032713440"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47314694z",
+      "isbn": "9791032713556"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47373530f",
+      "isbn": "9791032713877"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47431299f",
+      "isbn": "9791032717097"
+     }
+    ],
+    "requete": "bib.title all \"kamisama school\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 3,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "kemono-incidents": {
    "anilist": {
     "id": 98466,
@@ -6993,6 +10778,41 @@
     "requete": "bib.title all \"ken en comme chien et singe\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "kids-on-the-slope": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-07",
+    "editeur": "Mangetsu",
+    "notices": 2,
+    "autresEditeurs": [
+     "Kazé"
+    ],
+    "ark1": "ark:/12148/cb48801755d",
+    "isbn1": "9782382816561",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48801755d",
+      "isbn": "9782382816561"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48814588r",
+      "isbn": "9782382814697"
+     }
+    ],
+    "requete": "bib.title all \"kids on the slope\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "kindergarten-wars": {
@@ -7588,6 +11408,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "love-mix-up": {
+   "bnf": {
+    "dernier": 9,
+    "tomes": "1-9",
+    "dateDernier": "2024-09",
+    "editeur": "Éditions Akata",
+    "notices": 9,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47090068x",
+    "isbn1": "9782382124093",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47090068x",
+      "isbn": "9782382124093"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47169684j",
+      "isbn": "9782382124260"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47188158s",
+      "isbn": "9782382124680"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb472578659",
+      "isbn": "9782382124970"
+     }
+    ],
+    "requete": "bib.title all \"love mix up\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "love-my-life": {
    "anilist": {
     "id": 33191,
@@ -7798,6 +11661,16 @@
     "requete": "bib.title all \"made in abyss\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "mafia-dating-sim": {
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"mafia dating sim\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
    "verifie": "2026-10-23"
   },
   "magic-maker": {
@@ -8169,6 +12042,82 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "mariee-du-roi-dragon": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2025-12",
+    "editeur": "Sikku-Michel Lafon",
+    "notices": 6,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47569731x",
+    "isbn1": "9782749958934",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47569731x",
+      "isbn": "9782749958934"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47569712n",
+      "isbn": "9782749958941"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb476207495",
+      "isbn": "9782749959443"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48530676z",
+      "isbn": "9782749961088"
+     }
+    ],
+    "requete": "bib.title all \"mariee du roi dragon\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "marry-my-husband": {
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2025-02",
+    "editeur": "Michel Lafon",
+    "notices": 7,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb473585667",
+    "isbn1": "9782749956114",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb473585667",
+      "isbn": "9782749956114"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47396794c",
+      "isbn": "9782749956121"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb474277187",
+      "isbn": "9782749957036"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47472098m",
+      "isbn": "9782749957043"
+     }
+    ],
+    "requete": "bib.title all \"marry my husband\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
   "mashle": {
    "anilist": {
     "id": 114960,
@@ -8468,6 +12417,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "mission-in-the-apocalypse": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2025-10",
+    "editeur": "Delcourt-Tonkam",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb475220157",
+    "isbn1": "9782413082712",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb475220157",
+      "isbn": "9782413082712"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47604712c",
+      "isbn": "9782413084679"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48525299h",
+      "isbn": "9782413088219"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48612584j",
+      "isbn": "9782413090991"
+     }
+    ],
+    "requete": "bib.title all \"mission in the apocalypse\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "mission-yozakura-family": {
    "anilist": {
     "id": 111149,
@@ -8566,6 +12558,29 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "mofusand": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-07",
+    "editeur": "Soleil",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb50011931s",
+    "isbn1": "9782302107076",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb50011931s",
+      "isbn": "9782302107076"
+     }
+    ],
+    "requete": "bib.title all \"mofusand\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
   "moi-jardinier-citadin": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -8575,6 +12590,44 @@
     "requete": "bib.title all \"moi jardinier citadin\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "momo-et-ichi-petits-esprits-de-la-campagne": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-02",
+    "editeur": "Nobi nobi !",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb486357936",
+    "isbn1": "9782384961467",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb486357936",
+      "isbn": "9782384961467"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48659643r",
+      "isbn": "9782384961474"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb487080717",
+      "isbn": "9782384961481"
+     }
+    ],
+    "requete": "bib.title all \"momo et ichi petits esprits de la campagne\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "momo-et-le-messager-du-soleil": {
@@ -8712,6 +12765,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "monthly-girls-nozaki-kun": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-4,6",
+    "dateDernier": "2026-10",
+    "editeur": "Noeve grafx",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb487136231",
+    "isbn1": "9782386702716",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb487136231",
+      "isbn": "9782386702716"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48713273g",
+      "isbn": "9782386702723"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb487132875",
+      "isbn": "9782386702730"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48853319z",
+      "isbn": "9782386702747"
+     }
+    ],
+    "requete": "bib.title all \"monthly girls nozaki kun\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "moon-et-iro": {
    "anilist": {
     "id": 169006,
@@ -8741,6 +12837,49 @@
     "requete": "bib.title all \"moon et iro\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "morgana-oz": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-07",
+    "editeur": "Albin Michel",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47575789g",
+    "isbn1": "9782226486424",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47575789g",
+      "isbn": "9782226486424"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb485110822",
+      "isbn": "9782226500113"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb486491644",
+      "isbn": "9782226504593"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb488021670",
+      "isbn": "9782226507280"
+     }
+    ],
+    "requete": "bib.title all \"morgana oz\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "mother-sarah": {
@@ -8945,6 +13084,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "my-home-hero": {
+   "bnf": {
+    "dernier": 26,
+    "tomes": "1-26",
+    "dateDernier": "2026-01",
+    "editeur": "Kurokawa",
+    "notices": 26,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb456645970",
+    "isbn1": "9782368526736",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb456645970",
+      "isbn": "9782368526736"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb456877412",
+      "isbn": "9782368527238"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45746742h",
+      "isbn": "9782368527382"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb457712118",
+      "isbn": "9782368527450"
+     }
+    ],
+    "requete": "bib.title all \"my home hero\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "my-love-story-with-yamada-kun-at-lvl999": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -9126,6 +13308,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "nichijo": {
+   "bnf": {
+    "dernier": 10,
+    "tomes": "3,7-10",
+    "dateDernier": "2026-10",
+    "editeur": "Noeve grafx",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48707707t",
+    "isbn1": "9782383166856",
+    "candidatsCouv": [
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48707707t",
+      "isbn": "9782383166856"
+     },
+     {
+      "n": 7,
+      "ark": "ark:/12148/cb488532337",
+      "isbn": "9782386705038"
+     },
+     {
+      "n": 8,
+      "ark": "ark:/12148/cb48852921x",
+      "isbn": "9782386705045"
+     },
+     {
+      "n": 9,
+      "ark": "ark:/12148/cb48851248s",
+      "isbn": "9782386705052"
+     }
+    ],
+    "requete": "bib.title all \"nichijo\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 3,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "nikuko-du-port-de-peche": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -9178,6 +13403,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "noragami": {
+   "bnf": {
+    "dernier": 27,
+    "tomes": "1-27",
+    "dateDernier": "2024-12",
+    "editeur": "Pika édition",
+    "notices": 30,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb44257319b",
+    "isbn1": "9782811618124",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44257319b",
+      "isbn": "9782811618124"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb442572417",
+      "isbn": "9782811618131"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb443124788",
+      "isbn": "9782811619060"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb44494536x",
+      "isbn": "9782811619077"
+     }
+    ],
+    "requete": "bib.title all \"noragami\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "nos-c-h-oeurs-evanescents": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -9191,6 +13459,39 @@
     "requete": "bib.title all \"nos oeurs evanescents\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "nos-coeurs-de-chats": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-08",
+    "editeur": "Bamboo édition",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb488028897",
+    "isbn1": "9791041116690",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb488028897",
+      "isbn": "9791041116690"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48826366k",
+      "isbn": "9791041119639"
+     }
+    ],
+    "requete": "bib.title all \"nos coeurs de chats\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "nova": {
@@ -9210,6 +13511,29 @@
     "requete": "bib.title all \"nova\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "nova-et-la-foret-des-monstres": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-04",
+    "editeur": "Komikku éditions",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48744853c",
+    "isbn1": "9782372879460",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48744853c",
+      "isbn": "9782372879460"
+     }
+    ],
+    "requete": "bib.title all \"nova et la foret des monstres\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
    "verifie": "2026-10-23"
   },
   "nura-le-seigneur-des-yokai": {
@@ -9278,6 +13602,39 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "ochibi-et-ses-amis": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-03",
+    "editeur": "Rue de Sèvres",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47667223m",
+    "isbn1": "9782810208913",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47667223m",
+      "isbn": "9782810208913"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb487286223",
+      "isbn": "9782810208906"
+     }
+    ],
+    "requete": "bib.title all \"ochibi et ses amis\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "oiseau-d-or-de-kainis": {
    "anilist": {
     "id": 108311,
@@ -9340,6 +13697,49 @@
     "requete": "bib.title all \"olympia kyklos\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "omniscient-reader-s-viewpoint": {
+   "bnf": {
+    "dernier": 11,
+    "tomes": "1-11",
+    "dateDernier": "2026-09",
+    "editeur": "Pika éditions",
+    "notices": 11,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47401740j",
+    "isbn1": "9782811689094",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47401740j",
+      "isbn": "9782811689094"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47462932z",
+      "isbn": "9782811689186"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47522991t",
+      "isbn": "9782811689193"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb475800766",
+      "isbn": "9782811692896"
+     }
+    ],
+    "requete": "bib.title all \"omniscient reader viewpoint\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "one-piece": {
@@ -9408,6 +13808,49 @@
     "requete": "bib.title all \"one punch man\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "one-week-friends": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2026-10",
+    "editeur": "Noeve grafx",
+    "notices": 6,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb487135003",
+    "isbn1": "9782386703386",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb487135003",
+      "isbn": "9782386703386"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48729918x",
+      "isbn": "9782386703393"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48853306m",
+      "isbn": "9782386703409"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb488532902",
+      "isbn": "9782386703416"
+     }
+    ],
+    "requete": "bib.title all \"one week friends\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "orange": {
@@ -9492,6 +13935,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "pakka": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2023-06",
+    "editeur": "Mangetsu",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47113972w",
+    "isbn1": "9782382811085",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47113972w",
+      "isbn": "9782382811085"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb471608153",
+      "isbn": "9782382810675"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47205557b",
+      "isbn": "9782382810705"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47237007h",
+      "isbn": "9782382810019"
+     }
+    ],
+    "requete": "bib.title all \"pakka\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "palais-des-assassins": {
    "anilist": {
     "id": 138415,
@@ -9521,6 +14007,51 @@
     "requete": "bib.title all \"palais des assassins\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "pan-pan-panda": {
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2015-10",
+    "editeur": "Nobi nobi",
+    "notices": 13,
+    "autresEditeurs": [
+     "Éditions France loisirs"
+    ],
+    "ark1": "ark:/12148/cb473636190",
+    "isbn1": "9782384960903",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb473636190",
+      "isbn": "9782384960903"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb437280113",
+      "isbn": "9782918857358"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb473991457",
+      "isbn": "9782384961276"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43816714j",
+      "isbn": "9782918857419"
+     }
+    ],
+    "requete": "bib.title all \"pan pan panda\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "pandemonium": {
@@ -9701,6 +14232,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "petit-monde-de-machida": {
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2023-11",
+    "editeur": "Éditions Akata",
+    "notices": 7,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47046938w",
+    "isbn1": "9782382122709",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47046938w",
+      "isbn": "9782382122709"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47088395c",
+      "isbn": "9782382122822"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47103619d",
+      "isbn": "9782382122907"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47184137v",
+      "isbn": "9782382124154"
+     }
+    ],
+    "requete": "bib.title all \"petit monde de machida\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "petit-requin": {
    "anilist": {
     "id": 165896,
@@ -9775,6 +14349,49 @@
     "requete": "bib.title all \"petits velos\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "phantom-busters": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2026-07",
+    "editeur": "Ki-oon",
+    "notices": 7,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb476526986",
+    "isbn1": "9791032720035",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb476526986",
+      "isbn": "9791032720035"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb485325498",
+      "isbn": "9791032720059"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb486529160",
+      "isbn": "9791032720066"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb487000223",
+      "isbn": "9791032720073"
+     }
+    ],
+    "requete": "bib.title all \"phantom busters\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "phenix-l-oiseau-de-feu-integrale": {
@@ -9966,6 +14583,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "pokemon-ecarlate-et-violet": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-10",
+    "editeur": "Kurokawa",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb475876458",
+    "isbn1": "9791042015107",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb475876458",
+      "isbn": "9791042015107"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb485410413",
+      "isbn": "9791042019143"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb486273298",
+      "isbn": "9791042019341"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48852490c",
+      "isbn": "9791042021955"
+     }
+    ],
+    "requete": "bib.title all \"pokemon ecarlate et violet\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "pokemon-epee-et-bouclier": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -9979,6 +14639,16 @@
     "requete": "bib.title all \"pokemon epee et bouclier\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "pokemon-la-grande-aventure": {
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"pokemon la grande aventure\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
    "verifie": "2026-10-23"
   },
   "pokemon-la-grande-aventure-diamant-et-perle": {
@@ -10168,6 +14838,44 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "principal": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-09",
+    "editeur": "Éditions Akata",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48736648h",
+    "isbn1": "9782385692957",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48736648h",
+      "isbn": "9782385692957"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48801492s",
+      "isbn": "9782385693947"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb488297830",
+      "isbn": "9782385694111"
+     }
+    ],
+    "requete": "bib.title all \"principal\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "prisonnier-riku": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -10229,6 +14937,49 @@
     "requete": "bib.title all \"professeur eiji\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "promenons-nous-dans-l-espace": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-09",
+    "editeur": "Glénat",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb485968944",
+    "isbn1": "9782344066102",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb485968944",
+      "isbn": "9782344066102"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48718642h",
+      "isbn": "9782344067109"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb487940447",
+      "isbn": "9782344072240"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb488287576",
+      "isbn": "9782344072257"
+     }
+    ],
+    "requete": "bib.title all \"promenons nous dans espace\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "prophecy": {
@@ -10487,6 +15238,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "reflection": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2025-05",
+    "editeur": "Pika édition",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47460903w",
+    "isbn1": "9782811661687",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47460903w",
+      "isbn": "9782811661687"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47531290h",
+      "isbn": "9782811688141"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47590134r",
+      "isbn": "9782811688158"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47648551h",
+      "isbn": "9782811698164"
+     }
+    ],
+    "requete": "bib.title all \"reflection\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "reine-d-egypte": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -10532,6 +15326,82 @@
     "requete": "bib.title all \"renard et le petit tanuki\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "retour-du-clan-hwasan": {
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2025-12",
+    "editeur": "Michel Lafon",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47443052x",
+    "isbn1": "9782749956480",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47443052x",
+      "isbn": "9782749956480"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47443042m",
+      "isbn": "9782749956497"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb474871431",
+      "isbn": "9782749957111"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb475527749",
+      "isbn": "9782749957128"
+     }
+    ],
+    "requete": "bib.title all \"retour du clan hwasan\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "rhapsody-in-red": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2025-12",
+    "editeur": "Delcourt",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47670373z",
+    "isbn1": "9782413085423",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47670373z",
+      "isbn": "9782413085423"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48557239r",
+      "isbn": "9782413085430"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb486593626",
+      "isbn": "9782413088202"
+     }
+    ],
+    "requete": "bib.title all \"rhapsody in red\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "ripper": {
@@ -10583,6 +15453,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "ron-kamonohashi-deranged-detective": {
+   "bnf": {
+    "dernier": 18,
+    "tomes": "1-18",
+    "dateDernier": "2026-09",
+    "editeur": "Mangetsu",
+    "notices": 19,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47267264h",
+    "isbn1": "9782382812013",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47267264h",
+      "isbn": "9782382812013"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47235322r",
+      "isbn": "9782382812754"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47267274t",
+      "isbn": "9782382812358"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb472946248",
+      "isbn": "9782382813652"
+     }
+    ],
+    "requete": "bib.title all \"ron kamonohashi deranged detective\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "royal-city": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -10626,6 +15539,77 @@
     "requete": "bib.title all \"running girl ma course vers les paralympiques\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "ruridragon": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-06",
+    "editeur": "Glénat",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48552161f",
+    "isbn1": "9782344067949",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48552161f",
+      "isbn": "9782344067949"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48551562n",
+      "isbn": "9782344067956"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48692326g",
+      "isbn": "9782344070215"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb487272233",
+      "isbn": "9782344071397"
+     }
+    ],
+    "requete": "bib.title all \"ruridragon\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "s-class-heroine": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-10",
+    "editeur": "Albin Michel",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48844731z",
+    "isbn1": "9782226508454",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48844731z",
+      "isbn": "9782226508454"
+     }
+    ],
+    "requete": "bib.title all \"class heroine\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "sacrificers": {
@@ -10843,6 +15827,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "sanda": {
+   "bnf": {
+    "dernier": 9,
+    "tomes": "1-4,6-9",
+    "dateDernier": "2026-09",
+    "editeur": "Ki-oon",
+    "notices": 10,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48573060g",
+    "isbn1": "9791032720318",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48573060g",
+      "isbn": "9791032720318"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb485712131",
+      "isbn": "9791032720349"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb485712193",
+      "isbn": "9791032720394"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb485827115",
+      "isbn": "9791032721315"
+     }
+    ],
+    "requete": "bib.title all \"sanda\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "save-me-pythie": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -11029,6 +16056,39 @@
     "requete": "bib.title all \"secrets de lea\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "secrets-of-magical-stones": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2022-02",
+    "editeur": "Vega-Dupuis",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46862574b",
+    "isbn1": "9782379501449",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46862574b",
+      "isbn": "9782379501449"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46907253p",
+      "isbn": "9782379501456"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46958642d",
+      "isbn": "9782379501463"
+     }
+    ],
+    "requete": "bib.title all \"secrets of magical stones\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
    "verifie": "2026-10-23"
   },
   "seki-mon-voisin-de-classe": {
@@ -11953,6 +17013,16 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "star-strike-it-rich": {
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"star strike it rich\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
   "star-wars-etoiles-perdues": {
    "anilist": {
     "id": 120676,
@@ -12035,6 +17105,51 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "stray-dog": {
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2025",
+    "editeur": "Glénat",
+    "notices": 7,
+    "autresEditeurs": [
+     "les Éditions Brume"
+    ],
+    "ark1": "ark:/12148/cb44377872r",
+    "isbn1": "9782344008737",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44377872r",
+      "isbn": "9782344008737"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45000760z",
+      "isbn": "9782344012161"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45246501h",
+      "isbn": "9782344013236"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45543925d",
+      "isbn": "9782344027110"
+     }
+    ],
+    "requete": "bib.title all \"stray dog\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "street-fighting-cat": {
    "anilist": {
     "id": 109951,
@@ -12066,6 +17181,72 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "sukeroku": {
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"sukeroku\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "sukima": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-08",
+    "editeur": "Casterman",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48822471g",
+    "isbn1": "9782203302655",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48822471g",
+      "isbn": "9782203302655"
+     }
+    ],
+    "requete": "bib.title all \"sukima\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "summer-ghost": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2023-07",
+    "editeur": "Delcourt-Tonkam",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47297641k",
+    "isbn1": "9782413079569",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47297641k",
+      "isbn": "9782413079569"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47297644m",
+      "isbn": "9782413079576"
+     }
+    ],
+    "requete": "bib.title all \"summer ghost\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "super-mario-manga-adventures": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -12075,6 +17256,47 @@
     "requete": "bib.title all \"super mario manga adventures\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "sweet-home": {
+   "bnf": {
+    "dernier": 12,
+    "tomes": "1-12",
+    "dateDernier": "2026-07",
+    "editeur": "Ki-oon",
+    "notices": 13,
+    "autresEditeurs": [
+     "Johan Duval",
+     "Milady"
+    ],
+    "ark1": "ark:/12148/cb47019893v",
+    "isbn1": "9791032711279",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47019893v",
+      "isbn": "9791032711279"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47071489t",
+      "isbn": "9791032711576"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb471234821",
+      "isbn": "9791032711699"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47168628t",
+      "isbn": "9791032711903"
+     }
+    ],
+    "requete": "bib.title all \"sweet home\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
    "verifie": "2026-10-23"
   },
   "sweet-tooth": {
@@ -12105,6 +17327,49 @@
     "requete": "bib.title all \"sweet tooth\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "switch-family": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2025-12",
+    "editeur": "Ki-oon",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47670535z",
+    "isbn1": "9791032719992",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47670535z",
+      "isbn": "9791032719992"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48532596s",
+      "isbn": "9791032720004"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48578574r",
+      "isbn": "9791032720011"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb486687926",
+      "isbn": "9791032720028"
+     }
+    ],
+    "requete": "bib.title all \"switch family\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "sword-art-online-aincrad": {
@@ -12370,6 +17635,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "terror-man": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-3,5",
+    "dateDernier": "2026-07",
+    "editeur": "Pika édition",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47688218p",
+    "isbn1": "9782811681982",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47688218p",
+      "isbn": "9782811681982"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb485554970",
+      "isbn": "9782811682033"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb486568427",
+      "isbn": "9782811682217"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb48811064n",
+      "isbn": "9782811682231"
+     }
+    ],
+    "requete": "bib.title all \"terror man\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "the-arms-peddler": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -12385,6 +17693,49 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "the-beginning-after-the-end": {
+   "bnf": {
+    "dernier": 10,
+    "tomes": "1-10",
+    "dateDernier": "2026-08",
+    "editeur": "Kbooks",
+    "notices": 10,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47297626p",
+    "isbn1": "9782382881903",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47297626p",
+      "isbn": "9782382881903"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47323401j",
+      "isbn": "9782382881910"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47374517g",
+      "isbn": "9782382881927"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb474520208",
+      "isbn": "9782382882948"
+     }
+    ],
+    "requete": "bib.title all \"the beginning after the end\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "the-bugle-call": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
@@ -12398,6 +17749,49 @@
     "requete": "bib.title all \"the bugle call\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "the-druid-of-seoul-station": {
+   "bnf": {
+    "dernier": 10,
+    "tomes": "1-3,6-10",
+    "dateDernier": "2026-08",
+    "editeur": "Kbooks",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47062401m",
+    "isbn1": "9782382881392",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47062401m",
+      "isbn": "9782382881392"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47154766g",
+      "isbn": "9782382881408"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47219576s",
+      "isbn": "9782382881415"
+     },
+     {
+      "n": 6,
+      "ark": "ark:/12148/cb474935708",
+      "isbn": "9782382882450"
+     }
+    ],
+    "requete": "bib.title all \"the druid of seoul station\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "the-elusive-samurai": {
@@ -12622,6 +18016,39 @@
     "requete": "bib.title all \"the promised neverland\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "the-regalia-of-the-underdog": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-08",
+    "editeur": "Glénat",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48694249b",
+    "isbn1": "9782344070345",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48694249b",
+      "isbn": "9782344070345"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48816563w",
+      "isbn": "9782344075500"
+     }
+    ],
+    "requete": "bib.title all \"the regalia of the underdog\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "the-sound-of-my-soul": {
@@ -13443,6 +18870,39 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23"
   },
+  "une-si-belle-couleur": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2022-02",
+    "editeur": "Pika édition",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46968933g",
+    "isbn1": "9782811646059",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46968933g",
+      "isbn": "9782811646059"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46968946t",
+      "isbn": "9782811646103"
+     }
+    ],
+    "requete": "bib.title all \"une si belle couleur\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
   "une-vie-dans-les-marges": {
    "anilist": {
     "id": 43419,
@@ -13474,6 +18934,49 @@
     "requete": "bib.title all \"une vie dans les marges\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "unordinary": {
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-06",
+    "editeur": "Hugo neotoon",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47509458w",
+    "isbn1": "9782755675351",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47509458w",
+      "isbn": "9782755675351"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47612011t",
+      "isbn": "9782755677843"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48555737z",
+      "isbn": "9782755677850"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48788235k",
+      "isbn": "9782755677867"
+     }
+    ],
+    "requete": "bib.title all \"unordinary\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
    "verifie": "2026-10-23"
   },
   "usagi-yojimbo": {
@@ -13775,6 +19278,77 @@
     "requete": "bib.title all \"wet moon\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
+   "verifie": "2026-10-23"
+  },
+  "whale-star": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-09",
+    "editeur": "Kotoon",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb487809405",
+    "isbn1": "9782488290142",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb487809405",
+      "isbn": "9782488290142"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48837311r",
+      "isbn": "9782488290159"
+     }
+    ],
+    "requete": "bib.title all \"whale star\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-23"
+   },
+   "verifie": "2026-10-23"
+  },
+  "white-blood": {
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2024-02",
+    "editeur": "Sikku-Michel Lafon",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb470608106",
+    "isbn1": "9782749950600",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb470608106",
+      "isbn": "9782749950600"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47071513v",
+      "isbn": "9782749950617"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47113081c",
+      "isbn": "9782749950921"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47179804t",
+      "isbn": "9782749950938"
+     }
+    ],
+    "requete": "bib.title all \"white blood\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-23",
+   "couvEssai": "2026-10-23",
    "verifie": "2026-10-23"
   },
   "wind-breaker": {
