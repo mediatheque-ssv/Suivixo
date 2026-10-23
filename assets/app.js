@@ -273,7 +273,9 @@ function compteVF(v) {
   const p = v.info.parus;
   const vo = v.info.totalVO;
   const al = v.enr?.anilist && !v.enr.anilist.rejete && !v.enr.anilist.auteurDifferent ? v.enr.anilist : null;
-  let t = p === null ? `<strong>${nf.format(ici)}</strong> ${ici > 1 ? "tomes" : "tome"}, parution VF inconnue`
+  // Aucune source n'a encore donné le nombre de tomes parus (série toute nouvelle) : on ne l'invente pas
+  const nonVerifie = !v.enr || (v.info.sourceParus === "reseau" && !v.info.sourceEnRetard);
+  let t = p === null || nonVerifie ? `<strong>${nf.format(ici)}</strong> ${ici > 1 ? "tomes" : "tome"}, parution VF ${v.enr ? "inconnue" : "pas encore vérifiée"}`
     : `<strong>${nf.format(ici)}</strong> sur ${nf.format(p)} parus en VF`;
   if (vo && (p === null || vo > p)) t += `, ${nf.format(vo)} ${enVO(al)}`;
   else if (al && (al.statut === "RELEASING" || al.statut === "HIATUS")) t += `, en cours ${enVO(al)}`;
@@ -466,7 +468,7 @@ function ouvrirFiche(id) {
     <div class="fiche-corps">
     <div class="chiffres-serie">
       <div><strong>${nf.format(v.ici.length)}</strong><span>à ${h(court(bib))}</span></div>
-      <div><strong>${info.parus !== null ? nf.format(info.parus) : "?"}</strong><span>parus en VF</span></div>
+      <div><strong>${info.parus !== null && v.enr && !(info.sourceParus === "reseau" && !info.sourceEnRetard) ? nf.format(info.parus) : "?"}</strong><span>${v.enr ? "parus en VF" : "parus en VF, pas encore vérifié"}</span></div>
       ${info.totalVO ? `<div><strong>${nf.format(info.totalVO)}</strong><span>${h(enVO(v.enr?.anilist))}</span></div>` : v.enr?.anilist?.statut === "RELEASING" && !v.enr.anilist.auteurDifferent ? `<div><strong>…</strong><span>en cours ${h(enVO(v.enr.anilist))}</span></div>` : ""}
     </div>
     <p class="resume">${h(phraseStatut(v))}</p>
