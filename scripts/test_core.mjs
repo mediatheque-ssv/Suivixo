@@ -96,6 +96,45 @@ t("état de parution", () => {
   assert.equal(C.dernierBnf({ dernier: 35, tomes: "35" }), 35);
   assert.equal(C.dernierBnf({ dernier: 17, tomes: "1-3,9,17" }), 17);
 });
+t("fiche Manga-News", () => {
+  const s = { titre: "Boruto" };
+  const maintenant = Date.parse("2026-10-23");
+  // Boruto : la BnF n'a que 18 tomes, la fiche dit VF 20 (Terminé), VO 20 (Terminé)
+  const boruto = { anilist: { statut: "FINISHED", volumes: 20 }, bnf: { dernier: 18, tomes: "1-18", dateDernier: "2023-01" },
+    mangaNews: { tomes: 20, editeur: "Kana", url: "u" }, mangaNewsFiche: { url: "u", vf: 20, vfStatut: "Terminé", vo: 20, voStatut: "Terminé" } };
+  const b = C.infosParution(s, boruto, maintenant);
+  assert.equal(b.parus, 20); assert.equal(b.etat, "Terminée"); assert.equal(b.sourceEtat, "mangaNews"); assert.equal(b.doute, false);
+  assert.equal(C.statutSerie([...Array(20)].map((_, i) => i + 1), b).cle, "finie");
+  // Spy x Family : 16 parus, 17 annoncé le 12/11, 17 au Japon
+  const spy = { anilist: { statut: "RELEASING" }, bnf: { dernier: 16, dateDernier: "2026-05" }, mangaNews: { tomes: 16, url: "u" },
+    mangaNewsFiche: { url: "u", vf: 16, vfStatut: "En cours", vo: 17, voStatut: "En cours", vfDernier: 16, vfDernierDate: "2026-06-04", vfProchain: 17, vfProchainDate: "2026-11-12" } };
+  const sp = C.infosParution(s, spy, maintenant);
+  assert.equal(sp.parus, 16); assert.equal(sp.totalVO, 17); assert.equal(sp.aVenir, 1); assert.equal(sp.etat, "En cours");
+  assert.deepEqual(sp.prochain, { tome: 17, date: "2026-11-12" });
+  // une fois la date passée, le tome 17 compte comme paru sans attendre la prochaine lecture
+  const apres = C.infosParution(s, spy, Date.parse("2026-11-20"));
+  assert.equal(apres.parus, 17); assert.equal(apres.prochain, null);
+  // le compte VF inclut un tome annoncé : on prend le dernier paru
+  const annonce = { mangaNewsFiche: { url: "u", vf: 9, vfStatut: "En cours", vfDernier: 8 }, mangaNews: { tomes: 9, url: "u" } };
+  assert.equal(C.infosParution(s, annonce, maintenant).parus, 8);
+  // fiche d'une autre édition (autre éditeur) : ignorée
+  const autre = { anilist: { statut: "FINISHED", volumes: 20 }, mangaNews: { tomes: 10, editeurDifferent: true, url: "u" },
+    mangaNewsFiche: { url: "u", vf: 10, vfStatut: "Terminé" }, bnf: { dernier: 20, dateDernier: "2024-01" } };
+  assert.equal(C.infosParution(s, autre, maintenant).parus, 20);
+  // abandonnée en France
+  const stop = { mangaNews: { tomes: 6, url: "u" }, mangaNewsFiche: { url: "u", vf: 6, vfStatut: "Abandonné", vo: 14, voStatut: "Terminé" } };
+  assert.equal(C.statutSerie([1, 2, 3, 4, 5, 6], C.infosParution(s, stop, maintenant)).cle, "abandonnee");
+  assert.equal(C.etatMangaNews("Stoppé"), "Abandonnée");
+  // page indiquée à la main (ancien Excel) : seule sa fiche compte, sauf si elle a disparu
+  const lien = { titre: "X", liens: { mangaNews: "index.php/serie/X-Kana" } };
+  const fl = { mangaNews: { tomes: 3, url: "https://www.manga-news.com/index.php/serie/X" }, mangaNewsFiche: { url: "https://www.manga-news.com/index.php/serie/X-Kana", vf: 7, vfStatut: "En cours" } };
+  assert.equal(C.infosParution(lien, fl, maintenant).parus, 7);
+  fl.mangaNewsFiche = { url: "https://www.manga-news.com/index.php/serie/X", vf: 5, vfStatut: "En cours" };
+  assert.equal(C.ficheMangaNews(lien, fl), null);
+  fl.mangaNewsFiche.secours = true;
+  assert.equal(C.infosParution(lien, fl, maintenant).parus, 5);
+  assert.equal(C.etatMangaNews("En pause"), "En pause");
+});
 t("statut de la série", () => {
   const info = { parus: 5, etat: "Terminée" };
   assert.equal(C.statutSerie([1, 2, 3, 4, 5], info).cle, "finie");

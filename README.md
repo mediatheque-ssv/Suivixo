@@ -19,13 +19,14 @@ Suivixo remplace le classeur Excel « MangaV2-3 » (créé par Erick Bagliniere)
 |---|---|---|
 | Tomes présents dans chaque médiathèque | Export Orphée | À chaque import |
 | Prêts, emprunts, réservations | Export Orphée | Restent dans le navigateur de la personne qui importe, jamais publiés |
-| État de la série au Japon, nombre de tomes en VO | [AniList](https://anilist.co) | Chaque lundi (GitHub Actions) |
+| État de l'édition française (terminée, en cours, abandonnée), dernier tome paru, prochain tome annoncé, tomes en VO | Fiche de la série sur [Manga-News](https://www.manga-news.com) (la page indiquée dans la série, sinon celle du jeu de données) | Chaque lundi pour les séries en cours, tous les 3 mois pour les terminées (une page toutes les 2 secondes) |
+| État de la série au Japon, nombre de tomes en VO (secours) | [AniList](https://anilist.co) | Chaque lundi (GitHub Actions) |
 | Tomes parus en France et date du dernier | [Catalogue général de la BnF](https://catalogue.bnf.fr) (dépôt légal), sous Licence Ouverte | Chaque lundi |
 | Tomes parus en France (deuxième source) | [Jeu de données Manga-News sur data.gouv.fr](https://www.data.gouv.fr/datasets/manga-news), sous licence ODbL | Chaque lundi |
 | Couvertures françaises | BnF, sinon [Open Library](https://openlibrary.org) ; à défaut, couverture VO d'AniList | Une fois par série |
 | Genre, public, commandes, commentaires, liens | Saisis dans Suivixo (repris de l'ancien Excel) | À la main |
 
-Le nombre de tomes parus en France retenu est le plus grand entre la BnF, Manga-News et les exemplaires du réseau (un tome présent dans une médiathèque est forcément paru). Les données dérivées de Manga-News dans `data/enrich.json` sont sous licence ODbL.
+L'état de l'édition française vient d'abord de la fiche Manga-News ; sans fiche, il est déduit d'AniList et de la BnF. Le nombre de tomes parus en France retenu est le plus grand entre la BnF, Manga-News et les exemplaires du réseau (un tome présent dans une médiathèque est forcément paru) ; si la fiche Manga-News dit la série terminée en France, son nombre de tomes fait foi. Les données dérivées de Manga-News dans `data/enrich.json` sont sous licence ODbL.
 
 Quand les sources se trompent (édition française différente, série arrêtée par l'éditeur…), on peut forcer le nombre de tomes parus et l'état dans la fiche de la série.
 

@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js";
+import * as C from "./core.js?v=13";
 import { publier, verifierCle } from "./github.js";
 
 // ---------------------------------------------------------------------------
@@ -272,13 +272,12 @@ function compteVF(v) {
   const ici = v.ici.length;
   const p = v.info.parus;
   const vo = v.info.totalVO;
-  const al = v.enr?.anilist && !v.enr.anilist.rejete && !v.enr.anilist.auteurDifferent ? v.enr.anilist : null;
   // Aucune source n'a encore donné le nombre de tomes parus (série toute nouvelle) : on ne l'invente pas
   const nonVerifie = !v.enr || (v.info.sourceParus === "reseau" && !v.info.sourceEnRetard);
   let t = p === null || nonVerifie ? `<strong>${nf.format(ici)}</strong> ${ici > 1 ? "tomes" : "tome"}, parution VF ${v.enr ? "inconnue" : "pas encore vérifiée"}`
     : `<strong>${nf.format(ici)}</strong> sur ${nf.format(p)} parus en VF`;
-  if (vo && (p === null || vo > p)) t += `, ${nf.format(vo)} ${enVO(al)}`;
-  else if (al && (al.statut === "RELEASING" || al.statut === "HIATUS")) t += `, en cours ${enVO(al)}`;
+  if (vo && (p === null || vo > p)) t += `, ${nf.format(vo)} ${enVO(v.info)}`;
+  else if (v.info.etatVO === "En cours" || v.info.etatVO === "En pause") t += `, en cours ${enVO(v.info)}`;
   return t;
 }
 
@@ -394,22 +393,28 @@ function ligneSerie(v) {
 // ---------------------------------------------------------------------------
 
 const PAYS = { JP: "au Japon", KR: "en Corée", CN: "en Chine", TW: "à Taïwan" };
-const enVO = (al) => PAYS[al?.pays] || "en version originale";
+const enVO = (x) => PAYS[x?.pays] || "en version originale";
+const jourMois = (d) => { const x = new Date(d); return isNaN(x) ? String(d) : x.toLocaleDateString("fr-FR", { day: "numeric", month: "long", ...(x.getFullYear() !== new Date().getFullYear() ? { year: "numeric" } : {}) }); };
+const ETATS_FR = { "Terminée": "terminée", "En cours": "en cours", "En pause": "en pause", "Abandonnée": "abandonnée" };
 const ETATS_AL = { FINISHED: "terminée", RELEASING: "en cours", HIATUS: "en pause", CANCELLED: "annulée", NOT_YET_RELEASED: "pas encore commencée" };
 
 function phraseStatut(v) {
   const { info } = v;
   const bib = court(etat.prefs.bib);
-  const al = v.enr?.anilist;
   const morceaux = [];
-  if (al && !al.rejete && !al.auteurDifferent && al.statut) {
-    const ou = enVO(al);
-    morceaux.push(`${ou.charAt(0).toUpperCase() + ou.slice(1)}, la série est ${ETATS_AL[al.statut] || al.statut}${info.totalVO ? ` (${pluriel(info.totalVO, "tome")})` : al.pays === "KR" || al.pays === "CN" ? " (publication en ligne)" : ""}.`);
+  if (info.etatVO) {
+    const ou = enVO(info);
+    morceaux.push(`${ou.charAt(0).toUpperCase() + ou.slice(1)}, la série est ${ETATS_FR[info.etatVO] || info.etatVO.toLowerCase()}${info.totalVO ? ` (${pluriel(info.totalVO, "tome")}${info.etatVO === "Terminée" ? "" : " à ce jour"})` : info.pays === "KR" || info.pays === "CN" ? " (publication en ligne)" : ""}.`);
   }
   if (info.parus !== null) {
-    const date = info.sourceParus === "bnf" && info.dateDernier ? `, le dernier en ${moisFr(info.dateDernier)}` : "";
+    const fiche = v.enr?.mangaNewsFiche;
+    const dateSure = info.sourceParus === "bnf" || (info.sourceParus === "mangaNews" && fiche?.vfDernier === info.parus);
+    const date = dateSure && info.dateDernier ? `, le dernier sorti ${String(info.dateDernier).length > 7 ? `le ${jourMois(info.dateDernier)}` : `en ${moisFr(info.dateDernier)}`}` : "";
     const venir = info.aVenir && /en cours/i.test(info.etat || "") && !info.doute ? `, ${info.aVenir} encore à venir` : "";
-    morceaux.push(`${pluriel(info.parus, "tome paru", "tomes parus")} en France${date}${venir}.`);
+    const fin = info.sourceEtat === "mangaNews" && info.etat === "Terminée" ? " : l'édition française est terminée"
+      : info.sourceEtat === "mangaNews" && info.etat === "Abandonnée" ? " : l'éditeur français a arrêté la série" : "";
+    morceaux.push(`${pluriel(info.parus, "tome paru", "tomes parus")} en France${date}${venir}${fin}.`);
+    if (info.prochain) morceaux.push(`Prochain tome${info.prochain.tome ? ` (${info.prochain.tome})` : ""} annoncé pour le ${jourMois(info.prochain.date)}.`);
     if (info.sourceParus === "reseau") morceaux.push(`Ce nombre vient des exemplaires du réseau${info.sourceEnRetard === "bnf" ? " : la BnF ne recense pas encore les derniers tomes" : ""}.`);
   } else morceaux.push("Le nombre de tomes parus en France est inconnu.");
   if (/arr[eê]t/i.test(info.etat || "")) morceaux.push(`Plus rien n'est paru en France depuis ${moisFr(info.dateDernier) || "longtemps"} : la série a peut-être été arrêtée par l'éditeur, ou l'édition française est différente. Si tu sais ce qu'il en est, indique-le dans « Modifier la série ».`);
@@ -439,7 +444,8 @@ function ouvrirFiche(id) {
   const bnf = v.enr?.bnf;
   const st = etat.stats?.series?.[s.id];
   const L = s.liens || {};
-  const urlMN = L.mangaNews ? (L.mangaNews.startsWith("http") ? L.mangaNews : "https://www.manga-news.com/" + L.mangaNews) : null;
+  const fmn = C.ficheMangaNews(s, v.enr);
+  const urlMN = L.mangaNews ? (L.mangaNews.startsWith("http") ? L.mangaNews : "https://www.manga-news.com/" + L.mangaNews) : fmn?.url || v.enr?.mangaNews?.url || null;
   const urlBD = L.bedetheque ? (L.bedetheque.startsWith("http") ? L.bedetheque : "https://www.bedetheque.com/" + L.bedetheque) : null;
   const urlBnf = `https://catalogue.bnf.fr/rechercher.do?motRecherche=${encodeURIComponent(s.titre)}`;
   const meta = [f?.editeur, s.public, v.genre, s.age, s.type === "One shot" ? "One shot" : ""].filter(Boolean).join(", ");
@@ -469,7 +475,7 @@ function ouvrirFiche(id) {
     <div class="chiffres-serie">
       <div><strong>${nf.format(v.ici.length)}</strong><span>à ${h(court(bib))}</span></div>
       <div><strong>${info.parus !== null && v.enr && !(info.sourceParus === "reseau" && !info.sourceEnRetard) ? nf.format(info.parus) : "?"}</strong><span>${v.enr ? "parus en VF" : "parus en VF, pas encore vérifié"}</span></div>
-      ${info.totalVO ? `<div><strong>${nf.format(info.totalVO)}</strong><span>${h(enVO(v.enr?.anilist))}</span></div>` : v.enr?.anilist?.statut === "RELEASING" && !v.enr.anilist.auteurDifferent ? `<div><strong>…</strong><span>en cours ${h(enVO(v.enr.anilist))}</span></div>` : ""}
+      ${info.totalVO ? `<div><strong>${nf.format(info.totalVO)}</strong><span>${h(enVO(info))}</span></div>` : info.etatVO === "En cours" ? `<div><strong>…</strong><span>en cours ${h(enVO(info))}</span></div>` : ""}
     </div>
     <p class="resume">${h(phraseStatut(v))}</p>
     ${total ? `<div class="rayon-complet">${tranches.join("")}</div>${legende()}` : ""}
@@ -482,7 +488,8 @@ function ouvrirFiche(id) {
       <summary>Sources et liens</summary>
       <div class="sources">
         <p><strong>VO</strong> : ${al ? `${h(enVO(al))}, série ${h(ETATS_AL[al.statut] || "?")}${al.volumes ? ` en ${pluriel(al.volumes, "tome")}` : ""}, d'après AniList (« ${h(al.titre)} »)${al.auto ? ", reliée automatiquement" : ""}.` : "série pas encore reliée à AniList. Colle son adresse dans « Modifier la série »."}</p>
-        <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}${v.enr?.mangaNews ? ` Sur Manga-News : ${pluriel(v.enr.mangaNews.tomes, "tome")}${v.enr.mangaNews.editeur ? ` chez ${h(v.enr.mangaNews.editeur)}` : ""} (données du ${dateFr(v.enr.mangaNews.date)}).` : ""}</p>
+        <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}${v.enr?.mangaNews && !fmn ? ` Sur Manga-News : ${pluriel(v.enr.mangaNews.tomes, "tome")}${v.enr.mangaNews.editeur ? ` chez ${h(v.enr.mangaNews.editeur)}` : ""} (données du ${dateFr(v.enr.mangaNews.date)}).` : ""}</p>
+        ${fmn ? `<p><strong>Manga-News</strong> : ${[Number.isFinite(fmn.vf) ? `VF ${nf.format(fmn.vf)} ${fmn.vf > 1 ? "tomes" : "tome"} (${h((fmn.vfStatut || "").toLowerCase())})` : "", Number.isFinite(fmn.vo) ? `VO ${nf.format(fmn.vo)} (${h((fmn.voStatut || "").toLowerCase())})` : "", fmn.vfDernierDate ? `dernier paru le ${dateFr(fmn.vfDernierDate)}` : "", fmn.vfProchainDate ? `prochain le ${dateFr(fmn.vfProchainDate)}` : ""].filter(Boolean).join(", ")}${v.enr?.mangaNews?.editeur ? `, chez ${h(v.enr.mangaNews.editeur)}` : ""}. Fiche lue le ${dateFr(fmn.verifie)}.</p>` : ""}
         ${s.ancien && (s.ancien.total || s.ancien.etat) ? `<p><strong>Ancien Excel</strong> : ${s.ancien.total ? pluriel(s.ancien.total, "tome") : ""}${s.ancien.etat ? `, ${h(s.ancien.etat.toLowerCase())}` : ""}${s.ancien.annee ? `, dernière parution en ${s.ancien.annee}` : ""}.</p>` : ""}
         <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `édition française, tome ${v.enr.couvFR.tome}, d'après ${v.enr.couvFR.source === "BnF" ? "la BnF" : "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
         <p>Voir sur ${liens.join(", ")}.</p>
@@ -639,7 +646,11 @@ function listeAchats() {
     const r = (v.f?.retires || []).filter((x) => x.bib === bib && !(x.tome && v.ici.includes(x.tome)));
     if (r.length) aRemplacer.push({ v, r });
   }
-  const avenir = mes.filter((v) => v.info.aVenir > 0).sort((a, b) => b.info.aVenir - a.info.aVenir || a.cle.localeCompare(b.cle, "fr"));
+  // D'abord les prochaines sorties annoncées en France (par date), puis les tomes sortis au Japon et pas encore traduits
+  const avenir = mes.filter((v) => v.info.prochain || v.info.aVenir > 0).sort((a, b) =>
+    (a.info.prochain ? 0 : 1) - (b.info.prochain ? 0 : 1)
+    || (a.info.prochain && b.info.prochain ? a.info.prochain.date.localeCompare(b.info.prochain.date) : 0)
+    || (b.info.aVenir || 0) - (a.info.aVenir || 0) || a.cle.localeCompare(b.cle, "fr"));
   return { absentsReseau, absentsIci, aRemplacer, avenir };
 }
 
@@ -660,9 +671,13 @@ function rendreAcheter() {
       texte: `Exemplaires de ${h(bib)} perdus, hors service, à pilonner ou marqués pour rachat dans Orphée.`,
       items: aRemplacer.map((x) => itemAchat(x.v, x.r.map((r) => r.tome ?? "?").join(", "), x.r.map((r) => r.statut.toLowerCase()).join(", "))),
       vide: "Aucun exemplaire à remplacer." },
-    { cle: "avenir", titre: "À paraître", n: nb(avenir, (v) => v.info.aVenir),
-      texte: "Tomes déjà sortis au Japon mais pas encore en France.",
-      items: avenir.map((v) => itemAchat(v, `${v.info.aVenir} à venir`, v.info.etat)),
+    { cle: "avenir", titre: "À paraître", n: nb(avenir, (v) => Math.max(v.info.aVenir || 0, v.info.prochain ? 1 : 0)),
+      texte: "Prochaines sorties annoncées en France (d'après Manga-News), puis tomes déjà sortis en VO mais pas encore traduits.",
+      items: avenir.map((v) => {
+        const p = v.info.prochain;
+        const vo = v.info.aVenir > (p ? 1 : 0) ? `${v.info.aVenir} ${v.info.aVenir > 1 ? "tomes" : "tome"} déjà sortis ${enVO(v.info)}` : v.info.etat;
+        return itemAchat(v, p ? `${p.tome ? `T${p.tome}, ` : ""}${jourMois(p.date)}` : `${v.info.aVenir} à venir`, p ? vo : v.info.etat);
+      }),
       vide: "Rien pour l'instant." },
   ];
   const cur = onglets.find((o) => o.cle === etat.ongletAchat) || onglets[0];

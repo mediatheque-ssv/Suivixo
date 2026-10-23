@@ -326,20 +326,55 @@ export function dernierBnf(bnf) {
  * Combien de tomes sont parus en France, et où en est la série ?
  * Ordre de priorité : saisie manuelle > BnF + AniList > ancien Excel (Manga-News).
  */
+/**
+ * Fiche Manga-News lue par la vérification hebdo, si elle parle bien de l'édition du réseau
+ * (même éditeur, ou page indiquée à la main dans « Modifier la série »).
+ */
+export function ficheMangaNews(serie, enr) {
+  const f = enr?.mangaNewsFiche;
+  if (!f || f.lu === false || !(Number.isFinite(f.vf) || Number.isFinite(f.vo))) return null;
+  const manuel = serie.liens?.mangaNews;
+  const okManuel = manuel && f.url && f.url.endsWith(manuel.replace(/^https?:\/\/(www\.)?manga-news\.com\//, ""));
+  // page trouvée dans le jeu de données Manga-News (même éditeur), si aucune page n'est indiquée ou si elle a disparu
+  const okJeu = enr.mangaNews && !enr.mangaNews.editeurDifferent && f.url === enr.mangaNews.url && (!manuel || f.secours);
+  return okManuel || okJeu ? f : null;
+}
+
+/** « Terminé », « En cours », « Abandonné »… de Manga-News, dans le vocabulaire du site. */
+export function etatMangaNews(statut) {
+  const t = sansAccents(statut || "").toLowerCase();
+  if (/termin|fini|complet/.test(t)) return "Terminée";
+  if (/abandon|stopp|arret|annul/.test(t)) return "Abandonnée";
+  if (/pause|suspen/.test(t)) return "En pause";
+  if (/cours/.test(t)) return "En cours";
+  return null;
+}
+
 export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0) {
   const man = serie.manuel || {};
   const al = enr?.anilist && !enr.anilist.rejete && !enr.anilist.auteurDifferent ? enr.anilist : null;
   const bnf = enr?.bnf || null;
   const leg = serie.ancien || {};
+  const fiche = ficheMangaNews(serie, enr);
+  const etatFiche = fiche ? etatMangaNews(fiche.vfStatut) : null;
 
   // --- parus en France
   let parus = null, sourceParus = null;
   const mn = enr?.mangaNews && Number.isFinite(enr.mangaNews.tomes) && !enr.mangaNews.editeurDifferent ? enr.mangaNews.tomes : null;
+  // Sur la fiche, « VF : 20 » pourrait compter un tome annoncé : on se fie d'abord à l'encadré « Dernier paru ».
+  let fvf = fiche && Number.isFinite(fiche.vf) ? fiche.vf : null;
+  if (fvf !== null && fiche.vfDernier > 0 && fiche.vfDernier <= fvf) fvf = fiche.vfDernier;
+  else if (fvf !== null && fiche.vfProchain > 0 && fiche.vfProchain <= fvf
+    && !(fiche.vfProchainDate && Date.parse(fiche.vfProchainDate) <= maintenant)) fvf = fiche.vfProchain - 1;
+  // le tome annoncé est sorti depuis la lecture de la fiche
+  if (fvf !== null && fiche.vfProchain > fvf && fiche.vfProchainDate && Date.parse(fiche.vfProchainDate) <= maintenant) fvf = fiche.vfProchain;
   if (Number.isFinite(man.parus)) { parus = man.parus; sourceParus = "manuel"; }
-  else if (dernierBnf(bnf) || mn) {
+  else if (fvf !== null && etatFiche === "Terminée") { parus = fvf; sourceParus = "mangaNews"; }
+  else if (dernierBnf(bnf) || mn || fvf) {
     // BnF et Manga-News : on garde le plus grand (la BnF a du retard, Manga-News date de sa dernière publication)
     const b = dernierBnf(bnf) || 0;
-    if (mn && mn > b) { parus = mn; sourceParus = "mangaNews"; } else { parus = b; sourceParus = "bnf"; }
+    const m = fvf !== null ? fvf : mn || 0; // la fiche est plus récente que le jeu de données
+    if (m > b) { parus = m; sourceParus = "mangaNews"; } else { parus = b; sourceParus = "bnf"; }
   }
   else if (Number.isFinite(leg.total)) { parus = leg.total; sourceParus = "excel"; }
   // Le réseau a déjà un tome plus récent que ce que disent les sources : il est forcément paru
@@ -352,9 +387,16 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
   }
 
   // --- état
-  const totalVO = al && Number.isFinite(al.volumes) && al.volumes > 0 ? al.volumes : null;
+  // Nombre de tomes VO : la fiche Manga-News suit l'édition VO traduite (et donne le compte à jour
+  // des séries en cours) ; AniList en secours.
+  const totalVO = fiche && fiche.vo > 0 ? fiche.vo : al && Number.isFinite(al.volumes) && al.volumes > 0 ? al.volumes : null;
+  const etatVO = fiche?.voStatut ? etatMangaNews(fiche.voStatut) : al ? ({ FINISHED: "Terminée", RELEASING: "En cours", HIATUS: "En pause", CANCELLED: "Abandonnée", NOT_YET_RELEASED: "En cours" })[al.statut] || null : null;
   let etat = null, sourceEtat = null, aVenir = null, doute = false;
   if (man.etat) { etat = man.etat; sourceEtat = "manuel"; }
+  else if (etatFiche) {
+    etat = etatFiche; sourceEtat = "mangaNews";
+    if (etat !== "Terminée" && totalVO && parus !== null && totalVO > parus) aVenir = totalVO - parus;
+  }
   else if (al && al.statut) {
     sourceEtat = "anilist";
     if (al.statut === "FINISHED") {
@@ -382,7 +424,12 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
   if (serie.type === "One shot" && !etat) { etat = "Terminée"; sourceEtat = sourceEtat || "type"; }
   if (serie.type === "One shot" && parus === null) { parus = 1; sourceParus = sourceParus || "type"; }
 
-  return { parus, sourceParus, sourceEnRetard, etat, sourceEtat, totalVO, aVenir, doute, dateDernier: bnf?.dateDernier || null };
+  const pays = al?.pays || fiche?.pays || null;
+  // Prochain tome annoncé en France (date de sortie), s'il n'est pas déjà sorti depuis la lecture de la fiche
+  const prochain = fiche?.vfProchainDate && Date.parse(fiche.vfProchainDate) > maintenant
+    ? { tome: fiche.vfProchain || null, date: fiche.vfProchainDate } : null;
+  return { parus, sourceParus, sourceEnRetard, etat, sourceEtat, totalVO, etatVO, pays, aVenir, doute, prochain,
+    dateDernier: fiche?.vfDernierDate || bnf?.dateDernier || null };
 }
 
 /** Libellés repris de l'ancien Excel. */

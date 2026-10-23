@@ -309,8 +309,25 @@ def url_manga_news(serie: dict, mn: dict | None) -> str | None:
     return (mn or {}).get("url") or None
 
 
+RE_VOL = re.compile(r"/vol-(\d{1,3})\b")
+RE_DATE = re.compile(r"\b(\d{2})/(\d{2})/(\d{4})\b")
+PAYS_MN = {"japon": "JP", "coree": "KR", "coree du sud": "KR", "chine": "CN", "taiwan": "TW", "france": "FR"}
+
+
+def _bloc_volume(page: str, debut: str, fin: str | None) -> tuple[int | None, str | None]:
+    """Numéro de tome et date (AAAA-MM-JJ) d'un encadré « Dernier paru » ou « A paraître »."""
+    i = page.find(debut)
+    if i < 0:
+        return None, None
+    j = page.find(fin, i + len(debut)) if fin else -1
+    bloc = page[i: j if j > i else i + 2500]
+    v, d = RE_VOL.search(bloc), RE_DATE.search(bloc)
+    return (int(v.group(1)) if v else None), (f"{d.group(3)}-{d.group(2)}-{d.group(1)}" if d else None)
+
+
 def fiche_manga_news(url: str | None) -> dict | None:
-    """Lit la fiche d'une série sur Manga-News : « VF : 20 (Terminé) », « VO : 20 (Terminé) »."""
+    """Lit la fiche d'une série sur Manga-News : « VF : 20 (Terminé) », « VO : 20 (Terminé) »,
+    le dernier tome paru et le prochain annoncé."""
     global _dernier_mn
     if not url:
         return None
@@ -320,17 +337,34 @@ def fiche_manga_news(url: str | None) -> dict | None:
     _dernier_mn = time.time()
     import html as h
     page = http(url).decode("utf-8", errors="replace")
-    texte = re.sub(r"<script.*?</script>|<style.*?</style>", " ", page, flags=re.S)
-    texte = re.sub(r"\s+", " ", h.unescape(re.sub(r"<[^>]+>", " ", texte)))
+    page = h.unescape(re.sub(r"<script.*?</script>|<style.*?</style>", " ", page, flags=re.S))
+    texte = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page))
     vf, vo = RE_VF.search(texte), RE_VO.search(texte)
     if not vf and not vo:
         return {"url": url, "lu": False, "verifie": AUJOURDHUI.isoformat()}
-    return {
-        "url": url,
-        **({"vf": int(vf.group(1)), "vfStatut": vf.group(2).strip()} if vf else {}),
-        **({"vo": int(vo.group(1)), "voStatut": vo.group(2).strip()} if vo else {}),
-        "verifie": AUJOURDHUI.isoformat(),
-    }
+    r = {"url": url}
+    if vf:
+        r.update(vf=int(vf.group(1)), vfStatut=vf.group(2).strip())
+    if vo:
+        r.update(vo=int(vo.group(1)), voStatut=vo.group(2).strip())
+    n, d = _bloc_volume(page, "Dernier paru", "paraître")
+    if n:
+        r["vfDernier"] = n
+    if d:
+        r["vfDernierDate"] = d
+    n, d = _bloc_volume(page, "A paraître", "Acheter")
+    if d and d > AUJOURDHUI.isoformat():
+        r["vfProchainDate"] = d
+        if n:
+            r["vfProchain"] = n
+    o = re.search(r"Origine\s*:\s*([^\-:|]{3,30}?)\s*-\s*(\d{4})", texte)
+    if o:
+        pays = PAYS_MN.get(sans_accents(o.group(1)).strip().lower())
+        if pays:
+            r["pays"] = pays
+        r["annee"] = int(o.group(2))
+    r["verifie"] = AUJOURDHUI.isoformat()
+    return r
 
 
 def fiche_a_lire(e: dict, forcer: bool = False) -> bool:
@@ -339,6 +373,33 @@ def fiche_a_lire(e: dict, forcer: bool = False) -> bool:
         return True
     fini = "termin" in sans_accents(f.get("vfStatut") or "").lower()
     return age_jours(f.get("verifie")) >= (90 if fini else 6)
+
+def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> None:
+    """Met à jour e["mangaNewsFiche"] si c'est le moment ; une erreur ne fait pas perdre le reste."""
+    if not (debug or fiche_a_lire(e, forcer)):
+        return
+    url = url_manga_news(s, e.get("mangaNews"))
+    if not url:
+        return
+    try:
+        e["mangaNewsFiche"] = fiche_manga_news(url)
+    except Exception as ex:
+        print(f"  fiche Manga-News : {ex}", file=sys.stderr, flush=True)
+        if "404" not in str(ex) and "410" not in str(ex):
+            return
+        e["mangaNewsFiche"] = {"url": url, "lu": False, "verifie": AUJOURDHUI.isoformat()}
+        # La page indiquée (souvent reprise de l'ancien Excel) a disparu : on essaie celle du jeu de données
+        secours = (e.get("mangaNews") or {}).get("url")
+        if secours and secours != url and not (e.get("mangaNews") or {}).get("editeurDifferent"):
+            try:
+                f = fiche_manga_news(secours)
+                if f:
+                    f["secours"] = True
+                    e["mangaNewsFiche"] = f
+            except Exception as ex2:
+                print(f"  fiche Manga-News (secours) : {ex2}", file=sys.stderr, flush=True)
+    if debug:
+        dbg(f"    Fiche Manga-News lue : {e.get('mangaNewsFiche')}")
 
 # --------------------------------------------------------------------------- BnF
 
@@ -661,32 +722,31 @@ def main() -> int:
         al = e.get("anilist")
         termine = bool(al and al.get("statut") == "FINISHED")
         complet = termine and al.get("volumes") and (e.get("bnf") or {}).get("dernier") and e["bnf"]["dernier"] >= al["volumes"]
+        complet = complet or "termin" in sans_accents((e.get("mangaNewsFiche") or {}).get("vfStatut") or "").lower()
         auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
         if args.manga_news_seulement:
             if s.get("type") != "One shot":
                 e["mangaNews"] = tomes_manga_news(s, editeur, debug)
+                lire_fiche(s, e, args.forcer, debug)
                 cache[s["id"]] = e
                 faites += 1
+                if faites % 50 == 0:
+                    ecrire(chemin, cache)
             continue
         if args.verifier_auteurs:
             # Revérifie les liens AniList trouvés automatiquement, sans toucher à la BnF ni aux couvertures
             if lien or not auteur or s.get("type") == "One shot":
                 if s.get("type") != "One shot":
                     e["mangaNews"] = tomes_manga_news(s, editeur, debug)
-                    try:
-                        if fiche_a_lire(e):
-                            e["mangaNewsFiche"] = fiche_manga_news(url_manga_news(s, e.get("mangaNews")))
-                    except Exception as ex:
-                        print(f"  fiche Manga-News : {ex}", file=sys.stderr)
+                    lire_fiche(s, e, False, debug)
                     cache[s["id"]] = e
                 continue
             print(f"- {s['titre']}", flush=True)
             try:
                 e["anilist"] = chercher_anilist(s, auteur, debug)
                 e["mangaNews"] = tomes_manga_news(s, editeur, debug)
-                if fiche_a_lire(e):
-                    e["mangaNewsFiche"] = fiche_manga_news(url_manga_news(s, e.get("mangaNews")))
+                lire_fiche(s, e, False, debug)
                 e["anilistVerifie"] = AUJOURDHUI.isoformat()
                 cache[s["id"]] = e
                 faites += 1
@@ -728,10 +788,7 @@ def main() -> int:
                 e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
                 e["bnfVerifie"] = AUJOURDHUI.isoformat()
                 e["mangaNews"] = tomes_manga_news(s, editeur, debug)
-                if debug or fiche_a_lire(e, args.forcer):
-                    e["mangaNewsFiche"] = fiche_manga_news(url_manga_news(s, e.get("mangaNews")))
-                    if debug:
-                        dbg(f"    Fiche Manga-News lue : {e['mangaNewsFiche']}")
+                lire_fiche(s, e, args.forcer, debug)
             # Couverture française, une seule fois (puis tous les 6 mois si elle manque)
             if not debug and (args.forcer or not e.get("couvFR") and age_jours(e.get("couvEssai")) > 180
                               or e.get("couvFR") and not (DOSSIER_COUV / f"{s['id']}.jpg").exists()):
@@ -747,7 +804,6 @@ def main() -> int:
             if debug:
                 if e.get("bnf"):
                     tester_couvertures(e["bnf"])
-                tester_page_manga_news(e.get("mangaNews"))
                 dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1
