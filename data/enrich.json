@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T09:42:37Z",
+ "maj": "2026-10-23T10:57:25Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -321,13 +321,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 18,
-    "tomes": "5-18",
+    "tomes": "1-18",
     "dateDernier": "2017-07",
     "editeur": "Éditions Delcourt",
-    "notices": 14,
-    "autresEditeurs": [
-     "Delcourt-Akata"
-    ],
+    "notices": 18,
+    "autresEditeurs": [],
     "requete": "bib.title all \"alice in borderland\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -771,11 +769,9 @@
     "dernier": 13,
     "tomes": "1-13",
     "dateDernier": "2013",
-    "editeur": "Kazé",
-    "notices": 13,
-    "autresEditeurs": [
-     "Crunchyroll"
-    ],
+    "editeur": "Crunchyroll",
+    "notices": 14,
+    "autresEditeurs": [],
     "requete": "bib.title all \"arcane de aube\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -903,16 +899,16 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 17,
-    "tomes": "10,13-17",
+    "tomes": "1-17",
     "dateDernier": "2014-04",
     "editeur": "Delcourt",
-    "notices": 6,
+    "notices": 18,
     "autresEditeurs": [
      "Beta publisher",
      "Black coat press",
      "BoD-Books on demand",
-     "Delcourt-Akata",
-     "Ella Nabi"
+     "Ella Nabi",
+     "Guillaume Pérodeau"
     ],
     "requete": "bib.title all \"ascension\" and (bib.doctype=\"a\")"
    },
@@ -1461,14 +1457,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 8,
-    "tomes": "7-8",
-    "dateDernier": "2011-09",
+    "dernier": 11,
+    "tomes": "1-11",
+    "dateDernier": "2012-11",
     "editeur": "Kaze Manga",
-    "notices": 2,
-    "autresEditeurs": [
-     "Kazé"
-    ],
+    "notices": 13,
+    "autresEditeurs": [],
     "requete": "bib.title all \"beyblade metal fusion\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -1630,15 +1624,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 32,
-    "tomes": "1-32",
-    "dateDernier": "2022-10",
-    "editeur": "Kazé",
-    "notices": 39,
-    "autresEditeurs": [
-     "Crunchyroll",
-     "crunchyroll"
-    ],
+    "dernier": 36,
+    "tomes": "1-36",
+    "dateDernier": "2024-06",
+    "editeur": "Crunchyroll",
+    "notices": 43,
+    "autresEditeurs": [],
     "requete": "bib.title all \"black clover\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -1909,14 +1900,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 10,
-    "tomes": "1-10",
-    "dateDernier": "2025-11",
+    "dernier": 11,
+    "tomes": "1-11",
+    "dateDernier": "2026-08",
     "editeur": "Delcourt-Tonkam",
-    "notices": 10,
-    "autresEditeurs": [
-     "Delcourt"
-    ],
+    "notices": 11,
+    "autresEditeurs": [],
     "requete": "bib.title all \"blue box\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -2284,10 +2273,8 @@
     "tomes": "1-10",
     "dateDernier": "2020-08",
     "editeur": "Kana",
-    "notices": 13,
-    "autresEditeurs": [
-     "Dargaud Bénélux-Kana"
-    ],
+    "notices": 18,
+    "autresEditeurs": [],
     "requete": "bib.title all \"capitaine albator\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -2603,15 +2590,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 11,
-    "tomes": "1-11",
-    "dateDernier": "2021-11",
+    "dernier": 22,
+    "tomes": "1-22",
+    "dateDernier": "2026-07",
     "editeur": "Kazé",
-    "notices": 11,
-    "autresEditeurs": [
-     "Crunchyroll",
-     "crunchyroll"
-    ],
+    "notices": 27,
+    "autresEditeurs": [],
     "requete": "bib.title all \"chainsaw man\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -2794,10 +2778,9 @@
     "tomes": "1-12",
     "dateDernier": "2017-06",
     "editeur": "Glénat",
-    "notices": 56,
+    "notices": 57,
     "autresEditeurs": [
-     "France loisirs",
-     "Glénat jeunesse"
+     "France loisirs"
     ],
     "plusieursEditions": true,
     "requete": "bib.title all \"chi une vie de chat\" and (bib.doctype=\"a\")"
@@ -3764,13 +3747,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 12,
-    "tomes": "1-4,6-12",
+    "tomes": "1-12",
     "dateDernier": "2026-08",
     "editeur": "Mangetsu",
-    "notices": 11,
-    "autresEditeurs": [
-     "Bragelonne-Mangetsu"
-    ],
+    "notices": 12,
+    "autresEditeurs": [],
     "requete": "bib.title all \"deep 3\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -3844,10 +3825,8 @@
     "tomes": "1-23",
     "dateDernier": "2022-11",
     "editeur": "Panini manga",
-    "notices": 53,
-    "autresEditeurs": [
-     "Panini France"
-    ],
+    "notices": 58,
+    "autresEditeurs": [],
     "requete": "bib.title all \"demon slayer\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -3879,10 +3858,8 @@
     "tomes": "1-23",
     "dateDernier": "2022-11",
     "editeur": "Panini manga",
-    "notices": 46,
-    "autresEditeurs": [
-     "Panini France"
-    ],
+    "notices": 50,
+    "autresEditeurs": [],
     "requete": "bib.title all \"demon slayer kimetsu no yaiba\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -3986,15 +3963,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 51,
-    "tomes": "6,8-9,27-28,31-47,49-51",
-    "dateDernier": "2006-07",
+    "dernier": 107,
+    "tomes": "1-14,17-24,26-85,88-107",
+    "dateDernier": "2026-10",
     "editeur": "Dargaud-Lombard Kana",
-    "notices": 25,
+    "notices": 105,
     "autresEditeurs": [
-     "Dargaud Bénélux-Kana",
-     "Dargaud-Bénélux-Kana",
-     "Kana",
      "[Paris]"
     ],
     "requete": "bib.title all \"detective conan\" and (bib.doctype=\"a\")"
@@ -4087,13 +4061,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 45,
-    "tomes": "5-32,35-45",
+    "tomes": "1-32,35-45",
     "dateDernier": "2018-11",
     "editeur": "Kana",
-    "notices": 39,
-    "autresEditeurs": [
-     "Kana-Dargaud-Lombard"
-    ],
+    "notices": 43,
+    "autresEditeurs": [],
     "requete": "bib.title all \"doraemon\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -5016,16 +4988,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 36,
-    "tomes": "27-36",
+    "tomes": "1-36",
     "dateDernier": "2020-10",
     "editeur": "Delcourt-Tonkam",
-    "notices": 10,
-    "autresEditeurs": [
-     "Delcourt",
-     "Tonkam",
-     "Éditions Delcourt",
-     "Éditions Tonkam"
-    ],
+    "notices": 44,
+    "autresEditeurs": [],
     "requete": "bib.title all \"food wars\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -5149,14 +5116,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 12,
-    "tomes": "1-12",
-    "dateDernier": "2018-10",
+    "dernier": 23,
+    "tomes": "1-23",
+    "dateDernier": "2007-10",
     "editeur": "Delcourt-Tonkam",
-    "notices": 12,
+    "notices": 38,
     "autresEditeurs": [
-     "Delcourt",
-     "Delcourt-Akata",
      "Éd. France loisirs"
     ],
     "requete": "bib.title all \"fruits basket\" and (bib.doctype=\"a\")"
@@ -5622,13 +5587,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 30,
-    "tomes": "1-26,29-30",
+    "tomes": "1-30",
     "dateDernier": "2014-03",
     "editeur": "Casterman",
-    "notices": 59,
-    "autresEditeurs": [
-     "Sakka"
-    ],
+    "notices": 61,
+    "autresEditeurs": [],
     "requete": "bib.title all \"habitant de infini\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -5665,15 +5628,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 1,
-    "tomes": "1",
-    "dateDernier": "2014",
-    "editeur": "Kaze Manga",
-    "notices": 1,
-    "autresEditeurs": [
-     "Crunchyroll",
-     "Kazé"
-    ],
+    "dernier": 16,
+    "tomes": "1,11-12,14,16",
+    "dateDernier": "2026-10",
+    "editeur": "Crunchyroll",
+    "notices": 6,
+    "autresEditeurs": [],
     "requete": "bib.title all \"haikyu les as du volley\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -5739,16 +5699,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 20,
-    "tomes": "10-20",
-    "dateDernier": "2022",
+    "dernier": 23,
+    "tomes": "1-23",
+    "dateDernier": "2006-08",
     "editeur": "Delcourt-Tonkam",
-    "notices": 11,
-    "autresEditeurs": [
-     "Tonkam",
-     "Éd. Tonkam",
-     "Éditions Tonkam"
-    ],
+    "notices": 45,
+    "autresEditeurs": [],
     "requete": "bib.title all \"hikaru no go\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -5859,14 +5815,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 4,
-    "tomes": "2-4",
-    "dateDernier": "2011-03",
+    "dernier": 9,
+    "tomes": "1-9",
+    "dateDernier": "2013",
     "editeur": "Delcourt jeunesse",
-    "notices": 3,
-    "autresEditeurs": [
-     "Delcourt"
-    ],
+    "notices": 9,
+    "autresEditeurs": [],
     "requete": "bib.title all \"horseland\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -5894,13 +5848,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 21,
-    "tomes": "1-5,7,9-10,13-21",
-    "dateDernier": "2006-03",
-    "editeur": "Dargaud Bénélux-Kana",
-    "notices": 17,
+    "dernier": 38,
+    "tomes": "1-5,7,9-11,13-38",
+    "dateDernier": "2025-08",
+    "editeur": "Kana",
+    "notices": 35,
     "autresEditeurs": [
-     "Kana",
      "Third éditions"
     ],
     "requete": "bib.title all \"hunter hunter\" and (bib.doctype=\"a\")"
@@ -6128,12 +6081,11 @@
    "bnf": {
     "dernier": 1,
     "tomes": "1",
-    "dateDernier": "2015-03",
+    "dateDernier": "2017-05",
     "editeur": "Delcourt",
-    "notices": 9,
+    "notices": 21,
     "autresEditeurs": [
      "Aurélie Genêt",
-     "Delcourt-Tonkam",
      "Le Passeur Éditeur",
      "MxM Bookmark",
      "Vent terral"
@@ -6563,10 +6515,8 @@
     "tomes": "1",
     "dateDernier": "2014-11",
     "editeur": "Ki-oon kids",
-    "notices": 3,
-    "autresEditeurs": [
-     "Ki-oon"
-    ],
+    "notices": 4,
+    "autresEditeurs": [],
     "plusieursEditions": true,
     "requete": "bib.title all \"kamisama\" and (bib.doctype=\"a\")"
    },
@@ -6772,13 +6722,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 15,
-    "tomes": "1-5,7,9-15",
+    "tomes": "1-15",
     "dateDernier": "2020-07",
     "editeur": "Panini manga",
-    "notices": 13,
-    "autresEditeurs": [
-     "Panini France"
-    ],
+    "notices": 15,
+    "autresEditeurs": [],
     "requete": "bib.title all \"koko debut\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -7305,13 +7253,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 10,
-    "tomes": "4-10",
+    "tomes": "1-10",
     "dateDernier": "2016-11",
     "editeur": "Ki-oon kids",
-    "notices": 7,
-    "autresEditeurs": [
-     "Ki-oon"
-    ],
+    "notices": 10,
+    "autresEditeurs": [],
     "requete": "bib.title all \"lucika lucika\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -7772,14 +7718,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 7,
-    "tomes": "1-7",
-    "dateDernier": "2006-06",
-    "editeur": "Dargaud Bénélux-Kana",
-    "notices": 7,
-    "autresEditeurs": [
-     "Kana"
-    ],
+    "dernier": 15,
+    "tomes": "1-15",
+    "dateDernier": "2007-12",
+    "editeur": "Kana",
+    "notices": 15,
+    "autresEditeurs": [],
     "requete": "bib.title all \"mar\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -7837,13 +7781,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 18,
-    "tomes": "11-18",
+    "tomes": "1-18",
     "dateDernier": "2024-03",
     "editeur": "Crunchyroll",
-    "notices": 8,
-    "autresEditeurs": [
-     "Kazé"
-    ],
+    "notices": 19,
+    "autresEditeurs": [],
     "requete": "bib.title all \"mashle\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -8294,12 +8236,10 @@
     "dernier": 18,
     "tomes": "1-18",
     "dateDernier": "2005-01",
-    "editeur": "Dargaud Bénélux-Kana",
-    "notices": 18,
+    "editeur": "Kana",
+    "notices": 29,
     "autresEditeurs": [
-     "Big Kana",
      "Jessica Chaumeil",
-     "Kana",
      "Pocket jeunesse-PKJ",
      "Éditions Alter real"
     ],
@@ -8586,10 +8526,9 @@
     "tomes": "1-42",
     "dateDernier": "2025-08",
     "editeur": "Ki-oon",
-    "notices": 52,
+    "notices": 57,
     "autresEditeurs": [
-     "Hachette jeunesse",
-     "Ki-oon roman"
+     "Hachette jeunesse"
     ],
     "requete": "bib.title all \"my hero academia\" and (bib.doctype=\"a\")"
    },
@@ -8630,16 +8569,16 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 21,
-    "tomes": "1,4-13,15-16,18-21",
+    "tomes": "1-13,15-21",
     "dateDernier": "2009-10",
     "editeur": "Delcourt-Akata",
-    "notices": 18,
+    "notices": 23,
     "autresEditeurs": [
      "BoD-Books on demand",
      "Cercle européen du livre",
-     "Delcourt",
      "EDDL",
-     "Edito-Service"
+     "Edito-Service",
+     "Edito-service"
     ],
     "requete": "bib.title all \"nana\" and (bib.doctype=\"a\")"
    },
@@ -8695,16 +8634,15 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 22,
-    "tomes": "1-19,21-22",
-    "dateDernier": "2006-02",
-    "editeur": "Dargaud Bénélux-Kana",
-    "notices": 21,
+    "dernier": 72,
+    "tomes": "1-72",
+    "dateDernier": "2016-12",
+    "editeur": "Kana",
+    "notices": 119,
     "autresEditeurs": [
      "Hachette",
      "Hachette collections",
      "Hachette jeunesse",
-     "Kana",
      "Éd. France loisirs"
     ],
     "requete": "bib.title all \"naruto\" and (bib.doctype=\"a\")"
@@ -9470,9 +9408,8 @@
     "tomes": "1-8",
     "dateDernier": "2008-06",
     "editeur": "Delcourt",
-    "notices": 8,
+    "notices": 12,
     "autresEditeurs": [
-     "Delcourt-Tonkam",
      "Éd. France loisirs",
      "Éditions France loisirs"
     ],
@@ -9504,16 +9441,16 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 4,
-    "tomes": "1-2,4",
+    "tomes": "1-4",
     "dateDernier": "2005-04",
     "editeur": "Génération comics-Panini France",
-    "notices": 3,
+    "notices": 10,
     "autresEditeurs": [
      "",
      "Caractères",
      "Gamma",
      "Nathan",
-     "Panini comics"
+     "Play Bac"
     ],
     "requete": "bib.title all \"planetes\" and (bib.doctype=\"a\")"
    },
@@ -9873,14 +9810,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 8,
-    "tomes": "1-8",
-    "dateDernier": "2011-05",
+    "dernier": 10,
+    "tomes": "1-10",
+    "dateDernier": "2011",
     "editeur": "Big Kana",
-    "notices": 8,
-    "autresEditeurs": [
-     "Kana"
-    ],
+    "notices": 10,
+    "autresEditeurs": [],
     "requete": "bib.title all \"professeur eiji\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -10675,14 +10610,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 6,
-    "tomes": "1-6",
-    "dateDernier": "2013",
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2014-06",
     "editeur": "Delcourt-Akata",
-    "notices": 6,
-    "autresEditeurs": [
-     "Delcourt"
-    ],
+    "notices": 8,
+    "autresEditeurs": [],
     "requete": "bib.title all \"secrets de lea\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -11385,15 +11318,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 1,
-    "tomes": "1",
-    "dateDernier": "2021-11",
-    "editeur": "Kana-Made in",
-    "notices": 1,
-    "autresEditeurs": [
-     "Dargaud Bénélux-Made in Japan",
-     "Kana"
-    ],
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2010",
+    "editeur": "Dargaud Bénélux-Made in Japan",
+    "notices": 11,
+    "autresEditeurs": [],
     "requete": "bib.title all \"sommet des dieux\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -11533,7 +11463,7 @@
     "tomes": "1-8",
     "dateDernier": "2022-03",
     "editeur": "Panini France",
-    "notices": 12,
+    "notices": 77,
     "autresEditeurs": [
      "Bethy",
      "Hachette Jeunesse",
@@ -11684,15 +11614,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 14,
-    "tomes": "1-6,8-9,11-14",
-    "dateDernier": "2015-03",
-    "editeur": "Éd. Tonkam",
-    "notices": 12,
-    "autresEditeurs": [
-     "Delcourt",
-     "Éditions Delcourt"
-    ],
+    "dernier": 24,
+    "tomes": "1-9,11-24",
+    "dateDernier": "2016-10",
+    "editeur": "Éditions Delcourt",
+    "notices": 23,
+    "autresEditeurs": [],
     "requete": "bib.title all \"steel ball run\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -11991,15 +11918,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 22,
-    "tomes": "1-5,7-22",
-    "dateDernier": "2019-03",
+    "dernier": 23,
+    "tomes": "1-23",
+    "dateDernier": "2025-07",
     "editeur": "Kazé",
-    "notices": 22,
-    "autresEditeurs": [
-     "Crunchyroll",
-     "Kaze Manga"
-    ],
+    "notices": 24,
+    "autresEditeurs": [],
     "requete": "bib.title all \"terra formars\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -12283,10 +12207,8 @@
     "tomes": "1-20",
     "dateDernier": "2021-06",
     "editeur": "Kazé",
-    "notices": 32,
-    "autresEditeurs": [
-     "Crunchyroll"
-    ],
+    "notices": 41,
+    "autresEditeurs": [],
     "requete": "bib.title all \"the promised neverland\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -12478,9 +12400,8 @@
     "tomes": "1-6",
     "dateDernier": "2013-11",
     "editeur": "Casterman",
-    "notices": 8,
+    "notices": 9,
     "autresEditeurs": [
-     "Sakka",
      "Éd. France loisirs"
     ],
     "requete": "bib.title all \"thermae romae\" and (bib.doctype=\"a\")"
@@ -13043,13 +12964,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 4,
-    "tomes": "2-4",
+    "tomes": "1-4",
     "dateDernier": "2024-12",
     "editeur": "Delcourt-Tonkam",
-    "notices": 3,
-    "autresEditeurs": [
-     "Delcourt"
-    ],
+    "notices": 4,
+    "autresEditeurs": [],
     "requete": "bib.title all \"un second au revoir\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -13103,15 +13022,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 5,
-    "tomes": "1-5",
-    "dateDernier": "2022-11",
+    "dernier": 11,
+    "tomes": "1-11",
+    "dateDernier": "2011-08",
     "editeur": "Delcourt-Tonkam",
-    "notices": 5,
-    "autresEditeurs": [
-     "Delcourt",
-     "Delcourt-Akata"
-    ],
+    "notices": 16,
+    "autresEditeurs": [],
     "requete": "bib.title all \"une sacree mamie\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -13549,14 +13465,12 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 16,
-    "tomes": "1-16",
-    "dateDernier": "2017-12",
+    "dernier": 27,
+    "tomes": "1-27",
+    "dateDernier": "2021-11",
     "editeur": "Delcourt",
-    "notices": 16,
-    "autresEditeurs": [
-     "Delcourt-Tonkam"
-    ],
+    "notices": 27,
+    "autresEditeurs": [],
     "requete": "bib.title all \"yamada kun the 7 witches\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
@@ -13615,13 +13529,12 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 23,
-    "tomes": "21-23",
+    "tomes": "1-23",
     "dateDernier": "2024-02",
     "editeur": "Crunchyroll",
-    "notices": 3,
+    "notices": 24,
     "autresEditeurs": [
-     "Hachette jeunesse",
-     "Kazé"
+     "Hachette jeunesse"
     ],
     "requete": "bib.title all \"yo kai watch\" and (bib.doctype=\"a\")"
    },
@@ -13778,12 +13691,11 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 38,
-    "tomes": "1-3,6-12,14,16-38",
+    "tomes": "1-3,6-38",
     "dateDernier": "2005-12",
     "editeur": "Dargaud Bénélux-Kana",
-    "notices": 34,
+    "notices": 54,
     "autresEditeurs": [
-     "Kana",
      "[Paris]",
      "Éd. France loisirs"
     ],
@@ -13841,14 +13753,12 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 6,
-    "tomes": "1-6",
-    "dateDernier": "2021-08",
+    "dernier": 11,
+    "tomes": "1-11",
+    "dateDernier": "2022-10",
     "editeur": "Vega",
-    "notices": 7,
-    "autresEditeurs": [
-     "Vega-Dupuis"
-    ],
+    "notices": 12,
+    "autresEditeurs": [],
     "requete": "bib.title all \"zozo zombie\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
