@@ -286,7 +286,10 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
             editeur = premier(f, "214", "c") or premier(f, "210", "c")
             annee = numero_annee(premier(f, "214", "d") or premier(f, "210", "d"))
             creee = premier(f, "100", "a")[:8]
-            tomes.append({"n": num, "editeur": editeur, "annee": annee, "creee": creee})
+            ark = next((m.group(0) for el in rd.iter() if sans_ns(el.tag) == "controlfield" and el.get("tag") == "003"
+                        for m in [re.search(r"ark:/12148/[a-z0-9]+", el.text or "")] if m), None)
+            isbn = re.sub(r"[^0-9Xx]", "", premier(f, "010", "a")) or None
+            tomes.append({"n": num, "editeur": editeur, "annee": annee, "creee": creee, "ark": ark, "isbn": isbn})
             if debug:
                 dbg(f"      t{num} | {titre} | {serie_t} | {editeur} | {annee} | {creee}")
         debut += 100
@@ -318,6 +321,9 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         dernier, plusieurs_editions = volumes_vo, True
         nums = [n for n in nums if n <= volumes_vo]
     rec_dernier = max((t for t in g if t["n"] == dernier), key=lambda t: t["creee"] or "")
+    # Tome 1 de l'édition retenue (la plus récente s'il y a eu une réédition), pour la couverture
+    premiers = [t for t in g if t["n"] == nums[0] and (t["ark"] or t["isbn"])]
+    t1 = max(premiers, key=lambda t: t["creee"] or "") if premiers else None
     date = None
     if rec_dernier["creee"] and len(rec_dernier["creee"]) == 8:
         a, m = rec_dernier["creee"][:4], rec_dernier["creee"][4:6]
@@ -332,8 +338,34 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         "notices": len(g),
         "autresEditeurs": sorted({t["editeur"] for k, v in groupes.items() if k != choix for t in v})[:5],
         **({"plusieursEditions": True} if plusieurs_editions else {}),
+        **({"ark1": t1["ark"], "isbn1": t1["isbn"]} if t1 else {}),
         "requete": requete,
     }
+
+
+def tester_couvertures(bnf: dict) -> None:
+    """Mode test : essaie plusieurs sources de couverture pour le tome 1 et affiche le résultat."""
+    ark, isbn = bnf.get("ark1"), bnf.get("isbn1")
+    dbg(f"    Couvertures : ark={ark} isbn={isbn}")
+    essais = []
+    if ark:
+        essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={ark}&couverture=1"))
+    if isbn:
+        essais.append(("OpenLibrary", f"https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg?default=false"))
+        essais.append(("GoogleBooks", f"https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}"))
+    for nom, url in essais:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                corps = r.read()
+                info = f"{r.status} {r.headers.get('Content-Type')} {len(corps)} octets"
+                if nom == "GoogleBooks":
+                    items = json.loads(corps).get("items") or []
+                    liens = [(i.get("volumeInfo") or {}).get("imageLinks") for i in items]
+                    info += f" items={len(items)} images={liens[:1]}"
+                dbg(f"      {nom}: {info} <- {url}")
+        except Exception as ex:
+            dbg(f"      {nom}: ÉCHEC {ex} <- {url}")
 
 
 def numero_annee(s: str) -> int | None:
@@ -437,6 +469,8 @@ def main() -> int:
             cache[s["id"]] = e
             faites += 1
             if debug:
+                if e.get("bnf"):
+                    tester_couvertures(e["bnf"])
                 dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1
