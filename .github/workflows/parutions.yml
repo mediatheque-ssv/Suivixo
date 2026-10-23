@@ -21,6 +21,10 @@ on:
         description: "Refaire seulement la BnF (plus rapide, garde AniList)"
         type: boolean
         default: false
+      verifier_auteurs:
+        description: "Revérifier les liens AniList automatiques avec l'auteur d'Orphée"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -49,12 +53,14 @@ jobs:
           LIMITE: ${{ inputs.limite }}
           FORCER: ${{ inputs.forcer }}
           BNF: ${{ inputs.bnf_seulement }}
+          AUTEURS: ${{ inputs.verifier_auteurs }}
         run: |
           ARGS="--max-minutes 120"
           [ -n "$SERIE" ] && ARGS="$ARGS --serie $SERIE"
           [ -n "$LIMITE" ] && ARGS="$ARGS --limite $LIMITE"
           [ "$FORCER" = "true" ] && ARGS="$ARGS --forcer"
           [ "$BNF" = "true" ] && ARGS="$ARGS --bnf-seulement"
+          [ "$AUTEURS" = "true" ] && ARGS="$ARGS --verifier-auteurs"
           python scripts/enrich.py $ARGS
 
       - name: Enregistrer les résultats

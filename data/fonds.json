@@ -22,7 +22,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kiritomo Masaki"
   },
   "5-minutes-forward": {
    "titreOrphee": "5 minutes forward",
@@ -31,7 +32,8 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Fukuda Hiroshi"
   },
   "a-l-image-de-mona-lisa": {
    "titreOrphee": "A l'image de Mona Lisa",
@@ -49,7 +51,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Yoshimura Tsumuji"
   },
   "a-silent-voice": {
    "titreOrphee": "A silent voice",
@@ -83,7 +86,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Oima Yoshitoki"
   },
   "aether-dreams": {
    "titreOrphee": "Aether dreams",
@@ -92,7 +96,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Deterra Hayden",
+   "webtoon": true
   },
   "agents-of-the-four-seasons-la-danse-du-printemps": {
    "titreOrphee": "Agents of the Four Seasons - La danse du printemps",
@@ -101,7 +107,8 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Akatsuki Kana"
   },
   "alice-in-borderland": {
    "titreOrphee": "Alice in Borderland",
@@ -124,7 +131,8 @@
      14,
      15
     ]
-   }
+   },
+   "auteur": "Asô Haro"
   },
   "all-out": {
    "titreOrphee": "All Out!!",
@@ -147,7 +155,8 @@
      15,
      17
     ]
-   }
+   },
+   "auteur": "Amase Shiori"
   },
   "all-you-need-is-kill": {
    "titreOrphee": "All you need is kill",
@@ -157,7 +166,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Sakurazaka Hiroshi"
   },
   "amatsuki": {
    "titreOrphee": "Amatsuki",
@@ -166,12 +176,14 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Takayama Shinobu"
   },
   "amer-beton": {
    "titreOrphee": "Amer Béton",
    "editeur": "Tonkam",
-   "tomes": {}
+   "tomes": {},
+   "auteur": "Matsumoto Taiyô"
   },
   "amour-sucre": {
    "titreOrphee": "Amour sucré",
@@ -180,7 +192,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "ChinoMiko"
   },
   "ao-ashi-playmaker": {
    "titreOrphee": "Ao Ashi playmaker",
@@ -218,7 +231,8 @@
      29,
      30
     ]
-   }
+   },
+   "auteur": "Kobayashi Yûgo"
   },
   "apres-la-pluie": {
    "titreOrphee": "Après la pluie",
@@ -240,7 +254,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Mayuzuki Jun"
   },
   "aria-the-masterpiece": {
    "titreOrphee": "Aria The Masterpiece",
@@ -250,7 +265,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Amano Kozue"
   },
   "aromantic-love-story": {
    "titreOrphee": "Aromantic (love) story",
@@ -263,7 +279,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Ono Haruka"
   },
   "asadora": {
    "titreOrphee": "Asadora!",
@@ -280,7 +297,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Urasawa Naoki"
   },
   "ascension": {
    "titreOrphee": "Ascension",
@@ -304,7 +322,8 @@
      16,
      17
     ]
-   }
+   },
+   "auteur": "Sakamoto Shin'ichi"
   },
   "assassination-classroom": {
    "titreOrphee": "Assassination classroom",
@@ -339,7 +358,8 @@
      "statut": "Perdu",
      "cote": "MA  ASS"
     }
-   ]
+   ],
+   "auteur": "Matsui Yusei"
   },
   "assassination-classroom-2": {
    "titreOrphee": "Assassination classroom 2",
@@ -354,7 +374,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Matsui Yusei"
   },
   "astra-lost-in-space": {
    "titreOrphee": "Astra : lost in space",
@@ -374,7 +395,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Shinohara Kenta"
   },
   "au-bout-du-chemin": {
    "titreOrphee": "Au bout du chemin",
@@ -384,7 +406,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Momoyamahato"
   },
   "baby": {
    "titreOrphee": "Baby",
@@ -393,7 +416,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Chang Sheng"
   },
   "bakuman": {
    "titreOrphee": "Bakuman",
@@ -435,7 +459,8 @@
     "Domloup": [
      6
     ]
-   }
+   },
+   "auteur": "Oba Tsugumi"
   },
   "banana-sioule": {
    "titreOrphee": "Banana sioule",
@@ -446,7 +471,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Sanlaville Michaël"
   },
   "basara": {
    "titreOrphee": "Basara",
@@ -456,7 +482,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tamura Yumi"
   },
   "battle-game-in-5-seconds": {
    "titreOrphee": "Battle game in 5 seconds",
@@ -490,7 +517,8 @@
      25,
      26
     ]
-   }
+   },
+   "auteur": "Harawata Saizou"
   },
   "bd-entre-ciel-et-terre": {
    "titreOrphee": "BD Entre ciel et terre",
@@ -500,7 +528,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Zhao Golo"
   },
   "be-blues": {
    "titreOrphee": "Be Blues!",
@@ -513,7 +542,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Tanaka Motoyuki"
   },
   "bienvenue-au-club": {
    "titreOrphee": "Bienvenue au club",
@@ -529,7 +559,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Asada Nikki"
   },
   "black-butler": {
    "titreOrphee": "Black Butler",
@@ -550,7 +581,8 @@
      "statut": "Hors service",
      "cote": "BDM TOB t1"
     }
-   ]
+   ],
+   "auteur": "Toboso Yana"
   },
   "black-torch": {
    "titreOrphee": "Black torch",
@@ -563,7 +595,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Takaki Tsuyoshi"
   },
   "bleach": {
    "titreOrphee": "Bleach",
@@ -663,7 +696,8 @@
      73,
      74
     ]
-   }
+   },
+   "auteur": "Kubo Taito"
   },
   "blissful-land": {
    "titreOrphee": "Blissful Land",
@@ -676,7 +710,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Izumi Ichimon"
   },
   "blood-lad": {
    "titreOrphee": "Blood lad",
@@ -701,7 +736,8 @@
      16,
      17
     ]
-   }
+   },
+   "auteur": "Kodama Yuki"
   },
   "bloody-cross": {
    "titreOrphee": "Bloody Cross",
@@ -711,7 +747,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Komeyama Shio"
   },
   "bloom-into-you": {
    "titreOrphee": "Bloom into you",
@@ -727,7 +764,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Nakatani Nio"
   },
   "blue-flag": {
    "titreOrphee": "Blue flag",
@@ -743,7 +781,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Kaito"
   },
   "tenor-saxophone-miyamoto-dai-blue-giant": {
    "titreOrphee": "Tenor saxophone, Miyamoto Dai",
@@ -754,7 +793,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Ishizuka Shin'ichi"
   },
   "blue-period": {
    "titreOrphee": "Blue period",
@@ -780,7 +820,8 @@
      17,
      18
     ]
-   }
+   },
+   "auteur": "Yamaguchi Tsubasa"
   },
   "blue-spring-ride": {
    "titreOrphee": "Blue Spring Ride",
@@ -801,7 +842,8 @@
      12,
      13
     ]
-   }
+   },
+   "auteur": "Sakisaka Io"
   },
   "blue-summer": {
    "titreOrphee": "Blue summer",
@@ -812,7 +854,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Furuya Nagisa"
   },
   "bride-stories": {
    "titreOrphee": "Bride stories",
@@ -858,7 +901,8 @@
      "statut": "Perdu",
      "cote": "BD MOR T1"
     }
-   ]
+   ],
+   "auteur": "Mori Kaoru"
   },
   "brigade-d-outre-tombe": {
    "titreOrphee": "Brigade d'outre-tombe",
@@ -868,7 +912,8 @@
      1,
      3
     ]
-   }
+   },
+   "auteur": "Machida Tetsuya"
   },
   "capitaine-albator": {
    "titreOrphee": "Capitaine Albator",
@@ -878,7 +923,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Matsumoto Reiji"
   },
   "cat-s-ai": {
    "titreOrphee": "Cat's Aï",
@@ -892,7 +938,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Asai Shin"
   },
   "chacun-ses-gouts": {
    "titreOrphee": "Chacun ses goûts",
@@ -906,7 +953,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Machita"
   },
   "chainsaw-man": {
    "titreOrphee": "Chainsaw Man",
@@ -917,7 +965,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Fujimoto Tatsuki"
   },
   "chasse-au-cadavre": {
    "titreOrphee": "Chasse au cadavre",
@@ -929,7 +978,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Yamazaki Housui"
   },
   "chocola-vanilla-sugar-sugar-rune": {
    "titreOrphee": "Chocola & Vanilla",
@@ -984,7 +1034,8 @@
      "statut": "À pilonner",
      "cote": "BD ANNO"
     }
-   ]
+   ],
+   "auteur": "An'no Moyoko"
   },
   "chocolate-cosmos": {
    "titreOrphee": "Chocolate cosmos",
@@ -996,7 +1047,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Haruta Nana"
   },
   "chroniques-de-la-mariee-de-bretagne": {
    "titreOrphee": "Chroniques de la mariée de Bretagne",
@@ -1010,7 +1062,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Takehara Junji"
   },
   "chronoctis-express": {
    "titreOrphee": "Chronoctis express",
@@ -1021,7 +1074,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Aerinn"
   },
   "cicatrices": {
    "titreOrphee": "Cicatrices",
@@ -1032,7 +1086,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Arias Brandon"
   },
   "city-hall": {
    "titreOrphee": "City Hall",
@@ -1059,7 +1114,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Guerin Rémi"
   },
   "classroom-of-the-elite": {
    "titreOrphee": "Classroom of the elite",
@@ -1070,7 +1126,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kinugasa Syougo"
   },
   "colocataires-a-leur-maniere": {
    "titreOrphee": "Colocataires à leur manière",
@@ -1089,7 +1146,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Minatsuki"
   },
   "comme-les-autres": {
    "titreOrphee": "Comme les autres",
@@ -1104,7 +1162,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Yuki Nojin"
   },
   "country-diary": {
    "titreOrphee": "Country diary",
@@ -1113,7 +1172,8 @@
     "Domloup": [
      1
     ]
-   }
+   },
+   "auteur": "Isino Aya"
   },
   "crows": {
    "titreOrphee": "Crows",
@@ -1125,7 +1185,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Takahashi Hiroshi"
   },
   "cursed-princess-club": {
    "titreOrphee": "Cursed princess club",
@@ -1135,7 +1196,9 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "LambCat",
+   "webtoon": true
   },
   "daisy": {
    "titreOrphee": "Daisy",
@@ -1145,7 +1208,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Momochi Reiko"
   },
   "dandadan": {
    "titreOrphee": "Dandadan",
@@ -1166,7 +1230,8 @@
      12,
      13
     ]
-   }
+   },
+   "auteur": "Tatsu Yukinobu"
   },
   "dark-souls-redemption": {
    "titreOrphee": "Dark Souls Redemption",
@@ -1176,7 +1241,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Blondel Julien"
   },
   "darwin-s-game": {
    "titreOrphee": "Darwin's game",
@@ -1214,7 +1280,8 @@
      29,
      30
     ]
-   }
+   },
+   "auteur": "Flipflops"
   },
   "death-note": {
    "titreOrphee": "Death note",
@@ -1264,7 +1331,8 @@
      12,
      13
     ]
-   }
+   },
+   "auteur": "Oba Tsugumi"
   },
   "death-note-black-edition": {
    "titreOrphee": "Death note - black edition",
@@ -1278,7 +1346,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Oba Tsugumi"
   },
   "demon-tune": {
    "titreOrphee": "Demon tune",
@@ -1290,7 +1359,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Kodama Yuki"
   },
   "desert-9": {
    "titreOrphee": "Desert 9",
@@ -1305,7 +1375,8 @@
     "Chateaugiron": [
      2
     ]
-   }
+   },
+   "auteur": "Deguchi Kei"
   },
   "detective-conan": {
    "titreOrphee": "Détective Conan",
@@ -1338,7 +1409,8 @@
      65,
      66
     ]
-   }
+   },
+   "auteur": "Aoyama Gosho"
   },
   "dreamaker": {
    "titreOrphee": "DreaMaker",
@@ -1348,7 +1420,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Zilo"
   },
   "dreamland": {
    "titreOrphee": "Dreamland",
@@ -1360,7 +1433,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Lemaire Reno"
   },
   "durarara": {
    "titreOrphee": "Durarara !!",
@@ -1375,7 +1449,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Narita Ryohgo"
   },
   "edens-zero": {
    "titreOrphee": "Edens Zero",
@@ -1424,7 +1499,8 @@
      32,
      33
     ]
-   }
+   },
+   "auteur": "Mashima Hiro"
   },
   "elden-ring-le-chemin-vers-l-arbre-monde": {
    "titreOrphee": "Elden Ring : Le chemin vers l'Arbre-Monde",
@@ -1442,7 +1518,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Tobita Nikiichi"
   },
   "en-selle-sakamichi": {
    "titreOrphee": "En selle, Sakamichi !",
@@ -1455,7 +1532,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Watanabe Wataru"
   },
   "enfant-des-abysses": {
    "titreOrphee": "Enfant des abysses",
@@ -1476,7 +1554,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Eruthoth"
   },
   "entre-deux": {
    "titreOrphee": "Entre deux",
@@ -1486,7 +1565,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kujira"
   },
   "erio-the-electric-doll": {
    "titreOrphee": "Erio & The Electric Doll",
@@ -1495,7 +1575,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Shimazaki Mujirushi"
   },
   "et-plus-si-affinites": {
    "titreOrphee": "Et plus si affinités ?",
@@ -1505,7 +1586,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Hatta Akari"
   },
   "eyeshield-21": {
    "titreOrphee": "Eyeshield 21",
@@ -1546,7 +1628,8 @@
      26,
      27
     ]
-   }
+   },
+   "auteur": "Inagaki Riichiro"
   },
   "fairy-tail": {
    "titreOrphee": "Fairy Tail",
@@ -1655,7 +1738,8 @@
      18,
      30
     ]
-   }
+   },
+   "auteur": "Mashima Hiro"
   },
   "fall-in-love-false-angels": {
    "titreOrphee": "Fall in love, False Angels",
@@ -1666,7 +1750,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Uzuki Coco"
   },
   "flying-witch": {
    "titreOrphee": "Flying witch",
@@ -1686,7 +1771,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Ishizuka Chihiro"
   },
   "food-wars": {
    "titreOrphee": "Food wars",
@@ -1699,7 +1785,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Tsukuda Yuto"
   },
   "four-knights-of-the-apocalypse": {
    "titreOrphee": "Four knights of the Apocalypse",
@@ -1719,7 +1806,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Suzuki Nakaba"
   },
   "frieren": {
    "titreOrphee": "Frieren",
@@ -1741,7 +1829,8 @@
      13,
      14
     ]
-   }
+   },
+   "auteur": "Yamada Kanehito"
   },
   "fruits-basket": {
    "titreOrphee": "Fruits basket",
@@ -1765,7 +1854,8 @@
      "statut": "Hors service",
      "cote": "BDM TAK t2"
     }
-   ]
+   ],
+   "auteur": "Takaya Natsuki"
   },
   "fullmetal-alchemist": {
    "titreOrphee": "Fullmetal Alchemist",
@@ -1815,7 +1905,8 @@
      26,
      27
     ]
-   }
+   },
+   "auteur": "Arakawa Hiromu"
   },
   "geobreeders": {
    "titreOrphee": "Geobreeders",
@@ -1826,7 +1917,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Ito Akihiro"
   },
   "goal-masters": {
    "titreOrphee": "Goal masters",
@@ -1838,7 +1930,8 @@
      3,
      6
     ]
-   }
+   },
+   "auteur": "Cho Jae-Ho"
   },
   "goodnight-i-love-you": {
    "titreOrphee": "Goodnight, I love you...",
@@ -1848,7 +1941,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tarachine John"
   },
   "gto-shonan-14-days": {
    "titreOrphee": "GTO : Shonan 14 days",
@@ -1865,7 +1959,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Fujisawa Tooru"
   },
   "hajime-teddy-riner-l-ascension-d-une-legende": {
    "titreOrphee": "Hajime ! Teddy Riner, l'ascension d'une légende",
@@ -1877,7 +1972,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Tiers"
   },
   "heartstopper": {
    "titreOrphee": "Heartstopper",
@@ -1891,7 +1987,9 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Oseman Alice",
+   "webtoon": true
   },
   "hero-organization": {
    "titreOrphee": "Hero Organization",
@@ -1901,7 +1999,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Saikawa Kei"
   },
   "heterogenia-linguistico": {
    "titreOrphee": "Heterogenia Linguistico",
@@ -1914,7 +2013,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Seno Salt"
   },
   "hikaru-no-go": {
    "titreOrphee": "Hikaru no go",
@@ -1931,7 +2031,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Hotta Yumi"
   },
   "hip-hop": {
    "titreOrphee": "Hip Hop",
@@ -1942,7 +2043,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kim Soo-Yong"
   },
   "hirayasumi": {
    "titreOrphee": "Hirayasumi",
@@ -1961,7 +2063,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Shinzo Keigo"
   },
   "hunter-x-hunter": {
    "titreOrphee": "Hunter X hunter",
@@ -1979,7 +2082,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Togashi Yoshihiro"
   },
   "ichi-the-witch": {
    "titreOrphee": "Ichi the Witch",
@@ -1991,7 +2095,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Nishi Osamu"
   },
   "instinct": {
    "titreOrphee": "Instinct",
@@ -2005,7 +2110,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Inoxtag"
   },
   "integral-monster": {
    "titreOrphee": "Intégral Monster",
@@ -2026,7 +2132,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Urasawa Naoki"
   },
   "iruma-a-l-ecole-des-demons": {
    "titreOrphee": "Iruma à l'école des démons",
@@ -2070,7 +2177,8 @@
      "statut": "Perdu",
      "cote": "BD NIS"
     }
-   ]
+   ],
+   "auteur": "Nishi Osamu"
   },
   "isabella-bird-femme-exploratrice": {
    "titreOrphee": "Isabella Bird : femme exploratrice",
@@ -2099,7 +2207,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Sassa Taiga"
   },
   "jalouses": {
    "titreOrphee": "Jalouses",
@@ -2109,7 +2218,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Battan"
   },
   "jimbocho-sisters": {
    "titreOrphee": "Jimbôchô sisters",
@@ -2118,7 +2228,8 @@
     "St-Aubin du Pavail": [
      1
     ]
-   }
+   },
+   "auteur": "Tome Kei"
   },
   "judge": {
    "titreOrphee": "Judge",
@@ -2129,7 +2240,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tonogai Yoshiki"
   },
   "jungle-juice": {
    "titreOrphee": "Jungle Juice",
@@ -2142,7 +2254,9 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Eun Hyeong",
+   "webtoon": true
   },
   "kagurabachi": {
    "titreOrphee": "Kagurabachi",
@@ -2154,7 +2268,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Takeru Hokazono"
   },
   "kaiju-no-8": {
    "titreOrphee": "Kaiju No 8",
@@ -2183,7 +2298,8 @@
      15,
      16
     ]
-   }
+   },
+   "auteur": "Matsumoto Naoya"
   },
   "kamisama": {
    "titreOrphee": "Kamisama",
@@ -2199,7 +2315,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kotobuki Keisuke"
   },
   "kamisama-school": {
    "titreOrphee": "Kamisama School",
@@ -2209,7 +2326,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Hyûga Natsu"
   },
   "kemono-incidents": {
    "titreOrphee": "Kemono incidents",
@@ -2239,7 +2357,8 @@
      21,
      22
     ]
-   }
+   },
+   "auteur": "Aimoto Shô"
   },
   "ken-en-comme-chien-et-singe": {
    "titreOrphee": "KEN'EN comme chien et singe",
@@ -2255,7 +2374,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Fuetsudo"
   },
   "kids-on-the-slope": {
    "titreOrphee": "Kids on the Slope",
@@ -2265,7 +2385,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kodama Yuki"
   },
   "king-s-game-extreme": {
    "titreOrphee": "King's game extreme",
@@ -2278,7 +2399,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Kanazawa Nobuaki"
   },
   "komi-cherche-ses-mots": {
    "titreOrphee": "Komi cherche ses mots",
@@ -2306,7 +2428,8 @@
      19,
      20
     ]
-   }
+   },
+   "auteur": "Oda Tomohito"
   },
   "amour-est-au-menu": {
    "titreOrphee": "L'amour est au menu",
@@ -2317,7 +2440,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Yuzaki Sakaomi"
   },
   "amour-est-dans-le-the": {
    "titreOrphee": "L'Amour est dans le Thé",
@@ -2335,7 +2459,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Yamanaka Umebachi"
   },
   "arcane-de-l-aube": {
    "titreOrphee": "L'arcane de l'aube",
@@ -2348,7 +2473,8 @@
      "statut": "Perdu",
      "cote": "BD TOM T1"
     }
-   ]
+   ],
+   "auteur": "Toma Rei"
   },
   "atelier-des-sorciers": {
    "titreOrphee": "L'atelier des sorciers",
@@ -2413,7 +2539,8 @@
      "statut": "Remplacement, rachat",
      "cote": "BD SHI"
     }
-   ]
+   ],
+   "auteur": "Shirahama Kamome"
   },
   "attaque-des-titans": {
    "titreOrphee": "L'attaque des titans",
@@ -2455,7 +2582,8 @@
      33,
      34
     ]
-   }
+   },
+   "auteur": "Isayama Hajime"
   },
   "attaque-des-titans-before-the-fall": {
    "titreOrphee": "L'attaque des titans - Before the fall",
@@ -2480,7 +2608,8 @@
      16,
      17
     ]
-   }
+   },
+   "auteur": "Isayama Hajime"
   },
   "enfant-du-dragon-fantome": {
    "titreOrphee": "L'enfant du dragon fantôme",
@@ -2494,7 +2623,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Yukishiro Ichi"
   },
   "enfant-et-le-maudit-siuil-a-run": {
    "titreOrphee": "L'enfant et le maudit",
@@ -2513,7 +2643,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Nagabe"
   },
   "heritiere-du-dragon": {
    "titreOrphee": "L'Héritière du dragon",
@@ -2522,7 +2653,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Ishii Asuka"
   },
   "oiseau-d-or-de-kainis": {
    "titreOrphee": "L'oiseau d'or de Kainis",
@@ -2533,7 +2665,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Hata Kazuki"
   },
   "oxalis-et-l-or": {
    "titreOrphee": "L'oxalis et l'or",
@@ -2544,7 +2677,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kitano Eiichi"
   },
   "13e-piste": {
    "titreOrphee": "La 13e piste",
@@ -2553,7 +2687,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Sanbe Kei"
   },
   "foret-de-miyori": {
    "titreOrphee": "La Forêt de Miyori",
@@ -2564,7 +2699,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Oda Hideji"
   },
   "foret-magique-de-hoshigahara": {
    "titreOrphee": "La forêt magique de Hoshigahara",
@@ -2580,7 +2716,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Iwaoka Hisae"
   },
   "gameuse-et-son-chat": {
    "titreOrphee": "La gameuse et son chat",
@@ -2591,7 +2728,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Nadatari Wataru"
   },
   "last-man": {
    "titreOrphee": "Last Man",
@@ -2614,7 +2752,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Balak"
   },
   "prix-du-reste-de-ma-vie": {
    "titreOrphee": "Le prix du reste de ma vie",
@@ -2625,7 +2764,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Miaki Sugaru"
   },
   "dernier-ecrivain": {
    "titreOrphee": "Le dernier écrivain",
@@ -2634,7 +2774,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Akai Chitose"
   },
   "garcon-et-la-bete": {
    "titreOrphee": "Le garçon et la bête",
@@ -2652,7 +2793,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Asai Renji"
   },
   "gros-chat-et-la-sorciere-grincheuse": {
    "titreOrphee": "Le gros chat et la sorcière grincheuse",
@@ -2665,7 +2807,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Kashiwaba Hiro"
   },
   "journal-de-hanako": {
    "titreOrphee": "Le journal de Hanako",
@@ -2675,7 +2818,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kyô Machiko"
   },
   "maitre-des-livres": {
    "titreOrphee": "Le maître des livres",
@@ -2688,7 +2832,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Shinohara Umiharu"
   },
   "mari-de-mon-frere": {
    "titreOrphee": "Le mari de mon frère",
@@ -2706,7 +2851,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Tagame Gengoro"
   },
   "monde-dans-leurs-yeux": {
    "titreOrphee": "Le monde dans leurs yeux",
@@ -2716,7 +2862,8 @@
      1
     ]
    },
-   "oneShot": true
+   "oneShot": true,
+   "auteur": "Ebine Yamaji"
   },
   "palais-des-assassins": {
    "titreOrphee": "Le palais des assassins",
@@ -2725,7 +2872,8 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Iori Tabasa"
   },
   "peche-originel-de-takopi": {
    "titreOrphee": "Le péché originel de Takopi",
@@ -2735,7 +2883,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Taizan 5"
   },
   "petit-monde-de-machida": {
    "titreOrphee": "Le petit monde de Machida",
@@ -2747,7 +2896,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Ando Yuki"
   },
   "retour-du-clan-hwasan": {
    "titreOrphee": "Le retour du clan Hwasan",
@@ -2761,7 +2911,9 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Biga",
+   "webtoon": true
   },
   "tigre-des-neiges": {
    "titreOrphee": "Le tigre des neiges",
@@ -2779,7 +2931,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Higashimura Akiko"
   },
   "voleur-d-estampes": {
    "titreOrphee": "Le voleur d'estampes",
@@ -2809,7 +2962,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Moulin-Dupré Camille"
   },
   "carnets-de-l-apothicaire": {
    "titreOrphee": "Les carnets de l'apothicaire",
@@ -2833,7 +2987,8 @@
      15,
      16
     ]
-   }
+   },
+   "auteur": "Nanao Itsuki"
   },
   "chants-du-cygne-noir": {
    "titreOrphee": "Les Chants du Cygne Noir",
@@ -2845,7 +3000,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Alice Alex"
   },
   "enfants-de-gorre": {
    "titreOrphee": "Les enfants de Gorre",
@@ -2855,7 +3011,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Ferrieu Sylvain"
   },
   "gouttes-de-dieu": {
    "titreOrphee": "Les Gouttes de Dieu",
@@ -2884,7 +3041,8 @@
      "statut": "Perdu",
      "cote": "M GOU 3"
     }
-   ]
+   ],
+   "auteur": "Kibayashi Shin"
   },
   "normaux": {
    "titreOrphee": "Les Normaux",
@@ -2894,7 +3052,9 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Janssen Janine",
+   "webtoon": true
   },
   "sorcieres-de-la-fin-du-monde": {
    "titreOrphee": "Les sorcières de la fin du monde",
@@ -2905,7 +3065,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kujira"
   },
   "loin-de-moi-pres-de-toi": {
    "titreOrphee": "Loin de moi, près de toi",
@@ -2916,7 +3077,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kuromaru Kyôsuke"
   },
   "luca-veterinaire-draconique": {
    "titreOrphee": "Luca, vétérinaire draconique",
@@ -2928,7 +3090,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Hirasawa Yuna"
   },
   "ma-vie-dans-les-bois": {
    "titreOrphee": "Ma vie dans les bois",
@@ -2950,7 +3113,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Morimura Shin"
   },
   "magic-maker": {
    "titreOrphee": "Magic maker",
@@ -2961,7 +3125,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kazuki Kaburagi"
   },
   "magu-god-of-destruction": {
    "titreOrphee": "Magu, God of Destruction",
@@ -2978,7 +3143,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Kamiki Kei"
   },
   "magus-of-the-library": {
    "titreOrphee": "Magus of the library",
@@ -3002,7 +3168,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Izumi Mitsu"
   },
   "majo-no-michi": {
    "titreOrphee": "Majo No Michi",
@@ -3011,7 +3178,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Concrete Tony"
   },
   "malicious-code": {
    "titreOrphee": "Malicious Code",
@@ -3023,7 +3191,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Masahiro Ikeno"
   },
   "manga-arsene-lupin": {
    "titreOrphee": "Manga Arsène Lupin",
@@ -3033,7 +3202,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Morita Takashi"
   },
   "manga-les-miserables": {
    "titreOrphee": "Manga Les Misérables",
@@ -3049,7 +3219,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Arai Takahiro"
   },
   "mashle": {
    "titreOrphee": "Mashle",
@@ -3075,7 +3246,8 @@
      17,
      18
     ]
-   }
+   },
+   "auteur": "Komoto Hajime"
   },
   "maux-meles": {
    "titreOrphee": "Maux mêlés",
@@ -3085,7 +3257,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Izawa Meguru"
   },
   "mes-cent-contes-mortels": {
    "titreOrphee": "Mes cent contes mortels",
@@ -3103,7 +3276,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Matono Anji"
   },
   "mission-in-the-apocalypse": {
    "titreOrphee": "Mission in the apocalypse",
@@ -3115,7 +3289,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Iwamune Haruo"
   },
   "mob-psycho-100": {
    "titreOrphee": "Mob Psycho 100",
@@ -3128,7 +3303,8 @@
      "statut": "Perdu",
      "cote": "BDA MOB"
     }
-   ]
+   ],
+   "auteur": "One"
   },
   "monster": {
    "titreOrphee": "Monster",
@@ -3155,7 +3331,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Urasawa Naoki"
   },
   "monster-hunter-orage": {
    "titreOrphee": "Monster hunter orage",
@@ -3178,7 +3355,8 @@
      2,
      4
     ]
-   }
+   },
+   "auteur": "Mashima Hiro"
   },
   "monthly-girls-nozaki-kun": {
    "titreOrphee": "Monthly girls' Nozaki-kun",
@@ -3187,7 +3365,8 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Izumi Tsubaki"
   },
   "morgana-oz": {
    "titreOrphee": "Morgana & Oz",
@@ -3205,7 +3384,9 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Miyuli",
+   "webtoon": true
   },
   "my-hero-academia": {
    "titreOrphee": "My hero academia",
@@ -3270,7 +3451,8 @@
      41,
      42
     ]
-   }
+   },
+   "auteur": "Horikoshi Kohei"
   },
   "my-love-story-with-yamada-kun-at-lvl999": {
    "titreOrphee": "My love story with Yamada-kun at LVL999",
@@ -3283,7 +3465,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Mashiro"
   },
   "nana": {
    "titreOrphee": "Nana",
@@ -3312,7 +3495,8 @@
      20,
      21
     ]
-   }
+   },
+   "auteur": "Yazawa Ai"
   },
   "nekogahara": {
    "titreOrphee": "Nekogahara",
@@ -3321,7 +3505,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Takei Hiroyuki"
   },
   "noragami": {
    "titreOrphee": "Noragami",
@@ -3332,7 +3517,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Adachitoka"
   },
   "nos-c-h-oeurs-evanescents": {
    "titreOrphee": "Nos c(h)oeurs évanescents",
@@ -3348,7 +3534,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Kamatani Yuhki"
   },
   "ocean-rush": {
    "titreOrphee": "Ocean rush",
@@ -3357,7 +3544,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Tarachine John"
   },
   "olympia-kyklos": {
    "titreOrphee": "Olympia kyklos",
@@ -3372,7 +3560,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Yamazaki Mari"
   },
   "omniscient-reader-s-viewpoint": {
    "titreOrphee": "Omniscient Reader's Viewpoint",
@@ -3385,7 +3574,9 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Sleepy-C",
+   "webtoon": true
   },
   "one-punch-man": {
    "titreOrphee": "One-punch man",
@@ -3426,7 +3617,8 @@
      3,
      8
     ]
-   }
+   },
+   "auteur": "Murata Yusuke"
   },
   "one-piece": {
    "titreOrphee": "One piece",
@@ -3704,7 +3896,8 @@
      "statut": "Perdu",
      "cote": "BD ODA"
     }
-   ]
+   ],
+   "auteur": "Oda Eiichiro"
   },
   "one-week-friends": {
    "titreOrphee": "One week friends",
@@ -3714,7 +3907,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Matcha Hazuki"
   },
   "orange": {
    "titreOrphee": "Orange",
@@ -3729,7 +3923,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Takano Ichigo"
   },
   "our-colorful-days": {
    "titreOrphee": "Our colorful days",
@@ -3740,7 +3935,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tagame Gengoro"
   },
   "pakka": {
    "titreOrphee": "Pakka",
@@ -3753,7 +3949,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Imai Daisuke"
   },
   "paradise-lost": {
    "titreOrphee": "Paradise lost",
@@ -3765,7 +3962,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Yagami Rina"
   },
   "phantom-busters": {
    "titreOrphee": "Phantom Busters",
@@ -3776,7 +3974,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Neoshoco"
   },
   "phenix-l-oiseau-de-feu-integrale": {
    "titreOrphee": "Phénix : l'oiseau de feu : intégrale",
@@ -3786,7 +3985,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tezuka Osamu"
   },
   "pline": {
    "titreOrphee": "Pline",
@@ -3797,7 +3997,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Yamazaki Mari"
   },
   "pluto": {
    "titreOrphee": "Pluto",
@@ -3813,7 +4014,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Tezuka Osamu"
   },
   "prisonnier-riku": {
    "titreOrphee": "Prisonnier Riku",
@@ -3839,7 +4041,8 @@
      17,
      18
     ]
-   }
+   },
+   "auteur": "Seguchi Shinobu"
   },
   "professeur-eiji": {
    "titreOrphee": "Professeur Eiji",
@@ -3855,7 +4058,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Monden Akiko"
   },
   "prophecy": {
    "titreOrphee": "Prophecy",
@@ -3865,7 +4069,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tsutsui Tetsuya"
   },
   "que-sa-volonte-soit-faite": {
    "titreOrphee": "Que sa volonté soit faite",
@@ -3879,7 +4084,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Wakaki Tamiki"
   },
   "radiant": {
    "titreOrphee": "Radiant",
@@ -3911,7 +4117,8 @@
      18,
      19
     ]
-   }
+   },
+   "auteur": "Valente Tony"
   },
   "ranking-of-kings": {
    "titreOrphee": "Ranking of kings",
@@ -3931,7 +4138,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Toka Sosuke"
   },
   "ratman": {
    "titreOrphee": "Ratman",
@@ -3945,7 +4153,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Inui Sekihiko"
   },
   "reflection": {
    "titreOrphee": "Reflection",
@@ -3958,7 +4167,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Sanbe Kei"
   },
   "rhapsody-in-red": {
    "titreOrphee": "Rhapsody in Red",
@@ -3968,7 +4178,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Amidamuku"
   },
   "ripper": {
    "titreOrphee": "Ripper",
@@ -3984,7 +4195,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Cejudo Jéronimo"
   },
   "ron-kamonohashi-deranged-detective": {
    "titreOrphee": "Ron Kamonohashi : Deranged Detective",
@@ -3996,7 +4208,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Amano Akira"
   },
   "ruridragon": {
    "titreOrphee": "Ruridragon",
@@ -4008,7 +4221,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Shindo Masaoki"
   },
   "s-class-heroine": {
    "titreOrphee": "S-Class Heroine",
@@ -4017,7 +4231,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Irinbi",
+   "webtoon": true
   },
   "sakamoto-days": {
    "titreOrphee": "Sakamoto days",
@@ -4029,7 +4245,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Suzuki Yuto"
   },
   "sanda": {
    "titreOrphee": "Sanda",
@@ -4045,7 +4262,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Itagaki Paru"
   },
   "say-i-love-you": {
    "titreOrphee": "Say I love you",
@@ -4058,7 +4276,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Hazuki Kanae"
   },
   "sayonara-football": {
    "titreOrphee": "SAYONARA FOOTBALL",
@@ -4068,7 +4287,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Arakawa Naoshi"
   },
   "sayonara-miniskirt": {
    "titreOrphee": "Sayonara miniskirt",
@@ -4078,7 +4298,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Makino Aoi"
   },
   "sayonara-rose-garden": {
    "titreOrphee": "Sayonara rose garden",
@@ -4089,7 +4310,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Dr Pepperco"
   },
   "servamp": {
    "titreOrphee": "Servamp",
@@ -4103,7 +4325,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Tanaka Sutoraiku"
   },
   "seule-la-mort-attend-la-vilaine": {
    "titreOrphee": "Seule la mort attend la vilaine",
@@ -4125,7 +4348,8 @@
      "statut": "Perdu",
      "cote": "BD SUO"
     }
-   ]
+   ],
+   "auteur": "Gwon Gyeoeul"
   },
   "shadows-house": {
    "titreOrphee": "Shadows House",
@@ -4134,7 +4358,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "So-ma-to"
   },
   "shangri-la-frontier": {
    "titreOrphee": "Shangri-La Frontier",
@@ -4160,7 +4385,8 @@
      17,
      18
     ]
-   }
+   },
+   "auteur": "Katarina"
   },
   "shin-zero": {
    "titreOrphee": "Shin Zero",
@@ -4173,7 +4399,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Singelin Guillaume"
   },
   "silence": {
    "titreOrphee": "Silence",
@@ -4191,7 +4418,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Vornière Yoann"
   },
   "sixteen-life": {
    "titreOrphee": "Sixteen Life",
@@ -4201,7 +4429,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Aikawa Saki"
   },
   "sk8r-s": {
    "titreOrphee": "SK8R'S",
@@ -4212,7 +4441,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tojitsuki Hajime"
   },
   "sky-wars": {
    "titreOrphee": "Sky wars",
@@ -4238,7 +4468,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Dongshik Ahn"
   },
   "solo-leveling": {
    "titreOrphee": "Solo leveling",
@@ -4266,7 +4497,8 @@
      19,
      20
     ]
-   }
+   },
+   "auteur": "Chugong"
   },
   "somali-et-l-esprit-de-la-foret": {
    "titreOrphee": "Somali et l'esprit de la forêt",
@@ -4280,7 +4512,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Gureishi Yako"
   },
   "sorcieres": {
    "titreOrphee": "Sorcières",
@@ -4289,7 +4522,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Igarashi Daisuke"
   },
   "soul-eater": {
    "titreOrphee": "Soul Eater",
@@ -4327,7 +4561,8 @@
      24,
      25
     ]
-   }
+   },
+   "auteur": "Okubo Atsushi"
   },
   "spy-x-family": {
    "titreOrphee": "Spy x Family",
@@ -4370,7 +4605,8 @@
    },
    "hs": {
     "Noyal-sur-Vilaine": 1
-   }
+   },
+   "auteur": "Endo Tatsuya"
   },
   "star-strike-it-rich": {
    "titreOrphee": "Star : Strike It Rich",
@@ -4379,7 +4615,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Yabako Sandrovich"
   },
   "star-wars-etoiles-perdues": {
    "titreOrphee": "Star Wars : étoiles perdues",
@@ -4390,7 +4627,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Komiyama Yusaku"
   },
   "stray-dog": {
    "titreOrphee": "Stray Dog",
@@ -4404,7 +4642,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "VanRah"
   },
   "summer-ghost": {
    "titreOrphee": "Summer Ghost",
@@ -4414,7 +4653,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Inomi Yoshi"
   },
   "switch-family": {
    "titreOrphee": "Switch Family",
@@ -4424,7 +4664,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tanno Ryosuke"
   },
   "sword-art-online-aincrad": {
    "titreOrphee": "Sword art online : Aincrad",
@@ -4434,7 +4675,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kawahara Reki"
   },
   "tales-of-destiny": {
    "titreOrphee": "Tales of destiny",
@@ -4448,7 +4690,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Kitsutsuki Shinki"
   },
   "tales-of-symphonia": {
    "titreOrphee": "Tales of symphonia",
@@ -4462,7 +4705,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Ichimura Hitoshi"
   },
   "talli-fille-de-la-lune": {
    "titreOrphee": "Talli, fille de la lune",
@@ -4473,7 +4717,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Sihachakr Sourya"
   },
   "team-phoenix": {
    "titreOrphee": "Team Phoenix",
@@ -4482,7 +4727,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Ruiz Kenny"
   },
   "terrarium": {
    "titreOrphee": "Terrarium",
@@ -4500,7 +4746,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Hirasawa Yuna"
   },
   "the-beginning-after-the-end": {
    "titreOrphee": "The Beginning After the End",
@@ -4511,7 +4758,9 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "TurtleMe",
+   "webtoon": true
   },
   "the-bugle-call": {
    "titreOrphee": "The Bugle Call",
@@ -4528,7 +4777,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Sora Mozuku"
   },
   "the-druid-of-seoul-station": {
    "titreOrphee": "The druid of Seoul station",
@@ -4539,7 +4789,9 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "LiveBear",
+   "webtoon": true
   },
   "the-elusive-samurai": {
    "titreOrphee": "The elusive samurai",
@@ -4552,7 +4804,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Matsui Yusei"
   },
   "the-faraway-paladin": {
    "titreOrphee": "The Faraway Paladin",
@@ -4561,7 +4814,8 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Yanagino Kanata"
   },
   "the-ichinose-family-s-deadly-sins": {
    "titreOrphee": "The Ichinose family's deadly sins",
@@ -4582,7 +4836,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Taizan5"
   },
   "the-summer-hikaru-died": {
    "titreOrphee": "The Summer Hikaru Died",
@@ -4601,7 +4856,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Mokumokuren"
   },
   "timing": {
    "titreOrphee": "Timing",
@@ -4612,7 +4868,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kang Full"
   },
   "today-s-burger": {
    "titreOrphee": "Today's Burger",
@@ -4630,7 +4887,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Hanagata Rei"
   },
   "toilet-bound-hanako-kun": {
    "titreOrphee": "Toilet-bound Hanako-Kun",
@@ -4648,7 +4906,8 @@
      9,
      11
     ]
-   }
+   },
+   "auteur": "AidaIro"
   },
   "tokyo-revengers": {
    "titreOrphee": "Tokyo revengers",
@@ -4687,7 +4946,8 @@
      30,
      31
     ]
-   }
+   },
+   "auteur": "Wakui Ken"
   },
   "tokyo-toybox": {
    "titreOrphee": "Tokyo toybox",
@@ -4697,7 +4957,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Ozawa Takahiro"
   },
   "trait-pour-trait-dessine-et-tais-toi": {
    "titreOrphee": "Trait pour trait : dessine et tais-toi !",
@@ -4710,7 +4971,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Higashimura Akiko"
   },
   "tsugai-daemons-of-the-shadow-realm": {
    "titreOrphee": "Tsugai - Daemons of the Shadow Realm",
@@ -4726,7 +4988,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Arakawa Hiromu"
   },
   "un-drole-de-pere": {
    "titreOrphee": "Un Drôle de père",
@@ -4749,7 +5012,8 @@
      "statut": "Perdu",
      "cote": "BD UNIT"
     }
-   ]
+   ],
+   "auteur": "Unita Yumi"
   },
   "une-sacree-mamie": {
    "titreOrphee": "Une Sacrée mamie",
@@ -4777,7 +5041,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Shimada Yoshichi"
   },
   "une-si-belle-couleur": {
    "titreOrphee": "Une si belle couleur",
@@ -4787,7 +5052,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Iwashita Keiko"
   },
   "unordinary": {
    "titreOrphee": "Unordinary",
@@ -4797,7 +5063,9 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Uru-chan",
+   "webtoon": true
   },
   "vagabond": {
    "titreOrphee": "Vagabond",
@@ -4807,7 +5075,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Inoue Takehiko"
   },
   "versus": {
    "titreOrphee": "Versus",
@@ -4819,7 +5088,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "One"
   },
   "wakfu-la-grande-vague": {
    "titreOrphee": "Wakfu, La Grande Vague",
@@ -4830,7 +5100,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tot"
   },
   "wet-moon": {
    "titreOrphee": "Wet moon",
@@ -4840,7 +5111,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kaneko Atsushi"
   },
   "witch-watch": {
    "titreOrphee": "Witch Watch",
@@ -4849,7 +5121,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Shinohara Kenta"
   },
   "yamada-kun-the-7-witches": {
    "titreOrphee": "Yamada kun & the 7 witches",
@@ -4870,7 +5143,8 @@
      12,
      13
     ]
-   }
+   },
+   "auteur": "Yoshikawa Miki"
   },
   "yon": {
    "titreOrphee": "Yon",
@@ -4885,7 +5159,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Broutin Camille"
   },
   "yona-princesse-de-l-aube": {
    "titreOrphee": "Yona, princesse de l'aube",
@@ -4895,7 +5170,8 @@
      1,
      3
     ]
-   }
+   },
+   "auteur": "Kusanagi Mizuho"
   },
   "your-lie-in-april": {
    "titreOrphee": "Your lie in april",
@@ -4905,7 +5181,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Arakawa Naoshi"
   },
   "yu-gi-oh": {
    "titreOrphee": "Yu-Gi-Oh !",
@@ -4918,7 +5195,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Takahashi Kazuki"
   },
   "yuyu-hakusho": {
    "titreOrphee": "Yuyu Hakusho",
@@ -4948,7 +5226,8 @@
     "Piré-Chancé": [
      4
     ]
-   }
+   },
+   "auteur": "Togashi Yoshihiro"
   },
   "akira": {
    "titreOrphee": "Akira",
@@ -4962,7 +5241,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Otomo Katsuhiro"
   },
   "alpi-the-soul-sender": {
    "titreOrphee": "Alpi the soul sender",
@@ -4977,7 +5257,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Rona"
   },
   "au-coeur-de-fukushima": {
    "titreOrphee": "Au coeur de Fukushima",
@@ -4993,7 +5274,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tatsuta Kazuto"
   },
   "badducks": {
    "titreOrphee": "Badducks",
@@ -5005,7 +5287,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Takeda Toryumon"
   },
   "beastars": {
    "titreOrphee": "Beastars",
@@ -5035,7 +5318,8 @@
      21,
      22
     ]
-   }
+   },
+   "auteur": "Itagaki Paru"
   },
   "berserk": {
    "titreOrphee": "Berserk",
@@ -5065,7 +5349,8 @@
      19,
      20
     ]
-   }
+   },
+   "auteur": "Miura Kentaro"
   },
   "billy-bat": {
    "titreOrphee": "Billy Bat",
@@ -5077,7 +5362,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Urasawa Naoki"
   },
   "bokko-stratege": {
    "titreOrphee": "Bokko : stratège",
@@ -5086,7 +5372,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Kubota Sentaro"
   },
   "chiisakobe": {
    "titreOrphee": "Chiisakobé",
@@ -5104,7 +5391,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Mochizuki Minetaro"
   },
   "colere-nucleaire": {
    "titreOrphee": "Colère nucleaire",
@@ -5115,7 +5403,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Imashiro Takashi"
   },
   "couleur-de-peau-miel": {
    "titreOrphee": "Couleur de peau : miel",
@@ -5127,7 +5416,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Jung"
   },
   "darwin-s-incident": {
    "titreOrphee": "Darwin's incident",
@@ -5136,7 +5426,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Umezawa Shun"
   },
   "deep-3": {
    "titreOrphee": "Deep 3",
@@ -5158,7 +5449,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Mizuno Mitsuhiro"
   },
   "deep-sea-aquarium-magmell": {
    "titreOrphee": "Deep Sea Aquarium MagMell",
@@ -5171,7 +5463,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Sugishita Kiyomi"
   },
   "demons-star": {
    "titreOrphee": "Demons star",
@@ -5180,7 +5473,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Abe Shuji"
   },
   "detonations": {
    "titreOrphee": "Détonations",
@@ -5191,7 +5485,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Takahashi Tsutomu"
   },
   "dog-signal": {
    "titreOrphee": "Dog Signal",
@@ -5203,7 +5498,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Miyauchi Saya"
   },
   "doubt": {
    "titreOrphee": "Doubt",
@@ -5215,7 +5511,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Tonogai Yoshiki"
   },
   "du-mouvement-de-la-terre": {
    "titreOrphee": "Du mouvement de la Terre",
@@ -5231,7 +5528,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Uoto Osamu"
   },
   "eclat-s-d-ame": {
    "titreOrphee": "Eclat(s) d'âme",
@@ -5242,7 +5540,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kamatani Yuhki"
   },
   "en-proie-au-silence": {
    "titreOrphee": "En proie au silence",
@@ -5258,7 +5557,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Torikai Akane"
   },
   "entre-nos-mains": {
    "titreOrphee": "Entre nos mains",
@@ -5269,7 +5569,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Battan"
   },
   "erased": {
    "titreOrphee": "Erased",
@@ -5286,7 +5587,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Sanbe Kei"
   },
   "escale-a-yokohama": {
    "titreOrphee": "Escale à Yokohama",
@@ -5308,7 +5610,8 @@
      13,
      14
     ]
-   }
+   },
+   "auteur": "Ashinano Hitoshi"
   },
   "gen-d-hiroshima": {
    "titreOrphee": "Gen d'Hiroshima",
@@ -5317,7 +5620,8 @@
     "Chateaugiron": [
      8
     ]
-   }
+   },
+   "auteur": "Nakazawa Keiji"
   },
   "green-blood": {
    "titreOrphee": "Green Blood",
@@ -5330,7 +5634,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Kakizaki Masasumi"
   },
   "gunnm-edition-originale": {
    "titreOrphee": "Gunnm - édition originale",
@@ -5347,7 +5652,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Kishiro Yukito"
   },
   "gunnm-mars-chronicle": {
    "titreOrphee": "Gunnm Mars Chronicle",
@@ -5361,7 +5667,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Kishiro Yukito"
   },
   "haikyu-les-as-du-volley": {
    "titreOrphee": "Haikyû !! : Les As du volley",
@@ -5393,7 +5700,8 @@
      23,
      24
     ]
-   }
+   },
+   "auteur": "Furudate Haruichi"
   },
   "ice-age-chronicle-of-the-earth": {
    "titreOrphee": "Ice age chronicle of the earth",
@@ -5403,7 +5711,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Taniguchi Jiro"
   },
   "ikigami-preavis-de-mort": {
    "titreOrphee": "Ikigami, préavis de mort",
@@ -5416,7 +5725,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Mase Motoro"
   },
   "innocent": {
    "titreOrphee": "Innocent",
@@ -5433,7 +5743,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Sakamoto Shin'ichi"
   },
   "insomniaques": {
    "titreOrphee": "Insomniaques",
@@ -5445,7 +5756,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Ojiro Makoto"
   },
   "kaguya-sama-love-is-war": {
    "titreOrphee": "Kaguya-Sama : Love is War",
@@ -5458,7 +5770,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Akasaka Aka"
   },
   "kindergarten-wars": {
    "titreOrphee": "Kindergarten Wars",
@@ -5488,7 +5801,8 @@
      12,
      13
     ]
-   }
+   },
+   "auteur": "Chiba You"
   },
   "king-s-game": {
    "titreOrphee": "King's game",
@@ -5501,7 +5815,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Renda Hitori"
   },
   "ile-de-hozuki": {
    "titreOrphee": "L' île de Hôzuki",
@@ -5513,7 +5828,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Sanbe Kei"
   },
   "attaque-des-titans-edition-colossale": {
    "titreOrphee": "L'attaque des titans : édition colossale",
@@ -5525,7 +5841,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Isayama Hajime"
   },
   "habitant-de-l-infini": {
    "titreOrphee": "L'habitant de l'infini",
@@ -5536,7 +5853,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Samura Hiroaki"
   },
   "histoire-des-3-adolf-integrale": {
    "titreOrphee": "L'histoire des 3 Adolf : intégrale",
@@ -5546,7 +5864,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tezuka Osamu"
   },
   "homme-invisible-et-sa-future-epouse": {
    "titreOrphee": "L'homme invisible et sa future épouse",
@@ -5555,7 +5874,8 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Iwatobineko"
   },
   "cantine-de-minuit": {
    "titreOrphee": "La cantine de minuit",
@@ -5565,7 +5885,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Abe Yaro"
   },
   "cuisine-du-tengu": {
    "titreOrphee": "La cuisine du Tengu",
@@ -5576,7 +5897,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tanaka Ai"
   },
   "decheance-d-un-homme": {
    "titreOrphee": "La déchéance d'un homme",
@@ -5585,7 +5907,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Furuya Usamaru"
   },
   "fin-du-monde-avec-mon-shiba-inu": {
    "titreOrphee": "La fin du monde avec mon Shiba Inu",
@@ -5597,7 +5920,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Ishihara Yu"
   },
   "main-droite-de-lucifer": {
    "titreOrphee": "La main droite de Lucifer",
@@ -5611,7 +5935,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Serizawa Naoki"
   },
   "mariee-du-roi-dragon": {
    "titreOrphee": "La Mariée du Roi Dragon",
@@ -5624,7 +5949,9 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Kanghee Jamae",
+   "webtoon": true
   },
   "voie-du-tablier": {
    "titreOrphee": "La voie du tablier",
@@ -5645,7 +5972,8 @@
      12,
      13
     ]
-   }
+   },
+   "auteur": "Oono Kousuke"
   },
   "land": {
    "titreOrphee": "Land",
@@ -5658,7 +5986,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Yamashita Kazumi"
   },
   "last-hero-inuyashiki": {
    "titreOrphee": "Last hero inuyashiki",
@@ -5676,7 +6005,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Oku Hiroya"
   },
   "chien-gardien-d-etoiles": {
    "titreOrphee": "Le chien gardien d'étoiles",
@@ -5690,7 +6020,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Murakami Takashi"
   },
   "couvent-des-damnees": {
    "titreOrphee": "Le couvent des damnées",
@@ -5704,7 +6035,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Takeyoshi Minoru"
   },
   "harem-de-l-imperatrice": {
    "titreOrphee": "Le harem de l'impératrice",
@@ -5715,7 +6047,9 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Yeongbin",
+   "webtoon": true
   },
   "siege-des-exilees": {
    "titreOrphee": "Le siège des exilées",
@@ -5725,7 +6059,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Torikai Akane"
   },
   "sommet-des-dieux": {
    "titreOrphee": "Le Sommet des dieux",
@@ -5752,12 +6087,14 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Yumemakura Baku"
   },
   "chefs-d-oeuvre-de-lovecraft": {
    "titreOrphee": "Les chefs-d'oeuvre de Lovecraft",
    "editeur": "Editions Ki-oon",
-   "tomes": {}
+   "tomes": {},
+   "auteur": "Tanabe Gou"
   },
   "enfants-d-hippocrate": {
    "titreOrphee": "Les enfants d'Hippocrate",
@@ -5769,7 +6106,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Higashimoto Toshiya"
   },
   "montagnes-hallucinees": {
    "titreOrphee": "Les montagnes hallucinées",
@@ -5779,7 +6117,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tanabe Gou"
   },
   "naufrages": {
    "titreOrphee": "Les naufragés",
@@ -5789,7 +6128,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Choi Min-Ho"
   },
   "oublies": {
    "titreOrphee": "Les oubliés",
@@ -5801,7 +6141,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Koike Nokuto"
   },
   "temps-retrouves": {
    "titreOrphee": "Les temps retrouvés",
@@ -5811,12 +6152,14 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Fujii Kei"
   },
   "tresors-de-tsukasa-hojo": {
    "titreOrphee": "Les trésors de Tsukasa Hojo",
    "editeur": "Editions Ki-oon",
-   "tomes": {}
+   "tomes": {},
+   "auteur": "Hojo Tsukasa"
   },
   "vacances-de-jesus-et-bouddha": {
    "titreOrphee": "Les vacances de Jésus et Bouddha",
@@ -5825,7 +6168,8 @@
     "Domloup": [
      1
     ]
-   }
+   },
+   "auteur": "Nakamura Hikaru"
   },
   "levius": {
    "titreOrphee": "Levius",
@@ -5836,7 +6180,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Nakata Haruhisa"
   },
   "lost-lad-london": {
    "titreOrphee": "Lost Lad London",
@@ -5847,7 +6192,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Shinya Shima"
   },
   "mai-ball-feminine-football-team": {
    "titreOrphee": "Mai ball! : feminine football team",
@@ -5856,7 +6202,8 @@
     "Chateaugiron": [
      12
     ]
-   }
+   },
+   "auteur": "Inoue Sora"
   },
   "man-in-the-window": {
    "titreOrphee": "Man in the window",
@@ -5866,7 +6213,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Masatoki"
   },
   "marry-my-husband": {
    "titreOrphee": "Marry my husband",
@@ -5879,7 +6227,9 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Sojak Sung",
+   "webtoon": true
   },
   "mauvaise-herbe": {
    "titreOrphee": "Mauvaise herbe",
@@ -5891,7 +6241,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Shinzo Keigo"
   },
   "moi-jardinier-citadin": {
    "titreOrphee": "Moi, jardinier citadin",
@@ -5905,7 +6256,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Choi Min-Ho"
   },
   "mr-nobody": {
    "titreOrphee": "Mr.Nobody",
@@ -5916,7 +6268,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tanabe Go"
   },
   "mushishi": {
    "titreOrphee": "Mushishi",
@@ -5934,7 +6287,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Urushibara Yuki"
   },
   "my-home-hero": {
    "titreOrphee": "My Home Hero",
@@ -5945,7 +6299,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Yamakawa Naoki"
   },
   "noise": {
    "titreOrphee": "Noise",
@@ -5956,7 +6311,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tsutsui Tetsuya"
   },
   "peace-maker": {
    "titreOrphee": "Peace Maker",
@@ -5967,7 +6323,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Minagawa Ryouji"
   },
   "planetes": {
    "titreOrphee": "Planètes",
@@ -5982,7 +6339,8 @@
     "Domloup": [
      1
     ]
-   }
+   },
+   "auteur": "Yukimura Makoto"
   },
   "princesse-detective": {
    "titreOrphee": "Princesse Détective",
@@ -6007,7 +6365,8 @@
      16,
      17
     ]
-   }
+   },
+   "auteur": "Anan Mayuki"
   },
   "quartier-lointain": {
    "titreOrphee": "Quartier lointain",
@@ -6029,7 +6388,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Taniguchi Jiro"
   },
   "quitter-la-ville": {
    "titreOrphee": "Quitter la ville",
@@ -6038,7 +6398,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Kim Su-Bak"
   },
   "reine-d-egypte": {
    "titreOrphee": "Reine d'Egypte",
@@ -6055,7 +6416,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Inudoh Chie"
   },
   "search-and-destroy": {
    "titreOrphee": "Search and Destroy",
@@ -6066,7 +6428,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Atsushi Kaneko"
   },
   "sengo": {
    "titreOrphee": "Sengo",
@@ -6088,7 +6451,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Yamada Sansuke"
   },
   "servant-beasts": {
    "titreOrphee": "Servant beasts",
@@ -6099,7 +6463,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Morino Suzuka"
   },
   "she-wasn-t-a-guy": {
    "titreOrphee": "She wasn't a guy",
@@ -6108,7 +6473,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Arai Sumiko"
   },
   "sherlock": {
    "titreOrphee": "Sherlock",
@@ -6121,7 +6487,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Moffat Steven"
   },
   "solanin": {
    "titreOrphee": "Solanin",
@@ -6135,7 +6502,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Asano Inio"
   },
   "soloist-in-a-cage": {
    "titreOrphee": "Soloist in a cage",
@@ -6149,12 +6517,14 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Moriya Shiro"
   },
   "sukeroku": {
    "titreOrphee": "Sukeroku",
    "editeur": "Seuil jeunesse",
-   "tomes": {}
+   "tomes": {},
+   "auteur": "Gotte"
   },
   "sukima": {
    "titreOrphee": "Sukima",
@@ -6163,7 +6533,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Yan Gao"
   },
   "sweet-home": {
    "titreOrphee": "Sweet Home",
@@ -6176,7 +6547,9 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Kim Carnby",
+   "webtoon": true
   },
   "terra-formars": {
    "titreOrphee": "Terra Formars",
@@ -6188,7 +6561,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Sasuga Yu"
   },
   "terror-man": {
    "titreOrphee": "Terror Man",
@@ -6199,7 +6573,9 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Han Dongwoo",
+   "webtoon": true
   },
   "the-ghost-in-the-shell": {
    "titreOrphee": "The ghost in the shell",
@@ -6220,7 +6596,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Lee Nicky"
   },
   "the-witch-and-the-beast": {
    "titreOrphee": "The Witch and the Beast",
@@ -6238,7 +6615,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Satake Kousuke"
   },
   "thermae-romae": {
    "titreOrphee": "Thermae Romae",
@@ -6249,7 +6627,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Yamazaki Mari"
   },
   "tokyo-ghoul": {
    "titreOrphee": "Tokyo Ghoul",
@@ -6259,7 +6638,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Ishida Sui"
   },
   "tokyo-ces-jours-ci": {
    "titreOrphee": "Tokyo, ces jours-ci",
@@ -6270,7 +6650,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Matsumoto Taiyô"
   },
   "trillion-game": {
    "titreOrphee": "Trillion game",
@@ -6286,7 +6667,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Inagaki Riichiro"
   },
   "un-second-au-revoir": {
    "titreOrphee": "Un second au revoir",
@@ -6297,7 +6679,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tanaka Tomo"
   },
   "underwater-le-village-immerge": {
    "titreOrphee": "Underwater - Le village immergé",
@@ -6307,7 +6690,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Urushibara Yuki"
   },
   "une-fille-atypique": {
    "titreOrphee": "Une fille atypique",
@@ -6319,7 +6703,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Hagimoto Souhachi"
   },
   "une-vie-dans-les-marges": {
    "titreOrphee": "Une vie dans les marges",
@@ -6329,7 +6714,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tatsumi Yoshihiro"
   },
   "vampire-knight-edition-double": {
    "titreOrphee": "Vampire knight : édition double",
@@ -6342,7 +6728,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Hino Matsuri"
   },
   "vinland-saga": {
    "titreOrphee": "Vinland saga",
@@ -6352,7 +6739,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Yukimura Makoto"
   },
   "white-blood": {
    "titreOrphee": "White Blood",
@@ -6362,7 +6750,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Lim Lina"
   },
   "wind-breaker": {
    "titreOrphee": "Wind breaker",
@@ -6372,7 +6761,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Nii Satoru"
   },
   "yako-et-poko": {
    "titreOrphee": "Yako et Poko",
@@ -6384,7 +6774,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Mizusawa Etsuko"
   },
   "yan": {
    "titreOrphee": "Yan",
@@ -6395,7 +6786,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Chang Sheng"
   },
   "your-name": {
    "titreOrphee": "Your name",
@@ -6429,7 +6821,8 @@
      "statut": "Perdu",
      "cote": "MA VOY"
     }
-   ]
+   ],
+   "auteur": "Shinkai Makoto"
   },
   "cooking-karine": {
    "titreOrphee": "#Cooking Karine",
@@ -6445,7 +6838,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Nakae Mikayo"
   },
   "anima": {
    "titreOrphee": "+ Anima",
@@ -6458,7 +6852,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Mukai Natsumi"
   },
   "10th-a-couper-le-souffle": {
    "titreOrphee": "10th : à couper le souffle",
@@ -6469,7 +6864,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Inari Yuko"
   },
   "a-crocs-a-toi": {
    "titreOrphee": "A crocs à toi",
@@ -6478,7 +6874,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Suzuki Julietta"
   },
   "a-sign-of-affection": {
    "titreOrphee": "A sign of affection",
@@ -6498,7 +6895,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Morishita Suu"
   },
   "alice-au-dela-des-etoiles": {
    "titreOrphee": "Alice au-delà des étoiles",
@@ -6507,7 +6905,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Urino Kiko"
   },
   "alice-in-kyoto-forest": {
    "titreOrphee": "Alice in Kyoto Forest",
@@ -6517,7 +6916,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Haruki Niwa"
   },
   "amulet": {
    "titreOrphee": "Amulet",
@@ -6537,7 +6937,8 @@
     "Noyal-sur-Vilaine": [
      7
     ]
-   }
+   },
+   "auteur": "Kibuishi Kazu"
   },
   "animal-crossing-new-horizons-le-journal-de-l-ile": {
    "titreOrphee": "Animal Crossing : New Horizons - Le journal de l'île",
@@ -6556,7 +6957,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Kokonasu Rumba"
   },
   "animal-crossing-new-horizons-l-ile-de-la-detente": {
    "titreOrphee": "Animal Crossing New Horizons : L'île de la détente",
@@ -6566,7 +6968,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kato Minori"
   },
   "animal-kingdom": {
    "titreOrphee": "Animal Kingdom",
@@ -6580,7 +6983,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Raiku Makoto"
   },
   "astro-royale": {
    "titreOrphee": "Astro royale",
@@ -6589,7 +6993,8 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Wakui Ken"
   },
   "aux-cotes-du-dieu-loup": {
    "titreOrphee": "Aux côtés du Dieu-Loup",
@@ -6603,7 +7008,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Yomoko Yamamoto"
   },
   "avatar-le-dernier-maitre-de-l-air": {
    "titreOrphee": "Avatar, le dernier maître de l'air",
@@ -6621,7 +7027,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Kaku Yûji"
   },
   "b-side": {
    "titreOrphee": "B-Side",
@@ -6633,7 +7040,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Hirai Cocoro"
   },
   "bamboo-blade": {
    "titreOrphee": "Bamboo blade",
@@ -6642,7 +7050,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Totsuka Masahiro"
   },
   "barakamon": {
    "titreOrphee": "Barakamon",
@@ -6656,7 +7065,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Yoshino Satsuki"
   },
   "baymax": {
    "titreOrphee": "Baymax",
@@ -6666,7 +7076,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Ueno Haruki"
   },
   "beyblade-metal-fusion": {
    "titreOrphee": "Beyblade metal fusion",
@@ -6678,7 +7089,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Adachi Takafumi"
   },
   "beyond-the-clouds-la-fillette-tombee-du-ciel": {
    "titreOrphee": "Beyond the clouds : la fillette tombée du ciel",
@@ -6691,7 +7103,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Nicke"
   },
   "black-clover": {
    "titreOrphee": "Black Clover",
@@ -6736,7 +7149,8 @@
      36,
      37
     ]
-   }
+   },
+   "auteur": "Tabata Yûki"
   },
   "black-shadow": {
    "titreOrphee": "Black shadow",
@@ -6758,7 +7172,8 @@
      13,
      14
     ]
-   }
+   },
+   "auteur": "Nakao Takuya"
   },
   "blitz": {
    "titreOrphee": "Blitz",
@@ -6777,7 +7192,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Biscay Cédric"
   },
   "blue-box": {
    "titreOrphee": "Blue box",
@@ -6786,7 +7202,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Kouji Miura"
   },
   "blue-lock": {
    "titreOrphee": "Blue lock",
@@ -6826,7 +7243,8 @@
      32,
      33
     ]
-   }
+   },
+   "auteur": "Kaneshiro Muneyuki"
   },
   "boruto-naruto-next-generations": {
    "titreOrphee": "Boruto : Naruto next generations",
@@ -6852,7 +7270,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Kishimoto Masashi"
   },
   "box-qu-y-a-t-il-dans-la-boite": {
    "titreOrphee": "Box : qu'y a-t-il dans la boîte ?",
@@ -6863,7 +7282,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Morohoshi Daijirô"
   },
   "brave-bell": {
    "titreOrphee": "Brave Bell",
@@ -6877,7 +7297,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Meeb"
   },
   "bravest-journey": {
    "titreOrphee": "Bravest Journey",
@@ -6888,7 +7309,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Le Scoul Yoann"
   },
   "buster-keel": {
    "titreOrphee": "Buster Keel !",
@@ -6908,7 +7330,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Sakamoto Kenshiro"
   },
   "captain-tsubasa": {
    "titreOrphee": "Captain Tsubasa",
@@ -6946,7 +7369,8 @@
      22,
      23
     ]
-   }
+   },
+   "auteur": "Takahashi Yoichi"
   },
   "card-captor-sakura": {
    "titreOrphee": "Card Captor Sakura",
@@ -6984,7 +7408,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kamio Yoko"
   },
   "cats": {
    "titreOrphee": "Cats",
@@ -7008,7 +7433,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Kang Hyun-Jun"
   },
   "cats-and-dragon": {
    "titreOrphee": "Cats and Dragon",
@@ -7017,7 +7443,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Amara"
   },
   "chat-de-yakuza": {
    "titreOrphee": "Chat de yakuza",
@@ -7029,7 +7456,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Kamimura Riddle"
   },
   "chat-malgre-moi": {
    "titreOrphee": "Chat malgré moi",
@@ -7043,7 +7471,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Wagata Konomi"
   },
   "chi-une-vie-de-chat": {
    "titreOrphee": "Chi une vie de chat",
@@ -7106,7 +7535,8 @@
      16,
      17
     ]
-   }
+   },
+   "auteur": "Konami Kanata"
   },
   "chibi-vampire-karin": {
    "titreOrphee": "Chibi vampire : Karin",
@@ -7119,7 +7549,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Kagesaki Yuna"
   },
   "chocotan": {
    "titreOrphee": "Chocotan",
@@ -7132,7 +7563,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Takeuchi Kozue"
   },
   "choubi-choubi-mon-chat-pour-la-vie": {
    "titreOrphee": "Choubi-Choubi, mon chat pour la vie",
@@ -7142,7 +7574,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Kanata Konami"
   },
   "choubi-choubi-mon-chat-tout-petit": {
    "titreOrphee": "Choubi-Choubi, mon chat tout petit",
@@ -7152,7 +7585,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kanata Konami"
   },
   "coco-l-ile-magique": {
    "titreOrphee": "Coco - L'île magique",
@@ -7172,7 +7606,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Kotobuki Keisuke"
   },
   "code-breaker": {
    "titreOrphee": "Code breaker",
@@ -7209,7 +7644,8 @@
      "statut": "Perdu",
      "cote": "BD KAM t5"
     }
-   ]
+   ],
+   "auteur": "Kamijo Akimine"
   },
   "crazy-zoo": {
    "titreOrphee": "Crazy Zoo",
@@ -7221,7 +7657,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Horikoshi Kohei"
   },
   "creatures-fantastiques": {
    "titreOrphee": "Créatures fantastiques",
@@ -7233,7 +7670,8 @@
      3,
      5
     ]
-   }
+   },
+   "auteur": "Kaziya"
   },
   "d-gray-man": {
    "titreOrphee": "D. Gray-Man",
@@ -7270,7 +7708,8 @@
      28,
      29
     ]
-   }
+   },
+   "auteur": "Hoshino Katsura"
   },
   "dans-l-ombre-de-creamy": {
    "titreOrphee": "Dans l'ombre de Creamy",
@@ -7285,7 +7724,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Mitsuki Emi"
   },
   "dans-le-premier-train-du-matin": {
    "titreOrphee": "Dans le premier train du matin",
@@ -7295,7 +7735,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Aosaki Yûgo"
   },
   "demon-slayer": {
    "titreOrphee": "Demon slayer",
@@ -7326,7 +7767,8 @@
      22,
      23
     ]
-   }
+   },
+   "auteur": "Gotouge Koyoharu"
   },
   "developpeurs": {
    "titreOrphee": "Développeurs",
@@ -7335,7 +7777,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Arai Harumaki"
   },
   "divines": {
    "titreOrphee": "Divines",
@@ -7345,7 +7788,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Shirahama Kamome"
   },
   "dofus": {
    "titreOrphee": "Dofus",
@@ -7368,7 +7812,8 @@
      14,
      15
     ]
-   }
+   },
+   "auteur": "Tot"
   },
   "doraemon": {
    "titreOrphee": "Doraemon",
@@ -7398,7 +7843,8 @@
      21,
      22
     ]
-   }
+   },
+   "auteur": "Fujiko Fujio"
   },
   "dr-stone": {
    "titreOrphee": "Dr Stone",
@@ -7433,7 +7879,8 @@
      26,
      27
     ]
-   }
+   },
+   "auteur": "Inagaki Riichiro"
   },
   "dragon-ball-sd": {
    "titreOrphee": "Dragon ball SD",
@@ -7451,7 +7898,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Toriyama Akira"
   },
   "dragon-ball-super": {
    "titreOrphee": "Dragon ball super",
@@ -7486,7 +7934,8 @@
     "Noyal-sur-Vilaine": [
      3
     ]
-   }
+   },
+   "auteur": "Toriyama Akira"
   },
   "dragon-quest-la-quete-de-dai": {
    "titreOrphee": "Dragon Quest",
@@ -7496,7 +7945,8 @@
      16,
      22
     ]
-   }
+   },
+   "auteur": "Sanjo Riku"
   },
   "droners-tales-of-nui": {
    "titreOrphee": "Droners",
@@ -7512,7 +7962,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "David Nicolas"
   },
   "en-scene": {
    "titreOrphee": "En scène",
@@ -7535,7 +7986,8 @@
      14,
      15
     ]
-   }
+   },
+   "auteur": "Cuvie"
   },
   "fairy-tail-blue-mistral": {
    "titreOrphee": "Fairy Tail Blue Mistral",
@@ -7547,7 +7999,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Watanabe Rui"
   },
   "felin-pour-l-autre": {
    "titreOrphee": "Félin pour l'autre",
@@ -7561,7 +8014,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Nadatani Wataru"
   },
   "fire-force": {
    "titreOrphee": "Fire force",
@@ -7603,7 +8057,8 @@
      33,
      34
     ]
-   }
+   },
+   "auteur": "Ohkubo Atsushi"
   },
   "fukuneko-les-chats-du-bonheur": {
    "titreOrphee": "Fukuneko, les chats du bonheur",
@@ -7621,7 +8076,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Matsuzawa Mari"
   },
   "galaxias": {
    "titreOrphee": "Galaxias",
@@ -7630,7 +8086,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Ao Hatesaka"
   },
   "gamaran": {
    "titreOrphee": "Gamaran",
@@ -7643,7 +8100,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Nakamaru Yosuke"
   },
   "goldfish": {
    "titreOrphee": "Goldfish",
@@ -7654,7 +8112,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Yaa Nana"
   },
   "green-mechanic": {
    "titreOrphee": "Green Mechanic",
@@ -7663,7 +8122,8 @@
     "Chateaugiron": [
      9
     ]
-   }
+   },
+   "auteur": "Shin Yami"
   },
   "grimms": {
    "titreOrphee": "Grimms",
@@ -7673,7 +8133,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Ishiyama Kei"
   },
   "hachi-maruru-chats-des-rues": {
    "titreOrphee": "Hachi & Maruru, chats des rues",
@@ -7687,7 +8148,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Sonoda Yuri"
   },
   "haikyu-les-as-du-volley-smash-edition": {
    "titreOrphee": "Haikyû !! Les As du volley - Smash édition",
@@ -7716,7 +8178,8 @@
      44,
      45
     ]
-   }
+   },
+   "auteur": "Furudate Haruichi"
   },
   "hamster-et-boule-de-gomme": {
    "titreOrphee": "Hamster et boule de gomme",
@@ -7729,7 +8192,8 @@
     "Domloup": [
      1
     ]
-   }
+   },
+   "auteur": "Hamuhamu"
   },
   "hikari-reve-de-star": {
    "titreOrphee": "Hikari - Rêve de star",
@@ -7745,7 +8209,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Nakahara An"
   },
   "hina-et-bambi": {
    "titreOrphee": "Hina et Bambi",
@@ -7755,7 +8220,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Komaki Maria"
   },
   "horseland": {
    "titreOrphee": "Horseland",
@@ -7779,7 +8245,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Yamamoto Lunlun"
   },
   "imago": {
    "titreOrphee": "Imago",
@@ -7789,7 +8256,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Tirtakusuma Galang"
   },
   "inazuma-eleven-go": {
    "titreOrphee": "Inazuma eleven go",
@@ -7804,7 +8272,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Yabuno Ten'ya"
   },
   "jojo-s-bizarre-adventure-steel-ball-run": {
    "titreOrphee": "Jojo's bizarre adventure - Steel Ball Run",
@@ -7815,7 +8284,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Araki Hirohiko"
   },
   "jujutsu-kaisen": {
    "titreOrphee": "Jujutsu kaisen",
@@ -7854,7 +8324,8 @@
      29,
      30
     ]
-   }
+   },
+   "auteur": "Akutami Gege"
   },
   "kamikaze-kaito-jeanne": {
    "titreOrphee": "Kamikaze kaito Jeanne",
@@ -7869,7 +8340,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Tanemura Arina"
   },
   "kingdom-hearts": {
    "titreOrphee": "Kingdom Hearts",
@@ -7885,7 +8357,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Amano Shiro"
   },
   "koko-debut": {
    "titreOrphee": "Koko debut",
@@ -7896,7 +8369,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kawahara Kazune"
   },
   "kuma-kuma-kuma-bear": {
    "titreOrphee": "Kuma Kuma Kuma bear",
@@ -7914,7 +8388,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Sergei"
   },
   "kuro": {
    "titreOrphee": "Kuro",
@@ -7925,7 +8400,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "So-ma-to"
   },
   "kuro-un-coeur-de-chat": {
    "titreOrphee": "Kuro, un coeur de chat",
@@ -7935,7 +8411,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Sugisaku"
   },
   "kushi": {
    "titreOrphee": "Kushi",
@@ -7951,7 +8428,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Marty Patrick"
   },
   "agence-de-detectives-layton-katrielle-et-les-enquetes-mysterieuses": {
    "titreOrphee": "L'agence de détectives Layton : Katrielle et les enquêtes mystérieuses",
@@ -7961,7 +8439,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Orito Kahori"
   },
   "atelier-des-fees": {
    "titreOrphee": "L'Atelier des fées",
@@ -7971,7 +8450,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Wakita Akane"
   },
   "eden-des-sorcieres": {
    "titreOrphee": "L'Eden des sorcières",
@@ -7981,7 +8461,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Yumeji"
   },
   "etrange-noel-de-zero": {
    "titreOrphee": "L'étrange Noël de Zéro",
@@ -7991,7 +8472,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "DJ Milky"
   },
   "histoire-en-manga": {
    "titreOrphee": "L'histoire en manga",
@@ -8005,7 +8487,8 @@
      2,
      4
     ]
-   }
+   },
+   "auteur": "Shirotsumekusa"
   },
   "balade-de-yaya": {
    "titreOrphee": "La Balade de Yaya",
@@ -8042,7 +8525,8 @@
      8,
      9
     ]
-   }
+   },
+   "auteur": "Omont Jean-Marie"
   },
   "chanson-de-lala": {
    "titreOrphee": "La Chanson de Lala",
@@ -8052,7 +8536,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kohno Sui"
   },
   "confrerie-des-lions-blancs": {
    "titreOrphee": "La confrérie des lions blancs",
@@ -8062,7 +8547,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Takahashi Natsuko"
   },
   "fiancee-du-clan-kyougane": {
    "titreOrphee": "La Fiancée du clan Kyougane",
@@ -8071,7 +8557,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Hino Anju"
   },
   "petite-faiseuse-de-livres-ascendance-of-a-bookworm": {
    "titreOrphee": "La petite faiseuse de livres : ascendance of a bookworm",
@@ -8086,7 +8573,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Kazuki Miya"
   },
   "princesse-vagabonde": {
    "titreOrphee": "La princesse vagabonde",
@@ -8096,7 +8584,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Xia Da"
   },
   "sorciere-aux-champignons": {
    "titreOrphee": "La sorcière aux champignons",
@@ -8110,7 +8599,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Higuchi Tachibana"
   },
   "chateau-ambulant": {
    "titreOrphee": "Le Château ambulant",
@@ -8122,7 +8612,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Miyazaki Hayao"
   },
   "chateau-solitaire-dans-le-miroir": {
    "titreOrphee": "Le château solitaire dans le miroir",
@@ -8135,7 +8626,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Tsujimura Mizuki"
   },
   "destin-de-la-princesse-sirene": {
    "titreOrphee": "Le Destin de la Princesse Sirène",
@@ -8144,7 +8636,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Fumikawa Yoshino"
   },
   "diable-s-habille-en-papa": {
    "titreOrphee": "Le diable s'habille en papa",
@@ -8153,7 +8646,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Segawa Ryuu"
   },
   "fantastique-voyage-de-nicola-au-pays-des-demons": {
    "titreOrphee": "Le fantastique voyage de Nicola au pays des démons",
@@ -8165,7 +8659,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Miyanaga Asaya"
   },
   "fantome-de-l-opera": {
    "titreOrphee": "Le fantôme de l'opéra",
@@ -8176,7 +8671,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Nanao Mio"
   },
   "gout-des-retrouvailles": {
    "titreOrphee": "Le goût des retrouvailles",
@@ -8187,7 +8683,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Itoi Nozo"
   },
   "journal-de-mobu": {
    "titreOrphee": "Le journal de Mobu",
@@ -8196,7 +8693,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Lam Kathy"
   },
   "maitre-magicien-negima-neo": {
    "titreOrphee": "Le maître magicien Negima !? Neo",
@@ -8206,7 +8704,8 @@
      4,
      6
     ]
-   }
+   },
+   "auteur": "Fujima Takuya"
   },
   "paradis-des-chiens": {
    "titreOrphee": "Le paradis des chiens",
@@ -8218,7 +8717,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Tatsuyama Sayuri"
   },
   "renard-et-le-petit-tanuki": {
    "titreOrphee": "Le renard et le petit tanuki",
@@ -8242,7 +8742,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Tagawa Mi"
   },
   "secret-de-madoka": {
    "titreOrphee": "Le secret de Madoka",
@@ -8251,7 +8752,8 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Kingyobachi Deme"
   },
   "souffle-des-legendes": {
    "titreOrphee": "Le souffle des légendes",
@@ -8261,7 +8763,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Hazumi Tsukasa"
   },
   "voyage-de-chihiro": {
    "titreOrphee": "Le voyage de Chihiro",
@@ -8274,7 +8777,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Miyazaki Hayao"
   },
   "xxe-siecle-en-manga": {
    "titreOrphee": "Le XXe siècle en manga",
@@ -8283,7 +8787,8 @@
     "Piré-Chancé": [
      4
     ]
-   }
+   },
+   "auteur": "Irisawa Noriyuki"
   },
   "chaventures-de-tai-mamie-sue": {
    "titreOrphee": "Les chaventures de Taï & Mamie Sue",
@@ -8301,7 +8806,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Konami Kanata"
   },
   "chaventures-de-tai-et-mamie-sue": {
    "titreOrphee": "Les Chaventures de Taï et Mamie Sue",
@@ -8314,7 +8820,8 @@
     "St-Aubin du Pavail": [
      5
     ]
-   }
+   },
+   "auteur": "Kanata Konami"
   },
   "enfants-loups-ame-yuki": {
    "titreOrphee": "Les enfants loups : Ame & Yuki",
@@ -8325,7 +8832,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Watase Yuu"
   },
   "heritiers-d-agione": {
    "titreOrphee": "Les héritiers d'Agïone",
@@ -8336,7 +8844,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Tpiu"
   },
   "petits-en-cas-de-monsieur-matcha": {
    "titreOrphee": "Les petits en-cas de Monsieur Matcha",
@@ -8346,7 +8855,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Horokura Sato"
   },
   "petits-velos": {
    "titreOrphee": "Les petits vélos",
@@ -8358,7 +8868,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Koyama Keiko"
   },
   "quatre-freres-yuzuki": {
    "titreOrphee": "Les quatre frères Yuzuki",
@@ -8384,7 +8895,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Fujisawa Shizuki"
   },
   "secrets-de-lea": {
    "titreOrphee": "Les secrets de Léa",
@@ -8396,7 +8908,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Yabuuchi Yu"
   },
   "letter-bee": {
    "titreOrphee": "Letter Bee",
@@ -8415,7 +8928,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Asada Hiroyuki"
   },
   "lights-drag-action": {
    "titreOrphee": "Lights, Drag, Action !",
@@ -8424,7 +8938,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Hugh Kam"
   },
   "liselotte-et-la-foret-des-sorcieres": {
    "titreOrphee": "LISELOTTE et la forêt des sorcières",
@@ -8444,7 +8959,8 @@
      "statut": "Perdu",
      "cote": "BDJ TAK T1"
     }
-   ]
+   ],
+   "auteur": "Takaya Natsuki"
   },
   "little-witch-academia": {
    "titreOrphee": "Little witch academia",
@@ -8455,7 +8971,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Sato Keisuke"
   },
   "lonely-world": {
    "titreOrphee": "Lonely world",
@@ -8468,7 +8985,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Iwatobineko"
   },
   "louve": {
    "titreOrphee": "Louve",
@@ -8480,7 +8998,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Miiya Miyako"
   },
   "love-mix-up": {
    "titreOrphee": "Love Mix-Up",
@@ -8496,7 +9015,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Hinekure Wataru"
   },
   "lovely-hair": {
    "titreOrphee": "Lovely hair",
@@ -8512,7 +9032,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Toyama Ema"
   },
   "lucika-lucika": {
    "titreOrphee": "Lucika Lucika",
@@ -8535,7 +9056,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Abe Yoshitoshi"
   },
   "lusky-mon-ami-pour-la-vie": {
    "titreOrphee": "Lusky",
@@ -8548,7 +9070,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Wagata Konomi"
   },
   "ma-mamie-adoree": {
    "titreOrphee": "Ma mamie adorée",
@@ -8564,7 +9087,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Honma Junko"
   },
   "mafia-dating-sim": {
    "titreOrphee": "Mafia Dating Sim",
@@ -8573,7 +9097,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Amekawa Touko"
   },
   "mar": {
    "titreOrphee": "Mär",
@@ -8586,7 +9111,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Anzai Nobuyuki"
   },
   "mar-omega": {
    "titreOrphee": "Mär omega",
@@ -8598,7 +9124,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Hoshino Koichiro"
   },
   "memesis": {
    "titreOrphee": "Memesis",
@@ -8610,7 +9137,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Yagyû Takuya"
   },
   "mes-voisins-les-esprits": {
    "titreOrphee": "Mes voisins les esprits",
@@ -8620,7 +9148,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Shirotori Ushio"
   },
   "miaou-le-quotidien-de-moustic": {
    "titreOrphee": "Miaou ! Le quotidien de Moustic",
@@ -8632,7 +9161,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Kakio Minori"
   },
   "mimizuku-et-le-roi-de-la-nuit": {
    "titreOrphee": "Mimizuku et le roi de la nuit",
@@ -8644,7 +9174,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Suzuki Yû"
   },
   "minuscule": {
    "titreOrphee": "Minuscule",
@@ -8678,7 +9209,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Kashiki Takuto"
   },
   "miraculous": {
    "titreOrphee": "Miraculous",
@@ -8689,7 +9221,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Warita Koma"
   },
   "miss-marvel": {
    "titreOrphee": "Miss Marvel",
@@ -8702,7 +9235,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Wilson G. Willow"
   },
   "mission-yozakura-family": {
    "titreOrphee": "Mission : Yozakura family",
@@ -8736,7 +9270,8 @@
      25,
      26
     ]
-   }
+   },
+   "auteur": "Gondaira Hitsuji"
   },
   "mochi-et-compagnie": {
    "titreOrphee": "Mochi et compagnie",
@@ -8751,12 +9286,14 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Shinozuka Hiromu"
   },
   "mofusand": {
    "titreOrphee": "Mofusand",
    "editeur": "Soleil Productions",
-   "tomes": {}
+   "tomes": {},
+   "auteur": "Mofusand"
   },
   "momo-et-ichi-petits-esprits-de-la-campagne": {
    "titreOrphee": "Momo et Ichi : Petits esprits de la campagne",
@@ -8770,7 +9307,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kumicho"
   },
   "momo-et-le-messager-du-soleil": {
    "titreOrphee": "Momo et le messager du soleil",
@@ -8782,7 +9320,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Sasano Marie"
   },
   "mon-amie-des-tenebres": {
    "titreOrphee": "Mon amie des ténèbres",
@@ -8810,7 +9349,8 @@
      19,
      20
     ]
-   }
+   },
+   "auteur": "Kawamura Taku"
   },
   "monsieur-mechant-va-detruire-la-terre-apres-ses-conges": {
    "titreOrphee": "Monsieur Méchant va détruire la terre (après ses congés)",
@@ -8824,7 +9364,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Morikawa Yuu"
   },
   "moon-et-iro": {
    "titreOrphee": "Moon et Iro",
@@ -8834,7 +9375,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Wonsanji"
   },
   "my-fair-honey-boy": {
    "titreOrphee": "My fair honey boy",
@@ -8843,7 +9385,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Ike Junko"
   },
   "my-happy-marriage": {
    "titreOrphee": "My happy marriage",
@@ -8856,7 +9399,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Agitogi Akumi"
   },
   "nanja-monja": {
    "titreOrphee": "Nanja Monja+",
@@ -8870,7 +9414,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Ito Shizuka"
   },
   "naruto": {
    "titreOrphee": "Naruto",
@@ -8979,7 +9524,8 @@
      1,
      30
     ]
-   }
+   },
+   "auteur": "Kishimoto Masashi"
   },
   "naruto-sasuke-retsuden": {
    "titreOrphee": "Naruto - Sasuke Retsuden",
@@ -8989,7 +9535,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kimura Shingo"
   },
   "nichijo": {
    "titreOrphee": "Nichijô",
@@ -8998,7 +9545,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Arawi Keiichi"
   },
   "nikuko-du-port-de-peche": {
    "titreOrphee": "Nikuko du port de pêche",
@@ -9008,7 +9556,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Nishi Kanako"
   },
   "nos-coeurs-de-chats": {
    "titreOrphee": "Nos Coeurs de Chats",
@@ -9017,7 +9566,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Otokawa Akari"
   },
   "nova": {
    "titreOrphee": "Nova",
@@ -9029,7 +9579,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Caly"
   },
   "nova-et-la-foret-des-monstres": {
    "titreOrphee": "Nova et la forêt des monstres",
@@ -9038,7 +9589,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Kamatama"
   },
   "ochibi-et-ses-amis": {
    "titreOrphee": "Ochibi et ses amis",
@@ -9048,7 +9600,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Anno Moyoco"
   },
   "pan-pan-panda": {
    "titreOrphee": "Pan'pan panda",
@@ -9057,7 +9610,8 @@
     "Domloup": [
      1
     ]
-   }
+   },
+   "auteur": "Horokura Sato"
   },
   "perfect-world": {
    "titreOrphee": "Perfect world",
@@ -9077,7 +9631,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Aruga Rie"
   },
   "petit-requin": {
    "titreOrphee": "Petit Requin",
@@ -9093,7 +9648,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Penguin Box"
   },
   "pink-diary": {
    "titreOrphee": "Pink Diary",
@@ -9109,7 +9665,8 @@
      7,
      8
     ]
-   }
+   },
+   "auteur": "Jenny"
   },
   "plum-un-amour-de-chat": {
    "titreOrphee": "Plum, un amour de chat",
@@ -9139,7 +9696,8 @@
      21,
      22
     ]
-   }
+   },
+   "auteur": "Hoshino Natsumi"
   },
   "pokemon-epee-et-bouclier": {
    "titreOrphee": "Pokémon : Epée et bouclier",
@@ -9154,7 +9712,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Kusaka Hidenori"
   },
   "pokemon-la-grande-aventure-diamant-et-perle": {
    "titreOrphee": "Pokémon : la grande aventure : Diamant et Perle",
@@ -9166,7 +9725,8 @@
      3,
      5
     ]
-   }
+   },
+   "auteur": "Kusaka Hidenori"
   },
   "pokemon-soleil-et-lune": {
    "titreOrphee": "Pokémon : Soleil et Lune",
@@ -9179,7 +9739,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Kusaka Hidenori"
   },
   "pokemon-ecarlate-et-violet": {
    "titreOrphee": "Pokemon Ecarlate et Violet",
@@ -9190,7 +9751,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kusaka Hidenori"
   },
   "pokemon-la-grande-aventure": {
    "titreOrphee": "Pokémon la grande aventure",
@@ -9200,7 +9762,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Kusaka Hidenori"
   },
   "pokemon-xy": {
    "titreOrphee": "Pokemon XY",
@@ -9214,7 +9777,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Kusaka Hidenori"
   },
   "power-gamer-adventure": {
    "titreOrphee": "Power gamer adventure",
@@ -9226,7 +9790,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Seto Kazuyoshi"
   },
   "princesse-kilala": {
    "titreOrphee": "Princesse Kilala",
@@ -9239,7 +9804,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Tanaka Rika"
   },
   "princesse-mononoke": {
    "titreOrphee": "Princesse Mononoke",
@@ -9251,7 +9817,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Miyazaki Hayao"
   },
   "principal": {
    "titreOrphee": "Principal",
@@ -9260,7 +9827,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Ikuemi Ryo"
   },
   "promenons-nous-dans-l-espace": {
    "titreOrphee": "Promenons-nous dans l'espace",
@@ -9269,7 +9837,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Doronoda Inuhiko"
   },
   "quand-takagi-me-taquine": {
    "titreOrphee": "Quand Takagi me taquine",
@@ -9297,7 +9866,8 @@
      19,
      20
     ]
-   }
+   },
+   "auteur": "Yamamoto Soichiro"
   },
   "qui-suis-je-pour-t-aimer": {
    "titreOrphee": "Qui suis-je pour t'aimer ?",
@@ -9308,7 +9878,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Inari Yûko"
   },
   "roji": {
    "titreOrphee": "Roji !",
@@ -9348,7 +9919,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Kotobuki Keisuke"
   },
   "running-girl-ma-course-vers-les-paralympiques": {
    "titreOrphee": "Running girl : ma course vers les paralympiques",
@@ -9359,7 +9931,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Shigematsu Narumi"
   },
   "sailor-moon": {
    "titreOrphee": "Sailor Moon",
@@ -9376,7 +9949,8 @@
      "statut": "Perdu",
      "cote": "ME SAI"
     }
-   ]
+   ],
+   "auteur": "Takeuchi Naoko"
   },
   "sailor-moon-pretty-guardian": {
    "titreOrphee": "Sailor Moon : pretty guardian",
@@ -9395,7 +9969,8 @@
      11,
      12
     ]
-   }
+   },
+   "auteur": "Takeuchi Naoko"
   },
   "saint-seiya-les-chevaliers-du-zodiaque": {
    "titreOrphee": "Saint Seiya : les chevaliers du zodiaque",
@@ -9409,7 +9984,8 @@
      5,
      6
     ]
-   }
+   },
+   "auteur": "Kurumada Masami"
   },
   "sakura-saku": {
    "titreOrphee": "Sakura Saku",
@@ -9421,7 +9997,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Sakisaka Io"
   },
   "save-me-pythie": {
    "titreOrphee": "Save me Pythie",
@@ -9434,7 +10011,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Brants Elsa"
   },
   "secrets-of-magical-stones": {
    "titreOrphee": "Secrets of Magical Stones",
@@ -9444,7 +10022,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Marimuu"
   },
   "seki-mon-voisin-de-classe": {
    "titreOrphee": "Séki mon voisin de classe",
@@ -9456,7 +10035,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Morishige Takuma"
   },
   "seven-deadly-sins": {
    "titreOrphee": "Seven deadly sins",
@@ -9469,7 +10049,8 @@
      4,
      5
     ]
-   }
+   },
+   "auteur": "Suzuki Nakaba"
   },
   "shiba-inu-rooms": {
    "titreOrphee": "Shiba Inu Rooms",
@@ -9484,7 +10065,8 @@
     "Domloup": [
      1
     ]
-   }
+   },
+   "auteur": "Oomori Esu"
   },
   "shiita-et-la-foret-des-minuscules": {
    "titreOrphee": "Shiita et la forêt des minuscules",
@@ -9500,7 +10082,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Kamba Yuki"
   },
   "shirayuki-aux-cheveux-rouges": {
    "titreOrphee": "Shirayuki aux cheveux rouges",
@@ -9514,7 +10097,8 @@
      5,
      7
     ]
-   }
+   },
+   "auteur": "Akizuki Sorata"
   },
   "show-ha-shoten": {
    "titreOrphee": "Show-ha Shoten !",
@@ -9523,7 +10107,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Asakura Akinari"
   },
   "shugo-chara": {
    "titreOrphee": "Shugo Chara !",
@@ -9535,7 +10120,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Peach-Pit"
   },
   "snack-world": {
    "titreOrphee": "Snack world",
@@ -9549,7 +10135,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Sho.t"
   },
   "sounds-of-life": {
    "titreOrphee": "Sounds of life",
@@ -9567,7 +10154,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Amu"
   },
   "spider-man": {
    "titreOrphee": "Spider-Man",
@@ -9580,7 +10168,8 @@
      "statut": "À pilonner",
      "cote": "BDC BEN"
     }
-   ]
+   ],
+   "auteur": "Bendis Brian Michael"
   },
   "splatoon": {
    "titreOrphee": "Splatoon",
@@ -9598,7 +10187,8 @@
      9,
      10
     ]
-   }
+   },
+   "auteur": "Hinodeya Sankichi"
   },
   "star-wars-rebels": {
    "titreOrphee": "Star Wars Rebels",
@@ -9609,7 +10199,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Aoki Mitsuru"
   },
   "street-fighting-cat": {
    "titreOrphee": "Street fighting cat",
@@ -9621,7 +10212,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "SP Nakatema"
   },
   "super-mario-manga-adventures": {
    "titreOrphee": "Super Mario-Manga Adventures",
@@ -9636,7 +10228,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Sawada Yukio"
   },
   "the-legend-of-zelda-twilight-princess": {
    "titreOrphee": "The Legend of Zelda - Twilight Princess",
@@ -9655,7 +10248,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Himekawa Akira"
   },
   "the-promised-neverland": {
    "titreOrphee": "The promised Neverland",
@@ -9683,7 +10277,8 @@
      19,
      20
     ]
-   }
+   },
+   "auteur": "Shirai Kaiu"
   },
   "the-regalia-of-the-underdog": {
    "titreOrphee": "The Regalia of the Underdog",
@@ -9692,7 +10287,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Shinachiku"
   },
   "the-sound-of-my-soul": {
    "titreOrphee": "The sound of my soul",
@@ -9707,7 +10303,8 @@
     "Piré-Chancé": [
      1
     ]
-   }
+   },
+   "auteur": "Saito Rin"
   },
   "the-unexpected-goddess": {
    "titreOrphee": "The Unexpected Goddess",
@@ -9718,7 +10315,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Arima Tsukasa"
   },
   "toto": {
    "titreOrphee": "Toto !",
@@ -9728,7 +10326,8 @@
      1,
      2
     ]
-   }
+   },
+   "auteur": "Osada Yuko"
   },
   "tsubasa": {
    "titreOrphee": "Tsubasa",
@@ -9757,7 +10356,8 @@
      3,
      4
     ]
-   }
+   },
+   "auteur": "Toboso Yana"
   },
   "two-f-aced-tamon": {
    "titreOrphee": "Two F/aced Tamon",
@@ -9776,7 +10376,8 @@
      10,
      11
     ]
-   }
+   },
+   "auteur": "Shiwasu Yuki"
   },
   "whale-star": {
    "titreOrphee": "Whale Star",
@@ -9785,7 +10386,8 @@
     "Chateaugiron": [
      1
     ]
-   }
+   },
+   "auteur": "Na Yoonhee"
   },
   "yaiba": {
    "titreOrphee": "Yaiba",
@@ -9802,7 +10404,8 @@
      14,
      15
     ]
-   }
+   },
+   "auteur": "Aoyama Gosho"
   },
   "yo-kai-watch": {
    "titreOrphee": "Yo-kai watch",
@@ -9833,7 +10436,8 @@
      22,
      23
     ]
-   }
+   },
+   "auteur": "Konishi Noriyuki"
   },
   "yokai-war-guardians": {
    "titreOrphee": "Yôkai War - Guardians",
@@ -9844,7 +10448,8 @@
      2,
      3
     ]
-   }
+   },
+   "auteur": "Suzuki Sanami"
   },
   "yoshi-s-new-island": {
    "titreOrphee": "Yoshi's new island",
@@ -9853,7 +10458,8 @@
     "Servon-sur-Vilaine": [
      1
     ]
-   }
+   },
+   "auteur": "Sawada Yukio"
   },
   "yotsuba": {
    "titreOrphee": "Yotsuba",
@@ -9893,7 +10499,8 @@
      13,
      16
     ]
-   }
+   },
+   "auteur": "Azuma Kiyohiko"
   },
   "yuzu-la-petite-veterinaire": {
    "titreOrphee": "Yuzu, la petite vétérinaire",
@@ -9917,7 +10524,8 @@
      6,
      7
     ]
-   }
+   },
+   "auteur": "Itô Mingo"
   },
   "zozo-zombie": {
    "titreOrphee": "Zozo zombie",
@@ -9954,7 +10562,8 @@
     "Domloup": [
      9
     ]
-   }
+   },
+   "auteur": "Nagatoshi Yasunari"
   }
  },
  "anomalies": [

@@ -218,7 +218,7 @@ export function construireFonds(exemplaires, series, meta = {}) {
   const bibsVues = new Set();
 
   const assurer = (id, ex) => {
-    if (!fonds[id]) fonds[id] = { titreOrphee: titreNaturel(ex.titreBrut.split("\n")[0]), editeur: "", tomes: {}, hs: {}, retires: [] };
+    if (!fonds[id]) fonds[id] = { titreOrphee: titreNaturel(ex.titreBrut.split("\n")[0]), editeur: "", auteur: "", tomes: {}, hs: {}, retires: [] };
     if (!stats[id]) stats[id] = { prets: {}, empruntes: {}, reserves: {}, exemplaires: {} };
     return fonds[id];
   };
@@ -251,6 +251,8 @@ export function construireFonds(exemplaires, series, meta = {}) {
     }
     const f = assurer(id, ex);
     if (!f.editeur && ex.editeur) f.editeur = ex.editeur;
+    if (!f.auteur && ex.auteur) f.auteur = ex.auteur;
+    if (/^WT\b/i.test(ex.cote)) f.webtoon = true; // cote « WT … » : webtoon
     const st = stats[id];
     const tome = parseTome(ex.tomeBrut, ex.album);
     if (tome.type === "inconnu") {
@@ -284,6 +286,7 @@ export function construireFonds(exemplaires, series, meta = {}) {
   for (const f of Object.values(fonds)) {
     if (!Object.keys(f.hs).length) delete f.hs;
     if (!f.retires.length) delete f.retires;
+    if (!f.auteur) delete f.auteur;
   }
 
   return {
@@ -325,7 +328,7 @@ export function dernierBnf(bnf) {
  */
 export function infosParution(serie, enr, maintenant = Date.now()) {
   const man = serie.manuel || {};
-  const al = enr?.anilist && !enr.anilist.rejete ? enr.anilist : null;
+  const al = enr?.anilist && !enr.anilist.rejete && !enr.anilist.auteurDifferent ? enr.anilist : null;
   const bnf = enr?.bnf || null;
   const leg = serie.ancien || {};
 
@@ -349,7 +352,13 @@ export function infosParution(serie, enr, maintenant = Date.now()) {
         if (sourceParus === "bnf" && Number.isFinite(dernier) && maintenant - dernier > 24 * MOIS) {
           etat = "Arrêtée en France ?"; doute = true;
         } else etat = "En cours";
-      } else if (!totalVO) { etat = "Terminée"; doute = parus === null; }
+      } else if (!totalVO) {
+        // VO terminée sans nombre de tomes connu (fréquent pour les webtoons, publiés en ligne) :
+        // si un tome est encore sorti en France ces 18 derniers mois, l'édition française continue sans doute.
+        const dernier = bnf?.dateDernier ? Date.parse(bnf.dateDernier) : NaN;
+        if (Number.isFinite(dernier) && maintenant - dernier < 18 * MOIS) etat = "En cours";
+        else { etat = "Terminée"; doute = parus === null; }
+      }
       else { etat = "En cours"; doute = true; }
     } else if (al.statut === "RELEASING") etat = "En cours";
     else if (al.statut === "HIATUS") etat = "En pause";

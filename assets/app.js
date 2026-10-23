@@ -122,10 +122,10 @@ function calculer() {
       if (!setRes.has(i)) manquantsReseau.push(i);
     }
     const st = etat.stats?.series?.[s.id];
-    const al = enr?.anilist && !enr.anilist.rejete ? enr.anilist : null;
+    const al = enr?.anilist && !enr.anilist.rejete && !enr.anilist.auteurDifferent ? enr.anilist : null;
     return {
       s, f, enr, info, ici, reseau, statut, manquantsIci, manquantsReseau,
-      genre: s.genre || al?.demographie || "",
+      genre: s.genre || (f?.webtoon ? "Webtoon" : "") || al?.demographie || "",
       genreAuto: !s.genre && !!al?.demographie,
       presence: C.presence(f, bib),
       prets: st ? somme(st.prets) : null,
@@ -187,7 +187,7 @@ function urlsCouv(v) {
   // couverture française (BnF ou Open Library), réduite et rangée dans le dépôt
   const fr = v.enr?.couvFR;
   if (fr) { const u = `couvertures/${encodeURIComponent(v.s.id)}.jpg?v=${fr.maj || ""}`; return { petite: u, grande: u, fr: true }; }
-  const al = v.enr?.anilist && !v.enr.anilist.rejete ? v.enr.anilist : null;
+  const al = v.enr?.anilist && !v.enr.anilist.rejete && !v.enr.anilist.auteurDifferent ? v.enr.anilist : null;
   if (!al?.image) return null;
   return { petite: al.image, grande: al.imageGrande || al.image.replace("/cover/small/", "/cover/medium/") };
 }
@@ -355,6 +355,8 @@ function ligneSerie(v) {
 // Fiche série
 // ---------------------------------------------------------------------------
 
+const PAYS = { JP: "au Japon", KR: "en Corée", CN: "en Chine", TW: "à Taïwan" };
+const enVO = (al) => PAYS[al?.pays] || "en version originale";
 const ETATS_AL = { FINISHED: "terminée", RELEASING: "en cours", HIATUS: "en pause", CANCELLED: "annulée", NOT_YET_RELEASED: "pas encore commencée" };
 
 function phraseStatut(v) {
@@ -363,7 +365,8 @@ function phraseStatut(v) {
   const al = v.enr?.anilist;
   const morceaux = [];
   if (al && !al.rejete && al.statut) {
-    morceaux.push(`Au Japon, la série est ${ETATS_AL[al.statut] || al.statut}${info.totalVO ? ` (${pluriel(info.totalVO, "tome")})` : ""}.`);
+    const ou = enVO(al);
+    morceaux.push(`${ou.charAt(0).toUpperCase() + ou.slice(1)}, la série est ${ETATS_AL[al.statut] || al.statut}${info.totalVO ? ` (${pluriel(info.totalVO, "tome")})` : al.pays === "KR" || al.pays === "CN" ? " (publication en ligne)" : ""}.`);
   }
   if (info.parus !== null) {
     morceaux.push(`${pluriel(info.parus, "tome paru", "tomes parus")} en France${info.dateDernier ? `, le dernier en ${moisFr(info.dateDernier)}` : ""}${info.aVenir ? `, ${info.aVenir} encore à venir` : ""}.`);
@@ -396,7 +399,7 @@ function ouvrirFiche(id) {
     const cls = b === bib ? ' class="moi"' : "";
     return `<dt${cls}>${h(b)}</dt><dd${cls}>${l.length ? h(C.listeCompacte(l)) : "Aucun tome"}${hs ? `, + ${pluriel(hs, "hors-série")}` : ""}</dd>`;
   }).join("");
-  const al = v.enr?.anilist && !v.enr.anilist.rejete ? v.enr.anilist : null;
+  const al = v.enr?.anilist && !v.enr.anilist.rejete && !v.enr.anilist.auteurDifferent ? v.enr.anilist : null;
   const bnf = v.enr?.bnf;
   const st = etat.stats?.series?.[s.id];
   const L = s.liens || {};
@@ -437,7 +440,7 @@ function ouvrirFiche(id) {
     <details class="repli">
       <summary>Sources et liens</summary>
       <div class="sources">
-        <p><strong>Japon</strong> : ${al ? `série ${h(ETATS_AL[al.statut] || "?")}${al.volumes ? ` en ${pluriel(al.volumes, "tome")}` : ""}, d'après AniList (« ${h(al.titre)} »)${al.auto ? ", reliée automatiquement" : ""}.` : "série pas encore reliée à AniList. Colle son adresse dans « Modifier la série »."}</p>
+        <p><strong>VO</strong> : ${al ? `${h(enVO(al))}, série ${h(ETATS_AL[al.statut] || "?")}${al.volumes ? ` en ${pluriel(al.volumes, "tome")}` : ""}, d'après AniList (« ${h(al.titre)} »)${al.auto ? ", reliée automatiquement" : ""}.` : "série pas encore reliée à AniList. Colle son adresse dans « Modifier la série »."}</p>
         <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}</p>
         ${s.ancien && (s.ancien.total || s.ancien.etat) ? `<p><strong>Ancien Excel</strong> : ${s.ancien.total ? pluriel(s.ancien.total, "tome") : ""}${s.ancien.etat ? `, ${h(s.ancien.etat.toLowerCase())}` : ""}${s.ancien.annee ? `, dernière parution en ${s.ancien.annee}` : ""}.</p>` : ""}
         <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `édition française, tome ${v.enr.couvFR.tome}, d'après ${v.enr.couvFR.source === "BnF" ? "la BnF" : "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
@@ -628,7 +631,7 @@ function controles() {
   const nouvelles = etat.vues.filter((v) => v.s.ajout || v.s.nouvelle);
   const auDela = etat.vues.filter((v) => v.info.parus !== null && v.info.sourceParus !== "manuel" && v.reseau.length && v.reseau[v.reseau.length - 1] > v.info.parus);
   const anomalies = (etat.fonds.anomalies || []);
-  const aRelier = mes.filter((v) => !v.s.liens?.anilist && (!v.enr?.anilist || v.enr.anilist.auto && (v.enr.anilist.score ?? 1) < 0.9) && v.s.genre !== "Comics" && v.s.type !== "One shot");
+  const aRelier = mes.filter((v) => !v.s.liens?.anilist && (!v.enr?.anilist || v.enr.anilist.auteurDifferent || v.enr.anilist.auto && (v.enr.anilist.score ?? 1) < 0.9) && v.s.genre !== "Comics" && v.s.type !== "One shot");
   const incomplet = mes.filter((v) => !v.genre || !v.s.public);
   return { commandesRecues, sansExemplaire, nouvelles, auDela, anomalies, aRelier, incomplet, bib };
 }
@@ -665,7 +668,7 @@ function rendreControles() {
       "Trouvées dans Orphée lors d'un import. Vérifie le titre et complète le genre. Si c'est une série déjà connue sous un autre nom, relie-la depuis « Sans exemplaire au dernier import ».", true),
     bloc("Exemplaires sans numéro de tome", c.anomalies.map((a) => li(a.serie, a.titre, `${court(a.bib)}, cote ${a.cote || "?"}`)),
       "Ils ne sont pas comptés, car le champ tome est vide dans Orphée.", true),
-    bloc(`Séries de ${h(bib)} à relier à AniList`, c.aRelier.map((v) => li(v.s.id, v.s.titre, v.enr?.anilist ? `Proposition : ${v.enr.anilist.titre}` : "")),
+    bloc(`Séries de ${h(bib)} à relier à AniList`, c.aRelier.map((v) => li(v.s.id, v.s.titre, v.enr?.anilist ? `Proposition : ${v.enr.anilist.titre}${v.enr.anilist.auteurDifferent ? ", mais l'auteur ne correspond pas" : ""}` : "")),
       "Sans ce lien, Suivixo ne sait pas où en est la série au Japon. Ouvre la fiche, cherche la série sur anilist.co et colle son adresse dans « Modifier la série »."),
     bloc("Plus de tomes que de tomes parus", c.auDela.map((v) => li(v.s.id, v.s.titre, `Le réseau va jusqu'au tome ${v.reseau[v.reseau.length - 1]}, la source dit ${pluriel(v.info.parus, "tome paru", "tomes parus")}`)),
       "Le nombre de tomes parus n'est plus à jour. Corrige-le dans la fiche si la vérification automatique ne le fait pas."),

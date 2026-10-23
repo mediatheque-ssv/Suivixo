@@ -100,7 +100,7 @@ def http(url: str, data: bytes | None = None, headers: dict | None = None, essai
 
 # --------------------------------------------------------------------------- AniList
 
-CHAMPS = "id title { romaji english native } synonyms status volumes chapters format countryOfOrigin genres tags { name rank } coverImage { medium large } siteUrl"
+CHAMPS = "id title { romaji english native } synonyms status volumes chapters format countryOfOrigin genres tags { name rank } coverImage { medium large } siteUrl staff(perPage: 8) { edges { role node { name { full native alternative } } } }"
 Q_ID = "query ($id: Int) { Media(id: $id, type: MANGA) { %s } }" % CHAMPS
 Q_CHERCHE = "query ($q: String) { Page(perPage: 8) { media(search: $q, type: MANGA, sort: SEARCH_MATCH) { %s } } }" % CHAMPS
 DEMOGRAPHIES = {"Shounen": "Shonen", "Seinen": "Seinen", "Shoujo": "Shojo", "Josei": "Josei", "Kids": "Kodomo"}
@@ -163,28 +163,58 @@ def resume_anilist(m: dict, auto: bool, sc: float | None) -> dict:
         "genres": m.get("genres") or [],
         "image": (m.get("coverImage") or {}).get("medium"),
         "imageGrande": (m.get("coverImage") or {}).get("large"),
+        "auteurs": auteurs_anilist(m)[:4],
         "auto": auto,
         **({"score": round(sc, 3)} if sc is not None else {}),
     }
 
 
-def chercher_anilist(serie: dict, debug: bool = False) -> dict | None:
+def auteurs_anilist(m: dict) -> list[str]:
+    out = []
+    for ed in ((m.get("staff") or {}).get("edges") or []):
+        role = (ed.get("role") or "").lower()
+        if any(r in role for r in ("story", "art", "original")):
+            n = (ed.get("node") or {}).get("name") or {}
+            out += [x for x in [n.get("full"), *(n.get("alternative") or [])] if x]
+    return out
+
+
+def jetons_nom(t: str) -> set[str]:
+    return {w for w in re.split(r"[^a-z0-9]+", sans_accents(t or "").lower()) if len(w) >= 3}
+
+
+def meme_auteur(auteur_orphee: str, m_ou_noms) -> bool | None:
+    """Vrai si l'auteur d'Orphée figure parmi ceux d'AniList ; None si on ne peut pas comparer."""
+    noms_al = m_ou_noms if isinstance(m_ou_noms, list) else auteurs_anilist(m_ou_noms)
+    j = jetons_nom(auteur_orphee)
+    if not j or not noms_al:
+        return None
+    return bool(j & set().union(*(jetons_nom(n) for n in noms_al)))
+
+
+def chercher_anilist(serie: dict, auteur: str = "", debug: bool = False) -> dict | None:
     titres = titres_de(serie)
-    meilleur, meilleur_sc = None, 0.0
+    vus: dict[int, tuple[dict, float]] = {}
     for q in titres[:3]:
         data = anilist(Q_CHERCHE, {"q": q})
         cands = [m for m in (data.get("Page") or {}).get("media", []) if m.get("format") not in ("NOVEL",)]
         for m in cands:
             sc = score(titres, m)
             if debug:
-                dbg(f"    [{q}] {m['id']} {noms(m)[:3]} {m.get('status')} vol={m.get('volumes')} score={sc:.2f}")
-            if sc > meilleur_sc:
-                meilleur, meilleur_sc = m, sc
-        if meilleur_sc >= 0.95:
+                dbg(f"    [{q}] {m['id']} {noms(m)[:3]} {m.get('status')} vol={m.get('volumes')} score={sc:.2f} auteurs={auteurs_anilist(m)[:2]} même auteur={meme_auteur(auteur, m)}")
+            if sc >= 0.75 and (m["id"] not in vus or vus[m["id"]][1] < sc):
+                vus[m["id"]] = (m, sc)
+        if any(sc >= 0.95 and meme_auteur(auteur, m) is not False for m, sc in vus.values()):
             break
-    if meilleur and meilleur_sc >= 0.75:
-        return resume_anilist(meilleur, True, meilleur_sc)
-    return None
+    if not vus:
+        return None
+    # Priorité au même auteur que dans Orphée, puis au titre le plus proche
+    ordre = sorted(vus.values(), key=lambda x: ({True: 2, None: 1, False: 0}[meme_auteur(auteur, x[0])], x[1]), reverse=True)
+    m, sc = ordre[0]
+    r = resume_anilist(m, True, sc)
+    if meme_auteur(auteur, m) is False:
+        r["auteurDifferent"] = True  # gardé comme simple proposition, pas utilisé
+    return r
 
 # --------------------------------------------------------------------------- BnF
 
@@ -452,6 +482,7 @@ def main() -> int:
     ap.add_argument("--max-minutes", type=float, default=100)
     ap.add_argument("--forcer", action="store_true", help="ignorer le cache")
     ap.add_argument("--bnf-seulement", action="store_true", help="refaire seulement la BnF (garde AniList)")
+    ap.add_argument("--verifier-auteurs", action="store_true", help="revérifier les liens AniList automatiques avec l'auteur d'Orphée")
     args = ap.parse_args()
 
     series = json.loads((DATA / "series.json").read_text())["series"]
@@ -486,6 +517,30 @@ def main() -> int:
         al = e.get("anilist")
         termine = bool(al and al.get("statut") == "FINISHED")
         complet = termine and al.get("volumes") and (e.get("bnf") or {}).get("dernier") and e["bnf"]["dernier"] >= al["volumes"]
+        auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
+        if args.verifier_auteurs:
+            # Revérifie les liens AniList trouvés automatiquement, sans toucher à la BnF ni aux couvertures
+            if lien or not auteur or s.get("type") == "One shot":
+                continue
+            print(f"- {s['titre']}", flush=True)
+            try:
+                if al and al.get("id") and not al.get("auteurDifferent"):
+                    m = anilist(Q_ID, {"id": al["id"]}).get("Media")
+                    if m and meme_auteur(auteur, m) is not False:
+                        e["anilist"] = resume_anilist(m, True, al.get("score"))
+                    else:
+                        e["anilist"] = chercher_anilist(s, auteur, debug)
+                else:
+                    e["anilist"] = chercher_anilist(s, auteur, debug)
+                e["anilistVerifie"] = AUJOURDHUI.isoformat()
+                cache[s["id"]] = e
+                faites += 1
+            except Exception as ex:
+                erreurs += 1
+                print(f"  erreur : {ex}", file=sys.stderr, flush=True)
+            if faites and faites % 25 == 0:
+                ecrire(chemin, cache)
+            continue
         if not args.forcer and not debug and not args.bnf_seulement:
             recent = age_jours(e.get("verifie")) < (120 if complet else 6)
             if recent and not (lien and (not al or al.get("id") != lien)):
@@ -504,11 +559,13 @@ def main() -> int:
             elif not one_shot:
                 deja_vu_sans = e.get("anilistVerifie") and al is None and age_jours(e.get("anilistVerifie")) < 30
                 if args.forcer or debug or not (al or deja_vu_sans) or (al and al.get("statut") != "FINISHED"):
-                    if al and al.get("id"):
+                    if al and al.get("id") and not al.get("auteurDifferent"):
                         m = anilist(Q_ID, {"id": al["id"]}).get("Media")
                         e["anilist"] = resume_anilist(m, True, al.get("score")) if m else None
+                        if m and meme_auteur(auteur, m) is False:
+                            e["anilist"] = chercher_anilist(s, auteur, debug)
                     else:
-                        e["anilist"] = chercher_anilist(s, debug)
+                        e["anilist"] = chercher_anilist(s, auteur, debug)
                     e["anilistVerifie"] = AUJOURDHUI.isoformat()
             # BnF
             if not one_shot:
