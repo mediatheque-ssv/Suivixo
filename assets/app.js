@@ -12,7 +12,7 @@ const lsSet = (k, v) => { try { if (v === null) localStorage.removeItem(k); else
 
 const PREFS_DEFAUT = {
   bib: "Servon-sur-Vilaine", perimetre: "reseau", presence: "moi", tri: "titre",
-  statut: null, public: "", genre: "", q: "", depot: "mediatheque-ssv/suivixo",
+  statut: null, public: "", genre: "", q: "", depot: "mediatheque-ssv/Suivixo",
 };
 
 const etat = {
