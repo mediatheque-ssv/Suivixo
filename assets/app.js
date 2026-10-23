@@ -11,7 +11,7 @@ const lsGet = (k, def) => { try { const v = localStorage.getItem(k); return v ? 
 const lsSet = (k, v) => { try { if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, JSON.stringify(v)); } catch { /* stockage indisponible */ } };
 
 const PREFS_DEFAUT = {
-  bib: "Servon-sur-Vilaine", perimetre: "reseau", presence: "moi", tri: "titre",
+  bib: "Servon-sur-Vilaine", perimetre: "reseau", presence: "moi", tri: "titre", affichage: "couvertures",
   statut: null, public: "", genre: "", q: "", depot: "mediatheque-ssv/Suivixo",
 };
 
@@ -172,6 +172,31 @@ function trier(liste) {
 // Petits rendus réutilisables
 // ---------------------------------------------------------------------------
 
+const TEINTES = ["#3E5C76", "#7A4E6B", "#4F6F52", "#8A5A3B", "#575D93", "#2C6E8A", "#9A4A4A", "#6A6845", "#4B4E6D", "#7C5C2E"];
+function teinte(t) {
+  let x = 0;
+  for (const c of String(t)) x = (x * 31 + c.charCodeAt(0)) >>> 0;
+  return TEINTES[x % TEINTES.length];
+}
+
+function fausseCouv(titre, editeur) {
+  return `<span class="couv couv-faux" style="background:${teinte(titre)}"><b>${h(titre)}</b><small>${h(editeur || "")}</small></span>`;
+}
+
+function urlsCouv(v) {
+  const al = v.enr?.anilist && !v.enr.anilist.rejete ? v.enr.anilist : null;
+  if (!al?.image) return null;
+  return { petite: al.image, grande: al.imageGrande || al.image.replace("/cover/small/", "/cover/medium/") };
+}
+
+/** Couverture AniList, ou fausse couverture colorée avec le titre. */
+function couverture(v, grande = false) {
+  const u = urlsCouv(v);
+  if (!u) return fausseCouv(v.s.titre, v.f?.editeur);
+  return `<img class="couv" src="${h(grande ? u.grande : u.petite)}" alt="" loading="lazy" referrerpolicy="no-referrer"
+    data-petite="${h(u.petite)}" data-titre="${h(v.s.titre)}" data-editeur="${h(v.f?.editeur || "")}">`;
+}
+
 function statut(cle) {
   return `<span class="st st-${cle}">${C.STATUTS[cle]}</span>`;
 }
@@ -195,10 +220,10 @@ function bornes(v) {
 }
 
 /** Rangée de tranches en SVG (liste). */
-function etagere(v, largeur = 340) {
+function etagere(v, largeur = 340, haut = 22, pasMin = 2.5) {
   const { total } = bornes(v);
   if (!total) return `<span class="ligne-meta">${v.f ? "Pas de tome numéroté" : "Aucun exemplaire"}</span>`;
-  const pas = Math.max(2.5, Math.min(10, largeur / total));
+  const pas = Math.max(pasMin, Math.min(10, largeur / total));
   const w = pas >= 6 ? pas - 2 : pas >= 4 ? pas - 1.2 : pas - 0.8;
   let rects = "";
   for (let i = 1; i <= total; i++) {
@@ -206,10 +231,10 @@ function etagere(v, largeur = 340) {
     const x = ((i - 1) * pas).toFixed(2);
     const fill = c === "reseau" ? ' fill="url(#trame)"' : "";
     const cls = { ici: "t-ici", reseau: "t-reseau", manque: "t-manque", avenir: "t-avenir", inconnu: "t-avenir" }[c];
-    rects += `<rect x="${x}" y="1" width="${w.toFixed(2)}" height="20" rx="${w > 4 ? 1 : 0.5}" class="${cls}"${fill}><title>${h(titre)}</title></rect>`;
+    rects += `<rect x="${x}" y="1" width="${w.toFixed(2)}" height="${haut - 2}" rx="${w > 4 ? 1 : 0.5}" class="${cls}"${fill}><title>${h(titre)}</title></rect>`;
   }
   const larg = (total * pas).toFixed(1);
-  return `<svg class="etagere" width="${larg}" height="22" viewBox="0 0 ${larg} 22" role="img" aria-label="${h(resumeTomes(v))}">${rects}</svg>`;
+  return `<svg class="etagere" width="${larg}" height="${haut}" viewBox="0 0 ${larg} ${haut}" style="height:${haut}px" role="img" aria-label="${h(resumeTomes(v))}">${rects}</svg>`;
 }
 
 function resumeTomes(v) {
@@ -253,7 +278,22 @@ function rendreSeries() {
   const options = (l, val) => `<option value="">Tous</option>` + l.map((x) => `<option ${val === x ? "selected" : ""}>${h(x)}</option>`).join("");
   const tris = [["titre", "Titre"], ["manquants", "Nombre de tomes manquants"], ["statut", "Où ça en est"], ...(avecPrets ? [["prets", "Prêts"]] : [])];
 
+  const titre = p.presence === "moi" ? `Les mangas de ${h(bib)}` : p.presence === "reseau" ? "Les mangas du réseau" : "Toutes les séries";
+  const tomesIci = base.reduce((a, v) => a + v.ici.length, 0);
+  const total = base.length || 1;
+  const grille = p.affichage !== "liste";
+
   $("#vue").innerHTML = `
+    <div class="accueil">
+      <div class="accueil-texte">
+        <h1>${titre}</h1>
+        <p class="chapo"><strong>${nf.format(base.length)}</strong> séries${p.presence === "moi" ? `, <strong>${nf.format(tomesIci)}</strong> tomes en rayon` : ""}${p.q || p.public || p.genre ? " pour cette recherche" : ""}.</p>
+      </div>
+      <div class="vues" role="group" aria-label="Affichage">
+        <button type="button" data-affichage="couvertures" aria-pressed="${grille}">Couvertures</button>
+        <button type="button" data-affichage="liste" aria-pressed="${!grille}">Liste</button>
+      </div>
+    </div>
     <div class="barre">
       <input class="recherche" type="search" id="q" placeholder="Chercher une série ou un éditeur" value="${h(p.q)}" aria-label="Chercher une série">
       <button type="button" class="btn btn-filtres" data-action="filtres" aria-expanded="${etat.filtresOuverts}" aria-controls="panneau-filtres">Filtres${n ? ` <span class="nb">${n}</span>` : ""}</button>
@@ -272,21 +312,35 @@ function rendreSeries() {
       <label class="champ" style="align-content:start"><span>Trier par</span><select id="f-tri">${tris.map(([k, l]) => `<option value="${k}" ${p.tri === k ? "selected" : ""}>${l}</option>`).join("")}</select></label>
       ${n ? `<button type="button" class="btn-lien reinit" data-action="reinit">Réinitialiser les filtres</button>` : ""}
     </div>
+    ${base.length ? `<div class="repartition${p.statut ? " filtree" : ""}" role="group" aria-label="Répartition par statut">
+      ${ORDRE_STATUT.filter((k) => comptes[k]).map((k) => `<button type="button" class="r-${k}" style="flex:${comptes[k]}" data-statut="${k}" aria-pressed="${p.statut === k}" title="${C.STATUTS[k]} : ${comptes[k]} séries (${Math.round(comptes[k] * 100 / total)} %)" aria-label="${C.STATUTS[k]} : ${comptes[k]} séries"></button>`).join("")}
+    </div>` : ""}
     <div class="statuts" role="group" aria-label="Filtrer par statut">
-      <button type="button" data-statut="" aria-pressed="${!p.statut}">Toutes<span>${nf.format(base.length)}</span></button>
-      ${ORDRE_STATUT.filter((k) => comptes[k]).map((k) => `<button type="button" data-statut="${k}" aria-pressed="${p.statut === k}">${C.STATUTS[k]}<span>${nf.format(comptes[k])}</span></button>`).join("")}
+      <button type="button" data-statut="" aria-pressed="${!p.statut}"><span class="pt pt-tout"></span>Toutes <span class="nb">${nf.format(base.length)}</span></button>
+      ${ORDRE_STATUT.filter((k) => comptes[k]).map((k) => `<button type="button" data-statut="${k}" aria-pressed="${p.statut === k}"><span class="pt pt-${k}"></span>${C.STATUTS[k]} <span class="nb">${nf.format(comptes[k])}</span></button>`).join("")}
     </div>
-    <div class="liste${avecPrets ? " avec-prets" : ""}">
-      ${liste.slice(0, etat.limite).map(ligneSerie).join("") || `<p class="vide">Aucune série ne correspond. Essaie d'élargir les filtres.</p>`}
-    </div>
+    ${!liste.length ? `<p class="vide">Aucune série ne correspond. Essaie d'élargir les filtres.</p>`
+      : grille ? `<div class="grille">${liste.slice(0, etat.limite).map(carteSerie).join("")}</div>`
+      : `<div class="liste${avecPrets ? " avec-prets" : ""}">${liste.slice(0, etat.limite).map(ligneSerie).join("")}</div>`}
     ${liste.length > etat.limite ? `<button class="btn plus" data-action="plus">Afficher les ${nf.format(liste.length - etat.limite)} autres séries</button>` : ""}
     ${liste.length ? legende() : ""}
   `;
 }
 
+function carteSerie(v) {
+  return `<button type="button" class="carte" data-serie="${h(v.s.id)}">
+    ${couverture(v, true)}
+    <span class="carte-titre">${h(v.s.titre)}</span>
+    ${v.f?.editeur ? `<span class="carte-meta">${h(v.f.editeur)}</span>` : ""}
+    ${etagere(v, 160, 16, 1.4)}
+    ${statut(v.statut.cle)}
+  </button>`;
+}
+
 function ligneSerie(v) {
   const meta = v.f?.editeur || "";
   return `<button type="button" class="ligne" data-serie="${h(v.s.id)}">
+    <span class="vignette">${couverture(v)}</span>
     <span><span class="ligne-titre">${h(v.s.titre)}</span>${meta ? `<span class="ligne-meta">${h(meta)}</span>` : ""}</span>
     <span>${etagere(v)}</span>
     <span>${statut(v.statut.cle)}</span>
@@ -358,10 +412,18 @@ function ouvrirFiche(id) {
 
   const liens = [urlMN && lien(urlMN, "Manga-News"), urlBD && lien(urlBD, "Bédéthèque"), lien(urlBnf, "le catalogue BnF"), al && lien(`https://anilist.co/manga/${al.id}`, "AniList")].filter(Boolean);
 
+  const u = urlsCouv(v);
   $("#fiche-contenu").innerHTML = `
-    <h1 id="fiche-titre">${h(s.titre)}</h1>
-    ${meta ? `<p class="sous-titre">${h(meta)}</p>` : ""}
-    ${statut(v.statut.cle)}
+    <div class="fiche-tete">
+      <div class="fiche-fond-couv" style="${u ? `background-image:url('${h(u.grande)}')` : `background:${teinte(s.titre)}`}"></div>
+      <div class="grande">${couverture(v, true)}</div>
+      <div>
+        <h1 id="fiche-titre">${h(s.titre)}</h1>
+        ${meta ? `<p class="sous-titre">${h(meta)}</p>` : ""}
+        ${statut(v.statut.cle)}
+      </div>
+    </div>
+    <div class="fiche-corps">
     <p class="resume">${h(phraseStatut(v))}</p>
     ${total ? `<div class="rayon-complet">${tranches.join("")}</div>${legende()}` : ""}
 
@@ -379,6 +441,7 @@ function ouvrirFiche(id) {
       </div>
     </details>
     <details class="repli" id="modifier"><summary>Modifier la série</summary>${formulaire(s)}</details>
+    </div>
   `;
   const fiche = $("#fiche");
   fiche.hidden = false;
@@ -471,6 +534,7 @@ function triPriorite(a, b) {
 
 function itemAchat(v, tomes, info) {
   return `<li class="cliquable" data-serie="${h(v.s.id)}">
+    <span class="vignette">${couverture(v)}</span>
     <span class="item-titre"><button type="button" class="lien-serie" data-serie="${h(v.s.id)}">${h(v.s.titre)}</button><small>${h([v.f?.editeur, info].filter(Boolean).join(", "))}</small></span>
     ${v.prets === null ? "" : `<span class="item-info">${pluriel(v.pretsIci, "prêt")}</span>`}
     <span class="item-tomes">${h(tomes)}</span>
@@ -521,7 +585,7 @@ function rendreAcheter() {
       <div class="liens-vue"><button class="btn-lien" data-action="csv">Exporter en tableur</button><button class="btn-lien" data-action="imprimer">Imprimer</button></div>
     </div>
     <p class="chapo">Pour les séries présentes à ${h(bib)}${etat.stats ? ", les plus empruntées en premier" : ""}.</p>
-    <div class="statuts" role="group" aria-label="Listes">
+    <div class="onglets-liste" role="group" aria-label="Listes">
       ${onglets.map((o) => `<button type="button" data-onglet-achat="${o.cle}" aria-pressed="${o === cur}">${o.titre}<span>${nf.format(o.n)}</span></button>`).join("")}
     </div>
     <p class="explication">${cur.texte}</p>
@@ -580,7 +644,7 @@ function rendreControles() {
   const autres = [...etat.vues].filter((v) => v.presence !== "aucune").sort((a, b) => a.cle.localeCompare(b.cle, "fr"));
   const optionsSeries = autres.map((o) => `<option value="${h(o.s.id)}">${h(o.s.titre)}</option>`).join("");
   const bloc = (titre, items, explication, ouvert = false) => items.length ? `
-    <details class="bloc" ${ouvert ? "open" : ""}>
+    <details class="bloc${ouvert ? " urgent" : ""}" ${ouvert ? "open" : ""}>
       <summary>${titre} <span class="n">${nf.format(items.length)}</span></summary>
       <div class="contenu"><p class="explication">${explication}</p><ul class="items">${items.join("")}</ul></div>
     </details>` : "";
@@ -655,6 +719,11 @@ function rendreImport() {
       <p class="chapo">Fais l'édition des mangas du réseau dans Orphée, enregistre le fichier, puis dépose-le ici. Il est lu sur ce poste et n'est envoyé nulle part.</p>
       <label class="depot" id="depot">
         <input type="file" id="fichier" accept=".xlsx,.xls,.xlsm,.ods" hidden>
+        <svg viewBox="0 0 64 44" aria-hidden="true">
+          <rect x="4" y="4" width="9" height="36" rx="1.5" class="t-ici"/><rect x="15" y="4" width="9" height="36" rx="1.5" class="t-ici"/>
+          <rect x="26" y="4" width="9" height="36" rx="1.5" fill="url(#trame)" class="t-reseau"/><rect x="37" y="4" width="9" height="36" rx="1.5" class="t-manque"/>
+          <rect x="48.5" y="4.5" width="9" height="35" rx="1.5" class="t-avenir"/>
+        </svg>
         <strong>Déposer le fichier ici</strong>
         <span class="discret petit">ou cliquer pour le choisir</span>
       </label>
@@ -915,6 +984,7 @@ function brancher() {
     if (!t) return;
     if ("statut" in t.dataset) { etat.prefs.statut = t.dataset.statut || null; etat.limite = 150; rendre(); return; }
     if (t.dataset.ongletAchat) { etat.ongletAchat = t.dataset.ongletAchat; rendre(); return; }
+    if (t.dataset.affichage) { etat.prefs.affichage = t.dataset.affichage; sauverPrefs(); rendre(); return; }
     if (t.dataset.serie) { ouvrirFiche(t.dataset.serie); return; }
     const a = t.dataset.action;
     if (a === "plus") { etat.limite += 300; rendre(); }
@@ -934,6 +1004,14 @@ function brancher() {
       if (s && confirmerSimple(`Supprimer « ${s.titre} » de Suivixo ?`)) { etat.series = etat.series.filter((x) => x !== s); marquer("series"); calculer(); rendre(); toast(`« ${s.titre} » supprimée.`); }
     }
   });
+
+  // couverture introuvable : petite image, sinon fausse couverture
+  document.addEventListener("error", (e) => {
+    const img = e.target;
+    if (img.tagName !== "IMG" || !img.classList.contains("couv")) return;
+    if (img.dataset.petite && img.getAttribute("src") !== img.dataset.petite) { img.src = img.dataset.petite; return; }
+    img.outerHTML = fausseCouv(img.dataset.titre, img.dataset.editeur);
+  }, true);
 
   // dépôt de fichier
   vue.addEventListener("dragover", (e) => { const d = e.target.closest("#depot"); if (d) { e.preventDefault(); d.classList.add("survol"); } });

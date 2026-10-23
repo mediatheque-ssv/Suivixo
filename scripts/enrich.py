@@ -100,7 +100,7 @@ def http(url: str, data: bytes | None = None, headers: dict | None = None, essai
 
 # --------------------------------------------------------------------------- AniList
 
-CHAMPS = "id title { romaji english native } synonyms status volumes chapters format countryOfOrigin genres tags { name rank } coverImage { medium } siteUrl"
+CHAMPS = "id title { romaji english native } synonyms status volumes chapters format countryOfOrigin genres tags { name rank } coverImage { medium large } siteUrl"
 Q_ID = "query ($id: Int) { Media(id: $id, type: MANGA) { %s } }" % CHAMPS
 Q_CHERCHE = "query ($q: String) { Page(perPage: 8) { media(search: $q, type: MANGA, sort: SEARCH_MATCH) { %s } } }" % CHAMPS
 DEMOGRAPHIES = {"Shounen": "Shonen", "Seinen": "Seinen", "Shoujo": "Shojo", "Josei": "Josei", "Kids": "Kodomo"}
@@ -162,6 +162,7 @@ def resume_anilist(m: dict, auto: bool, sc: float | None) -> dict:
         "demographie": demo,
         "genres": m.get("genres") or [],
         "image": (m.get("coverImage") or {}).get("medium"),
+        "imageGrande": (m.get("coverImage") or {}).get("large"),
         "auto": auto,
         **({"score": round(sc, 3)} if sc is not None else {}),
     }
