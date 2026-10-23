@@ -230,7 +230,7 @@ def premier(f: dict, tag: str, code: str) -> str:
 
 
 def numero(s: str) -> int | None:
-    m = re.search(r"(\d{1,3})", s or "")
+    m = re.search(r"(?<!\d)(\d{1,3})(?!\d)", s or "")
     return int(m.group(1)) if m else None
 
 
@@ -240,7 +240,7 @@ def norm_editeur(e: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s)
 
 
-def notices_bnf(serie: dict, editeur_orphee: str, debug: bool = False) -> dict | None:
+def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False) -> dict | None:
     titres = titres_de(serie)
     cles_ok = {cle(t) for t in titres}
     requete = f'bib.title all "{mots(serie["titre"])}" and (bib.doctype="a")'
@@ -294,6 +294,12 @@ def notices_bnf(serie: dict, editeur_orphee: str, debug: bool = False) -> dict |
     g = groupes[choix]
     nums = sorted({t["n"] for t in g})
     dernier = max(nums)
+    plusieurs_editions = False
+    # Plus de tomes en France qu'au Japon : souvent deux éditions mélangées (ex. Akira 14 tomes
+    # couleur puis 6 tomes en édition originale). Si tous les tomes de la VO sont là, on s'y tient.
+    if volumes_vo and dernier > volumes_vo and all(n in nums for n in range(1, volumes_vo + 1)):
+        dernier, plusieurs_editions = volumes_vo, True
+        nums = [n for n in nums if n <= volumes_vo]
     rec_dernier = max((t for t in g if t["n"] == dernier), key=lambda t: t["creee"] or "")
     date = None
     if rec_dernier["creee"] and len(rec_dernier["creee"]) == 8:
@@ -308,6 +314,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, debug: bool = False) -> dict |
         "editeur": g[0]["editeur"],
         "notices": len(g),
         "autresEditeurs": sorted({t["editeur"] for k, v in groupes.items() if k != choix for t in v})[:5],
+        **({"plusieursEditions": True} if plusieurs_editions else {}),
         "requete": requete,
     }
 
@@ -403,7 +410,8 @@ def main() -> int:
                     e["anilistVerifie"] = AUJOURDHUI.isoformat()
             # BnF
             if not one_shot:
-                e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), debug)
+                vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
+                e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
                 e["bnfVerifie"] = AUJOURDHUI.isoformat()
             e["verifie"] = AUJOURDHUI.isoformat()
             cache[s["id"]] = e
