@@ -107,7 +107,7 @@ def http(url: str, data: bytes | None = None, headers: dict | None = None, essai
 
 # --------------------------------------------------------------------------- AniList
 
-CHAMPS = "id title { romaji english native } synonyms status volumes chapters format countryOfOrigin genres tags { name rank } coverImage { medium large } siteUrl staff(perPage: 8) { edges { role node { name { full native alternative } } } }"
+CHAMPS = "id title { romaji english native } synonyms status volumes chapters format countryOfOrigin popularity genres tags { name rank } coverImage { medium large } siteUrl staff(perPage: 8) { edges { role node { name { full native alternative } } } }"
 Q_ID = "query ($id: Int) { Media(id: $id, type: MANGA) { %s } }" % CHAMPS
 Q_CHERCHE = "query ($q: String) { Page(perPage: 8) { media(search: $q, type: MANGA, sort: SEARCH_MATCH) { %s } } }" % CHAMPS
 DEMOGRAPHIES = {"Shounen": "Shonen", "Seinen": "Seinen", "Shoujo": "Shojo", "Josei": "Josei", "Kids": "Kodomo"}
@@ -142,15 +142,20 @@ def noms(m: dict) -> list[str]:
 
 
 def score(titres: list[str], m: dict) -> float:
+    """1.0 si le titre principal correspond exactement, 0.97 pour un titre alternatif, sinon la ressemblance."""
+    cles = [cle(t) for t in titres if cle(t)]
+    t = m.get("title") or {}
+    principaux = {cle(x) for x in [t.get("romaji"), t.get("english")] if x}
+    if principaux & set(cles):
+        return 1.0
     meilleur = 0.0
-    cles = [cle(t) for t in titres]
     for n in noms(m):
         kn = cle(n)
         for k in cles:
-            if not k or not kn:
+            if not kn:
                 continue
             if k == kn:
-                return 1.0
+                return 0.97
             meilleur = max(meilleur, difflib.SequenceMatcher(None, k, kn).ratio())
     return meilleur
 
@@ -211,12 +216,14 @@ def chercher_anilist(serie: dict, auteur: str = "", debug: bool = False) -> dict
                 dbg(f"    [{q}] {m['id']} {noms(m)[:3]} {m.get('status')} vol={m.get('volumes')} score={sc:.2f} auteurs={auteurs_anilist(m)[:2]} même auteur={meme_auteur(auteur, m)}")
             if sc >= 0.75 and (m["id"] not in vus or vus[m["id"]][1] < sc):
                 vus[m["id"]] = (m, sc)
-        if any(sc >= 0.95 and meme_auteur(auteur, m) is not False for m, sc in vus.values()):
+        if any(sc >= 1.0 and meme_auteur(auteur, m) is not False for m, sc in vus.values()):
             break
     if not vus:
         return None
     # Priorité au même auteur que dans Orphée, puis au titre le plus proche
-    ordre = sorted(vus.values(), key=lambda x: ({True: 2, None: 1, False: 0}[meme_auteur(auteur, x[0])], x[1]), reverse=True)
+    # puis, à égalité (spin-offs du même auteur), le format manga plutôt que one shot, et la série la plus connue
+    ordre = sorted(vus.values(), key=lambda x: ({True: 2, None: 1, False: 0}[meme_auteur(auteur, x[0])], x[1],
+                                               x[0].get("format") != "ONE_SHOT", x[0].get("popularity") or 0), reverse=True)
     m, sc = ordre[0]
     r = resume_anilist(m, True, sc)
     if meme_auteur(auteur, m) is False:
@@ -606,14 +613,7 @@ def main() -> int:
                 continue
             print(f"- {s['titre']}", flush=True)
             try:
-                if al and al.get("id") and not al.get("auteurDifferent"):
-                    m = anilist(Q_ID, {"id": al["id"]}).get("Media")
-                    if m and meme_auteur(auteur, m) is not False:
-                        e["anilist"] = resume_anilist(m, True, al.get("score"))
-                    else:
-                        e["anilist"] = chercher_anilist(s, auteur, debug)
-                else:
-                    e["anilist"] = chercher_anilist(s, auteur, debug)
+                e["anilist"] = chercher_anilist(s, auteur, debug)
                 e["anilistVerifie"] = AUJOURDHUI.isoformat()
                 cache[s["id"]] = e
                 faites += 1
