@@ -74,7 +74,7 @@ def titres_de(serie: dict) -> list[str]:
 # --------------------------------------------------------------------------- HTTP
 
 
-def http(url: str, data: bytes | None = None, headers: dict | None = None, essais: int = 4) -> bytes:
+def http(url: str, data: bytes | None = None, headers: dict | None = None, essais: int = 5) -> bytes:
     h = {"User-Agent": UA, **(headers or {})}
     for i in range(essais):
         try:
@@ -82,9 +82,14 @@ def http(url: str, data: bytes | None = None, headers: dict | None = None, essai
             with urllib.request.urlopen(req, timeout=40) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
-            if e.code == 429:
-                attente = int(e.headers.get("Retry-After", "60") or 60) + 1
-                print(f"  limite atteinte, pause {attente}s", flush=True)
+            # trop de requêtes, accès refusé temporairement ou serveur surchargé : on patiente
+            if e.code in (403, 429, 502, 503, 504) and i < essais - 1:
+                try:
+                    attente = int(e.headers.get("Retry-After") or 0)
+                except ValueError:
+                    attente = 0
+                attente = max(attente, 20 * (i + 1)) + 1
+                print(f"  {e.code} sur {url[:60]}…, pause {attente}s", flush=True)
                 time.sleep(attente)
                 continue
             if e.code >= 500 and i < essais - 1:
@@ -505,7 +510,7 @@ def main() -> int:
     # les jamais vérifiées d'abord, puis les plus anciennes
     a_faire.sort(key=lambda s: -age_jours((cache.get(s["id"]) or {}).get("verifie")))
 
-    faites = erreurs = 0
+    faites = erreurs = consecutives = 0
     for s in a_faire:
         if args.limite and faites >= args.limite:
             break
@@ -590,10 +595,19 @@ def main() -> int:
                 dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1
+            consecutives += 1
             print(f"  erreur : {ex}", file=sys.stderr, flush=True)
-            if erreurs > 25:
-                print("Trop d'erreurs, arrêt.", file=sys.stderr)
+            if erreurs <= 8:
+                print(f"::warning title=Erreur sur {s['titre'][:40]}::{str(ex)[:300]}", flush=True)
+            if consecutives >= 5:
+                print("Plusieurs erreurs de suite : pause de 3 minutes.", flush=True)
+                time.sleep(180)
+                consecutives = 0
+            if erreurs > 40:
+                print("::warning title=Arrêt anticipé::Trop d'erreurs (source indisponible ?). Les séries déjà vérifiées sont enregistrées, la suite au prochain passage.", flush=True)
                 break
+            continue
+        consecutives = 0
         if faites and faites % 25 == 0:
             ecrire(chemin, cache)
 
@@ -604,7 +618,7 @@ def main() -> int:
     reliees = sum(1 for v in cache.values() if v.get("anilist"))
     avec_bnf = sum(1 for v in cache.values() if (v.get("bnf") or {}).get("dernier"))
     print(f"Vérifiées ce passage : {faites}, erreurs : {erreurs}. Total : {len(cache)} séries, {reliees} reliées à AniList, {avec_bnf} trouvées à la BnF.")
-    return 0 if erreurs <= 25 else 1
+    return 0
 
 
 def annoter(texte: str) -> None:
