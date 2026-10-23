@@ -1,5 +1,6 @@
 {
  "version": 1,
+ "publie": "2026-10-23T13:51:04.221Z",
  "series": [
   {
    "id": "cooking-karine",
@@ -84,6 +85,13 @@
    }
   },
   {
+   "id": "a-crocs-a-toi",
+   "titre": "A crocs à toi",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "a-l-image-de-mona-lisa",
    "titre": "A l'image de Mona Lisa...",
    "public": "Ado",
@@ -133,6 +141,13 @@
    }
   },
   {
+   "id": "aether-dreams",
+   "titre": "Aether dreams",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "afterschool-charisma",
    "titre": "Afterschool Charisma",
    "genre": "Seinen",
@@ -147,6 +162,13 @@
     "etat": "Terminée",
     "annee": 2015
    }
+  },
+  {
+   "id": "agents-of-the-four-seasons-la-danse-du-printemps",
+   "titre": "Agents of the Four Seasons - La danse du printemps",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "aishite-knight",
@@ -197,6 +219,13 @@
    }
   },
   {
+   "id": "alice-au-dela-des-etoiles",
+   "titre": "Alice au-delà des étoiles",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "alice-in-borderland",
    "titre": "Alice in Borderland",
    "genre": "Shonen",
@@ -211,6 +240,13 @@
     "etat": "Terminée",
     "annee": 2018
    }
+  },
+  {
+   "id": "alice-in-kyoto-forest",
+   "titre": "Alice in Kyoto Forest",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "all-out",
@@ -287,6 +323,13 @@
     "etat": "Terminée",
     "annee": 2021
    }
+  },
+  {
+   "id": "amer-beton",
+   "titre": "Amer Béton",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "american-gods",
@@ -545,6 +588,20 @@
    }
   },
   {
+   "id": "astro-royale",
+   "titre": "Astro royale",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "au-bout-du-chemin",
+   "titre": "Au bout du chemin",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "au-coeur-de-fukushima",
    "titre": "Au coeur de Fukushima",
    "genre": "Seinen",
@@ -559,6 +616,20 @@
     "etat": "Terminée",
     "annee": 2016
    }
+  },
+  {
+   "id": "aux-cotes-du-dieu-loup",
+   "titre": "Aux côtés du Dieu-Loup",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "avatar-le-dernier-maitre-de-l-air",
+   "titre": "Avatar, le dernier maître de l'air",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "ayakashi",
@@ -643,6 +714,13 @@
    }
   },
   {
+   "id": "baby",
+   "titre": "Baby",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "badducks",
    "titre": "Badducks",
    "genre": "Seinen",
@@ -723,6 +801,13 @@
     "etat": "Terminée",
     "annee": 2020
    }
+  },
+  {
+   "id": "basara",
+   "titre": "Basara",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "batman",
@@ -831,6 +916,13 @@
     "etat": "Terminée",
     "annee": 2015
    }
+  },
+  {
+   "id": "be-blues",
+   "titre": "Be Blues!",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "beastars",
@@ -1180,6 +1272,13 @@
    "type": "Série"
   },
   {
+   "id": "blue-flag",
+   "titre": "Blue flag",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "blue-lock",
    "titre": "Blue lock",
    "public": "Jeunesse",
@@ -1261,6 +1360,20 @@
    "titre": "Box : qu'y a-t-il dans la boîte ?",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "brave-bell",
+   "titre": "Brave Bell",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "bravest-journey",
+   "titre": "Bravest Journey",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "bride-stories",
@@ -1446,6 +1559,13 @@
     "etat": "Terminée",
     "annee": 2008
    }
+  },
+  {
+   "id": "cats-and-dragon",
+   "titre": "Cats and Dragon",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "chacun-ses-gouts",
@@ -1785,6 +1905,20 @@
    }
   },
   {
+   "id": "crows",
+   "titre": "Crows",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "cursed-princess-club",
+   "titre": "Cursed princess club",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "d-gray-man",
    "titre": "D.Gray-Man",
    "genre": "Shonen",
@@ -1843,6 +1977,13 @@
     "etat": "Terminée",
     "annee": 2022
    }
+  },
+  {
+   "id": "dans-le-premier-train-du-matin",
+   "titre": "Dans le premier train du matin",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "dark-knights-of-steel",
@@ -2021,6 +2162,20 @@
    "titre": "Détonations",
    "public": "Adulte",
    "type": "Série"
+  },
+  {
+   "id": "developpeurs",
+   "titre": "Développeurs",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "divines",
+   "titre": "Divines",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "dmz-integrale",
@@ -2294,6 +2449,20 @@
    }
   },
   {
+   "id": "en-selle-sakamichi",
+   "titre": "En selle, Sakamichi !",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "enfant-des-abysses",
+   "titre": "Enfant des abysses",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "entre-deux",
    "titre": "Entre deux",
    "public": "Ado",
@@ -2322,6 +2491,13 @@
    }
   },
   {
+   "id": "erio-the-electric-doll",
+   "titre": "Erio & The Electric Doll",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "escale-a-yokohama",
    "titre": "Escale a Yokohama",
    "genre": "Seinen",
@@ -2337,6 +2513,13 @@
     "etat": "Terminée",
     "annee": 2022
    }
+  },
+  {
+   "id": "et-plus-si-affinites",
+   "titre": "Et plus si affinités ?",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "evil-heart",
@@ -2416,6 +2599,13 @@
     "etat": "Terminée",
     "annee": 2021
    }
+  },
+  {
+   "id": "fall-in-love-false-angels",
+   "titre": "Fall in love, False Angels",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "felin-pour-l-autre",
@@ -2547,6 +2737,13 @@
     "etat": "Terminée",
     "annee": 2011
    }
+  },
+  {
+   "id": "galaxias",
+   "titre": "Galaxias",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "gamaran",
@@ -2829,6 +3026,13 @@
    }
   },
   {
+   "id": "heartstopper",
+   "titre": "Heartstopper",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "hellboy",
    "titre": "Hellboy",
    "genre": "Comics",
@@ -2842,6 +3046,27 @@
     "etat": "Terminée",
     "annee": 2018
    }
+  },
+  {
+   "id": "hero-organization",
+   "titre": "Hero Organization",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "heterogenia-linguistico",
+   "titre": "Heterogenia Linguistico",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "hikari-reve-de-star",
+   "titre": "Hikari - Rêve de star",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "hikari-no-densetsu-cynthia-ou-le-rythme-de-la-vie",
@@ -2874,6 +3099,13 @@
     "etat": "En cours",
     "annee": 2006
    }
+  },
+  {
+   "id": "hina-et-bambi",
+   "titre": "Hina et Bambi",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "hip-hop",
@@ -2976,6 +3208,13 @@
     "etat": "Terminée",
     "annee": 2015
    }
+  },
+  {
+   "id": "ichi-the-witch",
+   "titre": "Ichi the Witch",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "ichiko-et-niko",
@@ -3138,10 +3377,24 @@
    }
   },
   {
+   "id": "jalouses",
+   "titre": "Jalouses",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "jimbocho-sisters",
    "titre": "Jimbôchô sisters",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "jojo-s-bizarre-adventure-steel-ball-run",
+   "titre": "Jojo's bizarre adventure - Steel Ball Run",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "journal-d-une-fangirl",
@@ -3210,6 +3463,13 @@
    }
   },
   {
+   "id": "jungle-juice",
+   "titre": "Jungle Juice",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "justice-league-aventures",
    "titre": "Justice league aventures",
    "public": "Ado",
@@ -3220,6 +3480,13 @@
    "titre": "Kagurabachi",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "kaguya-sama-love-is-war",
+   "titre": "Kaguya-Sama : Love is War",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "kaiju-n-8",
@@ -3310,6 +3577,13 @@
    }
   },
   {
+   "id": "kamisama-school",
+   "titre": "Kamisama School",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "kekkaishi",
    "titre": "Kekkaishi",
    "genre": "Shonen",
@@ -3356,6 +3630,13 @@
     "etat": "Terminée",
     "annee": 2019
    }
+  },
+  {
+   "id": "kids-on-the-slope",
+   "titre": "Kids on the Slope",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "kindergarten-wars",
@@ -3558,6 +3839,13 @@
    }
   },
   {
+   "id": "atelier-des-fees",
+   "titre": "L'Atelier des fées",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "atelier-des-sorciers",
    "titre": "L'Atelier des sorciers",
    "genre": "Seinen",
@@ -3611,6 +3899,13 @@
    "titre": "L'Attaque des titans : edition colossale",
    "public": "Adulte",
    "type": "Série"
+  },
+  {
+   "id": "eden-des-sorcieres",
+   "titre": "L'Eden des sorcières",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "enfant-du-dragon-fantome",
@@ -3669,6 +3964,13 @@
    }
   },
   {
+   "id": "heritiere-du-dragon",
+   "titre": "L'Héritière du dragon",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "histoire-des-3-adolf-integrale",
    "titre": "L'Histoire des 3 Adolf : intégrale",
    "genre": "Autre",
@@ -3693,6 +3995,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "homme-invisible-et-sa-future-epouse",
+   "titre": "L'homme invisible et sa future épouse",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "ile-de-hozuki",
@@ -3734,6 +4043,20 @@
    }
   },
   {
+   "id": "oxalis-et-l-or",
+   "titre": "L'oxalis et l'or",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "13e-piste",
+   "titre": "La 13e piste",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "balade-de-yaya",
    "titre": "La Balade de Yaya",
    "public": "Jeunesse",
@@ -3772,6 +4095,13 @@
    }
   },
   {
+   "id": "chanson-de-lala",
+   "titre": "La Chanson de Lala",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "confrerie-des-lions-blancs",
    "titre": "La Confrérie des lions blancs",
    "genre": "Seinen",
@@ -3799,6 +4129,20 @@
    "public": "Adulte",
    "type": "One shot",
    "ajout": "2025-09-19"
+  },
+  {
+   "id": "fiancee-du-clan-kyougane",
+   "titre": "La Fiancée du clan Kyougane",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "fin-du-monde-avec-mon-shiba-inu",
+   "titre": "La fin du monde avec mon Shiba Inu",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "foret-de-miyori",
@@ -3877,6 +4221,13 @@
     "etat": "Terminée",
     "annee": 2014
    }
+  },
+  {
+   "id": "mariee-du-roi-dragon",
+   "titre": "La Mariée du Roi Dragon",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "petite-faiseuse-de-livres-ascendance-of-a-bookworm",
@@ -4071,6 +4422,34 @@
    }
   },
   {
+   "id": "dernier-ecrivain",
+   "titre": "Le dernier écrivain",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "destin-de-la-princesse-sirene",
+   "titre": "Le Destin de la Princesse Sirène",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "diable-s-habille-en-papa",
+   "titre": "Le diable s'habille en papa",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "fantastique-voyage-de-nicola-au-pays-des-demons",
+   "titre": "Le fantastique voyage de Nicola au pays des démons",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "fantome-de-l-opera",
    "titre": "Le Fantôme de l'Opéra",
    "public": "Jeunesse",
@@ -4103,6 +4482,20 @@
    "titre": "Le Gros chat et la sorcière grincheuse",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "harem-de-l-imperatrice",
+   "titre": "Le harem de l'impératrice",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "journal-de-hanako",
+   "titre": "Le journal de Hanako",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "journal-de-mobu",
@@ -4227,6 +4620,13 @@
    "type": "Série"
   },
   {
+   "id": "petit-monde-de-machida",
+   "titre": "Le petit monde de Machida",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "prix-du-reste-de-ma-vie",
    "titre": "Le Prix du reste de ma vie",
    "genre": "Shonen",
@@ -4273,6 +4673,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "retour-du-clan-hwasan",
+   "titre": "Le retour du clan Hwasan",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "roi-leo",
@@ -4439,6 +4846,13 @@
    "type": "Série"
   },
   {
+   "id": "chants-du-cygne-noir",
+   "titre": "Les Chants du Cygne Noir",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "chaventures-de-tai-mamie-sue",
    "titre": "Les Chaventures de Tai & Mamie Sue",
    "genre": "Josei",
@@ -4459,6 +4873,13 @@
    "titre": "Les Chaventures de Taï et Mamie Sue",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "chefs-d-oeuvre-de-lovecraft",
+   "titre": "Les chefs-d'oeuvre de Lovecraft",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "enfants-d-hippocrate",
@@ -4566,6 +4987,13 @@
    }
   },
   {
+   "id": "heritiers-d-agione",
+   "titre": "Les héritiers d'Agïone",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "montagnes-hallucinees",
    "titre": "Les Montagnes hallucinées",
    "public": "Adulte",
@@ -4576,6 +5004,13 @@
    "titre": "Les Naufragés",
    "public": "Adulte",
    "type": "Série"
+  },
+  {
+   "id": "normaux",
+   "titre": "Les Normaux",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "oublies",
@@ -4592,6 +5027,13 @@
     "etat": "Terminée",
     "annee": 2016
    }
+  },
+  {
+   "id": "petits-en-cas-de-monsieur-matcha",
+   "titre": "Les petits en-cas de Monsieur Matcha",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "petits-velos",
@@ -4757,6 +5199,13 @@
    }
   },
   {
+   "id": "lights-drag-action",
+   "titre": "Lights, Drag, Action !",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "liselotte-et-la-foret-des-sorcieres",
    "titre": "LISELOTTE et la forêt des sorcières",
    "genre": "Shojo",
@@ -4831,6 +5280,13 @@
    "titre": "Louve",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "love-mix-up",
+   "titre": "Love Mix-Up",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "love-my-life",
@@ -4973,6 +5429,13 @@
     "etat": "Terminée",
     "annee": 2019
    }
+  },
+  {
+   "id": "mafia-dating-sim",
+   "titre": "Mafia Dating Sim",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "magic-maker",
@@ -5127,6 +5590,13 @@
     "etat": "Terminée",
     "annee": 2008
    }
+  },
+  {
+   "id": "marry-my-husband",
+   "titre": "Marry my husband",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "mashima-en",
@@ -5299,6 +5769,13 @@
    "type": "Série"
   },
   {
+   "id": "mission-in-the-apocalypse",
+   "titre": "Mission in the apocalypse",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "mob-psycho-100",
    "titre": "Mob Psycho 100",
    "genre": "Shonen",
@@ -5331,6 +5808,13 @@
    }
   },
   {
+   "id": "mofusand",
+   "titre": "Mofusand",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "moi-ce-que-j-aime-c-est-les-monstres",
    "titre": "Moi, ce que j'aime, c'est les monstres",
    "genre": "Autre",
@@ -5359,6 +5843,13 @@
     "etat": "Terminée",
     "annee": 2014
    }
+  },
+  {
+   "id": "momo-et-ichi-petits-esprits-de-la-campagne",
+   "titre": "Momo et Ichi : Petits esprits de la campagne",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "momo-et-le-messager-du-soleil",
@@ -5465,10 +5956,24 @@
    }
   },
   {
+   "id": "monthly-girls-nozaki-kun",
+   "titre": "Monthly girls' Nozaki-kun",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "moon-et-iro",
    "titre": "Moon et Iro",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "morgana-oz",
+   "titre": "Morgana & Oz",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "mother-sarah",
@@ -5553,6 +6058,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "my-home-hero",
+   "titre": "My Home Hero",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "my-love-story-with-yamada-kun-at-lvl999",
@@ -5653,6 +6165,13 @@
    }
   },
   {
+   "id": "nichijo",
+   "titre": "Nichijô",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "nikuko-du-port-de-peche",
    "titre": "Nikuko du port de pêche",
    "public": "Jeunesse",
@@ -5714,6 +6233,13 @@
    }
   },
   {
+   "id": "nos-coeurs-de-chats",
+   "titre": "Nos Coeurs de Chats",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "nova",
    "titre": "Nova",
    "genre": "Global-Manga",
@@ -5728,6 +6254,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "nova-et-la-foret-des-monstres",
+   "titre": "Nova et la forêt des monstres",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "nura-le-seigneur-des-yokai",
@@ -5773,6 +6306,13 @@
    "type": "Série"
   },
   {
+   "id": "ochibi-et-ses-amis",
+   "titre": "Ochibi et ses amis",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "olympia-kyklos",
    "titre": "Olympia kyklos",
    "public": "Ado",
@@ -5794,6 +6334,13 @@
    }
   },
   {
+   "id": "omniscient-reader-s-viewpoint",
+   "titre": "Omniscient Reader's Viewpoint",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "one-piece",
    "titre": "One Piece",
    "genre": "Shonen",
@@ -5808,6 +6355,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "one-week-friends",
+   "titre": "One week friends",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "one-punch-man",
@@ -5862,6 +6416,20 @@
    "titre": "Our colorful days",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "pakka",
+   "titre": "Pakka",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "pan-pan-panda",
+   "titre": "Pan'pan panda",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "pan-pan-panda-une-vie-en-douceur",
@@ -5944,6 +6512,13 @@
    "titre": "Petit Requin",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "phantom-busters",
+   "titre": "Phantom Busters",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "phenix-l-oiseau-de-feu-integrale",
@@ -6107,6 +6682,20 @@
    }
   },
   {
+   "id": "pokemon-ecarlate-et-violet",
+   "titre": "Pokemon Ecarlate et Violet",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "pokemon-la-grande-aventure",
+   "titre": "Pokémon la grande aventure",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "pokemon-xy",
    "titre": "Pokemon XY",
    "genre": "Kodomo",
@@ -6204,6 +6793,13 @@
    }
   },
   {
+   "id": "principal",
+   "titre": "Principal",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "prisonnier-riku",
    "titre": "Prisonnier Riku",
    "genre": "Shonen",
@@ -6235,6 +6831,13 @@
     "etat": "Terminée",
     "annee": 2011
    }
+  },
+  {
+   "id": "promenons-nous-dans-l-espace",
+   "titre": "Promenons-nous dans l'espace",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "prophecy",
@@ -6381,6 +6984,13 @@
    "type": "Série"
   },
   {
+   "id": "reflection",
+   "titre": "Reflection",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "reine-d-egypte",
    "titre": "Reine d'Egypte",
    "genre": "Seinen",
@@ -6413,6 +7023,13 @@
    }
   },
   {
+   "id": "rhapsody-in-red",
+   "titre": "Rhapsody in Red",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "ripper",
    "titre": "Ripper",
    "public": "Ado",
@@ -6435,6 +7052,13 @@
    }
   },
   {
+   "id": "ron-kamonohashi-deranged-detective",
+   "titre": "Ron Kamonohashi : Deranged Detective",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "royal-city",
    "titre": "Royal City",
    "genre": "Autre",
@@ -6454,6 +7078,20 @@
    "titre": "Running girl : ma course vers les paralympiques",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "ruridragon",
+   "titre": "Ruridragon",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "s-class-heroine",
+   "titre": "S-Class Heroine",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "sacrificers",
@@ -6539,6 +7177,13 @@
    }
   },
   {
+   "id": "sanda",
+   "titre": "Sanda",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "save-me-pythie",
    "titre": "Save me Pythie",
    "genre": "Shonen",
@@ -6620,6 +7265,13 @@
    "type": "Série"
   },
   {
+   "id": "secrets-of-magical-stones",
+   "titre": "Secrets of Magical Stones",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "seki-mon-voisin-de-classe",
    "titre": "Seki mon voisin de classe",
    "genre": "Seinen",
@@ -6668,6 +7320,13 @@
    }
   },
   {
+   "id": "servant-beasts",
+   "titre": "Servant beasts",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "seule-la-mort-attend-la-vilaine",
    "titre": "Seule la mort attend la vilaine",
    "public": "Jeunesse",
@@ -6689,6 +7348,13 @@
     "etat": "Terminée",
     "annee": 2021
    }
+  },
+  {
+   "id": "shadows-house",
+   "titre": "Shadows House",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "shangri-la-frontier",
@@ -6729,6 +7395,13 @@
    }
   },
   {
+   "id": "shiba-inu-rooms",
+   "titre": "Shiba Inu Rooms",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "shiita-et-la-foret-des-minuscules",
    "titre": "Shiita et la forêt des minuscules",
    "genre": "Seinen",
@@ -6743,6 +7416,13 @@
     "etat": "Terminée",
     "annee": 2024
    }
+  },
+  {
+   "id": "shin-zero",
+   "titre": "Shin Zero",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "shirayuki-aux-cheveux-rouges",
@@ -6986,6 +7666,13 @@
    }
   },
   {
+   "id": "sorcieres",
+   "titre": "Sorcières",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "soul-eater",
    "titre": "Soul Eater",
    "genre": "Shonen",
@@ -7048,6 +7735,13 @@
    }
   },
   {
+   "id": "star-strike-it-rich",
+   "titre": "Star : Strike It Rich",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "star-wars-etoiles-perdues",
    "titre": "Star Wars : étoiles perdues",
    "genre": "Shonen",
@@ -7075,6 +7769,13 @@
    "titre": "Steel ball run",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "stray-dog",
+   "titre": "Stray Dog",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "street-fighting-cat",
@@ -7108,6 +7809,27 @@
    }
   },
   {
+   "id": "sukeroku",
+   "titre": "Sukeroku",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "sukima",
+   "titre": "Sukima",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "summer-ghost",
+   "titre": "Summer Ghost",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "super-mario-manga-adventures",
    "titre": "Super Mario-Manga Adventures",
    "public": "Jeunesse",
@@ -7118,6 +7840,13 @@
    "titre": "Superman aventures",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "sweet-home",
+   "titre": "Sweet Home",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "sweet-tooth",
@@ -7133,6 +7862,13 @@
     "etat": "Terminée",
     "annee": 2021
    }
+  },
+  {
+   "id": "switch-family",
+   "titre": "Switch Family",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "sword-art-online-aincrad",
@@ -7259,6 +7995,13 @@
    }
   },
   {
+   "id": "terror-man",
+   "titre": "Terror Man",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "the-arms-peddler",
    "titre": "The arms peddler",
    "genre": "Seinen",
@@ -7275,10 +8018,24 @@
    }
   },
   {
+   "id": "the-beginning-after-the-end",
+   "titre": "The Beginning After the End",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "the-bugle-call",
    "titre": "The Bugle Call",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "the-druid-of-seoul-station",
+   "titre": "The druid of Seoul station",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "the-earl-and-the-fairy",
@@ -7390,6 +8147,13 @@
     "etat": "Terminée",
     "annee": 2021
    }
+  },
+  {
+   "id": "the-regalia-of-the-underdog",
+   "titre": "The Regalia of the Underdog",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "the-sound-of-my-soul",
@@ -7823,6 +8587,13 @@
    }
   },
   {
+   "id": "une-si-belle-couleur",
+   "titre": "Une si belle couleur",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "une-vie-dans-les-marges",
    "titre": "Une vie dans les marges",
    "genre": "Seinen",
@@ -7853,6 +8624,13 @@
     "etat": "Terminée",
     "annee": 2005
    }
+  },
+  {
+   "id": "unordinary",
+   "titre": "Unordinary",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "usagi-yojimbo",
@@ -7995,6 +8773,20 @@
    }
   },
   {
+   "id": "whale-star",
+   "titre": "Whale Star",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
+   "id": "white-blood",
+   "titre": "White Blood",
+   "public": "Adulte",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "wind-breaker",
    "titre": "Wind breaker",
    "public": "Adulte",
@@ -8002,6 +8794,13 @@
    "ancien": {
     "etat": "En cours"
    }
+  },
+  {
+   "id": "witch-watch",
+   "titre": "Witch Watch",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "wonder-woman-rebirth",
@@ -8161,6 +8960,13 @@
    }
   },
   {
+   "id": "yona-princesse-de-l-aube",
+   "titre": "Yona, princesse de l'aube",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
+  },
+  {
    "id": "yoshi-s-new-island",
    "titre": "Yoshi's new island",
    "genre": "Kodomo",
@@ -8242,6 +9048,13 @@
     "etat": "Terminée",
     "annee": 2014
    }
+  },
+  {
+   "id": "yuyu-hakusho",
+   "titre": "Yuyu Hakusho",
+   "public": "Ado",
+   "type": "Série",
+   "ajout": "2026-10-23"
   },
   {
    "id": "yuzu-la-petite-veterinaire",
