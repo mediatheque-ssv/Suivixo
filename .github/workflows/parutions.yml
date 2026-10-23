@@ -30,7 +30,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: parutions
+  # les tests d'une seule série tournent à part, sans bloquer ni annuler les passages complets
+  group: parutions-${{ inputs.serie && 'test' || 'complet' }}
   cancel-in-progress: false
 
 jobs:
