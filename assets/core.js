@@ -395,6 +395,8 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
   if (man.etat) { etat = man.etat; sourceEtat = "manuel"; }
   else if (etatFiche) {
     etat = etatFiche; sourceEtat = "mangaNews";
+    // Manga-News a du retard : la VO est finie et la France a déjà tous ses tomes (le réseau a le dernier)
+    if (etat === "En cours" && etatVO === "Terminée" && totalVO && parus !== null && parus >= totalVO) etat = "Terminée";
     if (etat !== "Terminée" && totalVO && parus !== null && totalVO > parus) aVenir = totalVO - parus;
   }
   else if (al && al.statut) {

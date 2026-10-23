@@ -125,6 +125,11 @@ t("fiche Manga-News", () => {
   const stop = { mangaNews: { tomes: 6, url: "u" }, mangaNewsFiche: { url: "u", vf: 6, vfStatut: "Abandonné", vo: 14, voStatut: "Terminé" } };
   assert.equal(C.statutSerie([1, 2, 3, 4, 5, 6], C.infosParution(s, stop, maintenant)).cle, "abandonnee");
   assert.equal(C.etatMangaNews("Stoppé"), "Abandonnée");
+  // Mona Lisa : fiche « VF 9 (En cours) », VO 10 terminée, le réseau a le tome 10 : la série est terminée
+  const ml = { mangaNews: { tomes: 9, url: "u" }, mangaNewsFiche: { url: "u", vf: 9, vfStatut: "En cours", vo: 10, voStatut: "Terminé", vfDernier: 9 } };
+  const m = C.infosParution(s, ml, maintenant, 10);
+  assert.equal(m.parus, 10); assert.equal(m.etat, "Terminée");
+  assert.equal(C.infosParution(s, ml, maintenant, 9).etat, "En cours");
   // Aria : terminée en France (7 tomes), un tome 8 annoncé (hors-série) n'est ni compté ni affiché
   const aria = { mangaNews: { tomes: 7, url: "u" }, mangaNewsFiche: { url: "u", vf: 7, vfStatut: "Terminé", vo: 7, voStatut: "Terminé", vfDernier: 7, vfProchain: 8, vfProchainDate: "2027-02-18" } };
   const ar = C.infosParution(s, aria, Date.parse("2027-03-01"));
