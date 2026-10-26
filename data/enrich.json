@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T16:18:21Z",
+ "maj": "2026-10-26T09:03:48Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -101,7 +101,38 @@
     "annee": 2023,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-07",
+    "editeur": "Ki-oon",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48800540k",
+    "isbn1": "9791032724378",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48800540k",
+      "isbn": "9791032724378"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb50006515f",
+      "isbn": "9791032723845"
+     }
+    ],
+    "requete": "bib.title all \"13e piste\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "300-jours-avec-toi": {
    "anilist": {
@@ -7190,7 +7221,33 @@
     "annee": 2022,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-09",
+    "editeur": "Rue de Sèvres",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48688161p",
+    "isbn1": "9782810208609",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48688161p",
+      "isbn": "9782810208609"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48781039q",
+      "isbn": "9782810211647"
+     }
+    ],
+    "requete": "bib.title all \"chanson de lala\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "bnfVerifie": "2026-10-26"
   },
   "chants-du-cygne-noir": {
    "mangaNews": {
@@ -7211,7 +7268,33 @@
     "annee": 2026,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-06",
+    "editeur": "Rue de Sèvres",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48754282h",
+    "isbn1": "9782810210893",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48754282h",
+      "isbn": "9782810210893"
+     }
+    ],
+    "requete": "bib.title all \"chants du cygne noir\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "chasse-au-cadavre": {
    "anilist": {
@@ -7614,7 +7697,48 @@
     "annee": 2019,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2024-09",
+    "editeur": "Ki-oon",
+    "notices": 7,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb473338413",
+    "isbn1": "9791032713129",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb473338413",
+      "isbn": "9791032713129"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46899562n",
+      "isbn": "9791032708248"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb455917660",
+      "isbn": "9791032703625"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47431413f",
+      "isbn": "9791032716854"
+     }
+    ],
+    "requete": "bib.title all \"chefs oeuvre de lovecraft\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "chi-une-vie-de-chat": {
    "anilist": {
@@ -14959,7 +15083,38 @@
     "annee": 2023,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-09",
+    "editeur": "Glénat",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48742110p",
+    "isbn1": "9782344070475",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48742110p",
+      "isbn": "9782344070475"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48836303w",
+      "isbn": "9782344070482"
+     }
+    ],
+    "requete": "bib.title all \"heritiere du dragon\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "heritiers-d-agione": {
    "mangaNews": {
@@ -14978,7 +15133,43 @@
     "annee": 2024,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2025-06",
+    "editeur": "Kana",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb474757868",
+    "isbn1": "9782505116400",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb474757868",
+      "isbn": "9782505116400"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb475423651",
+      "isbn": "9782505116417"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48529798h",
+      "isbn": "9782505116424"
+     }
+    ],
+    "requete": "bib.title all \"heritiers agione\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "hero-organization": {
    "bnf": {
@@ -15493,7 +15684,33 @@
     "annee": 2021,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025",
+    "editeur": "Editions NOEVE",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb487051337",
+    "isbn1": "9782383166627",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb487051337",
+      "isbn": "9782383166627"
+     }
+    ],
+    "requete": "bib.title all \"homme invisible et sa future epouse\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "horseland": {
    "anilist": null,
@@ -18174,7 +18391,33 @@
     "annee": 2026,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-08",
+    "editeur": "Éditions Akata",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb488171155",
+    "isbn1": "9782385690212",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb488171155",
+      "isbn": "9782385690212"
+     }
+    ],
+    "requete": "bib.title all \"lights drag action\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "liselotte-et-la-foret-des-sorcieres": {
    "anilist": null,
@@ -22056,7 +22299,28 @@
    "anilistVerifie": "2026-10-23"
   },
   "normaux": {
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025-01",
+    "editeur": "Casterman",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47647602b",
+    "isbn1": "9782203291195",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47647602b",
+      "isbn": "9782203291195"
+     }
+    ],
+    "requete": "bib.title all \"normaux\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "verifie": "2026-10-26",
+   "bnfVerifie": "2026-10-26"
   },
   "nos-c-h-oeurs-evanescents": {
    "anilist": null,
@@ -22966,7 +23230,48 @@
     "annee": 2019,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 10,
+    "tomes": "1-10",
+    "dateDernier": "2024-11",
+    "editeur": "Glénat",
+    "notices": 10,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46638615k",
+    "isbn1": "9782344042960",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46638615k",
+      "isbn": "9782344042960"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb466478780",
+      "isbn": "9782344042977"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46725716f",
+      "isbn": "9782344045657"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46859579j",
+      "isbn": "9782344048566"
+     }
+    ],
+    "requete": "bib.title all \"oxalis et or\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "pakka": {
    "bnf": {
@@ -23679,7 +23984,38 @@
     "annee": 2023,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2024-10",
+    "editeur": "Nobi nobi !",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47363616z",
+    "isbn1": "9782384960897",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47363616z",
+      "isbn": "9782384960897"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47584591f",
+      "isbn": "9782384963768"
+     }
+    ],
+    "requete": "bib.title all \"petits en cas de monsieur matcha\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "petits-velos": {
    "anilist": null,
@@ -27083,7 +27419,43 @@
     "annee": 2023,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-26",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-10",
+    "editeur": "Vega",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb486064872",
+    "isbn1": "9782808700306",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb486064872",
+      "isbn": "9782808700306"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb486630597",
+      "isbn": "9782808700504"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48823473d",
+      "isbn": "9782808701730"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48854591g",
+      "isbn": "9782808703178"
+     }
+    ],
+    "requete": "bib.title all \"servant beasts\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "bnfVerifie": "2026-10-26"
   },
   "seule-la-mort-attend-la-vilaine": {
    "anilist": {
@@ -27244,7 +27616,48 @@
     "annee": 2018,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-26",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 20,
+    "tomes": "1-20",
+    "dateDernier": "2026-07",
+    "editeur": "Glénat",
+    "notices": 21,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb465612931",
+    "isbn1": "9782344041703",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb465612931",
+      "isbn": "9782344041703"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46561295q",
+      "isbn": "9782344041697"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46621807m",
+      "isbn": "9782344041710"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46684694s",
+      "isbn": "9782344044230"
+     }
+    ],
+    "requete": "bib.title all \"shadows house\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "shangri-la-frontier": {
    "anilist": {
@@ -27461,7 +27874,48 @@
     "annee": 2024,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-26",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-10",
+    "editeur": "Bamboo édition",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb487649621",
+    "isbn1": "9791041115341",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb487649621",
+      "isbn": "9791041115341"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48739951z",
+      "isbn": "9791041115341"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48796531r",
+      "isbn": "9791041119493"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48829281x",
+      "isbn": "9791041119578"
+     }
+    ],
+    "requete": "bib.title all \"shiba inu rooms\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "shiita-et-la-foret-des-minuscules": {
    "anilist": null,
@@ -27513,7 +27967,38 @@
     "annee": 2024,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-09",
+    "editeur": "Rue de Sèvres",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47629647c",
+    "isbn1": "9782810209651",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47629647c",
+      "isbn": "9782810209651"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb50020246v",
+      "isbn": "9782810209699"
+     }
+    ],
+    "requete": "bib.title all \"shin zero\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "shirayuki-aux-cheveux-rouges": {
    "anilist": {
@@ -28343,7 +28828,36 @@
     "annee": 2004,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "2",
+    "dateDernier": "2025-11",
+    "editeur": "Delcourt",
+    "notices": 1,
+    "autresEditeurs": [
+     "Casterman",
+     "Éditions l'Îlot d'opale"
+    ],
+    "ark1": "ark:/12148/cb48653773h",
+    "isbn1": "9782413087625",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48653773h",
+      "isbn": "9782413087625"
+     }
+    ],
+    "requete": "bib.title all \"sorcieres\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "sorcieres-de-la-fin-du-monde": {
    "anilist": null,
@@ -32875,7 +33389,48 @@
     "annee": 2021,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-26",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 13,
+    "tomes": "1-13",
+    "dateDernier": "2026-08",
+    "editeur": "Soleil",
+    "notices": 13,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47114680x",
+    "isbn1": "9782302097261",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47114680x",
+      "isbn": "9782302097261"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47123273h",
+      "isbn": "9782302097384"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb472041559",
+      "isbn": "9782302099029"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47250985h",
+      "isbn": "9782302099036"
+     }
+    ],
+    "requete": "bib.title all \"witch watch\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "xxe-siecle-en-manga": {
    "anilist": null,
@@ -33227,7 +33782,48 @@
     "annee": 2009,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 46,
+    "tomes": "1-46",
+    "dateDernier": "2026-04",
+    "editeur": "Pika édition",
+    "notices": 48,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48671762s",
+    "isbn1": "9791043304392",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48671762s",
+      "isbn": "9791043304392"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43819851r",
+      "isbn": "9782811614874"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43880498k",
+      "isbn": "9782811615468"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb439071530",
+      "isbn": "9782811616168"
+     }
+    ],
+    "requete": "bib.title all \"yona princesse de aube\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "yoshi-s-new-island": {
    "verifie": "2026-10-23"
@@ -33505,7 +34101,50 @@
     "annee": 1990,
     "verifie": "2026-10-23"
    },
-   "anilistVerifie": "2026-10-23"
+   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-26",
+   "bnf": {
+    "dernier": 19,
+    "tomes": "1-15,18-19",
+    "dateDernier": "1999",
+    "editeur": "Kana",
+    "notices": 28,
+    "autresEditeurs": [
+     "[Paris]"
+    ],
+    "ark1": "ark:/12148/cb469605621",
+    "isbn1": "9782505110095",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb469605621",
+      "isbn": "9782505110095"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44320525p",
+      "isbn": "2871296936"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb36163388d",
+      "isbn": "287129125X"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb469569762",
+      "isbn": "9782505110101"
+     }
+    ],
+    "requete": "bib.title all \"yuyu hakusho\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-26",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-26"
+   },
+   "bnfVerifie": "2026-10-26"
   },
   "yuzu-la-petite-veterinaire": {
    "anilist": null,
