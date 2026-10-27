@@ -384,7 +384,7 @@ def _bloc_volume(page: str, debut: str, fin: str | None) -> tuple[int | None, st
     return (int(v.group(1)) if v else None), (f"{d.group(3)}-{d.group(2)}-{d.group(1)}" if d else None)
 
 
-def fiche_manga_news(url: str | None) -> dict | None:
+def fiche_manga_news(url: str | None, debug: bool = False) -> dict | None:
     """Lit la fiche d'une série sur Manga-News : « VF : 20 (Terminé) », « VO : 20 (Terminé) »,
     le dernier tome paru et le prochain annoncé."""
     global _dernier_mn
@@ -401,6 +401,14 @@ def fiche_manga_news(url: str | None) -> dict | None:
     vf, vo = RE_VF.search(texte), RE_VO.search(texte)
     og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page) or re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', page)
     couv = og.group(1).strip() if og and "/public/images/" in og.group(1) else ""
+    if not couv:
+        # pas d'og:image exploitable : première image de couverture de la page (série ou tome)
+        im = re.search(r'(https?://www\.manga-news\.com)?(/public/images/(?:series|vols)/[^"\'\s)]+\.(?:webp|jpe?g|png))', page)
+        if im:
+            couv = (im.group(1) or "https://www.manga-news.com") + im.group(2)
+    if debug:
+        metas = re.findall(r'<meta[^>]+image[^>]*>', page)[:3]
+        dbg(f"    Fiche Manga-News, image : {couv or 'aucune'} ; balises : {metas}")
     r = {"url": url, **({"couv": couv} if couv else {})}
     if not vf and not vo:
         # Webtoon : la fiche compte les chapitres en ligne, sans état de l'édition papier ;
@@ -449,7 +457,7 @@ def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> N
     if not (debug or autre_page or fiche_a_lire(e, forcer)):
         return
     try:
-        e["mangaNewsFiche"] = fiche_manga_news(url)
+        e["mangaNewsFiche"] = fiche_manga_news(url, debug)
     except Exception as ex:
         print(f"  fiche Manga-News : {ex}", file=sys.stderr, flush=True)
         if "404" not in str(ex) and "410" not in str(ex):
@@ -926,44 +934,51 @@ def main() -> int:
         print(f"- {s['titre']}", flush=True)
         try:
             one_shot = s.get("type") == "One shot"
+            pannes = []  # une source en panne n'empêche pas les autres (couverture comprise)
             # AniList
-            if args.bnf_seulement:
-                pass
-            elif lien:
-                if not al or al.get("id") != lien or age_jours(e.get("anilistVerifie")) > 6 or args.forcer:
-                    m = anilist(Q_ID, {"id": int(lien)}).get("Media")
-                    e["anilist"] = resume_anilist(m, False, None) if m else {"id": lien, "titre": "Introuvable sur AniList", "statut": None, "auto": False}
-                    e["anilistVerifie"] = AUJOURDHUI.isoformat()
-            elif not one_shot and s.get("genre") != "Comics":  # pas de comics sur AniList
-                deja_vu_sans = e.get("anilistVerifie") and al is None and age_jours(e.get("anilistVerifie")) < 30
-                if args.forcer or debug or not (al or deja_vu_sans) or (al and al.get("statut") != "FINISHED"):
-                    if al and al.get("id") and not al.get("auteurDifferent"):
-                        m = anilist(Q_ID, {"id": al["id"]}).get("Media")
-                        e["anilist"] = resume_anilist(m, True, al.get("score")) if m else None
-                        if m and meme_auteur(auteur, m) is False:
+            try:
+                if args.bnf_seulement:
+                    pass
+                elif lien:
+                    if not al or al.get("id") != lien or age_jours(e.get("anilistVerifie")) > 6 or args.forcer:
+                        m = anilist(Q_ID, {"id": int(lien)}).get("Media")
+                        e["anilist"] = resume_anilist(m, False, None) if m else {"id": lien, "titre": "Introuvable sur AniList", "statut": None, "auto": False}
+                        e["anilistVerifie"] = AUJOURDHUI.isoformat()
+                elif not one_shot and s.get("genre") != "Comics":  # pas de comics sur AniList
+                    deja_vu_sans = e.get("anilistVerifie") and al is None and age_jours(e.get("anilistVerifie")) < 30
+                    if args.forcer or debug or not (al or deja_vu_sans) or (al and al.get("statut") != "FINISHED"):
+                        if al and al.get("id") and not al.get("auteurDifferent"):
+                            m = anilist(Q_ID, {"id": al["id"]}).get("Media")
+                            e["anilist"] = resume_anilist(m, True, al.get("score")) if m else None
+                            if m and meme_auteur(auteur, m) is False:
+                                e["anilist"] = chercher_anilist(s, auteur, debug)
+                        else:
                             e["anilist"] = chercher_anilist(s, auteur, debug)
-                    else:
-                        e["anilist"] = chercher_anilist(s, auteur, debug)
-                    e["anilistVerifie"] = AUJOURDHUI.isoformat()
-            if one_shot:
-                # un one shot : seulement Manga-News, pour la couverture (et la page indiquée, si elle n'est pas dans le jeu de données)
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
-                if (s.get("liens") or {}).get("mangaNews"):
-                    lire_fiche(s, e, args.forcer, debug)
+                        e["anilistVerifie"] = AUJOURDHUI.isoformat()
+            except Exception as ex:
+                pannes.append(f"AniList : {ex}")
             # BnF
             if not one_shot:
-                vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
-                e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
-                e["bnfVerifie"] = AUJOURDHUI.isoformat()
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                try:
+                    vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
+                    e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
+                    e["bnfVerifie"] = AUJOURDHUI.isoformat()
+                except Exception as ex:
+                    pannes.append(f"BnF : {ex}")
+            # Manga-News (jeu de données, puis fiche : pour un one shot, seulement si une page est indiquée)
+            e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+            if not one_shot or (s.get("liens") or {}).get("mangaNews"):
                 lire_fiche(s, e, args.forcer, debug)
-            # Couverture française, une seule fois (puis tous les 6 mois si elle manque)
+            # Couverture française, une seule fois (puis nouvel essai si elle manque)
             if not debug and couverture_a_chercher(s, e, args.forcer):
                 chercher_couverture(s, e)
-            e["verifie"] = AUJOURDHUI.isoformat()
-            e["liensVus"] = s.get("liens") or {}
+            if not pannes:
+                e["verifie"] = AUJOURDHUI.isoformat()  # sinon : revue au prochain passage
+                e["liensVus"] = s.get("liens") or {}
             cache[s["id"]] = e
             faites += 1
+            if pannes:
+                raise RuntimeError(" ; ".join(pannes))
             if debug:
                 if e.get("bnf"):
                     tester_couvertures(e["bnf"])
@@ -973,7 +988,7 @@ def main() -> int:
             erreurs += 1
             consecutives += 1
             print(f"  erreur : {ex}", file=sys.stderr, flush=True)
-            if erreurs <= 8:
+            if erreurs <= 15:
                 print(f"::warning title=Erreur sur {s['titre'][:40]}::{str(ex)[:300]}", flush=True)
             if consecutives >= 5:
                 print("Plusieurs erreurs de suite : pause de 3 minutes.", flush=True)
