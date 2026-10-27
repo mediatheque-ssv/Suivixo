@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T16:06:36Z",
+ "maj": "2026-10-27T16:31:39Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -7311,14 +7311,44 @@
      "Pika édition",
      "nobi nobi !"
     ],
+    "ark1": "ark:/12148/cb422609166",
+    "isbn1": "9782723474580",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb422609166",
+      "isbn": "9782723474580"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42307134j",
+      "isbn": "9782723474597"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42337040t",
+      "isbn": "9782723474603"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42381330x",
+      "isbn": "9782723474610"
+     }
+    ],
     "requete": "bib.title all \"captain tsubasa\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-27",
+   "verifie": "2026-10-27",
    "mangaNews": null,
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
-   "couvEssaiMN": ""
+   "couvEssaiMN": "",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-27"
+   },
+   "liensVus": {}
   },
   "captain-tsubasa-world-youth": {
    "anilist": {
@@ -11507,23 +11537,22 @@
    "couvEssai": "2026-10-27",
    "mangaNews": null,
    "couvVersion": 2,
-   "couvEssaiMN": "",
+   "couvEssaiMN": "https://www.manga-news.com/public/images/vols/death-note-black-edition-1-kana.jpg",
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/manga/Death-Note-Black-Edition/vol-1",
-    "vf": 13,
-    "vfStatut": "Terminé",
-    "vo": 13,
-    "voStatut": "Terminé",
+    "lu": false,
     "vfDernierDate": "2023-10-20",
-    "vfProchainDate": "2026-11-06",
-    "vfProchain": 7,
-    "pays": "JP",
-    "annee": 2004,
+    "couv": "https://www.manga-news.com/public/images/vols/death-note-black-edition-1-kana.jpg",
     "verifie": "2026-10-27"
    },
    "liensVus": {
     "bedetheque": "serie-24902-BD-Death-note-Black-Edition.html",
     "mangaNews": "index.php/manga/Death-Note-Black-Edition/vol-1"
+   },
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/manga/Death-Note-Black-Edition/vol-1",
+    "maj": "2026-10-27"
    }
   },
   "decheance-d-un-homme": {
@@ -12164,7 +12193,8 @@
    "couvEssai": "2026-10-27",
    "verifie": "2026-10-23",
    "anilistVerifie": "2026-10-27",
-   "couvVersion": 2
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "detective-conan": {
    "anilist": null,
@@ -13212,12 +13242,38 @@
     "notices": 7,
     "autresEditeurs": [],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb45143616x",
+    "isbn1": "9782373020205",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45143616x",
+      "isbn": "9782373020205"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb452399730",
+      "isbn": "9782373020212"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45292715t",
+      "isbn": "9782373020298"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb455584990",
+      "isbn": "9782373020441"
+     }
+    ],
     "requete": "bib.title all \"durarara\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-27",
+   "verifie": "2026-10-27",
    "couvEssai": "2026-10-27",
-   "couvVersion": 2
+   "couvVersion": 2,
+   "liensVus": {},
+   "couvEssaiMN": ""
   },
   "eclat-s-d-ame": {
    "anilist": null,
@@ -13405,6 +13461,7 @@
    "couvEssai": "2026-10-27",
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ekeko",
+    "couv": "https://www.manga-news.com/public/images/series/.ekeko-edition-salamao_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vfDernier": 3,
@@ -13442,6 +13499,11 @@
    "bnfVerifie": "2026-10-27",
    "liensVus": {
     "mangaNews": "index.php/serie/Ekeko"
+   },
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Ekeko",
+    "maj": "2026-10-27"
    }
   },
   "elden-ring-le-chemin-vers-l-arbre-monde": {
@@ -14160,6 +14222,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Niko-Tama",
+    "couv": "https://www.manga-news.com/public/images/series/.entre-deux-1-kana_medium.webp",
     "vf": 5,
     "vfStatut": "Terminé",
     "vo": 5,
@@ -14168,11 +14231,16 @@
     "vfDernierDate": "2023-03-10",
     "pays": "JP",
     "annee": 2009,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.entre-deux-1-kana_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.entre-deux-1-kana_medium.webp",
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Niko-Tama",
+    "maj": "2026-10-27"
+   }
   },
   "entre-nos-mains": {
    "anilist": {
@@ -14968,12 +15036,33 @@
      "Itak éd.",
      "R. Laffont"
     ],
+    "ark1": "ark:/12148/cb37680044n",
+    "isbn1": "2845651376",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb37680044n",
+      "isbn": "2845651376"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb488169750",
+      "isbn": "9782302107908"
+     }
+    ],
     "requete": "bib.title all \"fantome de opera\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-27",
+   "verifie": "2026-10-27",
    "couvEssai": "2026-10-27",
-   "couvVersion": 2
+   "couvVersion": 2,
+   "couvFR": {
+    "source": "BnF",
+    "tome": 5,
+    "maj": "2026-10-27"
+   },
+   "liensVus": {},
+   "couvEssaiMN": ""
   },
   "fee-des-neiges": {
    "couvVersion": 2,
@@ -15029,11 +15118,11 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Felin-pour-lautre",
     "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.felin-pour-lautre-1-doki_medium.webp",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.felin-pour-lautre-1-doki_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Felin-pour-lautre",
+    "couv": "https://www.manga-news.com/public/images/series/.felin-pour-lautre-1-doki_medium.webp",
     "vf": 6,
     "vfStatut": "Terminé",
     "vo": 6,
@@ -15041,11 +15130,16 @@
     "vfDernierDate": "2023-11-22",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.felin-pour-lautre-1-doki_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.felin-pour-lautre-1-doki_medium.webp",
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Felin-pour-lautre",
+    "maj": "2026-10-27"
+   }
   },
   "fiancee-du-clan-kyougane": {
    "bnf": {
@@ -16769,10 +16863,34 @@
     "editeur": "Bamboo édition",
     "notices": 5,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47321614z",
+    "isbn1": "9791041102150",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47321614z",
+      "isbn": "9791041102150"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb473622932",
+      "isbn": "9791041102167"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47398141m",
+      "isbn": "9791041104208"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47428786z",
+      "isbn": "9791041104215"
+     }
+    ],
     "requete": "bib.title all \"gros chat et la sorciere grincheuse\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-27",
+   "verifie": "2026-10-27",
    "mangaNews": {
     "tomes": 5,
     "editeur": "Doki Doki",
@@ -16783,6 +16901,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Gros-Chat-et-la-Sorciere-grincheuse-le",
+    "couv": "https://www.manga-news.com/public/images/series/.Gros_Chat_et_la_Sorcie_re_grincheuse_1_doki_medium.webp",
     "vf": 5,
     "vfStatut": "Terminé",
     "vo": 5,
@@ -16790,11 +16909,17 @@
     "vfDernierDate": "2025-11-05",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Gros_Chat_et_la_Sorcie_re_grincheuse_1_doki_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Gros_Chat_et_la_Sorcie_re_grincheuse_1_doki_medium.webp",
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Gros-Chat-et-la-Sorciere-grincheuse-le",
+    "maj": "2026-10-27"
+   },
+   "liensVus": {}
   },
   "grossesse-de-m-hiyama": {
    "verifie": "2026-10-23",
@@ -17085,6 +17210,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Hachi-Maruru-Chats-des-rues",
+    "couv": "https://www.manga-news.com/public/images/series/.Hachi_Maruru_1_doki_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 6,
@@ -17093,11 +17219,16 @@
     "vfDernierDate": "2025-06-04",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Hachi_Maruru_1_doki_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Hachi_Maruru_1_doki_medium.webp",
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Hachi-Maruru-Chats-des-rues",
+    "maj": "2026-10-27"
+   }
   },
   "haikyu-les-as-du-volley": {
    "anilist": null,
@@ -17156,7 +17287,8 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
    "couvEssai": "2026-10-27",
-   "couvVersion": 2
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "hajime-teddy-riner-l-ascension-d-une-legende": {
    "anilist": null,
@@ -19381,10 +19513,19 @@
     "editeur": "Gallimard bande dessinée",
     "notices": 1,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48699286r",
+    "isbn1": "9782075233644",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48699286r",
+      "isbn": "9782075233644"
+     }
+    ],
     "requete": "bib.title all \"journal de mobu\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-27",
+   "verifie": "2026-10-27",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Gallimard",
@@ -19395,17 +19536,24 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Journal-de-Mobu-le",
+    "couv": "https://www.manga-news.com/public/images/series/.le-journal-de-mobu-1-gallimard_medium.webp",
     "vf": 1,
     "vfStatut": "En cours",
     "vo": 1,
     "voStatut": "En cours",
     "vfDernier": 1,
     "vfDernierDate": "2025-04-02",
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.le-journal-de-mobu-1-gallimard_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.le-journal-de-mobu-1-gallimard_medium.webp",
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Journal-de-Mobu-le",
+    "maj": "2026-10-27"
+   },
+   "liensVus": {}
   },
   "judge": {
    "anilist": {
@@ -39860,12 +40008,43 @@
     "editeur": "Bayard jeunesse",
     "notices": 5,
     "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47024477h",
+    "isbn1": "9791036336201",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47024477h",
+      "isbn": "9791036336201"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47111668b",
+      "isbn": "9791036336218"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb472646955",
+      "isbn": "9791036340529"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb474362869",
+      "isbn": "9791036357060"
+     }
+    ],
     "requete": "bib.title all \"xxe siecle en manga\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-27",
+   "verifie": "2026-10-27",
    "couvEssai": "2026-10-27",
-   "couvVersion": 2
+   "couvVersion": 2,
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-27"
+   },
+   "liensVus": {},
+   "couvEssaiMN": ""
   },
   "yaiba": {
    "anilist": {
