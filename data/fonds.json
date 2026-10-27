@@ -1,7 +1,7 @@
 {
  "import": {
-  "date": "2026-10-23",
-  "source": "NRipoll_sti_639283653365165872.xls",
+  "date": "2026-10-27",
+  "source": "NRipoll_sti_639286922728528723.xls",
   "exemplaires": 4834
  },
  "bibliotheques": [
@@ -17,27 +17,28 @@
   "300-jours-avec-toi": {
    "titreOrphee": "300 jours avec toi",
    "editeur": "",
+   "auteur": "Kiritomo Masaki",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
      2
     ]
-   },
-   "auteur": "Kiritomo Masaki"
+   }
   },
   "5-minutes-forward": {
    "titreOrphee": "5 minutes forward",
    "editeur": "Kana",
+   "auteur": "Fukuda Hiroshi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Fukuda Hiroshi"
+   }
   },
   "a-l-image-de-mona-lisa": {
    "titreOrphee": "A l'image de Mona Lisa",
    "editeur": "Akata",
+   "auteur": "Yoshimura Tsumuji",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -51,12 +52,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Yoshimura Tsumuji"
+   }
   },
   "a-silent-voice": {
    "titreOrphee": "A silent voice",
    "editeur": "Ki-oon",
+   "auteur": "Oima Yoshitoki",
    "tomes": {
     "Domloup": [
      1,
@@ -86,33 +87,33 @@
      2,
      3
     ]
-   },
-   "auteur": "Oima Yoshitoki"
+   }
   },
   "aether-dreams": {
    "titreOrphee": "Aether dreams",
    "editeur": "Hachette romans",
+   "auteur": "Deterra Hayden",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
    },
-   "auteur": "Deterra Hayden",
    "webtoon": true
   },
   "agents-of-the-four-seasons-la-danse-du-printemps": {
    "titreOrphee": "Agents of the Four Seasons - La danse du printemps",
    "editeur": "Akata",
+   "auteur": "Akatsuki Kana",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Akatsuki Kana"
+   }
   },
   "alice-in-borderland": {
    "titreOrphee": "Alice in Borderland",
    "editeur": "Delcourt",
+   "auteur": "Asô Haro",
    "tomes": {
     "Domloup": [
      1,
@@ -131,12 +132,12 @@
      14,
      15
     ]
-   },
-   "auteur": "Asô Haro"
+   }
   },
   "all-out": {
    "titreOrphee": "All Out!!",
    "editeur": "Pika",
+   "auteur": "Amase Shiori",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -155,49 +156,49 @@
      15,
      17
     ]
-   },
-   "auteur": "Amase Shiori"
+   }
   },
   "all-you-need-is-kill": {
    "titreOrphee": "All you need is kill",
    "editeur": "Kazé",
+   "auteur": "Sakurazaka Hiroshi",
    "tomes": {
     "Ossé": [
      1,
      2
     ]
-   },
-   "auteur": "Sakurazaka Hiroshi"
+   }
   },
   "amatsuki": {
    "titreOrphee": "Amatsuki",
    "editeur": "Kazé",
+   "auteur": "Takayama Shinobu",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Takayama Shinobu"
+   }
   },
   "amer-beton": {
    "titreOrphee": "Amer Béton",
    "editeur": "Tonkam",
-   "tomes": {},
-   "auteur": "Matsumoto Taiyô"
+   "auteur": "Matsumoto Taiyô",
+   "tomes": {}
   },
   "amour-sucre": {
    "titreOrphee": "Amour sucré",
    "editeur": "Akiléos",
+   "auteur": "ChinoMiko",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "ChinoMiko"
+   }
   },
   "ao-ashi-playmaker": {
    "titreOrphee": "Ao Ashi playmaker",
    "editeur": "Mangetsu",
+   "auteur": "Kobayashi Yûgo",
    "tomes": {
     "Domloup": [
      1,
@@ -231,12 +232,12 @@
      29,
      30
     ]
-   },
-   "auteur": "Kobayashi Yûgo"
+   }
   },
   "apres-la-pluie": {
    "titreOrphee": "Après la pluie",
    "editeur": "Kana",
+   "auteur": "Mayuzuki Jun",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -254,23 +255,23 @@
      9,
      10
     ]
-   },
-   "auteur": "Mayuzuki Jun"
+   }
   },
   "aria-the-masterpiece": {
    "titreOrphee": "Aria The Masterpiece",
    "editeur": "Editons Ki-oon",
+   "auteur": "Amano Kozue",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Amano Kozue"
+   }
   },
   "aromantic-love-story": {
    "titreOrphee": "Aromantic (love) story",
    "editeur": "Editions Akata",
+   "auteur": "Ono Haruka",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -279,12 +280,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Ono Haruka"
+   }
   },
   "asadora": {
    "titreOrphee": "Asadora!",
    "editeur": "Kana",
+   "auteur": "Urasawa Naoki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -297,12 +298,12 @@
      8,
      9
     ]
-   },
-   "auteur": "Urasawa Naoki"
+   }
   },
   "ascension": {
    "titreOrphee": "Ascension",
    "editeur": "Delcourt\nImpr. Aubin\nDelcourt",
+   "auteur": "Sakamoto Shin'ichi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -322,12 +323,12 @@
      16,
      17
     ]
-   },
-   "auteur": "Sakamoto Shin'ichi"
+   }
   },
   "assassination-classroom": {
    "titreOrphee": "Assassination classroom",
    "editeur": "Kana\nImpr. Maury",
+   "auteur": "Matsui Yusei",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -358,12 +359,12 @@
      "statut": "Perdu",
      "cote": "MA  ASS"
     }
-   ],
-   "auteur": "Matsui Yusei"
+   ]
   },
   "assassination-classroom-2": {
    "titreOrphee": "Assassination classroom 2",
    "editeur": "Kana",
+   "auteur": "Matsui Yusei",
    "tomes": {
     "Domloup": [
      6,
@@ -374,12 +375,12 @@
      11,
      12
     ]
-   },
-   "auteur": "Matsui Yusei"
+   }
   },
   "astra-lost-in-space": {
    "titreOrphee": "Astra : lost in space",
    "editeur": "Nobi Nobi",
+   "auteur": "Shinohara Kenta",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -395,33 +396,43 @@
      4,
      5
     ]
-   },
-   "auteur": "Shinohara Kenta"
+   }
+  },
+  "astro-royale": {
+   "titreOrphee": "Astro royale",
+   "editeur": "Glénat",
+   "auteur": "Wakui Ken",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   }
   },
   "au-bout-du-chemin": {
    "titreOrphee": "Au bout du chemin",
    "editeur": "Delcourt",
+   "auteur": "Momoyamahato",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Momoyamahato"
+   }
   },
   "baby": {
    "titreOrphee": "Baby",
    "editeur": "Glénat",
+   "auteur": "Chang Sheng",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Chang Sheng"
+   }
   },
   "bakuman": {
    "titreOrphee": "Bakuman",
    "editeur": "Kana",
+   "auteur": "Oba Tsugumi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -459,35 +470,35 @@
     "Domloup": [
      6
     ]
-   },
-   "auteur": "Oba Tsugumi"
+   }
   },
   "banana-sioule": {
    "titreOrphee": "Banana sioule",
    "editeur": "Glénat",
+   "auteur": "Sanlaville Michaël",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Sanlaville Michaël"
+   }
   },
   "basara": {
    "titreOrphee": "Basara",
    "editeur": "Kana",
+   "auteur": "Tamura Yumi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Tamura Yumi"
+   }
   },
   "battle-game-in-5-seconds": {
    "titreOrphee": "Battle game in 5 seconds",
    "editeur": "Bamboo",
+   "auteur": "Harawata Saizou",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -517,23 +528,23 @@
      25,
      26
     ]
-   },
-   "auteur": "Harawata Saizou"
+   }
   },
   "bd-entre-ciel-et-terre": {
    "titreOrphee": "BD Entre ciel et terre",
    "editeur": "Cambourakis",
+   "auteur": "Zhao Golo",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Zhao Golo"
+   }
   },
   "be-blues": {
    "titreOrphee": "Be Blues!",
    "editeur": "Meian Editions",
+   "auteur": "Tanaka Motoyuki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -542,12 +553,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Tanaka Motoyuki"
+   }
   },
   "bienvenue-au-club": {
    "titreOrphee": "Bienvenue au club",
    "editeur": "Editions Akata",
+   "auteur": "Asada Nikki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -559,12 +570,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Asada Nikki"
+   }
   },
   "black-butler": {
    "titreOrphee": "Black Butler",
    "editeur": "Kana",
+   "auteur": "Toboso Yana",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -581,12 +592,12 @@
      "statut": "Hors service",
      "cote": "BDM TOB t1"
     }
-   ],
-   "auteur": "Toboso Yana"
+   ]
   },
   "black-torch": {
    "titreOrphee": "Black torch",
    "editeur": "Ki-oon",
+   "auteur": "Takaki Tsuyoshi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -595,12 +606,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Takaki Tsuyoshi"
+   }
   },
   "bleach": {
    "titreOrphee": "Bleach",
    "editeur": "Glénat",
+   "auteur": "Kubo Taito",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -696,12 +707,12 @@
      73,
      74
     ]
-   },
-   "auteur": "Kubo Taito"
+   }
   },
   "blissful-land": {
    "titreOrphee": "Blissful Land",
    "editeur": "Nobi Nobi",
+   "auteur": "Izumi Ichimon",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -710,12 +721,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Izumi Ichimon"
+   }
   },
   "blood-lad": {
    "titreOrphee": "Blood lad",
    "editeur": "Kurokawa",
+   "auteur": "Kodama Yuki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -736,23 +747,23 @@
      16,
      17
     ]
-   },
-   "auteur": "Kodama Yuki"
+   }
   },
   "bloody-cross": {
    "titreOrphee": "Bloody Cross",
    "editeur": "Ki-oon\nCPI Aubin impr.",
+   "auteur": "Komeyama Shio",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Komeyama Shio"
+   }
   },
   "bloom-into-you": {
    "titreOrphee": "Bloom into you",
    "editeur": "Kana",
+   "auteur": "Nakatani Nio",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -764,12 +775,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Nakatani Nio"
+   }
   },
   "blue-flag": {
    "titreOrphee": "Blue flag",
    "editeur": "Kurokawa",
+   "auteur": "Kaito",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -781,24 +792,24 @@
      7,
      8
     ]
-   },
-   "auteur": "Kaito"
+   }
   },
   "tenor-saxophone-miyamoto-dai-blue-giant": {
    "titreOrphee": "Tenor saxophone, Miyamoto Dai",
    "editeur": "Glénat",
+   "auteur": "Ishizuka Shin'ichi",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Ishizuka Shin'ichi"
+   }
   },
   "blue-period": {
    "titreOrphee": "Blue period",
    "editeur": "Pika",
+   "auteur": "Yamaguchi Tsubasa",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -820,12 +831,12 @@
      17,
      18
     ]
-   },
-   "auteur": "Yamaguchi Tsubasa"
+   }
   },
   "blue-spring-ride": {
    "titreOrphee": "Blue Spring Ride",
    "editeur": "Kana\nDARGAUD LOMBARD",
+   "auteur": "Sakisaka Io",
    "tomes": {
     "Domloup": [
      1,
@@ -842,24 +853,24 @@
      12,
      13
     ]
-   },
-   "auteur": "Sakisaka Io"
+   }
   },
   "blue-summer": {
    "titreOrphee": "Blue summer",
    "editeur": "Boy's love",
+   "auteur": "Furuya Nagisa",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Furuya Nagisa"
+   }
   },
   "bride-stories": {
    "titreOrphee": "Bride stories",
    "editeur": "Kaoru Mori",
+   "auteur": "Mori Kaoru",
    "tomes": {
     "Ossé": [
      1,
@@ -901,34 +912,34 @@
      "statut": "Perdu",
      "cote": "BD MOR T1"
     }
-   ],
-   "auteur": "Mori Kaoru"
+   ]
   },
   "brigade-d-outre-tombe": {
    "titreOrphee": "Brigade d'outre-tombe",
    "editeur": "Editions H2T",
+   "auteur": "Machida Tetsuya",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      3
     ]
-   },
-   "auteur": "Machida Tetsuya"
+   }
   },
   "capitaine-albator": {
    "titreOrphee": "Capitaine Albator",
    "editeur": "Big Kana",
+   "auteur": "Matsumoto Reiji",
    "tomes": {
     "Ossé": [
      1,
      2
     ]
-   },
-   "auteur": "Matsumoto Reiji"
+   }
   },
   "cat-s-ai": {
    "titreOrphee": "Cat's Aï",
    "editeur": "Panini manga",
+   "auteur": "Asai Shin",
    "tomes": {
     "Domloup": [
      1,
@@ -938,12 +949,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Asai Shin"
+   }
   },
   "chacun-ses-gouts": {
    "titreOrphee": "Chacun ses goûts",
    "editeur": "Kana",
+   "auteur": "Machita",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -953,24 +964,24 @@
      5,
      6
     ]
-   },
-   "auteur": "Machita"
+   }
   },
   "chainsaw-man": {
    "titreOrphee": "Chainsaw Man",
    "editeur": "Kazé Editions",
+   "auteur": "Fujimoto Tatsuki",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Fujimoto Tatsuki"
+   }
   },
   "chasse-au-cadavre": {
    "titreOrphee": "Chasse au cadavre",
    "editeur": "Casterman",
+   "auteur": "Yamazaki Housui",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -978,12 +989,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Yamazaki Housui"
+   }
   },
   "chocola-vanilla-sugar-sugar-rune": {
    "titreOrphee": "Chocola & Vanilla",
    "editeur": "Kurokawa",
+   "auteur": "An'no Moyoko",
    "tomes": {
     "Ossé": [
      1,
@@ -1034,12 +1045,12 @@
      "statut": "À pilonner",
      "cote": "BD ANNO"
     }
-   ],
-   "auteur": "An'no Moyoko"
+   ]
   },
   "chocolate-cosmos": {
    "titreOrphee": "Chocolate cosmos",
    "editeur": "Panini",
+   "auteur": "Haruta Nana",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -1047,12 +1058,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Haruta Nana"
+   }
   },
   "chroniques-de-la-mariee-de-bretagne": {
    "titreOrphee": "Chroniques de la mariée de Bretagne",
    "editeur": "Kurokawa",
+   "auteur": "Takehara Junji",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -1062,36 +1073,36 @@
      5,
      6
     ]
-   },
-   "auteur": "Takehara Junji"
+   }
   },
   "chronoctis-express": {
    "titreOrphee": "Chronoctis express",
    "editeur": "Kotoji",
+   "auteur": "Aerinn",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Aerinn"
+   }
   },
   "cicatrices": {
    "titreOrphee": "Cicatrices",
    "editeur": "Vega-Dupuis",
+   "auteur": "Arias Brandon",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Arias Brandon"
+   }
   },
   "city-hall": {
    "titreOrphee": "City Hall",
    "editeur": "Ankama",
+   "auteur": "Guerin Rémi",
    "tomes": {
     "St-Aubin du Pavail": [
      1
@@ -1114,24 +1125,24 @@
      6,
      7
     ]
-   },
-   "auteur": "Guerin Rémi"
+   }
   },
   "classroom-of-the-elite": {
    "titreOrphee": "Classroom of the elite",
    "editeur": "Mahô éditions",
+   "auteur": "Kinugasa Syougo",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kinugasa Syougo"
+   }
   },
   "colocataires-a-leur-maniere": {
    "titreOrphee": "Colocataires à leur manière",
    "editeur": "Nobi Nobi",
+   "auteur": "Minatsuki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -1146,12 +1157,12 @@
      10,
      11
     ]
-   },
-   "auteur": "Minatsuki"
+   }
   },
   "comme-les-autres": {
    "titreOrphee": "Comme les autres",
    "editeur": "Kana",
+   "auteur": "Yuki Nojin",
    "tomes": {
     "Domloup": [
      1,
@@ -1162,22 +1173,22 @@
      6,
      7
     ]
-   },
-   "auteur": "Yuki Nojin"
+   }
   },
   "country-diary": {
    "titreOrphee": "Country diary",
    "editeur": "Editions Akata",
+   "auteur": "Isino Aya",
    "tomes": {
     "Domloup": [
      1
     ]
-   },
-   "auteur": "Isino Aya"
+   }
   },
   "crows": {
    "titreOrphee": "Crows",
    "editeur": "Kana",
+   "auteur": "Takahashi Hiroshi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -1185,35 +1196,35 @@
      3,
      4
     ]
-   },
-   "auteur": "Takahashi Hiroshi"
+   }
   },
   "cursed-princess-club": {
    "titreOrphee": "Cursed princess club",
    "editeur": "Neotoon",
+   "auteur": "LambCat",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
    },
-   "auteur": "LambCat",
    "webtoon": true
   },
   "daisy": {
    "titreOrphee": "Daisy",
    "editeur": "Editions Akata",
+   "auteur": "Momochi Reiko",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Momochi Reiko"
+   }
   },
   "dandadan": {
    "titreOrphee": "Dandadan",
    "editeur": "Crunchyroll",
+   "auteur": "Tatsu Yukinobu",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -1230,23 +1241,23 @@
      12,
      13
     ]
-   },
-   "auteur": "Tatsu Yukinobu"
+   }
   },
   "dark-souls-redemption": {
    "titreOrphee": "Dark Souls Redemption",
    "editeur": "Mana books",
+   "auteur": "Blondel Julien",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Blondel Julien"
+   }
   },
   "darwin-s-game": {
    "titreOrphee": "Darwin's game",
    "editeur": "Ki-oon",
+   "auteur": "Flipflops",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -1280,12 +1291,12 @@
      29,
      30
     ]
-   },
-   "auteur": "Flipflops"
+   }
   },
   "death-note": {
    "titreOrphee": "Death note",
    "editeur": "Kana",
+   "auteur": "Oba Tsugumi",
    "tomes": {
     "Domloup": [
      1,
@@ -1331,12 +1342,12 @@
      12,
      13
     ]
-   },
-   "auteur": "Oba Tsugumi"
+   }
   },
   "death-note-black-edition": {
    "titreOrphee": "Death note - black edition",
    "editeur": "Kana",
+   "auteur": "Oba Tsugumi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -1346,12 +1357,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Oba Tsugumi"
+   }
   },
   "demon-tune": {
    "titreOrphee": "Demon tune",
    "editeur": "Kurokawa",
+   "auteur": "Kodama Yuki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -1359,12 +1370,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Kodama Yuki"
+   }
   },
   "desert-9": {
    "titreOrphee": "Desert 9",
    "editeur": "Nobi Nobi",
+   "auteur": "Deguchi Kei",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
@@ -1375,12 +1386,12 @@
     "Chateaugiron": [
      2
     ]
-   },
-   "auteur": "Deguchi Kei"
+   }
   },
   "detective-conan": {
    "titreOrphee": "Détective Conan",
    "editeur": "Dargaud",
+   "auteur": "Aoyama Gosho",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -1409,23 +1420,23 @@
      65,
      66
     ]
-   },
-   "auteur": "Aoyama Gosho"
+   }
   },
   "dreamaker": {
    "titreOrphee": "DreaMaker",
    "editeur": "Ki-oon",
+   "auteur": "Zilo",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Zilo"
+   }
   },
   "dreamland": {
    "titreOrphee": "Dreamland",
    "editeur": "Pika",
+   "auteur": "Lemaire Reno",
    "tomes": {
     "Domloup": [
      1,
@@ -1433,12 +1444,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Lemaire Reno"
+   }
   },
   "durarara": {
    "titreOrphee": "Durarara !!",
    "editeur": "Ofelbe",
+   "auteur": "Narita Ryohgo",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -1449,12 +1460,12 @@
      6,
      7
     ]
-   },
-   "auteur": "Narita Ryohgo"
+   }
   },
   "edens-zero": {
    "titreOrphee": "Edens Zero",
    "editeur": "Pika",
+   "auteur": "Mashima Hiro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -1499,12 +1510,12 @@
      32,
      33
     ]
-   },
-   "auteur": "Mashima Hiro"
+   }
   },
   "elden-ring-le-chemin-vers-l-arbre-monde": {
    "titreOrphee": "Elden Ring : Le chemin vers l'Arbre-Monde",
    "editeur": "Mana books",
+   "auteur": "Tobita Nikiichi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -1518,12 +1529,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Tobita Nikiichi"
+   }
   },
   "en-selle-sakamichi": {
    "titreOrphee": "En selle, Sakamichi !",
    "editeur": "Kurokawa",
+   "auteur": "Watanabe Wataru",
    "tomes": {
     "Domloup": [
      1,
@@ -1532,12 +1543,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Watanabe Wataru"
+   }
   },
   "enfant-des-abysses": {
    "titreOrphee": "Enfant des abysses",
    "editeur": "Nouvelle hydre",
+   "auteur": "Eruthoth",
    "tomes": {
     "Domloup": [
      1,
@@ -1554,44 +1565,44 @@
      2,
      3
     ]
-   },
-   "auteur": "Eruthoth"
+   }
   },
   "entre-deux": {
    "titreOrphee": "Entre deux",
    "editeur": "Editions Akata",
+   "auteur": "Kujira",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Kujira"
+   }
   },
   "erio-the-electric-doll": {
    "titreOrphee": "Erio & The Electric Doll",
    "editeur": "Mangetsu",
+   "auteur": "Shimazaki Mujirushi",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Shimazaki Mujirushi"
+   }
   },
   "et-plus-si-affinites": {
    "titreOrphee": "Et plus si affinités ?",
    "editeur": "Akata",
+   "auteur": "Hatta Akari",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Hatta Akari"
+   }
   },
   "eyeshield-21": {
    "titreOrphee": "Eyeshield 21",
    "editeur": "Glénat",
+   "auteur": "Inagaki Riichiro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -1628,12 +1639,12 @@
      26,
      27
     ]
-   },
-   "auteur": "Inagaki Riichiro"
+   }
   },
   "fairy-tail": {
    "titreOrphee": "Fairy Tail",
    "editeur": "Pika",
+   "auteur": "Mashima Hiro",
    "tomes": {
     "Ossé": [
      1,
@@ -1738,24 +1749,24 @@
      18,
      30
     ]
-   },
-   "auteur": "Mashima Hiro"
+   }
   },
   "fall-in-love-false-angels": {
    "titreOrphee": "Fall in love, False Angels",
    "editeur": "Pika Edition",
+   "auteur": "Uzuki Coco",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Uzuki Coco"
+   }
   },
   "flying-witch": {
    "titreOrphee": "Flying witch",
    "editeur": "Nobi Nobi",
+   "auteur": "Ishizuka Chihiro",
    "tomes": {
     "Ossé": [
      1,
@@ -1771,12 +1782,12 @@
      11,
      12
     ]
-   },
-   "auteur": "Ishizuka Chihiro"
+   }
   },
   "food-wars": {
    "titreOrphee": "Food wars",
    "editeur": "Delcourt",
+   "auteur": "Tsukuda Yuto",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -1785,12 +1796,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Tsukuda Yuto"
+   }
   },
   "four-knights-of-the-apocalypse": {
    "titreOrphee": "Four knights of the Apocalypse",
    "editeur": "Pika",
+   "auteur": "Suzuki Nakaba",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
@@ -1806,12 +1817,12 @@
      11,
      12
     ]
-   },
-   "auteur": "Suzuki Nakaba"
+   }
   },
   "frieren": {
    "titreOrphee": "Frieren",
    "editeur": "Ki-oon",
+   "auteur": "Yamada Kanehito",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -1829,12 +1840,12 @@
      13,
      14
     ]
-   },
-   "auteur": "Yamada Kanehito"
+   }
   },
   "fruits-basket": {
    "titreOrphee": "Fruits basket",
    "editeur": "Delcourt",
+   "auteur": "Takaya Natsuki",
    "tomes": {
     "Chateaugiron": [
      5,
@@ -1854,12 +1865,12 @@
      "statut": "Hors service",
      "cote": "BDM TAK t2"
     }
-   ],
-   "auteur": "Takaya Natsuki"
+   ]
   },
   "fullmetal-alchemist": {
    "titreOrphee": "Fullmetal Alchemist",
    "editeur": "Kurokawa",
+   "auteur": "Arakawa Hiromu",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -1905,24 +1916,24 @@
      26,
      27
     ]
-   },
-   "auteur": "Arakawa Hiromu"
+   }
   },
   "geobreeders": {
    "titreOrphee": "Geobreeders",
    "editeur": "Bamboo\nDoki Doki",
+   "auteur": "Ito Akihiro",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Ito Akihiro"
+   }
   },
   "goal-masters": {
    "titreOrphee": "Goal masters",
    "editeur": "Milan jeunesse",
+   "auteur": "Cho Jae-Ho",
    "tomes": {
     "Domloup": [
      1,
@@ -1930,23 +1941,23 @@
      3,
      6
     ]
-   },
-   "auteur": "Cho Jae-Ho"
+   }
   },
   "goodnight-i-love-you": {
    "titreOrphee": "Goodnight, I love you...",
    "editeur": "Editions Akata",
+   "auteur": "Tarachine John",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Tarachine John"
+   }
   },
   "gto-shonan-14-days": {
    "titreOrphee": "GTO : Shonan 14 days",
    "editeur": "Pika",
+   "auteur": "Fujisawa Tooru",
    "tomes": {
     "Ossé": [
      1,
@@ -1959,12 +1970,12 @@
      8,
      9
     ]
-   },
-   "auteur": "Fujisawa Tooru"
+   }
   },
   "hajime-teddy-riner-l-ascension-d-une-legende": {
    "titreOrphee": "Hajime ! Teddy Riner, l'ascension d'une légende",
    "editeur": "Pika Edition",
+   "auteur": "Tiers",
    "tomes": {
     "Domloup": [
      1
@@ -1972,12 +1983,12 @@
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Tiers"
+   }
   },
   "heartstopper": {
    "titreOrphee": "Heartstopper",
    "editeur": "Hachette romans",
+   "auteur": "Oseman Alice",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -1988,23 +1999,23 @@
      6
     ]
    },
-   "auteur": "Oseman Alice",
    "webtoon": true
   },
   "hero-organization": {
    "titreOrphee": "Hero Organization",
    "editeur": "Glénat",
+   "auteur": "Saikawa Kei",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Saikawa Kei"
+   }
   },
   "heterogenia-linguistico": {
    "titreOrphee": "Heterogenia Linguistico",
    "editeur": "Nobi Nobi",
+   "auteur": "Seno Salt",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2013,12 +2024,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Seno Salt"
+   }
   },
   "hikaru-no-go": {
    "titreOrphee": "Hikaru no go",
    "editeur": "Tonkam",
+   "auteur": "Hotta Yumi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -2031,24 +2042,24 @@
      3,
      4
     ]
-   },
-   "auteur": "Hotta Yumi"
+   }
   },
   "hip-hop": {
    "titreOrphee": "Hip Hop",
    "editeur": "Milan",
+   "auteur": "Kim Soo-Yong",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kim Soo-Yong"
+   }
   },
   "hirayasumi": {
    "titreOrphee": "Hirayasumi",
    "editeur": "le Lézard noir",
+   "auteur": "Shinzo Keigo",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2063,12 +2074,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Shinzo Keigo"
+   }
   },
   "hunter-x-hunter": {
    "titreOrphee": "Hunter X hunter",
    "editeur": "Dargaud",
+   "auteur": "Togashi Yoshihiro",
    "tomes": {
     "Ossé": [
      1,
@@ -2082,12 +2093,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Togashi Yoshihiro"
+   }
   },
   "ichi-the-witch": {
    "titreOrphee": "Ichi the Witch",
    "editeur": "Editions Ki-oon",
+   "auteur": "Nishi Osamu",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -2095,12 +2106,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Nishi Osamu"
+   }
   },
   "instinct": {
    "titreOrphee": "Instinct",
    "editeur": "Michel Lafon",
+   "auteur": "Inoxtag",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -2110,12 +2121,12 @@
      1,
      2
     ]
-   },
-   "auteur": "Inoxtag"
+   }
   },
   "integral-monster": {
    "titreOrphee": "Intégral Monster",
    "editeur": "Kana",
+   "auteur": "Urasawa Naoki",
    "tomes": {
     "Chateaugiron": [
      8,
@@ -2132,12 +2143,12 @@
      8,
      9
     ]
-   },
-   "auteur": "Urasawa Naoki"
+   }
   },
   "iruma-a-l-ecole-des-demons": {
    "titreOrphee": "Iruma à l'école des démons",
    "editeur": "Nobi Nobi",
+   "auteur": "Nishi Osamu",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -2177,12 +2188,12 @@
      "statut": "Perdu",
      "cote": "BD NIS"
     }
-   ],
-   "auteur": "Nishi Osamu"
+   ]
   },
   "isabella-bird-femme-exploratrice": {
    "titreOrphee": "Isabella Bird : femme exploratrice",
    "editeur": "Ki-oon",
+   "auteur": "Sassa Taiga",
    "tomes": {
     "Ossé": [
      1,
@@ -2207,45 +2218,45 @@
      2,
      3
     ]
-   },
-   "auteur": "Sassa Taiga"
+   }
   },
   "jalouses": {
    "titreOrphee": "Jalouses",
    "editeur": "Akata",
+   "auteur": "Battan",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Battan"
+   }
   },
   "jimbocho-sisters": {
    "titreOrphee": "Jimbôchô sisters",
    "editeur": "Mangetsu",
+   "auteur": "Tome Kei",
    "tomes": {
     "St-Aubin du Pavail": [
      1
     ]
-   },
-   "auteur": "Tome Kei"
+   }
   },
   "judge": {
    "titreOrphee": "Judge",
    "editeur": "Ki-oon",
+   "auteur": "Tonogai Yoshiki",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tonogai Yoshiki"
+   }
   },
   "jungle-juice": {
    "titreOrphee": "Jungle Juice",
    "editeur": "Panini Toon",
+   "auteur": "Eun Hyeong",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -2255,12 +2266,12 @@
      5
     ]
    },
-   "auteur": "Eun Hyeong",
    "webtoon": true
   },
   "kagurabachi": {
    "titreOrphee": "Kagurabachi",
    "editeur": "Kana",
+   "auteur": "Takeru Hokazono",
    "tomes": {
     "Chateaugiron": [
      1
@@ -2268,12 +2279,12 @@
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Takeru Hokazono"
+   }
   },
   "kaiju-no-8": {
    "titreOrphee": "Kaiju No 8",
    "editeur": "Kazé Manga",
+   "auteur": "Matsumoto Naoya",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -2298,12 +2309,12 @@
      15,
      16
     ]
-   },
-   "auteur": "Matsumoto Naoya"
+   }
   },
   "kamisama": {
    "titreOrphee": "Kamisama",
    "editeur": "Ki-oon kids\nKi-oon",
+   "auteur": "Kotobuki Keisuke",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -2315,23 +2326,23 @@
      2,
      3
     ]
-   },
-   "auteur": "Kotobuki Keisuke"
+   }
   },
   "kamisama-school": {
    "titreOrphee": "Kamisama School",
    "editeur": "Editions Ki-oon",
+   "auteur": "Hyûga Natsu",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Hyûga Natsu"
+   }
   },
   "kemono-incidents": {
    "titreOrphee": "Kemono incidents",
    "editeur": "Kurokawa",
+   "auteur": "Aimoto Shô",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -2357,12 +2368,12 @@
      21,
      22
     ]
-   },
-   "auteur": "Aimoto Shô"
+   }
   },
   "ken-en-comme-chien-et-singe": {
    "titreOrphee": "KEN'EN comme chien et singe",
    "editeur": "Bamboo\nDoki Doki",
+   "auteur": "Fuetsudo",
    "tomes": {
     "Ossé": [
      1,
@@ -2374,23 +2385,23 @@
      7,
      8
     ]
-   },
-   "auteur": "Fuetsudo"
+   }
   },
   "kids-on-the-slope": {
    "titreOrphee": "Kids on the Slope",
    "editeur": "Mangetsu",
+   "auteur": "Kodama Yuki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Kodama Yuki"
+   }
   },
   "king-s-game-extreme": {
    "titreOrphee": "King's game extreme",
    "editeur": "Ki-oon",
+   "auteur": "Kanazawa Nobuaki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2399,12 +2410,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Kanazawa Nobuaki"
+   }
   },
   "komi-cherche-ses-mots": {
    "titreOrphee": "Komi cherche ses mots",
    "editeur": "Pika",
+   "auteur": "Oda Tomohito",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -2428,24 +2439,24 @@
      19,
      20
     ]
-   },
-   "auteur": "Oda Tomohito"
+   }
   },
   "amour-est-au-menu": {
    "titreOrphee": "L'amour est au menu",
    "editeur": "Akata",
+   "auteur": "Yuzaki Sakaomi",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Yuzaki Sakaomi"
+   }
   },
   "amour-est-dans-le-the": {
    "titreOrphee": "L'Amour est dans le Thé",
    "editeur": "Glénat",
+   "auteur": "Yamanaka Umebachi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2459,12 +2470,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Yamanaka Umebachi"
+   }
   },
   "arcane-de-l-aube": {
    "titreOrphee": "L'arcane de l'aube",
    "editeur": "Kaze Manga",
+   "auteur": "Toma Rei",
    "tomes": {},
    "retires": [
     {
@@ -2473,12 +2484,12 @@
      "statut": "Perdu",
      "cote": "BD TOM T1"
     }
-   ],
-   "auteur": "Toma Rei"
+   ]
   },
   "atelier-des-sorciers": {
    "titreOrphee": "L'atelier des sorciers",
    "editeur": "Pika",
+   "auteur": "Shirahama Kamome",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -2539,12 +2550,12 @@
      "statut": "Remplacement, rachat",
      "cote": "BD SHI"
     }
-   ],
-   "auteur": "Shirahama Kamome"
+   ]
   },
   "attaque-des-titans": {
    "titreOrphee": "L'attaque des titans",
    "editeur": "Pika",
+   "auteur": "Isayama Hajime",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2582,12 +2593,12 @@
      33,
      34
     ]
-   },
-   "auteur": "Isayama Hajime"
+   }
   },
   "attaque-des-titans-before-the-fall": {
    "titreOrphee": "L'attaque des titans - Before the fall",
    "editeur": "Pika",
+   "auteur": "Isayama Hajime",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -2608,12 +2619,12 @@
      16,
      17
     ]
-   },
-   "auteur": "Isayama Hajime"
+   }
   },
   "enfant-du-dragon-fantome": {
    "titreOrphee": "L'enfant du dragon fantôme",
    "editeur": "Komikku",
+   "auteur": "Yukishiro Ichi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -2623,12 +2634,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Yukishiro Ichi"
+   }
   },
   "enfant-et-le-maudit-siuil-a-run": {
    "titreOrphee": "L'enfant et le maudit",
    "editeur": "Komikku",
+   "auteur": "Nagabe",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2643,68 +2654,68 @@
      10,
      11
     ]
-   },
-   "auteur": "Nagabe"
+   }
   },
   "heritiere-du-dragon": {
    "titreOrphee": "L'Héritière du dragon",
    "editeur": "Glénat",
+   "auteur": "Ishii Asuka",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Ishii Asuka"
+   }
   },
   "oiseau-d-or-de-kainis": {
    "titreOrphee": "L'oiseau d'or de Kainis",
    "editeur": "Glénat",
+   "auteur": "Hata Kazuki",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Hata Kazuki"
+   }
   },
   "oxalis-et-l-or": {
    "titreOrphee": "L'oxalis et l'or",
    "editeur": "Glénat",
+   "auteur": "Kitano Eiichi",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kitano Eiichi"
+   }
   },
   "13e-piste": {
    "titreOrphee": "La 13e piste",
    "editeur": "Editions Ki-oon",
+   "auteur": "Sanbe Kei",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Sanbe Kei"
+   }
   },
   "foret-de-miyori": {
    "titreOrphee": "La Forêt de Miyori",
    "editeur": "Milan",
+   "auteur": "Oda Hideji",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Oda Hideji"
+   }
   },
   "foret-magique-de-hoshigahara": {
    "titreOrphee": "La forêt magique de Hoshigahara",
    "editeur": "Rue de Sèvres",
+   "auteur": "Iwaoka Hisae",
    "tomes": {
     "Ossé": [
      1,
@@ -2716,24 +2727,24 @@
      1,
      2
     ]
-   },
-   "auteur": "Iwaoka Hisae"
+   }
   },
   "gameuse-et-son-chat": {
    "titreOrphee": "La gameuse et son chat",
    "editeur": "Bamboo Editions",
+   "auteur": "Nadatari Wataru",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Nadatari Wataru"
+   }
   },
   "last-man": {
    "titreOrphee": "Last Man",
    "editeur": "La Poule qui pond",
+   "auteur": "Balak",
    "tomes": {
     "Domloup": [
      1
@@ -2752,34 +2763,34 @@
      11,
      12
     ]
-   },
-   "auteur": "Balak"
+   }
   },
   "prix-du-reste-de-ma-vie": {
    "titreOrphee": "Le prix du reste de ma vie",
    "editeur": "Editions Delcourt",
+   "auteur": "Miaki Sugaru",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Miaki Sugaru"
+   }
   },
   "dernier-ecrivain": {
    "titreOrphee": "Le dernier écrivain",
    "editeur": "Glénat",
+   "auteur": "Akai Chitose",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Akai Chitose"
+   }
   },
   "garcon-et-la-bete": {
    "titreOrphee": "Le garçon et la bête",
    "editeur": "Kaze Manga\nKazé",
+   "auteur": "Asai Renji",
    "tomes": {
     "Ossé": [
      1,
@@ -2793,12 +2804,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Asai Renji"
+   }
   },
   "gros-chat-et-la-sorciere-grincheuse": {
    "titreOrphee": "Le gros chat et la sorcière grincheuse",
    "editeur": "Bamboo Editions",
+   "auteur": "Kashiwaba Hiro",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -2807,23 +2818,23 @@
      4,
      5
     ]
-   },
-   "auteur": "Kashiwaba Hiro"
+   }
   },
   "journal-de-hanako": {
    "titreOrphee": "Le journal de Hanako",
    "editeur": "Editions IMHO",
+   "auteur": "Kyô Machiko",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Kyô Machiko"
+   }
   },
   "maitre-des-livres": {
    "titreOrphee": "Le maître des livres",
    "editeur": "Komikku",
+   "auteur": "Shinohara Umiharu",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -2832,12 +2843,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Shinohara Umiharu"
+   }
   },
   "mari-de-mon-frere": {
    "titreOrphee": "Le mari de mon frère",
    "editeur": "Editions Akata",
+   "auteur": "Tagame Gengoro",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2851,44 +2862,44 @@
      3,
      4
     ]
-   },
-   "auteur": "Tagame Gengoro"
+   }
   },
   "monde-dans-leurs-yeux": {
    "titreOrphee": "Le monde dans leurs yeux",
    "editeur": "Vega-Dupuis",
+   "auteur": "Ebine Yamaji",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
    },
-   "oneShot": true,
-   "auteur": "Ebine Yamaji"
+   "oneShot": true
   },
   "palais-des-assassins": {
    "titreOrphee": "Le palais des assassins",
    "editeur": "Ki-oon",
+   "auteur": "Iori Tabasa",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Iori Tabasa"
+   }
   },
   "peche-originel-de-takopi": {
    "titreOrphee": "Le péché originel de Takopi",
    "editeur": "Pika",
+   "auteur": "Taizan 5",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
      2
     ]
-   },
-   "auteur": "Taizan 5"
+   }
   },
   "petit-monde-de-machida": {
    "titreOrphee": "Le petit monde de Machida",
    "editeur": "Akata",
+   "auteur": "Ando Yuki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2896,12 +2907,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Ando Yuki"
+   }
   },
   "retour-du-clan-hwasan": {
    "titreOrphee": "Le retour du clan Hwasan",
    "editeur": "Michel Lafon",
+   "auteur": "Biga",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -2912,12 +2923,12 @@
      7
     ]
    },
-   "auteur": "Biga",
    "webtoon": true
   },
   "tigre-des-neiges": {
    "titreOrphee": "Le tigre des neiges",
    "editeur": "le Lézard noir",
+   "auteur": "Higashimura Akiko",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2931,12 +2942,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Higashimura Akiko"
+   }
   },
   "voleur-d-estampes": {
    "titreOrphee": "Le voleur d'estampes",
    "editeur": "Glénat",
+   "auteur": "Moulin-Dupré Camille",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2962,12 +2973,12 @@
      1,
      2
     ]
-   },
-   "auteur": "Moulin-Dupré Camille"
+   }
   },
   "carnets-de-l-apothicaire": {
    "titreOrphee": "Les carnets de l'apothicaire",
    "editeur": "Ki-oon",
+   "auteur": "Nanao Itsuki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -2987,12 +2998,12 @@
      15,
      16
     ]
-   },
-   "auteur": "Nanao Itsuki"
+   }
   },
   "chants-du-cygne-noir": {
    "titreOrphee": "Les Chants du Cygne Noir",
    "editeur": "Rue de Sèvres",
+   "auteur": "Alice Alex",
    "tomes": {
     "Chateaugiron": [
      1
@@ -3000,23 +3011,23 @@
     "Noyal-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Alice Alex"
+   }
   },
   "enfants-de-gorre": {
    "titreOrphee": "Les enfants de Gorre",
    "editeur": "Mahô éditions",
+   "auteur": "Ferrieu Sylvain",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Ferrieu Sylvain"
+   }
   },
   "gouttes-de-dieu": {
    "titreOrphee": "Les Gouttes de Dieu",
    "editeur": "Glénat",
+   "auteur": "Kibayashi Shin",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3041,48 +3052,62 @@
      "statut": "Perdu",
      "cote": "M GOU 3"
     }
-   ],
-   "auteur": "Kibayashi Shin"
+   ]
   },
   "normaux": {
    "titreOrphee": "Les Normaux",
    "editeur": "Casterman",
+   "auteur": "Janssen Janine",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
    },
-   "auteur": "Janssen Janine",
    "webtoon": true
   },
   "sorcieres-de-la-fin-du-monde": {
    "titreOrphee": "Les sorcières de la fin du monde",
    "editeur": "Editions Akata",
+   "auteur": "Kujira",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kujira"
+   }
   },
   "loin-de-moi-pres-de-toi": {
    "titreOrphee": "Loin de moi, près de toi",
    "editeur": "Nobi Nobi",
+   "auteur": "Kuromaru Kyôsuke",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kuromaru Kyôsuke"
+   }
+  },
+  "lonely-world": {
+   "titreOrphee": "Lonely world",
+   "editeur": "Ki-oon",
+   "auteur": "Iwatobineko",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
   },
   "luca-veterinaire-draconique": {
    "titreOrphee": "Luca, vétérinaire draconique",
    "editeur": "Glénat",
+   "auteur": "Hirasawa Yuna",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -3090,12 +3115,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Hirasawa Yuna"
+   }
   },
   "ma-vie-dans-les-bois": {
    "titreOrphee": "Ma vie dans les bois",
    "editeur": "Editions Akata",
+   "auteur": "Morimura Shin",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3113,24 +3138,24 @@
      2,
      3
     ]
-   },
-   "auteur": "Morimura Shin"
+   }
   },
   "magic-maker": {
    "titreOrphee": "Magic maker",
    "editeur": "Komikku",
+   "auteur": "Kazuki Kaburagi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kazuki Kaburagi"
+   }
   },
   "magu-god-of-destruction": {
    "titreOrphee": "Magu, God of Destruction",
    "editeur": "Nobi Nobi",
+   "auteur": "Kamiki Kei",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -3143,12 +3168,12 @@
      8,
      9
     ]
-   },
-   "auteur": "Kamiki Kei"
+   }
   },
   "magus-of-the-library": {
    "titreOrphee": "Magus of the library",
    "editeur": "Ki-oon",
+   "auteur": "Izumi Mitsu",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -3168,22 +3193,22 @@
      7,
      8
     ]
-   },
-   "auteur": "Izumi Mitsu"
+   }
   },
   "majo-no-michi": {
    "titreOrphee": "Majo No Michi",
    "editeur": "Dargaud",
+   "auteur": "Concrete Tony",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Concrete Tony"
+   }
   },
   "malicious-code": {
    "titreOrphee": "Malicious Code",
    "editeur": "Komikku",
+   "auteur": "Masahiro Ikeno",
    "tomes": {
     "Domloup": [
      1,
@@ -3191,23 +3216,23 @@
      3,
      4
     ]
-   },
-   "auteur": "Masahiro Ikeno"
+   }
   },
   "manga-arsene-lupin": {
    "titreOrphee": "Manga Arsène Lupin",
    "editeur": "Kurokawa",
+   "auteur": "Morita Takashi",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Morita Takashi"
+   }
   },
   "manga-les-miserables": {
    "titreOrphee": "Manga Les Misérables",
    "editeur": "Kurokawa",
+   "auteur": "Arai Takahiro",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3219,12 +3244,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Arai Takahiro"
+   }
   },
   "mashle": {
    "titreOrphee": "Mashle",
    "editeur": "Crunchyroll",
+   "auteur": "Komoto Hajime",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
@@ -3246,23 +3271,23 @@
      17,
      18
     ]
-   },
-   "auteur": "Komoto Hajime"
+   }
   },
   "maux-meles": {
    "titreOrphee": "Maux mêlés",
    "editeur": "Editions Akata",
+   "auteur": "Izawa Meguru",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Izawa Meguru"
+   }
   },
   "mes-cent-contes-mortels": {
    "titreOrphee": "Mes cent contes mortels",
    "editeur": "Akata",
+   "auteur": "Matono Anji",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3276,12 +3301,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Matono Anji"
+   }
   },
   "mission-in-the-apocalypse": {
    "titreOrphee": "Mission in the apocalypse",
    "editeur": "Delcourt",
+   "auteur": "Iwamune Haruo",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3289,12 +3314,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Iwamune Haruo"
+   }
   },
   "mob-psycho-100": {
    "titreOrphee": "Mob Psycho 100",
    "editeur": "Kurokawa",
+   "auteur": "One",
    "tomes": {},
    "retires": [
     {
@@ -3303,12 +3328,12 @@
      "statut": "Perdu",
      "cote": "BDA MOB"
     }
-   ],
-   "auteur": "One"
+   ]
   },
   "monster": {
    "titreOrphee": "Monster",
    "editeur": "Dargaud",
+   "auteur": "Urasawa Naoki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3331,12 +3356,12 @@
      1,
      2
     ]
-   },
-   "auteur": "Urasawa Naoki"
+   }
   },
   "monster-hunter-orage": {
    "titreOrphee": "Monster hunter orage",
    "editeur": "Pika",
+   "auteur": "Mashima Hiro",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -3355,22 +3380,22 @@
      2,
      4
     ]
-   },
-   "auteur": "Mashima Hiro"
+   }
   },
   "monthly-girls-nozaki-kun": {
    "titreOrphee": "Monthly girls' Nozaki-kun",
    "editeur": "Noeve Grafx",
+   "auteur": "Izumi Tsubaki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Izumi Tsubaki"
+   }
   },
   "morgana-oz": {
    "titreOrphee": "Morgana & Oz",
    "editeur": "Albin Michel",
+   "auteur": "Miyuli",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
@@ -3385,12 +3410,12 @@
      4
     ]
    },
-   "auteur": "Miyuli",
    "webtoon": true
   },
   "my-hero-academia": {
    "titreOrphee": "My hero academia",
    "editeur": "Ki-oon",
+   "auteur": "Horikoshi Kohei",
    "tomes": {
     "Noyal-sur-Vilaine": [
      9,
@@ -3451,12 +3476,12 @@
      41,
      42
     ]
-   },
-   "auteur": "Horikoshi Kohei"
+   }
   },
   "my-love-story-with-yamada-kun-at-lvl999": {
    "titreOrphee": "My love story with Yamada-kun at LVL999",
    "editeur": "Mana books",
+   "auteur": "Mashiro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -3465,12 +3490,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Mashiro"
+   }
   },
   "nana": {
    "titreOrphee": "Nana",
    "editeur": "Delcourt",
+   "auteur": "Yazawa Ai",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3495,34 +3520,34 @@
      20,
      21
     ]
-   },
-   "auteur": "Yazawa Ai"
+   }
   },
   "nekogahara": {
    "titreOrphee": "Nekogahara",
    "editeur": "Pika",
+   "auteur": "Takei Hiroyuki",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Takei Hiroyuki"
+   }
   },
   "noragami": {
    "titreOrphee": "Noragami",
    "editeur": "Pika Edition",
+   "auteur": "Adachitoka",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Adachitoka"
+   }
   },
   "nos-c-h-oeurs-evanescents": {
    "titreOrphee": "Nos c(h)oeurs évanescents",
    "editeur": "Editions Akata",
+   "auteur": "Kamatani Yuhki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3534,22 +3559,22 @@
      7,
      8
     ]
-   },
-   "auteur": "Kamatani Yuhki"
+   }
   },
   "ocean-rush": {
    "titreOrphee": "Ocean rush",
    "editeur": "Editions Akata",
+   "auteur": "Tarachine John",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Tarachine John"
+   }
   },
   "olympia-kyklos": {
    "titreOrphee": "Olympia kyklos",
    "editeur": "Casterman",
+   "auteur": "Yamazaki Mari",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3560,12 +3585,12 @@
      6,
      7
     ]
-   },
-   "auteur": "Yamazaki Mari"
+   }
   },
   "omniscient-reader-s-viewpoint": {
    "titreOrphee": "Omniscient Reader's Viewpoint",
    "editeur": "Pika Edition",
+   "auteur": "Sleepy-C",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -3575,12 +3600,12 @@
      5
     ]
    },
-   "auteur": "Sleepy-C",
    "webtoon": true
   },
   "one-punch-man": {
    "titreOrphee": "One-punch man",
    "editeur": "Kurokawa",
+   "auteur": "Murata Yusuke",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -3617,12 +3642,12 @@
      3,
      8
     ]
-   },
-   "auteur": "Murata Yusuke"
+   }
   },
   "one-piece": {
    "titreOrphee": "One piece",
    "editeur": "Glénat",
+   "auteur": "Oda Eiichiro",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
@@ -3896,23 +3921,23 @@
      "statut": "Perdu",
      "cote": "BD ODA"
     }
-   ],
-   "auteur": "Oda Eiichiro"
+   ]
   },
   "one-week-friends": {
    "titreOrphee": "One week friends",
    "editeur": "Noeve Grafx",
+   "auteur": "Matcha Hazuki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Matcha Hazuki"
+   }
   },
   "orange": {
    "titreOrphee": "Orange",
    "editeur": "Éd. Akata\nImpr. Laballery",
+   "auteur": "Takano Ichigo",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3923,24 +3948,24 @@
      6,
      7
     ]
-   },
-   "auteur": "Takano Ichigo"
+   }
   },
   "our-colorful-days": {
    "titreOrphee": "Our colorful days",
    "editeur": "Editions Akata",
+   "auteur": "Tagame Gengoro",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tagame Gengoro"
+   }
   },
   "pakka": {
    "titreOrphee": "Pakka",
    "editeur": "Mangetsu",
+   "auteur": "Imai Daisuke",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3949,12 +3974,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Imai Daisuke"
+   }
   },
   "paradise-lost": {
    "titreOrphee": "Paradise lost",
    "editeur": "Soleil",
+   "auteur": "Yagami Rina",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -3962,47 +3987,47 @@
      3,
      4
     ]
-   },
-   "auteur": "Yagami Rina"
+   }
   },
   "phantom-busters": {
    "titreOrphee": "Phantom Busters",
    "editeur": "Editions Ki-oon",
+   "auteur": "Neoshoco",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Neoshoco"
+   }
   },
   "phenix-l-oiseau-de-feu-integrale": {
    "titreOrphee": "Phénix : l'oiseau de feu : intégrale",
    "editeur": "Delcourt",
+   "auteur": "Tezuka Osamu",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Tezuka Osamu"
+   }
   },
   "pline": {
    "titreOrphee": "Pline",
    "editeur": "Casterman",
+   "auteur": "Yamazaki Mari",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Yamazaki Mari"
+   }
   },
   "pluto": {
    "titreOrphee": "Pluto",
    "editeur": "Kana",
+   "auteur": "Tezuka Osamu",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4014,12 +4039,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Tezuka Osamu"
+   }
   },
   "prisonnier-riku": {
    "titreOrphee": "Prisonnier Riku",
    "editeur": "Éd. Akata",
+   "auteur": "Seguchi Shinobu",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -4041,12 +4066,12 @@
      17,
      18
     ]
-   },
-   "auteur": "Seguchi Shinobu"
+   }
   },
   "professeur-eiji": {
    "titreOrphee": "Professeur Eiji",
    "editeur": "Kana",
+   "auteur": "Monden Akiko",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4058,23 +4083,23 @@
      7,
      8
     ]
-   },
-   "auteur": "Monden Akiko"
+   }
   },
   "prophecy": {
    "titreOrphee": "Prophecy",
    "editeur": "Ki-oon\nCPI Aubin impr.",
+   "auteur": "Tsutsui Tetsuya",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Tsutsui Tetsuya"
+   }
   },
   "que-sa-volonte-soit-faite": {
    "titreOrphee": "Que sa volonté soit faite",
    "editeur": "Kana",
+   "auteur": "Wakaki Tamiki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -4084,12 +4109,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Wakaki Tamiki"
+   }
   },
   "radiant": {
    "titreOrphee": "Radiant",
    "editeur": "Ankama éditions",
+   "auteur": "Valente Tony",
    "tomes": {
     "Domloup": [
      1,
@@ -4117,12 +4142,12 @@
      18,
      19
     ]
-   },
-   "auteur": "Valente Tony"
+   }
   },
   "ranking-of-kings": {
    "titreOrphee": "Ranking of kings",
    "editeur": "Ki-oon",
+   "auteur": "Toka Sosuke",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
@@ -4138,12 +4163,12 @@
      11,
      12
     ]
-   },
-   "auteur": "Toka Sosuke"
+   }
   },
   "ratman": {
    "titreOrphee": "Ratman",
    "editeur": "Kana",
+   "auteur": "Inui Sekihiko",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -4153,12 +4178,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Inui Sekihiko"
+   }
   },
   "reflection": {
    "titreOrphee": "Reflection",
    "editeur": "Pika Edition",
+   "auteur": "Sanbe Kei",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4167,23 +4192,23 @@
      4,
      5
     ]
-   },
-   "auteur": "Sanbe Kei"
+   }
   },
   "rhapsody-in-red": {
    "titreOrphee": "Rhapsody in Red",
    "editeur": "Delcourt",
+   "auteur": "Amidamuku",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Amidamuku"
+   }
   },
   "ripper": {
    "titreOrphee": "Ripper",
    "editeur": "Ankama",
+   "auteur": "Cejudo Jéronimo",
    "tomes": {
     "Piré-Chancé": [
      1
@@ -4195,12 +4220,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Cejudo Jéronimo"
+   }
   },
   "ron-kamonohashi-deranged-detective": {
    "titreOrphee": "Ron Kamonohashi : Deranged Detective",
    "editeur": "Mangetsu",
+   "auteur": "Amano Akira",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4208,12 +4233,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Amano Akira"
+   }
   },
   "ruridragon": {
    "titreOrphee": "Ruridragon",
    "editeur": "Glénat",
+   "auteur": "Shindo Masaoki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -4221,23 +4246,23 @@
      3,
      4
     ]
-   },
-   "auteur": "Shindo Masaoki"
+   }
   },
   "s-class-heroine": {
    "titreOrphee": "S-Class Heroine",
    "editeur": "Albin Michel",
+   "auteur": "Irinbi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
    },
-   "auteur": "Irinbi",
    "webtoon": true
   },
   "sakamoto-days": {
    "titreOrphee": "Sakamoto days",
    "editeur": "Glénat",
+   "auteur": "Suzuki Yuto",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -4245,12 +4270,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Suzuki Yuto"
+   }
   },
   "sanda": {
    "titreOrphee": "Sanda",
    "editeur": "Editions Ki-oon",
+   "auteur": "Itagaki Paru",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4262,12 +4287,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Itagaki Paru"
+   }
   },
   "say-i-love-you": {
    "titreOrphee": "Say I love you",
    "editeur": "Pika",
+   "auteur": "Hazuki Kanae",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -4276,46 +4301,46 @@
      4,
      5
     ]
-   },
-   "auteur": "Hazuki Kanae"
+   }
   },
   "sayonara-football": {
    "titreOrphee": "SAYONARA FOOTBALL",
    "editeur": "Ki-oon",
+   "auteur": "Arakawa Naoshi",
    "tomes": {
     "Ossé": [
      1,
      2
     ]
-   },
-   "auteur": "Arakawa Naoshi"
+   }
   },
   "sayonara-miniskirt": {
    "titreOrphee": "Sayonara miniskirt",
    "editeur": "Delcourt",
+   "auteur": "Makino Aoi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Makino Aoi"
+   }
   },
   "sayonara-rose-garden": {
    "titreOrphee": "Sayonara rose garden",
    "editeur": "Komikku",
+   "auteur": "Dr Pepperco",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Dr Pepperco"
+   }
   },
   "servamp": {
    "titreOrphee": "Servamp",
    "editeur": "Bamboo\nImpr. Hérissey\nDoki Doki",
+   "auteur": "Tanaka Sutoraiku",
    "tomes": {
     "Domloup": [
      1,
@@ -4325,12 +4350,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Tanaka Sutoraiku"
+   }
   },
   "seule-la-mort-attend-la-vilaine": {
    "titreOrphee": "Seule la mort attend la vilaine",
    "editeur": "Kotoon",
+   "auteur": "Gwon Gyeoeul",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -4348,22 +4373,22 @@
      "statut": "Perdu",
      "cote": "BD SUO"
     }
-   ],
-   "auteur": "Gwon Gyeoeul"
+   ]
   },
   "shadows-house": {
    "titreOrphee": "Shadows House",
    "editeur": "Glénat",
+   "auteur": "So-ma-to",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "So-ma-to"
+   }
   },
   "shangri-la-frontier": {
    "titreOrphee": "Shangri-La Frontier",
    "editeur": "Glénat",
+   "auteur": "Katarina",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -4385,12 +4410,12 @@
      17,
      18
     ]
-   },
-   "auteur": "Katarina"
+   }
   },
   "shin-zero": {
    "titreOrphee": "Shin Zero",
    "editeur": "Rue de Sèvres",
+   "auteur": "Singelin Guillaume",
    "tomes": {
     "Chateaugiron": [
      1
@@ -4399,12 +4424,12 @@
      1,
      2
     ]
-   },
-   "auteur": "Singelin Guillaume"
+   }
   },
   "silence": {
    "titreOrphee": "Silence",
    "editeur": "Kana",
+   "auteur": "Vornière Yoann",
    "tomes": {
     "Domloup": [
      1,
@@ -4418,35 +4443,35 @@
      1,
      2
     ]
-   },
-   "auteur": "Vornière Yoann"
+   }
   },
   "sixteen-life": {
    "titreOrphee": "Sixteen Life",
    "editeur": "Soleil\nSoleil Manga",
+   "auteur": "Aikawa Saki",
    "tomes": {
     "Ossé": [
      1,
      2
     ]
-   },
-   "auteur": "Aikawa Saki"
+   }
   },
   "sk8r-s": {
    "titreOrphee": "SK8R'S",
    "editeur": "Kana",
+   "auteur": "Tojitsuki Hajime",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tojitsuki Hajime"
+   }
   },
   "sky-wars": {
    "titreOrphee": "Sky wars",
    "editeur": "Casterman",
+   "auteur": "Dongshik Ahn",
    "tomes": {
     "Ossé": [
      1,
@@ -4468,12 +4493,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Dongshik Ahn"
+   }
   },
   "solo-leveling": {
    "titreOrphee": "Solo leveling",
    "editeur": "Kbooks",
+   "auteur": "Chugong",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4497,12 +4522,12 @@
      19,
      20
     ]
-   },
-   "auteur": "Chugong"
+   }
   },
   "somali-et-l-esprit-de-la-foret": {
    "titreOrphee": "Somali et l'esprit de la forêt",
    "editeur": "Komikku",
+   "auteur": "Gureishi Yako",
    "tomes": {
     "Ossé": [
      1,
@@ -4512,22 +4537,22 @@
      5,
      6
     ]
-   },
-   "auteur": "Gureishi Yako"
+   }
   },
   "sorcieres": {
    "titreOrphee": "Sorcières",
    "editeur": "Delcourt",
+   "auteur": "Igarashi Daisuke",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Igarashi Daisuke"
+   }
   },
   "soul-eater": {
    "titreOrphee": "Soul Eater",
    "editeur": "Kurokawa",
+   "auteur": "Okubo Atsushi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -4561,12 +4586,12 @@
      24,
      25
     ]
-   },
-   "auteur": "Okubo Atsushi"
+   }
   },
   "spy-x-family": {
    "titreOrphee": "Spy x Family",
    "editeur": "Kurokawa",
+   "auteur": "Endo Tatsuya",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4605,34 +4630,34 @@
    },
    "hs": {
     "Noyal-sur-Vilaine": 1
-   },
-   "auteur": "Endo Tatsuya"
+   }
   },
   "star-strike-it-rich": {
    "titreOrphee": "Star : Strike It Rich",
    "editeur": "Meian Editions",
+   "auteur": "Yabako Sandrovich",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Yabako Sandrovich"
+   }
   },
   "star-wars-etoiles-perdues": {
    "titreOrphee": "Star Wars : étoiles perdues",
    "editeur": "Nobi Nobi",
+   "auteur": "Komiyama Yusaku",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Komiyama Yusaku"
+   }
   },
   "stray-dog": {
    "titreOrphee": "Stray Dog",
    "editeur": "Glénat",
+   "auteur": "VanRah",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4642,45 +4667,45 @@
      5,
      6
     ]
-   },
-   "auteur": "VanRah"
+   }
   },
   "summer-ghost": {
    "titreOrphee": "Summer Ghost",
    "editeur": "Delcourt",
+   "auteur": "Inomi Yoshi",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Inomi Yoshi"
+   }
   },
   "switch-family": {
    "titreOrphee": "Switch Family",
    "editeur": "Editions Ki-oon",
+   "auteur": "Tanno Ryosuke",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Tanno Ryosuke"
+   }
   },
   "sword-art-online-aincrad": {
    "titreOrphee": "Sword art online : Aincrad",
    "editeur": "Ototo",
+   "auteur": "Kawahara Reki",
    "tomes": {
     "Ossé": [
      1,
      2
     ]
-   },
-   "auteur": "Kawahara Reki"
+   }
   },
   "tales-of-destiny": {
    "titreOrphee": "Tales of destiny",
    "editeur": "Ki-oon",
+   "auteur": "Kitsutsuki Shinki",
    "tomes": {
     "Ossé": [
      1,
@@ -4690,12 +4715,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Kitsutsuki Shinki"
+   }
   },
   "tales-of-symphonia": {
    "titreOrphee": "Tales of symphonia",
    "editeur": "Ki-oon",
+   "auteur": "Ichimura Hitoshi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -4705,34 +4730,34 @@
      5,
      6
     ]
-   },
-   "auteur": "Ichimura Hitoshi"
+   }
   },
   "talli-fille-de-la-lune": {
    "titreOrphee": "Talli, fille de la lune",
    "editeur": "Ankama",
+   "auteur": "Sihachakr Sourya",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Sihachakr Sourya"
+   }
   },
   "team-phoenix": {
    "titreOrphee": "Team Phoenix",
    "editeur": "Vega-Dupuis",
+   "auteur": "Ruiz Kenny",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Ruiz Kenny"
+   }
   },
   "terrarium": {
    "titreOrphee": "Terrarium",
    "editeur": "Glénat",
+   "auteur": "Hirasawa Yuna",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -4746,12 +4771,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Hirasawa Yuna"
+   }
   },
   "the-beginning-after-the-end": {
    "titreOrphee": "The Beginning After the End",
    "editeur": "Kbooks",
+   "auteur": "TurtleMe",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -4759,12 +4784,12 @@
      3
     ]
    },
-   "auteur": "TurtleMe",
    "webtoon": true
   },
   "the-bugle-call": {
    "titreOrphee": "The Bugle Call",
    "editeur": "Editons Ki-oon",
+   "auteur": "Sora Mozuku",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -4777,12 +4802,12 @@
      8,
      9
     ]
-   },
-   "auteur": "Sora Mozuku"
+   }
   },
   "the-druid-of-seoul-station": {
    "titreOrphee": "The druid of Seoul station",
    "editeur": "Kbooks",
+   "auteur": "LiveBear",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -4790,12 +4815,12 @@
      3
     ]
    },
-   "auteur": "LiveBear",
    "webtoon": true
   },
   "the-elusive-samurai": {
    "titreOrphee": "The elusive samurai",
    "editeur": "Kana",
+   "auteur": "Matsui Yusei",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -4804,22 +4829,22 @@
      4,
      5
     ]
-   },
-   "auteur": "Matsui Yusei"
+   }
   },
   "the-faraway-paladin": {
    "titreOrphee": "The Faraway Paladin",
    "editeur": "Lanovel Edition",
+   "auteur": "Yanagino Kanata",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Yanagino Kanata"
+   }
   },
   "the-ichinose-family-s-deadly-sins": {
    "titreOrphee": "The Ichinose family's deadly sins",
    "editeur": "Kana",
+   "auteur": "Taizan5",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4836,12 +4861,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Taizan5"
+   }
   },
   "the-summer-hikaru-died": {
    "titreOrphee": "The Summer Hikaru Died",
    "editeur": "Pika Edition",
+   "auteur": "Mokumokuren",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4856,24 +4881,24 @@
      2,
      3
     ]
-   },
-   "auteur": "Mokumokuren"
+   }
   },
   "timing": {
    "titreOrphee": "Timing",
    "editeur": "Casterman",
+   "auteur": "Kang Full",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kang Full"
+   }
   },
   "today-s-burger": {
    "titreOrphee": "Today's Burger",
    "editeur": "Soleil Productions",
+   "auteur": "Hanagata Rei",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -4887,12 +4912,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Hanagata Rei"
+   }
   },
   "toilet-bound-hanako-kun": {
    "titreOrphee": "Toilet-bound Hanako-Kun",
    "editeur": "Pika Edition",
+   "auteur": "AidaIro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -4906,12 +4931,12 @@
      9,
      11
     ]
-   },
-   "auteur": "AidaIro"
+   }
   },
   "tokyo-revengers": {
    "titreOrphee": "Tokyo revengers",
    "editeur": "Glénat",
+   "auteur": "Wakui Ken",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4946,23 +4971,23 @@
      30,
      31
     ]
-   },
-   "auteur": "Wakui Ken"
+   }
   },
   "tokyo-toybox": {
    "titreOrphee": "Tokyo toybox",
    "editeur": "",
+   "auteur": "Ozawa Takahiro",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Ozawa Takahiro"
+   }
   },
   "trait-pour-trait-dessine-et-tais-toi": {
    "titreOrphee": "Trait pour trait : dessine et tais-toi !",
    "editeur": "Editions Akata",
+   "auteur": "Higashimura Akiko",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -4971,12 +4996,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Higashimura Akiko"
+   }
   },
   "tsugai-daemons-of-the-shadow-realm": {
    "titreOrphee": "Tsugai - Daemons of the Shadow Realm",
    "editeur": "Kurokawa",
+   "auteur": "Arakawa Hiromu",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -4988,12 +5013,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Arakawa Hiromu"
+   }
   },
   "un-drole-de-pere": {
    "titreOrphee": "Un Drôle de père",
    "editeur": "Delcourt",
+   "auteur": "Unita Yumi",
    "tomes": {
     "Domloup": [
      1
@@ -5012,12 +5037,12 @@
      "statut": "Perdu",
      "cote": "BD UNIT"
     }
-   ],
-   "auteur": "Unita Yumi"
+   ]
   },
   "une-sacree-mamie": {
    "titreOrphee": "Une Sacrée mamie",
    "editeur": "Delcourt",
+   "auteur": "Shimada Yoshichi",
    "tomes": {
     "Ossé": [
      1,
@@ -5041,46 +5066,46 @@
      10,
      11
     ]
-   },
-   "auteur": "Shimada Yoshichi"
+   }
   },
   "une-si-belle-couleur": {
    "titreOrphee": "Une si belle couleur",
    "editeur": "Pika",
+   "auteur": "Iwashita Keiko",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Iwashita Keiko"
+   }
   },
   "unordinary": {
    "titreOrphee": "Unordinary",
    "editeur": "Neotoon",
+   "auteur": "Uru-chan",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
    },
-   "auteur": "Uru-chan",
    "webtoon": true
   },
   "vagabond": {
    "titreOrphee": "Vagabond",
    "editeur": "Tonkam",
+   "auteur": "Inoue Takehiko",
    "tomes": {
     "Piré-Chancé": [
      1,
      2
     ]
-   },
-   "auteur": "Inoue Takehiko"
+   }
   },
   "versus": {
    "titreOrphee": "Versus",
    "editeur": "Pika Edition",
+   "auteur": "One",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5088,45 +5113,45 @@
      3,
      4
     ]
-   },
-   "auteur": "One"
+   }
   },
   "wakfu-la-grande-vague": {
    "titreOrphee": "Wakfu, La Grande Vague",
    "editeur": "Ankama éditions",
+   "auteur": "Tot",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tot"
+   }
   },
   "wet-moon": {
    "titreOrphee": "Wet moon",
    "editeur": "Casterman",
+   "auteur": "Kaneko Atsushi",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Kaneko Atsushi"
+   }
   },
   "witch-watch": {
    "titreOrphee": "Witch Watch",
    "editeur": "Soleil Productions",
+   "auteur": "Shinohara Kenta",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Shinohara Kenta"
+   }
   },
   "yamada-kun-the-7-witches": {
    "titreOrphee": "Yamada kun & the 7 witches",
    "editeur": "Editions Delcourt",
+   "auteur": "Yoshikawa Miki",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -5143,12 +5168,12 @@
      12,
      13
     ]
-   },
-   "auteur": "Yoshikawa Miki"
+   }
   },
   "yon": {
    "titreOrphee": "Yon",
    "editeur": "Dargaud",
+   "auteur": "Broutin Camille",
    "tomes": {
     "Chateaugiron": [
      1
@@ -5159,34 +5184,34 @@
      3,
      4
     ]
-   },
-   "auteur": "Broutin Camille"
+   }
   },
   "yona-princesse-de-l-aube": {
    "titreOrphee": "Yona, princesse de l'aube",
    "editeur": "Pika Edition",
+   "auteur": "Kusanagi Mizuho",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      3
     ]
-   },
-   "auteur": "Kusanagi Mizuho"
+   }
   },
   "your-lie-in-april": {
    "titreOrphee": "Your lie in april",
    "editeur": "Ki-oon",
+   "auteur": "Arakawa Naoshi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Arakawa Naoshi"
+   }
   },
   "yu-gi-oh": {
    "titreOrphee": "Yu-Gi-Oh !",
    "editeur": "Kana",
+   "auteur": "Takahashi Kazuki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5195,12 +5220,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Takahashi Kazuki"
+   }
   },
   "yuyu-hakusho": {
    "titreOrphee": "Yuyu Hakusho",
    "editeur": "Dargaud",
+   "auteur": "Togashi Yoshihiro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5226,12 +5251,12 @@
     "Piré-Chancé": [
      4
     ]
-   },
-   "auteur": "Togashi Yoshihiro"
+   }
   },
   "akira": {
    "titreOrphee": "Akira",
    "editeur": "Glénat",
+   "auteur": "Otomo Katsuhiro",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -5241,12 +5266,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Otomo Katsuhiro"
+   }
   },
   "alpi-the-soul-sender": {
    "titreOrphee": "Alpi the soul sender",
    "editeur": "Ki-oon",
+   "auteur": "Rona",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5257,12 +5282,12 @@
      6,
      7
     ]
-   },
-   "auteur": "Rona"
+   }
   },
   "au-coeur-de-fukushima": {
    "titreOrphee": "Au coeur de Fukushima",
    "editeur": "Kana",
+   "auteur": "Tatsuta Kazuto",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -5274,12 +5299,12 @@
      2,
      3
     ]
-   },
-   "auteur": "Tatsuta Kazuto"
+   }
   },
   "badducks": {
    "titreOrphee": "Badducks",
    "editeur": "Ki-oon",
+   "auteur": "Takeda Toryumon",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -5287,12 +5312,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Takeda Toryumon"
+   }
   },
   "beastars": {
    "titreOrphee": "Beastars",
    "editeur": "Ki-oon",
+   "auteur": "Itagaki Paru",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -5318,12 +5343,12 @@
      21,
      22
     ]
-   },
-   "auteur": "Itagaki Paru"
+   }
   },
   "berserk": {
    "titreOrphee": "Berserk",
    "editeur": "Glénat",
+   "auteur": "Miura Kentaro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5349,12 +5374,12 @@
      19,
      20
     ]
-   },
-   "auteur": "Miura Kentaro"
+   }
   },
   "billy-bat": {
    "titreOrphee": "Billy Bat",
    "editeur": "Pika",
+   "auteur": "Urasawa Naoki",
    "tomes": {
     "Domloup": [
      1,
@@ -5362,22 +5387,22 @@
      3,
      4
     ]
-   },
-   "auteur": "Urasawa Naoki"
+   }
   },
   "bokko-stratege": {
    "titreOrphee": "Bokko : stratège",
    "editeur": "Vega-Dupuis",
+   "auteur": "Kubota Sentaro",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Kubota Sentaro"
+   }
   },
   "chiisakobe": {
    "titreOrphee": "Chiisakobé",
    "editeur": "le Lézard noir",
+   "auteur": "Mochizuki Minetaro",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -5391,24 +5416,24 @@
      3,
      4
     ]
-   },
-   "auteur": "Mochizuki Minetaro"
+   }
   },
   "colere-nucleaire": {
    "titreOrphee": "Colère nucleaire",
    "editeur": "Editions Akata",
+   "auteur": "Imashiro Takashi",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Imashiro Takashi"
+   }
   },
   "couleur-de-peau-miel": {
    "titreOrphee": "Couleur de peau : miel",
    "editeur": "Quadrants",
+   "auteur": "Jung",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -5416,22 +5441,22 @@
      3,
      4
     ]
-   },
-   "auteur": "Jung"
+   }
   },
   "darwin-s-incident": {
    "titreOrphee": "Darwin's incident",
    "editeur": "Kana",
+   "auteur": "Umezawa Shun",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Umezawa Shun"
+   }
   },
   "deep-3": {
    "titreOrphee": "Deep 3",
    "editeur": "Mangetsu",
+   "auteur": "Mizuno Mitsuhiro",
    "tomes": {
     "Piré-Chancé": [
      1
@@ -5449,12 +5474,12 @@
      10,
      11
     ]
-   },
-   "auteur": "Mizuno Mitsuhiro"
+   }
   },
   "deep-sea-aquarium-magmell": {
    "titreOrphee": "Deep Sea Aquarium MagMell",
    "editeur": "Véga",
+   "auteur": "Sugishita Kiyomi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5463,34 +5488,34 @@
      4,
      5
     ]
-   },
-   "auteur": "Sugishita Kiyomi"
+   }
   },
   "demons-star": {
    "titreOrphee": "Demons star",
    "editeur": "M. Lafon",
+   "auteur": "Abe Shuji",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Abe Shuji"
+   }
   },
   "detonations": {
    "titreOrphee": "Détonations",
    "editeur": "Pika Edition",
+   "auteur": "Takahashi Tsutomu",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Takahashi Tsutomu"
+   }
   },
   "dog-signal": {
    "titreOrphee": "Dog Signal",
    "editeur": "Soleil Productions",
+   "auteur": "Miyauchi Saya",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5498,12 +5523,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Miyauchi Saya"
+   }
   },
   "doubt": {
    "titreOrphee": "Doubt",
    "editeur": "Ki-oon",
+   "auteur": "Tonogai Yoshiki",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -5511,12 +5536,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Tonogai Yoshiki"
+   }
   },
   "du-mouvement-de-la-terre": {
    "titreOrphee": "Du mouvement de la Terre",
    "editeur": "Ki-oon",
+   "auteur": "Uoto Osamu",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -5528,24 +5553,24 @@
      7,
      8
     ]
-   },
-   "auteur": "Uoto Osamu"
+   }
   },
   "eclat-s-d-ame": {
    "titreOrphee": "Eclat(s) d'âme",
    "editeur": "Akata",
+   "auteur": "Kamatani Yuhki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kamatani Yuhki"
+   }
   },
   "en-proie-au-silence": {
    "titreOrphee": "En proie au silence",
    "editeur": "Editions Akata",
+   "auteur": "Torikai Akane",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5557,24 +5582,24 @@
      7,
      8
     ]
-   },
-   "auteur": "Torikai Akane"
+   }
   },
   "entre-nos-mains": {
    "titreOrphee": "Entre nos mains",
    "editeur": "Editions Akata",
+   "auteur": "Battan",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Battan"
+   }
   },
   "erased": {
    "titreOrphee": "Erased",
    "editeur": "Ki-oon",
+   "auteur": "Sanbe Kei",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -5587,12 +5612,12 @@
      8,
      9
     ]
-   },
-   "auteur": "Sanbe Kei"
+   }
   },
   "escale-a-yokohama": {
    "titreOrphee": "Escale à Yokohama",
    "editeur": "Meian éditions",
+   "auteur": "Ashinano Hitoshi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5610,22 +5635,22 @@
      13,
      14
     ]
-   },
-   "auteur": "Ashinano Hitoshi"
+   }
   },
   "gen-d-hiroshima": {
    "titreOrphee": "Gen d'Hiroshima",
    "editeur": "",
+   "auteur": "Nakazawa Keiji",
    "tomes": {
     "Chateaugiron": [
      8
     ]
-   },
-   "auteur": "Nakazawa Keiji"
+   }
   },
   "green-blood": {
    "titreOrphee": "Green Blood",
    "editeur": "Ki-oon",
+   "auteur": "Kakizaki Masasumi",
    "tomes": {
     "Domloup": [
      1,
@@ -5634,12 +5659,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Kakizaki Masasumi"
+   }
   },
   "gunnm-edition-originale": {
    "titreOrphee": "Gunnm - édition originale",
    "editeur": "Glénat",
+   "auteur": "Kishiro Yukito",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -5652,12 +5677,12 @@
      8,
      9
     ]
-   },
-   "auteur": "Kishiro Yukito"
+   }
   },
   "gunnm-mars-chronicle": {
    "titreOrphee": "Gunnm Mars Chronicle",
    "editeur": "Glénat",
+   "auteur": "Kishiro Yukito",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5667,12 +5692,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Kishiro Yukito"
+   }
   },
   "haikyu-les-as-du-volley": {
    "titreOrphee": "Haikyû !! : Les As du volley",
    "editeur": "Kazé Editions",
+   "auteur": "Furudate Haruichi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -5700,23 +5725,23 @@
      23,
      24
     ]
-   },
-   "auteur": "Furudate Haruichi"
+   }
   },
   "ice-age-chronicle-of-the-earth": {
    "titreOrphee": "Ice age chronicle of the earth",
    "editeur": "Kana",
+   "auteur": "Taniguchi Jiro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Taniguchi Jiro"
+   }
   },
   "ikigami-preavis-de-mort": {
    "titreOrphee": "Ikigami, préavis de mort",
    "editeur": "Asuka",
+   "auteur": "Mase Motoro",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -5725,12 +5750,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Mase Motoro"
+   }
   },
   "innocent": {
    "titreOrphee": "Innocent",
    "editeur": "Delcourt",
+   "auteur": "Sakamoto Shin'ichi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5743,12 +5768,12 @@
      8,
      9
     ]
-   },
-   "auteur": "Sakamoto Shin'ichi"
+   }
   },
   "insomniaques": {
    "titreOrphee": "Insomniaques",
    "editeur": "Soleil",
+   "auteur": "Ojiro Makoto",
    "tomes": {
     "Domloup": [
      1,
@@ -5756,12 +5781,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Ojiro Makoto"
+   }
   },
   "kaguya-sama-love-is-war": {
    "titreOrphee": "Kaguya-Sama : Love is War",
    "editeur": "Pika Edition",
+   "auteur": "Akasaka Aka",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -5770,12 +5795,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Akasaka Aka"
+   }
   },
   "kindergarten-wars": {
    "titreOrphee": "Kindergarten Wars",
    "editeur": "Editons Ki-oon",
+   "auteur": "Chiba You",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -5801,12 +5826,12 @@
      12,
      13
     ]
-   },
-   "auteur": "Chiba You"
+   }
   },
   "king-s-game": {
    "titreOrphee": "King's game",
    "editeur": "Ki-oon\nImpr. Hérissey",
+   "auteur": "Renda Hitori",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -5815,12 +5840,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Renda Hitori"
+   }
   },
   "ile-de-hozuki": {
    "titreOrphee": "L' île de Hôzuki",
    "editeur": "Ki-oon",
+   "auteur": "Sanbe Kei",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -5828,12 +5853,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Sanbe Kei"
+   }
   },
   "attaque-des-titans-edition-colossale": {
    "titreOrphee": "L'attaque des titans : édition colossale",
    "editeur": "Pika",
+   "auteur": "Isayama Hajime",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -5841,78 +5866,78 @@
      3,
      4
     ]
-   },
-   "auteur": "Isayama Hajime"
+   }
   },
   "habitant-de-l-infini": {
    "titreOrphee": "L'habitant de l'infini",
    "editeur": "Casterman",
+   "auteur": "Samura Hiroaki",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Samura Hiroaki"
+   }
   },
   "histoire-des-3-adolf-integrale": {
    "titreOrphee": "L'histoire des 3 Adolf : intégrale",
    "editeur": "Delcourt",
+   "auteur": "Tezuka Osamu",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Tezuka Osamu"
+   }
   },
   "homme-invisible-et-sa-future-epouse": {
    "titreOrphee": "L'homme invisible et sa future épouse",
    "editeur": "Noeve Grafx",
+   "auteur": "Iwatobineko",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Iwatobineko"
+   }
   },
   "cantine-de-minuit": {
    "titreOrphee": "La cantine de minuit",
    "editeur": "Le lézard noir",
+   "auteur": "Abe Yaro",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Abe Yaro"
+   }
   },
   "cuisine-du-tengu": {
    "titreOrphee": "La cuisine du Tengu",
    "editeur": "Le Lézard Noir",
+   "auteur": "Tanaka Ai",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tanaka Ai"
+   }
   },
   "decheance-d-un-homme": {
    "titreOrphee": "La déchéance d'un homme",
    "editeur": "Ed. IMHO",
+   "auteur": "Furuya Usamaru",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Furuya Usamaru"
+   }
   },
   "fin-du-monde-avec-mon-shiba-inu": {
    "titreOrphee": "La fin du monde avec mon Shiba Inu",
    "editeur": "Meian Editions",
+   "auteur": "Ishihara Yu",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5920,12 +5945,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Ishihara Yu"
+   }
   },
   "main-droite-de-lucifer": {
    "titreOrphee": "La main droite de Lucifer",
    "editeur": "Ki-oon\nCPI Aubin impr.\nEditions Ki-oon",
+   "auteur": "Serizawa Naoki",
    "tomes": {
     "Domloup": [
      1,
@@ -5935,12 +5960,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Serizawa Naoki"
+   }
   },
   "mariee-du-roi-dragon": {
    "titreOrphee": "La Mariée du Roi Dragon",
    "editeur": "Michel Lafon",
+   "auteur": "Kanghee Jamae",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5950,12 +5975,12 @@
      5
     ]
    },
-   "auteur": "Kanghee Jamae",
    "webtoon": true
   },
   "voie-du-tablier": {
    "titreOrphee": "La voie du tablier",
    "editeur": "Kana",
+   "auteur": "Oono Kousuke",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5972,12 +5997,12 @@
      12,
      13
     ]
-   },
-   "auteur": "Oono Kousuke"
+   }
   },
   "land": {
    "titreOrphee": "Land",
    "editeur": "Mangetsu",
+   "auteur": "Yamashita Kazumi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -5986,12 +6011,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Yamashita Kazumi"
+   }
   },
   "last-hero-inuyashiki": {
    "titreOrphee": "Last hero inuyashiki",
    "editeur": "Ki-oon",
+   "auteur": "Oku Hiroya",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6005,12 +6030,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Oku Hiroya"
+   }
   },
   "chien-gardien-d-etoiles": {
    "titreOrphee": "Le chien gardien d'étoiles",
    "editeur": "Sarbacane",
+   "auteur": "Murakami Takashi",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -6020,12 +6045,12 @@
      1,
      2
     ]
-   },
-   "auteur": "Murakami Takashi"
+   }
   },
   "couvent-des-damnees": {
    "titreOrphee": "Le couvent des damnées",
    "editeur": "Glénat",
+   "auteur": "Takeyoshi Minoru",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6035,12 +6060,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Takeyoshi Minoru"
+   }
   },
   "harem-de-l-imperatrice": {
    "titreOrphee": "Le harem de l'impératrice",
    "editeur": "Pika Edition",
+   "auteur": "Yeongbin",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6048,23 +6073,23 @@
      3
     ]
    },
-   "auteur": "Yeongbin",
    "webtoon": true
   },
   "siege-des-exilees": {
    "titreOrphee": "Le siège des exilées",
    "editeur": "Editions Akata",
+   "auteur": "Torikai Akane",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Torikai Akane"
+   }
   },
   "sommet-des-dieux": {
    "titreOrphee": "Le Sommet des dieux",
    "editeur": "Kana",
+   "auteur": "Yumemakura Baku",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6087,18 +6112,18 @@
      4,
      5
     ]
-   },
-   "auteur": "Yumemakura Baku"
+   }
   },
   "chefs-d-oeuvre-de-lovecraft": {
    "titreOrphee": "Les chefs-d'oeuvre de Lovecraft",
    "editeur": "Editions Ki-oon",
-   "tomes": {},
-   "auteur": "Tanabe Gou"
+   "auteur": "Tanabe Gou",
+   "tomes": {}
   },
   "enfants-d-hippocrate": {
    "titreOrphee": "Les enfants d'Hippocrate",
    "editeur": "Mangetsu",
+   "auteur": "Higashimoto Toshiya",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6106,34 +6131,34 @@
      3,
      4
     ]
-   },
-   "auteur": "Higashimoto Toshiya"
+   }
   },
   "montagnes-hallucinees": {
    "titreOrphee": "Les montagnes hallucinées",
    "editeur": "Ki-oon",
+   "auteur": "Tanabe Gou",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Tanabe Gou"
+   }
   },
   "naufrages": {
    "titreOrphee": "Les naufragés",
    "editeur": "Editions Akata",
+   "auteur": "Choi Min-Ho",
    "tomes": {
     "Piré-Chancé": [
      1,
      2
     ]
-   },
-   "auteur": "Choi Min-Ho"
+   }
   },
   "oublies": {
    "titreOrphee": "Les oubliés",
    "editeur": "Komikku",
+   "auteur": "Koike Nokuto",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6141,84 +6166,84 @@
      3,
      4
     ]
-   },
-   "auteur": "Koike Nokuto"
+   }
   },
   "temps-retrouves": {
    "titreOrphee": "Les temps retrouvés",
    "editeur": "Ki-oon",
+   "auteur": "Fujii Kei",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Fujii Kei"
+   }
   },
   "tresors-de-tsukasa-hojo": {
    "titreOrphee": "Les trésors de Tsukasa Hojo",
    "editeur": "Editions Ki-oon",
-   "tomes": {},
-   "auteur": "Hojo Tsukasa"
+   "auteur": "Hojo Tsukasa",
+   "tomes": {}
   },
   "vacances-de-jesus-et-bouddha": {
    "titreOrphee": "Les vacances de Jésus et Bouddha",
    "editeur": "Kurokawa",
+   "auteur": "Nakamura Hikaru",
    "tomes": {
     "Domloup": [
      1
     ]
-   },
-   "auteur": "Nakamura Hikaru"
+   }
   },
   "levius": {
    "titreOrphee": "Levius",
    "editeur": "Kana",
+   "auteur": "Nakata Haruhisa",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Nakata Haruhisa"
+   }
   },
   "lost-lad-london": {
    "titreOrphee": "Lost Lad London",
    "editeur": "Ki-oon",
+   "auteur": "Shinya Shima",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Shinya Shima"
+   }
   },
   "mai-ball-feminine-football-team": {
    "titreOrphee": "Mai ball! : feminine football team",
    "editeur": "Ototo",
+   "auteur": "Inoue Sora",
    "tomes": {
     "Chateaugiron": [
      12
     ]
-   },
-   "auteur": "Inoue Sora"
+   }
   },
   "man-in-the-window": {
    "titreOrphee": "Man in the window",
    "editeur": "Ki-oon",
+   "auteur": "Masatoki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Masatoki"
+   }
   },
   "marry-my-husband": {
    "titreOrphee": "Marry my husband",
    "editeur": "Michel Lafon",
+   "auteur": "Sojak Sung",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6228,12 +6253,12 @@
      5
     ]
    },
-   "auteur": "Sojak Sung",
    "webtoon": true
   },
   "mauvaise-herbe": {
    "titreOrphee": "Mauvaise herbe",
    "editeur": "Le Lézard Noir",
+   "auteur": "Shinzo Keigo",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -6241,12 +6266,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Shinzo Keigo"
+   }
   },
   "moi-jardinier-citadin": {
    "titreOrphee": "Moi, jardinier citadin",
    "editeur": "Editions Akata",
+   "auteur": "Choi Min-Ho",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6256,24 +6281,24 @@
      1,
      2
     ]
-   },
-   "auteur": "Choi Min-Ho"
+   }
   },
   "mr-nobody": {
    "titreOrphee": "Mr.Nobody",
    "editeur": "Bamboo",
+   "auteur": "Tanabe Go",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tanabe Go"
+   }
   },
   "mushishi": {
    "titreOrphee": "Mushishi",
    "editeur": "Kana",
+   "auteur": "Urushibara Yuki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6287,48 +6312,48 @@
      9,
      10
     ]
-   },
-   "auteur": "Urushibara Yuki"
+   }
   },
   "my-home-hero": {
    "titreOrphee": "My Home Hero",
    "editeur": "Kurokawa",
+   "auteur": "Yamakawa Naoki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Yamakawa Naoki"
+   }
   },
   "noise": {
    "titreOrphee": "Noise",
    "editeur": "Ki-oon",
+   "auteur": "Tsutsui Tetsuya",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tsutsui Tetsuya"
+   }
   },
   "peace-maker": {
    "titreOrphee": "Peace Maker",
    "editeur": "Glénat",
+   "auteur": "Minagawa Ryouji",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Minagawa Ryouji"
+   }
   },
   "planetes": {
    "titreOrphee": "Planètes",
    "editeur": "Panini",
+   "auteur": "Yukimura Makoto",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6339,12 +6364,12 @@
     "Domloup": [
      1
     ]
-   },
-   "auteur": "Yukimura Makoto"
+   }
   },
   "princesse-detective": {
    "titreOrphee": "Princesse Détective",
    "editeur": "Nobi Nobi",
+   "auteur": "Anan Mayuki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6365,12 +6390,12 @@
      16,
      17
     ]
-   },
-   "auteur": "Anan Mayuki"
+   }
   },
   "quartier-lointain": {
    "titreOrphee": "Quartier lointain",
    "editeur": "Casterman",
+   "auteur": "Taniguchi Jiro",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6388,22 +6413,22 @@
      1,
      2
     ]
-   },
-   "auteur": "Taniguchi Jiro"
+   }
   },
   "quitter-la-ville": {
    "titreOrphee": "Quitter la ville",
    "editeur": "",
+   "auteur": "Kim Su-Bak",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Kim Su-Bak"
+   }
   },
   "reine-d-egypte": {
    "titreOrphee": "Reine d'Egypte",
    "editeur": "Ki-oon",
+   "auteur": "Inudoh Chie",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6416,24 +6441,24 @@
      8,
      9
     ]
-   },
-   "auteur": "Inudoh Chie"
+   }
   },
   "search-and-destroy": {
    "titreOrphee": "Search and Destroy",
    "editeur": "Delcourt",
+   "auteur": "Atsushi Kaneko",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Atsushi Kaneko"
+   }
   },
   "sengo": {
    "titreOrphee": "Sengo",
    "editeur": "Casterman",
+   "auteur": "Yamada Sansuke",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6451,34 +6476,34 @@
      6,
      7
     ]
-   },
-   "auteur": "Yamada Sansuke"
+   }
   },
   "servant-beasts": {
    "titreOrphee": "Servant beasts",
    "editeur": "Vega-Dupuis",
+   "auteur": "Morino Suzuka",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Morino Suzuka"
+   }
   },
   "she-wasn-t-a-guy": {
    "titreOrphee": "She wasn't a guy",
    "editeur": "Mangetsu",
+   "auteur": "Arai Sumiko",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Arai Sumiko"
+   }
   },
   "sherlock": {
    "titreOrphee": "Sherlock",
    "editeur": "Kurokawa",
+   "auteur": "Moffat Steven",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6487,12 +6512,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Moffat Steven"
+   }
   },
   "solanin": {
    "titreOrphee": "Solanin",
    "editeur": "Kana",
+   "auteur": "Asano Inio",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6502,12 +6527,12 @@
      1,
      2
     ]
-   },
-   "auteur": "Asano Inio"
+   }
   },
   "soloist-in-a-cage": {
    "titreOrphee": "Soloist in a cage",
    "editeur": "Ki-oon",
+   "auteur": "Moriya Shiro",
    "tomes": {
     "Piré-Chancé": [
      1
@@ -6517,28 +6542,28 @@
      2,
      3
     ]
-   },
-   "auteur": "Moriya Shiro"
+   }
   },
   "sukeroku": {
    "titreOrphee": "Sukeroku",
    "editeur": "Seuil jeunesse",
-   "tomes": {},
-   "auteur": "Gotte"
+   "auteur": "Gotte",
+   "tomes": {}
   },
   "sukima": {
    "titreOrphee": "Sukima",
    "editeur": "Casterman",
+   "auteur": "Yan Gao",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Yan Gao"
+   }
   },
   "sweet-home": {
    "titreOrphee": "Sweet Home",
    "editeur": "Editions Ki-oon",
+   "auteur": "Kim Carnby",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6548,12 +6573,12 @@
      5
     ]
    },
-   "auteur": "Kim Carnby",
    "webtoon": true
   },
   "terra-formars": {
    "titreOrphee": "Terra Formars",
    "editeur": "Kaze Manga",
+   "auteur": "Sasuga Yu",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6561,12 +6586,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Sasuga Yu"
+   }
   },
   "terror-man": {
    "titreOrphee": "Terror Man",
    "editeur": "Pika Edition",
+   "auteur": "Han Dongwoo",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6574,7 +6599,6 @@
      3
     ]
    },
-   "auteur": "Han Dongwoo",
    "webtoon": true
   },
   "the-ghost-in-the-shell": {
@@ -6589,6 +6613,7 @@
   "the-one": {
    "titreOrphee": "The one",
    "editeur": "Meian éditions",
+   "auteur": "Lee Nicky",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -6596,12 +6621,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Lee Nicky"
+   }
   },
   "the-witch-and-the-beast": {
    "titreOrphee": "The Witch and the Beast",
    "editeur": "Pika",
+   "auteur": "Satake Kousuke",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6615,47 +6640,47 @@
      9,
      10
     ]
-   },
-   "auteur": "Satake Kousuke"
+   }
   },
   "thermae-romae": {
    "titreOrphee": "Thermae Romae",
    "editeur": "Casterman",
+   "auteur": "Yamazaki Mari",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Yamazaki Mari"
+   }
   },
   "tokyo-ghoul": {
    "titreOrphee": "Tokyo Ghoul",
    "editeur": "Glénat\nImpr. Hérissey",
+   "auteur": "Ishida Sui",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Ishida Sui"
+   }
   },
   "tokyo-ces-jours-ci": {
    "titreOrphee": "Tokyo, ces jours-ci",
    "editeur": "Kana",
+   "auteur": "Matsumoto Taiyô",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Matsumoto Taiyô"
+   }
   },
   "trillion-game": {
    "titreOrphee": "Trillion game",
    "editeur": "Glénat",
+   "auteur": "Inagaki Riichiro",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6667,35 +6692,35 @@
      7,
      8
     ]
-   },
-   "auteur": "Inagaki Riichiro"
+   }
   },
   "un-second-au-revoir": {
    "titreOrphee": "Un second au revoir",
    "editeur": "Delcourt",
+   "auteur": "Tanaka Tomo",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tanaka Tomo"
+   }
   },
   "underwater-le-village-immerge": {
    "titreOrphee": "Underwater - Le village immergé",
    "editeur": "Ki-oon",
+   "auteur": "Urushibara Yuki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Urushibara Yuki"
+   }
   },
   "une-fille-atypique": {
    "titreOrphee": "Une fille atypique",
    "editeur": "Pika Edition",
+   "auteur": "Hagimoto Souhachi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6703,23 +6728,23 @@
      3,
      4
     ]
-   },
-   "auteur": "Hagimoto Souhachi"
+   }
   },
   "une-vie-dans-les-marges": {
    "titreOrphee": "Une vie dans les marges",
    "editeur": "Cornélius",
+   "auteur": "Tatsumi Yoshihiro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Tatsumi Yoshihiro"
+   }
   },
   "vampire-knight-edition-double": {
    "titreOrphee": "Vampire knight : édition double",
    "editeur": "Panini manga",
+   "auteur": "Hino Matsuri",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -6728,45 +6753,45 @@
      4,
      5
     ]
-   },
-   "auteur": "Hino Matsuri"
+   }
   },
   "vinland-saga": {
    "titreOrphee": "Vinland saga",
    "editeur": "",
+   "auteur": "Yukimura Makoto",
    "tomes": {
     "Chateaugiron": [
      3,
      4
     ]
-   },
-   "auteur": "Yukimura Makoto"
+   }
   },
   "white-blood": {
    "titreOrphee": "White Blood",
    "editeur": "Michel Lafon",
+   "auteur": "Lim Lina",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Lim Lina"
+   }
   },
   "wind-breaker": {
    "titreOrphee": "Wind breaker",
    "editeur": "Pika",
+   "auteur": "Nii Satoru",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Nii Satoru"
+   }
   },
   "yako-et-poko": {
    "titreOrphee": "Yako et Poko",
    "editeur": "Komikku",
+   "auteur": "Mizusawa Etsuko",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -6774,24 +6799,24 @@
      3,
      4
     ]
-   },
-   "auteur": "Mizusawa Etsuko"
+   }
   },
   "yan": {
    "titreOrphee": "Yan",
    "editeur": "Glénat",
+   "auteur": "Chang Sheng",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Chang Sheng"
+   }
   },
   "your-name": {
    "titreOrphee": "Your name",
    "editeur": "Pika",
+   "auteur": "Shinkai Makoto",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6821,12 +6846,12 @@
      "statut": "Perdu",
      "cote": "MA VOY"
     }
-   ],
-   "auteur": "Shinkai Makoto"
+   ]
   },
   "cooking-karine": {
    "titreOrphee": "#Cooking Karine",
    "editeur": "Nobi Nobi",
+   "auteur": "Nakae Mikayo",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6838,12 +6863,12 @@
      2,
      3
     ]
-   },
-   "auteur": "Nakae Mikayo"
+   }
   },
   "anima": {
    "titreOrphee": "+ Anima",
    "editeur": "Taifu comics",
+   "auteur": "Mukai Natsumi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6852,34 +6877,34 @@
      4,
      5
     ]
-   },
-   "auteur": "Mukai Natsumi"
+   }
   },
   "10th-a-couper-le-souffle": {
    "titreOrphee": "10th : à couper le souffle",
    "editeur": "Kana",
+   "auteur": "Inari Yuko",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Inari Yuko"
+   }
   },
   "a-crocs-a-toi": {
    "titreOrphee": "A crocs à toi",
    "editeur": "Akata",
+   "auteur": "Suzuki Julietta",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Suzuki Julietta"
+   }
   },
   "a-sign-of-affection": {
    "titreOrphee": "A sign of affection",
    "editeur": "Akata",
+   "auteur": "Morishita Suu",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6895,33 +6920,33 @@
      11,
      12
     ]
-   },
-   "auteur": "Morishita Suu"
+   }
   },
   "alice-au-dela-des-etoiles": {
    "titreOrphee": "Alice au-delà des étoiles",
    "editeur": "Glénat",
+   "auteur": "Urino Kiko",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Urino Kiko"
+   }
   },
   "alice-in-kyoto-forest": {
    "titreOrphee": "Alice in Kyoto Forest",
    "editeur": "Delcourt",
+   "auteur": "Haruki Niwa",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Haruki Niwa"
+   }
   },
   "amulet": {
    "titreOrphee": "Amulet",
    "editeur": "Akiléos",
+   "auteur": "Kibuishi Kazu",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -6937,12 +6962,12 @@
     "Noyal-sur-Vilaine": [
      7
     ]
-   },
-   "auteur": "Kibuishi Kazu"
+   }
   },
   "animal-crossing-new-horizons-le-journal-de-l-ile": {
    "titreOrphee": "Animal Crossing : New Horizons - Le journal de l'île",
    "editeur": "Soleil Productions",
+   "auteur": "Kokonasu Rumba",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -6957,23 +6982,23 @@
      10,
      11
     ]
-   },
-   "auteur": "Kokonasu Rumba"
+   }
   },
   "animal-crossing-new-horizons-l-ile-de-la-detente": {
    "titreOrphee": "Animal Crossing New Horizons : L'île de la détente",
    "editeur": "Soleil Productions",
+   "auteur": "Kato Minori",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Kato Minori"
+   }
   },
   "animal-kingdom": {
    "titreOrphee": "Animal Kingdom",
    "editeur": "Ki-oon",
+   "auteur": "Raiku Makoto",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -6983,22 +7008,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Raiku Makoto"
-  },
-  "astro-royale": {
-   "titreOrphee": "Astro royale",
-   "editeur": "Glénat",
-   "tomes": {
-    "Noyal-sur-Vilaine": [
-     1
-    ]
-   },
-   "auteur": "Wakui Ken"
+   }
   },
   "aux-cotes-du-dieu-loup": {
    "titreOrphee": "Aux côtés du Dieu-Loup",
    "editeur": "Bamboo Editions",
+   "auteur": "Yomoko Yamamoto",
    "tomes": {
     "Chateaugiron": [
      1
@@ -7008,8 +7023,7 @@
      2,
      3
     ]
-   },
-   "auteur": "Yomoko Yamamoto"
+   }
   },
   "avatar-le-dernier-maitre-de-l-air": {
    "titreOrphee": "Avatar, le dernier maître de l'air",
@@ -7023,16 +7037,17 @@
   "ayashimon": {
    "titreOrphee": "Ayashimon",
    "editeur": "Crunchyroll",
+   "auteur": "Kaku Yûji",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Kaku Yûji"
+   }
   },
   "b-side": {
    "titreOrphee": "B-Side",
    "editeur": "Editons Ki-oon",
+   "auteur": "Hirai Cocoro",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7040,22 +7055,22 @@
      3,
      4
     ]
-   },
-   "auteur": "Hirai Cocoro"
+   }
   },
   "bamboo-blade": {
    "titreOrphee": "Bamboo blade",
    "editeur": "Ki-oon",
+   "auteur": "Totsuka Masahiro",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Totsuka Masahiro"
+   }
   },
   "barakamon": {
    "titreOrphee": "Barakamon",
    "editeur": "Ki-oon\nImpr. Hérissey",
+   "auteur": "Yoshino Satsuki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7065,23 +7080,23 @@
      5,
      6
     ]
-   },
-   "auteur": "Yoshino Satsuki"
+   }
   },
   "baymax": {
    "titreOrphee": "Baymax",
    "editeur": "Pika",
+   "auteur": "Ueno Haruki",
    "tomes": {
     "Ossé": [
      1,
      2
     ]
-   },
-   "auteur": "Ueno Haruki"
+   }
   },
   "beyblade-metal-fusion": {
    "titreOrphee": "Beyblade metal fusion",
    "editeur": "Kazé",
+   "auteur": "Adachi Takafumi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -7089,12 +7104,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Adachi Takafumi"
+   }
   },
   "beyond-the-clouds-la-fillette-tombee-du-ciel": {
    "titreOrphee": "Beyond the clouds : la fillette tombée du ciel",
    "editeur": "Ki-oon",
+   "auteur": "Nicke",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7103,12 +7118,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Nicke"
+   }
   },
   "black-clover": {
    "titreOrphee": "Black Clover",
    "editeur": "Kaze Manga",
+   "auteur": "Tabata Yûki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7149,12 +7164,12 @@
      36,
      37
     ]
-   },
-   "auteur": "Tabata Yûki"
+   }
   },
   "black-shadow": {
    "titreOrphee": "Black shadow",
    "editeur": "Pika",
+   "auteur": "Nakao Takuya",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7172,12 +7187,12 @@
      13,
      14
     ]
-   },
-   "auteur": "Nakao Takuya"
+   }
   },
   "blitz": {
    "titreOrphee": "Blitz",
    "editeur": "IWA",
+   "auteur": "Biscay Cédric",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7192,22 +7207,22 @@
      10,
      11
     ]
-   },
-   "auteur": "Biscay Cédric"
+   }
   },
   "blue-box": {
    "titreOrphee": "Blue box",
    "editeur": "Delcourt",
+   "auteur": "Kouji Miura",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Kouji Miura"
+   }
   },
   "blue-lock": {
    "titreOrphee": "Blue lock",
    "editeur": "Pika",
+   "auteur": "Kaneshiro Muneyuki",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7243,12 +7258,12 @@
      32,
      33
     ]
-   },
-   "auteur": "Kaneshiro Muneyuki"
+   }
   },
   "boruto-naruto-next-generations": {
    "titreOrphee": "Boruto : Naruto next generations",
    "editeur": "Kana",
+   "auteur": "Kishimoto Masashi",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -7270,24 +7285,24 @@
      10,
      11
     ]
-   },
-   "auteur": "Kishimoto Masashi"
+   }
   },
   "box-qu-y-a-t-il-dans-la-boite": {
    "titreOrphee": "Box : qu'y a-t-il dans la boîte ?",
    "editeur": "le Lézard noir",
+   "auteur": "Morohoshi Daijirô",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Morohoshi Daijirô"
+   }
   },
   "brave-bell": {
    "titreOrphee": "Brave Bell",
    "editeur": "Bamboo Editions",
+   "auteur": "Meeb",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -7297,24 +7312,24 @@
      5,
      6
     ]
-   },
-   "auteur": "Meeb"
+   }
   },
   "bravest-journey": {
    "titreOrphee": "Bravest Journey",
    "editeur": "Nouvelle hydre",
+   "auteur": "Le Scoul Yoann",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Le Scoul Yoann"
+   }
   },
   "buster-keel": {
    "titreOrphee": "Buster Keel !",
    "editeur": "Kana",
+   "auteur": "Sakamoto Kenshiro",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -7330,12 +7345,12 @@
      11,
      12
     ]
-   },
-   "auteur": "Sakamoto Kenshiro"
+   }
   },
   "captain-tsubasa": {
    "titreOrphee": "Captain Tsubasa",
    "editeur": "Glénat",
+   "auteur": "Takahashi Yoichi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7369,8 +7384,7 @@
      22,
      23
     ]
-   },
-   "auteur": "Takahashi Yoichi"
+   }
   },
   "card-captor-sakura": {
    "titreOrphee": "Card Captor Sakura",
@@ -7403,17 +7417,18 @@
   "cat-street": {
    "titreOrphee": "Cat street",
    "editeur": "Kana\nImpr. Hérissey",
+   "auteur": "Kamio Yoko",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Kamio Yoko"
+   }
   },
   "cats": {
    "titreOrphee": "Cats",
    "editeur": "Milan",
+   "auteur": "Kang Hyun-Jun",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -7433,22 +7448,22 @@
      4,
      5
     ]
-   },
-   "auteur": "Kang Hyun-Jun"
+   }
   },
   "cats-and-dragon": {
    "titreOrphee": "Cats and Dragon",
    "editeur": "Bamboo Editions",
+   "auteur": "Amara",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Amara"
+   }
   },
   "chat-de-yakuza": {
    "titreOrphee": "Chat de yakuza",
    "editeur": "Bamboo",
+   "auteur": "Kamimura Riddle",
    "tomes": {
     "St-Aubin du Pavail": [
      1,
@@ -7456,12 +7471,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Kamimura Riddle"
+   }
   },
   "chat-malgre-moi": {
    "titreOrphee": "Chat malgré moi",
    "editeur": "Nobi Nobi",
+   "auteur": "Wagata Konomi",
    "tomes": {
     "Domloup": [
      1,
@@ -7471,12 +7486,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Wagata Konomi"
+   }
   },
   "chi-une-vie-de-chat": {
    "titreOrphee": "Chi une vie de chat",
    "editeur": "Glénat",
+   "auteur": "Konami Kanata",
    "tomes": {
     "Ossé": [
      1,
@@ -7535,12 +7550,12 @@
      16,
      17
     ]
-   },
-   "auteur": "Konami Kanata"
+   }
   },
   "chibi-vampire-karin": {
    "titreOrphee": "Chibi vampire : Karin",
    "editeur": "Pika",
+   "auteur": "Kagesaki Yuna",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7549,12 +7564,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Kagesaki Yuna"
+   }
   },
   "chocotan": {
    "titreOrphee": "Chocotan",
    "editeur": "Nobi Nobi",
+   "auteur": "Takeuchi Kozue",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -7563,34 +7578,34 @@
      4,
      5
     ]
-   },
-   "auteur": "Takeuchi Kozue"
+   }
   },
   "choubi-choubi-mon-chat-pour-la-vie": {
    "titreOrphee": "Choubi-Choubi, mon chat pour la vie",
    "editeur": "Soleil Productions",
+   "auteur": "Kanata Konami",
    "tomes": {
     "Domloup": [
      3,
      4
     ]
-   },
-   "auteur": "Kanata Konami"
+   }
   },
   "choubi-choubi-mon-chat-tout-petit": {
    "titreOrphee": "Choubi-Choubi, mon chat tout petit",
    "editeur": "Soleil Productions",
+   "auteur": "Kanata Konami",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Kanata Konami"
+   }
   },
   "coco-l-ile-magique": {
    "titreOrphee": "Coco - L'île magique",
    "editeur": "Editons Ki-oon",
+   "auteur": "Kotobuki Keisuke",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7606,12 +7621,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Kotobuki Keisuke"
+   }
   },
   "code-breaker": {
    "titreOrphee": "Code breaker",
    "editeur": "Pika",
+   "auteur": "Kamijo Akimine",
    "tomes": {},
    "retires": [
     {
@@ -7644,12 +7659,12 @@
      "statut": "Perdu",
      "cote": "BD KAM t5"
     }
-   ],
-   "auteur": "Kamijo Akimine"
+   ]
   },
   "crazy-zoo": {
    "titreOrphee": "Crazy Zoo",
    "editeur": "Delcourt",
+   "auteur": "Horikoshi Kohei",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -7657,12 +7672,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Horikoshi Kohei"
+   }
   },
   "creatures-fantastiques": {
    "titreOrphee": "Créatures fantastiques",
    "editeur": "Editions Komikku",
+   "auteur": "Kaziya",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7670,12 +7685,12 @@
      3,
      5
     ]
-   },
-   "auteur": "Kaziya"
+   }
   },
   "d-gray-man": {
    "titreOrphee": "D. Gray-Man",
    "editeur": "Glénat",
+   "auteur": "Hoshino Katsura",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7708,12 +7723,12 @@
      28,
      29
     ]
-   },
-   "auteur": "Hoshino Katsura"
+   }
   },
   "dans-l-ombre-de-creamy": {
    "titreOrphee": "Dans l'ombre de Creamy",
    "editeur": "Kurokawa",
+   "auteur": "Mitsuki Emi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -7724,23 +7739,23 @@
      6,
      7
     ]
-   },
-   "auteur": "Mitsuki Emi"
+   }
   },
   "dans-le-premier-train-du-matin": {
    "titreOrphee": "Dans le premier train du matin",
    "editeur": "Delcourt",
+   "auteur": "Aosaki Yûgo",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Aosaki Yûgo"
+   }
   },
   "demon-slayer": {
    "titreOrphee": "Demon slayer",
    "editeur": "Panini manga",
+   "auteur": "Gotouge Koyoharu",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7767,33 +7782,33 @@
      22,
      23
     ]
-   },
-   "auteur": "Gotouge Koyoharu"
+   }
   },
   "developpeurs": {
    "titreOrphee": "Développeurs",
    "editeur": "Mana books",
+   "auteur": "Arai Harumaki",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Arai Harumaki"
+   }
   },
   "divines": {
    "titreOrphee": "Divines",
    "editeur": "Pika Edition",
+   "auteur": "Shirahama Kamome",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Shirahama Kamome"
+   }
   },
   "dofus": {
    "titreOrphee": "Dofus",
    "editeur": "Ankama Editions",
+   "auteur": "Tot",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -7812,12 +7827,12 @@
      14,
      15
     ]
-   },
-   "auteur": "Tot"
+   }
   },
   "doraemon": {
    "titreOrphee": "Doraemon",
    "editeur": "Kana",
+   "auteur": "Fujiko Fujio",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -7843,12 +7858,12 @@
      21,
      22
     ]
-   },
-   "auteur": "Fujiko Fujio"
+   }
   },
   "dr-stone": {
    "titreOrphee": "Dr Stone",
    "editeur": "Glénat",
+   "auteur": "Inagaki Riichiro",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7879,12 +7894,12 @@
      26,
      27
     ]
-   },
-   "auteur": "Inagaki Riichiro"
+   }
   },
   "dragon-ball-sd": {
    "titreOrphee": "Dragon ball SD",
    "editeur": "Glénat",
+   "auteur": "Toriyama Akira",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -7898,12 +7913,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Toriyama Akira"
+   }
   },
   "dragon-ball-super": {
    "titreOrphee": "Dragon ball super",
    "editeur": "Glénat",
+   "auteur": "Toriyama Akira",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -7934,23 +7949,23 @@
     "Noyal-sur-Vilaine": [
      3
     ]
-   },
-   "auteur": "Toriyama Akira"
+   }
   },
   "dragon-quest-la-quete-de-dai": {
    "titreOrphee": "Dragon Quest",
    "editeur": "Tonkam",
+   "auteur": "Sanjo Riku",
    "tomes": {
     "Chateaugiron": [
      16,
      22
     ]
-   },
-   "auteur": "Sanjo Riku"
+   }
   },
   "droners-tales-of-nui": {
    "titreOrphee": "Droners",
    "editeur": "Kana",
+   "auteur": "David Nicolas",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -7962,12 +7977,12 @@
      2,
      3
     ]
-   },
-   "auteur": "David Nicolas"
+   }
   },
   "en-scene": {
    "titreOrphee": "En scène",
    "editeur": "Kurokawa",
+   "auteur": "Cuvie",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -7986,12 +8001,12 @@
      14,
      15
     ]
-   },
-   "auteur": "Cuvie"
+   }
   },
   "fairy-tail-blue-mistral": {
    "titreOrphee": "Fairy Tail Blue Mistral",
    "editeur": "Pika",
+   "auteur": "Watanabe Rui",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -7999,12 +8014,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Watanabe Rui"
+   }
   },
   "felin-pour-l-autre": {
    "titreOrphee": "Félin pour l'autre",
    "editeur": "Bamboo",
+   "auteur": "Nadatani Wataru",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -8014,12 +8029,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Nadatani Wataru"
+   }
   },
   "fire-force": {
    "titreOrphee": "Fire force",
    "editeur": "Kana",
+   "auteur": "Ohkubo Atsushi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8057,12 +8072,12 @@
      33,
      34
     ]
-   },
-   "auteur": "Ohkubo Atsushi"
+   }
   },
   "fukuneko-les-chats-du-bonheur": {
    "titreOrphee": "Fukuneko, les chats du bonheur",
    "editeur": "Nobi Nobi",
+   "auteur": "Matsuzawa Mari",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -8076,22 +8091,22 @@
      3,
      4
     ]
-   },
-   "auteur": "Matsuzawa Mari"
+   }
   },
   "galaxias": {
    "titreOrphee": "Galaxias",
    "editeur": "Pika Edition",
+   "auteur": "Ao Hatesaka",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Ao Hatesaka"
+   }
   },
   "gamaran": {
    "titreOrphee": "Gamaran",
    "editeur": "Kana",
+   "auteur": "Nakamaru Yosuke",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8100,45 +8115,45 @@
      4,
      5
     ]
-   },
-   "auteur": "Nakamaru Yosuke"
+   }
   },
   "goldfish": {
    "titreOrphee": "Goldfish",
    "editeur": "Nobi Nobi",
+   "auteur": "Yaa Nana",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Yaa Nana"
+   }
   },
   "green-mechanic": {
    "titreOrphee": "Green Mechanic",
    "editeur": "Editions Ki-oon",
+   "auteur": "Shin Yami",
    "tomes": {
     "Chateaugiron": [
      9
     ]
-   },
-   "auteur": "Shin Yami"
+   }
   },
   "grimms": {
    "titreOrphee": "Grimms",
    "editeur": "Pika",
+   "auteur": "Ishiyama Kei",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Ishiyama Kei"
+   }
   },
   "hachi-maruru-chats-des-rues": {
    "titreOrphee": "Hachi & Maruru, chats des rues",
    "editeur": "Bamboo Editions",
+   "auteur": "Sonoda Yuri",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -8148,12 +8163,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Sonoda Yuri"
+   }
   },
   "haikyu-les-as-du-volley-smash-edition": {
    "titreOrphee": "Haikyû !! Les As du volley - Smash édition",
    "editeur": "Kazé Editions",
+   "auteur": "Furudate Haruichi",
    "tomes": {
     "Chateaugiron": [
      25,
@@ -8178,12 +8193,12 @@
      44,
      45
     ]
-   },
-   "auteur": "Furudate Haruichi"
+   }
   },
   "hamster-et-boule-de-gomme": {
    "titreOrphee": "Hamster et boule de gomme",
    "editeur": "Bamboo Editions",
+   "auteur": "Hamuhamu",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -8192,12 +8207,12 @@
     "Domloup": [
      1
     ]
-   },
-   "auteur": "Hamuhamu"
+   }
   },
   "hikari-reve-de-star": {
    "titreOrphee": "Hikari - Rêve de star",
    "editeur": "Nobi Nobi",
+   "auteur": "Nakahara An",
    "tomes": {
     "Chateaugiron": [
      1
@@ -8209,19 +8224,18 @@
      4,
      5
     ]
-   },
-   "auteur": "Nakahara An"
+   }
   },
   "hina-et-bambi": {
    "titreOrphee": "Hina et Bambi",
    "editeur": "Nobi Nobi",
+   "auteur": "Komaki Maria",
    "tomes": {
     "Piré-Chancé": [
      1,
      2
     ]
-   },
-   "auteur": "Komaki Maria"
+   }
   },
   "horseland": {
    "titreOrphee": "Horseland",
@@ -8237,6 +8251,7 @@
   "ichiko-et-niko": {
    "titreOrphee": "Ichiko et Niko",
    "editeur": "Kana",
+   "auteur": "Yamamoto Lunlun",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8245,23 +8260,23 @@
      4,
      5
     ]
-   },
-   "auteur": "Yamamoto Lunlun"
+   }
   },
   "imago": {
    "titreOrphee": "Imago",
    "editeur": "Nobi Nobi",
+   "auteur": "Tirtakusuma Galang",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Tirtakusuma Galang"
+   }
   },
   "inazuma-eleven-go": {
    "titreOrphee": "Inazuma eleven go",
    "editeur": "Kurokawa\nAubin impr.",
+   "auteur": "Yabuno Ten'ya",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8272,24 +8287,24 @@
      6,
      7
     ]
-   },
-   "auteur": "Yabuno Ten'ya"
+   }
   },
   "jojo-s-bizarre-adventure-steel-ball-run": {
    "titreOrphee": "Jojo's bizarre adventure - Steel Ball Run",
    "editeur": "Tonkam",
+   "auteur": "Araki Hirohiko",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Araki Hirohiko"
+   }
   },
   "jujutsu-kaisen": {
    "titreOrphee": "Jujutsu kaisen",
    "editeur": "Ki-oon",
+   "auteur": "Akutami Gege",
    "tomes": {
     "Chateaugiron": [
      0,
@@ -8324,12 +8339,12 @@
      29,
      30
     ]
-   },
-   "auteur": "Akutami Gege"
+   }
   },
   "kamikaze-kaito-jeanne": {
    "titreOrphee": "Kamikaze kaito Jeanne",
    "editeur": "Glénat",
+   "auteur": "Tanemura Arina",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -8340,12 +8355,12 @@
      6,
      7
     ]
-   },
-   "auteur": "Tanemura Arina"
+   }
   },
   "kingdom-hearts": {
    "titreOrphee": "Kingdom Hearts",
    "editeur": "Pika",
+   "auteur": "Amano Shiro",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -8357,24 +8372,24 @@
      3,
      4
     ]
-   },
-   "auteur": "Amano Shiro"
+   }
   },
   "koko-debut": {
    "titreOrphee": "Koko debut",
    "editeur": "Panini manga",
+   "auteur": "Kawahara Kazune",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kawahara Kazune"
+   }
   },
   "kuma-kuma-kuma-bear": {
    "titreOrphee": "Kuma Kuma Kuma bear",
    "editeur": "Meian éditions",
+   "auteur": "Sergei",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -8388,35 +8403,35 @@
      9,
      10
     ]
-   },
-   "auteur": "Sergei"
+   }
   },
   "kuro": {
    "titreOrphee": "Kuro",
    "editeur": "Glénat",
+   "auteur": "So-ma-to",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "So-ma-to"
+   }
   },
   "kuro-un-coeur-de-chat": {
    "titreOrphee": "Kuro, un coeur de chat",
    "editeur": "Kana",
+   "auteur": "Sugisaku",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Sugisaku"
+   }
   },
   "kushi": {
    "titreOrphee": "Kushi",
    "editeur": "les Ed. Fei",
+   "auteur": "Marty Patrick",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8428,56 +8443,56 @@
      7,
      8
     ]
-   },
-   "auteur": "Marty Patrick"
+   }
   },
   "agence-de-detectives-layton-katrielle-et-les-enquetes-mysterieuses": {
    "titreOrphee": "L'agence de détectives Layton : Katrielle et les enquêtes mystérieuses",
    "editeur": "Nobi Nobi",
+   "auteur": "Orito Kahori",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Orito Kahori"
+   }
   },
   "atelier-des-fees": {
    "titreOrphee": "L'Atelier des fées",
    "editeur": "Rue de Sèvres",
+   "auteur": "Wakita Akane",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Wakita Akane"
+   }
   },
   "eden-des-sorcieres": {
    "titreOrphee": "L'Eden des sorcières",
    "editeur": "Editions Ki-oon",
+   "auteur": "Yumeji",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Yumeji"
+   }
   },
   "etrange-noel-de-zero": {
    "titreOrphee": "L'étrange Noël de Zéro",
    "editeur": "Nobi Nobi",
+   "auteur": "DJ Milky",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "DJ Milky"
+   }
   },
   "histoire-en-manga": {
    "titreOrphee": "L'histoire en manga",
    "editeur": "Bayard Jeunesse",
+   "auteur": "Shirotsumekusa",
    "tomes": {
     "Noyal-sur-Vilaine": [
      6,
@@ -8487,12 +8502,12 @@
      2,
      4
     ]
-   },
-   "auteur": "Shirotsumekusa"
+   }
   },
   "balade-de-yaya": {
    "titreOrphee": "La Balade de Yaya",
    "editeur": "Fei",
+   "auteur": "Omont Jean-Marie",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8525,44 +8540,44 @@
      8,
      9
     ]
-   },
-   "auteur": "Omont Jean-Marie"
+   }
   },
   "chanson-de-lala": {
    "titreOrphee": "La Chanson de Lala",
    "editeur": "Rue de Sèvres",
+   "auteur": "Kohno Sui",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Kohno Sui"
+   }
   },
   "confrerie-des-lions-blancs": {
    "titreOrphee": "La confrérie des lions blancs",
    "editeur": "Komikku",
+   "auteur": "Takahashi Natsuko",
    "tomes": {
     "Ossé": [
      1,
      2
     ]
-   },
-   "auteur": "Takahashi Natsuko"
+   }
   },
   "fiancee-du-clan-kyougane": {
    "titreOrphee": "La Fiancée du clan Kyougane",
    "editeur": "Editions Ki-oon",
+   "auteur": "Hino Anju",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Hino Anju"
+   }
   },
   "petite-faiseuse-de-livres-ascendance-of-a-bookworm": {
    "titreOrphee": "La petite faiseuse de livres : ascendance of a bookworm",
    "editeur": "Ototo",
+   "auteur": "Kazuki Miya",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8573,23 +8588,23 @@
      6,
      7
     ]
-   },
-   "auteur": "Kazuki Miya"
+   }
   },
   "princesse-vagabonde": {
    "titreOrphee": "La princesse vagabonde",
    "editeur": "Urban China",
+   "auteur": "Xia Da",
    "tomes": {
     "Chateaugiron": [
      3,
      4
     ]
-   },
-   "auteur": "Xia Da"
+   }
   },
   "sorciere-aux-champignons": {
    "titreOrphee": "La sorcière aux champignons",
    "editeur": "Glénat",
+   "auteur": "Higuchi Tachibana",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -8599,12 +8614,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Higuchi Tachibana"
+   }
   },
   "chateau-ambulant": {
    "titreOrphee": "Le Château ambulant",
    "editeur": "",
+   "auteur": "Miyazaki Hayao",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8612,12 +8627,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Miyazaki Hayao"
+   }
   },
   "chateau-solitaire-dans-le-miroir": {
    "titreOrphee": "Le château solitaire dans le miroir",
    "editeur": "Nobi Nobi",
+   "auteur": "Tsujimura Mizuki",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -8626,32 +8641,32 @@
      4,
      5
     ]
-   },
-   "auteur": "Tsujimura Mizuki"
+   }
   },
   "destin-de-la-princesse-sirene": {
    "titreOrphee": "Le Destin de la Princesse Sirène",
    "editeur": "Nobi Nobi",
+   "auteur": "Fumikawa Yoshino",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Fumikawa Yoshino"
+   }
   },
   "diable-s-habille-en-papa": {
    "titreOrphee": "Le diable s'habille en papa",
    "editeur": "Mana books",
+   "auteur": "Segawa Ryuu",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Segawa Ryuu"
+   }
   },
   "fantastique-voyage-de-nicola-au-pays-des-demons": {
    "titreOrphee": "Le fantastique voyage de Nicola au pays des démons",
    "editeur": "Nobi Nobi",
+   "auteur": "Miyanaga Asaya",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -8659,57 +8674,57 @@
      3,
      4
     ]
-   },
-   "auteur": "Miyanaga Asaya"
+   }
   },
   "fantome-de-l-opera": {
    "titreOrphee": "Le fantôme de l'opéra",
    "editeur": "Soleil Productions",
+   "auteur": "Nanao Mio",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Nanao Mio"
+   }
   },
   "gout-des-retrouvailles": {
    "titreOrphee": "Le goût des retrouvailles",
    "editeur": "Editions Akata",
+   "auteur": "Itoi Nozo",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Itoi Nozo"
+   }
   },
   "journal-de-mobu": {
    "titreOrphee": "Le journal de Mobu",
    "editeur": "Gallimard BD",
+   "auteur": "Lam Kathy",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Lam Kathy"
+   }
   },
   "maitre-magicien-negima-neo": {
    "titreOrphee": "Le maître magicien Negima !? Neo",
    "editeur": "Pika\nImpr. Aubin",
+   "auteur": "Fujima Takuya",
    "tomes": {
     "Chateaugiron": [
      4,
      6
     ]
-   },
-   "auteur": "Fujima Takuya"
+   }
   },
   "paradis-des-chiens": {
    "titreOrphee": "Le paradis des chiens",
    "editeur": "Glénat",
+   "auteur": "Tatsuyama Sayuri",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -8717,12 +8732,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Tatsuyama Sayuri"
+   }
   },
   "renard-et-le-petit-tanuki": {
    "titreOrphee": "Le renard et le petit tanuki",
    "editeur": "Ki-oon",
+   "auteur": "Tagawa Mi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8742,33 +8757,33 @@
      6,
      7
     ]
-   },
-   "auteur": "Tagawa Mi"
+   }
   },
   "secret-de-madoka": {
    "titreOrphee": "Le secret de Madoka",
    "editeur": "Editions Akata",
+   "auteur": "Kingyobachi Deme",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Kingyobachi Deme"
+   }
   },
   "souffle-des-legendes": {
    "titreOrphee": "Le souffle des légendes",
    "editeur": "Komikku",
+   "auteur": "Hazumi Tsukasa",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Hazumi Tsukasa"
+   }
   },
   "voyage-de-chihiro": {
    "titreOrphee": "Le voyage de Chihiro",
    "editeur": "",
+   "auteur": "Miyazaki Hayao",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8777,22 +8792,22 @@
      4,
      5
     ]
-   },
-   "auteur": "Miyazaki Hayao"
+   }
   },
   "xxe-siecle-en-manga": {
    "titreOrphee": "Le XXe siècle en manga",
    "editeur": "Bayard jeunesse",
+   "auteur": "Irisawa Noriyuki",
    "tomes": {
     "Piré-Chancé": [
      4
     ]
-   },
-   "auteur": "Irisawa Noriyuki"
+   }
   },
   "chaventures-de-tai-mamie-sue": {
    "titreOrphee": "Les chaventures de Taï & Mamie Sue",
    "editeur": "Nobi Nobi",
+   "auteur": "Konami Kanata",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -8806,12 +8821,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Konami Kanata"
+   }
   },
   "chaventures-de-tai-et-mamie-sue": {
    "titreOrphee": "Les Chaventures de Taï et Mamie Sue",
    "editeur": "Nobi Nobi",
+   "auteur": "Kanata Konami",
    "tomes": {
     "Chateaugiron": [
      5,
@@ -8820,47 +8835,47 @@
     "St-Aubin du Pavail": [
      5
     ]
-   },
-   "auteur": "Kanata Konami"
+   }
   },
   "enfants-loups-ame-yuki": {
    "titreOrphee": "Les enfants loups : Ame & Yuki",
    "editeur": "Kaze Manga",
+   "auteur": "Watase Yuu",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Watase Yuu"
+   }
   },
   "heritiers-d-agione": {
    "titreOrphee": "Les héritiers d'Agïone",
    "editeur": "Kana",
+   "auteur": "Tpiu",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Tpiu"
+   }
   },
   "petits-en-cas-de-monsieur-matcha": {
    "titreOrphee": "Les petits en-cas de Monsieur Matcha",
    "editeur": "Nobi Nobi",
+   "auteur": "Horokura Sato",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Horokura Sato"
+   }
   },
   "petits-velos": {
    "titreOrphee": "Les petits vélos",
    "editeur": "Komikku",
+   "auteur": "Koyama Keiko",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -8868,12 +8883,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Koyama Keiko"
+   }
   },
   "quatre-freres-yuzuki": {
    "titreOrphee": "Les quatre frères Yuzuki",
    "editeur": "Nobi Nobi",
+   "auteur": "Fujisawa Shizuki",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -8895,12 +8910,12 @@
      11,
      12
     ]
-   },
-   "auteur": "Fujisawa Shizuki"
+   }
   },
   "secrets-de-lea": {
    "titreOrphee": "Les secrets de Léa",
    "editeur": "Delcourt-Akata",
+   "auteur": "Yabuuchi Yu",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -8908,12 +8923,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Yabuuchi Yu"
+   }
   },
   "letter-bee": {
    "titreOrphee": "Letter Bee",
    "editeur": "Kana",
+   "auteur": "Asada Hiroyuki",
    "tomes": {
     "Chateaugiron": [
      1
@@ -8928,22 +8943,22 @@
      7,
      8
     ]
-   },
-   "auteur": "Asada Hiroyuki"
+   }
   },
   "lights-drag-action": {
    "titreOrphee": "Lights, Drag, Action !",
    "editeur": "Akata",
+   "auteur": "Hugh Kam",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Hugh Kam"
+   }
   },
   "liselotte-et-la-foret-des-sorcieres": {
    "titreOrphee": "LISELOTTE et la forêt des sorcières",
    "editeur": "Delcourt",
+   "auteur": "Takaya Natsuki",
    "tomes": {
     "Ossé": [
      2,
@@ -8959,38 +8974,24 @@
      "statut": "Perdu",
      "cote": "BDJ TAK T1"
     }
-   ],
-   "auteur": "Takaya Natsuki"
+   ]
   },
   "little-witch-academia": {
    "titreOrphee": "Little witch academia",
    "editeur": "Nobi Nobi",
+   "auteur": "Sato Keisuke",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Sato Keisuke"
-  },
-  "lonely-world": {
-   "titreOrphee": "Lonely world",
-   "editeur": "Ki-oon",
-   "tomes": {
-    "Noyal-sur-Vilaine": [
-     1,
-     2,
-     3,
-     4,
-     5
-    ]
-   },
-   "auteur": "Iwatobineko"
+   }
   },
   "louve": {
    "titreOrphee": "Louve",
    "editeur": "Rue de Sèvres",
+   "auteur": "Miiya Miyako",
    "tomes": {
     "Chateaugiron": [
      1
@@ -8998,12 +8999,12 @@
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Miiya Miyako"
+   }
   },
   "love-mix-up": {
    "titreOrphee": "Love Mix-Up",
    "editeur": "Akata",
+   "auteur": "Hinekure Wataru",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9015,12 +9016,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Hinekure Wataru"
+   }
   },
   "lovely-hair": {
    "titreOrphee": "Lovely hair",
    "editeur": "Pika",
+   "auteur": "Toyama Ema",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9032,12 +9033,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Toyama Ema"
+   }
   },
   "lucika-lucika": {
    "titreOrphee": "Lucika Lucika",
    "editeur": "Ki-oon",
+   "auteur": "Abe Yoshitoshi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9056,12 +9057,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Abe Yoshitoshi"
+   }
   },
   "lusky-mon-ami-pour-la-vie": {
    "titreOrphee": "Lusky",
    "editeur": "Nobi Nobi",
+   "auteur": "Wagata Konomi",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9070,12 +9071,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Wagata Konomi"
+   }
   },
   "ma-mamie-adoree": {
    "titreOrphee": "Ma mamie adorée",
    "editeur": "Rue de Sèvres",
+   "auteur": "Honma Junko",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9087,22 +9088,22 @@
      2,
      3
     ]
-   },
-   "auteur": "Honma Junko"
+   }
   },
   "mafia-dating-sim": {
    "titreOrphee": "Mafia Dating Sim",
    "editeur": "Naban Editions",
+   "auteur": "Amekawa Touko",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Amekawa Touko"
+   }
   },
   "mar": {
    "titreOrphee": "Mär",
    "editeur": "Dargaud",
+   "auteur": "Anzai Nobuyuki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -9111,12 +9112,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Anzai Nobuyuki"
+   }
   },
   "mar-omega": {
    "titreOrphee": "Mär omega",
    "editeur": "Kana",
+   "auteur": "Hoshino Koichiro",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -9124,12 +9125,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Hoshino Koichiro"
+   }
   },
   "memesis": {
    "titreOrphee": "Memesis",
    "editeur": "Kana",
+   "auteur": "Yagyû Takuya",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9137,23 +9138,23 @@
      3,
      4
     ]
-   },
-   "auteur": "Yagyû Takuya"
+   }
   },
   "mes-voisins-les-esprits": {
    "titreOrphee": "Mes voisins les esprits",
    "editeur": "Bamboo",
+   "auteur": "Shirotori Ushio",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Shirotori Ushio"
+   }
   },
   "miaou-le-quotidien-de-moustic": {
    "titreOrphee": "Miaou ! Le quotidien de Moustic",
    "editeur": "Nobi Nobi",
+   "auteur": "Kakio Minori",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9161,12 +9162,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Kakio Minori"
+   }
   },
   "mimizuku-et-le-roi-de-la-nuit": {
    "titreOrphee": "Mimizuku et le roi de la nuit",
    "editeur": "Vega-Dupuis",
+   "auteur": "Suzuki Yû",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9174,12 +9175,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Suzuki Yû"
+   }
   },
   "minuscule": {
    "titreOrphee": "Minuscule",
    "editeur": "Komikku\nKomikku",
+   "auteur": "Kashiki Takuto",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9209,24 +9210,24 @@
      11,
      12
     ]
-   },
-   "auteur": "Kashiki Takuto"
+   }
   },
   "miraculous": {
    "titreOrphee": "Miraculous",
    "editeur": "Nobi Nobi",
+   "auteur": "Warita Koma",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Warita Koma"
+   }
   },
   "miss-marvel": {
    "titreOrphee": "Miss Marvel",
    "editeur": "Panini comics",
+   "auteur": "Wilson G. Willow",
    "tomes": {
     "Noyal-sur-Vilaine": [
      4,
@@ -9235,12 +9236,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Wilson G. Willow"
+   }
   },
   "mission-yozakura-family": {
    "titreOrphee": "Mission : Yozakura family",
    "editeur": "Kana",
+   "auteur": "Gondaira Hitsuji",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9270,12 +9271,12 @@
      25,
      26
     ]
-   },
-   "auteur": "Gondaira Hitsuji"
+   }
   },
   "mochi-et-compagnie": {
    "titreOrphee": "Mochi et compagnie",
    "editeur": "Nobi nobi !",
+   "auteur": "Shinozuka Hiromu",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9286,18 +9287,18 @@
      6,
      7
     ]
-   },
-   "auteur": "Shinozuka Hiromu"
+   }
   },
   "mofusand": {
    "titreOrphee": "Mofusand",
    "editeur": "Soleil Productions",
-   "tomes": {},
-   "auteur": "Mofusand"
+   "auteur": "Mofusand",
+   "tomes": {}
   },
   "momo-et-ichi-petits-esprits-de-la-campagne": {
    "titreOrphee": "Momo et Ichi : Petits esprits de la campagne",
    "editeur": "Nobi Nobi",
+   "auteur": "Kumicho",
    "tomes": {
     "Chateaugiron": [
      1
@@ -9307,12 +9308,12 @@
      2,
      3
     ]
-   },
-   "auteur": "Kumicho"
+   }
   },
   "momo-et-le-messager-du-soleil": {
    "titreOrphee": "Momo et le messager du soleil",
    "editeur": "Editions Ki-oon",
+   "auteur": "Sasano Marie",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9320,12 +9321,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Sasano Marie"
+   }
   },
   "mon-amie-des-tenebres": {
    "titreOrphee": "Mon amie des ténèbres",
    "editeur": "Nobi Nobi",
+   "auteur": "Kawamura Taku",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -9349,12 +9350,12 @@
      19,
      20
     ]
-   },
-   "auteur": "Kawamura Taku"
+   }
   },
   "monsieur-mechant-va-detruire-la-terre-apres-ses-conges": {
    "titreOrphee": "Monsieur Méchant va détruire la terre (après ses congés)",
    "editeur": "Nobi Nobi",
+   "auteur": "Morikawa Yuu",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9364,33 +9365,33 @@
      5,
      6
     ]
-   },
-   "auteur": "Morikawa Yuu"
+   }
   },
   "moon-et-iro": {
    "titreOrphee": "Moon et Iro",
    "editeur": "Yam Yam",
+   "auteur": "Wonsanji",
    "tomes": {
     "Piré-Chancé": [
      1,
      2
     ]
-   },
-   "auteur": "Wonsanji"
+   }
   },
   "my-fair-honey-boy": {
    "titreOrphee": "My fair honey boy",
    "editeur": "Akata",
+   "auteur": "Ike Junko",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Ike Junko"
+   }
   },
   "my-happy-marriage": {
    "titreOrphee": "My happy marriage",
    "editeur": "Kurokawa",
+   "auteur": "Agitogi Akumi",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9399,12 +9400,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Agitogi Akumi"
+   }
   },
   "nanja-monja": {
    "titreOrphee": "Nanja Monja+",
    "editeur": "Glénat",
+   "auteur": "Ito Shizuka",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9414,12 +9415,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Ito Shizuka"
+   }
   },
   "naruto": {
    "titreOrphee": "Naruto",
    "editeur": "Dargaud",
+   "auteur": "Kishimoto Masashi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9524,54 +9525,54 @@
      1,
      30
     ]
-   },
-   "auteur": "Kishimoto Masashi"
+   }
   },
   "naruto-sasuke-retsuden": {
    "titreOrphee": "Naruto - Sasuke Retsuden",
    "editeur": "Kana",
+   "auteur": "Kimura Shingo",
    "tomes": {
     "Piré-Chancé": [
      1,
      2
     ]
-   },
-   "auteur": "Kimura Shingo"
+   }
   },
   "nichijo": {
    "titreOrphee": "Nichijô",
    "editeur": "Noeve Grafx",
+   "auteur": "Arawi Keiichi",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Arawi Keiichi"
+   }
   },
   "nikuko-du-port-de-peche": {
    "titreOrphee": "Nikuko du port de pêche",
    "editeur": "Rue de Sèvres",
+   "auteur": "Nishi Kanako",
    "tomes": {
     "Piré-Chancé": [
      1,
      2
     ]
-   },
-   "auteur": "Nishi Kanako"
+   }
   },
   "nos-coeurs-de-chats": {
    "titreOrphee": "Nos Coeurs de Chats",
    "editeur": "Bamboo Editions",
+   "auteur": "Otokawa Akari",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Otokawa Akari"
+   }
   },
   "nova": {
    "titreOrphee": "Nova",
    "editeur": "H2T",
+   "auteur": "Caly",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9579,43 +9580,43 @@
      3,
      4
     ]
-   },
-   "auteur": "Caly"
+   }
   },
   "nova-et-la-foret-des-monstres": {
    "titreOrphee": "Nova et la forêt des monstres",
    "editeur": "Editions Komikku",
+   "auteur": "Kamatama",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Kamatama"
+   }
   },
   "ochibi-et-ses-amis": {
    "titreOrphee": "Ochibi et ses amis",
    "editeur": "Rue de Sèvres",
+   "auteur": "Anno Moyoco",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Anno Moyoco"
+   }
   },
   "pan-pan-panda": {
    "titreOrphee": "Pan'pan panda",
    "editeur": "Nobi Nobi",
+   "auteur": "Horokura Sato",
    "tomes": {
     "Domloup": [
      1
     ]
-   },
-   "auteur": "Horokura Sato"
+   }
   },
   "perfect-world": {
    "titreOrphee": "Perfect world",
    "editeur": "Editions Akata",
+   "auteur": "Aruga Rie",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9631,12 +9632,12 @@
      11,
      12
     ]
-   },
-   "auteur": "Aruga Rie"
+   }
   },
   "petit-requin": {
    "titreOrphee": "Petit Requin",
    "editeur": "Rue de Sèvres",
+   "auteur": "Penguin Box",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9648,12 +9649,12 @@
      2,
      3
     ]
-   },
-   "auteur": "Penguin Box"
+   }
   },
   "pink-diary": {
    "titreOrphee": "Pink Diary",
    "editeur": "Delcourt",
+   "auteur": "Jenny",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9665,12 +9666,12 @@
      7,
      8
     ]
-   },
-   "auteur": "Jenny"
+   }
   },
   "plum-un-amour-de-chat": {
    "titreOrphee": "Plum, un amour de chat",
    "editeur": "Soleil\nSoleil strawberry",
+   "auteur": "Hoshino Natsumi",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9696,12 +9697,12 @@
      21,
      22
     ]
-   },
-   "auteur": "Hoshino Natsumi"
+   }
   },
   "pokemon-epee-et-bouclier": {
    "titreOrphee": "Pokémon : Epée et bouclier",
    "editeur": "Kurokawa",
+   "auteur": "Kusaka Hidenori",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -9712,12 +9713,12 @@
      6,
      7
     ]
-   },
-   "auteur": "Kusaka Hidenori"
+   }
   },
   "pokemon-la-grande-aventure-diamant-et-perle": {
    "titreOrphee": "Pokémon : la grande aventure : Diamant et Perle",
    "editeur": "Kurokawa",
+   "auteur": "Kusaka Hidenori",
    "tomes": {
     "Domloup": [
      1,
@@ -9725,12 +9726,12 @@
      3,
      5
     ]
-   },
-   "auteur": "Kusaka Hidenori"
+   }
   },
   "pokemon-soleil-et-lune": {
    "titreOrphee": "Pokémon : Soleil et Lune",
    "editeur": "Kurokawa",
+   "auteur": "Kusaka Hidenori",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9739,35 +9740,35 @@
      5,
      6
     ]
-   },
-   "auteur": "Kusaka Hidenori"
+   }
   },
   "pokemon-ecarlate-et-violet": {
    "titreOrphee": "Pokemon Ecarlate et Violet",
    "editeur": "Kurokawa",
+   "auteur": "Kusaka Hidenori",
    "tomes": {
     "Domloup": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Kusaka Hidenori"
+   }
   },
   "pokemon-la-grande-aventure": {
    "titreOrphee": "Pokémon la grande aventure",
    "editeur": "Kurokawa",
+   "auteur": "Kusaka Hidenori",
    "tomes": {
     "Domloup": [
      1,
      2
     ]
-   },
-   "auteur": "Kusaka Hidenori"
+   }
   },
   "pokemon-xy": {
    "titreOrphee": "Pokemon XY",
    "editeur": "Kurokawa\nAubin impr.",
+   "auteur": "Kusaka Hidenori",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -9777,12 +9778,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Kusaka Hidenori"
+   }
   },
   "power-gamer-adventure": {
    "titreOrphee": "Power gamer adventure",
    "editeur": "Nobi Nobi",
+   "auteur": "Seto Kazuyoshi",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9790,12 +9791,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Seto Kazuyoshi"
+   }
   },
   "princesse-kilala": {
    "titreOrphee": "Princesse Kilala",
    "editeur": "Nobi Nobi",
+   "auteur": "Tanaka Rika",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -9804,12 +9805,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Tanaka Rika"
+   }
   },
   "princesse-mononoke": {
    "titreOrphee": "Princesse Mononoke",
    "editeur": "Glénat",
+   "auteur": "Miyazaki Hayao",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9817,32 +9818,32 @@
      3,
      4
     ]
-   },
-   "auteur": "Miyazaki Hayao"
+   }
   },
   "principal": {
    "titreOrphee": "Principal",
    "editeur": "Akata",
+   "auteur": "Ikuemi Ryo",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Ikuemi Ryo"
+   }
   },
   "promenons-nous-dans-l-espace": {
    "titreOrphee": "Promenons-nous dans l'espace",
    "editeur": "Glénat",
+   "auteur": "Doronoda Inuhiko",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Doronoda Inuhiko"
+   }
   },
   "quand-takagi-me-taquine": {
    "titreOrphee": "Quand Takagi me taquine",
    "editeur": "Nobi Nobi",
+   "auteur": "Yamamoto Soichiro",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -9866,24 +9867,24 @@
      19,
      20
     ]
-   },
-   "auteur": "Yamamoto Soichiro"
+   }
   },
   "qui-suis-je-pour-t-aimer": {
    "titreOrphee": "Qui suis-je pour t'aimer ?",
    "editeur": "Kana",
+   "auteur": "Inari Yûko",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Inari Yûko"
+   }
   },
   "roji": {
    "titreOrphee": "Roji !",
    "editeur": "Ki-oon",
+   "auteur": "Kotobuki Keisuke",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -9919,24 +9920,24 @@
      5,
      6
     ]
-   },
-   "auteur": "Kotobuki Keisuke"
+   }
   },
   "running-girl-ma-course-vers-les-paralympiques": {
    "titreOrphee": "Running girl : ma course vers les paralympiques",
    "editeur": "Editions Akata",
+   "auteur": "Shigematsu Narumi",
    "tomes": {
     "Chateaugiron": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Shigematsu Narumi"
+   }
   },
   "sailor-moon": {
    "titreOrphee": "Sailor Moon",
    "editeur": "Pika Edition",
+   "auteur": "Takeuchi Naoko",
    "tomes": {
     "Piré-Chancé": [
      3
@@ -9949,12 +9950,12 @@
      "statut": "Perdu",
      "cote": "ME SAI"
     }
-   ],
-   "auteur": "Takeuchi Naoko"
+   ]
   },
   "sailor-moon-pretty-guardian": {
    "titreOrphee": "Sailor Moon : pretty guardian",
    "editeur": "Pika",
+   "auteur": "Takeuchi Naoko",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9969,12 +9970,12 @@
      11,
      12
     ]
-   },
-   "auteur": "Takeuchi Naoko"
+   }
   },
   "saint-seiya-les-chevaliers-du-zodiaque": {
    "titreOrphee": "Saint Seiya : les chevaliers du zodiaque",
    "editeur": "Kana",
+   "auteur": "Kurumada Masami",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9984,12 +9985,12 @@
      5,
      6
     ]
-   },
-   "auteur": "Kurumada Masami"
+   }
   },
   "sakura-saku": {
    "titreOrphee": "Sakura Saku",
    "editeur": "Kana",
+   "auteur": "Sakisaka Io",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -9997,12 +9998,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Sakisaka Io"
+   }
   },
   "save-me-pythie": {
    "titreOrphee": "Save me Pythie",
    "editeur": "Kana",
+   "auteur": "Brants Elsa",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -10011,23 +10012,23 @@
      4,
      5
     ]
-   },
-   "auteur": "Brants Elsa"
+   }
   },
   "secrets-of-magical-stones": {
    "titreOrphee": "Secrets of Magical Stones",
    "editeur": "Véga",
+   "auteur": "Marimuu",
    "tomes": {
     "Chateaugiron": [
      1,
      2
     ]
-   },
-   "auteur": "Marimuu"
+   }
   },
   "seki-mon-voisin-de-classe": {
    "titreOrphee": "Séki mon voisin de classe",
    "editeur": "Editions Akata\nÉd. Akata",
+   "auteur": "Morishige Takuma",
    "tomes": {
     "Ossé": [
      1,
@@ -10035,12 +10036,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Morishige Takuma"
+   }
   },
   "seven-deadly-sins": {
    "titreOrphee": "Seven deadly sins",
    "editeur": "Pika",
+   "auteur": "Suzuki Nakaba",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -10049,12 +10050,12 @@
      4,
      5
     ]
-   },
-   "auteur": "Suzuki Nakaba"
+   }
   },
   "shiba-inu-rooms": {
    "titreOrphee": "Shiba Inu Rooms",
    "editeur": "Bamboo Editions",
+   "auteur": "Oomori Esu",
    "tomes": {
     "Chateaugiron": [
      1
@@ -10065,12 +10066,12 @@
     "Domloup": [
      1
     ]
-   },
-   "auteur": "Oomori Esu"
+   }
   },
   "shiita-et-la-foret-des-minuscules": {
    "titreOrphee": "Shiita et la forêt des minuscules",
    "editeur": "Nobi Nobi",
+   "auteur": "Kamba Yuki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -10082,12 +10083,12 @@
      2,
      3
     ]
-   },
-   "auteur": "Kamba Yuki"
+   }
   },
   "shirayuki-aux-cheveux-rouges": {
    "titreOrphee": "Shirayuki aux cheveux rouges",
    "editeur": "Kana",
+   "auteur": "Akizuki Sorata",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -10097,22 +10098,22 @@
      5,
      7
     ]
-   },
-   "auteur": "Akizuki Sorata"
+   }
   },
   "show-ha-shoten": {
    "titreOrphee": "Show-ha Shoten !",
    "editeur": "Kana",
+   "auteur": "Asakura Akinari",
    "tomes": {
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Asakura Akinari"
+   }
   },
   "shugo-chara": {
    "titreOrphee": "Shugo Chara !",
    "editeur": "Pika",
+   "auteur": "Peach-Pit",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -10120,12 +10121,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Peach-Pit"
+   }
   },
   "snack-world": {
    "titreOrphee": "Snack world",
    "editeur": "Nobi Nobi",
+   "auteur": "Sho.t",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -10135,12 +10136,12 @@
      1,
      2
     ]
-   },
-   "auteur": "Sho.t"
+   }
   },
   "sounds-of-life": {
    "titreOrphee": "Sounds of life",
    "editeur": "Editions Akata",
+   "auteur": "Amu",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -10154,12 +10155,12 @@
      9,
      10
     ]
-   },
-   "auteur": "Amu"
+   }
   },
   "spider-man": {
    "titreOrphee": "Spider-Man",
    "editeur": "Panini",
+   "auteur": "Bendis Brian Michael",
    "tomes": {},
    "retires": [
     {
@@ -10168,12 +10169,12 @@
      "statut": "À pilonner",
      "cote": "BDC BEN"
     }
-   ],
-   "auteur": "Bendis Brian Michael"
+   ]
   },
   "splatoon": {
    "titreOrphee": "Splatoon",
    "editeur": "Soleil",
+   "auteur": "Hinodeya Sankichi",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -10187,24 +10188,24 @@
      9,
      10
     ]
-   },
-   "auteur": "Hinodeya Sankichi"
+   }
   },
   "star-wars-rebels": {
    "titreOrphee": "Star Wars Rebels",
    "editeur": "Nobi Nobi",
+   "auteur": "Aoki Mitsuru",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Aoki Mitsuru"
+   }
   },
   "street-fighting-cat": {
    "titreOrphee": "Street fighting cat",
    "editeur": "Bamboo",
+   "auteur": "SP Nakatema",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -10212,12 +10213,12 @@
      3,
      4
     ]
-   },
-   "auteur": "SP Nakatema"
+   }
   },
   "super-mario-manga-adventures": {
    "titreOrphee": "Super Mario-Manga Adventures",
    "editeur": "Soleil Productions",
+   "auteur": "Sawada Yukio",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -10228,12 +10229,12 @@
      6,
      7
     ]
-   },
-   "auteur": "Sawada Yukio"
+   }
   },
   "the-legend-of-zelda-twilight-princess": {
    "titreOrphee": "The Legend of Zelda - Twilight Princess",
    "editeur": "Soleil Productions",
+   "auteur": "Himekawa Akira",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -10248,12 +10249,12 @@
      10,
      11
     ]
-   },
-   "auteur": "Himekawa Akira"
+   }
   },
   "the-promised-neverland": {
    "titreOrphee": "The promised Neverland",
    "editeur": "Kazé Manga",
+   "auteur": "Shirai Kaiu",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -10277,22 +10278,22 @@
      19,
      20
     ]
-   },
-   "auteur": "Shirai Kaiu"
+   }
   },
   "the-regalia-of-the-underdog": {
    "titreOrphee": "The Regalia of the Underdog",
    "editeur": "Glénat",
+   "auteur": "Shinachiku",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Shinachiku"
+   }
   },
   "the-sound-of-my-soul": {
    "titreOrphee": "The sound of my soul",
    "editeur": "Editions Akata",
+   "auteur": "Saito Rin",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -10303,31 +10304,30 @@
     "Piré-Chancé": [
      1
     ]
-   },
-   "auteur": "Saito Rin"
+   }
   },
   "the-unexpected-goddess": {
    "titreOrphee": "The Unexpected Goddess",
    "editeur": "Bamboo Editions",
+   "auteur": "Arima Tsukasa",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Arima Tsukasa"
+   }
   },
   "toto": {
    "titreOrphee": "Toto !",
    "editeur": "Panini",
+   "auteur": "Osada Yuko",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
      2
     ]
-   },
-   "auteur": "Osada Yuko"
+   }
   },
   "tsubasa": {
    "titreOrphee": "Tsubasa",
@@ -10349,6 +10349,7 @@
   "twisted-wonderland-la-maison-heartslabyul": {
    "titreOrphee": "Twisted-Wonderland. La Maison Heartslabyul",
    "editeur": "Nobi Nobi",
+   "auteur": "Toboso Yana",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -10356,12 +10357,12 @@
      3,
      4
     ]
-   },
-   "auteur": "Toboso Yana"
+   }
   },
   "two-f-aced-tamon": {
    "titreOrphee": "Two F/aced Tamon",
    "editeur": "Crunchyroll",
+   "auteur": "Shiwasu Yuki",
    "tomes": {
     "Piré-Chancé": [
      1,
@@ -10376,22 +10377,22 @@
      10,
      11
     ]
-   },
-   "auteur": "Shiwasu Yuki"
+   }
   },
   "whale-star": {
    "titreOrphee": "Whale Star",
    "editeur": "Kotoon",
+   "auteur": "Na Yoonhee",
    "tomes": {
     "Chateaugiron": [
      1
     ]
-   },
-   "auteur": "Na Yoonhee"
+   }
   },
   "yaiba": {
    "titreOrphee": "Yaiba",
    "editeur": "Soleil\nAubin impr.",
+   "auteur": "Aoyama Gosho",
    "tomes": {
     "Chateaugiron": [
      7,
@@ -10404,12 +10405,12 @@
      14,
      15
     ]
-   },
-   "auteur": "Aoyama Gosho"
+   }
   },
   "yo-kai-watch": {
    "titreOrphee": "Yo-kai watch",
    "editeur": "Crunchyroll",
+   "auteur": "Konishi Noriyuki",
    "tomes": {
     "Servon-sur-Vilaine": [
      1,
@@ -10436,34 +10437,34 @@
      22,
      23
     ]
-   },
-   "auteur": "Konishi Noriyuki"
+   }
   },
   "yokai-war-guardians": {
    "titreOrphee": "Yôkai War - Guardians",
    "editeur": "Nobi Nobi",
+   "auteur": "Suzuki Sanami",
    "tomes": {
     "Piré-Chancé": [
      1,
      2,
      3
     ]
-   },
-   "auteur": "Suzuki Sanami"
+   }
   },
   "yoshi-s-new-island": {
    "titreOrphee": "Yoshi's new island",
    "editeur": "Soleil",
+   "auteur": "Sawada Yukio",
    "tomes": {
     "Servon-sur-Vilaine": [
      1
     ]
-   },
-   "auteur": "Sawada Yukio"
+   }
   },
   "yotsuba": {
    "titreOrphee": "Yotsuba",
    "editeur": "Kurokawa",
+   "auteur": "Azuma Kiyohiko",
    "tomes": {
     "Chateaugiron": [
      1,
@@ -10499,12 +10500,12 @@
      13,
      16
     ]
-   },
-   "auteur": "Azuma Kiyohiko"
+   }
   },
   "yuzu-la-petite-veterinaire": {
    "titreOrphee": "Yuzu, la petite vétérinaire",
    "editeur": "Nobi Nobi",
+   "auteur": "Itô Mingo",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -10524,12 +10525,12 @@
      6,
      7
     ]
-   },
-   "auteur": "Itô Mingo"
+   }
   },
   "zozo-zombie": {
    "titreOrphee": "Zozo zombie",
    "editeur": "Vega",
+   "auteur": "Nagatoshi Yasunari",
    "tomes": {
     "Noyal-sur-Vilaine": [
      1,
@@ -10562,8 +10563,7 @@
     "Domloup": [
      9
     ]
-   },
-   "auteur": "Nagatoshi Yasunari"
+   }
   }
  },
  "anomalies": [
@@ -10667,5 +10667,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-10-23T13:51:04.221Z"
+ "publie": "2026-10-27T09:22:38.235Z"
 }
