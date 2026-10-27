@@ -400,8 +400,10 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
   let parus = null, sourceParus = null;
   const mn = enr?.mangaNews && Number.isFinite(enr.mangaNews.tomes) && !enr.mangaNews.editeurDifferent ? enr.mangaNews.tomes : null;
   // Sur la fiche, « VF : 20 » pourrait compter un tome annoncé : on se fie d'abord à l'encadré « Dernier paru ».
+  // (Si la série est terminée, « VF : 6 » est le total ; et un « dernier paru » bien plus bas que le compte
+  // est une réimpression d'un ancien tome, pas le dernier de la série.)
   let fvf = fiche && Number.isFinite(fiche.vf) ? fiche.vf : null;
-  if (fvf !== null && fiche.vfDernier > 0 && fiche.vfDernier <= fvf) fvf = fiche.vfDernier;
+  if (fvf !== null && etatFiche !== "Terminée" && fiche.vfDernier > 0 && fiche.vfDernier <= fvf && fiche.vfDernier >= fvf - 1) fvf = fiche.vfDernier;
   else if (fvf !== null && etatFiche !== "Terminée" && fiche.vfProchain > 0 && fiche.vfProchain <= fvf
     && !(fiche.vfProchainDate && Date.parse(fiche.vfProchainDate) <= maintenant)) fvf = fiche.vfProchain - 1;
   // le tome annoncé est sorti depuis la lecture de la fiche

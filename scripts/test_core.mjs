@@ -128,6 +128,11 @@ t("fiche Manga-News", () => {
   const stop = { mangaNews: { tomes: 6, url: "u" }, mangaNewsFiche: { url: "u", vf: 6, vfStatut: "Abandonné", vo: 14, voStatut: "Terminé" } };
   assert.equal(C.statutSerie([1, 2, 3, 4, 5, 6], C.infosParution(s, stop, maintenant)).cle, "abandonnee");
   assert.equal(C.etatMangaNews("Stoppé"), "Abandonnée");
+  // Pokémon X/Y : terminée en 6 tomes ; le « dernier paru » (tome 4) est une réimpression
+  const xy = { mangaNews: { tomes: 6, url: "u" }, mangaNewsFiche: { url: "u", vf: 6, vfStatut: "Terminé", vfDernier: 4, vfDernierDate: "2026-10-08" } };
+  assert.equal(C.infosParution(s, xy, maintenant).parus, 6);
+  const reimp = { mangaNews: { tomes: 12, url: "u" }, mangaNewsFiche: { url: "u", vf: 12, vfStatut: "En cours", vfDernier: 3 } };
+  assert.equal(C.infosParution(s, reimp, maintenant).parus, 12);
   // Mona Lisa : fiche « VF 9 (En cours) », VO 10 terminée, le réseau a le tome 10 : la série est terminée
   const ml = { mangaNews: { tomes: 9, url: "u" }, mangaNewsFiche: { url: "u", vf: 9, vfStatut: "En cours", vo: 10, voStatut: "Terminé", vfDernier: 9 } };
   const m = C.infosParution(s, ml, maintenant, 10);

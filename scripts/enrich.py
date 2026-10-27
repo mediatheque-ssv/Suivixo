@@ -291,6 +291,12 @@ def manga_news() -> dict:
     return _MN
 
 
+def chemin_mn(u: str) -> str:
+    """« https://www.manga-news.com/index.php/serie/Pokemon-X/Y » → « serie/pokemon-x/y » (pour comparer deux adresses)."""
+    u = re.sub(r"^https?://(www\.)?manga-news\.com/", "", (u or "").strip(), flags=re.I)
+    return re.sub(r"^index\.php/", "", u).strip("/").lower()
+
+
 def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: dict | None = None,
                      auteur: str = "") -> dict | None:
     idx = manga_news()
@@ -298,24 +304,41 @@ def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: 
     ja = jetons_nom(auteur)
     meme_ed = lambda c: bool(eo) and c.get("_ed", norm_editeur(c["editeur"])) == eo
     meme_aut = lambda c: bool(ja) and bool(ja & c.get("_aut", set()))
-    cands, approx = [], False
-    for t in titres_de(serie):
-        cands += idx.get(cle(t), [])
+    cands, approx, manuel = [], False, False
+    # 1. la page indiquée dans la série (souvent reprise de l'ancien Excel) : c'est elle qui fait foi
+    lien = (serie.get("liens") or {}).get("mangaNews")
+    if lien:
+        cible = chemin_mn(lien)
+        cands = [c for liste in idx.values() for c in liste if chemin_mn(c["url"]) == cible]
+        manuel = bool(cands)
+    # 2. même titre
+    if not cands:
+        for t in titres_de(serie):
+            cands += idx.get(cle(t), [])
+    # 3. titre anglais ou japonais d'AniList (fréquent pour les webtoons), chez le même éditeur ou du même auteur
     if not cands and al and not al.get("rejete") and not al.get("auteurDifferent"):
-        # titre anglais ou japonais d'AniList (fréquent pour les webtoons), chez le même éditeur ou du même auteur
         for t in {al.get("titre") or "", al.get("titreVO") or ""} - {""}:
             cands += [c for c in idx.get(cle(t), []) if meme_ed(c) or meme_aut(c)]
+    # 4. titre un peu différent (sous-titre, ponctuation) : même éditeur, même auteur, et titres vraiment proches.
+    #    Seulement les titres complets : « Pokémon » tout seul ne doit pas attraper « Pokémon - Noir et Blanc ».
     if not cands and eo and ja:
-        # titre un peu différent (sous-titre, ponctuation) : même éditeur, même auteur et titres proches
         import difflib
-        ks = [cle(t) for t in titres_de(serie) if len(cle(t)) >= 4]
+        ks = [k for k in (cle(t) for t in [serie["titre"], *serie.get("alias", [])]) if len(k) >= 6]
+        meilleurs = []
         for k2, liste in idx.items():
             ok = [c for c in liste if meme_ed(c) and meme_aut(c)]
-            if ok and any(k2.startswith(k) or k.startswith(k2) or difflib.SequenceMatcher(None, k, k2).ratio() >= 0.75 for k in ks):
-                cands += ok
-        approx = bool(cands)
+            if not ok:
+                continue
+            sc = max((difflib.SequenceMatcher(None, k, k2).ratio() for k in ks), default=0)
+            if any((k2.startswith(k) or k.startswith(k2)) and min(len(k), len(k2)) >= 0.6 * max(len(k), len(k2)) for k in ks):
+                sc = max(sc, 0.9)
+            if sc >= 0.82:
+                meilleurs.append((sc, ok))
+        if meilleurs:
+            cands = max(meilleurs, key=lambda x: x[0])[1]
+            approx = True
     if debug:
-        dbg(f"    Manga-News : {[{k: v for k, v in c.items() if k[0] != '_'} for c in cands[:6]]}{' (titre approché)' if approx else ''}")
+        dbg(f"    Manga-News : {[{k: v for k, v in c.items() if k[0] != '_'} for c in cands[:6]]}{' (titre approché)' if approx else ''}{' (page indiquée)' if manuel else ''}")
     if not cands:
         return None
     memes = [c for c in cands if meme_ed(c)]
@@ -323,7 +346,7 @@ def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: 
     return {"tomes": c["tomes"], "editeur": c["editeur"], "url": c["url"], "date": _MN_DATE,
             **({"couv": c["couv"]} if c.get("couv") else {}),
             **({"titre": c["titre"], "approche": True} if approx else {}),
-            **({} if memes or not eo else {"editeurDifferent": True})}
+            **({} if manuel or memes or not eo else {"editeurDifferent": True})}
 
 RE_VF = re.compile(r"\bVF\s*:\s*(\d+)\s*\(([^)]{3,40})\)", re.I)
 RE_VO = re.compile(r"\bVO\s*:\s*(\d+)\s*\(([^)]{3,40})\)", re.I)
@@ -407,10 +430,12 @@ def fiche_a_lire(e: dict, forcer: bool = False) -> bool:
 
 def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> None:
     """Met à jour e["mangaNewsFiche"] si c'est le moment ; une erreur ne fait pas perdre le reste."""
-    if not (debug or fiche_a_lire(e, forcer)):
-        return
     url = url_manga_news(s, e.get("mangaNews"))
     if not url:
+        e.pop("mangaNewsFiche", None)  # la page lue avant n'était pas la bonne
+        return
+    autre_page = chemin_mn((e.get("mangaNewsFiche") or {}).get("url") or "") != chemin_mn(url)
+    if not (debug or autre_page or fiche_a_lire(e, forcer)):
         return
     try:
         e["mangaNewsFiche"] = fiche_manga_news(url)
@@ -658,14 +683,19 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
             return {"source": nom, "tome": tome, "test": True}
         DOSSIER_COUV.mkdir(exist_ok=True)
         img.save(fichier, "JPEG", quality=82, optimize=True, progressive=True)
-        return {"source": nom, **({"tome": tome} if tome else {}), "maj": AUJOURDHUI.isoformat()}
+        return {"source": nom, **({"tome": tome} if tome else {}), **({"mn": mn.get("url")} if nom == "Manga-News" else {}),
+                "maj": AUJOURDHUI.isoformat()}
     return None
 
 
 def couverture_a_chercher(s: dict, e: dict, forcer: bool = False) -> bool:
     if forcer:
         return True
-    if e.get("couvFR"):
+    cf = e.get("couvFR")
+    if cf:
+        # image prise sur une page Manga-News qui n'est plus celle de la série (rapprochement corrigé)
+        if cf.get("source") == "Manga-News" and ("mn" not in cf or cf["mn"] != (e.get("mangaNews") or {}).get("url")):
+            return True
         return not (DOSSIER_COUV / f"{s['id']}.jpg").exists()
     # une nouvelle image Manga-News (page indiquée à la main, par exemple) depuis le dernier essai
     couv_mn = (e.get("mangaNews") or {}).get("couv")
@@ -805,9 +835,12 @@ def main() -> int:
         auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
         if args.couvertures:
-            if e.get("couvFR") and not args.forcer and (DOSSIER_COUV / f"{s['id']}.jpg").exists():
+            cf = e.get("couvFR") or {}
+            if cf and cf.get("source") != "Manga-News" and not args.forcer and (DOSSIER_COUV / f"{s['id']}.jpg").exists():
                 continue
-            e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur) or e.get("mangaNews")
+            e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
+            if s.get("type") != "One shot":
+                lire_fiche(s, e, False, debug)
             if not couverture_a_chercher(s, e, args.forcer):
                 cache[s["id"]] = e
                 continue
