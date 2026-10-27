@@ -297,8 +297,11 @@ def chemin_mn(u: str) -> str:
     return re.sub(r"^index\.php/", "", u).strip("/").lower()
 
 
+RE_AUTRE_FORMAT = re.compile(r"light\s*novel|\bnovel\b|\broman\b|art\s*book|fan\s*book|data\s*book|\bguide\b|coffret|anime\s*comics|\ble film\b")
+
+
 def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: dict | None = None,
-                     auteur: str = "") -> dict | None:
+                     auteur: str = "", maxi: int = 0) -> dict | None:
     idx = manga_news()
     eo = norm_editeur(editeur_orphee)
     ja = jetons_nom(auteur)
@@ -326,7 +329,10 @@ def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: 
         ks = [k for k in (cle(t) for t in [serie["titre"], *serie.get("alias", [])]) if len(k) >= 6]
         meilleurs = []
         for k2, liste in idx.items():
-            ok = [c for c in liste if meme_ed(c) and meme_aut(c)]
+            # même éditeur, même auteur ; pas un roman ou un artbook ; assez de tomes pour ce que le réseau possède
+            # (« Captain Tsubasa », 23 tomes au réseau, n'est pas « Captain Tsubasa - Kids Dream », 5 tomes)
+            ok = [c for c in liste if meme_ed(c) and meme_aut(c) and not RE_AUTRE_FORMAT.search(sans_accents(c["titre"]).lower())
+                  and not (maxi and c["tomes"] < maxi)]
             if not ok:
                 continue
             sc = max((difflib.SequenceMatcher(None, k, k2).ratio() for k in ks), default=0)
@@ -334,8 +340,10 @@ def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: 
                 sc = max(sc, 0.9)
             if sc >= 0.82:
                 meilleurs.append((sc, ok))
-        if meilleurs:
-            cands = max(meilleurs, key=lambda x: x[0])[1]
+        meilleurs.sort(key=lambda x: -x[0])
+        # plusieurs séries proches presque à égalité : on ne choisit pas au hasard
+        if meilleurs and (len(meilleurs) == 1 or meilleurs[0][0] - meilleurs[1][0] >= 0.05):
+            cands = meilleurs[0][1]
             approx = True
     if debug:
         dbg(f"    Manga-News : {[{k: v for k, v in c.items() if k[0] != '_'} for c in cands[:6]]}{' (titre approché)' if approx else ''}{' (page indiquée)' if manuel else ''}")
@@ -833,12 +841,11 @@ def main() -> int:
         complet = termine and al.get("volumes") and (e.get("bnf") or {}).get("dernier") and e["bnf"]["dernier"] >= al["volumes"]
         complet = complet or "termin" in sans_accents((e.get("mangaNewsFiche") or {}).get("vfStatut") or "").lower()
         auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
+        maxi = max((n for l in ((fonds.get(s["id"]) or {}).get("tomes") or {}).values() for n in l), default=0)
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
         if args.couvertures:
-            cf = e.get("couvFR") or {}
-            if cf and cf.get("source") != "Manga-News" and not args.forcer and (DOSSIER_COUV / f"{s['id']}.jpg").exists():
-                continue
-            e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
+            # rapprochement Manga-News refait pour toutes les séries (rapide), fiche relue si la page a changé
+            e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
             if s.get("type") != "One shot":
                 lire_fiche(s, e, False, debug)
             if not couverture_a_chercher(s, e, args.forcer):
@@ -858,7 +865,7 @@ def main() -> int:
             continue
         if args.manga_news_seulement:
             if s.get("type") != "One shot":
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
                 lire_fiche(s, e, args.forcer, debug)
                 cache[s["id"]] = e
                 faites += 1
@@ -869,14 +876,14 @@ def main() -> int:
             # Revérifie les liens AniList trouvés automatiquement, sans toucher à la BnF ni aux couvertures
             if lien or not auteur or s.get("type") == "One shot":
                 if s.get("type") != "One shot":
-                    e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
+                    e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
                     lire_fiche(s, e, False, debug)
                     cache[s["id"]] = e
                 continue
             print(f"- {s['titre']}", flush=True)
             try:
                 e["anilist"] = chercher_anilist(s, auteur, debug)
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
                 lire_fiche(s, e, False, debug)
                 e["anilistVerifie"] = AUJOURDHUI.isoformat()
                 cache[s["id"]] = e
@@ -915,13 +922,13 @@ def main() -> int:
                     e["anilistVerifie"] = AUJOURDHUI.isoformat()
             if one_shot:
                 # un one shot : seulement Manga-News, pour la couverture
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
             # BnF
             if not one_shot:
                 vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
                 e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
                 e["bnfVerifie"] = AUJOURDHUI.isoformat()
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
                 lire_fiche(s, e, args.forcer, debug)
             # Couverture française, une seule fois (puis tous les 6 mois si elle manque)
             if not debug and couverture_a_chercher(s, e, args.forcer):
