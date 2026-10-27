@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=15";
+import * as C from "./core.js?v=16";
 import { publier, verifierCle } from "./github.js";
 
 // ---------------------------------------------------------------------------
@@ -950,7 +950,7 @@ function controles() {
     return c.length && c.every((i) => v.ici.includes(i));
   });
   const sansExemplaire = etat.vues.filter((v) => v.presence === "aucune");
-  const nouvelles = etat.vues.filter((v) => v.s.ajout || v.s.nouvelle);
+  const nouvelles = etat.vues.filter((v) => (v.s.ajout || v.s.nouvelle) && !v.s.vu);
   const auDela = etat.vues.filter((v) => v.info.parus !== null && v.info.sourceParus === "manuel" && v.reseau.length && v.reseau[v.reseau.length - 1] > v.info.parus);
   const anomalies = (etat.fonds.anomalies || []);
   const aRelier = mes.filter((v) => !v.s.liens?.anilist && (!v.enr?.anilist || v.enr.anilist.auteurDifferent || v.enr.anilist.auto && (v.enr.anilist.score ?? 1) < 0.9) && v.s.genre !== "Comics" && v.s.type !== "One shot");
@@ -987,7 +987,7 @@ function rendreControles() {
       `Tous les tomes notés en commande sont maintenant à ${h(bib)}.`, true),
     bloc("Nouvelles séries", c.nouvelles.map((v) => li(v.s.id, v.s.titre, `Ajoutée par l'import${v.s.ajout ? ` du ${dateFr(v.s.ajout)}` : ""}`,
       `<button class="btn" data-action="vu" data-id="${h(v.s.id)}">C'est bon</button>`)),
-      "Trouvées dans Orphée lors d'un import. Vérifie le titre et complète le genre. Si c'est une série déjà connue sous un autre nom, relie-la depuis « Sans exemplaire au dernier import ».", true),
+      `Trouvées dans Orphée lors d'un import (y compris les one shots sans série dans Orphée). Vérifie le titre et complète le genre. Si c'est une série déjà connue sous un autre nom, relie-la depuis « Sans exemplaire au dernier import ».${c.nouvelles.length > 3 ? ` <button class="btn" data-action="tout-vu">Tout marquer comme bon</button>` : ""}`, true),
     bloc("Exemplaires sans numéro de tome", c.anomalies.map((a) => li(a.serie, a.titre, `${court(a.bib)}, cote ${a.cote || "?"}`)),
       "Ils ne sont pas comptés, car le champ tome est vide dans Orphée.", true),
     bloc(`Séries de ${h(bib)} à relier à AniList`, c.aRelier.map((v) => li(v.s.id, v.s.titre, v.enr?.anilist ? `Proposition : ${v.enr.anilist.titre}${v.enr.anilist.auteurDifferent ? ", mais l'auteur ne correspond pas" : ""}` : "")),
@@ -1331,7 +1331,11 @@ function brancher() {
     else if (a === "appliquer-import") appliquerImport();
     else if (a === "annuler-import") { etat.importPrevu = null; rendre(); }
     else if (a === "vider-commande") { const s = etat.series.find((x) => x.id === t.dataset.id); if (s) { delete s.commande; marquer("series"); calculer(); rendre(); } }
-    else if (a === "vu") { const s = etat.series.find((x) => x.id === t.dataset.id); if (s) { delete s.ajout; delete s.nouvelle; marquer("series"); calculer(); rendre(); } }
+    else if (a === "vu") { const s = etat.series.find((x) => x.id === t.dataset.id); if (s) { s.vu = true; delete s.nouvelle; marquer("series"); calculer(); rendre(); } }
+    else if (a === "tout-vu") {
+      const l = etat.series.filter((x) => (x.ajout || x.nouvelle) && !x.vu);
+      if (l.length && confirmerSimple(`Marquer les ${l.length} nouvelles séries comme vérifiées ?`)) { l.forEach((x) => { x.vu = true; delete x.nouvelle; }); marquer("series"); calculer(); rendre(); }
+    }
     else if (a === "supprimer") {
       const s = etat.series.find((x) => x.id === t.dataset.id);
       if (s && confirmerSimple(`Supprimer « ${s.titre} » de Suivixo ?`)) { etat.series = etat.series.filter((x) => x !== s); marquer("series"); calculer(); rendre(); toast(`« ${s.titre} » supprimée.`); }

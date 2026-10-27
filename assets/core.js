@@ -144,14 +144,20 @@ export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
         prets,
         codeBarre: texte(row[26]),
       });
-    } else if (celluleTome >= 0 && a) {
+    } else if (celluleTome >= 0) {
+      // Ligne de titre. Les œuvres sans série dans Orphée (« Les trois mousquetaires », « Spirale »…)
+      // n'ont rien en colonne A : leur titre est celui de l'album. Avant, ces lignes étaient sautées
+      // et leurs exemplaires attribués au titre précédent (Zozo zombie, Your name…).
+      const album = texte(row[9]);
+      if (!a && !album) { titre = null; continue; }
       lignesTitre++;
       titre = {
-        titreBrut: a,
+        titreBrut: a || album,
         tomeBrut: texte(row[celluleTome]),
-        album: texte(row[9]),
+        album,
         auteur: texte(row[16]),
         editeur: texte(row[24]),
+        ...(a ? {} : { sansSerie: true }),
       };
     }
     // Les autres lignes (titre de l'édition, « Page 12 of 360 » aux sauts de page…) sont ignorées
@@ -204,6 +210,27 @@ function candidatsTitre(ex) {
   return [ex.titreBrut.replace(/\s*\n\s*/g, " "), lignes[0], lignes[1], albumSansNum].filter(Boolean);
 }
 
+const numeroDansCote = (cote) => {
+  const m = cote.match(/\bT\.?\s*(\d{1,3})\b/i) || cote.match(/^[A-Z]{1,4}\s+[A-Z0-9]{2,6}\s+(\d{1,3})$/i);
+  return m ? +m[1] : null;
+};
+
+/** Numéro de tome d'un exemplaire : cellule « Tome : », titre de l'album, puis cote.
+ *  `seriesSansNom` : titres sans série dans Orphée qui ont plusieurs numéros de cote (« EKEKO » 1, 2, 3). */
+function tomeExemplaire(ex, seriesSansNom) {
+  const tome = parseTome(ex.tomeBrut, ex.sansSerie ? "" : ex.album);
+  if (tome.type === "inconnu") {
+    // Œuvre sans série dans Orphée : un one shot, sauf si plusieurs tomes portent ce titre
+    // (« Errances d'Emanon », cote « M EMA 2 », est un livre à part, numéroté pour le rangement).
+    if (ex.sansSerie && !seriesSansNom.has(cleTitre(ex.titreBrut))) return { type: "oneshot", nums: [1] };
+    // dernier recours : le numéro dans la cote (« MA BUG T.1 », « 741.5 SAN T9 », « M EKE 3 »)
+    const n = numeroDansCote(ex.cote);
+    if (n !== null) return { type: "num", nums: [n], deduit: true };
+    if (ex.sansSerie) return { type: "oneshot", nums: [1] };
+  }
+  return tome;
+}
+
 /**
  * Construit le fonds à partir des exemplaires lus dans Orphée.
  * Renvoie : fonds (publiable), stats (prêts, local), nouvelles séries, anomalies.
@@ -216,6 +243,17 @@ export function construireFonds(exemplaires, series, meta = {}) {
   const stats = {};
   const anomalies = [];
   const bibsVues = new Set();
+  // titres sans série dans Orphée présents avec plusieurs numéros de cote : de vraies séries
+  const numsSansNom = new Map();
+  for (const ex of exemplaires) {
+    if (!ex.sansSerie) continue;
+    const n = numeroDansCote(ex.cote);
+    if (n === null) continue;
+    const k = cleTitre(ex.titreBrut);
+    if (!numsSansNom.has(k)) numsSansNom.set(k, new Set());
+    numsSansNom.get(k).add(n);
+  }
+  const seriesSansNom = new Set([...numsSansNom].filter(([, ns]) => ns.size > 1).map(([k]) => k));
 
   const assurer = (id, ex) => {
     if (!fonds[id]) fonds[id] = { titreOrphee: titreNaturel(ex.titreBrut.split("\n")[0]), editeur: "", auteur: "", tomes: {}, hs: {}, retires: [] };
@@ -231,12 +269,12 @@ export function construireFonds(exemplaires, series, meta = {}) {
       if (idx.has(k)) { id = idx.get(k); break; }
       if (nouvelles.has(k)) { id = nouvelles.get(k).id; break; }
     }
+    const tome = tomeExemplaire(ex, seriesSansNom);
     if (!id) {
       const titre = titreNaturel(ex.titreBrut.split("\n")[0]);
       let nid = slug(titre), n = 2;
       while (ids.has(nid)) nid = `${slug(titre)}-${n++}`;
       ids.add(nid);
-      const tome = parseTome(ex.tomeBrut, ex.album);
       const s = {
         id: nid,
         titre,
@@ -254,12 +292,6 @@ export function construireFonds(exemplaires, series, meta = {}) {
     if (!f.auteur && ex.auteur) f.auteur = ex.auteur;
     if (/^WT\b/i.test(ex.cote)) f.webtoon = true; // cote « WT … » : webtoon
     const st = stats[id];
-    const tome = parseTome(ex.tomeBrut, ex.album);
-    if (tome.type === "inconnu") {
-      // dernier recours : le numéro dans la cote (« MA BUG T.1 », « 741.5 SAN T9 »)
-      const m = ex.cote.match(/\bT\.?\s*(\d{1,3})\b/i) || ex.cote.match(/^[A-Z]{1,4}\s+[A-Z0-9]{2,6}\s+(\d{1,3})$/i);
-      if (m) Object.assign(tome, { type: "num", nums: [+m[1]], deduit: true });
-    }
 
     if (estRetire(ex.statut)) {
       f.retires.push({ bib: ex.bib, tome: tome.nums[0] ?? null, statut: ex.statut, cote: ex.cote });

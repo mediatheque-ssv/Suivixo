@@ -152,6 +152,32 @@ t("fiche Manga-News", () => {
   assert.equal(C.infosParution(lien, fl, maintenant).parus, 5);
   assert.equal(C.etatMangaNews("En pause"), "En pause");
 });
+t("œuvres sans série dans Orphée (colonne A vide)", () => {
+  const ex = (bib, cote, prets) => [bib, null, cote, null, null, "Disponible", null, "Jeunesse", null, null, null, null, null, null, null, null, null, null, null, null, null, null, `Nb prêts total : ${prets}`];
+  const titre = (a, tome, album) => [a, null, null, null, null, tome, null, null, null, album];
+  const rows = [
+    titre("Zozo zombie", "Tome : 9", "Zozo zombie"), ex("Noyal-sur-Vilaine", "M ZOZ T9", 35),
+    titre(null, "Tome :", "Les trois mousquetaires"), ex("Ossé", "BDE RUS", 8),
+    titre(null, "Tome :", "EKEKO"), ex("Servon-sur-Vilaine", "M EKE 3", 6),
+    titre(null, "Tome :", "EKEKO"), ex("Servon-sur-Vilaine", "M EKE 1", 9),
+    titre(null, "Tome :", "Errances d'Emanon"), ex("Servon-sur-Vilaine", "M EMA 2", 4),
+    titre(null, "Tome :", "Le  livre de la jungle"), ex("St-Aubin du Pavail", "M LIV", 16),
+  ];
+  const { exemplaires } = C.lireExportOrphee(rows);
+  assert.equal(exemplaires.length, 6);
+  const r = C.construireFonds(exemplaires, [{ id: "zozo-zombie", titre: "Zozo zombie" }]);
+  // le tome 9 de Zozo zombie n'est qu'à Noyal (avant : dans toutes les médiathèques)
+  assert.deepEqual(r.fonds.series["zozo-zombie"].tomes, { "Noyal-sur-Vilaine": [9] });
+  const nouv = Object.fromEntries(r.nouvelles.map((s) => [s.titre, s]));
+  assert.equal(nouv["Les trois mousquetaires"].type, "One shot");
+  assert.deepEqual(r.fonds.series[nouv["Les trois mousquetaires"].id].tomes, { "Ossé": [1] });
+  assert.deepEqual(r.fonds.series[nouv["EKEKO"].id].tomes, { "Servon-sur-Vilaine": [1, 3] });
+  // un livre à part numéroté par sa cote reste un one shot
+  assert.equal(nouv["Errances d'Emanon"].type, "One shot");
+  assert.deepEqual(r.fonds.series[nouv["Errances d'Emanon"].id].tomes, { "Servon-sur-Vilaine": [1] });
+  assert.equal(nouv["EKEKO"].type, "Série");
+  assert.equal(r.fonds.anomalies.length, 0);
+});
 t("statut de la série", () => {
   const info = { parus: 5, etat: "Terminée" };
   assert.equal(C.statutSerie([1, 2, 3, 4, 5], info).cle, "finie");
