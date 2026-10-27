@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T15:29:55Z",
+ "maj": "2026-10-27T15:32:46Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -11449,19 +11449,59 @@
    }
   },
   "death-note-black-edition": {
-   "anilist": null,
-   "anilistVerifie": "2026-10-23",
+   "anilist": {
+    "id": 208627,
+    "titre": "Inotte Tamaruka",
+    "titreVO": "Inotte Tamaruka",
+    "statut": "FINISHED",
+    "volumes": null,
+    "format": "ONE_SHOT",
+    "pays": "JP",
+    "demographie": "Seinen",
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx208627-3BGbFAswM3sq.jpg",
+    "imageGrande": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx208627-3BGbFAswM3sq.jpg",
+    "auteurs": [
+     "Mengo Yokoyari",
+     "Yori (ヨリ)",
+     "요코야리 멘고"
+    ],
+    "auto": true,
+    "score": 0.97,
+    "auteurDifferent": true
+   },
+   "anilistVerifie": "2026-10-27",
    "bnf": {
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"death note black edition\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-27",
+   "verifie": "2026-10-27",
    "couvEssai": "2026-10-27",
    "mangaNews": null,
    "couvVersion": 2,
-   "couvEssaiMN": ""
+   "couvEssaiMN": "",
+   "mangaNewsFiche": {
+    "url": "https://www.manga-news.com/index.php/manga/Death-Note-Black-Edition/vol-1",
+    "vf": 13,
+    "vfStatut": "Terminé",
+    "vo": 13,
+    "voStatut": "Terminé",
+    "vfDernierDate": "2023-10-20",
+    "vfProchainDate": "2026-11-06",
+    "vfProchain": 7,
+    "pays": "JP",
+    "annee": 2004,
+    "verifie": "2026-10-27"
+   },
+   "liensVus": {
+    "bedetheque": "serie-24902-BD-Death-note-Black-Edition.html",
+    "mangaNews": "index.php/manga/Death-Note-Black-Edition/vol-1"
+   }
   },
   "decheance-d-un-homme": {
    "verifie": "2026-10-23",
