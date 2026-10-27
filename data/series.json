@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-10-27T14:49:45.516Z",
+ "publie": "2026-10-27T15:00:26.157Z",
  "series": [
   {
    "id": "cooking-karine",
@@ -2172,7 +2172,8 @@
    "age": "12+",
    "type": "Série",
    "liens": {
-    "bedetheque": "serie-24902-BD-Death-note-Black-Edition.html"
+    "bedetheque": "serie-24902-BD-Death-note-Black-Edition.html",
+    "mangaNews": "index.php/manga/Death-Note-Black-Edition/vol-1"
    },
    "ancien": {
     "total": 6,
@@ -2550,7 +2551,10 @@
    "titre": "EKEKO",
    "public": "Jeunesse",
    "type": "Série",
-   "ajout": "2026-10-27"
+   "ajout": "2026-10-27",
+   "liens": {
+    "mangaNews": "index.php/serie/Ekeko"
+   }
   },
   {
    "id": "elden-ring-le-chemin-vers-l-arbre-monde",
@@ -2803,6 +2807,9 @@
    "ancien": {
     "total": 6,
     "etat": "Terminée"
+   },
+   "liens": {
+    "mangaNews": "index.php/serie/Felin-pour-lautre"
    }
   },
   {
@@ -4229,7 +4236,10 @@
    "genre": "Global-Manga",
    "public": "Jeunesse",
    "age": "8-10",
-   "type": "Série"
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Etrange-Noel-de-Monsieur-Jack-Zero-l"
+   }
   },
   {
    "id": "etranger-de-la-plage",
@@ -4447,7 +4457,10 @@
    "titre": "La fée des neiges",
    "public": "Adulte",
    "type": "One shot",
-   "ajout": "2026-10-27"
+   "ajout": "2026-10-27",
+   "liens": {
+    "mangaNews": "index.php/serie/Fee-des-neiges-La"
+   }
   },
   {
    "id": "fiancee-du-clan-kyougane",
@@ -6446,7 +6459,10 @@
    "titre": "Mon chien pour la vie",
    "public": "Adulte",
    "type": "One shot",
-   "ajout": "2026-10-27"
+   "ajout": "2026-10-27",
+   "liens": {
+    "mangaNews": "index.php/serie/Mon-chien-pour-la-vie"
+   }
   },
   {
    "id": "mon-voisin-totoro",
@@ -8236,7 +8252,10 @@
    "titre": "Sirius",
    "public": "Ado",
    "type": "One shot",
-   "ajout": "2026-10-27"
+   "ajout": "2026-10-27",
+   "liens": {
+    "mangaNews": "index.php/serie/Sirius-Twin-stars"
+   }
   },
   {
    "id": "sixteen-life",
