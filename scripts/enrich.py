@@ -618,7 +618,7 @@ COUV_VERSION = 2  # 2 : Manga-News ajouté aux sources ; les séries sans couver
 
 
 def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: bool = False) -> dict | None:
-    """Cherche la couverture française (BnF, Open Library, puis Manga-News) et l'enregistre en vignette."""
+    """Cherche la couverture française (Manga-News, BnF, puis Open Library) et l'enregistre en vignette."""
     try:
         from PIL import Image
     except ImportError:
@@ -626,14 +626,15 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
     import io
     fichier = DOSSIER_COUV / f"{ident}.jpg"
     essais = []
+    # Manga-News d'abord : fiable et rapide (la BnF répond souvent en erreur 500)
+    if mn and mn.get("couv") and not mn.get("editeurDifferent"):
+        u = mn["couv"]
+        essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None))
     for c in (bnf or {}).get("candidatsCouv", []):
         if c.get("ark"):
             essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1", c["n"]))
         if c.get("isbn"):
             essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false", c["n"]))
-    if mn and mn.get("couv") and not mn.get("editeurDifferent"):
-        u = mn["couv"]
-        essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None))
     for nom, url, tome in essais:
         time.sleep(0.8)
         corps = telecharger(url)
