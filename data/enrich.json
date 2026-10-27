@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T14:50:13Z",
+ "maj": "2026-10-27T15:00:52Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -13336,8 +13336,7 @@
     "editeur": "Salamao",
     "url": "https://www.manga-news.com/index.php/serie/Ekeko",
     "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.ekeko-edition-salamao_medium.webp",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.ekeko-edition-salamao_medium.webp"
    },
    "couvEssai": "2026-10-27",
    "mangaNewsFiche": {
@@ -13377,7 +13376,9 @@
     "requete": "bib.title all \"ekeko\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-27",
-   "liensVus": {}
+   "liensVus": {
+    "mangaNews": "index.php/serie/Ekeko"
+   }
   },
   "elden-ring-le-chemin-vers-l-arbre-monde": {
    "anilist": {
@@ -14874,13 +14875,14 @@
     "editeur": "Hana",
     "url": "https://www.manga-news.com/index.php/serie/Fee-des-neiges-La",
     "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.fee_des_neiges_hana_medium.webp",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.fee_des_neiges_hana_medium.webp"
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.fee_des_neiges_hana_medium.webp",
    "verifie": "2026-10-27",
-   "liensVus": {}
+   "liensVus": {
+    "mangaNews": "index.php/serie/Fee-des-neiges-La"
+   }
   },
   "felin-pour-l-autre": {
    "anilist": null,
@@ -24038,13 +24040,14 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Mon-chien-pour-la-vie",
     "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.Mon-Chien-pour-la-vie_dokidoki_medium.webp",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.Mon-Chien-pour-la-vie_dokidoki_medium.webp"
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Mon-Chien-pour-la-vie_dokidoki_medium.webp",
    "verifie": "2026-10-27",
-   "liensVus": {}
+   "liensVus": {
+    "mangaNews": "index.php/serie/Mon-chien-pour-la-vie"
+   }
   },
   "mon-voisin-totoro": {
    "couvFR": {
@@ -32937,17 +32940,23 @@
   "sirius": {
    "couvVersion": 2,
    "mangaNews": {
-    "tomes": 9,
-    "editeur": "Tokebi",
-    "url": "https://www.manga-news.com/index.php/serie/Sirius",
+    "tomes": 1,
+    "editeur": "Glénat",
+    "url": "https://www.manga-news.com/index.php/serie/Sirius-Twin-stars",
     "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.sirius_01_medium.webp",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.Sirius-twin-stars-glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.sirius_01_medium.webp",
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Sirius-twin-stars-glenat_medium.webp",
    "verifie": "2026-10-27",
-   "liensVus": {}
+   "liensVus": {
+    "mangaNews": "index.php/serie/Sirius-Twin-stars"
+   },
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Sirius-Twin-stars",
+    "maj": "2026-10-27"
+   }
   },
   "sixteen-life": {
    "anilist": null,
