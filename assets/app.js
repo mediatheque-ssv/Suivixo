@@ -173,11 +173,14 @@ function trier(liste) {
 // Petits rendus réutilisables
 // ---------------------------------------------------------------------------
 
-const TEINTES = ["#3E5C76", "#7A4E6B", "#4F6F52", "#8A5A3B", "#575D93", "#2C6E8A", "#9A4A4A", "#6A6845", "#4B4E6D", "#7C5C2E"];
+// fausses couvertures : couleurs vives de dos de mangas, toutes lisibles en blanc
+const TEINTES = ["#D93A63", "#2D6FE0", "#11876A", "#5536D6", "#B1399B", "#0C7F8D", "#C2410C", "#3F4BB8", "#8A3BC9", "#D63A2F"];
 function teinte(t) {
-  let x = 0;
-  for (const c of String(t)) x = (x * 31 + c.charCodeAt(0)) >>> 0;
-  return TEINTES[x % TEINTES.length];
+  // FNV-1a : des titres proches (« Agents… », « Aria… ») tombent sur des couleurs différentes
+  let x = 0x811c9dc5;
+  for (const c of String(t)) x = Math.imul(x ^ c.charCodeAt(0), 0x01000193) >>> 0;
+  x ^= x >>> 16; x = Math.imul(x, 0x85ebca6b); x ^= x >>> 13; x = Math.imul(x, 0xc2b2ae35); x ^= x >>> 16;
+  return TEINTES[(x >>> 0) % TEINTES.length];
 }
 
 function fausseCouv(titre, editeur) {
