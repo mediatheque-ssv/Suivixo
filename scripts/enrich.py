@@ -399,6 +399,8 @@ def fiche_manga_news(url: str | None, debug: bool = False) -> dict | None:
     page = h.unescape(re.sub(r"<script.*?</script>|<style.*?</style>", " ", page, flags=re.S))
     texte = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page))
     vf, vo = RE_VF.search(texte), RE_VO.search(texte)
+    if re.search(r"/manga/[^/]+/vol-", url):
+        vf = vo = None  # page d'un tome : on n'en garde que l'image, ses chiffres peuvent concerner une autre édition
     og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page) or re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', page)
     couv = og.group(1).strip() if og and "/public/images/" in og.group(1) else ""
     if not couv:
