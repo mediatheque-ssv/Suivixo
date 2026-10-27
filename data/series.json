@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-10-27T09:02:56.164Z",
+ "publie": "2026-10-27T09:59:39.187Z",
  "series": [
   {
    "id": "cooking-karine",
@@ -139,6 +139,13 @@
     "etat": "Terminée",
     "annee": 2018
    }
+  },
+  {
+   "id": "adieu-eri",
+   "titre": "Adieu Eri",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "aether-dreams",
@@ -293,6 +300,13 @@
    }
   },
   {
+   "id": "alter-ego",
+   "titre": "Alter ego",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "amanchu",
    "titre": "Amanchu !",
    "genre": "Shonen",
@@ -408,10 +422,31 @@
    }
   },
   {
+   "id": "anne-la-maison-aux-pignons-verts",
+   "titre": "Anne... la maison aux pignons verts",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "antiheros",
+   "titre": "Antihéros",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "ao-ashi-playmaker",
    "titre": "Ao Ashi playmaker",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "aphorismes-sur-la-sagesse-dans-la-vie",
+   "titre": "Aphorismes sur la sagesse dans la vie",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "appare-ranman",
@@ -467,6 +502,13 @@
     "etat": "Terminée",
     "annee": 2019
    }
+  },
+  {
+   "id": "arsene-lupin-gentleman-cambrioleur",
+   "titre": "Arsène Lupin, gentleman-cambrioleur",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "asadora-feuilleton-manga",
@@ -595,11 +637,25 @@
    "ajout": "2026-10-23"
   },
   {
+   "id": "atchoum",
+   "titre": "Atchoum !",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "au-bout-du-chemin",
    "titre": "Au bout du chemin",
    "public": "Ado",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "au-chevet-d-une-guerriere",
+   "titre": "Au chevet d'une guerrière",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "au-coeur-de-fukushima",
@@ -616,6 +672,13 @@
     "etat": "Terminée",
     "annee": 2016
    }
+  },
+  {
+   "id": "au-creux-de-nos-mains",
+   "titre": "Au creux de nos mains",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "aux-cotes-du-dieu-loup",
@@ -1272,6 +1335,13 @@
    "type": "Série"
   },
   {
+   "id": "blue-corner",
+   "titre": "Blue corner",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "blue-flag",
    "titre": "Blue flag",
    "public": "Ado",
@@ -1289,6 +1359,13 @@
    "titre": "Blue period",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "blue-phobia",
+   "titre": "Blue phobia",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "blue-spring-ride",
@@ -1792,6 +1869,13 @@
    }
   },
   {
+   "id": "cleopatre",
+   "titre": "Cléopâtre",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "coco-l-ile-magique",
    "titre": "Coco, l'île magique",
    "public": "Jeunesse",
@@ -1812,6 +1896,13 @@
     "etat": "Terminée",
     "annee": 2015
    }
+  },
+  {
+   "id": "coffee-time",
+   "titre": "Coffee time",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "colere-nucleaire",
@@ -1844,6 +1935,13 @@
    "titre": "Comme les autres",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "contes-fabuleux-de-la-nuit",
+   "titre": "Contes fabuleux de la nuit",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "couleur-de-peau-miel",
@@ -1980,6 +2078,13 @@
    }
   },
   {
+   "id": "dans-la-prison",
+   "titre": "Dans la prison",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "dans-le-premier-train-du-matin",
    "titre": "Dans le premier train du matin",
    "public": "Jeunesse",
@@ -1997,6 +2102,13 @@
    "titre": "Dark Souls Redemption",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "daruchan-ou-la-vie-ordinaire-de-narumi-maruyama-employee-interimaire",
+   "titre": "Daruchan ou la vie ordinaire de Narumi Maruyama, employée intérimaire",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "darwin-s-game",
@@ -2025,6 +2137,13 @@
    "titre": "DC superhero girls",
    "public": "Adulte",
    "type": "Série"
+  },
+  {
+   "id": "de-rouille-et-de-carats",
+   "titre": "De Rouille et de Carats",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "death-note",
@@ -2165,11 +2284,25 @@
    "type": "Série"
   },
   {
+   "id": "deux-ans-de-vacances",
+   "titre": "Deux ans de vacances",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "developpeurs",
    "titre": "Développeurs",
    "public": "Jeunesse",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "devenir-enfin-moi-meme",
+   "titre": "Devenir enfin moi-même",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "divines",
@@ -2274,6 +2407,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "dracula",
+   "titre": "Dracula",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "dragon-ball-sd",
@@ -2403,10 +2543,31 @@
    }
   },
   {
+   "id": "ekeko",
+   "titre": "EKEKO",
+   "public": "Jeunesse",
+   "type": "Série",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "elden-ring-le-chemin-vers-l-arbre-monde",
    "titre": "Elden Ring : Le chemin vers l'Arbre-Monde",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "elegie-en-rouge",
+   "titre": "Elégie en rouge",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "elle",
+   "titre": "Elle",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "emma",
@@ -2424,6 +2585,13 @@
     "etat": "Abandonnée",
     "annee": 2014
    }
+  },
+  {
+   "id": "en-pays-lointain",
+   "titre": "En pays lointain",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "en-proie-au-silence",
@@ -2455,6 +2623,13 @@
    "public": "Ado",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "enemigo",
+   "titre": "Enemigo",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "enfant-des-abysses",
@@ -2497,6 +2672,13 @@
    "public": "Ado",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "errances-d-emanon",
+   "titre": "Errances d'Emanon",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "escale-a-yokohama",
@@ -2680,6 +2862,13 @@
    }
   },
   {
+   "id": "fragments-d-histoires-troublantes",
+   "titre": "Fragments d'histoires troublantes",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "freaks-squeele",
    "titre": "Freaks'squeele",
    "genre": "Comics",
@@ -2738,6 +2927,13 @@
     "etat": "Terminée",
     "annee": 2011
    }
+  },
+  {
+   "id": "furari",
+   "titre": "Furari",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "galaxias",
@@ -2807,6 +3003,13 @@
    }
   },
   {
+   "id": "globule-une-vie-de-lapin",
+   "titre": "Globule, une vie de lapin",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "goal-masters",
    "titre": "Goal masters",
    "genre": "Manhwa",
@@ -2823,6 +3026,13 @@
    }
   },
   {
+   "id": "gogo-monster",
+   "titre": "Gogo Monster",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "goldfish",
    "titre": "Goldfish",
    "genre": "Comics",
@@ -2837,6 +3047,13 @@
     "etat": "Terminée",
     "annee": 2020
    }
+  },
+  {
+   "id": "goldorak",
+   "titre": "Goldorak",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "gon",
@@ -3063,6 +3280,13 @@
    "ajout": "2026-10-23"
   },
   {
+   "id": "hideout",
+   "titre": "Hideout",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "hikari-reve-de-star",
    "titre": "Hikari - Rêve de star",
    "public": "Jeunesse",
@@ -3194,6 +3418,13 @@
    }
   },
   {
+   "id": "icare",
+   "titre": "Icare",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "ice-age-chronicle-of-the-earth",
    "titre": "Ice age chronicle of the earth",
    "genre": "Seinen",
@@ -3256,6 +3487,13 @@
    "titre": "Imago",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "in-summer",
+   "titre": "In summer",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "inazuma-eleven-go",
@@ -3378,6 +3616,13 @@
    }
   },
   {
+   "id": "jaco-the-galactic-patrolman",
+   "titre": "Jaco, the galactic patrolman",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "jalouses",
    "titre": "Jalouses",
    "public": "Ado",
@@ -3389,6 +3634,13 @@
    "titre": "Jimbôchô sisters",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "jizo",
+   "titre": "Jizo",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "jojo-s-bizarre-adventure-steel-ball-run",
@@ -3693,6 +3945,13 @@
    }
   },
   {
+   "id": "koko",
+   "titre": "Koko",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "koko-debut",
    "titre": "Koko début",
    "genre": "Shojo",
@@ -3824,6 +4083,13 @@
    "type": "Série"
   },
   {
+   "id": "appel-de-cthulhu",
+   "titre": "L'appel de Cthulhu",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "arcane-de-l-aube",
    "titre": "L'Arcane de l'aube",
    "genre": "Shojo",
@@ -3838,6 +4104,13 @@
     "etat": "Terminée",
     "annee": 2013
    }
+  },
+  {
+   "id": "argent-du-deshonneur",
+   "titre": "L'argent du déshonneur",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "atelier-des-fees",
@@ -3941,12 +4214,26 @@
    }
   },
   {
+   "id": "etrange-boutique-de-monsieur-nekomata",
+   "titre": "L'Etrange Boutique de Monsieur Nekomata",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "etrange-noel-de-zero",
    "titre": "L'Étrange Noël de Zéro",
    "genre": "Global-Manga",
    "public": "Jeunesse",
    "age": "8-10",
    "type": "Série"
+  },
+  {
+   "id": "etranger-de-la-plage",
+   "titre": "L'étranger de la plage",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "habitant-de-l-infini",
@@ -4005,6 +4292,13 @@
    "ajout": "2026-10-23"
   },
   {
+   "id": "homme-qui-marche",
+   "titre": "L'homme qui marche",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "ile-de-hozuki",
    "titre": "L'Ile de Hozuki",
    "genre": "Seinen",
@@ -4042,6 +4336,13 @@
     "etat": "Terminée",
     "annee": 2007
    }
+  },
+  {
+   "id": "orme-du-caucase",
+   "titre": "L'orme du Caucase",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "oxalis-et-l-or",
@@ -4132,11 +4433,32 @@
    "ajout": "2025-09-19"
   },
   {
+   "id": "desastreuse-histoire-des-jumeaux-stevenson",
+   "titre": "La désastreuse histoire des jumeaux Stevenson",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "fee-des-neiges",
+   "titre": "La fée des neiges",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "fiancee-du-clan-kyougane",
    "titre": "La Fiancée du clan Kyougane",
    "public": "Jeunesse",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "fillette-au-drapeau-blanc",
+   "titre": "La fillette au drapeau blanc",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "fin-du-monde-avec-mon-shiba-inu",
@@ -4202,6 +4524,20 @@
    }
   },
   {
+   "id": "legende-de-hakutaku",
+   "titre": "La Légende de Hakutaku",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "librairie-celeste",
+   "titre": "La librairie céleste",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "ligue-des-justiciers-nouvelle-generation",
    "titre": "La Ligue des Justiciers - Nouvelle génération",
    "public": "Jeunesse",
@@ -4238,6 +4574,13 @@
    "type": "Série"
   },
   {
+   "id": "plus-belle-couleur-du-monde",
+   "titre": "La plus belle couleur du monde",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "princesse-vagabonde",
    "titre": "La Princesse vagabonde",
    "genre": "Manhwa",
@@ -4252,6 +4595,13 @@
     "etat": "En cours",
     "annee": 2017
    }
+  },
+  {
+   "id": "reine-des-neiges-ii",
+   "titre": "La Reine des Neiges II",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "sorciere-aux-champignons",
@@ -4353,6 +4703,20 @@
    }
   },
   {
+   "id": "bateau-usine",
+   "titre": "Le bateau-usine",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "chat-mene-l-enquete",
+   "titre": "Le chat mène l'enquête",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "chateau-ambulant",
    "titre": "Le Château ambulant",
    "genre": "Autre Manga",
@@ -4405,6 +4769,13 @@
     "etat": "Terminée",
     "annee": 2014
    }
+  },
+  {
+   "id": "comte-de-monte-cristo",
+   "titre": "Le comte de Monte-Cristo",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "couvent-des-damnees",
@@ -4473,10 +4844,31 @@
    }
   },
   {
+   "id": "garcon-et-le-dragon",
+   "titre": "Le garçon et le dragon",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "gourmet-solitaire",
+   "titre": "Le gourmet solitaire",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "gout-des-retrouvailles",
    "titre": "Le Goût des retrouvailles",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "grand-migrateur",
+   "titre": "Le Grand Migrateur",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "gros-chat-et-la-sorciere-grincheuse",
@@ -4503,6 +4895,13 @@
    "titre": "Le Journal de Mobu",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "livre-de-la-jungle",
+   "titre": "Le livre de la jungle",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "maitre-des-livres",
@@ -4560,6 +4959,13 @@
    "ajout": "2025-09-19"
   },
   {
+   "id": "monde-de-suzuka-morino",
+   "titre": "Le monde de Suzuka Morino",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "monde-de-wan-wan",
    "titre": "Le Monde de Wan Wan",
    "genre": "Manhwa",
@@ -4613,6 +5019,20 @@
     "total": 11,
     "etat": "En cours"
    }
+  },
+  {
+   "id": "parfum-des-hommes",
+   "titre": "Le parfum des hommes",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "pays-des-cerisiers",
+   "titre": "Le pays des cerisiers",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "peche-originel-de-takopi",
@@ -4716,6 +5136,13 @@
    }
   },
   {
+   "id": "sentier-des-douaniers",
+   "titre": "Le sentier des douaniers",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "siege-des-exilees",
    "titre": "Le Siége des exilées",
    "genre": "Josei",
@@ -4754,6 +5181,13 @@
    "type": "Série"
   },
   {
+   "id": "terrarium-dans-mon-tiroir",
+   "titre": "Le terrarium dans mon tiroir",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "tigre-des-neiges",
    "titre": "Le Tigre des neiges",
    "genre": "Seinen",
@@ -4784,6 +5218,13 @@
     "etat": "Terminée",
     "annee": 2019
    }
+  },
+  {
+   "id": "voyage-d-ours-lune",
+   "titre": "Le voyage d'Ours-Lune",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "voyage-de-chihiro",
@@ -4819,10 +5260,24 @@
    }
   },
   {
+   "id": "voyage-de-shuna",
+   "titre": "Le voyage de Shuna",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "xxe-siecle-en-manga",
    "titre": "Le XXe siècle en manga",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "aventures-de-tom-sawyer",
+   "titre": "Les aventures de Tom Sawyer",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "brigades-immunitaires",
@@ -4845,6 +5300,13 @@
    "titre": "Les Carnets de l'apothicaire",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "cerisiers-fleurissent-malgre-tout",
+   "titre": "Les cerisiers fleurissent malgré tout",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "chants-du-cygne-noir",
@@ -4972,6 +5434,13 @@
    }
   },
   {
+   "id": "gardiens-du-louvre",
+   "titre": "Les gardiens du Louvre",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "gouttes-de-dieu",
    "titre": "Les Gouttes de Dieu",
    "genre": "Seinen",
@@ -4993,6 +5462,13 @@
    "public": "Jeunesse",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "miserables",
+   "titre": "Les Misérables",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "montagnes-hallucinees",
@@ -5030,6 +5506,13 @@
    }
   },
   {
+   "id": "petites-contemplations",
+   "titre": "Les petites contemplations",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "petits-en-cas-de-monsieur-matcha",
    "titre": "Les petits en-cas de Monsieur Matcha",
    "public": "Jeunesse",
@@ -5051,6 +5534,13 @@
     "etat": "Terminée",
     "annee": 2022
    }
+  },
+  {
+   "id": "pommes-miracles",
+   "titre": "Les pommes miracles",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "quatre-freres-yuzuki",
@@ -5131,6 +5621,13 @@
    }
   },
   {
+   "id": "trois-mousquetaires",
+   "titre": "Les trois mousquetaires",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "vacances-de-jesus-et-bouddha",
    "titre": "Les Vacances de Jesus et Bouddha",
    "genre": "Seinen",
@@ -5145,6 +5642,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "voyages-de-gulliver",
+   "titre": "Les voyages de Gulliver",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "letter-44",
@@ -5269,6 +5773,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "look-back",
+   "titre": "Look back",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "lost-lad-london",
@@ -5593,11 +6104,25 @@
    }
   },
   {
+   "id": "marie-antoinette",
+   "titre": "Marie-Antoinette",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "marry-my-husband",
    "titre": "Marry my husband",
    "public": "Adulte",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "martin-luther-king",
+   "titre": "Martin Luther King",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "mashima-en",
@@ -5672,6 +6197,13 @@
    }
   },
   {
+   "id": "mes-yeux-rives-sur-toi",
+   "titre": "Mes yeux rivés sur toi",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "miaou-big-boss-le-magnifique",
    "titre": "Miaou ! Big-Boss le magnifique",
    "genre": "Seinen",
@@ -5727,6 +6259,13 @@
    "type": "Série"
   },
   {
+   "id": "mimosa-momo-et-moi",
+   "titre": "Mimosa, Momo et Moi",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "minuscule",
    "titre": "Minuscule",
    "genre": "Shonen",
@@ -5747,6 +6286,20 @@
    "titre": "Miraculous",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "mirages-d-emanon",
+   "titre": "Mirages d'Emanon",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "miroirs",
+   "titre": "Miroirs",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "miss-marvel",
@@ -5884,6 +6437,20 @@
     "etat": "En cours",
     "annee": 2025
    }
+  },
+  {
+   "id": "mon-chien-pour-la-vie",
+   "titre": "Mon chien pour la vie",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "mon-voisin-totoro",
+   "titre": "Mon voisin Totoro",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "monsieur-mechant-va-detruire-la-terre-apres-ses-conges",
@@ -6202,6 +6769,13 @@
    }
   },
   {
+   "id": "nonnonba",
+   "titre": "NonNonBâ",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "noragami",
    "titre": "Noragami",
    "genre": "Shonen",
@@ -6241,6 +6815,41 @@
    "ajout": "2026-10-23"
   },
   {
+   "id": "nos-meilleures-vies",
+   "titre": "Nos meilleures vies",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "nos-rendez-vous-gourmands",
+   "titre": "Nos rendez-vous gourmands",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "nos-yeux-fermes",
+   "titre": "Nos yeux fermés",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "nouilles-tchajang",
+   "titre": "Nouilles Tchajang",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "nouvelles-extraordinaires-d-edgar-allan-poe",
+   "titre": "Nouvelles extraordinaires d'Edgar Allan Poe",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "nova",
    "titre": "Nova",
    "genre": "Global-Manga",
@@ -6278,6 +6887,13 @@
     "etat": "Terminée",
     "annee": 2016
    }
+  },
+  {
+   "id": "obara-chroniques-des-abysses",
+   "titre": "Obara - Chroniques des abysses",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "oblivion-song",
@@ -6381,6 +6997,13 @@
    }
   },
   {
+   "id": "operation-mort",
+   "titre": "Opération Mort",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "orange",
    "titre": "Orange",
    "genre": "Shojo",
@@ -6417,6 +7040,20 @@
    "titre": "Our colorful days",
    "public": "Ado",
    "type": "Série"
+  },
+  {
+   "id": "our-dining-table",
+   "titre": "Our dining table",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "our-summer-holiday",
+   "titre": "Our Summer Holiday",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "pakka",
@@ -6496,6 +7133,13 @@
    "titre": "Peace Maker",
    "public": "Adulte",
    "type": "Série"
+  },
+  {
+   "id": "pensees-noires",
+   "titre": "Pensées Noires",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "perfect-world",
@@ -6716,6 +7360,20 @@
     "etat": "Terminée",
     "annee": 2017
    }
+  },
+  {
+   "id": "pompon-compagnie",
+   "titre": "Pompon & compagnie",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "pourquoi-je-galere-toujours-en-amour",
+   "titre": "Pourquoi je galère toujours en amour ?!!!!!",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "power-gamer-adventure",
@@ -7012,6 +7670,27 @@
    }
   },
   {
+   "id": "reset",
+   "titre": "Reset",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "reverie",
+   "titre": "Rêverie",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "reveries-d-emanon",
+   "titre": "Rêveries d'Emanon",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "reversal",
    "titre": "Reversal",
    "genre": "Shonen",
@@ -7115,6 +7794,13 @@
    }
   },
   {
+   "id": "sahara",
+   "titre": "Sahara",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "sailor-moon",
    "titre": "Sailor Moon",
    "genre": "Shojo",
@@ -7187,6 +7873,20 @@
    "public": "Ado",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "sanji-s-food-wars",
+   "titre": "Sanji's food wars!",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "sans-meme-nous-dire-au-revoir",
+   "titre": "Sans même nous dire au revoir",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "save-me-pythie",
@@ -7277,6 +7977,13 @@
    "ajout": "2026-10-23"
   },
   {
+   "id": "seediq-bale-les-guerriers-de-l-arc-en-ciel",
+   "titre": "Seediq Bale, les guerriers de l'Arc-en-Ciel",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "seki-mon-voisin-de-classe",
    "titre": "Seki mon voisin de classe",
    "genre": "Seinen",
@@ -7307,6 +8014,13 @@
     "etat": "Terminée",
     "annee": 2021
    }
+  },
+  {
+   "id": "seraphim",
+   "titre": "Seraphim",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "servamp",
@@ -7474,6 +8188,13 @@
    "type": "Série"
   },
   {
+   "id": "silent-blue",
+   "titre": "Silent Blue",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "silver-spoon",
    "titre": "Silver Spoon",
    "genre": "Shonen",
@@ -7503,6 +8224,13 @@
     "etat": "Terminée",
     "annee": 2001
    }
+  },
+  {
+   "id": "sirius",
+   "titre": "Sirius",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "sixteen-life",
@@ -7700,11 +8428,32 @@
    "type": "Série"
   },
   {
+   "id": "sous-un-ciel-nouveau",
+   "titre": "Sous un ciel nouveau",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "souvenirs-d-emanon",
+   "titre": "Souvenirs d'Emanon",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "spider-man",
    "titre": "Spider-Man",
    "genre": "Autre",
    "public": "Jeunesse",
    "type": "Série"
+  },
+  {
+   "id": "spirale",
+   "titre": "Spirale",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "splatoon",
@@ -7738,6 +8487,13 @@
     "etat": "En cours",
     "annee": 2022
    }
+  },
+  {
+   "id": "stand-by-me-love-letter",
+   "titre": "Stand by me, love letter",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "star-strike-it-rich",
@@ -8000,11 +8756,25 @@
    }
   },
   {
+   "id": "terre-de-reves",
+   "titre": "Terre de rêves",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "terror-man",
    "titre": "Terror Man",
    "public": "Adulte",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "terukan-boys",
+   "titre": "Terukan Boys",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "the-arms-peddler",
@@ -8028,6 +8798,13 @@
    "public": "Ado",
    "type": "Série",
    "ajout": "2026-10-23"
+  },
+  {
+   "id": "the-big-wall",
+   "titre": "The Big Wall",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "the-bugle-call",
@@ -8210,6 +8987,13 @@
    }
   },
   {
+   "id": "the-wize-wize-beasts-of-the-wizarding-wizdoms",
+   "titre": "The Wize Wize Beasts of the Wizarding Wizdoms",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "thermae-romae",
    "titre": "Thermae Romae",
    "genre": "Seinen",
@@ -8326,6 +9110,13 @@
    "type": "Série"
   },
   {
+   "id": "tomie",
+   "titre": "Tomie",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "toriko",
    "titre": "Toriko",
    "genre": "Shonen",
@@ -8356,6 +9147,13 @@
     "etat": "Terminée",
     "annee": 2008
    }
+  },
+  {
+   "id": "tout-au-bout-du-quartier",
+   "titre": "Tout au bout du quartier",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "trait-pour-trait-dessine-et-tais-toi",
@@ -8506,6 +9304,13 @@
    }
   },
   {
+   "id": "un-dernier-soir-a-pekin",
+   "titre": "Un dernier soir à Pékin",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
    "id": "un-drole-de-pere",
    "titre": "Un Drôle de père",
    "genre": "Josei",
@@ -8520,6 +9325,13 @@
     "etat": "Terminée",
     "annee": 2012
    }
+  },
+  {
+   "id": "un-ete-a-tsurumaki",
+   "titre": "Un été à Tsurumaki",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "un-pont-entre-les-etoiles",
@@ -8542,6 +9354,27 @@
     "etat": "Terminée",
     "annee": 2024
    }
+  },
+  {
+   "id": "un-zoo-en-hiver",
+   "titre": "Un zoo en hiver",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "undercurrent",
+   "titre": "Undercurrent",
+   "public": "Adulte",
+   "type": "One shot",
+   "ajout": "2026-10-27"
+  },
+  {
+   "id": "understella",
+   "titre": "Understella",
+   "public": "Ado",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "underwater-le-village-immerge",
@@ -8685,6 +9518,13 @@
     "etat": "Terminée",
     "annee": 2018
    }
+  },
+  {
+   "id": "van-gogh",
+   "titre": "Van Gogh",
+   "public": "Jeunesse",
+   "type": "One shot",
+   "ajout": "2026-10-27"
   },
   {
    "id": "venom",

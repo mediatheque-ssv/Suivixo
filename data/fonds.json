@@ -345,11 +345,13 @@
      4,
      5,
      13,
+     14,
      15,
      16,
      17,
      18,
-     19
+     19,
+     20
     ]
    },
    "retires": [
@@ -5232,26 +5234,375 @@
      2,
      3,
      4
-    ],
-    "St-Aubin du Pavail": [
-     4
-    ],
-    "Domloup": [
-     4
-    ],
-    "Ossé": [
-     4
-    ],
-    "Chateaugiron": [
-     4
-    ],
-    "Noyal-sur-Vilaine": [
-     4
-    ],
-    "Piré-Chancé": [
-     4
     ]
    }
+  },
+  "devenir-enfin-moi-meme": {
+   "titreOrphee": "Devenir enfin moi-même",
+   "editeur": "Glénat",
+   "auteur": "Hirasawa Yuna",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "stand-by-me-love-letter": {
+   "titreOrphee": "Stand by me, love letter",
+   "editeur": "Editions Akata",
+   "auteur": "Masuda Riho",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "blue-phobia": {
+   "titreOrphee": "Blue phobia",
+   "editeur": "Glénat",
+   "auteur": "Tsuruyoshi Eri",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "aphorismes-sur-la-sagesse-dans-la-vie": {
+   "titreOrphee": "Aphorismes sur la sagesse dans la vie",
+   "editeur": "Kurokawa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "mes-yeux-rives-sur-toi": {
+   "titreOrphee": "Mes yeux rivés sur toi",
+   "editeur": "Editions Akata",
+   "auteur": "Nohara Kuro",
+   "tomes": {
+    "Ossé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "au-chevet-d-une-guerriere": {
+   "titreOrphee": "Au chevet d'une guerrière",
+   "editeur": "Ofelbe",
+   "auteur": "Ishikawa Hiroshi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "alter-ego": {
+   "titreOrphee": "Alter ego",
+   "editeur": "Glénat",
+   "auteur": "Sanchez Ana Cristina",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "plus-belle-couleur-du-monde": {
+   "titreOrphee": "La plus belle couleur du monde",
+   "editeur": "Glénat",
+   "auteur": "Zhao Golo",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "ningyo": {
+   "titreOrphee": "Ningyo",
+   "editeur": "Glénat",
+   "auteur": "Mr Tan",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "look-back": {
+   "titreOrphee": "Look back",
+   "editeur": "Kazé Manga",
+   "auteur": "Fujimoto Tatsuki",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "un-dernier-soir-a-pekin": {
+   "titreOrphee": "Un dernier soir à Pékin",
+   "editeur": "Glénat",
+   "auteur": "Zhao Golo",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "sirius": {
+   "titreOrphee": "Sirius",
+   "editeur": "Glénat",
+   "auteur": "Sanchez Ana Cristina",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "adieu-eri": {
+   "titreOrphee": "Adieu Eri",
+   "editeur": "Crunchyroll",
+   "auteur": "Fujimoto Tatsuki",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "sanji-s-food-wars": {
+   "titreOrphee": "Sanji's food wars!",
+   "editeur": "Glénat",
+   "auteur": "Oda Eiichiro",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "seraphim": {
+   "titreOrphee": "Seraphim",
+   "editeur": "Ed. IMHO",
+   "auteur": "Oshii Mamoru",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "fillette-au-drapeau-blanc": {
+   "titreOrphee": "La fillette au drapeau blanc",
+   "editeur": "Editions Akata",
+   "auteur": "Miyauchi Saya",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "our-dining-table": {
+   "titreOrphee": "Our dining table",
+   "editeur": "Taifu comics",
+   "auteur": "Mita Ori",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "fragments-d-histoires-troublantes": {
+   "titreOrphee": "Fragments d'histoires troublantes",
+   "editeur": "Kbooks",
+   "auteur": "Pantom",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "understella": {
+   "titreOrphee": "Understella",
+   "editeur": "",
+   "auteur": "Rinch",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "de-rouille-et-de-carats": {
+   "titreOrphee": "De Rouille et de Carats",
+   "editeur": "Kurokawa",
+   "auteur": "Otori Kaoru",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "nos-rendez-vous-gourmands": {
+   "titreOrphee": "Nos rendez-vous gourmands",
+   "editeur": "Akata",
+   "auteur": "Tagame Gengoroh",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "librairie-celeste": {
+   "titreOrphee": "La librairie céleste",
+   "editeur": "Nuage",
+   "auteur": "Cheng Tim",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "pensees-noires": {
+   "titreOrphee": "Pensées Noires",
+   "editeur": "TIRAGE DE TETES",
+   "auteur": "Arzh",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "au-creux-de-nos-mains": {
+   "titreOrphee": "Au creux de nos mains",
+   "editeur": "Editions Nazca",
+   "auteur": "Tendô Kirin",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "obara-chroniques-des-abysses": {
+   "titreOrphee": "Obara - Chroniques des abysses",
+   "editeur": "Nouvelle hydre",
+   "auteur": "Eruthoth",
+   "tomes": {
+    "Ossé": [
+     1
+    ],
+    "Chateaugiron": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1
+    ],
+    "Piré-Chancé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "tout-au-bout-du-quartier": {
+   "titreOrphee": "Tout au bout du quartier",
+   "editeur": "Mangetsu",
+   "auteur": "Sawae Pump",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "nos-meilleures-vies": {
+   "titreOrphee": "Nos meilleures vies",
+   "editeur": "Casterman",
+   "auteur": "Kanna Kii",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "the-wize-wize-beasts-of-the-wizarding-wizdoms": {
+   "titreOrphee": "The Wize Wize Beasts of the Wizarding Wizdoms",
+   "editeur": "Editions Komikku",
+   "auteur": "Nagabe",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "our-summer-holiday": {
+   "titreOrphee": "Our Summer Holiday",
+   "editeur": "Delcourt",
+   "auteur": "Ozaki Kaori",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "reset": {
+   "titreOrphee": "Reset",
+   "editeur": "Edition Ki-oon",
+   "auteur": "Tsutsui Tetsuya",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "silent-blue": {
+   "titreOrphee": "Silent Blue",
+   "editeur": "Delcourt",
+   "auteur": "Ando Icori",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
   },
   "akira": {
    "titreOrphee": "Akira",
@@ -6822,31 +7173,620 @@
      1,
      2,
      3
-    ],
-    "Chateaugiron": [
-     3
-    ],
-    "Noyal-sur-Vilaine": [
-     3
-    ],
-    "Domloup": [
-     3
-    ],
-    "Ossé": [
-     3
-    ],
-    "Piré-Chancé": [
-     3
     ]
-   },
+   }
+  },
+  "voyage-de-shuna": {
+   "titreOrphee": "Le voyage de Shuna",
+   "editeur": "",
+   "auteur": "Miyazaki Hayao",
+   "tomes": {},
    "retires": [
     {
      "bib": "Domloup",
-     "tome": 3,
+     "tome": 1,
      "statut": "Perdu",
      "cote": "MA VOY"
     }
    ]
+  },
+  "spirale": {
+   "titreOrphee": "Spirale",
+   "editeur": "Tonkam",
+   "auteur": "Ito Junji",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "bateau-usine": {
+   "titreOrphee": "Le bateau-usine",
+   "editeur": "Editions Akata",
+   "auteur": "Fujio Gô",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "comte-de-monte-cristo": {
+   "titreOrphee": "Le comte de Monte-Cristo",
+   "editeur": "Kurokawa",
+   "auteur": "Moriyama Ena",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ],
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "souvenirs-d-emanon": {
+   "titreOrphee": "Souvenirs d'Emanon",
+   "editeur": "Ki-oon",
+   "auteur": "Kajio Shinji",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "sous-un-ciel-nouveau": {
+   "titreOrphee": "Sous un ciel nouveau",
+   "editeur": "Ki-oon",
+   "auteur": "Fujii Kei",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "errances-d-emanon": {
+   "titreOrphee": "Errances d'Emanon",
+   "editeur": "Ki-oon",
+   "auteur": "Kajio Shinji",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "mirages-d-emanon": {
+   "titreOrphee": "Mirages d'Emanon",
+   "editeur": "Ki-oon",
+   "auteur": "Kajio Shinji",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "reverie": {
+   "titreOrphee": "Rêverie",
+   "editeur": "Casterman",
+   "auteur": "Zhao Golo",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "etranger-de-la-plage": {
+   "titreOrphee": "L'étranger de la plage",
+   "editeur": "Boy's love",
+   "auteur": "Kanna Kii",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "atchoum": {
+   "titreOrphee": "Atchoum !",
+   "editeur": "Kana",
+   "auteur": "Urasawa Naoki",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "appel-de-cthulhu": {
+   "titreOrphee": "L'appel de Cthulhu",
+   "editeur": "Ki-oon",
+   "auteur": "Tanabe Gou",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "reveries-d-emanon": {
+   "titreOrphee": "Rêveries d'Emanon",
+   "editeur": "Ki-oon",
+   "auteur": "Kajio Shinji",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "my-broken-mariko": {
+   "titreOrphee": "My broken Mariko",
+   "editeur": "Ki-oon",
+   "auteur": "Hirako Waka",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "martin-luther-king": {
+   "titreOrphee": "Martin Luther King",
+   "editeur": "Nobi Nobi",
+   "auteur": "Hotta Akio",
+   "tomes": {
+    "Domloup": [
+     1
+    ],
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "in-summer": {
+   "titreOrphee": "In summer",
+   "editeur": "le Lézard noir",
+   "auteur": "Ryul Seong",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "goldorak": {
+   "titreOrphee": "Goldorak",
+   "editeur": "Kana",
+   "auteur": "Dorison Xavier",
+   "tomes": {
+    "Ossé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "grossesse-de-m-hiyama": {
+   "titreOrphee": "La grossesse de M. Hiyama",
+   "editeur": "Editions Akata",
+   "auteur": "Sakai Eri",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "fee-des-neiges": {
+   "titreOrphee": "La fée des neiges",
+   "editeur": "Boy's love",
+   "auteur": "Serizawa Tomo",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "terre-de-reves": {
+   "titreOrphee": "Terre de rêves",
+   "editeur": "Casterman",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Piré-Chancé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "dans-la-prison": {
+   "titreOrphee": "Dans la prison",
+   "editeur": "Ego comme X",
+   "auteur": "Hanawa Kazuichi",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "gogo-monster": {
+   "titreOrphee": "Gogo Monster",
+   "editeur": "Delcourt",
+   "auteur": "Matsumoto Taiyo",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "gourmet-solitaire": {
+   "titreOrphee": "Le gourmet solitaire",
+   "editeur": "Casterman",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Domloup": [
+     1
+    ],
+    "Piré-Chancé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "orme-du-caucase": {
+   "titreOrphee": "L'orme du Caucase",
+   "editeur": "Casterman",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "nonnonba": {
+   "titreOrphee": "NonNonBâ",
+   "editeur": "Cornélius",
+   "auteur": "Mizuki Shigeru",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "un-zoo-en-hiver": {
+   "titreOrphee": "Un zoo en hiver",
+   "editeur": "Casterman",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "elegie-en-rouge": {
+   "titreOrphee": "Elégie en rouge",
+   "editeur": "Cornélius",
+   "auteur": "Hayashi Sei'ichi",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "undercurrent": {
+   "titreOrphee": "Undercurrent",
+   "editeur": "Kana",
+   "auteur": "Toyoda Tetsuya",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "operation-mort": {
+   "titreOrphee": "Opération Mort",
+   "editeur": "Cornélius",
+   "auteur": "Mizuki Shigeru",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "love-my-life": {
+   "titreOrphee": "Love my life",
+   "editeur": "Asuka",
+   "auteur": "Yamaji Ebine",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "nouilles-tchajang": {
+   "titreOrphee": "Nouilles Tchajang",
+   "editeur": "Dargaud",
+   "auteur": "Chi Kyu-Sok",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "furari": {
+   "titreOrphee": "Furari",
+   "editeur": "Casterman",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "icare": {
+   "titreOrphee": "Icare",
+   "editeur": "Kana",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "sans-meme-nous-dire-au-revoir": {
+   "titreOrphee": "Sans même nous dire au revoir",
+   "editeur": "Kana",
+   "auteur": "Ueno Kentarô",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "cerisiers-fleurissent-malgre-tout": {
+   "titreOrphee": "Les cerisiers fleurissent malgré tout",
+   "editeur": "Kana",
+   "auteur": "Ichiguchi Keiko",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "gardiens-du-louvre": {
+   "titreOrphee": "Les gardiens du Louvre",
+   "editeur": "Futuropolis",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "enemigo": {
+   "titreOrphee": "Enemigo",
+   "editeur": "Casterman",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "coffee-time": {
+   "titreOrphee": "Coffee time",
+   "editeur": "Ki-oon",
+   "auteur": "Toyoda Tetsuya",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "homme-qui-marche": {
+   "titreOrphee": "L'homme qui marche",
+   "editeur": "Casterman",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "pommes-miracles": {
+   "titreOrphee": "Les pommes miracles",
+   "editeur": "Editions Akata",
+   "auteur": "Tsutomu Fujikawa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "argent-du-deshonneur": {
+   "titreOrphee": "L'argent du déshonneur",
+   "editeur": "Editions Akata",
+   "auteur": "Hirata Hiroshi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "seediq-bale-les-guerriers-de-l-arc-en-ciel": {
+   "titreOrphee": "Seediq Bale, les guerriers de l'Arc-en-Ciel",
+   "editeur": "Éd. Akata",
+   "auteur": "Chiu Row-long",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "pourquoi-je-galere-toujours-en-amour": {
+   "titreOrphee": "Pourquoi je galère toujours en amour ?!!!!!",
+   "editeur": "Editions Akata",
+   "auteur": "Maki Kyoko",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "parfum-des-hommes": {
+   "titreOrphee": "Le parfum des hommes",
+   "editeur": "Atrabile",
+   "auteur": "Kim Su-Bak",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "petites-contemplations": {
+   "titreOrphee": "Les petites contemplations",
+   "editeur": "Urban China",
+   "auteur": "Yao ren",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "blue-corner": {
+   "titreOrphee": "Blue corner",
+   "editeur": "Pika graphic",
+   "auteur": "Taniguchi Jiro",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "nos-yeux-fermes": {
+   "titreOrphee": "Nos yeux fermés",
+   "editeur": "Pika graphic",
+   "auteur": "Saso Akira",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "mon-chien-pour-la-vie": {
+   "titreOrphee": "Mon chien pour la vie",
+   "editeur": "Bamboo Editions",
+   "auteur": "Aoiro Iriko",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "tomie": {
+   "titreOrphee": "Tomie",
+   "editeur": "Mangetsu",
+   "auteur": "Ito Junji",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "daruchan-ou-la-vie-ordinaire-de-narumi-maruyama-employee-interimaire": {
+   "titreOrphee": "Daruchan ou la vie ordinaire de Narumi Maruyama, employée intérimaire",
+   "editeur": "Le Lézard Noir",
+   "auteur": "Haruna Lemon",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "hideout": {
+   "titreOrphee": "Hideout",
+   "editeur": "Editions Ki-oon",
+   "auteur": "Kakizaki Masasumi",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "elle": {
+   "titreOrphee": "Elle",
+   "editeur": "Pika Edition",
+   "auteur": "Qta Minami",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "sentier-des-douaniers": {
+   "titreOrphee": "Le sentier des douaniers",
+   "editeur": "Ouest-France",
+   "auteur": "Irvoas-Dantec Dominique",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "the-big-wall": {
+   "titreOrphee": "The Big Wall",
+   "editeur": "Editions Michel  Guérin",
+   "auteur": "Kamata Yoji",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
   },
   "cooking-karine": {
    "titreOrphee": "#Cooking Karine",
@@ -10544,26 +11484,453 @@
      9,
      10,
      11
-    ],
-    "Ossé": [
-     9
-    ],
-    "Servon-sur-Vilaine": [
-     9
-    ],
-    "St-Aubin du Pavail": [
-     9
-    ],
-    "Chateaugiron": [
-     9
-    ],
-    "Piré-Chancé": [
-     9
-    ],
-    "Domloup": [
-     9
     ]
    }
+  },
+  "trois-mousquetaires": {
+   "titreOrphee": "Les trois mousquetaires",
+   "editeur": "Nobi nobi",
+   "tomes": {
+    "Ossé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "voyages-de-gulliver": {
+   "titreOrphee": "Les voyages de Gulliver",
+   "editeur": "",
+   "auteur": "Chiba Kiyokazu",
+   "tomes": {
+    "Ossé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "ekeko": {
+   "titreOrphee": "EKEKO",
+   "editeur": "Studio Salamao",
+   "auteur": "Dilukeba Jason",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "livre-de-la-jungle": {
+   "titreOrphee": "Le livre de la jungle",
+   "editeur": "Nobi Nobi",
+   "auteur": "Chan Crystal S.",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "nouvelles-extraordinaires-d-edgar-allan-poe": {
+   "titreOrphee": "Nouvelles extraordinaires d'Edgar Allan Poe",
+   "editeur": "Nobi Nobi",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "jizo": {
+   "titreOrphee": "Jizo",
+   "editeur": "Glénat",
+   "auteur": "Mr Tan",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "cleopatre": {
+   "titreOrphee": "Cléopâtre",
+   "editeur": "Nobi Nobi",
+   "auteur": "Mukai Natsumi",
+   "tomes": {
+    "Ossé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "un-ete-a-tsurumaki": {
+   "titreOrphee": "Un été à Tsurumaki",
+   "editeur": "Ed. IMHO",
+   "auteur": "Komatsu Shin'ya",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "marie-antoinette": {
+   "titreOrphee": "Marie-Antoinette",
+   "editeur": "Nobi Nobi",
+   "auteur": "Wada Natsuko",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "dracula": {
+   "titreOrphee": "Dracula",
+   "editeur": "Nobi Nobi",
+   "auteur": "King Stacy",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "sahara": {
+   "titreOrphee": "Sahara",
+   "editeur": "Nobi Nobi",
+   "auteur": "Shibata Yûsaku",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "van-gogh": {
+   "titreOrphee": "Van Gogh",
+   "editeur": "Nobi Nobi",
+   "auteur": "Fukaki Shoko",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "antiheros": {
+   "titreOrphee": "Antihéros",
+   "editeur": "Urban comics",
+   "auteur": "Karyus Quinn Kate",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "arsene-lupin-gentleman-cambrioleur": {
+   "titreOrphee": "Arsène Lupin, gentleman-cambrioleur",
+   "editeur": "Nobi Nobi",
+   "auteur": "Minami Yoshiro",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "miroirs": {
+   "titreOrphee": "Miroirs",
+   "editeur": "Crunchyroll",
+   "auteur": "Shirai Kaiu",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "anne-la-maison-aux-pignons-verts": {
+   "titreOrphee": "Anne... la maison aux pignons verts",
+   "editeur": "Nobi Nobi",
+   "auteur": "Chan Crystal S.",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "terukan-boys": {
+   "titreOrphee": "Terukan Boys",
+   "editeur": "Bamboo",
+   "auteur": "Nakahara Yû",
+   "tomes": {
+    "St-Aubin du Pavail": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "koko": {
+   "titreOrphee": "Koko",
+   "editeur": "Glénat",
+   "auteur": "Kono Fumiyo",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Ossé": [
+     1
+    ],
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "miserables": {
+   "titreOrphee": "Les Misérables",
+   "editeur": "Soleil Manga",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "pays-des-cerisiers": {
+   "titreOrphee": "Le pays des cerisiers",
+   "editeur": "Dargaud Bénélux-Kana",
+   "auteur": "Kono Fumiyo",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "mon-voisin-totoro": {
+   "titreOrphee": "Mon voisin Totoro",
+   "editeur": "Glénat\nImpr. Pollina",
+   "auteur": "Miyazaki Hayao",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "jaco-the-galactic-patrolman": {
+   "titreOrphee": "Jaco, the galactic patrolman",
+   "editeur": "Glénat",
+   "auteur": "Toriyama Akira",
+   "tomes": {
+    "Noyal-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "globule-une-vie-de-lapin": {
+   "titreOrphee": "Globule, une vie de lapin",
+   "editeur": "Soleil",
+   "auteur": "Mamemoyashi",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "deux-ans-de-vacances": {
+   "titreOrphee": "Deux ans de vacances",
+   "editeur": "Nobi Nobi",
+   "auteur": "Otani Jiro",
+   "tomes": {
+    "Ossé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "aventures-de-tom-sawyer": {
+   "titreOrphee": "Les aventures de Tom Sawyer",
+   "editeur": "Nobi Nobi",
+   "auteur": "Shirosaki Aya",
+   "tomes": {
+    "Ossé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "etrange-boutique-de-monsieur-nekomata": {
+   "titreOrphee": "L'Etrange Boutique de Monsieur Nekomata",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Monaka",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "garcon-et-le-dragon": {
+   "titreOrphee": "Le garçon et le dragon",
+   "editeur": "Bamboo Editions",
+   "auteur": "Idonaka",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ],
+    "Piré-Chancé": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "reine-des-neiges-ii": {
+   "titreOrphee": "La Reine des Neiges II",
+   "editeur": "Nobi Nobi",
+   "auteur": "Tanemura Arina",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "contes-fabuleux-de-la-nuit": {
+   "titreOrphee": "Contes fabuleux de la nuit",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Miiya Miyako",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "grand-migrateur": {
+   "titreOrphee": "Le Grand Migrateur",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Lebon Augustin",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "legende-de-hakutaku": {
+   "titreOrphee": "La Légende de Hakutaku",
+   "editeur": "Jungle",
+   "auteur": "Cardona Alba",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "monde-de-suzuka-morino": {
+   "titreOrphee": "Le monde de Suzuka Morino",
+   "editeur": "Vega-Dupuis",
+   "auteur": "Morino Suzuka",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "mimosa-momo-et-moi": {
+   "titreOrphee": "Mimosa, Momo et Moi",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Nekomaki",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "en-pays-lointain": {
+   "titreOrphee": "En pays lointain",
+   "editeur": "Nobi Nobi",
+   "auteur": "Sudo Masumi",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "terrarium-dans-mon-tiroir": {
+   "titreOrphee": "Le terrarium dans mon tiroir",
+   "editeur": "Casterman",
+   "auteur": "Kui Ryoko",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "chat-mene-l-enquete": {
+   "titreOrphee": "Le chat mène l'enquête",
+   "editeur": "Bamboo Editions",
+   "auteur": "Noho",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "desastreuse-histoire-des-jumeaux-stevenson": {
+   "titreOrphee": "La désastreuse histoire des jumeaux Stevenson",
+   "editeur": "Delcourt",
+   "auteur": "Morikawa Yuu",
+   "tomes": {
+    "Chateaugiron": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "voyage-d-ours-lune": {
+   "titreOrphee": "Le voyage d'Ours-Lune",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Ho",
+   "tomes": {
+    "Piré-Chancé": [
+     1
+    ],
+    "Noyal-sur-Vilaine": [
+     1
+    ],
+    "Ossé": [
+     1
+    ],
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "pompon-compagnie": {
+   "titreOrphee": "Pompon & compagnie",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Furuyan",
+   "tomes": {
+    "Domloup": [
+     1
+    ]
+   },
+   "oneShot": true
   }
  },
  "anomalies": [
@@ -10667,5 +12034,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-10-27T09:22:38.235Z"
+ "publie": "2026-10-27T09:59:39.187Z"
 }
