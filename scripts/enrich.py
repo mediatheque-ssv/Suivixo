@@ -399,12 +399,15 @@ def fiche_manga_news(url: str | None) -> dict | None:
     page = h.unescape(re.sub(r"<script.*?</script>|<style.*?</style>", " ", page, flags=re.S))
     texte = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page))
     vf, vo = RE_VF.search(texte), RE_VO.search(texte)
-    r = {"url": url}
+    og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page) or re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', page)
+    couv = og.group(1).strip() if og and "/public/images/" in og.group(1) else ""
+    r = {"url": url, **({"couv": couv} if couv else {})}
     if not vf and not vo:
         # Webtoon : la fiche compte les chapitres en ligne, sans état de l'édition papier ;
         # on garde au moins la date du dernier tome paru en France.
         _, d = _bloc_volume(page, "Dernier paru", "paraître")
-        return {"url": url, "lu": False, **({"vfDernierDate": d} if d else {}), "verifie": AUJOURDHUI.isoformat()}
+        return {"url": url, "lu": False, **({"vfDernierDate": d} if d else {}), **({"couv": couv} if couv else {}),
+                "verifie": AUJOURDHUI.isoformat()}
     if vf:
         r.update(vf=int(vf.group(1)), vfStatut=vf.group(2).strip())
     if vo:
@@ -632,25 +635,36 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
 DOSSIER_COUV = RACINE / "couvertures"
 
 
-def telecharger(url: str) -> bytes | None:
-    try:
-        h = {"User-Agent": UA}
-        if "manga-news.com" in url:
-            h["Referer"] = "https://www.manga-news.com/"
-        req = urllib.request.Request(url, headers=h)
-        with urllib.request.urlopen(req, timeout=40) as r:
-            if not (r.headers.get("Content-Type") or "").startswith("image/"):
-                return None
-            corps = r.read()
-            return corps if len(corps) > 1500 else None
-    except Exception:
-        return None
+def telecharger(url: str, essais: int = 3) -> bytes | None:
+    """Télécharge une image ; réessaie après une pause si le site est saturé (trop de demandes d'affilée)."""
+    h = {"User-Agent": UA}
+    if "manga-news.com" in url:
+        h["Referer"] = "https://www.manga-news.com/"
+    for i in range(essais):
+        try:
+            req = urllib.request.Request(url, headers=h)
+            with urllib.request.urlopen(req, timeout=40) as r:
+                if not (r.headers.get("Content-Type") or "").startswith("image/"):
+                    return None
+                corps = r.read()
+                return corps if len(corps) > 1500 else None
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 408, 429, 500, 502, 503, 504) and i < essais - 1:
+                time.sleep(8 * (i + 1))
+                continue
+            return None
+        except Exception:
+            if i < essais - 1:
+                time.sleep(5 * (i + 1))
+                continue
+            return None
+    return None
 
 
 COUV_VERSION = 2  # 2 : Manga-News ajouté aux sources ; les séries sans couverture sont réessayées une fois
 
 
-def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: bool = False) -> dict | None:
+def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: bool = False, fiche: dict | None = None) -> dict | None:
     """Cherche la couverture française (Manga-News, BnF, puis Open Library) et l'enregistre en vignette."""
     try:
         from PIL import Image
@@ -660,9 +674,11 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
     fichier = DOSSIER_COUV / f"{ident}.jpg"
     essais = []
     # Manga-News d'abord : fiable et rapide (la BnF répond souvent en erreur 500)
-    if mn and mn.get("couv") and not mn.get("editeurDifferent"):
-        u = mn["couv"]
-        essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None))
+    vues = set()
+    for u in [(mn or {}).get("couv") if not (mn or {}).get("editeurDifferent") else "", (fiche or {}).get("couv")]:
+        if u and u not in vues:
+            vues.add(u)
+            essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None))
     for c in (bnf or {}).get("candidatsCouv", []):
         if c.get("ark"):
             essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1", c["n"]))
@@ -691,7 +707,7 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
             return {"source": nom, "tome": tome, "test": True}
         DOSSIER_COUV.mkdir(exist_ok=True)
         img.save(fichier, "JPEG", quality=82, optimize=True, progressive=True)
-        return {"source": nom, **({"tome": tome} if tome else {}), **({"mn": mn.get("url")} if nom == "Manga-News" else {}),
+        return {"source": nom, **({"tome": tome} if tome else {}), **({"mn": (mn or {}).get("url") or (fiche or {}).get("url")} if nom == "Manga-News" else {}),
                 "maj": AUJOURDHUI.isoformat()}
     return None
 
@@ -700,24 +716,26 @@ def couverture_a_chercher(s: dict, e: dict, forcer: bool = False) -> bool:
     if forcer:
         return True
     cf = e.get("couvFR")
+    page_mn = (e.get("mangaNews") or {}).get("url") or (e.get("mangaNewsFiche") or {}).get("url")
     if cf:
         # image prise sur une page Manga-News qui n'est plus celle de la série (rapprochement corrigé)
-        if cf.get("source") == "Manga-News" and ("mn" not in cf or cf["mn"] != (e.get("mangaNews") or {}).get("url")):
+        if cf.get("source") == "Manga-News" and ("mn" not in cf or cf["mn"] != page_mn):
             return True
         return not (DOSSIER_COUV / f"{s['id']}.jpg").exists()
-    # une nouvelle image Manga-News (page indiquée à la main, par exemple) depuis le dernier essai
-    couv_mn = (e.get("mangaNews") or {}).get("couv")
-    if couv_mn and couv_mn != e.get("couvEssaiMN"):
+    # Manga-News a une image pour cette série : on réessaie à chaque passage (un échec vient en général
+    # d'un site saturé ce jour-là), et tout de suite si l'image a changé
+    couv_mn = (e.get("mangaNews") or {}).get("couv") or (e.get("mangaNewsFiche") or {}).get("couv")
+    if couv_mn and (couv_mn != e.get("couvEssaiMN") or age_jours(e.get("couvEssai")) >= 1):
         return True
     # jamais essayé, nouvelle source depuis le dernier essai, ou dernier essai il y a plus de 6 mois
     return (e.get("couvVersion") or 1) < COUV_VERSION or age_jours(e.get("couvEssai")) > 180
 
 
 def chercher_couverture(s: dict, e: dict) -> None:
-    trouvee = couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"))
+    trouvee = couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), fiche=e.get("mangaNewsFiche"))
     e["couvEssai"] = AUJOURDHUI.isoformat()
     e["couvVersion"] = COUV_VERSION
-    e["couvEssaiMN"] = (e.get("mangaNews") or {}).get("couv") or ""
+    e["couvEssaiMN"] = (e.get("mangaNews") or {}).get("couv") or (e.get("mangaNewsFiche") or {}).get("couv") or ""
     if trouvee:
         e["couvFR"] = trouvee
     else:
@@ -827,8 +845,6 @@ def main() -> int:
             continue
         if not args.serie and not choisies and s["id"] not in fonds:
             continue  # seulement les séries présentes dans le réseau
-        if s.get("genre") == "Comics":
-            continue
         a_faire.append(s)
     # les jamais vérifiées d'abord, puis les plus anciennes
     a_faire.sort(key=lambda s: -age_jours((cache.get(s["id"]) or {}).get("verifie")))
@@ -853,14 +869,14 @@ def main() -> int:
             # rapprochement Manga-News refait pour toutes les séries (rapide), fiche relue si la page a changé
             e.setdefault("liensVus", s.get("liens") or {})
             e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
-            if s.get("type") != "One shot":
+            if s.get("type") != "One shot" or (s.get("liens") or {}).get("mangaNews"):
                 lire_fiche(s, e, False, debug)
             if not couverture_a_chercher(s, e, args.forcer):
                 cache[s["id"]] = e
                 continue
             try:
                 if debug:
-                    couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True)
+                    couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"))
                 else:
                     chercher_couverture(s, e)
             except Exception as ex:
@@ -918,7 +934,7 @@ def main() -> int:
                     m = anilist(Q_ID, {"id": int(lien)}).get("Media")
                     e["anilist"] = resume_anilist(m, False, None) if m else {"id": lien, "titre": "Introuvable sur AniList", "statut": None, "auto": False}
                     e["anilistVerifie"] = AUJOURDHUI.isoformat()
-            elif not one_shot:
+            elif not one_shot and s.get("genre") != "Comics":  # pas de comics sur AniList
                 deja_vu_sans = e.get("anilistVerifie") and al is None and age_jours(e.get("anilistVerifie")) < 30
                 if args.forcer or debug or not (al or deja_vu_sans) or (al and al.get("statut") != "FINISHED"):
                     if al and al.get("id") and not al.get("auteurDifferent"):
@@ -930,8 +946,10 @@ def main() -> int:
                         e["anilist"] = chercher_anilist(s, auteur, debug)
                     e["anilistVerifie"] = AUJOURDHUI.isoformat()
             if one_shot:
-                # un one shot : seulement Manga-News, pour la couverture
+                # un one shot : seulement Manga-News, pour la couverture (et la page indiquée, si elle n'est pas dans le jeu de données)
                 e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                if (s.get("liens") or {}).get("mangaNews"):
+                    lire_fiche(s, e, args.forcer, debug)
             # BnF
             if not one_shot:
                 vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
@@ -949,7 +967,7 @@ def main() -> int:
             if debug:
                 if e.get("bnf"):
                     tester_couvertures(e["bnf"])
-                couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True)
+                couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"))
                 dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1
