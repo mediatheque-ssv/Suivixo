@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T14:47:08Z",
+ "maj": "2026-10-27T14:50:13Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -776,17 +776,97 @@
   },
   "agents-of-the-four-seasons-la-danse-du-printemps": {
    "bnf": {
-    "dernier": null,
-    "notices": 0,
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-08",
+    "editeur": "Éditions Akata",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48742127d",
+    "isbn1": "9782385313913",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48742127d",
+      "isbn": "9782385313913"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48741071c",
+      "isbn": "9782385692841"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48793939w",
+      "isbn": "9782385313920"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48820508h",
+      "isbn": "9782386160141"
+     }
+    ],
     "requete": "bib.title all \"agents of the four seasons la danse du printemps\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
+   "bnfVerifie": "2026-10-27",
    "couvEssai": "2026-10-27",
-   "verifie": "2026-10-23",
-   "mangaNews": null,
-   "anilistVerifie": "2026-10-23",
+   "verifie": "2026-10-27",
+   "mangaNews": {
+    "tomes": 2,
+    "editeur": "Akata",
+    "url": "https://www.manga-news.com/index.php/serie/Agents-of-the-Four-Seasons",
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Agents_of_the_Four_Seasons_-_T1_-_Akata_medium.webp"
+   },
+   "anilistVerifie": "2026-10-27",
    "couvVersion": 2,
-   "couvEssaiMN": ""
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Agents_of_the_Four_Seasons_-_T1_-_Akata_medium.webp",
+   "anilist": {
+    "id": 142616,
+    "titre": "Agents of the Four Seasons: Dance of Spring",
+    "titreVO": "Shunkashuutou Daikousha: Haru no Mai",
+    "statut": "RELEASING",
+    "volumes": null,
+    "format": "MANGA",
+    "pays": "JP",
+    "demographie": "Shojo",
+    "genres": [
+     "Fantasy",
+     "Romance"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx142616-aRT7rKPoymZY.jpg",
+    "imageGrande": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx142616-aRT7rKPoymZY.jpg",
+    "auteurs": [
+     "Kana Akatsuki",
+     "Nappa Komatsuda",
+     "アルモニ",
+     "Arumoni"
+    ],
+    "auto": true,
+    "score": 0.8
+   },
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Agents-of-the-Four-Seasons",
+    "maj": "2026-10-27"
+   },
+   "mangaNewsFiche": {
+    "url": "https://www.manga-news.com/index.php/serie/Agents-of-the-Four-Seasons",
+    "vf": 2,
+    "vfStatut": "En cours",
+    "vo": 6,
+    "voStatut": "En cours",
+    "vfDernier": 3,
+    "vfDernierDate": "2026-07-08",
+    "vfProchainDate": "2026-11-18",
+    "vfProchain": 4,
+    "pays": "JP",
+    "annee": 2022,
+    "verifie": "2026-10-27"
+   },
+   "liensVus": {
+    "mangaNews": "index.php/serie/Agents-of-the-Four-Seasons"
+   }
   },
   "akira": {
    "anilist": {
