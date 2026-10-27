@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T14:34:40Z",
+ "maj": "2026-10-27T14:36:52Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -65,7 +65,8 @@
     "tomes": 3,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/A-couper-le-souffle",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.10th-couper-souffle-1-kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/A-couper-le-souffle",
@@ -85,7 +86,8 @@
     "tomes": 2,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/13e-Piste-la",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.La_13e_piste_T01_-_Ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/13e-Piste-la",
@@ -195,7 +197,8 @@
     "tomes": 2,
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/300-jours-avec-toi",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.300_jours_avec_toi_1_doki_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/300-jours-avec-toi",
@@ -280,7 +283,8 @@
     "tomes": 7,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/5-Minutes-Forward",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.5-minutes-forwards-1-kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/5-Minutes-Forward",
@@ -341,7 +345,8 @@
     "tomes": 3,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/A-crocs-a-toi",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.a-crocs-a-toi-akata-1_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/A-crocs-a-toi",
@@ -429,7 +434,8 @@
     "tomes": 9,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/A-limage-de-Mona-Lisa",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.imlage_de_mona_lisa_1_akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/A-limage-de-Mona-Lisa",
@@ -513,7 +519,8 @@
     "tomes": 13,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/A-sign-of-affection",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.A_sign_of_affection_1_akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/A-sign-of-affection",
@@ -599,7 +606,8 @@
     "tomes": 7,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/A-Silent-Voice",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.a-silent-voice-1-ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/A-Silent-Voice",
@@ -856,7 +864,8 @@
     "tomes": 6,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Akira",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.akira_01_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Akira",
@@ -906,7 +915,8 @@
     "tomes": 1,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Alice-au-dela-des-etoiles",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Alice_au-del__des__toiles_-_Tome_01_-_Glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Alice-au-dela-des-etoiles",
@@ -1041,7 +1051,8 @@
     "tomes": 18,
     "editeur": "Delcourt",
     "url": "https://www.manga-news.com/index.php/serie/Alice-in-borderland",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.alice-in-borderland-1-delcourt_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Alice-in-borderland",
@@ -1117,7 +1128,8 @@
     "tomes": 2,
     "editeur": "Delcourt / Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Alice-in-Kyoto-Forest",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Alice_In_Kyoto_Forest_T01_-_Delcourt_Tonkam_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Alice-in-Kyoto-Forest",
@@ -1200,7 +1212,8 @@
     "tomes": 17,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/All-Out",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.All_Out_1_pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/All-Out",
@@ -1280,7 +1293,8 @@
     "tomes": 2,
     "editeur": "Kaze Manga",
     "url": "https://www.manga-news.com/index.php/serie/All-you-need-is-kill",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.all-you-need-is-kill-manga-1-kaze_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/All-you-need-is-kill",
@@ -1468,7 +1482,8 @@
     "tomes": 24,
     "editeur": "Kaze Manga",
     "url": "https://www.manga-news.com/index.php/serie/Amatsuki",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.amatsuki-1-kaze_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Amatsuki",
@@ -1524,7 +1539,8 @@
     "tomes": 3,
     "editeur": "Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Amer-beton",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.amer-beton-1-tonkam_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Amer-beton",
@@ -1693,7 +1709,8 @@
     "tomes": 5,
     "editeur": "Akileos",
     "url": "https://www.manga-news.com/index.php/serie/Amour-sucre",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.amour-sucre-1-akileos_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Amour-sucre",
@@ -1901,7 +1918,8 @@
     "tomes": 2,
     "editeur": "Soleil",
     "url": "https://www.manga-news.com/index.php/serie/Animal-Crossing-New-Horizon-Lile-de-la-detente",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Animal_Crossing_New_Horizons_-_L__le_de_la_d_tente_T01_-_Soleil_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Animal-Crossing-New-Horizon-Lile-de-la-detente",
@@ -2047,7 +2065,8 @@
     "tomes": 14,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Animal-kingdom",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.animal-kingdom-1-ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Animal-kingdom",
@@ -2136,7 +2155,8 @@
     "tomes": 35,
     "editeur": "Mangetsu",
     "url": "https://www.manga-news.com/index.php/serie/Ao-Ashi",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.ao-ashi-1-mangetsu_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ao-Ashi",
@@ -2534,7 +2554,8 @@
     "tomes": 5,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Aromantic-Love-Story",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.aromantic_love_story-1-akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Aromantic-Love-Story",
@@ -2635,7 +2656,8 @@
     "tomes": 9,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Asadora",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.asadora-1-kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Asadora",
@@ -2729,7 +2751,8 @@
     "tomes": 17,
     "editeur": "Delcourt",
     "url": "https://www.manga-news.com/index.php/serie/Ascension",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.ascension-1-delcourt_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ascension",
@@ -2817,7 +2840,8 @@
     "tomes": 21,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Assassination-classroom",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/assassination-classroom-1-kana.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Assassination-classroom",
@@ -2999,7 +3023,8 @@
     "tomes": 4,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Astro-Royale",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Astro_Royale_-_Tome_01_-_Glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Astro-Royale",
@@ -3395,7 +3420,8 @@
     "tomes": 2,
     "editeur": "Delcourt / Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Au-bout-du-chemin2",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Au_bout_du_chemin_T01_-_Delcourt_Tonkam_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Au-bout-du-chemin2",
@@ -3548,6 +3574,7 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Aux-cotes-du-Dieu-Loup",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Aux-cotes-du-dieu-loup-t1-dokidoki_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -3599,6 +3626,7 @@
     "editeur": "Ankama Editions",
     "url": "https://www.manga-news.com/index.php/serie/Avatar-Le-dernier-maitre-de-lair",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.avatar-ankama_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -3795,7 +3823,8 @@
     "tomes": 3,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Baby",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.baby-chang-sheng-1-gl_nat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Baby",
@@ -4157,7 +4186,8 @@
     "tomes": 19,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Barakamon",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Barakamon-1-ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Barakamon",
@@ -4245,7 +4275,8 @@
     "tomes": 2,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Basara",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.basara_01_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Basara",
@@ -4329,7 +4360,7 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Battle-Game-in-5-Seconds",
     "date": "2026-08-04",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.battle-game-5s-1-doki_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Battle-Game-in-5-Seconds",
@@ -4409,7 +4440,7 @@
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Baymax",
     "date": "2026-08-04",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.baymax-1-pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Baymax",
@@ -4531,7 +4562,8 @@
     "tomes": 25,
     "editeur": "Meian",
     "url": "https://www.manga-news.com/index.php/serie/Be-Blues",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Be-Blues_t1_Meian_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Be-Blues",
@@ -4714,7 +4746,8 @@
     "tomes": 43,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Berserk-2Ed",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.berserk-2016-1-glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Berserk-2Ed",
@@ -4778,7 +4811,8 @@
     "tomes": 11,
     "editeur": "Kaze Manga",
     "url": "https://www.manga-news.com/index.php/serie/Beyblade-Metal-Fusion",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.beyblade-metal-fusion-1-kaze_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Beyblade-Metal-Fusion",
@@ -4942,7 +4976,8 @@
     "tomes": 16,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Bienvenue-au-club",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.bienvenue-au-club-akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Bienvenue-au-club",
@@ -5030,7 +5065,8 @@
     "tomes": 20,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Billy-Bat",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.billy-bat-1-pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Billy-Bat",
@@ -5579,7 +5615,8 @@
     "tomes": 17,
     "editeur": "Kurokawa",
     "url": "https://www.manga-news.com/index.php/serie/Blood-Lad",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.blood-lad-1-kurokawa_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blood-Lad",
@@ -5664,7 +5701,8 @@
     "tomes": 12,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Bloody-Cross",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Bloody-Cross-1-ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Bloody-Cross",
@@ -5750,7 +5788,8 @@
     "tomes": 8,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Bloom-into-you",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.bloom-into-you-1-kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Bloom-into-you",
@@ -5837,7 +5876,8 @@
     "tomes": 12,
     "editeur": "Delcourt / Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Blue-Box",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.blue-box-1-delcourt_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blue-Box",
@@ -5938,7 +5978,8 @@
     "tomes": 8,
     "editeur": "Kurokawa",
     "url": "https://www.manga-news.com/index.php/serie/Blue-Flag",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Blue-Flag-1-kurokawa_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blue-Flag",
@@ -6026,7 +6067,8 @@
     "tomes": 33,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Blue-Lock",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.blue-lock-1-pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blue-Lock",
@@ -6108,7 +6150,8 @@
     "tomes": 18,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Blue-Period",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.blue-period-t1-pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blue-Period",
@@ -6213,7 +6256,8 @@
     "tomes": 13,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Blue-spring-ride2",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.blue-spring-ride-1-kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blue-spring-ride2",
@@ -6294,6 +6338,7 @@
     "editeur": "Hana",
     "url": "https://www.manga-news.com/index.php/serie/Blue-Summer",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.blue-summer-1-IDP_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -6474,7 +6519,8 @@
     "tomes": 20,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Boruto-Naruto-Next-Generations",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.boruto-naruto-next-generation-1-kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Boruto-Naruto-Next-Generations",
@@ -6552,7 +6598,8 @@
     "tomes": 3,
     "editeur": "Lézard Noir (le)",
     "url": "https://www.manga-news.com/index.php/serie/Box",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Box-lezard-noir_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Box",
@@ -6638,6 +6685,7 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Brave-Bell",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Brave_Bell_-_vol._01_-_Doki_Doki_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -6697,7 +6745,8 @@
     "tomes": 3,
     "editeur": "Nouvelle Hydre",
     "url": "https://www.manga-news.com/index.php/serie/Bravest-Journey",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.bravest_journey_1_nouvelle_Hydre_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Bravest-Journey",
@@ -6782,7 +6831,7 @@
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Bride-stories",
     "date": "2026-08-04",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.Bride-Stories_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Bride-stories",
@@ -6840,7 +6889,8 @@
     "tomes": 3,
     "editeur": "H2T",
     "url": "https://www.manga-news.com/index.php/serie/Brigade-doutre-tombe",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.brigade-outre-tombe-1-h2t_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Brigade-doutre-tombe",
@@ -6926,7 +6976,8 @@
     "tomes": 12,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Buster-Keel",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.buster-keel-1-kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Buster-Keel",
@@ -7077,7 +7128,8 @@
     "tomes": 10,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Capitaine-Albator-Dimension-Voyage",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.albator-dimesion-voyage-vf_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Capitaine-Albator-Dimension-Voyage",
@@ -7131,35 +7183,10 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "mangaNews": {
-    "tomes": 5,
-    "editeur": "Glénat",
-    "url": "https://www.manga-news.com/index.php/serie/Captain-Tsubasa-Kids-Dream",
-    "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.captain-tsubasa-dream-team-1-glenat_medium.webp",
-    "titre": "Captain Tsubasa - Kids Dream",
-    "approche": true
-   },
-   "mangaNewsFiche": {
-    "url": "https://www.manga-news.com/index.php/serie/Captain-Tsubasa-Kids-Dream",
-    "vf": 5,
-    "vfStatut": "Terminé",
-    "vo": 5,
-    "voStatut": "Terminé",
-    "vfDernier": 5,
-    "vfDernierDate": "2022-11-02",
-    "pays": "JP",
-    "annee": 2018,
-    "verifie": "2026-10-27"
-   },
+   "mangaNews": null,
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
-   "couvFR": {
-    "source": "Manga-News",
-    "mn": "https://www.manga-news.com/index.php/serie/Captain-Tsubasa-Kids-Dream",
-    "maj": "2026-10-27"
-   },
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.captain-tsubasa-dream-team-1-glenat_medium.webp"
+   "couvEssaiMN": ""
   },
   "captain-tsubasa-world-youth": {
    "anilist": {
@@ -7627,6 +7654,7 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Cats-and-Dragon",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Cats_and_Dragon_-_vol._01_-_Doki_Doki_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -7780,7 +7808,8 @@
     "tomes": 22,
     "editeur": "Crunchyroll - Editions",
     "url": "https://www.manga-news.com/index.php/serie/Chainsaw-Man",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.chainsaw-man-1-kaze_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chainsaw-Man",
@@ -7879,7 +7908,8 @@
     "tomes": 1,
     "editeur": "Rue de Sèvres",
     "url": "https://www.manga-news.com/index.php/serie/Chants-du-Cygne-Noir-Les",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Chants-du-cygne-noir_t1_Rue-de-sevres_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chants-du-Cygne-Noir-Les",
@@ -8080,6 +8110,7 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Chat-de-Yakuza",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Chat_de_Yakuzas_1_doki_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -8144,7 +8175,8 @@
     "tomes": 13,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Chat-malgre-moi",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.chat-malgre-moi-1-nobi_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chat-malgre-moi",
@@ -8366,6 +8398,7 @@
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Chefs-doeuvres-de-Lovecraft-les",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.montagnes-halucinees-coffret-integrale-ki-oon_medium.webp",
     "titre": "Chefs d'oeuvres de Lovecraft (les)",
     "approche": true
    },
@@ -8494,7 +8527,8 @@
     "tomes": 12,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/CHI-Une-vie-de-chat",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Chi_-_Une_vie_de_chat_en_France_-_Glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/CHI-Une-vie-de-chat",
@@ -8579,7 +8613,8 @@
     "tomes": 14,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Karin-Chibi-Vampire",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.chibi_vampire_01_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Karin-Chibi-Vampire",
@@ -8698,7 +8733,8 @@
     "tomes": 4,
     "editeur": "Lézard Noir (le)",
     "url": "https://www.manga-news.com/index.php/serie/Chiisakobee",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.chiisakobe-temp_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chiisakobee",
@@ -8810,7 +8846,8 @@
     "tomes": 8,
     "editeur": "Kurokawa",
     "url": "https://www.manga-news.com/index.php/serie/Chocola-et-Vanilla",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.chocola_vanilla_01_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chocola-et-Vanilla",
@@ -8892,7 +8929,8 @@
     "tomes": 4,
     "editeur": "Panini",
     "url": "https://www.manga-news.com/index.php/serie/Chocolate-Cosmos",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Chocolate-cosmos-1-panini_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chocolate-Cosmos",
@@ -8975,7 +9013,8 @@
     "tomes": 13,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Chocotan",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.chocotan-1-nobi-nobi_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chocotan",
@@ -9155,7 +9194,8 @@
     "tomes": 6,
     "editeur": "Kurokawa",
     "url": "https://www.manga-news.com/index.php/serie/Chroniques-de-la-mariee-de-Bretagne-les",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Chroniques_de_la_mari_e_de_Bretagne_-_Tome_1_-_Kurokawa_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chroniques-de-la-mariee-de-Bretagne-les",
@@ -9211,7 +9251,7 @@
     "editeur": "Harpelume",
     "url": "https://www.manga-news.com/index.php/serie/Chronoctis-Express",
     "date": "2026-08-04",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.chronotic-express-fr-1_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chronoctis-Express",
@@ -9349,7 +9389,8 @@
     "tomes": 7,
     "editeur": "Ankama Editions",
     "url": "https://www.manga-news.com/index.php/serie/City-Hall",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.City-hall-ankama_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/City-Hall",
@@ -9437,6 +9478,7 @@
     "editeur": "Ototo Manga",
     "url": "https://www.manga-news.com/index.php/serie/Classroom-of-the-Elite",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Classroom_of_the_Elite_T.1_-_Ototo_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -9566,7 +9608,8 @@
     "tomes": 26,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Code-Breaker",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.code-breaker-1-pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Code-Breaker",
@@ -9641,7 +9684,8 @@
     "tomes": 3,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Colere-nucleaire",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.colere-nucleaire-1-akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Colere-nucleaire",
@@ -9704,7 +9748,8 @@
     "tomes": 11,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Colocataires-a-leur-maniere",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Colocataires_maniere_1_nobi_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Colocataires-a-leur-maniere",
@@ -9789,7 +9834,8 @@
     "tomes": 5,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Comme-les-autres",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.comme-les-autres-1-kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Comme-les-autres",
@@ -9944,7 +9990,8 @@
     "tomes": 3,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Cooking-Karine",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.cooking-karine-1-nobi_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Cooking-Karine",
@@ -10029,7 +10076,7 @@
     "editeur": "Soleil",
     "url": "https://www.manga-news.com/index.php/serie/Couleur-de-peau-miel",
     "date": "2026-08-04",
-    "editeurDifferent": true
+    "couv": "https://www.manga-news.com/public/images/series/.couleur_peau_miel_01_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Couleur-de-peau-miel",
@@ -10104,7 +10151,8 @@
     "tomes": 2,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Country-Diary",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Country_Diary_1_akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Country-Diary",
@@ -10232,7 +10280,8 @@
     "tomes": 5,
     "editeur": "Delcourt",
     "url": "https://www.manga-news.com/index.php/serie/Crazy-zoo",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.crazy-zoo-1-delcourt_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Crazy-zoo",
@@ -10301,7 +10350,8 @@
     "tomes": 5,
     "editeur": "Komikku Editions",
     "url": "https://www.manga-news.com/index.php/serie/Creatures-fantastiques",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.creatures-fantastiques-1-komikku_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Creatures-fantastiques",
@@ -10382,7 +10432,8 @@
     "tomes": 7,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Crows",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Crows-1-manga_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Crows",
@@ -10487,13 +10538,14 @@
     "tomes": 4,
     "editeur": "Hugo Publishing",
     "url": "https://www.manga-news.com/index.php/serie/Cursed-Princess-Club",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Cursed_Princess_Club_-_Hugo_Publishing_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Cursed-Princess-Club",
     "lu": false,
     "vfDernierDate": "2025-11-13",
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "anilistVerifie": "2026-10-23"
   },
@@ -10566,7 +10618,8 @@
     "tomes": 29,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/DGray-man",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.dgray_man_01_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/DGray-man",
@@ -10647,8 +10700,7 @@
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Daisy",
     "date": "2026-08-04",
-    "titre": "Daisy - Lycéennes à Fukushima",
-    "approche": true
+    "couv": "https://www.manga-news.com/public/images/series/.daisy-01-akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Daisy",
@@ -10736,7 +10788,8 @@
     "tomes": 23,
     "editeur": "Crunchyroll - Editions",
     "url": "https://www.manga-news.com/index.php/serie/Dandadan",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Dandadan_1_crunchyroll_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dandadan",
@@ -10825,7 +10878,8 @@
     "tomes": 7,
     "editeur": "Kurokawa",
     "url": "https://www.manga-news.com/index.php/serie/Dans-lombre-de-Creamy",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.dans-lombre-de-creamy-1-kurokawa_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dans-lombre-de-Creamy",
@@ -10911,7 +10965,8 @@
     "tomes": 2,
     "editeur": "Delcourt / Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Dans-le-premier-train-du-matin",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Dans_le_premier_train_du_matin_T01_-_Delcourt_Tonkam_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dans-le-premier-train-du-matin",
@@ -10965,7 +11020,8 @@
     "tomes": 3,
     "editeur": "Mana Books",
     "url": "https://www.manga-news.com/index.php/serie/Dark-Soul-Redemption",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Dark_Souls_Redemption_T01_-_Mana_Books_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dark-Soul-Redemption",
@@ -11065,7 +11121,8 @@
     "tomes": 30,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Darwins-Game",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.darwins-game-1-ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Darwins-Game",
@@ -11147,7 +11204,8 @@
     "tomes": 10,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Darwin-Incident",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Darwin_Incident_1_Kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Darwin-Incident",
@@ -11245,7 +11303,8 @@
     "tomes": 13,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Death-note",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.death_note_01_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Death-note",
@@ -11359,7 +11418,8 @@
     "tomes": 11,
     "editeur": "Mangetsu",
     "url": "https://www.manga-news.com/index.php/serie/Deep-3",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Deep_3_1_mangetsu_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Deep-3",
@@ -11544,7 +11604,8 @@
     "tomes": 23,
     "editeur": "Panini",
     "url": "https://www.manga-news.com/index.php/serie/Rodeurs-de-la-nuit-les",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.demon-slayers-1-panini_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Rodeurs-de-la-nuit-les",
@@ -11662,7 +11723,8 @@
     "tomes": 4,
     "editeur": "Kurokawa",
     "url": "https://www.manga-news.com/index.php/serie/Demon-Tune",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.demon-tune-1-kurokawa_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Demon-Tune",
@@ -11798,7 +11860,8 @@
     "tomes": 1,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Dernier-ecrivain-Le",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Le_Dernier__crivain_-_Tome_01_-_Glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dernier-ecrivain-Le",
@@ -12049,26 +12112,7 @@
     "maj": "2026-10-23"
    },
    "verifie": "2026-10-23",
-   "mangaNews": {
-    "tomes": 1,
-    "editeur": "Mana Books",
-    "url": "https://www.manga-news.com/index.php/serie/Developpeurs",
-    "date": "2026-08-04",
-    "titre": "Développeurs - Bienvenue dans le marécage de la création",
-    "approche": true
-   },
-   "mangaNewsFiche": {
-    "url": "https://www.manga-news.com/index.php/serie/Developpeurs",
-    "vf": 1,
-    "vfStatut": "En cours",
-    "vo": 3,
-    "voStatut": "Terminé",
-    "vfDernier": 3,
-    "vfDernierDate": "2026-08-20",
-    "pays": "JP",
-    "annee": 2024,
-    "verifie": "2026-10-23"
-   },
+   "mangaNews": null,
    "anilistVerifie": "2026-10-23"
   },
   "devenir-enfin-moi-meme": {
@@ -12119,7 +12163,8 @@
     "tomes": 1,
     "editeur": "Mana Books",
     "url": "https://www.manga-news.com/index.php/serie/Diable-shabille-en-papa-Le",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Le_diable_s_habille_en_papa_T01_-_Mana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Diable-shabille-en-papa-Le",
@@ -12211,6 +12256,7 @@
     "editeur": "Univers Partagés Editions",
     "url": "https://www.manga-news.com/index.php/serie/Divines",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.divines-univers-partages_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -13468,7 +13514,8 @@
     "tomes": 14,
     "editeur": "Kurokawa",
     "url": "https://www.manga-news.com/index.php/serie/Pedaleur-ne",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.en-selle-sakamichi-1-kurokawa_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Pedaleur-ne",
@@ -14088,7 +14135,8 @@
     "tomes": 4,
     "editeur": "Mangetsu",
     "url": "https://www.manga-news.com/index.php/serie/Erio-The-Electric-Doll",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Erio___The_Electric_Doll_T01_-_Mangetsu_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Erio-The-Electric-Doll",
@@ -14223,7 +14271,8 @@
     "tomes": 2,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Et-plus-si-affinite",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.et-plus-si-affinites-1-akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Et-plus-si-affinite",
@@ -14536,7 +14585,8 @@
     "tomes": 1,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Koiseyo-Mayakashi-Tenshi-domo",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Fall_in_Love__False_Angels_T01_-_Pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Koiseyo-Mayakashi-Tenshi-domo",
@@ -14600,7 +14650,8 @@
     "tomes": 4,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Fantastique-voyage-de-Nicola-au-pays-des-demons-le",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Le_Fantastique_voyage_de_Nicola_au_pays_des_d_mons_T01_-_Nobi_Nobi_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Fantastique-voyage-de-Nicola-au-pays-des-demons-le",
@@ -14824,7 +14875,8 @@
     "tomes": 4,
     "editeur": "Meian",
     "url": "https://www.manga-news.com/index.php/serie/Fin-du-monde-avec-mon-Shiba-Inu-la",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.fin-du-monde-shiba-inu-1_meian_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Fin-du-monde-avec-mon-Shiba-Inu-la",
@@ -15543,7 +15595,8 @@
     "tomes": 1,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Galaxias",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.galaxias-pika-1_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Galaxias",
@@ -16784,13 +16837,14 @@
     "tomes": 3,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Harem-de-limperatrice-Le",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Le_harem_de_l_imp_ratrice_T01_-_Pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Harem-de-limperatrice-Le",
     "lu": false,
     "vfDernierDate": "2026-08-26",
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "anilistVerifie": "2026-10-23"
   },
@@ -16843,7 +16897,8 @@
     "tomes": 1,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Heritiere-du-dragon-L",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.L_H_riti_re_du_dragon_-_Tome_01_-_Glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Heritiere-du-dragon-L",
@@ -16897,7 +16952,8 @@
     "tomes": 3,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Heritiers-dAgione-les",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Heritiers_d_Agione_1_kana_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Heritiers-dAgione-les",
@@ -17013,7 +17069,8 @@
     "tomes": 2,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Hero-Organization",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Hero_Organization_-_Tome_01_-_Glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Hero-Organization",
@@ -17101,7 +17158,8 @@
     "tomes": 5,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Heterogenia-Linguistico-Etude-linguistique-des-especes-fantastiques",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Heterogenia_1_nobi_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Heterogenia-Linguistico-Etude-linguistique-des-especes-fantastiques",
@@ -17275,7 +17333,8 @@
     "tomes": 2,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Hina-et-Bambi",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Hina_et_Bambi_T01_-_Nobi_Nobi_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Hina-et-Bambi",
@@ -17516,7 +17575,8 @@
     "tomes": 1,
     "editeur": "Noeve",
     "url": "https://www.manga-news.com/index.php/serie/Homme-inivsible-et-sa-future-epouse-l",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.L_Homme_invisible_et_sa_future__pouse_T01_-_Noeve_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Homme-inivsible-et-sa-future-epouse-l",
@@ -17812,7 +17872,8 @@
     "tomes": 4,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Ichi-the-Witch",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Ichi_the_Witch_T01_-_Ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ichi-the-Witch",
@@ -18565,7 +18626,8 @@
     "tomes": 5,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Jalouses",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Jalouses_-_Tome_1_-_Akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Jalouses",
@@ -18777,7 +18839,8 @@
     "tomes": 2,
     "editeur": "Imho",
     "url": "https://www.manga-news.com/index.php/serie/Anone",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.le-journal-de-hanako-imho-1_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Anone",
@@ -19061,7 +19124,8 @@
     "tomes": 6,
     "editeur": "Panini",
     "url": "https://www.manga-news.com/index.php/serie/Jungle-Juice",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Jungle_Juice_1_panini_toon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Jungle-Juice",
@@ -19193,7 +19257,8 @@
     "tomes": 28,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Kaguya-sama-Love-is-War",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Kaguya-sama-Love_is_War-1-pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Kaguya-sama-Love-is-War",
@@ -19503,7 +19568,8 @@
     "tomes": 10,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Kamisama-School",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Kamisama_School_1_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Kamisama-School",
@@ -19710,6 +19776,7 @@
     "editeur": "Kaze Manga",
     "url": "https://www.manga-news.com/index.php/serie/Kids-on-the-slope",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.kids-on-slope-manga_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -20633,7 +20700,8 @@
     "tomes": 1,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Lights-Drag-Action",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Lights-drag-action-manga-visual_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Lights-Drag-Action",
@@ -21124,7 +21192,8 @@
     "tomes": 9,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Love-Mix-up",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.love-mix-up-1-akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Love-Mix-up",
@@ -23286,7 +23355,8 @@
     "tomes": 4,
     "editeur": "Delcourt / Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Mission-in-the-Apocalypse",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Mission_in_the_Apocalypse_T01_-_Delcourt_Tonkam_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Mission-in-the-Apocalypse",
@@ -23625,7 +23695,8 @@
     "tomes": 3,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Momo-et-Ichi-:-Petits-esprits-de-la-campagne",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.momo-et-ichi-nobi-nobi-1_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Momo-et-Ichi-:-Petits-esprits-de-la-campagne",
@@ -24078,7 +24149,8 @@
     "tomes": 6,
     "editeur": "Noeve",
     "url": "https://www.manga-news.com/index.php/serie/Monthly-girls-Nozaki-kun",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/Monthly-girls-nozaki-kun-t1-prov.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Monthly-girls-Nozaki-kun",
@@ -24199,13 +24271,14 @@
     "tomes": 4,
     "editeur": "Albin Michel",
     "url": "https://www.manga-news.com/index.php/serie/Morgana-Oz",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Morgana___Oz_-_tome_1_-_Albin_Michel_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Morgana-Oz",
     "lu": false,
     "vfDernierDate": "2026-06-03",
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "anilistVerifie": "2026-10-23"
   },
@@ -24658,7 +24731,8 @@
     "tomes": 26,
     "editeur": "Kurokawa",
     "url": "https://www.manga-news.com/index.php/serie/My-Home-Hero",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.My-Home-Hero-1-kurokawa_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/My-Home-Hero",
@@ -25107,26 +25181,7 @@
     "maj": "2026-10-23"
    },
    "verifie": "2026-10-23",
-   "mangaNews": {
-    "tomes": 8,
-    "editeur": "Noeve",
-    "url": "https://www.manga-news.com/index.php/serie/Nichijo",
-    "date": "2026-08-04",
-    "titre": "Nichijô Récits du quotidien",
-    "approche": true
-   },
-   "mangaNewsFiche": {
-    "url": "https://www.manga-news.com/index.php/serie/Nichijo",
-    "vf": 8,
-    "vfStatut": "En cours",
-    "vo": 10,
-    "voStatut": "En cours",
-    "vfDernier": 9,
-    "vfDernierDate": "2026-07-17",
-    "pays": "JP",
-    "annee": 2007,
-    "verifie": "2026-10-23"
-   },
+   "mangaNews": null,
    "anilistVerifie": "2026-10-23"
   },
   "nikuko-du-port-de-peche": {
@@ -25339,10 +25394,11 @@
     "score": 1.0
    },
    "mangaNews": {
-    "tomes": 27,
-    "editeur": "Pika",
-    "url": "https://www.manga-news.com/index.php/serie/Noragami",
-    "date": "2026-08-04"
+    "tomes": 8,
+    "editeur": "Akata",
+    "url": "https://www.manga-news.com/index.php/serie/Nos-choeurs-evanescents",
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.nos-choeurs-evanescents-1-akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Nos-choeurs-evanescents",
@@ -25462,6 +25518,7 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Nos-Coeurs-de-chats",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Nos-coeurs-de-chat_t1_dokidoki_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -25803,7 +25860,8 @@
     "tomes": 2,
     "editeur": "Rue de Sèvres",
     "url": "https://www.manga-news.com/index.php/serie/Ochibi-et-ses-amis",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Ochibi_et_ses_amis_T1__-_Renard_Dor__medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ochibi-et-ses-amis",
@@ -26019,6 +26077,7 @@
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Lecteur-omniscient",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Omniscient-Readers-Viewpoint_t1_pika_medium.webp",
     "titre": "Omniscient Reader's Viewpoint - Lecteur omniscient",
     "approche": true
    },
@@ -26245,7 +26304,8 @@
     "tomes": 7,
     "editeur": "Noeve",
     "url": "https://www.manga-news.com/index.php/serie/One-Week-Friends",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.One_week_friends_-_Tome_01_-_Noeve_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/One-Week-Friends",
@@ -26532,7 +26592,8 @@
     "tomes": 10,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Oxalis-et-lor-l",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.oxalis-et-or-1-glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Oxalis-et-lor-l",
@@ -26659,7 +26720,8 @@
     "tomes": 5,
     "editeur": "Mangetsu",
     "url": "https://www.manga-news.com/index.php/serie/Pakka",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.pakka_1_mangetsu_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Pakka",
@@ -26784,26 +26846,7 @@
     "maj": "2026-10-23"
    },
    "verifie": "2026-10-23",
-   "mangaNews": {
-    "tomes": 8,
-    "editeur": "nobi nobi!",
-    "url": "https://www.manga-news.com/index.php/serie/Pan-Pan-Panda-Une-vie-en-douceur",
-    "date": "2026-08-04",
-    "titre": "Pan' Pan Panda - Une vie en douceur",
-    "approche": true
-   },
-   "mangaNewsFiche": {
-    "url": "https://www.manga-news.com/index.php/serie/Pan-Pan-Panda-Une-vie-en-douceur",
-    "vf": 8,
-    "vfStatut": "Terminé",
-    "vo": 8,
-    "voStatut": "Terminé",
-    "vfDernier": 5,
-    "vfDernierDate": "2024-10-23",
-    "pays": "JP",
-    "annee": 2008,
-    "verifie": "2026-10-23"
-   },
+   "mangaNews": null,
    "anilistVerifie": "2026-10-23"
   },
   "pandemonium": {
@@ -27248,7 +27291,8 @@
     "tomes": 7,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Petit-monde-de-Machida-le",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.petit-monde-de-machida-1-akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Petit-monde-de-Machida-le",
@@ -27388,7 +27432,8 @@
     "tomes": 2,
     "editeur": "nobi nobi!",
     "url": "https://www.manga-news.com/index.php/serie/Petits-en-cas-de-Monsieur-Matcha-les",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.En-cas-Monsieur_Matcha-1-nobi_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Petits-en-cas-de-Monsieur-Matcha-les",
@@ -27548,7 +27593,8 @@
     "tomes": 6,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Phantom-Busters",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Phantom-Busters_t1_kioon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Phantom-Busters",
@@ -28078,33 +28124,33 @@
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
    "mangaNews": {
-    "tomes": 3,
+    "tomes": 5,
     "editeur": "Kurokawa",
-    "url": "https://www.manga-news.com/index.php/serie/Pokemon-la-grande-aventure",
+    "url": "https://www.manga-news.com/index.php/serie/Pokemon-la-grande-aventure-Diamant-et-Perle",
     "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.pokemon-la-grande-aventure-1-kurokawa_medium.webp",
-    "titre": "Pokémon - La Grande Aventure",
+    "couv": "https://www.manga-news.com/public/images/series/.Pokemon-Diamant-Perle-1-kurokawa_medium.webp",
+    "titre": "Pokémon - La Grande Aventure - Diamant Perle Platine",
     "approche": true
    },
    "mangaNewsFiche": {
-    "url": "https://www.manga-news.com/index.php/serie/Pokemon-la-grande-aventure",
-    "vf": 3,
+    "url": "https://www.manga-news.com/index.php/serie/Pokemon-la-grande-aventure-Diamant-et-Perle",
+    "vf": 5,
     "vfStatut": "Terminé",
-    "vo": 3,
+    "vo": 5,
     "voStatut": "Terminé",
-    "vfDernierDate": "2017-11-09",
+    "vfDernierDate": "2021-10-14",
     "pays": "JP",
-    "annee": 1997,
+    "annee": 2008,
     "verifie": "2026-10-27"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
    "couvFR": {
     "source": "Manga-News",
-    "mn": "https://www.manga-news.com/index.php/serie/Pokemon-la-grande-aventure",
+    "mn": "https://www.manga-news.com/index.php/serie/Pokemon-la-grande-aventure-Diamant-et-Perle",
     "maj": "2026-10-27"
    },
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.pokemon-la-grande-aventure-1-kurokawa_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Pokemon-Diamant-Perle-1-kurokawa_medium.webp"
   },
   "pokemon-soleil-et-lune": {
    "anilist": {
@@ -28605,7 +28651,8 @@
     "tomes": 2,
     "editeur": "Akata",
     "url": "https://www.manga-news.com/index.php/serie/Principal",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Principal_-_Tome_1_-_Akata_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Principal",
@@ -28842,7 +28889,8 @@
     "tomes": 3,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Promenons-nous-dans-lespace",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Promenons-nous_dans_l_espace_-_Tome_01_-_Glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Promenons-nous-dans-lespace",
@@ -29489,7 +29537,8 @@
     "tomes": 5,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Reflection",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.reflection_1_pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Reflection",
@@ -29829,7 +29878,8 @@
     "tomes": 3,
     "editeur": "Delcourt / Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Rhapsody-in-Red",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Rhapsody_in_Red_T01_-_Delcourt_Tonkam_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Rhapsody-in-Red",
@@ -30020,7 +30070,8 @@
     "tomes": 17,
     "editeur": "Mangetsu",
     "url": "https://www.manga-news.com/index.php/serie/Ron-Kamonohashi-Deranged-Detective",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Ron_Kamonohashi_Deranged_Detective1_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ron-Kamonohashi-Deranged-Detective",
@@ -30183,7 +30234,8 @@
     "tomes": 4,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Ruridragon",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.ruridragon-1-glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ruridragon",
@@ -30689,7 +30741,8 @@
     "tomes": 8,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/SANDA",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Sanda_T01__-_Ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/SANDA",
@@ -31709,7 +31762,8 @@
     "tomes": 20,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Shadows-House",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.shadow-house-1-glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Shadows-House",
@@ -31994,6 +32048,7 @@
     "editeur": "Doki Doki",
     "url": "https://www.manga-news.com/index.php/serie/Shiba-Inu-Rooms",
     "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.shiba-inu-rooms-doki-doki-1_medium.webp",
     "editeurDifferent": true
    },
    "mangaNewsFiche": {
@@ -32100,7 +32155,8 @@
     "tomes": 3,
     "editeur": "Rue de Sèvres",
     "url": "https://www.manga-news.com/index.php/serie/Shin-Zero",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Shin-Zero_t1_Rue-de-sevres_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Shin-Zero",
@@ -33122,7 +33178,8 @@
     "tomes": 2,
     "editeur": "Delcourt / Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Sorcieres",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.sorcieres_01_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Sorcieres",
@@ -33911,7 +33968,8 @@
     "tomes": 7,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/Stray-Dog",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.stray-dog-1-glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Stray-Dog",
@@ -34160,7 +34218,8 @@
     "tomes": 2,
     "editeur": "Delcourt / Tonkam",
     "url": "https://www.manga-news.com/index.php/serie/Summer-Ghost",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Summer_Ghost_T01_-_Delcourt_Tonkam_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Summer-Ghost",
@@ -34385,7 +34444,8 @@
     "tomes": 4,
     "editeur": "Ki-oon",
     "url": "https://www.manga-news.com/index.php/serie/Switch-Family",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Switch_Family_T01__-_Ki-oon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Switch-Family",
@@ -35015,7 +35075,8 @@
     "tomes": 5,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Terror-Man",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Terror_Man_T01_-_Pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Terror-Man",
@@ -35103,7 +35164,8 @@
     "tomes": 11,
     "editeur": "Kbooks",
     "url": "https://www.manga-news.com/index.php/serie/The-Beginning-After-The-End",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.The_Beginning_After_The_End_1_kbooks_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Beginning-After-The-End",
@@ -35242,7 +35304,8 @@
     "tomes": 10,
     "editeur": "Kbooks",
     "url": "https://www.manga-news.com/index.php/serie/The-Druid-of-Seoul-Station",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.seoul-station-druid-1-kbooks_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Druid-of-Seoul-Station",
@@ -35354,35 +35417,10 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "mangaNews": {
-    "tomes": 3,
-    "editeur": "LaNovel",
-    "url": "https://www.manga-news.com/index.php/serie/The-Faraway-Paladin",
-    "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.The_Faraway_Paladin_LN_medium.webp",
-    "titre": "The Faraway Paladin - Light Novel",
-    "approche": true
-   },
-   "mangaNewsFiche": {
-    "url": "https://www.manga-news.com/index.php/serie/The-Faraway-Paladin",
-    "vf": 3,
-    "vfStatut": "Stoppé",
-    "vo": 5,
-    "voStatut": "En cours",
-    "vfDernier": 3,
-    "vfDernierDate": "2025-04-11",
-    "pays": "JP",
-    "annee": 2015,
-    "verifie": "2026-10-23"
-   },
+   "mangaNews": null,
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
-   "couvFR": {
-    "source": "Manga-News",
-    "mn": "https://www.manga-news.com/index.php/serie/The-Faraway-Paladin",
-    "maj": "2026-10-27"
-   },
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.The_Faraway_Paladin_LN_medium.webp"
+   "couvEssaiMN": ""
   },
   "the-ghost-in-the-shell": {
    "anilist": {
@@ -35768,7 +35806,8 @@
     "tomes": 2,
     "editeur": "Glénat",
     "url": "https://www.manga-news.com/index.php/serie/The-Regalia-of-the-Underdog",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.The-Regalia-of-the-Underdog_t1_glenat_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Regalia-of-the-Underdog",
@@ -37555,7 +37594,8 @@
     "tomes": 2,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Une-si-belle-couleur",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Une_si_belle_couleur_1_pika_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Une-si-belle-couleur",
@@ -37705,13 +37745,14 @@
     "tomes": 4,
     "editeur": "Hugo Publishing",
     "url": "https://www.manga-news.com/index.php/serie/Unordinary",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Unordinary_-_Tome_01_-_Hugo_BD_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Unordinary",
     "lu": false,
     "vfDernierDate": "2026-05-13",
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-27"
    },
    "anilistVerifie": "2026-10-23"
   },
@@ -38416,7 +38457,8 @@
     "tomes": 1,
     "editeur": "Kotoon",
     "url": "https://www.manga-news.com/index.php/serie/Whale-Star",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.Whale_Star_-_tome_1_-_Kotoon_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Whale-Star",
@@ -38618,7 +38660,8 @@
     "tomes": 13,
     "editeur": "Soleil",
     "url": "https://www.manga-news.com/index.php/serie/Witch-Watch",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.witch-watch-1-soleil_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Witch-Watch",
@@ -39078,7 +39121,8 @@
     "tomes": 46,
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Yona-Princesse-de-lAube",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.yona-princesse-de-l-aube_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Yona-Princesse-de-lAube",
@@ -39448,7 +39492,8 @@
     "tomes": 19,
     "editeur": "Kana",
     "url": "https://www.manga-news.com/index.php/serie/Yuyu-Hakusho",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.yuyuhakusho01_09022003_medium.webp"
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Yuyu-Hakusho",
