@@ -10,6 +10,7 @@ Suivixo remplace le classeur Excel « MangaV2-3 » (créé par Erick Bagliniere)
 
 - **Séries** : chaque série apparaît comme une rangée de tranches. Une tranche pleine est un tome présent dans ta médiathèque, une tranche tramée est un tome présent ailleurs dans le réseau, un contour rouge est un tome paru mais absent du réseau, et un pointillé est un tome pas encore paru en France. Le statut reprend celui de l'Excel : Finie, À compléter, À continuer, En attente.
 - **À acheter** : tomes absents de tout le réseau, tomes absents de ta médiathèque mais disponibles ailleurs, exemplaires perdus ou à remplacer, tomes à paraître. Export en tableur et impression.
+- **Prêts** : séries les plus empruntées (au total ou par exemplaire), réservées en ce moment, lecteurs qui continuent ou s'arrêtent après le tome 1, séries qui sortent le moins, prêts par genre et par médiathèque. Pour sa médiathèque ou pour tout le réseau, avec export en tableur. Ces chiffres restent dans le navigateur où l'export Orphée a été importé.
 - **Contrôles** : commandes arrivées, nouvelles séries, exemplaires sans numéro de tome, séries à relier, etc.
 - **Importer** : on dépose l'export Excel d'Orphée. Le fichier est lu dans le navigateur et n'est envoyé nulle part.
 

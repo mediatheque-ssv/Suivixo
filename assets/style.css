@@ -454,3 +454,47 @@ details.repli[open] > summary { margin-bottom: 12px; }
 .rp-tete .rp-num.avenir { opacity: 0.5; }
 .rp-total { font-size: 0.8125rem; color: var(--encre-3); min-width: 40px; }
 .rp-resume { margin: 10px 0 0; }
+
+/* ---------- page des prêts ---------- */
+.kpi { display: flex; flex-wrap: wrap; gap: 14px 0; margin: 20px 0 8px; background: var(--surface); border: 1px solid var(--filet); border-radius: var(--rayon); padding: 16px 0; }
+.kpi div { padding: 0 24px; border-left: 1px solid var(--filet); min-width: 150px; }
+.kpi div:first-child { border-left: 0; }
+.kpi strong { display: block; font-size: 1.75rem; font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; font-variant-numeric: proportional-nums; }
+.kpi span { font-size: 0.8125rem; color: var(--encre-2); }
+.prets-grille { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; align-items: start; }
+.prets-grille > * { min-width: 0; }
+.titre-section { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.titre-section h2 { margin-bottom: 4px; }
+.vues.petit button { padding: 3px 10px; font-size: 0.8125rem; }
+
+/* listes à barres : une seule teinte (encre), le reste en retrait */
+.bp li { gap: 12px; padding: 8px 14px; }
+.bp .vignette { width: 30px; }
+.bp-titre { flex: 1 1 40%; min-width: 0; font-weight: 700; font-size: 0.9375rem; line-height: 1.3; }
+.bp-titre small { display: block; font-weight: 400; color: var(--encre-3); font-size: 0.75rem; }
+.bp-barre { flex: 1 1 42%; display: flex; align-items: center; gap: 6px; min-width: 120px; }
+.bp-trait { display: block; height: 10px; width: calc((100% - 5.5rem) * var(--x)); background: var(--encre); border-radius: 0 4px 4px 0; flex: none; }
+.bp-val { font-size: 0.8125rem; font-weight: 700; white-space: nowrap; color: var(--encre); }
+.bp-ligne.attenue .bp-trait { background: var(--encre-3); }
+.bp-ligne.attenue .bp-val { color: var(--encre-2); font-weight: 500; }
+.bp li.cliquable:hover .bp-trait { background: var(--focus); }
+/* prêts par tome : petites colonnes, le tome 1 en encre, la suite en retrait */
+.bp-tomes { display: flex; align-items: flex-end; gap: 2px; height: 26px; flex: none; width: 150px; }
+.bp-tomes span { width: 5px; flex: none; background: var(--encre-3); border-radius: 2px 2px 0 0; }
+.bp-barre.sans-trait { flex: 0 0 auto; min-width: 3.5rem; justify-content: flex-end; }
+.bp-barre.sans-trait .bp-val { font-size: 0.9375rem; font-weight: 800; }
+.bp-tomes span.t1 { background: var(--encre); }
+
+@media (max-width: 900px) {
+  .prets-grille { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .kpi { padding: 12px 0; }
+  .kpi div { min-width: 50%; padding: 0 14px; border-left: 0; }
+  .kpi strong { font-size: 1.375rem; }
+  .bp li { flex-wrap: wrap; }
+  .bp-titre { flex-basis: calc(100% - 44px); }
+  .bp-barre { flex-basis: 100%; padding-left: 42px; }
+  .bp-tomes { margin-left: 42px; }
+  .bp-barre.sans-trait { flex-basis: auto; padding-left: 0; margin-left: auto; }
+}

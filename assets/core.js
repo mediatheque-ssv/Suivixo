@@ -219,7 +219,7 @@ export function construireFonds(exemplaires, series, meta = {}) {
 
   const assurer = (id, ex) => {
     if (!fonds[id]) fonds[id] = { titreOrphee: titreNaturel(ex.titreBrut.split("\n")[0]), editeur: "", auteur: "", tomes: {}, hs: {}, retires: [] };
-    if (!stats[id]) stats[id] = { prets: {}, empruntes: {}, reserves: {}, exemplaires: {} };
+    if (!stats[id]) stats[id] = { prets: {}, empruntes: {}, reserves: {}, exemplaires: {}, parTome: {} };
     return fonds[id];
   };
 
@@ -277,6 +277,12 @@ export function construireFonds(exemplaires, series, meta = {}) {
       continue;
     }
     if (tome.type === "oneshot") f.oneShot = true;
+    // prêts par tome : [prêts cumulés, exemplaires], pour voir si les lecteurs continuent après le tome 1
+    if (tome.type === "num" && tome.nums.length) {
+      const pt = (st.parTome[ex.bib] ||= {});
+      const c = (pt[tome.nums[0]] ||= [0, 0]);
+      c[0] += ex.prets || 0; c[1] += 1;
+    }
     const liste = new Set(f.tomes[ex.bib] || []);
     tome.nums.forEach((n) => liste.add(n));
     f.tomes[ex.bib] = [...liste].sort((a, b) => a - b);

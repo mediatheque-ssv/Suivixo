@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=14";
+import * as C from "./core.js?v=15";
 import { publier, verifierCle } from "./github.js";
 
 // ---------------------------------------------------------------------------
@@ -13,6 +13,7 @@ const lsSet = (k, v) => { try { if (v === null) localStorage.removeItem(k); else
 const PREFS_DEFAUT = {
   bib: "Servon-sur-Vilaine", perimetre: "reseau", presence: "moi", tri: "titre", affichage: "couvertures",
   statut: null, public: "", genre: "", q: "", depot: "mediatheque-ssv/Suivixo",
+  pretsPortee: "ici", pretsTri: "total",
 };
 
 const etat = {
@@ -704,12 +705,237 @@ function exporterCSV() {
   absentsReseau.forEach((v) => lignes.push(["Absent du réseau", v.s.titre, v.f?.editeur || "", C.listeCompacte(v.manquantsReseau), ...p(v)]));
   absentsIci.forEach((x) => lignes.push([`Absent de ${court(bib)}`, x.v.s.titre, x.v.f?.editeur || "", C.listeCompacte(x.t), ...p(x.v)]));
   aRemplacer.forEach((x) => lignes.push(["À remplacer", x.v.s.titre, x.v.f?.editeur || "", x.r.map((r) => r.tome ?? "?").join(", "), ...p(x.v)]));
+  telechargerCSV(lignes, `suivixo-a-acheter-${court(bib).toLowerCase()}-${new Date().toISOString().slice(0, 10)}.csv`);
+}
+
+/** Fichier CSV lisible par Excel (point-virgule, BOM UTF-8). */
+function telechargerCSV(lignes, nom) {
   const csv = "﻿" + lignes.map((l) => l.map((c) => `"${String(c).replace(/"/g, '""')}"`).join(";")).join("\r\n");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
-  a.download = `suivixo-a-acheter-${court(bib).toLowerCase()}-${new Date().toISOString().slice(0, 10)}.csv`;
+  a.download = nom;
   a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+
+// ---------------------------------------------------------------------------
+// Vue : prêts (chiffres de l'export Orphée, gardés dans ce navigateur, jamais publiés)
+// ---------------------------------------------------------------------------
+
+const nf1 = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 1 });
+const pct = new Intl.NumberFormat("fr-FR", { style: "percent", maximumFractionDigits: 0 });
+
+/** Chiffres de prêt d'une série, pour ma médiathèque ou pour tout le réseau. */
+function chiffresPrets(v, portee) {
+  const st = etat.stats?.series?.[v.s.id];
+  if (!st) return null;
+  const bib = etat.prefs.bib;
+  const pris = (o) => (portee === "ici" ? o?.[bib] || 0 : somme(o));
+  const ex = pris(st.exemplaires);
+  if (!ex) return null;
+  const pr = pris(st.prets);
+  const tomes = {};
+  for (const b of portee === "ici" ? [bib] : Object.keys(st.parTome || {})) {
+    for (const [n, [p, e]] of Object.entries(st.parTome?.[b] || {})) {
+      const c = (tomes[n] ||= [0, 0]);
+      c[0] += p; c[1] += e;
+    }
+  }
+  return { v, ex, pr, parEx: pr / ex, emp: pris(st.empruntes), res: pris(st.reserves), tomes, detailTomes: !!st.parTome };
+}
+
+/** Les lecteurs du tome 1 lisent-ils la suite ? On compare aux tomes 2 et 3, arrivés en général en même temps
+ *  (les derniers tomes, plus récents, ont forcément moins de prêts). */
+function suiteDuTome1(c) {
+  const t = c.tomes;
+  if (!t[1] || !(t[2] || t[3]) || Object.keys(t).length < 3) return null;
+  const r1 = t[1][0] / t[1][1];
+  if (r1 < 5) return null; // trop peu de prêts pour conclure
+  const suite = [2, 3].filter((n) => t[n]).map((n) => t[n][0] / t[n][1]);
+  const rs = suite.reduce((a, b) => a + b, 0) / suite.length;
+  return { r1, rs, ratio: rs / r1 };
+}
+
+function ligneBarre({ id = "", titre, sous = "", x, texte, attenue = false, couv = "", extra = "" }) {
+  return `<li class="bp-ligne${id ? " cliquable" : ""}${attenue ? " attenue" : ""}"${id ? ` data-serie="${h(id)}"` : ""}>
+    ${couv ? `<span class="vignette">${couv}</span>` : ""}
+    <span class="bp-titre">${id ? `<button type="button" class="lien-serie" data-serie="${h(id)}">${h(titre)}</button>` : `<span>${h(titre)}</span>`}${sous ? `<small>${h(sous)}</small>` : ""}</span>
+    ${extra}
+    <span class="bp-barre${x === null ? " sans-trait" : ""}" title="${h(titre)} : ${h(texte)}">${x === null ? "" : `<span class="bp-trait" style="--x:${Math.max(0.015, Math.min(1, x)).toFixed(3)}"></span>`}<span class="bp-val">${h(texte)}</span></span>
+  </li>`;
+}
+
+function colonnesTomes(c) {
+  const ns = Object.keys(c.tomes).map(Number).sort((a, b) => a - b).slice(0, 40);
+  const vals = ns.map((n) => c.tomes[n][0] / c.tomes[n][1]);
+  const max = Math.max(...vals, 1);
+  const lu = ns.map((n, i) => `tome ${n} : ${nf1.format(vals[i])}`).join(", ");
+  // colonnes plus fines quand la série est longue, pour tenir dans la même largeur
+  const larg = Math.max(2, Math.min(6, Math.floor((150 - 2 * ns.length) / ns.length)));
+  return `<span class="bp-tomes" role="img" aria-label="Prêts par exemplaire, ${h(lu)}">${ns.map((n, i) =>
+    `<span class="${n === 1 ? "t1" : ""}" style="width:${larg}px;height:${Math.max(6, (vals[i] / max) * 100).toFixed(0)}%" title="Tome ${n} : ${nf1.format(vals[i])} prêts par exemplaire"></span>`).join("")}</span>`;
+}
+
+function donneesPrets() {
+  const portee = etat.prefs.pretsPortee === "reseau" ? "reseau" : "ici";
+  const liste = etat.vues.map((v) => chiffresPrets(v, portee)).filter(Boolean);
+  const tot = liste.reduce((a, c) => ({ ex: a.ex + c.ex, pr: a.pr + c.pr, emp: a.emp + c.emp, res: a.res + c.res }), { ex: 0, pr: 0, emp: 0, res: 0 });
+  return { portee, liste, tot };
+}
+
+function rendrePrets() {
+  const bib = court(etat.prefs.bib);
+  if (!etat.stats) {
+    $("#vue").innerHTML = `
+      <h1>Les prêts</h1>
+      <p class="chapo">Cette page montre quelles séries sortent le plus, lesquelles sont réservées en ce moment et lesquelles ne sortent plus. Les chiffres viennent de l'export Orphée : importe-le sur ce poste pour les voir.</p>
+      <p><a class="btn btn-fort" href="#import">Importer un export Orphée</a></p>
+      <p class="explication">Les prêts et les réservations restent dans ce navigateur. Ils ne sont jamais publiés.</p>`;
+    return;
+  }
+  const { portee, liste, tot } = donneesPrets();
+  const ou = portee === "ici" ? `à ${bib}` : "dans le réseau";
+  const tri = etat.prefs.pretsTri === "parEx" ? "parEx" : "total";
+
+  const top = [...liste].sort((a, b) => (tri === "total" ? b.pr - a.pr || b.parEx - a.parEx : b.parEx - a.parEx || b.pr - a.pr)).slice(0, 15);
+  const maxTop = Math.max(...top.map((c) => (tri === "total" ? c.pr : c.parEx)), 1);
+  const lignesTop = top.map((c) => ligneBarre({
+    id: c.v.s.id, titre: c.v.s.titre, couv: couverture(c.v),
+    sous: tri === "total" ? `${pluriel(c.ex, "exemplaire")}, ${nf1.format(c.parEx)} prêts par ex.` : `${pluriel(c.pr, "prêt")} pour ${pluriel(c.ex, "exemplaire")}`,
+    x: (tri === "total" ? c.pr : c.parEx) / maxTop,
+    texte: tri === "total" ? pluriel(c.pr, "prêt") : `${nf1.format(c.parEx)} / ex.`,
+  })).join("");
+
+  const attente = liste.filter((c) => c.res > 0).sort((a, b) => b.res - a.res || b.emp / b.ex - a.emp / a.ex);
+  const lignesAttente = attente.slice(0, 12).map((c) => `<li class="cliquable" data-serie="${h(c.v.s.id)}">
+      <span class="vignette">${couverture(c.v)}</span>
+      <span class="item-titre"><button type="button" class="lien-serie" data-serie="${h(c.v.s.id)}">${h(c.v.s.titre)}</button><small>${c.emp ? `${c.emp} ${c.emp > 1 ? "exemplaires sortis" : "exemplaire sorti"} sur ${c.ex}` : `${pluriel(c.ex, "exemplaire")}, aucun sorti`}</small></span>
+      <span class="item-tomes neutre">${pluriel(c.res, "réservation")}</span>
+    </li>`).join("");
+
+  const detail = liste.some((c) => c.detailTomes);
+  const suites = liste.map((c) => ({ c, s: suiteDuTome1(c) })).filter((x) => x.s);
+  const ligneSuite = (x) => ligneBarre({
+    id: x.c.v.s.id, titre: x.c.v.s.titre, couv: couverture(x.c.v),
+    sous: `tome 1 : ${nf1.format(x.s.r1)} prêts par ex., tomes 2 et 3 : ${nf1.format(x.s.rs)}`,
+    x: null, texte: pct.format(Math.min(x.s.ratio, 9.99)),
+    extra: colonnesTomes(x.c),
+  });
+  const arret = suites.filter((x) => x.s.ratio <= 0.5).sort((a, b) => a.s.ratio - b.s.ratio || b.s.r1 - a.s.r1).slice(0, 8);
+  const continuent = suites.filter((x) => x.s.ratio >= 0.9).sort((a, b) => b.s.r1 - a.s.r1).slice(0, 8);
+
+  const recente = (v) => (v.s.ajout && Date.now() - Date.parse(v.s.ajout) < 365 * 864e5);
+  const calmes = liste.filter((c) => !recente(c.v) && c.emp === 0 && c.res === 0).sort((a, b) => a.parEx - b.parEx || a.pr - b.pr).slice(0, 15);
+  const maxCalme = Math.max(...calmes.map((c) => c.parEx), 1);
+  const lignesCalmes = calmes.map((c) => ligneBarre({
+    id: c.v.s.id, titre: c.v.s.titre, couv: couverture(c.v),
+    sous: `${pluriel(c.pr, "prêt")} pour ${pluriel(c.ex, "exemplaire")}`, x: c.parEx / maxCalme, texte: `${nf1.format(c.parEx)} / ex.`, attenue: true,
+  })).join("");
+
+  const parGenre = {};
+  for (const c of liste) {
+    const g = c.v.genre || "Sans genre";
+    const o = (parGenre[g] ||= { ex: 0, pr: 0, n: 0 });
+    o.ex += c.ex; o.pr += c.pr; o.n += 1;
+  }
+  const genres = Object.entries(parGenre).sort((a, b) => b[1].pr / b[1].ex - a[1].pr / a[1].ex);
+  const maxGenre = Math.max(...genres.map(([, o]) => o.pr / o.ex), 1);
+  const lignesGenres = genres.map(([g, o]) => ligneBarre({
+    titre: g, sous: `${pluriel(o.n, "série")}, ${pluriel(o.ex, "exemplaire")}`, x: o.pr / o.ex / maxGenre, texte: `${nf1.format(o.pr / o.ex)} / ex.`, attenue: g === "Sans genre",
+  })).join("");
+
+  // toutes les médiathèques, quelle que soit la portée choisie
+  const parBib = {};
+  for (const st of Object.values(etat.stats.series || {})) {
+    for (const [b, n] of Object.entries(st.exemplaires || {})) {
+      const o = (parBib[b] ||= { ex: 0, pr: 0, emp: 0 });
+      o.ex += n; o.pr += st.prets?.[b] || 0; o.emp += st.empruntes?.[b] || 0;
+    }
+  }
+  const bibs = Object.entries(parBib).filter(([, o]) => o.ex).sort((a, b) => b[1].pr / b[1].ex - a[1].pr / a[1].ex);
+  const maxBib = Math.max(...bibs.map(([, o]) => o.pr / o.ex), 1);
+  const lignesBibs = bibs.map(([b, o]) => ligneBarre({
+    titre: court(b), sous: `${pluriel(o.ex, "exemplaire")}, ${pct.format(o.emp / o.ex)} sortis en ce moment`, x: o.pr / o.ex / maxBib,
+    texte: `${nf1.format(o.pr / o.ex)} / ex.`, attenue: b !== etat.prefs.bib,
+  })).join("");
+
+  const vide = (t) => `<p class="explication">${t}</p>`;
+  $("#vue").innerHTML = `
+    <div class="entete-vue">
+      <h1>Les prêts</h1>
+      <div class="liens-vue"><button class="btn-lien" data-action="csv-prets">Exporter en tableur</button></div>
+    </div>
+    <p class="chapo">D'après l'export Orphée du ${h(dateFr(etat.stats.date))}. Les prêts sont cumulés depuis l'arrivée de chaque exemplaire. Ces chiffres restent dans ce navigateur : ils ne sont jamais publiés.</p>
+    <div class="vues" role="group" aria-label="Portée">
+      <button type="button" data-portee="ici" aria-pressed="${portee === "ici"}">${h(bib)}</button>
+      <button type="button" data-portee="reseau" aria-pressed="${portee === "reseau"}">Tout le réseau</button>
+    </div>
+
+    <div class="kpi">
+      <div><strong>${nf.format(tot.pr)}</strong><span>prêts au total</span></div>
+      <div><strong>${nf.format(tot.ex)}</strong><span>exemplaires</span></div>
+      <div><strong>${tot.ex ? nf1.format(tot.pr / tot.ex) : "0"}</strong><span>prêts par exemplaire</span></div>
+      <div><strong>${nf.format(tot.emp)}</strong><span>sortis en ce moment${tot.ex ? `, ${pct.format(tot.emp / tot.ex)} du fonds` : ""}</span></div>
+      <div><strong>${nf.format(tot.res)}</strong><span>${tot.res > 1 ? "réservés" : "réservé"} en ce moment</span></div>
+    </div>
+
+    <div class="prets-grille">
+      <section>
+        <div class="titre-section"><h2>Les plus empruntées ${h(ou)}</h2>
+          <div class="vues petit" role="group" aria-label="Classer">
+            <button type="button" data-tri-prets="total" aria-pressed="${tri === "total"}">Au total</button>
+            <button type="button" data-tri-prets="parEx" aria-pressed="${tri === "parEx"}">Par exemplaire</button>
+          </div>
+        </div>
+        <p class="explication">${tri === "total" ? "Une série avec beaucoup de tomes cumule forcément beaucoup de prêts." : "Les prêts divisés par le nombre d'exemplaires : chaque tome compte autant, que la série soit longue ou courte."}</p>
+        <ul class="items bp">${lignesTop}</ul>
+      </section>
+      <section>
+        <h2>Réservées en ce moment</h2>
+        <p class="explication">Une série souvent réservée mérite peut-être un exemplaire de plus.</p>
+        ${attente.length ? `<ul class="items">${lignesAttente}</ul>` : vide("Aucune réservation en cours.")}
+      </section>
+    </div>
+
+    <section>
+      <h2>Après le tome 1, les lecteurs continuent-ils ?</h2>
+      <p class="explication">Le pourcentage compare les prêts des tomes 2 et 3 à ceux du tome 1 (achetés en général en même temps ; les derniers tomes, plus récents, ont forcément moins de prêts). Les petites colonnes montrent les prêts de chaque tome, le tome 1 en foncé. Seulement les séries dont le tome 1 sort bien : au moins 5 prêts par exemplaire.</p>
+      ${!detail ? vide("Ce détail par tome n'existait pas encore lors de ton dernier import. Refais un import Orphée pour le voir.")
+        : `<div class="prets-grille">
+        <div><h3>Les lecteurs continuent</h3>${continuent.length ? `<ul class="items bp">${continuent.map(ligneSuite).join("")}</ul>` : vide("Aucune série pour l'instant.")}</div>
+        <div><h3>Les lecteurs s'arrêtent</h3>${arret.length ? `<ul class="items bp">${arret.map(ligneSuite).join("")}</ul>` : vide("Aucune série où les lecteurs décrochent nettement.")}</div>
+      </div>`}
+    </section>
+
+    <div class="prets-grille">
+      <section>
+        <h2>Celles qui sortent le moins</h2>
+        <p class="explication">Les moins de prêts par exemplaire, parmi les séries qui ne sont ni sorties ni réservées en ce moment. Les séries arrivées depuis moins d'un an ne sont pas comptées. À mettre en avant, ou à regarder au moment du désherbage.</p>
+        ${calmes.length ? `<ul class="items bp">${lignesCalmes}</ul>` : vide("Aucune.")}
+      </section>
+      <section>
+        <h2>Par genre</h2>
+        <p class="explication">Prêts par exemplaire ${h(ou)}, genre par genre.</p>
+        <ul class="items bp">${lignesGenres}</ul>
+        <h2>Dans le réseau</h2>
+        <p class="explication">Prêts par exemplaire de mangas, médiathèque par médiathèque.</p>
+        <ul class="items bp">${lignesBibs}</ul>
+      </section>
+    </div>
+  `;
+}
+
+function exporterCSVPrets() {
+  const bib = etat.prefs.bib;
+  const lignes = [["Série", "Éditeur", "Genre", `Exemplaires ${court(bib)}`, `Prêts ${court(bib)}`, `Prêts par exemplaire ${court(bib)}`, "Exemplaires réseau", "Prêts réseau", "Prêts par exemplaire réseau", "Sortis en ce moment (réseau)", "Réservés en ce moment (réseau)"]];
+  const virg = (x) => (Number.isFinite(x) ? String(Math.round(x * 10) / 10).replace(".", ",") : "");
+  for (const v of [...etat.vues].sort((a, b) => a.cle.localeCompare(b.cle, "fr"))) {
+    const r = chiffresPrets(v, "reseau");
+    if (!r) continue;
+    const i = chiffresPrets(v, "ici");
+    lignes.push([v.s.titre, v.f?.editeur || "", v.genre || "", i?.ex || 0, i?.pr || 0, i ? virg(i.parEx) : "", r.ex, r.pr, virg(r.parEx), r.emp, r.res]);
+  }
+  telechargerCSV(lignes, `suivixo-prets-${(etat.stats.date || "").slice(0, 10)}.csv`);
 }
 
 // ---------------------------------------------------------------------------
@@ -1045,9 +1271,9 @@ function toast(msg, erreur = false) {
 
 function rendre() {
   const vue = (location.hash.replace("#", "") || "series").split("/")[0];
-  etat.vue = ["series", "acheter", "controles", "import"].includes(vue) ? vue : "series";
+  etat.vue = ["series", "acheter", "prets", "controles", "import"].includes(vue) ? vue : "series";
   $$(".onglets a").forEach((a) => { if (a.dataset.vue === etat.vue) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
-  ({ series: rendreSeries, acheter: rendreAcheter, controles: rendreControles, import: rendreImport })[etat.vue]();
+  ({ series: rendreSeries, acheter: rendreAcheter, prets: rendrePrets, controles: rendreControles, import: rendreImport })[etat.vue]();
   majEntete();
 }
 
@@ -1088,6 +1314,8 @@ function brancher() {
     if (!t) return;
     if ("statut" in t.dataset) { etat.prefs.statut = t.dataset.statut || null; etat.limite = 150; rendre(); return; }
     if (t.dataset.ongletAchat) { etat.ongletAchat = t.dataset.ongletAchat; rendre(); return; }
+    if (t.dataset.portee) { etat.prefs.pretsPortee = t.dataset.portee; sauverPrefs(); rendre(); $(`[data-portee="${t.dataset.portee}"]`)?.focus(); return; }
+    if (t.dataset.triPrets) { etat.prefs.pretsTri = t.dataset.triPrets; sauverPrefs(); rendre(); $(`[data-tri-prets="${t.dataset.triPrets}"]`)?.focus(); return; }
     if (t.dataset.affichage) { etat.prefs.affichage = t.dataset.affichage; sauverPrefs(); rendre(); return; }
     if (t.dataset.serie) { ouvrirFiche(t.dataset.serie); return; }
     const a = t.dataset.action;
@@ -1098,6 +1326,7 @@ function brancher() {
       sauverPrefs(); calculer(); rendre();
     }
     else if (a === "csv") exporterCSV();
+    else if (a === "csv-prets") exporterCSVPrets();
     else if (a === "imprimer") window.print();
     else if (a === "appliquer-import") appliquerImport();
     else if (a === "annuler-import") { etat.importPrevu = null; rendre(); }

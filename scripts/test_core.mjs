@@ -47,6 +47,9 @@ t("lecture d'un export Orphée", () => {
   assert.equal(r.fonds.series.radiant.retires.length, 1);
   assert.equal(r.stats.series.radiant.prets["Servon-sur-Vilaine"], 12);
   assert.equal(r.stats.series.radiant.empruntes.Chateaugiron, 1);
+  // prêts par tome : [prêts, exemplaires] ; l'exemplaire perdu ne compte pas
+  assert.deepEqual(r.stats.series.radiant.parTome["Servon-sur-Vilaine"], { 1: [12, 1] });
+  assert.deepEqual(r.stats.series.radiant.parTome.Chateaugiron, { 2: [5, 1] });
   assert.equal(r.nouvelles.length, 0);
 });
 t("export Orphée avec lignes vides et sauts de page", () => {
