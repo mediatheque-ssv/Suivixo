@@ -8,16 +8,8 @@
   <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Dela+Gothic+One&family=Fredoka:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=10">
-  <script>
-    // thème choisi (Réglages → Apparence), ou essai sans l'enregistrer avec ?theme=… dans l'adresse
-    try {
-      const essai = new URLSearchParams(location.search).get("theme");
-      const t = essai || JSON.parse(localStorage.getItem("suivixo.prefs") || "{}").theme;
-      if (t && t !== "violet") document.documentElement.dataset.theme = t;
-    } catch (e) { /* stockage indisponible */ }
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=11">
 </head>
 <body>
   <!-- motif partagé par toutes les tranches « ailleurs dans le réseau » -->
@@ -77,17 +69,6 @@
         <select id="in-bib"></select>
       </label>
 
-      <label class="champ">
-        <span>Apparence</span>
-        <select id="in-theme">
-          <option value="violet">Violet</option>
-          <option value="shonen">Shōnen : noir, rouge et jaune</option>
-          <option value="sakura">Sakura : rose et vert, tout en rondeur</option>
-          <option value="tokyo">Tokyo la nuit : fond sombre, néons</option>
-          <option value="lagon">Lagon : sarcelle, corail et tournesol</option>
-        </select>
-      </label>
-
       <h3>Publier les modifications</h3>
       <p class="discret">Pour que l'équipe voie tes modifications, Suivixo a besoin d'une clé d'accès GitHub. Elle reste dans ce navigateur. Sans clé, tout se consulte mais rien n'est publié.</p>
       <label class="champ">
@@ -124,6 +105,6 @@
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
   <script src="assets/vendor/xlsx.full.min.js" defer></script>
-  <script type="module" src="assets/app.js?v=18"></script>
+  <script type="module" src="assets/app.js?v=19"></script>
 </body>
 </html>

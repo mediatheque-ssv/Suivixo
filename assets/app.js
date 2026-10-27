@@ -13,14 +13,8 @@ const lsSet = (k, v) => { try { if (v === null) localStorage.removeItem(k); else
 const PREFS_DEFAUT = {
   bib: "Servon-sur-Vilaine", perimetre: "reseau", presence: "moi", tri: "titre", affichage: "couvertures",
   statut: null, public: "", genre: "", q: "", depot: "mediatheque-ssv/Suivixo",
-  pretsPortee: "ici", pretsTri: "total", theme: "violet",
+  pretsPortee: "ici", pretsTri: "total",
 };
-
-/** Thème affiché (data-theme sur <html>) ; « violet » est le thème de base, sans attribut. */
-function appliquerTheme(t) {
-  if (t && t !== "violet") document.documentElement.dataset.theme = t;
-  else delete document.documentElement.dataset.theme;
-}
 
 const etat = {
   series: [], fonds: { series: {}, bibliotheques: [], anomalies: [] }, enrich: { series: {} },
@@ -1218,16 +1212,13 @@ function ouvrirReglages(message) {
     ? `Les prêts de l'import du ${dateFr(etat.stats.date)} sont enregistrés dans ce navigateur. Ils ne sont pas publiés.`
     : "Aucune statistique de prêt dans ce navigateur. Importe un export Orphée pour les voir.";
   $("#btn-oublier-stats").hidden = !etat.stats;
-  $("#in-theme").value = document.documentElement.dataset.theme || "violet";
   if (message) toast(message);
   d.showModal();
 }
 
 async function fermerReglages(e) {
   const d = $("#dlg-reglages");
-  if (d.returnValue !== "ok") { appliquerTheme(etat.prefs.theme); return; } // l'aperçu du thème est annulé
-  etat.prefs.theme = $("#in-theme").value;
-  appliquerTheme(etat.prefs.theme);
+  if (d.returnValue !== "ok") return;
   const token = $("#in-token").value.trim();
   const depot = $("#in-depot").value.trim() || PREFS_DEFAUT.depot;
   etat.prefs.depot = depot;
@@ -1380,7 +1371,6 @@ function brancher() {
   // en-tête et bandeau
   $("#btn-reglages").addEventListener("click", () => ouvrirReglages());
   $("#dlg-reglages").addEventListener("close", fermerReglages);
-  $("#in-theme").addEventListener("change", (e) => appliquerTheme(e.target.value)); // aperçu immédiat
   $("#btn-oublier-stats").addEventListener("click", () => { lsSet(LS.stats, null); etat.stats = null; calculer(); rendre(); $("#dlg-reglages").close(); toast("Statistiques de prêt effacées de ce navigateur."); });
   $("#bandeau").addEventListener("click", (e) => {
     const a = e.target.closest("button")?.dataset.action;
