@@ -271,6 +271,7 @@ def manga_news() -> dict:
         c_tomes = col("tome", "par") or col("nombre", "tome") or col("tome") or col("volume")
         c_ed = col("editeur") or col("publisher")
         c_url = col("url")
+        c_couv = col("cover") or col("couv") or col("image")
         c_aut = [c for c in colonnes if any(m in sans_accents(c or "").lower() for m in ("artist", "writer", "auteur", "dessin", "scenar"))]
         dbg(f"Manga-News ({_MN_DATE}) : {len(lignes)} séries, colonnes {colonnes} ; titre={c_titre}, tomes={c_tomes}, éditeur={c_ed}")
         for r in lignes:
@@ -279,7 +280,8 @@ def manga_news() -> dict:
             if not t or not m or int(m.group(0)) == 0:
                 continue
             _MN.setdefault(cle(t), []).append({"tomes": int(m.group(0)), "editeur": (r.get(c_ed) or "").strip(), "url": (r.get(c_url) or "").strip(),
-                                               "titre": t, "auteurs": " ; ".join((r.get(c) or "") for c in c_aut)})
+                                               "titre": t, "auteurs": " ; ".join((r.get(c) or "") for c in c_aut),
+                                               "couv": (r.get(c_couv) or "").strip() if c_couv else ""})
         for liste in _MN.values():
             for c in liste:
                 c["_ed"] = norm_editeur(c["editeur"])
@@ -319,6 +321,7 @@ def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: 
     memes = [c for c in cands if meme_ed(c)]
     c = max(memes or cands, key=lambda c: c["tomes"])
     return {"tomes": c["tomes"], "editeur": c["editeur"], "url": c["url"], "date": _MN_DATE,
+            **({"couv": c["couv"]} if c.get("couv") else {}),
             **({"titre": c["titre"], "approche": True} if approx else {}),
             **({} if memes or not eo else {"editeurDifferent": True})}
 
@@ -598,7 +601,10 @@ DOSSIER_COUV = RACINE / "couvertures"
 
 def telecharger(url: str) -> bytes | None:
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        h = {"User-Agent": UA}
+        if "manga-news.com" in url:
+            h["Referer"] = "https://www.manga-news.com/"
+        req = urllib.request.Request(url, headers=h)
         with urllib.request.urlopen(req, timeout=40) as r:
             if not (r.headers.get("Content-Type") or "").startswith("image/"):
                 return None
@@ -608,36 +614,70 @@ def telecharger(url: str) -> bytes | None:
         return None
 
 
-def couverture_fr(ident: str, bnf: dict | None, forcer: bool = False) -> dict | None:
-    """Cherche la couverture française (BnF, sinon Open Library) et l'enregistre en vignette."""
+COUV_VERSION = 2  # 2 : Manga-News ajouté aux sources ; les séries sans couverture sont réessayées une fois
+
+
+def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: bool = False) -> dict | None:
+    """Cherche la couverture française (BnF, Open Library, puis Manga-News) et l'enregistre en vignette."""
     try:
         from PIL import Image
     except ImportError:
         return None
     import io
     fichier = DOSSIER_COUV / f"{ident}.jpg"
+    essais = []
     for c in (bnf or {}).get("candidatsCouv", []):
-        sources = []
         if c.get("ark"):
-            sources.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1"))
+            essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1", c["n"]))
         if c.get("isbn"):
-            sources.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false"))
-        for nom, url in sources:
-            time.sleep(0.8)
-            corps = telecharger(url)
-            if not corps:
-                continue
-            try:
-                img = Image.open(io.BytesIO(corps)).convert("RGB")
-            except Exception:
-                continue
-            if img.width < 80 or img.height < 100 or not (1.05 < img.height / img.width < 2.2):
-                continue  # vignette vide, image trop petite ou pas au format d'une couverture
-            img.thumbnail((300, 460))
-            DOSSIER_COUV.mkdir(exist_ok=True)
-            img.save(fichier, "JPEG", quality=82, optimize=True, progressive=True)
-            return {"source": nom, "tome": c["n"], "maj": AUJOURDHUI.isoformat()}
+            essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false", c["n"]))
+    if mn and mn.get("couv") and not mn.get("editeurDifferent"):
+        u = mn["couv"]
+        essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None))
+    for nom, url, tome in essais:
+        time.sleep(0.8)
+        corps = telecharger(url)
+        if not corps:
+            if debug:
+                dbg(f"    couverture {nom} : rien <- {url}")
+            continue
+        try:
+            img = Image.open(io.BytesIO(corps)).convert("RGB")
+        except Exception as ex:
+            if debug:
+                dbg(f"    couverture {nom} : illisible ({ex}) <- {url}")
+            continue
+        if img.width < 80 or img.height < 100 or not (1.05 < img.height / img.width < 2.2):
+            if debug:
+                dbg(f"    couverture {nom} : {img.width}×{img.height} refusée <- {url}")
+            continue  # vignette vide, image trop petite ou pas au format d'une couverture
+        img.thumbnail((300, 460))
+        if debug:
+            dbg(f"    couverture {nom} : OK {img.width}×{img.height} <- {url}")
+            return {"source": nom, "tome": tome, "test": True}
+        DOSSIER_COUV.mkdir(exist_ok=True)
+        img.save(fichier, "JPEG", quality=82, optimize=True, progressive=True)
+        return {"source": nom, **({"tome": tome} if tome else {}), "maj": AUJOURDHUI.isoformat()}
     return None
+
+
+def couverture_a_chercher(s: dict, e: dict, forcer: bool = False) -> bool:
+    if forcer:
+        return True
+    if e.get("couvFR"):
+        return not (DOSSIER_COUV / f"{s['id']}.jpg").exists()
+    # jamais essayé, nouvelle source depuis le dernier essai, ou dernier essai il y a plus de 6 mois
+    return (e.get("couvVersion") or 1) < COUV_VERSION or age_jours(e.get("couvEssai")) > 180
+
+
+def chercher_couverture(s: dict, e: dict) -> None:
+    trouvee = couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"))
+    e["couvEssai"] = AUJOURDHUI.isoformat()
+    e["couvVersion"] = COUV_VERSION
+    if trouvee:
+        e["couvFR"] = trouvee
+    else:
+        e.pop("couvFR", None)
 
 
 def tester_page_manga_news(mn: dict | None) -> None:
@@ -720,6 +760,7 @@ def main() -> int:
     ap.add_argument("--bnf-seulement", action="store_true", help="refaire seulement la BnF (garde AniList)")
     ap.add_argument("--verifier-auteurs", action="store_true", help="revérifier les liens AniList automatiques avec l'auteur d'Orphée")
     ap.add_argument("--manga-news-seulement", action="store_true", help="mettre à jour seulement le nombre de tomes Manga-News (rapide)")
+    ap.add_argument("--couvertures", action="store_true", help="chercher seulement les couvertures qui manquent (Manga-News compris)")
     args = ap.parse_args()
 
     series = json.loads((DATA / "series.json").read_text())["series"]
@@ -757,6 +798,22 @@ def main() -> int:
         complet = complet or "termin" in sans_accents((e.get("mangaNewsFiche") or {}).get("vfStatut") or "").lower()
         auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
+        if args.couvertures:
+            if not couverture_a_chercher(s, e, args.forcer):
+                continue
+            e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur) or e.get("mangaNews")
+            try:
+                if debug:
+                    couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True)
+                else:
+                    chercher_couverture(s, e)
+            except Exception as ex:
+                print(f"  couverture : {ex}", file=sys.stderr, flush=True)
+            cache[s["id"]] = e
+            faites += 1
+            if faites % 40 == 0:
+                ecrire(chemin, cache)
+            continue
         if args.manga_news_seulement:
             if s.get("type") != "One shot":
                 e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
@@ -814,6 +871,9 @@ def main() -> int:
                     else:
                         e["anilist"] = chercher_anilist(s, auteur, debug)
                     e["anilistVerifie"] = AUJOURDHUI.isoformat()
+            if one_shot:
+                # un one shot : seulement Manga-News, pour la couverture
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
             # BnF
             if not one_shot:
                 vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
@@ -822,20 +882,15 @@ def main() -> int:
                 e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur)
                 lire_fiche(s, e, args.forcer, debug)
             # Couverture française, une seule fois (puis tous les 6 mois si elle manque)
-            if not debug and (args.forcer or not e.get("couvFR") and age_jours(e.get("couvEssai")) > 180
-                              or e.get("couvFR") and not (DOSSIER_COUV / f"{s['id']}.jpg").exists()):
-                trouvee = couverture_fr(s["id"], e.get("bnf"))
-                e["couvEssai"] = AUJOURDHUI.isoformat()
-                if trouvee:
-                    e["couvFR"] = trouvee
-                else:
-                    e.pop("couvFR", None)
+            if not debug and couverture_a_chercher(s, e, args.forcer):
+                chercher_couverture(s, e)
             e["verifie"] = AUJOURDHUI.isoformat()
             cache[s["id"]] = e
             faites += 1
             if debug:
                 if e.get("bnf"):
                     tester_couvertures(e["bnf"])
+                couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True)
                 dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1

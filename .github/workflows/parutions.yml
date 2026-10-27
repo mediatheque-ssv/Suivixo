@@ -29,6 +29,10 @@ on:
         description: "Mettre à jour seulement le nombre de tomes Manga-News (rapide)"
         type: boolean
         default: false
+      couvertures:
+        description: "Chercher seulement les couvertures qui manquent"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -60,6 +64,7 @@ jobs:
           BNF: ${{ inputs.bnf_seulement }}
           AUTEURS: ${{ inputs.verifier_auteurs }}
           MN: ${{ inputs.manga_news_seulement }}
+          COUV: ${{ inputs.couvertures }}
         run: |
           ARGS="--max-minutes 120"
           [ -n "$SERIE" ] && ARGS="$ARGS --serie $SERIE"
@@ -68,6 +73,7 @@ jobs:
           [ "$BNF" = "true" ] && ARGS="$ARGS --bnf-seulement"
           [ "$AUTEURS" = "true" ] && ARGS="$ARGS --verifier-auteurs"
           [ "$MN" = "true" ] && ARGS="$ARGS --manga-news-seulement"
+          [ "$COUV" = "true" ] && ARGS="$ARGS --couvertures"
           python scripts/enrich.py $ARGS
 
       - name: Enregistrer les résultats
