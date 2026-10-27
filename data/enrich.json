@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T14:45:26Z",
+ "maj": "2026-10-27T14:47:08Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -699,7 +699,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.adieu-eri-crunchyroll_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.adieu-eri-crunchyroll_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.adieu-eri-crunchyroll_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "aether-dreams": {
    "bnf": {
@@ -1410,7 +1412,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.alter-ego-glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.alter-ego-glenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.alter-ego-glenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "amatsuki": {
    "anilist": {
@@ -2096,11 +2100,15 @@
     "couv": "https://www.manga-news.com/public/images/series/.anne-maison-pignons-verts-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.anne-maison-pignons-verts-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.anne-maison-pignons-verts-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "antiheros": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "ao-ashi-playmaker": {
    "anilist": {
@@ -2188,7 +2196,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.aphorisme-sur-la-sagesse-dans-la-vie-kurokawa_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.aphorisme-sur-la-sagesse-dans-la-vie-kurokawa_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.aphorisme-sur-la-sagesse-dans-la-vie-kurokawa_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "appare-ranman": {
    "anilist": {
@@ -2238,7 +2248,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Appel_de_Cthulhu_ki-oon_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Appel_de_Cthulhu_ki-oon_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Appel_de_Cthulhu_ki-oon_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "apres-la-pluie": {
    "anilist": null,
@@ -2391,7 +2403,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.argent-du-deshonneur-akata_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.argent-du-deshonneur-akata_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.argent-du-deshonneur-akata_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "aria-the-masterpiece": {
    "anilist": {
@@ -2585,7 +2599,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.arsene-lupin-gentlemen-cambrioleur-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.arsene-lupin-gentlemen-cambrioleur-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.arsene-lupin-gentlemen-cambrioleur-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "asadora": {
    "anilist": {
@@ -3057,7 +3073,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.atchoum-naoki-urasawa-anthology-kana_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.atchoum-naoki-urasawa-anthology-kana_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.atchoum-naoki-urasawa-anthology-kana_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "atelier-des-fees": {
    "bnf": {
@@ -3452,7 +3470,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Au_chevet_dune_guerriere-1-ofelbe_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Au_chevet_dune_guerriere-1-ofelbe_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Au_chevet_dune_guerriere-1-ofelbe_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "au-coeur-de-fukushima": {
    "anilist": null,
@@ -3530,7 +3550,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Au_creux_de_nos_mains_-_Nazca_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Au_creux_de_nos_mains_-_Nazca_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Au_creux_de_nos_mains_-_Nazca_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "aux-cotes-du-dieu-loup": {
    "bnf": {
@@ -3655,7 +3677,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.aventure-tom-sawyer-nobi-2021_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.aventure-tom-sawyer-nobi-2021_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.aventure-tom-sawyer-nobi-2021_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "ayashimon": {
    "anilist": {
@@ -4309,7 +4333,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.le-bateau-usine-akata_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.le-bateau-usine-akata_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.le-bateau-usine-akata_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "battle-game-in-5-seconds": {
    "anilist": null,
@@ -5909,7 +5935,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Blue-Corner_Jiro-Taniguchi_2024_Pika_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Blue-Corner_Jiro-Taniguchi_2024_Pika_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Blue-Corner_Jiro-Taniguchi_2024_Pika_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "blue-flag": {
    "bnf": {
@@ -6183,7 +6211,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Blue-phobia-glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Blue-phobia-glenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Blue-phobia-glenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "blue-spring-ride": {
    "anilist": {
@@ -7688,7 +7718,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Cerisiers-fleurissent-malgres-tout-kana_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Cerisiers-fleurissent-malgres-tout-kana_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Cerisiers-fleurissent-malgres-tout-kana_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "chacun-ses-gouts": {
    "anilist": null,
@@ -8202,7 +8234,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_chat_m_ne_l_enqu_te_-_vol._01_-_Doki_Doki_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_chat_m_ne_l_enqu_te_-_vol._01_-_Doki_Doki_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "chateau-ambulant": {
    "anilist": null,
@@ -9498,7 +9532,9 @@
    "couvVersion": 2,
    "mangaNews": null,
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": ""
+   "couvEssaiMN": "",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "coco-l-ile-magique": {
    "anilist": null,
@@ -9639,7 +9675,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Coffee-time-ki-oon_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Coffee-time-ki-oon_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Coffee-time-ki-oon_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "colere-nucleaire": {
    "anilist": null,
@@ -9865,7 +9903,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.comte-monte-cristo-kurokawa_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.comte-monte-cristo-kurokawa_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.comte-monte-cristo-kurokawa_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "confrerie-des-lions-blancs": {
    "anilist": null,
@@ -9924,7 +9964,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Contes_fabuleux_de_la_nuit_-_Rue_de_Sevres_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Contes_fabuleux_de_la_nuit_-_Rue_de_Sevres_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Contes_fabuleux_de_la_nuit_-_Rue_de_Sevres_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "cooking-karine": {
    "anilist": {
@@ -10905,7 +10947,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Dans_la_prison-lezard_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Dans_la_prison-lezard_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "dans-le-premier-train-du-matin": {
    "bnf": {
@@ -11051,7 +11095,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.daru-chan-lezard_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.daru-chan-lezard_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.daru-chan-lezard_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "darwin-s-game": {
    "anilist": {
@@ -11224,7 +11270,9 @@
   },
   "de-rouille-et-de-carats": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "death-note": {
    "anilist": {
@@ -11894,7 +11942,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.desatreuse-aventure_des_jumeaux_Stevenson_delcourt_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.desatreuse-aventure_des_jumeaux_Stevenson_delcourt_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.desatreuse-aventure_des_jumeaux_Stevenson_delcourt_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "desert-9": {
    "anilist": {
@@ -12073,7 +12123,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.deux-ans-de-vacances-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.deux-ans-de-vacances-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.deux-ans-de-vacances-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "developpeurs": {
    "bnf": {
@@ -12130,7 +12182,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Devenir_enfin_moi-m_me_-_Glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Devenir_enfin_moi-m_me_-_Glenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Devenir_enfin_moi-m_me_-_Glenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "diable-s-habille-en-papa": {
    "bnf": {
@@ -12589,7 +12643,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.dracula-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.dracula-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.dracula-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "dragon-ball-sd": {
    "anilist": {
@@ -13214,7 +13270,34 @@
     "annee": 2010,
     "verifie": "2026-10-27"
    },
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.ekeko-edition-salamao_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.ekeko-edition-salamao_medium.webp",
+   "verifie": "2026-10-27",
+   "anilistVerifie": "2026-10-27",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "3",
+    "dateDernier": "2023-08",
+    "editeur": "Studio salamao",
+    "notices": 1,
+    "autresEditeurs": [
+     "3TPF",
+     "3TPF éd.",
+     "Ankama",
+     "Mustang éditions"
+    ],
+    "ark1": "ark:/12148/cb47316742g",
+    "isbn1": "9782956659457",
+    "candidatsCouv": [
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47316742g",
+      "isbn": "9782956659457"
+     }
+    ],
+    "requete": "bib.title all \"ekeko\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-27",
+   "liensVus": {}
   },
   "elden-ring-le-chemin-vers-l-arbre-monde": {
    "anilist": {
@@ -13300,7 +13383,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.elegie-en-rouge-cornelius_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.elegie-en-rouge-cornelius_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.elegie-en-rouge-cornelius_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "elle": {
    "couvFR": {
@@ -13317,7 +13402,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Elle-pika-graphic_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Elle-pika-graphic_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Elle-pika-graphic_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "en-pays-lointain": {
    "couvFR": {
@@ -13334,7 +13421,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.En-pays-lointain_nobinobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.En-pays-lointain_nobinobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.En-pays-lointain_nobinobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "en-proie-au-silence": {
    "anilist": {
@@ -13548,7 +13637,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.enemigo-casterman_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.enemigo-casterman_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.enemigo-casterman_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "enfant-des-abysses": {
    "bnf": {
@@ -14169,7 +14260,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.errances-emanon-Ki-oon_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.errances-emanon-Ki-oon_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.errances-emanon-Ki-oon_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "escale-a-yokohama": {
    "anilist": {
@@ -14290,7 +14383,9 @@
   },
   "etrange-boutique-de-monsieur-nekomata": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "etrange-noel-de-zero": {
    "anilist": null,
@@ -14324,7 +14419,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.etranger-de-la-plage-idp_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.etranger-de-la-plage-idp_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.etranger-de-la-plage-idp_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "eyeshield-21": {
    "anilist": {
@@ -14701,7 +14798,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.fee_des_neiges_hana_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.fee_des_neiges_hana_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "felin-pour-l-autre": {
    "anilist": null,
@@ -14814,7 +14913,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.fillette-drapeau-blanc-akata_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.fillette-drapeau-blanc-akata_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.fillette-drapeau-blanc-akata_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "fin-du-monde-avec-mon-shiba-inu": {
    "bnf": {
@@ -15253,7 +15354,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Fragments_d_histoires_troublantes_-_Kbooks_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Fragments_d_histoires_troublantes_-_Kbooks_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Fragments_d_histoires_troublantes_-_Kbooks_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "frieren": {
    "anilist": {
@@ -15528,7 +15631,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.furari-jiro-taniguchi-casterman_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.furari-jiro-taniguchi-casterman_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.furari-jiro-taniguchi-casterman_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "galaxias": {
    "bnf": {
@@ -15786,7 +15891,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Gar_on_et_le_Dragon_-_Doki_Doki_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Gar_on_et_le_Dragon_-_Doki_Doki_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "gardiens-du-louvre": {
    "couvFR": {
@@ -15803,7 +15910,9 @@
     "couv": "https://www.manga-news.com/public/images/series/gardiens-du-louvre.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/gardiens-du-louvre.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/gardiens-du-louvre.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "gen-d-hiroshima": {
    "anilist": {
@@ -15951,7 +16060,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.globule-une-vie-de-lapin-soleil_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.globule-une-vie-de-lapin-soleil_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.globule-une-vie-de-lapin-soleil_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "goal-masters": {
    "anilist": null,
@@ -16012,7 +16123,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.gogo_monster_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.gogo_monster_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.gogo_monster_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "goldorak": {
    "couvVersion": 2,
@@ -16025,7 +16138,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Goldorak-1-blackbox_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Goldorak-1-blackbox_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "goodnight-i-love-you": {
    "anilist": null,
@@ -16084,7 +16199,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.gourmet-solitaire-sakka-casterman_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.gourmet-solitaire-sakka-casterman_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.gourmet-solitaire-sakka-casterman_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "gout-des-retrouvailles": {
    "anilist": null,
@@ -16195,7 +16312,9 @@
   },
   "grand-migrateur": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "green-blood": {
    "anilist": {
@@ -17190,7 +17309,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Hideout-01-shogakukan_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Hideout-01-shogakukan_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Hideout-01-shogakukan_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "hikari-reve-de-star": {
    "bnf": {
@@ -17633,7 +17754,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.homme_marche_2ed_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.homme_marche_2ed_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.homme_marche_2ed_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "horseland": {
    "anilist": null,
@@ -17737,7 +17860,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.icare_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.icare_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.icare_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "ice-age-chronicle-of-the-earth": {
    "anilist": {
@@ -18149,7 +18274,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.In_summer_lezard_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.In_summer_lezard_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.In_summer_lezard_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "inazuma-eleven-go": {
    "anilist": {
@@ -18556,7 +18683,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.jaco-galactic-patrol-man-glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.jaco-galactic-patrol-man-glenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.jaco-galactic-patrol-man-glenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "jalouses": {
    "bnf": {
@@ -18700,7 +18829,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.jizo-glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.jizo-glenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.jizo-glenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "jojo-s-bizarre-adventure-steel-ball-run": {
    "bnf": {
@@ -20072,7 +20203,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.koko-glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.koko-glenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.koko-glenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "koko-debut": {
    "anilist": null,
@@ -20557,7 +20690,9 @@
   },
   "legende-de-hakutaku": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "letter-bee": {
    "anilist": {
@@ -20693,7 +20828,9 @@
   },
   "librairie-celeste": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "lights-drag-action": {
    "mangaNews": {
@@ -20867,7 +21004,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.livre-de-la-jungle-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.livre-de-la-jungle-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.livre-de-la-jungle-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "loin-de-moi-pres-de-toi": {
    "anilist": null,
@@ -20990,7 +21129,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.look-back-kaze_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.look-back-kaze_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.look-back-kaze_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "lost-lad-london": {
    "anilist": {
@@ -22453,7 +22594,9 @@
     "approche": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.marie-antoinette-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.marie-antoinette-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "mariee-du-roi-dragon": {
    "bnf": {
@@ -22624,7 +22767,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.martin-luther-king-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.martin-luther-king-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.martin-luther-king-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "mashle": {
    "anilist": {
@@ -23011,7 +23156,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.mes-yeux-rives-sur-toi-akata_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mes-yeux-rives-sur-toi-akata_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mes-yeux-rives-sur-toi-akata_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "miaou-big-boss-le-magnifique": {
    "anilist": null,
@@ -23147,7 +23294,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Mimosa__Momo_et_Moi_-_Rue_de_Sevres_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Mimosa__Momo_et_Moi_-_Rue_de_Sevres_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Mimosa__Momo_et_Moi_-_Rue_de_Sevres_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "minuscule": {
    "anilist": {
@@ -23255,7 +23404,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.mirages-emanon-ki-oon_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mirages-emanon-ki-oon_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mirages-emanon-ki-oon_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "miroirs": {
    "couvFR": {
@@ -23272,7 +23423,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.miroirs-kaze_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.miroirs-kaze_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.miroirs-kaze_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "miserables": {
    "couvVersion": 2,
@@ -23285,7 +23438,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Les-Mise_rables-1-kurokawa_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Les-Mise_rables-1-kurokawa_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "mission-in-the-apocalypse": {
    "bnf": {
@@ -23807,7 +23962,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Mon-Chien-pour-la-vie_dokidoki_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Mon-Chien-pour-la-vie_dokidoki_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "mon-voisin-totoro": {
    "couvFR": {
@@ -23824,7 +23981,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.mon-voisin-totoro-anime-comics-glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mon-voisin-totoro-anime-comics-glenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mon-voisin-totoro-anime-comics-glenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "monde-dans-leurs-yeux": {
    "verifie": "2026-10-23",
@@ -23859,7 +24018,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Le_Monde_de_Suzuka_Morino_-_Vega_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Monde_de_Suzuka_Morino_-_Vega_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Monde_de_Suzuka_Morino_-_Vega_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "monsieur-mechant-va-detruire-la-terre-apres-ses-conges": {
    "anilist": null,
@@ -25322,7 +25483,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.NonNonB__-_Cornelius_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.NonNonB__-_Cornelius_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.NonNonB__-_Cornelius_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "noragami": {
    "bnf": {
@@ -25552,11 +25715,15 @@
     "couv": "https://www.manga-news.com/public/images/series/.nos-meilleures-vies-casterman_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nos-meilleures-vies-casterman_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nos-meilleures-vies-casterman_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "nos-rendez-vous-gourmands": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "nos-yeux-fermes": {
    "couvFR": {
@@ -25573,7 +25740,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.nos-yeux-fermes-pika_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nos-yeux-fermes-pika_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nos-yeux-fermes-pika_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "nouilles-tchajang": {
    "couvFR": {
@@ -25590,7 +25759,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.nouillestchajang_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nouillestchajang_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nouillestchajang_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "nouvelles-extraordinaires-d-edgar-allan-poe": {
    "couvFR": {
@@ -25607,7 +25778,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.nouvelle-edgar-alan-poe-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nouvelle-edgar-alan-poe-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nouvelle-edgar-alan-poe-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "nova": {
    "anilist": null,
@@ -25756,7 +25929,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.obara_Chroniques_des_Abysses_NH_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.obara_Chroniques_des_Abysses_NH_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.obara_Chroniques_des_Abysses_NH_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "ocean-rush": {
    "anilist": {
@@ -26336,7 +26511,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.operation_mort_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.operation_mort_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.operation_mort_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "orange": {
    "anilist": {
@@ -26421,7 +26598,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.orme-du-caucase-1er-edition-casterman_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.orme-du-caucase-1er-edition-casterman_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.orme-du-caucase-1er-edition-casterman_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "oublies": {
    "anilist": null,
@@ -26548,7 +26727,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.our-dining-table-taifu_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.our-dining-table-taifu_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.our-dining-table-taifu_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "our-summer-holiday": {
    "couvFR": {
@@ -26565,7 +26746,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.our-summer-holiday-t1_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.our-summer-holiday-t1_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.our-summer-holiday-t1_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "oxalis-et-l-or": {
    "anilist": {
@@ -27030,7 +27213,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.parfum-des-hommes-atrabil_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.parfum-des-hommes-atrabil_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.parfum-des-hommes-atrabil_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "pays-des-cerisiers": {
    "couvFR": {
@@ -27047,7 +27232,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.pays-des-cerisiers-edition-2023_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.pays-des-cerisiers-edition-2023_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.pays-des-cerisiers-edition-2023_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "peace-maker": {
    "anilist": {
@@ -27155,7 +27342,9 @@
   },
   "pensees-noires": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "perfect-world": {
    "anilist": {
@@ -27425,7 +27614,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.les-petites-contemplations-urban-china_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.les-petites-contemplations-urban-china_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.les-petites-contemplations-urban-china_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "petits-en-cas-de-monsieur-matcha": {
    "mangaNews": {
@@ -27938,7 +28129,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Plus_Belle_Couleur_du_Monde_glenat_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Plus_Belle_Couleur_du_Monde_glenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Plus_Belle_Couleur_du_Monde_glenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "pluto": {
    "anilist": {
@@ -28373,7 +28566,9 @@
     "approche": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.pommes-miracle-akata_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.pommes-miracle-akata_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "pompon-compagnie": {
    "couvFR": {
@@ -28390,7 +28585,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Pompon___compagnie_-_Renard_Dor__medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Pompon___compagnie_-_Renard_Dor__medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Pompon___compagnie_-_Renard_Dor__medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "pourquoi-je-galere-toujours-en-amour": {
    "couvFR": {
@@ -28407,7 +28604,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Pourquoi-je-galere-toujours-en-amour-akata_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Pourquoi-je-galere-toujours-en-amour-akata_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Pourquoi-je-galere-toujours-en-amour-akata_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "power-gamer-adventure": {
    "anilist": {
@@ -29689,7 +29888,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.reine-des-neige-II-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reine-des-neige-II-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reine-des-neige-II-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "renard-et-le-petit-tanuki": {
    "anilist": {
@@ -29769,7 +29970,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.reset_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reset_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reset_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "retour-du-clan-hwasan": {
    "bnf": {
@@ -29874,7 +30077,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.reverie-golo-zhao-casterman_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reverie-golo-zhao-casterman_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reverie-golo-zhao-casterman_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "reveries-d-emanon": {
    "couvFR": {
@@ -29891,7 +30096,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.reveries-emanon-ki-oon_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reveries-emanon-ki-oon_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reveries-emanon-ki-oon_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "rhapsody-in-red": {
    "bnf": {
@@ -30412,7 +30619,9 @@
    "couvVersion": 2,
    "mangaNews": null,
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": ""
+   "couvEssaiMN": "",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "sailor-moon": {
    "anilist": {
@@ -30840,7 +31049,9 @@
   },
   "sanji-s-food-wars": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "sans-meme-nous-dire-au-revoir": {
    "couvFR": {
@@ -30857,7 +31068,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.sans-meme-nous-dire-au-revoir-kana_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.sans-meme-nous-dire-au-revoir-kana_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.sans-meme-nous-dire-au-revoir-kana_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "save-me-pythie": {
    "anilist": null,
@@ -31383,7 +31596,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.seediq-bale-akata_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.seediq-bale-akata_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.seediq-bale-akata_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "seki-mon-voisin-de-classe": {
    "anilist": {
@@ -31511,7 +31726,9 @@
   },
   "sentier-des-douaniers": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "seraphim": {
    "couvFR": {
@@ -31528,7 +31745,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.seraphim_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.seraphim_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.seraphim_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "servamp": {
    "anilist": {
@@ -32601,7 +32820,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Silent_Blue_-_Delcourt_-_Tonkam_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Silent_Blue_-_Delcourt_-_Tonkam_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Silent_Blue_-_Delcourt_-_Tonkam_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "silver-spoon": {
    "anilist": {
@@ -32644,7 +32865,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.sirius_01_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.sirius_01_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "sixteen-life": {
    "anilist": null,
@@ -33536,7 +33759,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Sous-un-ciel-nouveau-ki-oon_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Sous-un-ciel-nouveau-ki-oon_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Sous-un-ciel-nouveau-ki-oon_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "souvenirs-d-emanon": {
    "couvFR": {
@@ -33553,7 +33778,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.souvenirs-emanon-ki-oon_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.souvenirs-emanon-ki-oon_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.souvenirs-emanon-ki-oon_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "spider-man": {
    "anilist": {
@@ -33617,7 +33844,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.spirale_01-2_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.spirale_01-2_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.spirale_01-2_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "splatoon": {
    "anilist": {
@@ -33765,7 +33994,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.stand-be-me-love-letter-akata_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.stand-be-me-love-letter-akata_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.stand-be-me-love-letter-akata_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "star-strike-it-rich": {
    "bnf": {
@@ -35064,7 +35295,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Le_Terrarium_dans_mon_tiroir_-_Casterman_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Terrarium_dans_mon_tiroir_-_Casterman_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Terrarium_dans_mon_tiroir_-_Casterman_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "terre-de-reves": {
    "couvFR": {
@@ -35081,7 +35314,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.terre_reves_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.terre_reves_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.terre_reves_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "terror-man": {
    "bnf": {
@@ -35179,7 +35414,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Terukan-boys-1-doki_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Terukan-boys-1-doki_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "the-arms-peddler": {
    "anilist": null,
@@ -35268,7 +35505,9 @@
     "editeurDifferent": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.The_Big_Wall_paulsen_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.The_Big_Wall_paulsen_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "the-bugle-call": {
    "anilist": null,
@@ -36203,7 +36442,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.wize-wize-beasts-wisdoms-nagabe-komikku_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.wize-wize-beasts-wisdoms-nagabe-komikku_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.wize-wize-beasts-wisdoms-nagabe-komikku_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "thermae-romae": {
    "anilist": {
@@ -36799,7 +37040,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.tomie_01_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.tomie_01_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.tomie_01_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "toriko": {
    "anilist": {
@@ -36919,7 +37162,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.tout-au-bout-du-quartier-mangetsu_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.tout-au-bout-du-quartier-mangetsu_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.tout-au-bout-du-quartier-mangetsu_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "trait-pour-trait-dessine-et-tais-toi": {
    "anilist": {
@@ -37082,7 +37327,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.trois-mousquetaires-classique-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.trois-mousquetaires-classique-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.trois-mousquetaires-classique-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "tsubasa": {
    "verifie": "2026-10-23",
@@ -37301,7 +37548,9 @@
     "approche": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.un-dernier-soir-a-pekiglenat_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.un-dernier-soir-a-pekiglenat_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "un-drole-de-pere": {
    "anilist": {
@@ -37384,7 +37633,9 @@
     "approche": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.ete-tsurumaki-ihmo_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.ete-tsurumaki-ihmo_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "un-second-au-revoir": {
    "anilist": null,
@@ -37445,7 +37696,9 @@
     "approche": true
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.zoo-en-hiver-ecritures-2009_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.zoo-en-hiver-ecritures-2009_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "undercurrent": {
    "couvFR": {
@@ -37462,11 +37715,15 @@
     "couv": "https://www.manga-news.com/public/images/series/undercurrent.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/undercurrent.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/undercurrent.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "understella": {
    "couvVersion": 2,
-   "couvEssai": "2026-10-27"
+   "couvEssai": "2026-10-27",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "underwater-le-village-immerge": {
    "anilist": null,
@@ -38037,7 +38294,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.van-goh-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.van-goh-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.van-goh-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "versus": {
    "anilist": {
@@ -38284,7 +38543,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Voyage_d_ours-lune_renard_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Voyage_d_ours-lune_renard_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Voyage_d_ours-lune_renard_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "voyage-de-chihiro": {
    "anilist": null,
@@ -38342,7 +38603,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Le-Voyage_de_Shuna_sabacane_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le-Voyage_de_Shuna_sabacane_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le-Voyage_de_Shuna_sabacane_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "voyages-de-gulliver": {
    "couvFR": {
@@ -38359,7 +38622,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.voyage-gulliver-manga-classqiue-nobi_medium.webp"
    },
    "couvEssai": "2026-10-27",
-   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.voyage-gulliver-manga-classqiue-nobi_medium.webp"
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.voyage-gulliver-manga-classqiue-nobi_medium.webp",
+   "verifie": "2026-10-27",
+   "liensVus": {}
   },
   "wakfu-la-grande-vague": {
    "anilist": null,
