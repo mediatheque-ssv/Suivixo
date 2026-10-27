@@ -57,3 +57,25 @@ export async function publier({ token, depot, branche = "main", fichiers, messag
   await appel(token, "PATCH", `/repos/${depot}/git/refs/heads/${branche}`, { sha: commit.sha });
   return commit;
 }
+
+/**
+ * Lance la vérification des parutions (GitHub Actions) tout de suite.
+ * series : identifiants à revérifier entièrement ; vide = passage normal (nouvelles séries, liens modifiés…).
+ * La clé doit avoir la permission « Actions » en lecture et écriture.
+ */
+export async function lancerVerification({ token, depot, branche = "main", series = [] }) {
+  try {
+    await appel(token, "POST", `/repos/${depot}/actions/workflows/parutions.yml/dispatches`, {
+      ref: branche,
+      inputs: series.length ? { series: series.join(",") } : {},
+    });
+  } catch (e) {
+    if (e.status === 403 || e.status === 404) {
+      const err = new Error("Ta clé d'accès ne peut pas lancer la vérification. Sur GitHub, modifie la clé et ajoute la permission « Actions » en lecture et écriture (Read and write).");
+      err.status = e.status;
+      err.droits = true;
+      throw err;
+    }
+    throw e;
+  }
+}

@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Dela+Gothic+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=11">
+  <link rel="stylesheet" href="assets/style.css?v=12">
 </head>
 <body>
   <!-- motif partagé par toutes les tranches « ailleurs dans le réseau » -->
@@ -81,7 +81,7 @@
           <li>Connecte-toi à GitHub avec le compte <strong>mediatheque-ssv</strong>.</li>
           <li>Ouvre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">la création de clé</a>.</li>
           <li>Accès : <em>Only select repositories</em>, puis <strong>Suivixo</strong>.</li>
-          <li>Permissions : <strong>Contents</strong>, en <em>Read and write</em>.</li>
+          <li>Permissions : <strong>Contents</strong> et <strong>Actions</strong>, en <em>Read and write</em> (Actions sert à lancer la vérification des parutions depuis le site).</li>
           <li>Génère la clé et colle-la ci-dessus.</li>
         </ol>
         <label class="champ">
@@ -89,6 +89,10 @@
           <input id="in-depot" type="text" spellcheck="false">
         </label>
       </details>
+
+      <h3>Vérification des parutions</h3>
+      <p class="discret">Elle passe tout le réseau en revue chaque lundi vers 4 h, et se lance aussi après chaque publication. Tu peux la lancer tout de suite : elle traite les nouvelles séries et celles dont tu as modifié les liens.</p>
+      <button type="button" id="btn-verifier-tout" class="btn">Lancer la vérification maintenant</button>
 
       <h3>Statistiques de prêt</h3>
       <p class="discret" id="txt-stats"></p>
@@ -105,6 +109,6 @@
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
   <script src="assets/vendor/xlsx.full.min.js" defer></script>
-  <script type="module" src="assets/app.js?v=20"></script>
+  <script type="module" src="assets/app.js?v=21"></script>
 </body>
 </html>

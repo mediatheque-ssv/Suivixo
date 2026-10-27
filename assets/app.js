@@ -1,6 +1,6 @@
 // Suivixo — interface
 import * as C from "./core.js?v=16";
-import { publier, verifierCle } from "./github.js";
+import { publier, verifierCle, lancerVerification } from "./github.js?v=2";
 
 // ---------------------------------------------------------------------------
 // État et stockage local
@@ -498,6 +498,8 @@ function ouvrirFiche(id) {
         ${s.ancien && (s.ancien.total || s.ancien.etat) ? `<p><strong>Ancien Excel</strong> : ${s.ancien.total ? pluriel(s.ancien.total, "tome") : ""}${s.ancien.etat ? `, ${h(s.ancien.etat.toLowerCase())}` : ""}${s.ancien.annee ? `, dernière parution en ${s.ancien.annee}` : ""}.</p>` : ""}
         <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `édition française${v.enr.couvFR.tome ? `, tome ${v.enr.couvFR.tome}` : ""}, d'après ${({ BnF: "la BnF", "Manga-News": "Manga-News" })[v.enr.couvFR.source] || "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
         <p>Voir sur ${liens.join(", ")}.</p>
+        <p class="actions-sources"><button type="button" class="btn" data-action="reverifier" data-id="${h(s.id)}">Revérifier maintenant</button>
+          <span class="discret petit">AniList, BnF, Manga-News et couverture, sans attendre lundi. Tes modifications non publiées sont publiées d'abord.</span></p>
       </div>
     </details>
     <details class="repli" id="modifier"><summary>Modifier la série</summary>${formulaire(s)}</details>
@@ -1154,10 +1156,12 @@ function appliquerImport() {
 // Publication
 // ---------------------------------------------------------------------------
 
-async function lancerPublication() {
+/** Publie, puis lance la vérification des parutions (nouvelles séries, liens modifiés) sauf si `verifier` est faux.
+ *  Renvoie vrai si la publication a réussi (ou s'il n'y avait rien à publier). */
+async function lancerPublication({ verifier = true } = {}) {
   if (!etat.token) {
     ouvrirReglages("Ajoute d'abord une clé d'accès GitHub pour publier.");
-    return;
+    return false;
   }
   const fichiers = [];
   const quand = new Date().toISOString();
@@ -1172,7 +1176,7 @@ async function lancerPublication() {
     fichiers.push({ chemin: "data/fonds.json", contenu: JSON.stringify(etat.fonds, null, 1) + "\n" });
     instantane.fonds = etat.fonds;
   }
-  if (!fichiers.length) return;
+  if (!fichiers.length) return true;
   const quoi = [etat.modifie.has("fonds") && `import Orphée du ${dateFr(etat.fonds.import?.date)}`, etat.modifie.has("series") && "fiches séries"].filter(Boolean).join(" et ");
   etat.publication = true;
   majEntete();
@@ -1182,12 +1186,39 @@ async function lancerPublication() {
     etat.modifie.clear();
     etat.brouillonDate = null;
     sauverBrouillon();
-    toast("Publié. Le site sera à jour pour toute l'équipe d'ici une minute ou deux.");
+    let suite = "";
+    if (verifier) {
+      try {
+        await lancerVerification({ token: etat.token, depot: etat.prefs.depot });
+        suite = " La vérification des parutions est lancée pour les nouvelles séries et les liens modifiés : comptes et couvertures arrivent d'ici quelques minutes.";
+      } catch (e) {
+        suite = e.droits ? " (Pour que la vérification des parutions se lance aussi, ajoute la permission « Actions » à ta clé.)" : "";
+      }
+    }
+    toast(`Publié. Le site sera à jour pour toute l'équipe d'ici une minute ou deux.${suite}`);
+    return true;
   } catch (e) {
     toast(e.message, true);
+    return false;
   } finally {
     etat.publication = false;
     majEntete();
+  }
+}
+
+/** Bouton « Revérifier » : publie d'abord ce qui attend, puis relance la vérification (une série, ou le passage normal). */
+async function verifierMaintenant(ids = []) {
+  if (!etat.token) {
+    ouvrirReglages("Ajoute d'abord une clé d'accès GitHub (avec la permission « Actions ») pour lancer la vérification.");
+    return;
+  }
+  if (etat.modifie.size && !(await lancerPublication({ verifier: false }))) return;
+  try {
+    await lancerVerification({ token: etat.token, depot: etat.prefs.depot, series: ids });
+    const qui = ids.length === 1 ? `« ${etat.parId.get(ids[0])?.s.titre || ids[0]} »` : "les séries à revoir";
+    toast(`Vérification lancée pour ${qui}. Résultat d'ici 3 à 5 minutes : recharge alors la page.`);
+  } catch (e) {
+    toast(e.message, true);
   }
 }
 
@@ -1364,13 +1395,18 @@ function brancher() {
   });
 
   // fiche
-  $("#fiche").addEventListener("click", (e) => { if (e.target.closest("[data-fermer]")) fermerFiche(); });
+  $("#fiche").addEventListener("click", (e) => {
+    if (e.target.closest("[data-fermer]")) { fermerFiche(); return; }
+    const b = e.target.closest('[data-action="reverifier"]');
+    if (b) verifierMaintenant([b.dataset.id]);
+  });
   $("#fiche").addEventListener("submit", (e) => { if (e.target.dataset.form === "serie") { e.preventDefault(); enregistrerFormulaire(e.target); } });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#fiche").hidden) fermerFiche(); });
 
   // en-tête et bandeau
   $("#btn-reglages").addEventListener("click", () => ouvrirReglages());
   $("#dlg-reglages").addEventListener("close", fermerReglages);
+  $("#btn-verifier-tout").addEventListener("click", () => { $("#dlg-reglages").close(); verifierMaintenant([]); });
   $("#btn-oublier-stats").addEventListener("click", () => { lsSet(LS.stats, null); etat.stats = null; calculer(); rendre(); $("#dlg-reglages").close(); toast("Statistiques de prêt effacées de ce navigateur."); });
   $("#bandeau").addEventListener("click", (e) => {
     const a = e.target.closest("button")?.dataset.action;

@@ -805,6 +805,7 @@ def main() -> int:
     ap.add_argument("--verifier-auteurs", action="store_true", help="revérifier les liens AniList automatiques avec l'auteur d'Orphée")
     ap.add_argument("--manga-news-seulement", action="store_true", help="mettre à jour seulement le nombre de tomes Manga-News (rapide)")
     ap.add_argument("--couvertures", action="store_true", help="chercher seulement les couvertures qui manquent (Manga-News compris)")
+    ap.add_argument("--series", default="", help="revérifier et enregistrer ces séries (identifiants séparés par des virgules)")
     args = ap.parse_args()
 
     series = json.loads((DATA / "series.json").read_text())["series"]
@@ -814,12 +815,17 @@ def main() -> int:
     cache: dict = enrich.get("series") or {}
     debut = time.time()
     debug = bool(args.serie)
+    choisies = {x.strip() for x in args.series.split(",") if x.strip()}
+    if choisies:
+        args.forcer = True  # demandé depuis le site : tout refaire pour ces séries
 
     a_faire = []
     for s in series:
         if args.serie and s["id"] != args.serie:
             continue
-        if not args.serie and s["id"] not in fonds:
+        if choisies and s["id"] not in choisies:
+            continue
+        if not args.serie and not choisies and s["id"] not in fonds:
             continue  # seulement les séries présentes dans le réseau
         if s.get("genre") == "Comics":
             continue
@@ -845,6 +851,7 @@ def main() -> int:
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
         if args.couvertures:
             # rapprochement Manga-News refait pour toutes les séries (rapide), fiche relue si la page a changé
+            e.setdefault("liensVus", s.get("liens") or {})
             e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
             if s.get("type") != "One shot":
                 lire_fiche(s, e, False, debug)
@@ -896,7 +903,9 @@ def main() -> int:
             continue
         if not args.forcer and not debug and not args.bnf_seulement:
             recent = age_jours(e.get("verifie")) < (120 if complet else 6)
-            if recent and not (lien and (not al or al.get("id") != lien)):
+            # liens modifiés dans le site (page Manga-News, AniList…) depuis la dernière vérification
+            liens_changes = "liensVus" in e and (s.get("liens") or {}) != e["liensVus"]
+            if recent and not liens_changes and not (lien and (not al or al.get("id") != lien)):
                 continue
         print(f"- {s['titre']}", flush=True)
         try:
@@ -934,6 +943,7 @@ def main() -> int:
             if not debug and couverture_a_chercher(s, e, args.forcer):
                 chercher_couverture(s, e)
             e["verifie"] = AUJOURDHUI.isoformat()
+            e["liensVus"] = s.get("liens") or {}
             cache[s["id"]] = e
             faites += 1
             if debug:

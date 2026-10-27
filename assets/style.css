@@ -538,3 +538,5 @@ details.repli[open] > summary { margin-bottom: 12px; }
 .btn-fort { background: var(--rouge); color: #fff; border-color: var(--filet-fort); box-shadow: 2px 2px 0 var(--filet-fort); font-weight: 700; }
 .btn-fort:hover { filter: brightness(1.08); border-color: var(--filet-fort); }
 .entete { border-bottom: 3px solid #000; }
+
+.actions-sources { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 14px; }

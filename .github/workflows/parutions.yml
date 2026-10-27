@@ -33,6 +33,10 @@ on:
         description: "Chercher seulement les couvertures qui manquent"
         type: boolean
         default: false
+      series:
+        description: "Revérifier et enregistrer ces séries (identifiants séparés par des virgules). Utilisé par le bouton « Revérifier » du site."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -65,6 +69,7 @@ jobs:
           AUTEURS: ${{ inputs.verifier_auteurs }}
           MN: ${{ inputs.manga_news_seulement }}
           COUV: ${{ inputs.couvertures }}
+          SERIES: ${{ inputs.series }}
         run: |
           ARGS="--max-minutes 120"
           [ -n "$SERIE" ] && ARGS="$ARGS --serie $SERIE"
@@ -74,6 +79,7 @@ jobs:
           [ "$AUTEURS" = "true" ] && ARGS="$ARGS --verifier-auteurs"
           [ "$MN" = "true" ] && ARGS="$ARGS --manga-news-seulement"
           [ "$COUV" = "true" ] && ARGS="$ARGS --couvertures"
+          [ -n "$SERIES" ] && ARGS="$ARGS --series $SERIES"
           python scripts/enrich.py $ARGS
 
       - name: Enregistrer les résultats
