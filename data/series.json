@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-10-27T14:39:11.836Z",
+ "publie": "2026-10-27T14:49:45.516Z",
  "series": [
   {
    "id": "cooking-karine",
@@ -175,7 +175,10 @@
    "titre": "Agents of the Four Seasons - La danse du printemps",
    "public": "Ado",
    "type": "Série",
-   "ajout": "2026-10-23"
+   "ajout": "2026-10-23",
+   "liens": {
+    "mangaNews": "index.php/serie/Agents-of-the-Four-Seasons"
+   }
   },
   {
    "id": "aishite-knight",
