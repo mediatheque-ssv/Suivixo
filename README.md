@@ -38,7 +38,7 @@ Les modifications (import, fiches) sont d'abord enregistrées sur le poste. Pour
 1. Se connecter à GitHub avec le compte **mediatheque-ssv**.
 2. Aller sur https://github.com/settings/personal-access-tokens/new
 3. Accès : *Only select repositories* → **suivixo**. Permissions : **Contents → Read and write**.
-4. Copier la clé dans Suivixo, roue dentée en haut à droite.
+4. Copier la clé dans Suivixo, bouton « Réglages » en haut à droite.
 
 La clé reste dans le navigateur. Les collègues qui consultent seulement n'en ont pas besoin.
 
