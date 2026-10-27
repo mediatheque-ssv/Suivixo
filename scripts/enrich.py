@@ -667,6 +667,10 @@ def couverture_a_chercher(s: dict, e: dict, forcer: bool = False) -> bool:
         return True
     if e.get("couvFR"):
         return not (DOSSIER_COUV / f"{s['id']}.jpg").exists()
+    # une nouvelle image Manga-News (page indiquée à la main, par exemple) depuis le dernier essai
+    couv_mn = (e.get("mangaNews") or {}).get("couv")
+    if couv_mn and couv_mn != e.get("couvEssaiMN"):
+        return True
     # jamais essayé, nouvelle source depuis le dernier essai, ou dernier essai il y a plus de 6 mois
     return (e.get("couvVersion") or 1) < COUV_VERSION or age_jours(e.get("couvEssai")) > 180
 
@@ -675,6 +679,7 @@ def chercher_couverture(s: dict, e: dict) -> None:
     trouvee = couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"))
     e["couvEssai"] = AUJOURDHUI.isoformat()
     e["couvVersion"] = COUV_VERSION
+    e["couvEssaiMN"] = (e.get("mangaNews") or {}).get("couv") or ""
     if trouvee:
         e["couvFR"] = trouvee
     else:
@@ -800,9 +805,12 @@ def main() -> int:
         auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
         if args.couvertures:
-            if not couverture_a_chercher(s, e, args.forcer):
+            if e.get("couvFR") and not args.forcer and (DOSSIER_COUV / f"{s['id']}.jpg").exists():
                 continue
             e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur) or e.get("mangaNews")
+            if not couverture_a_chercher(s, e, args.forcer):
+                cache[s["id"]] = e
+                continue
             try:
                 if debug:
                     couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True)
