@@ -1504,6 +1504,8 @@ function brancher() {
 }
 
 function brancherCollections() {
+  if (COL_ID === "mangas") delete document.documentElement.dataset.collection;
+  else document.documentElement.dataset.collection = COL_ID;
   const sel = $("#collection");
   sel.innerHTML = Object.entries(COLLECTIONS).map(([id, c]) => `<option value="${id}" ${id === COL_ID ? "selected" : ""}>${h(c.nom)}</option>`).join("");
   sel.addEventListener("change", () => {

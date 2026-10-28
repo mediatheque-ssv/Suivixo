@@ -8,8 +8,15 @@
   <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Dela+Gothic+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=14">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Bangers&family=Caveat:wght@700&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=16">
+  <script>
+    // le style de la collection s'applique avant l'affichage (sinon la page clignote aux couleurs des mangas)
+    try {
+      const c = new URLSearchParams(location.search).get("collection") || JSON.parse(localStorage.getItem("suivixo.prefs") || "{}").collection;
+      if (c === "bd" || c === "romans") document.documentElement.dataset.collection = c;
+    } catch (e) { /* stockage indisponible */ }
+  </script>
 </head>
 <body>
   <!-- motif partagé par toutes les tranches « ailleurs dans le réseau » -->
@@ -110,6 +117,6 @@
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
   <script src="assets/vendor/xlsx.full.min.js" defer></script>
-  <script type="module" src="assets/app.js?v=25"></script>
+  <script type="module" src="assets/app.js?v=26"></script>
 </body>
 </html>

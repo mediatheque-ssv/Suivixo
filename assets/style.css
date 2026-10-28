@@ -34,7 +34,7 @@
   --couv-bord: 2px solid #000;
   --ombre-couv: 4px 4px 0 #000;
   --ombre-couv-survol: 7px 7px 0 var(--rouge);
-  --fond-motif: radial-gradient(circle, rgba(0, 0, 0, 0.08) 1px, transparent 1.3px) 0 0 / 9px 9px;
+  --fond-motif: none; /* la planche mangas reste unie ; la BD et les romans ont leur fond */
   --police: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
   --police-titre: "Dela Gothic One", var(--police);
   --titre-graisse: 400;
@@ -80,7 +80,6 @@
     --couv-bord: 2px solid #F2F2F2;
     --ombre-couv: 4px 4px 0 var(--rouge);
     --ombre-couv-survol: 7px 7px 0 var(--jaune);
-    --fond-motif: radial-gradient(circle, rgba(255, 255, 255, 0.06) 1px, transparent 1.3px) 0 0 / 9px 9px;
     --titre-ombre: 3px 3px 0 var(--rouge);
     --tranche-ici: #FFFFFF;
     --tranche-texte: #000000;
@@ -93,8 +92,7 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  background-color: var(--papier);
-  background-image: var(--fond-motif);
+  background: var(--fond-motif), var(--papier);
   color: var(--encre);
   font: 400 16px/1.5 var(--police);
   font-variant-numeric: tabular-nums;
@@ -546,10 +544,143 @@ details.repli[open] > summary { margin-bottom: 12px; }
 /* ---------- style planche de manga : cases encadrées, ombres décalées ---------- */
 :is(.items, .liste, .kpi, .panneau-filtres, .bloc, .recherche, .vues, .statuts button, .btn) { border: 2px solid var(--filet-fort); }
 :is(.items, .liste, .kpi, .panneau-filtres) { box-shadow: var(--ombre-panneau); }
-.btn-fort { background: var(--rouge); color: #fff; border-color: var(--filet-fort); box-shadow: 2px 2px 0 var(--filet-fort); font-weight: 700; }
+.btn-fort { background: var(--rouge); color: #fff; border-color: var(--filet-fort); box-shadow: var(--ombre-bouton, 2px 2px 0 var(--filet-fort)); font-weight: 700; }
 .btn-fort:hover { filter: brightness(1.08); border-color: var(--filet-fort); }
-.entete { border-bottom: 3px solid #000; }
+.entete { border-bottom: var(--entete-bord, 3px solid #000); }
 
 .actions-sources { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 14px; }
 .rattacher { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--filet); }
 .rattacher select { width: 100%; }
+
+
+/* =====================================================================
+   Un style par collection (data-collection sur <html>)
+   Mangas : planche shōnen (ci-dessus). BD jeunesse et romans jeunesse
+   (collections d'Alizée) : en violet, sa couleur préférée.
+   BD : violet vif, jaune et trame de points, contours noirs arrondis comme des bulles.
+   Romans : cahier d'écolier à grands carreaux écrit à l'encre violette.
+   ===================================================================== */
+
+/* --- BD jeunesse : violet de planche, jaune, trame de points, bulles --- */
+:root[data-collection="bd"] {
+  --papier: #F5EEFF; --surface: #FFFFFF;
+  --encre: #1F0B3A; --encre-2: #4B3870; --encre-3: #776795;
+  --filet: #E6DAF7; --filet-fort: #1F0B3A;
+  --trame: #A68BD1; --trame-fond: #EADFF8;
+  --prim: #6A1FC2; --prim-f: #FFF1B8; --jaune: #FFC400; --rouge: #6A1FC2; --hanko: #E0312F;
+  --nuit: #6A1FC2; --survol: #FFF8DC; --focus: #5B16B0;
+  --s-completer: #C62828; --s-completer-f: #FFE3E0;
+  --s-continuer: #6A1FC2; --s-continuer-f: #EFE4FF;
+  --s-attente: #2E7D32;   --s-attente-f: #DFF3E0;
+  --s-finie: #1F0B3A;     --s-finie-f: #ECE7F4;
+  --s-abandonnee: #776795; --s-abandonnee-f: #F1EDF7;
+  --s-verifier: #8A5300;  --s-verifier-f: #FFF0C9;
+  --rayon: 12px; --couv-rayon: 8px; --couv-bord: 2px solid #1F0B3A;
+  --ombre: 8px 8px 0 #1F0B3A;
+  --ombre-panneau: 4px 4px 0 #1F0B3A;
+  --ombre-couv: 4px 4px 0 #6A1FC2;
+  --ombre-couv-survol: 6px 6px 0 #FFC400;
+  --fond-motif: radial-gradient(circle, rgba(106, 31, 194, 0.10) 1.3px, transparent 1.7px) 0 0 / 12px 12px;
+  --police-titre: "Bangers", var(--police); --titre-graisse: 400; --titre-ombre: 3px 3px 0 #FFC400;
+  --tranche-ici: #6A1FC2; --tranche-texte: #FFFFFF;
+  --entete-fond: radial-gradient(circle, rgba(255, 255, 255, 0.17) 1.2px, transparent 1.6px) 0 0 / 7px 7px, linear-gradient(100deg, #7A2BD8, #5814A6);
+  --entete-bord: 3px solid #1F0B3A;
+  --entete-texte: #FFFFFF; --entete-texte-2: rgba(255, 255, 255, 0.88); --entete-actif: #FFC400;
+  --compteur-fond: #FFC400; --compteur-texte: #1F0B3A;
+  --logo-ici: #FFC400; --logo-manque: #FFFFFF; --logo-reseau: rgba(255, 255, 255, 0.8);
+}
+:root[data-collection="bd"] h1 { font-size: 2.6rem; letter-spacing: 0.02em; }
+:root[data-collection="bd"] .marque { font-size: 1.6rem; letter-spacing: 0.04em; }
+:root[data-collection="bd"] .st { border: 1.5px solid currentColor; }
+
+/* --- Romans jeunesse : cahier à grands carreaux, encre violette, marge rouge, surligneur mauve --- */
+:root[data-collection="romans"] {
+  --papier: #FFFFFF; --surface: #FFFFFF;
+  --encre: #2E1A5C; --encre-2: #594985; --encre-3: #8274A6;
+  --filet: #ECE4F7; --filet-fort: #D3C5EC;
+  --trame: #B3A0DB; --trame-fond: #EEE7F9;
+  --prim: #6A3FC6; --prim-f: #E4CDFF; --jaune: #F0C6FF; --rouge: #6A3FC6; --hanko: #D93A4A;
+  --nuit: #4B2A99; --survol: #F8F4FF; --focus: #6A3FC6;
+  --s-completer: #C62E3F; --s-completer-f: #FDE4E6;
+  --s-continuer: #6A3FC6; --s-continuer-f: #EFE7FC;
+  --s-attente: #23794B;   --s-attente-f: #DFF2E6;
+  --s-finie: #2E1A5C;     --s-finie-f: #EDE8F5;
+  --s-abandonnee: #8274A6; --s-abandonnee-f: #F2EFF8;
+  --s-verifier: #8A5A00;  --s-verifier-f: #FFF3C4;
+  --rayon: 6px; --couv-rayon: 2px 5px 5px 2px; --couv-bord: 0 solid transparent;
+  --ombre: 0 18px 50px rgba(46, 26, 92, 0.22);
+  --ombre-panneau: 0 1px 2px rgba(46, 26, 92, 0.08);
+  --ombre-bouton: none;
+  --ombre-couv: inset 3px 0 0 rgba(0, 0, 0, 0.12), 0 1px 1px rgba(46, 26, 92, 0.15), 3px 6px 14px rgba(46, 26, 92, 0.18);
+  --ombre-couv-survol: inset 3px 0 0 rgba(0, 0, 0, 0.12), 0 2px 2px rgba(46, 26, 92, 0.18), 6px 14px 26px rgba(46, 26, 92, 0.26);
+  --fond-motif:
+    linear-gradient(90deg, transparent 0 46px, rgba(217, 58, 74, 0.35) 46px 47px, transparent 47px),
+    repeating-linear-gradient(transparent 0 31px, rgba(106, 63, 198, 0.16) 31px 32px),
+    repeating-linear-gradient(transparent 0 7px, rgba(106, 63, 198, 0.06) 7px 8px),
+    repeating-linear-gradient(90deg, transparent 0 31px, rgba(106, 63, 198, 0.06) 31px 32px);
+  --police-titre: "Caveat", var(--police); --titre-graisse: 700; --titre-ombre: none;
+  --tranche-ici: #6A3FC6; --tranche-texte: #FFFFFF;
+  --entete-fond: repeating-linear-gradient(transparent 0 11px, rgba(255, 255, 255, 0.07) 11px 12px), linear-gradient(100deg, #5B33B0, #3E2283);
+  --entete-bord: 3px solid #D93A4A;
+  --entete-texte: #FFFFFF; --entete-texte-2: rgba(255, 255, 255, 0.86); --entete-actif: #F0C6FF;
+  --compteur-fond: #F0C6FF; --compteur-texte: #2E1A5C;
+  --logo-ici: #F0C6FF; --logo-manque: #FF9AA4; --logo-reseau: rgba(255, 255, 255, 0.7);
+}
+:root[data-collection="romans"] :is(.items, .liste, .kpi, .panneau-filtres, .bloc, .recherche, .vues, .statuts button, .btn) { border-width: 1px; }
+/* le surligneur suit chaque ligne du titre (titre en ligne, coupé proprement d'une ligne à l'autre) */
+:root[data-collection="romans"] h1 { font-size: 2.9rem; line-height: 1.05; width: fit-content; padding: 0 6px; margin-left: -6px;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  background: linear-gradient(transparent 58%, var(--prim-f) 58%, var(--prim-f) 92%, transparent 92%); }
+:root[data-collection="romans"] :is(.accueil-texte, .fiche-tete) h1 { display: inline; }
+:root[data-collection="romans"] :is(.accueil-texte, .fiche-tete) h1 + * { margin-top: 10px; }
+:root[data-collection="romans"] .fiche-tete > div:last-child { padding-right: 30px; }
+:root[data-collection="romans"] .fiche-tete h1 { font-size: 2.2rem; padding-right: 6px; }
+:root[data-collection="romans"] .marque { font-size: 1.85rem; }
+@media (max-width: 760px) {
+  :root[data-collection="bd"] h1 { font-size: 2rem; }
+  :root[data-collection="romans"] h1 { font-size: 2.2rem; }
+  :root[data-collection="romans"] .fiche-tete h1 { font-size: 1.8rem; }
+  /* sur téléphone, la marge rouge passerait au milieu des couvertures */
+  :root[data-collection="romans"] body { background-position: -40px 0, 0 0, 0 0, 0 0; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-collection="bd"] {
+    --papier: #150B24; --surface: #20123A;
+    --encre: #F6F0FF; --encre-2: #D3C6EC; --encre-3: #A08DC4;
+    --filet: #33224F; --filet-fort: #E6DAF7;
+    --trame: #9B7FD0; --trame-fond: #2E1E4A;
+    --prim: #C49BFF; --prim-f: #3A3000; --survol: #2A1A47; --focus: #D6B8FF; --hanko: #FF6E5A;
+    --s-completer: #FF7A86; --s-completer-f: #3D1A22;
+    --s-continuer: #C49BFF; --s-continuer-f: #2A1748;
+    --s-attente: #5AD69E;   --s-attente-f: #12301F;
+    --s-finie: #F6F0FF;     --s-finie-f: #33224F;
+    --s-abandonnee: #A99CC6; --s-abandonnee-f: #2A2040;
+    --s-verifier: #FFC94D;  --s-verifier-f: #3A2E10;
+    --ombre-panneau: 4px 4px 0 #7B3FD9;
+    --couv-bord: 2px solid #E6DAF7;
+    --ombre-couv: 4px 4px 0 #A26BFF;
+    --fond-motif: radial-gradient(circle, rgba(196, 155, 255, 0.08) 1.3px, transparent 1.7px) 0 0 / 12px 12px;
+    --titre-ombre: 3px 3px 0 #6A1FC2;
+    --tranche-ici: #C49BFF; --tranche-texte: #150B24;
+  }
+  :root[data-collection="romans"] {
+    --papier: #160F2B; --surface: #20173D;
+    --encre: #F3EEFF; --encre-2: #CFC4EA; --encre-3: #9C8FC2;
+    --filet: #33285A; --filet-fort: #45386F;
+    --trame: #A592DB; --trame-fond: #33285A;
+    --prim: #B79BFF; --prim-f: #4A2D6E; --rouge: #6A3FC6; --survol: #2A2050; --focus: #CDB8FF; --hanko: #FF7A86;
+    --s-completer: #FF7A86; --s-completer-f: #3D1A22;
+    --s-continuer: #B79BFF; --s-continuer-f: #2A1F52;
+    --s-attente: #5AD69E;   --s-attente-f: #12301F;
+    --s-finie: #F3EEFF;     --s-finie-f: #33285A;
+    --s-abandonnee: #A99CC6; --s-abandonnee-f: #2A2040;
+    --s-verifier: #FFC94D;  --s-verifier-f: #3A2E10;
+    --ombre-couv: inset 3px 0 0 rgba(0, 0, 0, 0.25), 3px 6px 16px rgba(0, 0, 0, 0.5);
+    --fond-motif:
+      linear-gradient(90deg, transparent 0 46px, rgba(255, 122, 134, 0.3) 46px 47px, transparent 47px),
+      repeating-linear-gradient(transparent 0 31px, rgba(183, 155, 255, 0.12) 31px 32px),
+      repeating-linear-gradient(transparent 0 7px, rgba(183, 155, 255, 0.05) 7px 8px);
+    --tranche-ici: #B79BFF; --tranche-texte: #160F2B;
+  }
+}
