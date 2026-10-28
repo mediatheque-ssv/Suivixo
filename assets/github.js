@@ -63,11 +63,11 @@ export async function publier({ token, depot, branche = "main", fichiers, messag
  * series : identifiants à revérifier entièrement ; vide = passage normal (nouvelles séries, liens modifiés…).
  * La clé doit avoir la permission « Actions » en lecture et écriture.
  */
-export async function lancerVerification({ token, depot, branche = "main", series = [] }) {
+export async function lancerVerification({ token, depot, branche = "main", series = [], collection = "mangas" }) {
   try {
     await appel(token, "POST", `/repos/${depot}/actions/workflows/parutions.yml/dispatches`, {
       ref: branche,
-      inputs: series.length ? { series: series.join(",") } : {},
+      inputs: { collection, ...(series.length ? { series: series.join(",") } : {}) },
     });
   } catch (e) {
     if (e.status === 403 || e.status === 404) {

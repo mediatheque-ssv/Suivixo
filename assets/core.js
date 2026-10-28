@@ -141,6 +141,7 @@ export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
         cote: texte(row[2]),
         statut: texte(row[5]),
         public: texte(row[7]),
+        genre: texte(row[14]).replace(/^CS\d*\s*:\s*/i, "").replace(/^non renseign[ée]$/i, ""),
         prets,
         codeBarre: texte(row[26]),
       });
@@ -256,7 +257,7 @@ export function construireFonds(exemplaires, series, meta = {}) {
   const seriesSansNom = new Set([...numsSansNom].filter(([, ns]) => ns.size > 1).map(([k]) => k));
 
   const assurer = (id, ex) => {
-    if (!fonds[id]) fonds[id] = { titreOrphee: titreNaturel(ex.titreBrut.split("\n")[0]), editeur: "", auteur: "", tomes: {}, hs: {}, retires: [] };
+    if (!fonds[id]) fonds[id] = { titreOrphee: titreNaturel(ex.titreBrut.split("\n")[0]), editeur: "", auteur: "", tomes: {}, hs: {}, retires: [], sansNumero: {}, _genres: {} };
     if (!stats[id]) stats[id] = { prets: {}, empruntes: {}, reserves: {}, exemplaires: {}, parTome: {} };
     return fonds[id];
   };
@@ -270,6 +271,7 @@ export function construireFonds(exemplaires, series, meta = {}) {
       if (nouvelles.has(k)) { id = nouvelles.get(k).id; break; }
     }
     const tome = tomeExemplaire(ex, seriesSansNom);
+    if (tome.type === "num" && tome.nums.some((n) => n > 200)) Object.assign(tome, { type: "inconnu", nums: [] }); // « 10000 », « 2006 »…
     if (!id) {
       const titre = titreNaturel(ex.titreBrut.split("\n")[0]);
       let nid = slug(titre), n = 2;
@@ -290,6 +292,7 @@ export function construireFonds(exemplaires, series, meta = {}) {
     const f = assurer(id, ex);
     if (!f.editeur && ex.editeur) f.editeur = ex.editeur;
     if (!f.auteur && ex.auteur) f.auteur = ex.auteur;
+    if (ex.genre) f._genres[ex.genre] = (f._genres[ex.genre] || 0) + 1;
     if (/^WT\b/i.test(ex.cote)) f.webtoon = true; // cote « WT … » : webtoon
     const st = stats[id];
 
@@ -305,6 +308,10 @@ export function construireFonds(exemplaires, series, meta = {}) {
 
     if (tome.type === "hs") { f.hs[ex.bib] = (f.hs[ex.bib] || 0) + 1; continue; }
     if (tome.type === "inconnu") {
+      // gardé dans la fiche de la série : « Titres sans numéro dans Orphée »
+      const liste = (f.sansNumero[ex.bib] ||= []);
+      const nom = titreNaturel(ex.album || ex.titreBrut);
+      if (nom && !liste.includes(nom)) liste.push(nom);
       anomalies.push({ type: "tome-inconnu", serie: id, titre: titreNaturel(ex.titreBrut), album: ex.album, bib: ex.bib, cote: ex.cote, brut: ex.tomeBrut });
       continue;
     }
@@ -324,6 +331,11 @@ export function construireFonds(exemplaires, series, meta = {}) {
   for (const f of Object.values(fonds)) {
     if (!Object.keys(f.hs).length) delete f.hs;
     if (!f.retires.length) delete f.retires;
+    if (!Object.keys(f.sansNumero).length) delete f.sansNumero;
+    // genre d'Orphée (champ CS2) le plus fréquent dans la série
+    const g = Object.entries(f._genres).sort((a, b) => b[1] - a[1])[0];
+    if (g) f.genreOrphee = g[0];
+    delete f._genres;
     if (!f.auteur) delete f.auteur;
   }
 
@@ -347,6 +359,13 @@ export function tomesReseau(f) {
   const s = new Set();
   for (const l of Object.values(f?.tomes || {})) l.forEach((n) => s.add(n));
   return [...s].sort((a, b) => a - b);
+}
+
+/** Plus haut tome possédé, sans un numéro isolé très loin des autres (« 2006 » lu dans une année). */
+export function maxPlausible(tomes) {
+  const l = [...tomes];
+  while (l.length > 1 && l[l.length - 1] - l[l.length - 2] > 30) l.pop();
+  return l.length ? l[l.length - 1] : 0;
 }
 
 const MOIS = 30.44 * 24 * 3600 * 1000;
@@ -388,7 +407,7 @@ export function etatMangaNews(statut) {
   return null;
 }
 
-export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0) {
+export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0, { presumer = false } = {}) {
   const man = serie.manuel || {};
   const al = enr?.anilist && !enr.anilist.rejete && !enr.anilist.auteurDifferent ? enr.anilist : null;
   const bnf = enr?.bnf || null;
@@ -463,12 +482,15 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
     else if (al.statut === "NOT_YET_RELEASED") etat = "En cours";
   } else if (leg.etat) { etat = leg.etat; sourceEtat = "excel"; }
 
-  // Aucune source ne donne l'état (webtoons surtout) : un tome sorti en France depuis moins d'un an,
-  // c'est que la série continue.
+  // Aucune source ne donne l'état (webtoons, BD et romans jeunesse) : un tome sorti en France récemment,
+  // c'est que la série continue. Pour la BD et les romans (`presumer`), plus rien depuis 18 mois :
+  // sans doute terminée (la fiche permet de corriger).
   if (!etat && parus !== null && serie.type !== "One shot") {
     const fr = ficheMangaNews(serie, enr, true);
     const d = Math.max(Date.parse(fr?.vfDernierDate || "") || 0, Date.parse(bnf?.dateDernier || "") || 0);
-    if (d && maintenant - d < 12 * MOIS) { etat = "En cours"; sourceEtat = "recent"; }
+    const delai = (presumer ? 18 : 12) * MOIS;
+    if (d && maintenant - d < delai) { etat = "En cours"; sourceEtat = "recent"; }
+    else if (presumer && d) { etat = "Terminée"; sourceEtat = "ancien"; }
   }
   if (serie.type === "One shot" && !etat) { etat = "Terminée"; sourceEtat = sourceEtat || "type"; }
   if (serie.type === "One shot" && parus === null) { parus = 1; sourceParus = sourceParus || "type"; }

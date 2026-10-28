@@ -1,0 +1,5280 @@
+{
+ "version": 1,
+ "publie": "2026-10-28T13:31:23.776Z",
+ "series": [
+  {
+   "id": "100-bio",
+   "titre": "100 % bio",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "13-martin-a-noel",
+   "titre": "13 Martin à Noël",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "16-metamorphoses-d-ovide",
+   "titre": "16 métamorphoses d'Ovide",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "20-allee-de-la-danse",
+   "titre": "20, allée de la danse",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "22",
+   "titre": "22 !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "30-jours-sans-dechets-ou-plus",
+   "titre": "30 jours sans déchets (ou plus...)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "5-histoires-pour-aimer-le-cp",
+   "titre": "5 histoires pour aimer le CP",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "7-histoires-a-lire-en-7-minutes-pour-les-7-ans",
+   "titre": "7 histoires à lire en 7 minutes pour les 7 ans",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "a-bas-la-lecture",
+   "titre": "A bas la lecture !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "a-bas-la-vaisselle",
+   "titre": "A bas la vaisselle !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "a-l-eau-lili",
+   "titre": "A l'eau, Lili !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "a-nous-la-bastille",
+   "titre": "A nous la Bastille !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "a-table-president",
+   "titre": "A table, Président !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "abominables-bonshommes-de-neige",
+   "titre": "Abominables bonshommes de neige",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "adam-et-le-loup-blanc",
+   "titre": "Adam et le loup blanc",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "adele-licorne-malgre-elle",
+   "titre": "Adèle, licorne malgré elle",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "adrien-qui-ne-fait-rien",
+   "titre": "Adrien qui ne fait rien",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "agatha-et-moi",
+   "titre": "Agatha (...) et moi",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "agatha-charlie-et-moi",
+   "titre": "Agatha, Charlie et moi",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "aime",
+   "titre": "Aimé",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "aime-cesaire-le-negre-indelebile",
+   "titre": "Aimé Césaire, le nègre indélébile",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "albert",
+   "titre": "Albert",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "albert-au-frigidaire",
+   "titre": "Albert au Frigidaire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "alice",
+   "titre": "Alice",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "alice-au-pays-des-merveilles",
+   "titre": "Alice au pays des merveilles",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "alice-lerisque-super-exploratrice",
+   "titre": "Alice Lerisque super exploratrice",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "alienor-fille-de-merlin",
+   "titre": "Aliénor fille de Merlin",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "allo-docteur",
+   "titre": "Allô, docteur ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ambre-d-eclair-et-l-appel-des-dragons",
+   "titre": "Ambre d'Eclair et l'appel des dragons",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "amelie-malefice",
+   "titre": "Amélie Maléfice",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "among-us",
+   "titre": "Among us",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "amour-imperatif-et-pistolet",
+   "titre": "Amour, impératif et pistolet",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "anhour-petit-scribe",
+   "titre": "Anhour, petit scribe",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ariane-l-astucieuse",
+   "titre": "Ariane l'astucieuse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "arthur-et-la-potion-de-vie-infinie",
+   "titre": "Arthur et la potion de vie infinie",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "astrogirls",
+   "titre": "Astrogirls",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "attention-je-mords",
+   "titre": "Attention je mords !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "au-loup-tordu",
+   "titre": "Au loup tordu !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "au-royaume-de-volaria",
+   "titre": "Au royaume de Volaria",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "au-secours",
+   "titre": "Au secours !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "au-secours-maman-retrecit",
+   "titre": "Au secours ! Maman rétrécit",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "au-secours-mon-frere-est-un-ado",
+   "titre": "Au secours ! Mon frère est un ado",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "au-secours-les-anges",
+   "titre": "Au secours, les anges",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "au-service-de-sa-majeste-la-mort",
+   "titre": "Au service de Sa Majesté la Mort",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "auteur-de-mes-jours-l",
+   "titre": "Auteur de mes jours (L)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "avatar",
+   "titre": "Avatar",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "avengers-contre-loki-et-thanos",
+   "titre": "Avengers contre Loki et Thanos",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "aventures-sur-mesure",
+   "titre": "Aventures sur mesure",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "avni",
+   "titre": "Avni",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "balade-en-kayak",
+   "titre": "Balade en kayak",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bande-de-boucans",
+   "titre": "Bande de boucans",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "barkus",
+   "titre": "Barkus",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "basile-bazar",
+   "titre": "Basile Bazar",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bat-pat",
+   "titre": "Bat Pat",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "batman",
+   "titre": "Batman",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bears-bazaar",
+   "titre": "Bears Bazaar",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bebert-hamster-pepere",
+   "titre": "Bébert, hamster pépère",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bella-sara",
+   "titre": "Bella Sara",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bff-best-friends-forever",
+   "titre": "BFF best friends forever !",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bien-curieuse-factrice-une",
+   "titre": "Bien curieuse factrice (Une)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bienvenue-a-perfect-city",
+   "titre": "Bienvenue à Perfect City",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bienvenue-au-cp",
+   "titre": "Bienvenue au CP",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bienvenue-chez-le-fantome",
+   "titre": "Bienvenue chez le fantôme !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "big-nate",
+   "titre": "Big Nate",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "billy-blaireau",
+   "titre": "Billy Blaireau",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "biscotto",
+   "titre": "Biscotto",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bjorn",
+   "titre": "Björn",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "blanche-neige",
+   "titre": "Blanche-Neige",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bonne-nuit-ouistitis",
+   "titre": "Bonne nuit ouistitis !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "boule-bill",
+   "titre": "Boule & Bill",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bravepatte",
+   "titre": "Bravepatte",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "brins-de-magie-et-village-maudit",
+   "titre": "Brins de magie et village maudit",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "broutille",
+   "titre": "Broutille",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bruno",
+   "titre": "Bruno",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "c-est-la-vie-lulu",
+   "titre": "C'est la vie Lulu",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "c-est-mon-arbre",
+   "titre": "C'est mon arbre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "c-est-normal",
+   "titre": "C'est normal !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "c-est-quoi-ton-prenom",
+   "titre": "C'est quoi ton prénom ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ca-gratte",
+   "titre": "Ca gratte !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "calamity",
+   "titre": "Calamity",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "catch-tournevis-et-lutins-robots",
+   "titre": "Catch, tournevis et lutins-robots",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "caviar-poisson-star",
+   "titre": "Caviar, poisson star",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cellule-24",
+   "titre": "Cellule 24",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "cendrillon-ou-presque",
+   "titre": "Cendrillon (ou presque)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cent-ou-deux-cents-grillons",
+   "titre": "Cent ou deux cents grillons",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cest-la-vie-julie",
+   "titre": "Cest la vie, Julie !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chacun-voit-mehdi-a-sa-porte",
+   "titre": "Chacun voit Mehdi à sa porte",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chair-de-poule",
+   "titre": "Chair de Poule",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "champ-de-mines",
+   "titre": "Champ de mines",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "charlie-et-la-chocolaterie-charlie-and-the-chocolat-factory",
+   "titre": "Charlie et la chocolaterie; Charlie and the chocolat factory",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "charlie-et-le-grand-ascenseur-de-verre",
+   "titre": "Charlie et le grand ascenseur de verre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chat-par-ci-chat-par-la",
+   "titre": "Chat par-ci; Chat par-là",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chateau-croquette",
+   "titre": "Château-croquette",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chats-sorcieres",
+   "titre": "Chats & Sorcières",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chaud-le-frigo",
+   "titre": "Chaud le frigo !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chausser-les-crampons",
+   "titre": "Chausser les crampons",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chere-bertille",
+   "titre": "Chère Bertille...",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chien-pourri",
+   "titre": "Chien Pourri !",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chien-pourri-fait-du-ski",
+   "titre": "Chien Pourri fait du ski",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chien-pourri-millionnaire",
+   "titre": "Chien pourri millionnaire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chopin-au-cp",
+   "titre": "Chopin au CP",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chroniques-de-lipton-les-baveux",
+   "titre": "Chroniques de Lipton-les-Baveux",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chroniques-des-royaumes-invisibles",
+   "titre": "Chroniques des royaumes invisibles",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chroniques-du-bout-du-monde",
+   "titre": "Chroniques du bout du monde",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chugakko-academie",
+   "titre": "Chugakko Académie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chut-monsieur-dragon",
+   "titre": "Chut, monsieur Dragon !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cinq-sorcieres",
+   "titre": "Cinq sorcières",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "clara-est-amoureuse",
+   "titre": "Clara est amoureuse !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "clara-et-les-poneys",
+   "titre": "Clara et les poneys",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "clara-s-en-mele",
+   "titre": "Clara s'en mêle !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "clodomir-mousqueton",
+   "titre": "Clodomir Mousqueton",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "club-cookies",
+   "titre": "Club cookies",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "cluedo",
+   "titre": "Cluedo",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "cluedo-bibliotheque-verte",
+   "titre": "Cluedo - Bibliothèque verte",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "cluedo-romans-policiers",
+   "titre": "Cluedo : romans policiers",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "combattre-pour-etre-soi",
+   "titre": "Combattre pour être soi",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "comment-devenir-une-vraie-sorciere",
+   "titre": "Comment devenir une vraie sorcière ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "comment-ecrire-comme-un-cochon",
+   "titre": "Comment écrire comme un cochon",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "comment-je-vais-devenir-ecrivain-si-tout-va-bien",
+   "titre": "Comment je vais devenir écrivain... (si tout va bien...)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "comment-ratatiner-les-dinosaures",
+   "titre": "Comment ratatiner les dinosaures ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "contes-et-legendes-de-l-iliade",
+   "titre": "Contes et légendes de l'Iliade",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cool",
+   "titre": "Cool!",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cours-ayana",
+   "titre": "Cours, Ayana !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "crapaud",
+   "titre": "Crapaud",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "crime-a-la-tour-eiffel",
+   "titre": "Crime à la Tour Eiffel",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "crookhaven",
+   "titre": "Crookhaven",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "d-apres-serie-animee-le-petit-nicolas",
+   "titre": "D'après série animée Le petit Nicolas",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "dagfrid",
+   "titre": "Dagfrid",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "dans-la-foret",
+   "titre": "Dans la forêt",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dans-la-gueule-du-loup",
+   "titre": "Dans la gueule du loup",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "darwin-vu-par-un-ado",
+   "titre": "Darwin vu par un ado",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dent-dure-et-courtepatte",
+   "titre": "Dent-dure et Courtepatte",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "des-fleurs-sur-les-murs",
+   "titre": "Des fleurs sur les murs",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "deux-histoires-de-gafi-pour-se-faire-peur",
+   "titre": "Deux histoires de Gafi pour se faire peur",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "deviens-le-heros",
+   "titre": "Deviens le héros",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "dino",
+   "titre": "Dino",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "draculivre",
+   "titre": "Draculivre",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "droit-devant-pour-un-peu-c-est-toute-une-aventure",
+   "titre": "Droit devant, pour un peu, c'est toute une aventure",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "drole-de-cauchemar",
+   "titre": "Drôle de cauchemar",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "droles-de-fantomes",
+   "titre": "Drôles de fantômes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "du-commerce-de-la-souris",
+   "titre": "Du commerce de la souris",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dur-dur-detre-un-grand-frere",
+   "titre": "Dur, dur, dêtre un grand frère",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ecole-sur-une-poudriere-une",
+   "titre": "Ecole sur une poudrière (Une)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ecoute-la-baleine-chanter",
+   "titre": "Ecoute la baleine chanter",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "edmond-et-ses-amis",
+   "titre": "Edmond et ses amis",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "einstein-vu-par-un-ado",
+   "titre": "Einstein vu par un ado",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "eliott-et-la-bibliotheque-fabuleuse",
+   "titre": "Eliott et la bibliothèque fabuleuse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "elisabeth-princesse-a-versailles",
+   "titre": "Elisabeth princesse à Versailles",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "elixir-pour-etre-le-meilleur",
+   "titre": "Elixir pour être le meilleur",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "emile-et-margot",
+   "titre": "Emile et Margot",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "emile-titan",
+   "titre": "Emile Titan",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "emma-et-loustic",
+   "titre": "Emma et Loustic",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "emy-ne-veut-pas-lire",
+   "titre": "Emy ne veut pas lire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "en-avant-foot",
+   "titre": "En avant foot",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "en-route-vers-le-podium-avec-victor-wembanyama",
+   "titre": "En route vers le podium avec Victor Wembanyama",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "en-vrai",
+   "titre": "En vrai",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enfant-qui-parlait-aux-animaux-l",
+   "titre": "Enfant qui parlait aux animaux (L)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enigme-du-crottin-qui-pue-l",
+   "titre": "Enigme du crottin qui pue (L)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enquete-au-college",
+   "titre": "Enquête au collège",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "enquete-au-ranch-du-galop-d-or",
+   "titre": "Enquête au Ranch du Galop d'Or",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enquete-de-haute-voltige",
+   "titre": "Enquête de haute voltige",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enterrer-la-lune",
+   "titre": "Enterrer la lune",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "entre-terre-et-ciel",
+   "titre": "Entre terre et ciel",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "esprit-fantomes",
+   "titre": "Esprit fantômes",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "essie",
+   "titre": "Essie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "et-si-je-n-allais-pas-a-l-ecole",
+   "titre": "Et si je n'allais pas à l'école ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fantastique-maitre-renard",
+   "titre": "Fantastique maître Renard",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fantomette-contre-le-geant",
+   "titre": "Fantômette contre le géant",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fantomette-contre-le-hibou",
+   "titre": "Fantômette contre le hibou",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "far-west",
+   "titre": "Far West",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "faut-pas-pousser-meme",
+   "titre": "Faut pas pousser Mémé",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fichue-randonnee-poils-aux-pieds",
+   "titre": "Fichue randonnée... poils aux pieds !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fievre-a-lhopital",
+   "titre": "Fièvre à lhôpital",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fils-de-clown",
+   "titre": "Fils de clown",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fleur-de-bastion-et-le-renard-masque",
+   "titre": "Fleur de Bastion et le Renard masqué",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "florian-bates-enquete",
+   "titre": "Florian Bates enquête",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "foot-2-rue",
+   "titre": "Foot 2 rue",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "fourmidable",
+   "titre": "Fourmidable",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "francette-top-secrete",
+   "titre": "Francette top secrète",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "franchir-les-obstacles",
+   "titre": "Franchir les obstacles",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "franny-k-stein-savante-folle",
+   "titre": "Franny K. Stein, savante folle",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "freres-d-exil",
+   "titre": "Frères d'exil",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "frissons",
+   "titre": "Frissons",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "frissons-a-oleron",
+   "titre": "Frissons à Oléron",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "frostheart",
+   "titre": "Frostheart",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gafi-raconte",
+   "titre": "Gafi raconte",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gardiens-des-cites-perdues",
+   "titre": "Gardiens des cités perdues",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gaspard-et-archy",
+   "titre": "Gaspard et Archy",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gaspard-le-leopard",
+   "titre": "Gaspard le léopard",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gauffrette-petit-beurre-et-chocolat",
+   "titre": "Gauffrette, Petit Beurre et Chocolat",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "georges-et-le-big-bang",
+   "titre": "Georges et le Big Bang",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "georges-le-dragon",
+   "titre": "Georges le dragon",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "geronimo-stilton",
+   "titre": "Geronimo Stilton",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "goliath-chat-pirate",
+   "titre": "Goliath, chat pirate",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "gourou-de-secours",
+   "titre": "Gourou de secours",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "grabotte-la-sotte",
+   "titre": "Grabotte la sotte",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "grand-galop",
+   "titre": "Grand Galop",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "guerre-et-poux",
+   "titre": "Guerre et poux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "guillaume-petit-chevalier",
+   "titre": "Guillaume petit chevalier",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gustave-taloche-roi-de-la-bagarre",
+   "titre": "Gustave Taloche, roi de la bagarre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "halte-au-virus",
+   "titre": "Halte au virus !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "hamaika-et-le-poisson",
+   "titre": "Hamaika et le poisson",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "harry-potter",
+   "titre": "Harry Potter",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "hazel-toucourt-et-les-failles-du-temps",
+   "titre": "Hazel Toucourt et les failles du temps",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "hazel-toucourt-et-les-failles-du-temps-tome-2-les-droles-d-invites-de-granny-boum-boum",
+   "titre": "Hazel Toucourt et les failles du temps - Tome 2 : Les drôles d'invités de Granny Boum-Boum",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "henri-lit-dans-ma-tete",
+   "titre": "Henri lit dans ma tête",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "hercule-carotte-detective",
+   "titre": "Hercule Carotte, détective",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "hercule-et-les-chevaux-ensorceles",
+   "titre": "Hercule et les chevaux ensorcelés",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "heroines-de-la-mythologie",
+   "titre": "Héroïnes de la mythologie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "horror-games",
+   "titre": "Horror games",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "hotel-flamingo",
+   "titre": "Hôtel Flamingo",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "hulotte",
+   "titre": "Hulotte",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "idefix-et-les-irreductibles",
+   "titre": "Idéfix et les Irréductibles",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "impossibles-creatures",
+   "titre": "Impossibles Créatures",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "interdit-aux-petites-soeurs",
+   "titre": "Interdit aux petites soeurs !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "isaac-caniche-maniaque",
+   "titre": "Isaac, caniche maniaque",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "isild-a-l-opera",
+   "titre": "Isild à l'opéra",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "j-ai-enleve-mamie",
+   "titre": "J'ai enlevé mamie",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "j-apprends-a-lire-avec-sami-et-julie",
+   "titre": "J'apprends à lire avec Sami et Julie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "j-deteste-le-sport",
+   "titre": "J'déteste le sport",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jambon-fromage-et-potiron",
+   "titre": "Jambon, fromage et potiron",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "james-et-la-grosse-peche",
+   "titre": "James et la grosse pêche",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jasmine",
+   "titre": "Jasmine",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "je-hais-la-comtesse",
+   "titre": "Je hais la comtesse !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "je-ne-veux-pas-changer-de-maison",
+   "titre": "Je ne veux pas changer de maison !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "je-ne-veux-pas-lire",
+   "titre": "Je ne veux pas lire !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "je-peux-te-manger-ca-va-pas-la-tete",
+   "titre": "Je peux te manger ? Ca va pas la tête !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "je-suis-accro-aux-ecrans",
+   "titre": "Je suis accro aux écrans",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "je-suis-en-ce1",
+   "titre": "Je suis en CE1",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "je-suis-en-ce2",
+   "titre": "Je suis en CE2",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "je-suis-en-cp",
+   "titre": "Je suis en CP",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "je-t-aime",
+   "titre": "Je t'aime",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "je-te-hais",
+   "titre": "Je te hais",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jean-bebe-et-baby-john",
+   "titre": "Jean-Bébé et Baby-John",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jeanies-et-les-siens",
+   "titre": "Jeanies et les siens",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jefferson",
+   "titre": "Jefferson",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "jefferson-se-fache",
+   "titre": "Jefferson se fâche",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jeux-et-merveilles",
+   "titre": "Jeux et merveilles",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "joe-millionnaire",
+   "titre": "Joe millionnaire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "joker",
+   "titre": "Joker",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "joseph-poulpe-en-chef",
+   "titre": "Joseph, poulpe en chef",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "journal-d-un-degonfle",
+   "titre": "Journal d'un dégonflé",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "journal-d-une-princesse",
+   "titre": "Journal d'une princesse",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "journee-a-cloche-pied-une",
+   "titre": "Journée à cloche-pied (Une)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jules-l-aventurier",
+   "titre": "Jules l'aventurier",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "juliette",
+   "titre": "Juliette",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "juliette-autour-du-monde",
+   "titre": "Juliette autour du monde",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "juste-un-mot",
+   "titre": "Juste un mot",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "kate-mene-l-enquete",
+   "titre": "Kate mène l'enquête",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "keo-et-l-epee-magique",
+   "titre": "Kéo et l'épée magique",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "kikekoa-et-ornicar",
+   "titre": "Kikekoa et Ornicar",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "kimi-kimura-et-la-cata-des-contes",
+   "titre": "Kimi Kimura et la Cata des Contes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "kimia-petit-singe-en-danger",
+   "titre": "Kimia, petit singe en danger",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "kingdom-hearts",
+   "titre": "Kingdom Hearts",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "kinra-girls",
+   "titre": "Kinra girls",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "affaire-des-fees-de-cottingley",
+   "titre": "L' affaire des fées de Cottingley",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "altesse-des-maladresses",
+   "titre": "L' altesse des maladresses",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ecole-des-mini-garous",
+   "titre": "L' école des mini-garous",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ennemi-jure",
+   "titre": "L' ennemi juré",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "epouvantable-bibliothecaire",
+   "titre": "L' épouvantable bibliothécaire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "histoire-de-la-bete",
+   "titre": "L' histoire de la Bête",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "horloge-du-temps",
+   "titre": "L' horloge du temps",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ignoble-libraire",
+   "titre": "L' ignoble libraire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ile-au-manoir",
+   "titre": "L' île au manoir",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "invitee-de-noel",
+   "titre": "L' invitée de Noël",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "agence-mondetranges",
+   "titre": "L'agence Mondétranges",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ami-de-naoki",
+   "titre": "L'ami de Naoki",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "appel-de-la-foret",
+   "titre": "L'Appel de la forêt",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "apprenti-chevalier",
+   "titre": "L'apprenti Chevalier",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "attaque-du-mutant",
+   "titre": "L'Attaque du mutant",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ecole-d-agathe",
+   "titre": "L'école d'Agathe",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ecole-d-agathe-ce1",
+   "titre": "L'école d'Agathe CE1",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ecole-de-la-jungle",
+   "titre": "L'école de la jungle",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ecole-de-minuit",
+   "titre": "L'école de minuit",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ecole-de-p-a-n",
+   "titre": "L'école de P.A.N",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ecole-des-champions",
+   "titre": "L'école des champions",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ecole-des-mousquetaires",
+   "titre": "L'Ecole des mousquetaires",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ecole-des-pouvoirs-secrets",
+   "titre": "L'Ecole des pouvoirs secrets",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ecole-en-feu",
+   "titre": "L'école en feu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enfance-des-heros",
+   "titre": "L'enfance des héros",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "extraordinaire-aventure-de-la-classe-de-mlle-petsec",
+   "titre": "L'extraordinaire aventure de la classe de Mlle Petsec",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "extravagante-ecole-de-melisande-malice",
+   "titre": "L'extravagante école de Mélisande Malice",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "homme-a-l-oreille-coupee",
+   "titre": "L'Homme à l'oreille coupée",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "homme-qui-ne-possedait-rien",
+   "titre": "L'Homme qui ne possédait rien",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ile-sans-nom",
+   "titre": "L'île sans nom",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "incroyable-aventure-de-marie-marvingt-l-intrepide-aux-mille-vies",
+   "titre": "L'incroyable aventure de Marie Marvingt, l'intrépide aux mille vies",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "incroyable-destin-de-marie-curie-qui-decouvrit-la-radioactivite",
+   "titre": "L'incroyable destin de Marie Curie, qui découvrit la radioactivité",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "incroyable-odyssee-d-ulysse",
+   "titre": "L'incroyable Odyssée d'Ulysse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "interrogatoire-ou-ce-qui-s-est-vraiment-passe",
+   "titre": "L'interrogatoire... ou Ce qui s'est vraiment passé",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "oeil-du-loup",
+   "titre": "L'oeil du loup",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ogre-au-pull-vert-moutarde",
+   "titre": "L'ogre au pull vert moutarde",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ogre-qui-devore-les-livres",
+   "titre": "L'Ogre qui dévore les livres",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "baignoire-aux-sirenes",
+   "titre": "La baignoire aux sirènes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ballade-de-cornebique",
+   "titre": "La Ballade de Cornebique",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "belle-au-bois-dormant",
+   "titre": "La Belle au bois dormant",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "belle-lisse-poire-du-prince-motordu",
+   "titre": "La belle lisse poire du prince motordu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "betise-de-splat",
+   "titre": "La bêtise de Splat",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "brigade-des-cauchemars",
+   "titre": "La brigade des cauchemars",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "cabane-magique",
+   "titre": "La cabane magique",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "caravane",
+   "titre": "La caravane",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "charabiole",
+   "titre": "La Charabiole",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chasse-au-secret",
+   "titre": "La chasse au secret",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "classe-de-mer-de-monsieur-ganeche",
+   "titre": "La classe de mer de monsieur Ganèche",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cle-des-champs",
+   "titre": "La clé des champs",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "colere-du-kraken",
+   "titre": "La colère du kraken",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "confrerie-des-temeraires",
+   "titre": "La confrérie des téméraires",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "copine-de-sham-n-aime-pas-lire",
+   "titre": "La copine de Sham n'aime pas lire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "derniere-des-elfes",
+   "titre": "La dernière des elfes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "disparition-des-enfants-greystone",
+   "titre": "La disparition des enfants Greystone",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "drole-d-evasion",
+   "titre": "La drôle d'évasion",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "drole-d-expedition",
+   "titre": "La drôle d'expédition",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "famille-alonzi",
+   "titre": "La famille Alonzi",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "famille-monstre-fait-sa-rentree",
+   "titre": "La famille Monstre fait sa rentrée",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "famille-trop-d-filles",
+   "titre": "La famille trop d'filles",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "femme-noire-qui-refusa-de-se-soumettre-rosa-parks",
+   "titre": "La femme noire qui refusa de se soumettre : Rosa Parks",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fete-d-anniversaire",
+   "titre": "La fête d'anniversaire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fete-de-la-maitresse",
+   "titre": "La fête de la maîtresse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fiancee-du-fantome",
+   "titre": "La Fiancée du fantôme",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fille-de-la-6e-k",
+   "titre": "La fille de la 6e K",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fille-de-la-faucheuse",
+   "titre": "La fille de la faucheuse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fille-qui-parlait-ours",
+   "titre": "La fille qui parlait ours",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "folle-evasion",
+   "titre": "La folle évasion",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "gloire-de-ma-mere",
+   "titre": "La gloire de ma mère",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "glu",
+   "titre": "La Glu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "grande-bagarre",
+   "titre": "La grande bagarre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "greve-des-enfants",
+   "titre": "La grève des enfants",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "guerre-des-clans-cycle-1",
+   "titre": "La guerre des Clans : cycle 1",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ligue-de-la-nature",
+   "titre": "La Ligue de la nature",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "maison-chapelier",
+   "titre": "La maison Chapelier",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "maison-des-enfants-trouves",
+   "titre": "La maison des enfants trouvés",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "maison-des-secrets",
+   "titre": "La maison des secrets",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "maison-du-chat-noir",
+   "titre": "La maison du chat noir",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "maison-sous-la-maison",
+   "titre": "La Maison sous la Maison",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "maitresse-a-peur-du-noir",
+   "titre": "La Maîtresse a peur du noir",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "malediction-du-carcajou",
+   "titre": "La malédiction du carcajou",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "nuit-seule",
+   "titre": "La Nuit seule",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ou-regnent-les-baleines",
+   "titre": "Là où règnent les baleines",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "parade-de-noel",
+   "titre": "La parade de Noël",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "peche-a-l-ours",
+   "titre": "La pêche à l'ours",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "peche-aux-etoiles",
+   "titre": "La pêche aux étoiles",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "petite-sirene",
+   "titre": "La petite sirène",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "petoche-du-geant-poilu",
+   "titre": "La pétoche du géant poilu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "potion-du-pere-noel",
+   "titre": "La potion du Père Noël",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "princesse-au-sommeil-leger",
+   "titre": "La princesse au sommeil léger",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "princesse-elastique",
+   "titre": "La Princesse élastique",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "princesse-qui-ne-croyait-pas-aux-contes-de-fees-et-le-prince-amoureux",
+   "titre": "La princesse qui ne croyait pas aux contes de fées et le prince amoureux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quete-des-ours",
+   "titre": "La quête des ours",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "recre-de-la-sorciere",
+   "titre": "La récré de la sorcière",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "reine-des-neiges",
+   "titre": "La reine des neiges",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "rentree-des-jumeaux-pirates",
+   "titre": "La rentrée des jumeaux pirates",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "revanche-des-princesses",
+   "titre": "La revanche des princesses",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "revolte-des-dragons",
+   "titre": "La révolte des dragons",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "riviere-a-l-envers",
+   "titre": "La Rivière à l'envers",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "soiree-pyjama",
+   "titre": "La soirée pyjama",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sorciere-de-la-rue-mouffetard-et-autres-contes-de-la-rue-broca",
+   "titre": "La sorcière de la rue Mouffetard et autres contes de la rue Broca",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sorciere-des-marais",
+   "titre": "La sorcière des marais",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sorciere-du-tgv",
+   "titre": "La sorcière du TGV",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "street",
+   "titre": "La street",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tempete",
+   "titre": "La tempête",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "trousse-se-revolte",
+   "titre": "La trousse se révolte",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "veritable-histoire-de-bao-de-jeune-chinois-sur-la-route-de-la-soie",
+   "titre": "La véritable histoire de Bao-De, jeune Chinois sur la route de la soie",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "veritable-histoire-de-marcel-soldat-pendant-la-premiere-guerre-mondiale",
+   "titre": "La véritable histoire de Marcel, soldat pendant la Première Guerre mondiale",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "veritable-histoire-de-paulin-le-petit-paysan-qui-revait-d-etre-chevalier",
+   "titre": "La véritable histoire de Paulin, le petit paysan qui rêvait d'être chevalier",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vie-d-antonin-dubonnet-racontee-en-pates-alphabet",
+   "titre": "La vie d'Antonin Dubonnet racontée en pâtes alphabet",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vie-extremement-embarrassante-de-lottie-brooks",
+   "titre": "La vie extrêmement embarrassante de Lottie Brooks",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "laisse-moi-entrer-poulette",
+   "titre": "Laisse-moi entrer, poulette !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bal-de-l-espace",
+   "titre": "Le bal de l'espace",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ballon-de-tibi",
+   "titre": "Le ballon de Tibi",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bgg",
+   "titre": "Le BGG",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bureau-des-coeurs-trouves",
+   "titre": "Le bureau des coeurs trouvés",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "bureau-des-legendes",
+   "titre": "Le bureau des légendes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "bus-magique",
+   "titre": "Le bus magique",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "buveur-d-encre",
+   "titre": "Le buveur d'encre",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "cavalier-du-nil",
+   "titre": "Le Cavalier du Nil",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chat-assassin-tombe-amoureux",
+   "titre": "Le chat assassin tombe amoureux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chat-pitre",
+   "titre": "Le chat pitre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chat-qui-ne-voulait-pas-feter-noel",
+   "titre": "Le chat qui ne voulait pas fêter Noël",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chateau-de-la-magie-interdite",
+   "titre": "Le château de la Magie Interdite",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cheval-dans-la-maison",
+   "titre": "Le Cheval dans la maison",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chien-des-baskerville",
+   "titre": "Le chien des Baskerville",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "chien-invisible",
+   "titre": "Le chien invisible",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "cirque-patatrac",
+   "titre": "Le cirque Patatrac",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "clan-de-l-ogre-advar",
+   "titre": "Le clan de l'ogre Advar",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "clan-des-cabosses",
+   "titre": "Le clan des cabossés",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "clan-du-chaudron",
+   "titre": "Le clan du chaudron",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "club-de-la-pluie",
+   "titre": "Le club de la pluie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "club-des-chatons",
+   "titre": "Le club des chatons",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "club-des-cinq",
+   "titre": "Le club des Cinq",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "club-des-poneys",
+   "titre": "Le club des poneys",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "college-de-raxford",
+   "titre": "Le collège de Raxford",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "dejeuner-des-loups",
+   "titre": "Le déjeuner des loups",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dernier-des-dragons",
+   "titre": "Le dernier des dragons",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dernier-mouton",
+   "titre": "Le dernier mouton",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dragon-chanteur",
+   "titre": "Le Dragon chanteur",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dragon-des-mers",
+   "titre": "Le Dragon des mers",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dragon-recalcitrant",
+   "titre": "Le Dragon récalcitrant",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fantome-du-conservatoire",
+   "titre": "Le fantôme du conservatoire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fils-du-loup-la-balafre-une-odyssee-au-klondyke",
+   "titre": "Le fils du loup; La balafre; Une odyssée au Klondyke",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "fils-du-samourai",
+   "titre": "Le fils du samouraï",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "foot-moi-jamais",
+   "titre": "Le foot, moi, jamais !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "gang-du-cdi",
+   "titre": "Le gang du CDI",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "garcon-au-chien-parlant-la-fille-qui-parle-a-la-mer",
+   "titre": "Le garçon au chien parlant; La fille qui parle à la mer",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "garcon-du-sous-sol",
+   "titre": "Le garçon du sous-sol",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "garcon-qui-nageait-avec-les-piranhas",
+   "titre": "Le garçon qui nageait avec les piranhas",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "garcon-qui-parlait-avec-les-mains",
+   "titre": "Le garçon qui parlait avec les mains",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "gardien-des-tempetes",
+   "titre": "Le gardien des tempêtes",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gentil-petit-diable",
+   "titre": "Le Gentil petit diable",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "gout-de-la-tomate",
+   "titre": "Le goût de la tomate",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "grand-bain",
+   "titre": "Le grand bain",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "grand-mystere",
+   "titre": "Le Grand mystère",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "grenier-merveilleux",
+   "titre": "Le grenier merveilleux",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "hamburger-de-la-peur",
+   "titre": "Le hamburger de la peur",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "hollandais-sans-peine",
+   "titre": "Le Hollandais sans peine",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jardin-secret",
+   "titre": "Le jardin secret",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jour-ou-le-monde-est-devenu-bizarre",
+   "titre": "Le jour où le monde est devenu bizarre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jour-ou-tout-s-arreta",
+   "titre": "Le jour où tout s'arrêta",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "journal-d-une-grosse-nouille",
+   "titre": "Le journal d'une grosse nouille",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "journal-malgre-lui-de-henry-k-larsen",
+   "titre": "Le journal malgré lui de Henry K. Larsen",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "livre-des-reves-interdits",
+   "titre": "Le livre des rêves interdits",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "loup-a-les-crocs",
+   "titre": "Le Loup a les crocs",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "loup-au-cp",
+   "titre": "Le loup au CP",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "loup-en-laisse",
+   "titre": "Le loup en laisse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "loup-qui-n-avait-jamais-vu-la-mer",
+   "titre": "Le loup qui n'avait jamais vu la mer",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "loup-qui-voulait-apprendre-a-lire",
+   "titre": "Le Loup qui voulait apprendre à lire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "maitre-chat",
+   "titre": "Le maître chat",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "maitre-des-licornes",
+   "titre": "Le maître des Licornes",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "manoir",
+   "titre": "Le manoir",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "manoir-croquignole",
+   "titre": "Le manoir Croquignole",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "manoir-de-castlecatz",
+   "titre": "Le manoir de Castlecatz",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "match-de-foot-qui-dura-tout-un-ete",
+   "titre": "Le match de foot qui dura tout un été",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monde-de-lucrece",
+   "titre": "Le monde de Lucrèce",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "monde-de-nedarra",
+   "titre": "Le monde de Nedarra",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "monde-selon-frrrintek",
+   "titre": "Le monde selon Frrrintek",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mystere-de-broceliande",
+   "titre": "Le mystère de Brocéliande",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mystere-de",
+   "titre": "Le mystère de...",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "noel-de-la-famille-monstre",
+   "titre": "Le Noël de la famille Monstre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "noel-de-sidonie-souris",
+   "titre": "Le Noël de Sidonie Souris",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "nouvel-ami",
+   "titre": "Le nouvel ami",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ouaf-club-mene-l-enquete",
+   "titre": "Le Ouaf-Club mène l'enquête",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "panier",
+   "titre": "Le panier",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pere-noel-a-grossi",
+   "titre": "Le Père Noël a grossi",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "petit-gus",
+   "titre": "Le petit Gus",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "petit-nicolas",
+   "titre": "Le petit Nicolas",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "petit-nicolas-a-des-ennuis",
+   "titre": "Le Petit Nicolas a des ennuis",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "petit-poucet-ou-presque",
+   "titre": "Le Petit Poucet (ou presque)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "petit-prince",
+   "titre": "Le Petit prince",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "petit-voleur-d-ombres",
+   "titre": "Le petit voleur d'ombres",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "piano-et-le-velo-c-est-costaud",
+   "titre": "Le piano et le vélo, c'est costaud !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "plein-de-blorg",
+   "titre": "Le plein de blorg",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "plus-grand-detective-du-monde",
+   "titre": "Le plus grand détective du monde",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "preau-des-z-heros",
+   "titre": "Le préau des z'héros",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "prince-et-la-grenouille",
+   "titre": "Le prince et la grenouille",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ranch",
+   "titre": "Le ranch",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ranch-des-mustangs",
+   "titre": "Le ranch des mustangs",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "retour-de-la-bete",
+   "titre": "Le retour de la bête",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "retour-du-monstre-poilu",
+   "titre": "Le retour du monstre poilu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "reve-de-rahim",
+   "titre": "Le Rêve de Rahim",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "robot-de-sami",
+   "titre": "Le robot de Sami",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "royaume-d-outrebrume",
+   "titre": "Le Royaume d'Outrebrume",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "royaume-de-kensuke",
+   "titre": "Le Royaume de Kensuké",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "royaume-des-reines",
+   "titre": "Le royaume des reines",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sablier-de-l-arbre-sacre",
+   "titre": "Le sablier de l'arbre sacré",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "secret-des-enchanteurs",
+   "titre": "Le secret des enchanteurs",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "secret-du-rocher-noir",
+   "titre": "Le secret du rocher noir",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "seul-et-unique-bob",
+   "titre": "Le seul et unique Bob",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "seul-et-unique-ivan",
+   "titre": "Le seul et unique Ivan",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "spectacle-de-marionnettes",
+   "titre": "Le spectacle de marionnettes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "spectacle-de-splat",
+   "titre": "Le spectacle de Splat",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "talisman-des-4-dragons",
+   "titre": "Le talisman des 4 dragons",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "taureau-a-lunettes",
+   "titre": "Le taureau à lunettes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tour-du-monde-de-la-famille-rollmops",
+   "titre": "Le tour du monde de la famille Rollmops",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "vilain-petit-canard",
+   "titre": "Le vilain petit canard",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "voleur-de-chateaux",
+   "titre": "Le voleur de châteaux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "voleur-de-chouchous",
+   "titre": "Le Voleur de chouchous",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "voyage-de-l-ane",
+   "titre": "Le voyage de l'âne",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vrai-heros-des-jo",
+   "titre": "Le vrai héros des JO",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "leon-marchand",
+   "titre": "Léon Marchand",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "100-visages-de-soryan-nesh",
+   "titre": "Les 100 visages de Soryan Nesh",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "amis-de-chien-pourri",
+   "titre": "Les amis de Chien Pourri",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "animaux-de-lou",
+   "titre": "Les animaux de Lou",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "apprentis-chercheurs",
+   "titre": "Les apprentis chercheurs",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "arsene",
+   "titre": "Les Arsène",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "aventure-de-la-famille-motordu",
+   "titre": "Les Aventure de la famille Motordu",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-d-anouk-et-benji",
+   "titre": "Les aventures d'Anouk et Benji",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-de-kimamila",
+   "titre": "Les aventures de Kimamila",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-de-la-famille-motordu",
+   "titre": "Les aventures de la famille Motordu",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-de-leon",
+   "titre": "Les aventures de Léon",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-de-moi-meme",
+   "titre": "Les aventures de moi-même",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-de-tom-sawyer",
+   "titre": "Les aventures de Tom Sawyer",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "aventures-du-monstre-poilu",
+   "titre": "Les aventures du monstre poilu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "aventures-heroiques-d-un-garcon-pas-heroique-du-tout",
+   "titre": "Les aventures héroïques d'un garçon pas héroïque du tout",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "aventures-involontaires-des-soeurs-mouais",
+   "titre": "Les aventures involontaires des soeurs Mouais",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ballerines-magiques",
+   "titre": "Les ballerines magiques",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "carnets-de-la-cabane-magique",
+   "titre": "Les Carnets de la Cabane Magique",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "chasseurs-de-lumieres",
+   "titre": "Les chasseurs de lumières",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "clopin-clopant",
+   "titre": "Les Clopin-Clopant",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "contes-de-beedle-le-barde",
+   "titre": "Les Contes de Beedle le Barde",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "contes-detraques",
+   "titre": "Les contes détraqués?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "copains-du-cp",
+   "titre": "Les copains du CP",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "cousins-karlsson",
+   "titre": "Les cousins Karlsson",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "desastreuses-aventures-des-orphelins-baudelaire",
+   "titre": "Les désastreuses aventures des orphelins Baudelaire",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "doigts-rouges",
+   "titre": "Les doigts rouges",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "dragons-de-nalsara",
+   "titre": "Les dragons de Nalsara",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "dragons-ca-n-existe-pas",
+   "titre": "Les dragons, ça n'existe pas",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enfants-d-athena",
+   "titre": "Les Enfants d'Athéna",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enfants-les-pires-du-monde",
+   "titre": "Les enfants les pires du monde",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enfants-terribles-de-bonaventure",
+   "titre": "Les enfants terribles de Bonaventure",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enigmes-de-kyoto",
+   "titre": "Les énigmes de Kyoto",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "enquetes-de-clem",
+   "titre": "Les enquêtes de Clem",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "enquetes-de-l-inspecteur-0-0",
+   "titre": "Les enquêtes de l'inspecteur 0-0",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "enquetes-de-scarlett-et-watson",
+   "titre": "Les enquêtes de Scarlett et Watson",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "enquetes-des-soeurs-lumiere",
+   "titre": "Les enquêtes des soeurs Lumière",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "enquetes-fabuleuses-de-fff-le-fameux-felix-file-filou",
+   "titre": "Les enquêtes fabuleuses de FFF, le fameux Félix File-Filou",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "enquetes-h2o-d-eglantine-chalutier",
+   "titre": "Les enquêtes H2O d'Eglantine Chalutier",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "enquetes-potageres-de-loulou",
+   "titre": "Les enquêtes potagères de Loulou",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "fabuleuses-aventures-d-aurore",
+   "titre": "Les fabuleuses aventures d'Aurore",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "femmes-du-bout-du-monde",
+   "titre": "Les femmes du bout du monde",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "folles-enigmes-de-mamie-momie",
+   "titre": "Les folles énigmes de Mamie Momie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gamines-de-paris",
+   "titre": "Les gamines de Paris",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gardiens-de-baguette-magique",
+   "titre": "Les gardiens de baguette magique",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "gardiens-du-cristal-d-argent",
+   "titre": "Les gardiens du Cristal d'argent",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "gargouilles-de-morne-ecu",
+   "titre": "Les gargouilles de Morne-Ecu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "gens-normaux",
+   "titre": "Les gens normaux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "grandes-inventions",
+   "titre": "Les grandes inventions",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "heritiers-de-brisaine",
+   "titre": "Les héritiers de Brisaine",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "heros-de-la-maternelle",
+   "titre": "Les héros de la maternelle",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "heros-du-cp",
+   "titre": "Les héros du CP",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "hics-du-corps",
+   "titre": "Les hics du corps",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "histoires-inedites-du-petit-nicolas",
+   "titre": "Les histoires inédites du petit Nicolas",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "indiens",
+   "titre": "Les Indiens",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "jumeaux-capoupacap",
+   "titre": "Les jumeaux capoupacap",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lapins-de-la-couronne-d-angleterre",
+   "titre": "Les lapins de la couronne d'Angleterre",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "legendaires",
+   "titre": "Les légendaires",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "malheurs-de-sophie-traduction-falc",
+   "titre": "Les malheurs de Sophie (traduction FALC)",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "meilleurs-ennemis",
+   "titre": "Les meilleurs ennemis",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mondes-de-lova-obscura",
+   "titre": "Les mondes de Lova Obscura",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "monsieur-madame-au-pays-magique",
+   "titre": "Les Monsieur Madame au pays magique",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monsieur-madame-et-le-gouter-d-anniversaire",
+   "titre": "Les Monsieur Madame et le goûter d'anniversaire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monsieur-madame-font-de-la-musique",
+   "titre": "Les Monsieur Madame font de la musique",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monsieur-madame-vont-camper",
+   "titre": "Les Monsieur Madame vont camper",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monstres-d-outre-terre",
+   "titre": "Les monstres d'Outre-terre",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "monstres-de-rookhaven",
+   "titre": "Les monstres de Rookhaven",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mysteres-dont-vous-etes-le-heros",
+   "titre": "Les mystères dont vous êtes le héros",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "orphelins-de-metal",
+   "titre": "Les orphelins de métal",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "p-tites-poules",
+   "titre": "Les P'tites poules",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "papiliers-le-petit-peuple-des-livres",
+   "titre": "Les Papiliers : le petit peuple des livres",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pecheurs-d-eternite",
+   "titre": "Les pêcheurs d'éternité",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "petites-histoires-des-4-soeurs",
+   "titre": "Les petites histoires des 4 soeurs",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pierres-de-roc-en-terre",
+   "titre": "Les Pierres de Roc-en-Terre",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pirates",
+   "titre": "Les pirates",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pirates-du-perroquet-barbu",
+   "titre": "Les Pirates du Perroquet barbu",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pires-enfants-de-lhistoire-du-monde",
+   "titre": "Les Pires enfants de lhistoire du monde",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pointes-noires",
+   "titre": "Les pointes noires",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "premieres-aventures-de-sherlock-holmes",
+   "titre": "Les premières aventures de Sherlock Holmes",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "princesses-du-royaume-de-la-fantaisie",
+   "titre": "Les Princesses du Royaume de la Fantaisie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "reines-de-france-vues-par-une-ado-et-par-sa-cousine",
+   "titre": "Les Reines de France vues par une ado et par sa cousine !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "renards-de-londres",
+   "titre": "Les renards de Londres",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "risson-sortent-du-bois",
+   "titre": "Les Risson sortent du bois",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sauvenature",
+   "titre": "Les Sauvenature",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "schtroumpfs-2",
+   "titre": "Les Schtroumpfs 2",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "secrets-de-pandorient",
+   "titre": "Les secrets de Pandorient",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "sept-etoiles-du-nord",
+   "titre": "Les sept étoiles du Nord",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "soeurs-hiver",
+   "titre": "Les soeurs Hiver",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sorcieres-de-lacrima",
+   "titre": "Les sorcières de Lacrima",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "succulentes-aventures-de-mila-et-bulle",
+   "titre": "Les succulentes aventures de Mila et Bulle",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "super-cartes-de-sami",
+   "titre": "Les super cartes de Sami",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "super-heros",
+   "titre": "Les super-héros",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tisseurs-de-reves",
+   "titre": "Les tisseurs de rêves",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "trois-caramels-capitaux",
+   "titre": "Les trois caramels capitaux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vacances-du-petit-nicolas",
+   "titre": "Les Vacances du Petit Nicolas",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vacances-extraordinaires",
+   "titre": "Les vacances extraordinaires",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "vitalabri",
+   "titre": "Les vitalabri",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "voleurs-de-voeux",
+   "titre": "Les voleurs de voeux",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "voyages-extraordinaires-d-aster-carmin",
+   "titre": "Les voyages extraordinaires d'Aster Carmin",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "wouf",
+   "titre": "Les Wouf !",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "lettres-a-plumes-et-a-poils",
+   "titre": "Lettres à plumes et à poils",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lettres-d-un-mauvais-eleve",
+   "titre": "Lettres d'un mauvais élève",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lewis-cameleon-metis",
+   "titre": "Lewis, caméléon métis",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lili-a-peur-des-controles",
+   "titre": "Lili a peur des contrôles",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lili-est-fachee-avec-sa-copine",
+   "titre": "Lili est fâchée avec sa copine",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lili-fait-des-cauchemars",
+   "titre": "Lili fait des cauchemars",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lili-ne-veut-plus-se-montrer-toute-nue",
+   "titre": "Lili ne veut plus se montrer toute nue",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lili-se-dispute-avec-son-frere",
+   "titre": "Lili se dispute avec son frère",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lili-se-fait-toujours-gronder",
+   "titre": "Lili se fait toujours gronder",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lisa-a-disparu",
+   "titre": "Lisa a disparu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lola-la-pirate",
+   "titre": "Lola la pirate",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "lottie-brooks",
+   "titre": "Lottie Brooks",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "lou-pilouface",
+   "titre": "Lou Pilouface",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "loudmila-et-la-montagne-volante",
+   "titre": "Loudmila et la montagne volante",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "m-sale-salit-tout-sur-son-passage",
+   "titre": "M. Sale salit tout sur son passage",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-folle-semaine-avec-tess",
+   "titre": "Ma folle semaine avec Tess",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-maitresse",
+   "titre": "Ma maîtresse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-mere-est-un-gorille-et-alors",
+   "titre": "Ma mère est un gorille, et alors ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-petite-soeur-a-des-super-pouvoirs",
+   "titre": "Ma petite soeur a des super-pouvoirs !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-premiere-mythologie",
+   "titre": "Ma première mythologie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ma-tata-therese",
+   "titre": "Ma tata Thérèse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-vie-de-chat",
+   "titre": "Ma vie de chat",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-vie-de-monstre",
+   "titre": "Ma vie de monstre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "madame-contraire",
+   "titre": "Madame Contraire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "madame-de-beaupoil-voyage-a-londres",
+   "titre": "Madame de Beaupoil voyage à Londres",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "madame-fabuleuse",
+   "titre": "Madame Fabuleuse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "madame-malchance",
+   "titre": "Madame Malchance",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "madame-tetue-et-la-licorne",
+   "titre": "Madame Têtue et la Licorne",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mademoiselle-zazie",
+   "titre": "Mademoiselle Zazie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "magic-charly",
+   "titre": "Magic Charly",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "maldoror",
+   "titre": "Maldoror",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "manu-et-nono",
+   "titre": "Manu et Nono",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "marcel-a-des-poux",
+   "titre": "Marcel a des poux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "marius-le-chat",
+   "titre": "Marius le chat",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mathieu-hidalf",
+   "titre": "Mathieu Hidalf",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "matilda",
+   "titre": "Matilda",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "maudite-poupee",
+   "titre": "Maudite poupée",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "max-est-casse-cou",
+   "titre": "Max est casse-cou",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "max-est-timide",
+   "titre": "Max est timide",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "max-et-lili",
+   "titre": "Max et Lili",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "max-et-lili-disent-que-c-est-pas-de-leur-faute",
+   "titre": "Max et Lili disent que c'est pas de leur faute",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "max-et-lili-ont-peur-du-noir",
+   "titre": "Max et Lili ont peur du noir",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "max-part-en-classe-verte",
+   "titre": "Max part en classe verte",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "max-va-a-l-hopital",
+   "titre": "Max va à l'hôpital",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "meche-et-le-monde-secret-des-hobs",
+   "titre": "Mèche et le monde secret des Hobs",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "memoires-de-fleur",
+   "titre": "Mémoires de Fleur",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "memoires-de-la-foret",
+   "titre": "Mémoires de la forêt",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "memoires-dun-ane",
+   "titre": "Mémoires dun âne",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mene-l-enquete-au-36-quai-poirot",
+   "titre": "Mène l'enquête au 36 quai Poirot",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mentir-aux-etoiles",
+   "titre": "Mentir aux étoiles",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "merlin-et-son-chat",
+   "titre": "Merlin et son chat",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mes-100-premiers-jours-d-ecole",
+   "titre": "Mes 100 premiers jours d'école",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mes-amis-les-chevaux",
+   "titre": "Mes amis les chevaux",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mes-petites-histoires-du-grand-mechant-renard",
+   "titre": "Mes petites histoires du grand méchant renard",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mes-premieres-lectures-montessori",
+   "titre": "Mes premières lectures Montessori",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "miam-de-la-glace",
+   "titre": "Miam ! De la glace !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "miguel-dauphin-rebelle",
+   "titre": "Miguel, dauphin rebelle",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mila-et-le-loup",
+   "titre": "Mila et le loup",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "minecraft-le-choc",
+   "titre": "Minecraft, le choc",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mini-bibliotheque",
+   "titre": "Mini bibliothèque",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mini-loup",
+   "titre": "Mini-Loup",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "minuit-l-heure-du-gouter",
+   "titre": "Minuit, l'heure du goûter",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "minusculette",
+   "titre": "Minusculette",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "miss-x-et-mister-pog",
+   "titre": "Miss X et Mister Pog",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mission-6e",
+   "titre": "Mission 6e",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mission-kidnapping-pour-erin",
+   "titre": "Mission kidnapping pour Erin",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mission-pissenlit",
+   "titre": "Mission pissenlit",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "missions-a-haut-risque",
+   "titre": "Missions à haut risque",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "moi-ma-super-bande",
+   "titre": "Moi & ma super bande",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "moi-mouth",
+   "titre": "Moi, Mouth !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "moi-pandore",
+   "titre": "Moi, Pandore",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "moi-therese-miaou",
+   "titre": "Moi, Thérèse Miaou",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "moliere-vu-par-une-ado",
+   "titre": "Molière vu par une ado",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-amoureuse-pour-de-vrai",
+   "titre": "Mon amoureuse pour de vrai",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-beau-grimoire",
+   "titre": "Mon beau grimoire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-carnet-de-survie-en-colo-de-l-extreme",
+   "titre": "Mon carnet de survie en colo de l'extrême",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-chien-est-une-princesse",
+   "titre": "Mon chien est une princesse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-chien-dieu-et-les-poketrucs",
+   "titre": "Mon chien, Dieu et les Pokétrucs",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-hamster-et-moi",
+   "titre": "Mon hamster et moi",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-nom-est-loup-gris",
+   "titre": "Mon nom est Loup gris",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-papa",
+   "titre": "Mon papa",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monsieur-bruit",
+   "titre": "Monsieur Bruit",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monsieur-gentil",
+   "titre": "Monsieur Gentil",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monsieur-kipu",
+   "titre": "Monsieur Kipu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monsieur-madame",
+   "titre": "Monsieur Madame",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "monsieur-monsieur-et-mademoiselle-moiselle",
+   "titre": "Monsieur Monsieur et Mademoiselle Moiselle.",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "monsieur-peureux",
+   "titre": "Monsieur Peureux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "monstres",
+   "titre": "Monstres",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mordicus",
+   "titre": "Mordicus",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mortelle-adele",
+   "titre": "Mortelle Adèle",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mortelle-adele-roman",
+   "titre": "Mortelle Adèle : roman",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mouss-tach-seigneur-supreme-intergalactique",
+   "titre": "Mouss-Täch, seigneur suprême intergalactique",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "moustique-lagrogne",
+   "titre": "Moustique Lagrogne",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mystere-au-palais",
+   "titre": "Mystère au palais",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mystere-et-cacahuetes",
+   "titre": "Mystère et cacahuètes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "mysteres-a-minuit",
+   "titre": "Mystères à Minuit",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "mysterieux-voisins",
+   "titre": "Mystérieux voisins",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ne-pas-deranger-les-dragons",
+   "titre": "Ne pas déranger les dragons",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "nico",
+   "titre": "Nico",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "noe-et-azote",
+   "titre": "Noé et Azote",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "noel-au-placard",
+   "titre": "Noël au placard",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "noel-cest-pas-pour-les-maitresses",
+   "titre": "Noël, cest pas pour les maïtresses !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "noonah",
+   "titre": "Noonah",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "nos-coeurs-dans-le-platre",
+   "titre": "Nos coeurs dans le plâtre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "nounouilles-attaque",
+   "titre": "Nounouilles attaque !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "nous-sommes-la",
+   "titre": "Nous sommes là",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "oliver-et-les-iles-vagabondes",
+   "titre": "Oliver et les îles vagabondes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ombreline",
+   "titre": "Ombreline",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "on-zappe-la-tele",
+   "titre": "On zappe la télé !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "operation-groenland",
+   "titre": "Opération Groenland",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "operation-manchots",
+   "titre": "Opération manchots",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "oscar-le-renard-et-l-impala-de-la-savane",
+   "titre": "Oscar le renard et l'impala de la savane",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ou-sont-passes-les-princes-charmants",
+   "titre": "Où sont passés les princes charmants ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "ourse-et-lapin",
+   "titre": "Ourse et Lapin",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "panique-a-l-ecole-de-magie",
+   "titre": "Panique à l'école de magie",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "papa-est-un-dinosaure",
+   "titre": "Papa est un dinosaure",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "par-la-foret-par-le-lac",
+   "titre": "Par la forêt; Par le lac",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "parole-de-loup",
+   "titre": "Parole de loup",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pas-d-ecole-pour-tisha",
+   "titre": "Pas d'école pour Tisha",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pauvre-ame-en-perdition",
+   "titre": "Pauvre âme en perdition",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pax-et-le-petit-soldat",
+   "titre": "Pax et le petit soldat",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "peau-de-lapin",
+   "titre": "Peau de lapin",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "petites-histoires-de-la-mythologie",
+   "titre": "Petites histoires de la mythologie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pic-pic-pic-le-moustique",
+   "titre": "Pic, pic, pic, le moustique !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "piege-dans-le-corps-du-chien",
+   "titre": "Piégé dans le corps du chien !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pierre-bayard-detextive-prive",
+   "titre": "Pierre Bayard détextive privé",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pierre-et-la-sorciere",
+   "titre": "Pierre et la sorcière",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "piper-mcnimbus",
+   "titre": "Piper McNimbus",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pirates-de-l-espace",
+   "titre": "Pirates de l'espace",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pivoine-la-petite-elfe",
+   "titre": "Pivoine la petite elfe",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "plie-de-rire-vert-de-peur",
+   "titre": "Plié de rire; Vert de peur",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "plume-le-pirate",
+   "titre": "Plume le pirate",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pocahontas",
+   "titre": "Pocahontas",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "poids-plume",
+   "titre": "Poids plume",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pombo-courage",
+   "titre": "Pombo Courage",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pongo-bongo-et-la-course-au-cadeau",
+   "titre": "Pongo Bongo et la course au cadeau",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "porculus",
+   "titre": "Porculus",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "potions-magiques-et-sortileges",
+   "titre": "Potions magiques et Sortilèges",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "pourquoi-j-aime-l-ecole",
+   "titre": "Pourquoi j'aime l'école",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pourquoi-les-girafes-sont-elles-si-grandes",
+   "titre": "Pourquoi les girafes sont-elles si grandes ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pourquoi-les-loups-ont-ils-de-si-grandes-dents",
+   "titre": "Pourquoi les loups ont-ils de si grandes dents ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "pourquoi-tu-tousses-tata",
+   "titre": "Pourquoi tu tousses, Tata ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "premieres-fois",
+   "titre": "Premières fois.",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "presque-ado",
+   "titre": "Presque ado",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "prince-koo",
+   "titre": "Prince Koo",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "princesse-academy",
+   "titre": "Princesse academy",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "princesse-la-tornade",
+   "titre": "Princesse-la-tornade",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "prisonniere-de-la-sorciere",
+   "titre": "Prisonnière de la sorcière",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "professeur-goupil",
+   "titre": "Professeur Goupil",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "prosper-president",
+   "titre": "Prosper, président !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs",
+   "titre": "Quatre soeurs",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "quatre-soeurs-a-l-atelier-patisserie",
+   "titre": "Quatre soeurs à l'atelier pâtisserie",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-a-new-york",
+   "titre": "Quatre soeurs à New York",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-a-tokyo",
+   "titre": "Quatre soeurs à Tokyo",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-en-grece",
+   "titre": "Quatre soeurs en Grèce",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-enquetent",
+   "titre": "Quatre soeurs enquêtent",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-et-le-manoir-hante",
+   "titre": "Quatre soeurs et le manoir hanté",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-et-les-mysteres-de-bretagne",
+   "titre": "Quatre soeurs et les mystères de Bretagne",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-et-les-secrets-de-paris",
+   "titre": "Quatre soeurs et les secrets de Paris",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-et-un-hiver-de-reve",
+   "titre": "Quatre soeurs et un hiver de rêve",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-et-un-mariage-fantastique",
+   "titre": "Quatre soeurs et un mariage fantastique !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "quatre-soeurs-et-un-noel-inoubliable",
+   "titre": "Quatre soeurs et un Noël inoubliable",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "qui-sera-le-chef",
+   "titre": "Qui sera le chef ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "raoul-pigeon-detective",
+   "titre": "Raoul Pigeon détective",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ratus",
+   "titre": "Ratus",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ratus-court-le-marathon",
+   "titre": "Ratus court le marathon",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "renversante",
+   "titre": "Renversante",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "reste-assise-eloise",
+   "titre": "Reste assise Eloïse",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "rico-et-oscar",
+   "titre": "Rico et Oscar",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "robin-des-garrigues",
+   "titre": "Robin des garrigues",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "robules",
+   "titre": "Robules",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "roman-les-legendaires",
+   "titre": "Roman Les légendaires",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "roman-titeuf",
+   "titre": "Roman Titeuf",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "roselionne",
+   "titre": "Roselionne",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "rosie-bandit-de-grand-chemin",
+   "titre": "Rosie bandit de grand chemin",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sacrees-sorcieres",
+   "titre": "Sacrées sorcières",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sadi-et-le-general",
+   "titre": "Sadi et le général",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "safari-en-sous-sol",
+   "titre": "Safari en sous-sol",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "safir-le-genie",
+   "titre": "Safir le Génie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "saint-nicolas-pere-fouettard",
+   "titre": "Saint Nicolas; Père Fouettard",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "saison-2",
+   "titre": "Saison 2",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "salami-docteur-teckel",
+   "titre": "Salami, docteur Teckel",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "samantha-spinner",
+   "titre": "Samantha Spinner",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "sami-a-dos-d-ane",
+   "titre": "Sami à dos d'âne",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sami-a-l-ecole",
+   "titre": "Sami à l'école",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sami-et-julie-citoyens",
+   "titre": "Sami et Julie citoyens",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sami-et-julie-jardinent",
+   "titre": "Sami et Julie jardinent",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "samsam-dort-chez-son-copain",
+   "titre": "SamSam dort chez son copain",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "samsam",
+   "titre": "SamSam.",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "sauve-qui-pou",
+   "titre": "Sauve qui pou !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "scooby-doo",
+   "titre": "Scooby-doo",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "scooby-doo-detective",
+   "titre": "Scooby-Doo détective",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "scoop-a-versailles",
+   "titre": "Scoop à Versailles",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "scordatura",
+   "titre": "Scordatura",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sheltie",
+   "titre": "Sheltie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "sherlock-yack-zoo-detective",
+   "titre": "Sherlock Yack, Zoo-détective",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "shrek-4",
+   "titre": "Shrek 4",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sidonie-au-pays-du-vent",
+   "titre": "Sidonie au pays du vent",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "simon-apprenti-dragon",
+   "titre": "Simon, apprenti dragon",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "simone-veil",
+   "titre": "Simone Veil",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "skandar",
+   "titre": "Skandar",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "sos-creatures-fantastiques",
+   "titre": "SOS créatures fantastiques",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "souriceau-veut-apprendre-a-lire",
+   "titre": "Souriceau veut apprendre à lire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sous-la-pluie",
+   "titre": "Sous la pluie !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "space-girls",
+   "titre": "Space girls",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "splat-a-un-secret",
+   "titre": "Splat a un secret",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "splat-adore-la-fete-foraine",
+   "titre": "Splat adore la fête foraine",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "splat-cuisine",
+   "titre": "Splat cuisine",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "splat-et-harry",
+   "titre": "Splat et Harry",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "splat-et-la-course-a-trois-pattes",
+   "titre": "Splat et la course à trois pattes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "splat-et-la-visite-medicale",
+   "titre": "Splat et la visite médicale",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "splat-ne-veut-pas-dormir",
+   "titre": "Splat ne veut pas dormir",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "star-wars",
+   "titre": "Star Wars",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "starfell",
+   "titre": "Starfell",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "start-game",
+   "titre": "Start game",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "stellina",
+   "titre": "Stellina",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "super-lecture-boy",
+   "titre": "Super lecture boy",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "super-vanessa-et-la-crique-aux-fantomes",
+   "titre": "Super Vanessa et la crique aux fantômes",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "superfuret",
+   "titre": "Superfuret",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "surtout-n-ouvre-pas-la-porte",
+   "titre": "Surtout, n'ouvre pas la porte !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "sushi-crush",
+   "titre": "Sushi crush",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "suzanne-griotte",
+   "titre": "Suzanne Griotte",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tara-duncan",
+   "titre": "Tara Duncan",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tarzan-poney-mechant",
+   "titre": "Tarzan, poney méchant",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tatie-pourrie",
+   "titre": "Tatie pourrie",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tattrolu",
+   "titre": "Tattrolu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "taupe-mulot",
+   "titre": "Taupe & Mulot",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tea-stilton",
+   "titre": "Téa Stilton",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tel-est-pris-qui-croyait-prendre",
+   "titre": "Tel est pris qui croyait prendre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tempete-a-disparu",
+   "titre": "Tempête a disparu",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tenebreuse-tenebrax",
+   "titre": "Ténébreuse Ténébrax",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tenebria",
+   "titre": "Tenebria",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "tes-petits-camarades",
+   "titre": "Tes petits camarades",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tete-en-petard",
+   "titre": "Tête en pétard",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "the-enormous-crocodile",
+   "titre": "The enormous crocodile",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "thelma-et-ponette",
+   "titre": "Thelma et ponette",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "theo-et-balthazar-dans-l-ile-du-pere-noel",
+   "titre": "Théo et Balthazar dans l'île du Père Noël",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "toi-thesee-contre-le-minotaure",
+   "titre": "Toi, Thésée contre le minotaure",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tom-et-le-chien-magique",
+   "titre": "Tom et le chien magique",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tom-champion-de-l-ecole",
+   "titre": "Tom, champion de l'école !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "totally-spies",
+   "titre": "Totally Spies !",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "totem-je-t-aime",
+   "titre": "Totem; Je t'aime",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tous-a-l-eau",
+   "titre": "Tous à l'eau !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tous-ensemble",
+   "titre": "Tous ensemble",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tous-les-jours-c-est-foot",
+   "titre": "Tous les jours, c'est foot !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tout-le-monde-au-poste",
+   "titre": "Tout le monde au poste !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tout-seuls",
+   "titre": "Tout seuls",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "trois-sardines-sur-un-banc",
+   "titre": "Trois sardines sur un banc",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tromboline-et-foulbazar",
+   "titre": "Tromboline et Foulbazar",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "trop-classe-la-sixieme",
+   "titre": "Trop classe la sixième !",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "trop-fort-victor",
+   "titre": "Trop fort, Victor !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "truc-de-fille-ou-de-garcon",
+   "titre": "Truc de fille ou de garçon ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "truffe-et-machin",
+   "titre": "Truffe et Machin",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tu-es-le-heros-de-la-foret-ensorcelee",
+   "titre": "Tu es le héros de la forêt ensorcelée",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tu-es-trop-bavard-leonard",
+   "titre": "Tu es trop bavard Léonard !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tu-m-aimes-dis",
+   "titre": "Tu m'aimes dis ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tu-parles-charles",
+   "titre": "Tu parles, Charles !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tu-veux-ma-photo",
+   "titre": "Tu veux ma photo ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "tutto-va-bene",
+   "titre": "Tutto va bene",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-amour-de-loup",
+   "titre": "Un amour de loup",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-amour-de-vampire",
+   "titre": "Un amour de vampire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-brin-de-malefice",
+   "titre": "Un brin de maléfice",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-chaton-nomme-minuit",
+   "titre": "Un chaton nommé Minuit",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-chien-a-new-york",
+   "titre": "Un Chien à New York",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-clafoutis-aux-tomates-cerises",
+   "titre": "Un clafoutis aux tomates cerises",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-dino-a-paris",
+   "titre": "Un dino à Paris",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "un-elephant-pour-mes-7-ans",
+   "titre": "Un éléphant pour mes 7 ans",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-etrange-visiteur",
+   "titre": "Un étrange visiteur",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-heros-malgre-lui",
+   "titre": "Un héros malgré lui",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-lapin-peut-changer-une-vie",
+   "titre": "Un lapin peut changer une vie",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-monde-de-cochon",
+   "titre": "Un Monde de cochon",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-poisson-dans-le-cartable",
+   "titre": "Un Poisson dans le cartable",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "un-roman-anatole-latuile",
+   "titre": "Un roman Anatole Latuile",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "un-week-end-sur-deux",
+   "titre": "Un Week-end sur deux",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "une-belle-decouverte",
+   "titre": "Une belle découverte",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "une-fete-a-l-ecole",
+   "titre": "Une fête à l'école",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "une-histoire-de-neige",
+   "titre": "Une histoire de neige",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "une-histoire-sombre-tres-sombre",
+   "titre": "Une histoire sombre... très sombre",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "une-maman-dans-l-ecole",
+   "titre": "Une maman dans l'école",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "une-momie-au-musee",
+   "titre": "Une momie au musée",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "une-pincee-de-magie",
+   "titre": "Une pincée de magie",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "unlock-les-escape-geeks",
+   "titre": "Unlock! : les Escape Geeks",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "ursule-lapine-detective-cp",
+   "titre": "Ursule Lapine, détective CP",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "vampirette",
+   "titre": "Vampirette",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "verte",
+   "titre": "Verte",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "vet-vicky",
+   "titre": "Vet Vicky",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vibidia",
+   "titre": "Vibidia",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "villa-mimosa",
+   "titre": "Villa Mimosa",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "violetta",
+   "titre": "Violetta",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "violette-hurlevent-et-le-jardin-sauvage",
+   "titre": "Violette Hurlevent et le Jardin sauvage",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "violette-hurlevent-et-les-fantomes-du-jardin",
+   "titre": "Violette Hurlevent et les fantômes du Jardin",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "visite-a-la-prehistoire",
+   "titre": "Visite à la préhistoire",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vive-les-betises",
+   "titre": "Vive les bêtises !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vive-les-vacances",
+   "titre": "Vive les vacances !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vive-noel",
+   "titre": "Vive Noël !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vivement-jeudi",
+   "titre": "Vivement jeudi !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "vol-d-ete",
+   "titre": "Vol d'été",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "votez-pour-splat",
+   "titre": "Votez pour Splat !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "wilma-tenderfoot",
+   "titre": "Wilma Tenderfoot",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "winx-club",
+   "titre": "Winx Club",
+   "public": "Jeunesse",
+   "type": "Série"
+  },
+  {
+   "id": "wonka",
+   "titre": "Wonka",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "y-a-t-il-quelqu-un-dans-casimir",
+   "titre": "Y a-t-il quelqu'un dans Casimir ?",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "y-a-pas-de-heros-dans-ma-famille",
+   "titre": "Y'a pas de héros dans ma famille !",
+   "public": "Jeunesse",
+   "type": "One shot"
+  },
+  {
+   "id": "zorage",
+   "titre": "Zorage",
+   "public": "Jeunesse",
+   "type": "One shot"
+  }
+ ]
+}

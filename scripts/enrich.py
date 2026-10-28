@@ -642,6 +642,44 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
     }
 
 
+def notice_titre_unique(serie: dict, editeur_orphee: str, auteur: str = "", debug: bool = False) -> dict | None:
+    """Titre unique (roman, album) : sa notice à la BnF, pour la couverture et l'année."""
+    requete = f'bib.title all "{mots(serie["titre"])}" and (bib.doctype="a")'
+    nom = max(jetons_nom(auteur), key=len, default="")
+    if nom:
+        requete += f' and bib.author all "{nom}"'
+    racine = bnf_page(requete, 1)
+    cles_ok = {cle(t) for t in titres_de(serie)}
+    eo = norm_editeur(editeur_orphee)
+    trouves = []
+    for rd in (e for e in racine.iter() if sans_ns(e.tag) == "recordData"):
+        f = champs(rd)
+        lang = premier(f, "101", "a")
+        if lang and lang != "fre":
+            continue
+        titre = premier(f, "200", "a")
+        if cle(titre) not in cles_ok:
+            continue
+        editeur = premier(f, "214", "c") or premier(f, "210", "c")
+        ark = next((m.group(0) for el in rd.iter() if sans_ns(el.tag) == "controlfield" and el.get("tag") == "003"
+                    for m in [re.search(r"ark:/12148/[a-z0-9]+", el.text or "")] if m), None)
+        isbn = re.sub(r"[^0-9Xx]", "", premier(f, "010", "a")) or None
+        annee = numero_annee(premier(f, "214", "d") or premier(f, "210", "d"))
+        if ark or isbn:
+            trouves.append({"meme": bool(eo) and norm_editeur(editeur) == eo, "creee": premier(f, "100", "a")[:8],
+                            "ark": ark, "isbn": isbn, "editeur": editeur, "annee": annee})
+    if debug:
+        dbg(f"    BnF (titre unique) {requete} -> {len(trouves)} notices")
+    if not trouves:
+        return {"dernier": None, "notices": 0, "requete": requete}
+    # même éditeur qu'Orphée d'abord, puis l'édition la plus récente
+    trouves.sort(key=lambda t: (not t["meme"], -(int(t["creee"]) if (t["creee"] or "").isdigit() else 0)))
+    cands = [{"n": 1, "ark": t["ark"], "isbn": t["isbn"]} for t in trouves][:3]
+    return {"dernier": 1, "tomes": "1", "dateDernier": str(trouves[0]["annee"]) if trouves[0]["annee"] else None,
+            "editeur": trouves[0]["editeur"], "notices": len(trouves), "ark1": cands[0]["ark"], "isbn1": cands[0]["isbn"],
+            "candidatsCouv": cands, "requete": requete}
+
+
 DOSSIER_COUV = RACINE / "couvertures"
 
 
@@ -715,7 +753,7 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
         if debug:
             dbg(f"    couverture {nom} : OK {img.width}×{img.height} <- {url}")
             return {"source": nom, "tome": tome, "test": True}
-        DOSSIER_COUV.mkdir(exist_ok=True)
+        DOSSIER_COUV.mkdir(parents=True, exist_ok=True)
         img.save(fichier, "JPEG", quality=82, optimize=True, progressive=True)
         return {"source": nom, **({"tome": tome} if tome else {}), **({"mn": (mn or {}).get("url") or (fiche or {}).get("url")} if nom == "Manga-News" else {}),
                 "maj": AUJOURDHUI.isoformat()}
@@ -834,8 +872,22 @@ def main() -> int:
     ap.add_argument("--manga-news-seulement", action="store_true", help="mettre à jour seulement le nombre de tomes Manga-News (rapide)")
     ap.add_argument("--couvertures", action="store_true", help="chercher seulement les couvertures qui manquent (Manga-News compris)")
     ap.add_argument("--series", default="", help="revérifier et enregistrer ces séries (identifiants séparés par des virgules)")
+    ap.add_argument("--collection", default="mangas", choices=["mangas", "bd", "romans"],
+                    help="mangas (AniList, Manga-News, BnF) ; bd et romans jeunesse (BnF et couvertures seulement)")
     args = ap.parse_args()
 
+    global DATA, DOSSIER_COUV
+    mangas = args.collection == "mangas"
+    if not mangas:
+        DATA = RACINE / "data" / args.collection
+        DOSSIER_COUV = RACINE / "couvertures" / args.collection
+        if args.verifier_auteurs or args.manga_news_seulement:
+            print("AniList et Manga-News ne concernent que les mangas : rien à faire.")
+            return 0
+    if not (DATA / "series.json").exists():
+        print(f"Collection « {args.collection} » pas encore importée.")
+        return 0
+    print(f"Collection : {args.collection}", flush=True)
     series = json.loads((DATA / "series.json").read_text())["series"]
     fonds = json.loads((DATA / "fonds.json").read_text())["series"]
     chemin = DATA / "enrich.json"
@@ -872,15 +924,20 @@ def main() -> int:
         termine = bool(al and al.get("statut") == "FINISHED")
         complet = termine and al.get("volumes") and (e.get("bnf") or {}).get("dernier") and e["bnf"]["dernier"] >= al["volumes"]
         complet = complet or "termin" in sans_accents((e.get("mangaNewsFiche") or {}).get("vfStatut") or "").lower()
+        if not mangas:
+            # BD et romans : titre unique déjà trouvé, ou plus aucun tome depuis 18 mois (sans doute terminée)
+            der = (e.get("bnf") or {}).get("dateDernier")
+            complet = (s.get("type") == "One shot" and bool(e.get("bnfVerifie"))) or bool(der and age_jours(der + "-01" if len(der) == 7 else der) > 540)
         auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
         maxi = max((n for l in ((fonds.get(s["id"]) or {}).get("tomes") or {}).values() for n in l), default=0)
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
         if args.couvertures:
             # rapprochement Manga-News refait pour toutes les séries (rapide), fiche relue si la page a changé
             e.setdefault("liensVus", s.get("liens") or {})
-            e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
-            if s.get("type") != "One shot" or (s.get("liens") or {}).get("mangaNews"):
-                lire_fiche(s, e, False, debug)
+            if mangas:
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                if s.get("type") != "One shot" or (s.get("liens") or {}).get("mangaNews"):
+                    lire_fiche(s, e, False, debug)
             if not couverture_a_chercher(s, e, args.forcer):
                 cache[s["id"]] = e
                 continue
@@ -939,7 +996,7 @@ def main() -> int:
             pannes = []  # une source en panne n'empêche pas les autres (couverture comprise)
             # AniList
             try:
-                if args.bnf_seulement:
+                if args.bnf_seulement or not mangas:
                     pass
                 elif lien:
                     if not al or al.get("id") != lien or age_jours(e.get("anilistVerifie")) > 6 or args.forcer:
@@ -959,18 +1016,22 @@ def main() -> int:
                         e["anilistVerifie"] = AUJOURDHUI.isoformat()
             except Exception as ex:
                 pannes.append(f"AniList : {ex}")
-            # BnF
-            if not one_shot:
+            # BnF (pour un titre unique hors mangas : seulement pour trouver sa couverture)
+            if not one_shot or not mangas:
                 try:
                     vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
-                    e["bnf"] = notices_bnf(s, (fonds.get(s["id"]) or {}).get("editeur", ""), vo, debug)
+                    if one_shot:
+                        e["bnf"] = notice_titre_unique(s, editeur, auteur, debug)
+                    else:
+                        e["bnf"] = notices_bnf(s, editeur, vo, debug)
                     e["bnfVerifie"] = AUJOURDHUI.isoformat()
                 except Exception as ex:
                     pannes.append(f"BnF : {ex}")
             # Manga-News (jeu de données, puis fiche : pour un one shot, seulement si une page est indiquée)
-            e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
-            if not one_shot or (s.get("liens") or {}).get("mangaNews"):
-                lire_fiche(s, e, args.forcer, debug)
+            if mangas:
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                if not one_shot or (s.get("liens") or {}).get("mangaNews"):
+                    lire_fiche(s, e, args.forcer, debug)
             # Couverture française, une seule fois (puis nouvel essai si elle manque)
             if not debug and couverture_a_chercher(s, e, args.forcer):
                 chercher_couverture(s, e)

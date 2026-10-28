@@ -1,0 +1,5657 @@
+{
+ "import": {
+  "date": "2026-10-28",
+  "source": "NRipoll_sti_639287935613207903.xls",
+  "exemplaires": 1270
+ },
+ "bibliotheques": [
+  "Servon-sur-Vilaine"
+ ],
+ "series": {
+  "achille-talon": {
+   "titreOrphee": "Achille Talon",
+   "editeur": "Dargaud",
+   "auteur": "Fabcaro",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     29,
+     48
+    ]
+   }
+  },
+  "ajax": {
+   "titreOrphee": "Ajax",
+   "editeur": "Tourbillon",
+   "auteur": "Mr Tan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "ajax-et-sa-bande": {
+   "titreOrphee": "Ajax et sa bande",
+   "editeur": "Mr Tan & Co",
+   "auteur": "Mr Tan",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Et plumes si affinités..."
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "alia-chasseuse-de-fantomes": {
+   "titreOrphee": "Alia : chasseuse de fantômes",
+   "editeur": "Jungle",
+   "auteur": "BrunoWaro",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "alix": {
+   "titreOrphee": "Alix",
+   "editeur": "Casterman",
+   "auteur": "Martin Jacques",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     14,
+     18
+    ]
+   }
+  },
+  "alix-et-huguette": {
+   "titreOrphee": "Alix et Huguette",
+   "editeur": "BD kids",
+   "auteur": "Begon Maud",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "ambre": {
+   "titreOrphee": "Ambre",
+   "editeur": "Jungle",
+   "auteur": "Pamment Jason",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Ambre et la Grande Métamorphose"
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "ana-l-entremonde": {
+   "titreOrphee": "Ana & l'entremonde",
+   "editeur": "Glénat",
+   "auteur": "Dubuisson Marc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3,
+     4
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD ANA"
+    }
+   ],
+   "genreOrphee": "Aventure"
+  },
+  "ana-ana": {
+   "titreOrphee": "Ana Ana",
+   "editeur": "Dargaud-Jeunesse",
+   "auteur": "Dormal Alexis",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     5,
+     7,
+     13,
+     16,
+     17,
+     18,
+     19,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "anatole-latuile": {
+   "titreOrphee": "Anatole Latuile",
+   "editeur": "BD kids",
+   "auteur": "Didier Anne",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     20
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "anna-et-froga": {
+   "titreOrphee": "Anna et Froga",
+   "editeur": "Sarbacane",
+   "auteur": "Ricard Anouk",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "anuki": {
+   "titreOrphee": "Anuki",
+   "editeur": "De la Gouttière",
+   "auteur": "Sénégas Stéphane",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     10
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "apo-et-kalypse": {
+   "titreOrphee": "Apo et Kalypse",
+   "editeur": "Editions Auzou",
+   "auteur": "Gyom",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Science-fiction"
+  },
+  "apres-l-ecole": {
+   "titreOrphee": "Après l'école",
+   "editeur": "Jungle",
+   "auteur": "Frey Julien",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "arcade-club": {
+   "titreOrphee": "Arcade club",
+   "editeur": "Auzou",
+   "auteur": "Ducoudray Aurélien",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "ariol": {
+   "titreOrphee": "Ariol",
+   "editeur": "BD Kids\nBayard",
+   "auteur": "Guibert Emmanuel",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     3,
+     6,
+     7,
+     9,
+     11,
+     13,
+     14,
+     15,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   "hs": {
+    "Servon-sur-Vilaine": 1
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 10,
+     "statut": "Perdu",
+     "cote": "BD ARI"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 2,
+     "statut": "Perdu",
+     "cote": "BD ARI"
+    }
+   ],
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Ramono, ton tonton fait du bio !",
+     "Les vacances chez Papi et Mamie"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "armelle-et-mirko": {
+   "titreOrphee": "Armelle et Mirko",
+   "editeur": "Delcourt",
+   "auteur": "Montel Anne",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "asterix-le-gaulois": {
+   "titreOrphee": "Astérix le gaulois",
+   "editeur": "Hachette",
+   "auteur": "Goscinny René",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     11,
+     13,
+     18,
+     19,
+     22,
+     25,
+     26,
+     27,
+     30,
+     31,
+     33,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 9,
+     "statut": "Perdu",
+     "cote": "BD AST"
+    }
+   ],
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "L' empire du Milieu",
+     "Le menhir d'or"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "astrid-bromure": {
+   "titreOrphee": "Astrid Bromure",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Parme Fabrice",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 2,
+     "statut": "Perdu",
+     "cote": "BD AST"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 4,
+     "statut": "Perdu",
+     "cote": "BD AST"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "au-chant-des-grenouilles": {
+   "titreOrphee": "Au chant des grenouilles",
+   "editeur": "Editions Oxymore",
+   "auteur": "Canepa Barbara",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "avatar-le-dernier-maitre-de-l-air": {
+   "titreOrphee": "Avatar : le dernier maître de l'air",
+   "editeur": "Hachette Comics",
+   "auteur": "Konietzko Bryan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "La promesse"
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "avni": {
+   "titreOrphee": "Avni",
+   "editeur": "BD Kids",
+   "auteur": "Pujol Romain",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3,
+     4
+    ]
+   }
+  },
+  "batman": {
+   "titreOrphee": "Batman",
+   "editeur": "Urban Comics",
+   "auteur": "Templeton Ty",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "bd-anatole-latuile": {
+   "titreOrphee": "BD Anatole Latuile",
+   "editeur": "BD Kids",
+   "auteur": "Didier Anne",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 9,
+     "statut": "Perdu",
+     "cote": "BD DID"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "bd-bob-l-eponge": {
+   "titreOrphee": "BD Bob l'éponge",
+   "editeur": "Jungle\nCasterman\nTF1 livres\nImpr. Pollina\nNickelodeon productions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     15
+    ]
+   }
+  },
+  "bd-cedric": {
+   "titreOrphee": "BD Cédric",
+   "editeur": "Dupuis",
+   "auteur": "Laudec",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     10,
+     11,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     33,
+     35,
+     36
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "bd-foot-2-rue": {
+   "titreOrphee": "BD Foot 2 rue",
+   "editeur": "Soleil",
+   "auteur": "Mariolle Mathieu",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     11,
+     14,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 15,
+     "statut": "Perdu",
+     "cote": "BD FOO"
+    }
+   ]
+  },
+  "bd-geronimo-stilton": {
+   "titreOrphee": "BD Geronimo Stilton",
+   "editeur": "Glénat",
+   "auteur": "Stilton Geronimo",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     5,
+     11,
+     12,
+     13,
+     15,
+     16
+    ]
+   }
+  },
+  "bd-la-famille-passiflore": {
+   "titreOrphee": "BD La famille Passiflore",
+   "editeur": "Dargaud",
+   "auteur": "Jouannigot Loïc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "bd-samsam": {
+   "titreOrphee": "BD Samsam",
+   "editeur": "Bayard jeunesse",
+   "auteur": "Bloch Serge",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     4
+    ]
+   }
+  },
+  "bd-scooby-doo": {
+   "titreOrphee": "BD Scooby-doo",
+   "editeur": "Jungle-[Casterman]\nImpr. Pollina",
+   "auteur": "Rozum John",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     4
+    ]
+   }
+  },
+  "bd-sorcieres-sorcieres": {
+   "titreOrphee": "BD Sorcières-sorcières",
+   "editeur": "Kennes Editions",
+   "auteur": "Chamblain Joris",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     5
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "bd-titeuf": {
+   "titreOrphee": "BD Titeuf",
+   "editeur": "Glénat",
+   "auteur": "Zep",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     3,
+     5,
+     6,
+     7,
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     16
+    ]
+   }
+  },
+  "bd-yakari": {
+   "titreOrphee": "BD Yakari",
+   "editeur": "Casterman",
+   "auteur": "Derib",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     21,
+     23,
+     38
+    ]
+   }
+  },
+  "belfort-et-lupin": {
+   "titreOrphee": "Belfort et Lupin",
+   "editeur": "Editions Dupuis",
+   "auteur": "Stehly Teddy",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "SOS Carpe Diem"
+    ]
+   }
+  },
+  "bergeres-guerrieres": {
+   "titreOrphee": "Bergères guerrières",
+   "editeur": "Glénat",
+   "auteur": "Fléchais Amélie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "billie-bang-bang": {
+   "titreOrphee": "Billie bang bang",
+   "editeur": "Le Lombard",
+   "auteur": "Rojzman Théa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "blue-au-pays-des-songes": {
+   "titreOrphee": "Blue au pays des songes",
+   "editeur": "Vents d'ouest",
+   "auteur": "Tosello Davide",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "boule-et-bill": {
+   "titreOrphee": "Boule et Bill",
+   "editeur": "Dupuis",
+   "auteur": "Roba Jean",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     9,
+     11,
+     12,
+     15,
+     17,
+     19,
+     21,
+     23,
+     24,
+     27,
+     30,
+     31,
+     32,
+     33,
+     34,
+     38,
+     41,
+     42
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "brume": {
+   "titreOrphee": "Brume",
+   "editeur": "Glénat",
+   "auteur": "Pélissier Jérôme",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "calvin-and-hobbes": {
+   "titreOrphee": "Calvin and Hobbes",
+   "editeur": "Warner",
+   "auteur": "Watterson Bill",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "The Revenge of the Baby-sat"
+    ]
+   }
+  },
+  "camomille-et-les-chevaux": {
+   "titreOrphee": "Camomille et les chevaux",
+   "editeur": "Bamboo",
+   "auteur": "Mésange Lili",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     4,
+     5,
+     6,
+     8,
+     9,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "carrion": {
+   "titreOrphee": "Carrion",
+   "editeur": "Clair de lune",
+   "auteur": "Mocci Daniele",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "cath-son-chat": {
+   "titreOrphee": "Cath & son chat",
+   "editeur": "Bamboo",
+   "auteur": "Ramon Yrgane",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     6,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 5,
+     "statut": "Perdu",
+     "cote": "BD CAZ"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "cedille": {
+   "titreOrphee": "Cédille",
+   "editeur": "Le Lombard",
+   "auteur": "Cécile",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2
+    ]
+   }
+  },
+  "celestine-petit-rat-de-l-opera": {
+   "titreOrphee": "Célestine, petit rat de l'Opéra",
+   "editeur": "Albin Michel Jeunesse",
+   "auteur": "Carbone",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "cerise-et-garou": {
+   "titreOrphee": "Cerise et Garou",
+   "editeur": "Clair de lune",
+   "auteur": "Cantin Marc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "choupisson": {
+   "titreOrphee": "Choupisson",
+   "editeur": "Editions de la Gouttière",
+   "auteur": "Périmony David",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "En ver et contre tous !"
+    ]
+   }
+  },
+  "comme-des-betes": {
+   "titreOrphee": "Comme des bêtes",
+   "editeur": "Dupuis",
+   "auteur": "Lapuss'",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "constance-et-les-ombres": {
+   "titreOrphee": "Constance et les ombres",
+   "editeur": "Editions Dupuis",
+   "auteur": "Chabbert Ingrid",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "crevette": {
+   "titreOrphee": "Crevette",
+   "editeur": "La Pastèque",
+   "auteur": "Shanta Élodie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "cubitus": {
+   "titreOrphee": "Cubitus",
+   "editeur": "Le Lombard",
+   "auteur": "Dupa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     10
+    ]
+   }
+  },
+  "dina-et-le-millimonde": {
+   "titreOrphee": "Dina et le Millimonde",
+   "editeur": "Editions Dupuis",
+   "auteur": "Dalena Antonello",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "donjon-antipodes": {
+   "titreOrphee": "Donjon antipodes",
+   "editeur": "Delcourt",
+   "auteur": "Sfar Joann",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "L'armée du crâne",
+     "L' inquisiteur mégalomane"
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "donjon-monsters": {
+   "titreOrphee": "Donjon monsters",
+   "editeur": "Delcourt",
+   "auteur": "Sfar Joann",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "dragon-the": {
+   "titreOrphee": "Dragon-Thé",
+   "editeur": "Bliss éditions",
+   "auteur": "O'Neill Katie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "eddy-milveux": {
+   "titreOrphee": "Eddy Milveux",
+   "editeur": "",
+   "auteur": "Mandel Lisa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "eevi-et-les-esprits-du-nord": {
+   "titreOrphee": "Eevi et les esprits du Nord",
+   "editeur": "Sarbacane Editions",
+   "auteur": "Westin Miila",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Un rêve dangereux"
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "elsbeth": {
+   "titreOrphee": "Elsbeth",
+   "editeur": "Le Lombard",
+   "auteur": "Roulot Tristan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "elvira-otto": {
+   "titreOrphee": "Elvira & Otto",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Baltscheit Martin",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "emile-et-margot": {
+   "titreOrphee": "Emile et Margot",
+   "editeur": "BD Kids",
+   "auteur": "Didier Anne",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     10
+    ]
+   }
+  },
+  "equinox": {
+   "titreOrphee": "Equinox",
+   "editeur": "Drakoo",
+   "auteur": "Wellenstein Aurélie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "esope-le-loup": {
+   "titreOrphee": "Esope le loup",
+   "editeur": "Kennes Editions",
+   "auteur": "Liroy Lucien",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     4
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Louti rikiki, maousse costo"
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Comédie/Humour"
+  },
+  "fleur-de-bambou": {
+   "titreOrphee": "Fleur de Bambou",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Marazano Richard",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "foot-2-rue-saison-4": {
+   "titreOrphee": "Foot 2 rue : saison 4",
+   "editeur": "Soleil",
+   "auteur": "Mariolle Mathieu",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Action"
+  },
+  "foudroyants": {
+   "titreOrphee": "Foudroyants",
+   "editeur": "Charivari",
+   "auteur": "Burniat Mathieu",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "game-over": {
+   "titreOrphee": "Game over",
+   "editeur": "Dupuis",
+   "auteur": "Midam",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     6,
+     7,
+     10,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "gardiens-de-fer": {
+   "titreOrphee": "Gardiens de fer",
+   "editeur": "Glénat",
+   "auteur": "Alliel Christophe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Science-fiction"
+  },
+  "garfield": {
+   "titreOrphee": "Garfield",
+   "editeur": "Dargaud",
+   "auteur": "Davis Jim",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3,
+     17,
+     25,
+     26,
+     28,
+     29,
+     30,
+     31,
+     33,
+     58
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Garfield se jette à l'eau"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "gargouilles": {
+   "titreOrphee": "Gargouilles",
+   "editeur": "Les Humanoïdes Associés",
+   "auteur": "Filippi Denis-Pierre",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "gargouilles-les-mondes-caches": {
+   "titreOrphee": "Gargouilles : Les Mondes cachés",
+   "editeur": "Les Humanoïdes Associés",
+   "auteur": "Filippi Denis-Pierre",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "gaston-grognon": {
+   "titreOrphee": "Gaston grognon",
+   "editeur": "Casterman",
+   "auteur": "Lang Suzanne",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "gaston-lagaffe": {
+   "titreOrphee": "Gaston Lagaffe",
+   "editeur": "Dupuis",
+   "auteur": "Franquin André",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     6,
+     7,
+     8,
+     9,
+     12,
+     13,
+     18,
+     19
+    ]
+   },
+   "hs": {
+    "Servon-sur-Vilaine": 2
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "L'Ecologie Selon Lagaffe"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "goupile-la-sorciere": {
+   "titreOrphee": "Goupile, la sorcière",
+   "editeur": "Editions de la Gouttière",
+   "auteur": "Milena",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "hammerdam": {
+   "titreOrphee": "Hammerdam",
+   "editeur": "Ankama",
+   "auteur": "Fernandez Enrique",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "hotel-etrange": {
+   "titreOrphee": "Hôtel étrange",
+   "editeur": "Sarbacane",
+   "auteur": "Ferrier Florian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "idefix-et-les-irreductibles": {
+   "titreOrphee": "Idéfix et les irréductibles",
+   "editeur": "Albert René",
+   "auteur": "Choquet Matthieu",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     4,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Les Romains se prennent une gamelle !",
+     "Ca balance pas mal à Lutèce !"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "jane-des-dragons": {
+   "titreOrphee": "Jane des Dragons",
+   "editeur": "",
+   "auteur": "Dieter",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "je-suis-pas-petite": {
+   "titreOrphee": "Je suis pas petite !!!",
+   "editeur": "la Boîte à bulles",
+   "auteur": "Duhamel Bruno",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD DUH"
+    }
+   ]
+  },
+  "juliette": {
+   "titreOrphee": "Juliette",
+   "editeur": "Kennes",
+   "auteur": "Brasset Rose-Line",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2
+    ]
+   }
+  },
+  "kid-paddle": {
+   "titreOrphee": "Kid Paddle",
+   "editeur": "Dupuis",
+   "auteur": "Midam",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3,
+     5,
+     6,
+     16,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 17,
+     "statut": "Perdu",
+     "cote": "BD KID"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "kong-kong": {
+   "titreOrphee": "Kong-Kong",
+   "editeur": "Casterman",
+   "auteur": "Villeminot Vincent",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "agent-212": {
+   "titreOrphee": "L'agent 212",
+   "editeur": "Dupuis",
+   "auteur": "Kox Daniel",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     18,
+     23,
+     24,
+     25,
+     27,
+     28
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 26,
+     "statut": "Perdu",
+     "cote": "BD CAU"
+    }
+   ]
+  },
+  "alchimiste": {
+   "titreOrphee": "L'alchimiste",
+   "editeur": "Jungle",
+   "auteur": "Beuglet Nicolas",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "ecole-de-pan": {
+   "titreOrphee": "L'école de Pan",
+   "editeur": "BD Kids",
+   "auteur": "Fierpied Maëlle",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "eleve-ducobu": {
+   "titreOrphee": "L'élève Ducobu",
+   "editeur": "Le Lombard",
+   "auteur": "Godi Bernard",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     7,
+     10,
+     12,
+     14,
+     16,
+     17,
+     18,
+     19,
+     20,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD ZID"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "emouvantail": {
+   "titreOrphee": "L'émouvantail",
+   "editeur": "Ed. de la Gouttière",
+   "auteur": "Dillies Renaud",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "encyclopedie-des-peurs": {
+   "titreOrphee": "L'encyclopédie des peurs",
+   "editeur": "Jungle",
+   "auteur": "Broyart Benoît",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "histoire-de-france-en-bd": {
+   "titreOrphee": "L'Histoire de France en BD",
+   "editeur": "Casterman",
+   "auteur": "Joly Dominique",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     10
+    ]
+   }
+  },
+  "ile-de-minuit": {
+   "titreOrphee": "L'île de minuit",
+   "editeur": "Editions Dupuis",
+   "auteur": "Lylian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "ile-de-puki": {
+   "titreOrphee": "L'île de Puki",
+   "editeur": "Vents d'Ouest",
+   "auteur": "Danjou Ludovic",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "ile-du-crane": {
+   "titreOrphee": "L'île du crâne",
+   "editeur": "Jungle",
+   "auteur": "L'Hermenier Maxe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Horreur"
+  },
+  "ile-oubliee": {
+   "titreOrphee": "L'île oubliée",
+   "editeur": "Jungle",
+   "auteur": "Bétaucourt Xavier",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "ours-barnabe": {
+   "titreOrphee": "L'ours Barnabé",
+   "editeur": "La Boîte à bulles",
+   "auteur": "Coudray Philippe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3,
+     4,
+     11,
+     20
+    ]
+   }
+  },
+  "bande-du-mile-end": {
+   "titreOrphee": "La bande du Mile-End",
+   "editeur": "PASTEQUE",
+   "auteur": "Arsenault Isabelle",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "La scène de Maya"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "bd-de-loup": {
+   "titreOrphee": "La BD de Loup",
+   "editeur": "Editions Auzou",
+   "auteur": "Lallemand Orianne",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Aventure en mytholougie"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "bd-des-filles": {
+   "titreOrphee": "La BD des filles",
+   "editeur": "Fleurus\nDargaud",
+   "auteur": "Baraou",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     4
+    ]
+   }
+  },
+  "boite-a-musique": {
+   "titreOrphee": "La boîte à musique",
+   "editeur": "Dupuis",
+   "auteur": "Gijé",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "bulle": {
+   "titreOrphee": "La bulle",
+   "editeur": "Editions Auzou",
+   "auteur": "Gaillard Aurelle",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "famille-blaireau-renard-presente": {
+   "titreOrphee": "La famille Blaireau Renard présente",
+   "editeur": "Dargaud",
+   "auteur": "Luciani Brigitte",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3
+    ]
+   }
+  },
+  "famille-vieillepierre": {
+   "titreOrphee": "La famille Vieillepierre",
+   "editeur": "Ed. Sarbacane",
+   "auteur": "Todd-Stanton Joe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Historique"
+  },
+  "foret-du-temps": {
+   "titreOrphee": "La forêt du temps",
+   "editeur": "Le Lombard",
+   "auteur": "Roulot Tristan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "mythologie-en-bd": {
+   "titreOrphee": "La mythologie en BD",
+   "editeur": "Casterman",
+   "auteur": "Bottet Béatrice",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     8,
+     13
+    ]
+   },
+   "genreOrphee": "Historique"
+  },
+  "philosophie-koala": {
+   "titreOrphee": "La philosophie Koala",
+   "editeur": "Casterman",
+   "auteur": "Rodriguez Béatrice",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "quete": {
+   "titreOrphee": "La quête",
+   "editeur": "Le Lombard",
+   "auteur": "Maupomé Frédéric",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "sentinelle-du-petit-peuple": {
+   "titreOrphee": "La sentinelle du petit peuple",
+   "editeur": "Dupuis",
+   "auteur": "Forns Charlie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "college-invisible": {
+   "titreOrphee": "Le collège invisible",
+   "editeur": "Soleil",
+   "auteur": "Ange",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     11,
+     12,
+     14
+    ]
+   }
+  },
+  "bazar-bizarre": {
+   "titreOrphee": "Le Bazar Bizarre",
+   "editeur": "Jungle",
+   "auteur": "Venegoni Valentina",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "cinereve": {
+   "titreOrphee": "Le cinérêve",
+   "editeur": "Casterman",
+   "auteur": "Didier Anne",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "facteur-de-l-espace": {
+   "titreOrphee": "Le facteur de l'espace",
+   "editeur": "La Pastèque",
+   "auteur": "Perreault Guillaume",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "jardin-secret": {
+   "titreOrphee": "Le jardin secret",
+   "editeur": "Dargaud",
+   "auteur": "Begon Maud",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "journal-de-julie": {
+   "titreOrphee": "Le journal de Julie",
+   "editeur": "BD Kids",
+   "auteur": "Princess H.",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "livre": {
+   "titreOrphee": "Le livre",
+   "editeur": "L'Ecole des Loisirs",
+   "auteur": "Bourgeau Vincent",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Joyeux anniversaire le livre !"
+    ]
+   },
+   "genreOrphee": "Petite enfance"
+  },
+  "loup-en-slip": {
+   "titreOrphee": "Le loup en slip",
+   "editeur": "Dargaud",
+   "auteur": "Lupano Wilfrid",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "meilleur-de-tom-tom-et-nana": {
+   "titreOrphee": "Le meilleur de Tom-Tom et Nana",
+   "editeur": "Bayard jeunesse",
+   "auteur": "Cohen Jacqueline",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     4
+    ]
+   }
+  },
+  "monde-de-charline": {
+   "titreOrphee": "Le monde de Charline",
+   "editeur": "Bamboo Editions",
+   "auteur": "Paoli Raoul",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "monde-des-cancres": {
+   "titreOrphee": "Le monde des cancres",
+   "editeur": "Dupuis",
+   "auteur": "Bary Nicolas",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "pecheur-et-la-salamandre": {
+   "titreOrphee": "Le pêcheur et la salamandre",
+   "editeur": "Charivari",
+   "auteur": "Monde Geoffroy",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "petit-prince": {
+   "titreOrphee": "Le Petit Prince",
+   "editeur": "Glénat",
+   "auteur": "Gonnard Christel",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     10,
+     21,
+     24
+    ]
+   },
+   "oneShot": true
+  },
+  "petit-spirou": {
+   "titreOrphee": "Le petit Spirou",
+   "editeur": "Dupuis",
+   "auteur": "Tome",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     4,
+     5,
+     6,
+     8,
+     10,
+     11,
+     13,
+     14,
+     15,
+     18
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 12,
+     "statut": "Perdu",
+     "cote": "BD TOM C"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 3,
+     "statut": "Perdu",
+     "cote": "BD TOM M"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "petit-spirou-presente": {
+   "titreOrphee": "Le petit spirou présente",
+   "editeur": "Dupuis",
+   "auteur": "Janry",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3
+    ]
+   }
+  },
+  "roi-catastrophe": {
+   "titreOrphee": "Le Roi Catastrophe",
+   "editeur": "Delcourt",
+   "auteur": "Trondheim Lewis",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     5,
+     7
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 3,
+     "statut": "Perdu",
+     "cote": "BD TRO"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 4,
+     "statut": "Perdu",
+     "cote": "BD ROI"
+    }
+   ]
+  },
+  "temps-des-mitaines": {
+   "titreOrphee": "Le Temps des mitaines",
+   "editeur": "Didier jeunesse",
+   "auteur": "Clément Loïc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "temps-des-ombres": {
+   "titreOrphee": "Le temps des ombres",
+   "editeur": "Ed. de la Gouttière",
+   "auteur": "Furtaen David",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "trio-bonaventure": {
+   "titreOrphee": "Le trio Bonaventure",
+   "editeur": "Delcourt jeunesse",
+   "auteur": "Corcal",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "zoo-des-animaux-disparus": {
+   "titreOrphee": "Le zoo des animaux disparus",
+   "editeur": "Bamboo",
+   "auteur": "Cazenove Christophe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 2,
+     "statut": "Perdu",
+     "cote": "BD ZOO"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "leonard": {
+   "titreOrphee": "Léonard",
+   "editeur": "Appro",
+   "auteur": "De Groot Bob",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     22,
+     30,
+     31,
+     38,
+     40,
+     41,
+     42,
+     43,
+     45,
+     53
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "leonarde": {
+   "titreOrphee": "Léonarde",
+   "editeur": "Drakoo",
+   "auteur": "Bauthian Isabelle",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "aventures-de-tintin": {
+   "titreOrphee": "Les aventures de Tintin",
+   "editeur": "Casterman",
+   "auteur": "Hergé",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     4,
+     6,
+     10,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 18,
+     "statut": "Perdu",
+     "cote": "BD HER A"
+    }
+   ]
+  },
+  "aventures-de-tom-sawyer": {
+   "titreOrphee": "Les Aventures de Tom Sawyer",
+   "editeur": "Soleil",
+   "auteur": "Istin Jean-Luc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "aventures-de-vick-et-vicky": {
+   "titreOrphee": "Les aventures de Vick et Vicky",
+   "editeur": "P'tit Louis",
+   "auteur": "Rolland Jean",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "aventures-indispensables-de-mister-goupil-et-monsieur-le-chick": {
+   "titreOrphee": "Les aventures indispensables de Mister Goupil et Monsieur Le Chick",
+   "editeur": "Caurette Editions",
+   "auteur": "Vinasely",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "bad-guys": {
+   "titreOrphee": "Les bad guys",
+   "editeur": "Casterman",
+   "auteur": "Blabey Aaron",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "blagues-de-toto": {
+   "titreOrphee": "Les blagues de Toto",
+   "editeur": "Delcourt",
+   "auteur": "Coppée Thierry",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     9,
+     11,
+     12,
+     13,
+     14,
+     16,
+     17
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 10,
+     "statut": "À pilonner",
+     "cote": "BD BLA"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "carnets-de-cerise": {
+   "titreOrphee": "Les carnets de Cerise",
+   "editeur": "Soleil",
+   "auteur": "Chamblain Joris",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     4,
+     5,
+     6
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Les carnets de Cerise et Valentin"
+    ]
+   }
+  },
+  "cavalieres": {
+   "titreOrphee": "Les cavalières",
+   "editeur": "De la Martinière Jeunesse",
+   "auteur": "Bruneau Virginie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "chaussettes-trouees": {
+   "titreOrphee": "Les Chaussettes trouées",
+   "editeur": "EP Emmanuel Proust Editions",
+   "auteur": "Tarek",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "chevaliers-de-l-etrange": {
+   "titreOrphee": "Les chevaliers de l'étrange",
+   "editeur": "Editions Oxymore",
+   "auteur": "Halard Anaïs",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "contes-des-coeurs-perdus": {
+   "titreOrphee": "Les contes des coeurs perdus",
+   "editeur": "Delcourt",
+   "auteur": "Clément Loïc",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Héloïse et les larmes de givre",
+     "Le silence est d'ombre",
+     "Mauvais sang",
+     "Merlin"
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "detectives-du-cagibi": {
+   "titreOrphee": "Les détectives du cagibi",
+   "editeur": "Biscoto",
+   "auteur": "Esch Tanja",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "La nouvelle est une alien"
+    ]
+   },
+   "genreOrphee": "Policier/Thriller"
+  },
+  "enfants-perches-de-la-revolution": {
+   "titreOrphee": "Les enfants perchés de la Révolution",
+   "editeur": "Casterman",
+   "auteur": "Bordas Jean-Sébastien",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Historique"
+  },
+  "enquetes-de-lady-souris-jimmy-tigre": {
+   "titreOrphee": "Les enquêtes de Lady Souris & Jimmy Tigré",
+   "editeur": "La Martinière jeunesse",
+   "auteur": "Girardclos Quentin",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Mystères dans le Finistère"
+    ]
+   },
+   "genreOrphee": "Policier/Thriller"
+  },
+  "enquetes-du-docteur-enigmus": {
+   "titreOrphee": "Les enquêtes du docteur Enigmus",
+   "editeur": "Bayard",
+   "auteur": "Martin Paul",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "excalibrius": {
+   "titreOrphee": "Les Excalibrius",
+   "editeur": "BD Kids",
+   "auteur": "Pont Grégoire",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "filles-au-chocolat-bd": {
+   "titreOrphee": "Les filles au chocolat BD",
+   "editeur": "Jungle",
+   "auteur": "Sébastien Raymond",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Sentimental"
+  },
+  "foot-furieux": {
+   "titreOrphee": "Les foot furieux",
+   "editeur": "Kennes Editions",
+   "auteur": "Gürsel Gürcan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     13,
+     14,
+     15,
+     17,
+     18,
+     19,
+     20,
+     21,
+     23
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "foot-maniacs": {
+   "titreOrphee": "Les Foot Maniacs",
+   "editeur": "Bamboo\nImpr. PPO graphic",
+   "auteur": "Jeanfaivre Henri",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     7,
+     11,
+     12
+    ]
+   }
+  },
+  "garnimos": {
+   "titreOrphee": "Les Garnimos",
+   "editeur": "Soleil",
+   "auteur": "Dav",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "hericornes": {
+   "titreOrphee": "Les Héricornes",
+   "editeur": "Le Lombard",
+   "auteur": "Toussaint Kid",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "legendaires": {
+   "titreOrphee": "Les Légendaires",
+   "editeur": "Delcourt",
+   "auteur": "Sobral Patrick",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 3,
+     "statut": "Perdu",
+     "cote": "BD SOB"
+    }
+   ],
+   "genreOrphee": "Aventure"
+  },
+  "legendaires-origines": {
+   "titreOrphee": "Les Légendaires - Origines",
+   "editeur": "Delcourt",
+   "auteur": "Sobral Patrick",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "legendaires-resistance": {
+   "titreOrphee": "Les Légendaires - Résistance",
+   "editeur": "Delcourt",
+   "auteur": "Sobral Patrick",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "legendaires-parodia": {
+   "titreOrphee": "Les Légendaires Parodia",
+   "editeur": "Delcourt",
+   "auteur": "Sobral Patrick",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "licorniers": {
+   "titreOrphee": "Les licorniers",
+   "editeur": "Vents d'Ouest",
+   "auteur": "Dixen Victor",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "marsupilamis": {
+   "titreOrphee": "Les Marsupilamis",
+   "editeur": "Editions Dupuis",
+   "auteur": "Deibert Amanda",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "minions": {
+   "titreOrphee": "Les Minions",
+   "editeur": "Dupuis",
+   "auteur": "Collin Renaud",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "mondes-perdus": {
+   "titreOrphee": "Les mondes perdus",
+   "editeur": "Dupuis",
+   "auteur": "Aucha",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "p-tits-diables": {
+   "titreOrphee": "Les P'tits diables",
+   "editeur": "Soleil",
+   "auteur": "Dutto Olivier",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     3,
+     9,
+     11,
+     17
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 2,
+     "statut": "Perdu",
+     "cote": "BD DUT"
+    }
+   ]
+  },
+  "petits-mythos": {
+   "titreOrphee": "Les petits mythos",
+   "editeur": "Bamboo Editions",
+   "auteur": "Cazenove Christophe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3,
+     5,
+     7,
+     11,
+     12,
+     13,
+     16
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD MYT"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 5,
+     "statut": "Perdu",
+     "cote": "BD CAZ"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 8,
+     "statut": "Perdu",
+     "cote": "BD CAZ"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "petits-tracas-de-theo-lea": {
+   "titreOrphee": "Les petits tracas de Théo & Léa",
+   "editeur": "Actes Sud junior",
+   "auteur": "Muzo",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     5,
+     9,
+     11
+    ]
+   }
+  },
+  "pipelettes": {
+   "titreOrphee": "Les pipelettes",
+   "editeur": "BD Kids",
+   "auteur": "Guillard Anne",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "profs": {
+   "titreOrphee": "Les profs",
+   "editeur": "Bamboo",
+   "auteur": "Erroc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     11,
+     14,
+     15,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 13,
+     "statut": "Perdu",
+     "cote": "BD PRO"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 16,
+     "statut": "Perdu",
+     "cote": "BD PRO"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "schtroumpfs": {
+   "titreOrphee": "Les Schtroumpfs",
+   "editeur": "Le Lombard",
+   "auteur": "Parthoens Luc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     17,
+     25,
+     26,
+     28,
+     29,
+     31,
+     32,
+     36,
+     37
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 30,
+     "statut": "Perdu",
+     "cote": "BD JOS"
+    }
+   ]
+  },
+  "schtroumpfs-schtroumpferies": {
+   "titreOrphee": "Les Schtroumpfs - Schtroumpferies",
+   "editeur": "Le Lombard",
+   "auteur": "Peyo",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     4
+    ]
+   }
+  },
+  "schtroumpfs-le-village-des-filles": {
+   "titreOrphee": "Les Schtroumpfs & le village des filles",
+   "editeur": "Le Lombard",
+   "auteur": "Jost Alain",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     3
+    ]
+   }
+  },
+  "simpson": {
+   "titreOrphee": "Les Simpson",
+   "editeur": "Jungle",
+   "auteur": "Groening Matt",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 11,
+     "statut": "Perdu",
+     "cote": "BD GRO"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 24,
+     "statut": "Perdu",
+     "cote": "BD GRO"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "sisters": {
+   "titreOrphee": "Les sisters",
+   "editeur": "Bamboo",
+   "auteur": "Cazenove Christophe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     4,
+     5,
+     7,
+     10,
+     11,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 3,
+     "statut": "Perdu",
+     "cote": "BD MAU"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 5,
+     "statut": "Perdu",
+     "cote": "BD CAZ"
+    }
+   ],
+   "genreOrphee": "Comédie/Humour"
+  },
+  "sortileges-de-zora": {
+   "titreOrphee": "Les sortilèges de Zora",
+   "editeur": "Vents d'ouest",
+   "auteur": "Peignen Judith",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "souvenirs-de-mamette": {
+   "titreOrphee": "Les Souvenirs de Mamette",
+   "editeur": "Glénat",
+   "auteur": "Nob",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "tchouks": {
+   "titreOrphee": "Les Tchouks",
+   "editeur": "Rue de Sèvres\nImpr. Pollina",
+   "auteur": "Richard Benjamin",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     5,
+     8
+    ]
+   }
+  },
+  "terreurs-des-mers": {
+   "titreOrphee": "Les terreurs des mers",
+   "editeur": "Vents d'ouest",
+   "auteur": "Brrémaud Frédéric",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "trois-mousquetaires": {
+   "titreOrphee": "Les trois mousquetaires",
+   "editeur": "Delcourt",
+   "auteur": "Morvan Jean-David",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "tuniques-bleues": {
+   "titreOrphee": "Les Tuniques bleues",
+   "editeur": "Dupuis",
+   "auteur": "Lambil Willy",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     46,
+     47,
+     49,
+     50,
+     51,
+     54,
+     57,
+     63,
+     66,
+     67
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "utopistes": {
+   "titreOrphee": "Les Utopistes",
+   "editeur": "Editions Dupuis",
+   "auteur": "Zanchi Stefano",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "voyages-de-lotta": {
+   "titreOrphee": "Les voyages de Lotta",
+   "editeur": "Jungle",
+   "auteur": "Zimmer Marie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "lily-medialuna": {
+   "titreOrphee": "Lily Medialuna",
+   "editeur": "Larousse",
+   "auteur": "Bonet Xavier",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Le Tournoi de sorcellerie"
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "lison": {
+   "titreOrphee": "Lison",
+   "editeur": "Jungle",
+   "auteur": "Mayen Cédric",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Action"
+  },
+  "lolicornes": {
+   "titreOrphee": "Lolicornes",
+   "editeur": "Dupuis",
+   "auteur": "Ced",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "loser-jack": {
+   "titreOrphee": "Loser Jack",
+   "editeur": "Bamboo",
+   "auteur": "Erroc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "lou": {
+   "titreOrphee": "Lou !",
+   "editeur": "Glénat",
+   "auteur": "Neel Julien",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD LOU"
+    },
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 3,
+     "statut": "Remplacement, rachat",
+     "cote": "BD LOU"
+    }
+   ]
+  },
+  "louca": {
+   "titreOrphee": "Louca",
+   "editeur": "Editions Dupuis",
+   "auteur": "Dequier Bruno",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   "genreOrphee": "Action"
+  },
+  "louisette-la-taupe": {
+   "titreOrphee": "Louisette la taupe",
+   "editeur": "Casterman\nCasterman",
+   "auteur": "Heitz Bruno",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     5,
+     9,
+     10
+    ]
+   }
+  },
+  "lucie-et-sa-licorne": {
+   "titreOrphee": "Lucie et sa licorne",
+   "editeur": "Editions 404\nEditions 404",
+   "auteur": "Simpson Dana",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8,
+     9,
+     11
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "lucky-luke": {
+   "titreOrphee": "Lucky Luke",
+   "editeur": "Lucky comics",
+   "auteur": "Jul",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     10,
+     31,
+     35,
+     50,
+     53,
+     54,
+     65,
+     67,
+     69,
+     71,
+     73,
+     75
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 38,
+     "statut": "Perdu",
+     "cote": "BD GOS"
+    }
+   ],
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Mac chez les indiens"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "lucy-poids-plume": {
+   "titreOrphee": "Lucy poids plume",
+   "editeur": "BD Kids",
+   "auteur": "Jolibois Christian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "lumiere": {
+   "titreOrphee": "Lumière",
+   "editeur": "Vents d'ouest",
+   "auteur": "Lylian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Historique"
+  },
+  "magic": {
+   "titreOrphee": "Magic",
+   "editeur": "Dargaud",
+   "auteur": "Lylian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "maiana": {
+   "titreOrphee": "Maïana",
+   "editeur": "Jungle",
+   "auteur": "Carbone",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "mamette": {
+   "titreOrphee": "Mamette",
+   "editeur": "Glénat\nGlénat",
+   "auteur": "Nob",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "marion-duval": {
+   "titreOrphee": "Marion Duval",
+   "editeur": "Bayard jeunesse",
+   "auteur": "Pommaux Yvan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     14,
+     15,
+     17,
+     18
+    ]
+   }
+  },
+  "marla": {
+   "titreOrphee": "Marla",
+   "editeur": "Editions Dupuis",
+   "auteur": "Calderon Lorena",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "marsupilami": {
+   "titreOrphee": "Marsupilami",
+   "editeur": "Marsu productions",
+   "auteur": "Franquin André",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     0,
+     14,
+     18,
+     21,
+     25,
+     26,
+     27,
+     29,
+     32
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Supermarsu"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "max-et-lili": {
+   "titreOrphee": "Max et Lili",
+   "editeur": "Calligram",
+   "auteur": "Saint-Mars Dominique de",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     91
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 73,
+     "statut": "Perdu",
+     "cote": "ER SAI"
+    }
+   ]
+  },
+  "merlin": {
+   "titreOrphee": "Merlin",
+   "editeur": "Dargaud",
+   "auteur": "Sfar Joann",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     4
+    ]
+   }
+  },
+  "mi-mouche": {
+   "titreOrphee": "Mi-Mouche",
+   "editeur": "Editions Dupuis",
+   "auteur": "Cazot Vero",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "mirabelle": {
+   "titreOrphee": "Mirabelle",
+   "editeur": "Glénat",
+   "auteur": "Peultier Christian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     4
+    ]
+   }
+  },
+  "miss-charity": {
+   "titreOrphee": "Miss Charity",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Clément Loïc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Classique"
+  },
+  "miss-pipelette": {
+   "titreOrphee": "Miss Pipelette",
+   "editeur": "Bamboo",
+   "auteur": "L'Hermenier Maxe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "miss-shaolin": {
+   "titreOrphee": "Miss Shaolin",
+   "editeur": "Jungle",
+   "auteur": "Bottier Isabelle",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "mistinguette": {
+   "titreOrphee": "Mistinguette",
+   "editeur": "Jungle",
+   "auteur": "Tessier Greg",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Sentimental"
+  },
+  "molang": {
+   "titreOrphee": "Molang",
+   "editeur": "Dupuis",
+   "auteur": "Goroglin",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Glissades et rigolades"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "monsieur-blaireau-et-madame-renarde": {
+   "titreOrphee": "Monsieur Blaireau et Madame Renarde",
+   "editeur": "Dargaud\nFrance Loisirs",
+   "auteur": "Luciani Brigitte",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "mortelle-adele": {
+   "titreOrphee": "Mortelle Adèle",
+   "editeur": "Tourbillon",
+   "auteur": "Mr Tan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     7,
+     10,
+     11,
+     12,
+     13,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Mortelle Adèle et les reliques du chat-lune",
+     "Mortelle Adèle et la galaxie des bizarres",
+     "Sur les traces du croquepote !"
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "nelson": {
+   "titreOrphee": "Nelson",
+   "editeur": "Dupuis",
+   "auteur": "Bertschy Christophe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     25
+    ]
+   }
+  },
+  "nevermoor": {
+   "titreOrphee": "Nevermoor",
+   "editeur": "Jungle",
+   "auteur": "L'Hermenier Maxe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "ninn": {
+   "titreOrphee": "Ninn",
+   "editeur": "Kennes Editions",
+   "auteur": "Darlot Jean-Michel",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "nonolulu": {
+   "titreOrphee": "Nonolulu",
+   "editeur": "Editions Auzou",
+   "auteur": "Battault Paule",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "nouk-et-blik": {
+   "titreOrphee": "Nouk et Blik",
+   "editeur": "BD Kids",
+   "auteur": "Lopez Francisco",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3
+    ]
+   }
+  },
+  "nunuche": {
+   "titreOrphee": "Nunuche",
+   "editeur": "Dargaud",
+   "auteur": "Bianco Guillaume",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "oliver-twist": {
+   "titreOrphee": "Oliver Twist",
+   "editeur": "Delcourt",
+   "auteur": "Dauvillier Loïc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "orgueil-prejuges": {
+   "titreOrphee": "Orgueil & préjugés",
+   "editeur": "Soleil",
+   "auteur": "Aurore",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Sentimental"
+  },
+  "ortie-et-douce": {
+   "titreOrphee": "Ortie et Douce",
+   "editeur": "BD Kids",
+   "auteur": "Shanta Elodie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "papi-genial": {
+   "titreOrphee": "Papi Génial",
+   "editeur": "Komics initiative",
+   "auteur": "Emeriau Tony",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3
+    ]
+   }
+  },
+  "papi-genial-et-sa-bulle-qui-va-partout": {
+   "titreOrphee": "Papi génial et sa bulle qui va partout",
+   "editeur": "Kennes Editions",
+   "auteur": "Emeriau Tony",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "pattes": {
+   "titreOrphee": "PATTES",
+   "editeur": "Hachette Romans",
+   "auteur": "Assarasakorn Michele",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "pepin-et-olivia": {
+   "titreOrphee": "Pépin et Olivia",
+   "editeur": "Dupuis",
+   "auteur": "Jourdy Camille",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "La grande fête de rien du tout"
+    ]
+   }
+  },
+  "perdus-dans-le-futur": {
+   "titreOrphee": "Perdus dans le futur",
+   "editeur": "Dupuis",
+   "auteur": "Campanario Damian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "petit-vampire": {
+   "titreOrphee": "Petit Vampire",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Jardel Sandrina",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "pico-bogue": {
+   "titreOrphee": "Pico Bogue",
+   "editeur": "Dargaud",
+   "auteur": "Roques Dominique",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "pitchi-poi": {
+   "titreOrphee": "Pitchi Poï.",
+   "editeur": "Delcourt",
+   "auteur": "Guth Claude",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "polo": {
+   "titreOrphee": "Polo",
+   "editeur": "Bayard jeunesse",
+   "auteur": "Faller Régis",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     4
+    ]
+   }
+  },
+  "popotka-le-petit-sioux": {
+   "titreOrphee": "Popotka le petit sioux",
+   "editeur": "Delcourt jeunesse",
+   "auteur": "Chauvel David",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 6,
+     "statut": "Perdu",
+     "cote": "BD POP"
+    }
+   ]
+  },
+  "princesse-sara": {
+   "titreOrphee": "Princesse Sara",
+   "editeur": "Soleil",
+   "auteur": "Alwett Audrey",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     5,
+     8,
+     9,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 4,
+     "statut": "Perdu",
+     "cote": "BD PRI"
+    }
+   ]
+  },
+  "quand-la-nuit-tombe": {
+   "titreOrphee": "Quand la nuit tombe",
+   "editeur": "Delcourt",
+   "auteur": "Achard Marion",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Quand la nuit tombe"
+    ]
+   },
+   "genreOrphee": "Historique"
+  },
+  "rantanplan": {
+   "titreOrphee": "Rantanplan",
+   "editeur": "Lucky comics",
+   "auteur": "Morris",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     9,
+     20
+    ]
+   }
+  },
+  "ratafia": {
+   "titreOrphee": "Ratafia",
+   "editeur": "Milan",
+   "auteur": "Pothier Nicolas",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     8
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "raven-l-ours": {
+   "titreOrphee": "Raven & l'ours",
+   "editeur": "la Boîte à bulles",
+   "auteur": "Pinheiro Bianca",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "roger-et-ses-humains": {
+   "titreOrphee": "Roger et ses humains",
+   "editeur": "Dupuis",
+   "auteur": "Paka",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "runes": {
+   "titreOrphee": "Runes",
+   "editeur": "Casterman",
+   "auteur": "Sánchez Carlos",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "sac-a-puces": {
+   "titreOrphee": "Sac à Puces",
+   "editeur": "Dupuis",
+   "auteur": "De Brab",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     4,
+     5,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "sami-et-julie": {
+   "titreOrphee": "Sami et Julie",
+   "editeur": "Hachette Education",
+   "auteur": "Aladjdi Virginie",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Super frousse au phare !"
+    ]
+   },
+   "genreOrphee": "Policier/Thriller"
+  },
+  "shaker-monster": {
+   "titreOrphee": "Shaker monster",
+   "editeur": "Gallimard-bande dessinée",
+   "auteur": "Mr Tan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "skylanders": {
+   "titreOrphee": "Skylanders",
+   "editeur": "Glénat",
+   "auteur": "Marz Ron",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "snoopy-les-peanuts": {
+   "titreOrphee": "Snoopy & les Peanuts",
+   "editeur": "Dargaud",
+   "auteur": "Schulz Charles Monroe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     19
+    ]
+   }
+  },
+  "sorceline": {
+   "titreOrphee": "Sorceline",
+   "editeur": "Vents d'Ouest",
+   "auteur": "Douyé Sylvia",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "spirou-et-fantasio": {
+   "titreOrphee": "Spirou et Fantasio",
+   "editeur": "Dupuis",
+   "auteur": "Franquin André",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     8,
+     14,
+     44,
+     51,
+     52,
+     53,
+     54
+    ]
+   }
+  },
+  "strom": {
+   "titreOrphee": "Strom",
+   "editeur": "Nathan Jeunesse",
+   "auteur": "Lylian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "studio-danse": {
+   "titreOrphee": "Studio danse",
+   "editeur": "Bamboo",
+   "auteur": "Béka",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3,
+     4,
+     11,
+     12,
+     13
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 7,
+     "statut": "Perdu",
+     "cote": "BD STU"
+    }
+   ]
+  },
+  "studio-danse-academy": {
+   "titreOrphee": "Studio Danse Academy",
+   "editeur": "Bamboo Editions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "super-a": {
+   "titreOrphee": "Super A",
+   "editeur": "Albin Michel",
+   "auteur": "Moreau Jérémie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "super-environman": {
+   "titreOrphee": "Super Environman",
+   "editeur": "Bamboo",
+   "auteur": "Madaule Bruno",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "supers": {
+   "titreOrphee": "Supers",
+   "editeur": "les Editions de la Gouttière",
+   "auteur": "Maupomé Frédéric",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "swan-neo": {
+   "titreOrphee": "Swan & Néo",
+   "editeur": "Soleil Productions",
+   "auteur": "Winslow",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "sybil-la-fee-cartable": {
+   "titreOrphee": "Sybil la fée cartable",
+   "editeur": "Le Lombard",
+   "auteur": "Rodrigue Michel",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 5,
+     "statut": "Perdu",
+     "cote": "BD ROD"
+    }
+   ]
+  },
+  "tao-et-ses-monstres": {
+   "titreOrphee": "Tao et ses monstres",
+   "editeur": "Le Lombard",
+   "auteur": "Toussaint Kid",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "tavutatet": {
+   "titreOrphee": "Tâvutatèt",
+   "editeur": "Vents d'ouest",
+   "auteur": "Trébor Carole",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "tetine-man": {
+   "titreOrphee": "Tétine Man",
+   "editeur": "Didier jeunesse",
+   "auteur": "Nicolas Christophe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3
+    ]
+   },
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Tétine Man",
+     "Tétine Man vous salue bien"
+    ]
+   }
+  },
+  "the-lapins-cretins": {
+   "titreOrphee": "The lapins crétins",
+   "editeur": "les Deux royaumes",
+   "auteur": "Thitaume",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     8,
+     10,
+     11
+    ]
+   },
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 9,
+     "statut": "Perdu",
+     "cote": "BD THI"
+    }
+   ]
+  },
+  "theo-toutou": {
+   "titreOrphee": "Théo Toutou",
+   "editeur": "Bayard jeunesse\nImpr. Pollina",
+   "auteur": "Pommaux Yvan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     4,
+     6,
+     7
+    ]
+   }
+  },
+  "tib-et-tatoum": {
+   "titreOrphee": "Tib et Tatoum",
+   "editeur": "Glénat",
+   "auteur": "Grimaldi",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "ticayou": {
+   "titreOrphee": "Ticayou",
+   "editeur": "s.n.",
+   "auteur": "Le Brun Eric",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "tilly-zorus": {
+   "titreOrphee": "Tilly Zorus",
+   "editeur": "Auzou",
+   "auteur": "Ced",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "titeuf": {
+   "titreOrphee": "Titeuf",
+   "editeur": "Glénat",
+   "auteur": "Zep",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     17,
+     18
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "tizombi": {
+   "titreOrphee": "Tizombi",
+   "editeur": "Bamboo",
+   "auteur": "Cazenove Christophe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "tom-tom-et-nana": {
+   "titreOrphee": "Tom-Tom et Nana",
+   "editeur": "Bayard",
+   "auteur": "Cohen Jacqueline",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     9,
+     13,
+     14,
+     18,
+     21,
+     24,
+     27,
+     29,
+     30,
+     31,
+     34
+    ]
+   }
+  },
+  "totem": {
+   "titreOrphee": "Totem",
+   "editeur": "Bande d'ados",
+   "auteur": "Toussaint Kid",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "toupet": {
+   "titreOrphee": "Toupet",
+   "editeur": "Dupuis",
+   "auteur": "Blesteau",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     18
+    ]
+   }
+  },
+  "toutou-detective": {
+   "titreOrphee": "Toutou détective",
+   "editeur": "Ynnis Editions",
+   "auteur": "Tartarotti Stefano",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     3
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "toutou-detective-le-heros-de-la-bd-c-est-toi": {
+   "titreOrphee": "Toutou détective : le héros de la BD c'est toi !",
+   "editeur": "Ynnis éditions",
+   "auteur": "Tartarotti Stefano",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2
+    ]
+   }
+  },
+  "tralaland": {
+   "titreOrphee": "Tralaland",
+   "editeur": "BD Kids",
+   "auteur": "Libon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "genreOrphee": "Comédie/Humour"
+  },
+  "tranche-trognes": {
+   "titreOrphee": "Tranche-Trognes",
+   "editeur": "Gallimard",
+   "auteur": "Jolibois Christian",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   }
+  },
+  "triple-galop": {
+   "titreOrphee": "Triple galop",
+   "editeur": "Bamboo Editions",
+   "auteur": "Du Peloux Benoît",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     5,
+     8,
+     9,
+     16,
+     17,
+     18
+    ]
+   }
+  },
+  "une-epatante-aventure-de-jules": {
+   "titreOrphee": "Une épatante aventure de Jules",
+   "editeur": "Dargaud",
+   "auteur": "Bravo Emile",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2,
+     3,
+     4,
+     6
+    ]
+   }
+  },
+  "unico": {
+   "titreOrphee": "Unico",
+   "editeur": "Flammarion jeunesse",
+   "auteur": "Tezuka Osamu",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     3
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "unico-l-eveil": {
+   "titreOrphee": "Unico : l'éveil",
+   "editeur": "Flammarion jeunesse",
+   "auteur": "Tezuka Osamu",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "violette-autour-du-monde": {
+   "titreOrphee": "Violette autour du monde",
+   "editeur": "Dargaud",
+   "auteur": "Radice Teresa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "violette-tenebris": {
+   "titreOrphee": "Violette Ténébris",
+   "editeur": "Jungle",
+   "auteur": "Manand Marie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "wafwaf-captain-miaou": {
+   "titreOrphee": "WafWaf & Captain Miaou",
+   "editeur": "BD Kids",
+   "auteur": "B-Gnet",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "waluk": {
+   "titreOrphee": "Waluk",
+   "editeur": "Dargaud",
+   "auteur": "Ruiz Emilio",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   }
+  },
+  "zelie-et-compagnie": {
+   "titreOrphee": "Zélie et compagnie",
+   "editeur": "Bayard",
+   "auteur": "Corbeyran",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     5,
+     6,
+     7,
+     8,
+     10,
+     11
+    ]
+   }
+  },
+  "zelie-et-micha": {
+   "titreOrphee": "Zélie et Micha",
+   "editeur": "Nathan Jeunesse",
+   "auteur": "Naumann-Villemin Christine",
+   "tomes": {},
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Sauve qui peut !"
+    ]
+   },
+   "genreOrphee": "Aventure"
+  },
+  "zita-la-fille-de-l-espace": {
+   "titreOrphee": "Zita, la fille de l'espace",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Hatke Ben",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "elsbeth-et-la-malediction-du-beau-silence": {
+   "titreOrphee": "Elsbeth et la malédiction du Beau Silence",
+   "editeur": "Le Lombard",
+   "auteur": "Roulot Tristan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     2
+    ]
+   },
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "boite-de-petits-pois": {
+   "titreOrphee": "La boîte de petits pois",
+   "editeur": "Delcourt",
+   "auteur": "GiedRé",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Vécu / Témoignage"
+  },
+  "ambre-et-l-ile-des-creatures-perdues": {
+   "titreOrphee": "Ambre et l'île des créatures perdues",
+   "editeur": "Jungle",
+   "auteur": "Pamment Jason",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "quatre-ours": {
+   "titreOrphee": "Les quatre ours",
+   "editeur": "Actes Sud junior",
+   "auteur": "Charpentier Olivier",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Comédie/Humour"
+  },
+  "mecanos": {
+   "titreOrphee": "Les mécanos",
+   "editeur": "Joie de lire",
+   "auteur": "Saladrigas Max",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "extraordinaire-abecedaire-de-zoe-marmelade": {
+   "titreOrphee": "L' extraordinaire abécédaire de Zoé Marmelade",
+   "editeur": "Soleil",
+   "auteur": "Bianco Guillaume",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "louise-ou-l-enfance-de-bigoudi": {
+   "titreOrphee": "Louise ou L'enfance de Bigoudi",
+   "editeur": "Editions les Fourmis rouges",
+   "auteur": "Perret Delphine",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "tableaux-de-l-ombre": {
+   "titreOrphee": "Les tableaux de l'ombre",
+   "editeur": "Delcourt; Louvre éditions",
+   "auteur": "Dytar Jean",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "vermeilles": {
+   "titreOrphee": "Les vermeilles",
+   "editeur": "Actes Sud",
+   "auteur": "Jourdy Camille",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "jeannot": {
+   "titreOrphee": "Jeannot",
+   "editeur": "Delcourt",
+   "auteur": "Clément Loïc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "des-mutants-dans-l-etang": {
+   "titreOrphee": "Des mutants dans l'étang",
+   "editeur": "Kilowatt",
+   "auteur": "Cauchy Véronique",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "roi-des-oiseaux": {
+   "titreOrphee": "Le roi des oiseaux",
+   "editeur": "Gallimard",
+   "auteur": "Utkin Alexander",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "enfant-ocean": {
+   "titreOrphee": "L' enfant océan",
+   "editeur": "Jungle",
+   "auteur": "L'Hermenier Maxe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "au-bois": {
+   "titreOrphee": "Au bois",
+   "editeur": "Editions les Fourmis rouges",
+   "auteur": "Collette Charline",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "coco-le-virus": {
+   "titreOrphee": "Coco le virus",
+   "editeur": "Larousse",
+   "auteur": "Livron Paul de",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "gardiennes-du-grenier": {
+   "titreOrphee": "Les gardiennes du grenier",
+   "editeur": "Biscoto",
+   "auteur": "Lassus Oriane",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "maison-qui-revait": {
+   "titreOrphee": "La maison qui rêvait",
+   "editeur": "Delcourt",
+   "auteur": "Braslavsky Max",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "mon-potager-au-fil-des-saisons-en-bd": {
+   "titreOrphee": "Mon potager au fil des saisons en BD",
+   "editeur": "Casterman",
+   "auteur": "Ruau Stento Mathilde",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "ninja-malgre-moi": {
+   "titreOrphee": "Ninja malgré moi",
+   "editeur": "Humanoïdes associés",
+   "auteur": "Sanchez Adara",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "birdy-melody": {
+   "titreOrphee": "Birdy melody",
+   "editeur": "De la Gouttière",
+   "auteur": "Périmony David",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "princesse-guerriere": {
+   "titreOrphee": "La princesse guerrière",
+   "editeur": "Gallimard",
+   "auteur": "Utkin Alexander",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "tamia-et-les-memoires-du-dragon": {
+   "titreOrphee": "Tamia et les mémoires du dragon",
+   "editeur": "Akileos",
+   "auteur": "Brana David",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "casse-noisette-et-le-roi-des-souris": {
+   "titreOrphee": "Casse-Noisette et le roi des souris",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Andrewson Nathalie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "sorunne": {
+   "titreOrphee": "Sorunne",
+   "editeur": "Spaceman Project",
+   "auteur": "Reinfeld Diego G.",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "royaume-des-brumes": {
+   "titreOrphee": "Le royaume des brumes",
+   "editeur": "Jungle",
+   "auteur": "Rocchi Marco",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "mystere-du-lac": {
+   "titreOrphee": "Le mystère du lac",
+   "editeur": "Jungle",
+   "auteur": "Pamment Jason",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "vies-dansent": {
+   "titreOrphee": "Les vies dansent",
+   "editeur": "Ed. de la Gouttière",
+   "auteur": "Zay Dominique",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "louve-boreale": {
+   "titreOrphee": "La louve boréale",
+   "editeur": "Sarbacane",
+   "auteur": "Tamarit Nuria",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "un-ete-au-chalet": {
+   "titreOrphee": "Un été au chalet",
+   "editeur": "Kennes Editions",
+   "auteur": "Aluna",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "d-ambre-et-de-feu": {
+   "titreOrphee": "D'ambre et de feu",
+   "editeur": "Jungle",
+   "auteur": "Domergue Agnès",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "luce-comprend-tout-trop-vite": {
+   "titreOrphee": "Luce comprend tout trop vite",
+   "editeur": "Jungle",
+   "auteur": "Adriansen Sophie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "tidesong": {
+   "titreOrphee": "Tidesong",
+   "editeur": "Bliss éditions",
+   "auteur": "Xu Wendy",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "mimiphisto": {
+   "titreOrphee": "Mimiphisto",
+   "editeur": "Soleil",
+   "auteur": "Laporterie Pierre-Henry",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Horreur"
+  },
+  "contrees-salees": {
+   "titreOrphee": "Les contrées salées",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Larson Hope",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "un-chant-de-noel": {
+   "titreOrphee": "Un chant de Noël",
+   "editeur": "Jungle",
+   "auteur": "L'Hermenier Maxe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "de-cape-et-de-mots": {
+   "titreOrphee": "De cape et de mots",
+   "editeur": "Dargaud",
+   "auteur": "Vesco Flore",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "felixe-et-la-maison-qui-marchait-la-nuit": {
+   "titreOrphee": "Félixe et la maison qui marchait la nuit",
+   "editeur": "la Ville brûle",
+   "auteur": "Bedard Sophie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "histoires-pressees": {
+   "titreOrphee": "Histoires pressées",
+   "editeur": "Milan",
+   "auteur": "Friot Bernard",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Comédie/Humour"
+  },
+  "bea-wolf": {
+   "titreOrphee": "Bea Wolf",
+   "editeur": "Albin Michel-Jeunesse",
+   "auteur": "Weinersmith Zach",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "monsieur-lion-est-presse": {
+   "titreOrphee": "Monsieur Lion est pressé !",
+   "editeur": "Bayard Jeunesse",
+   "auteur": "Teckentrup Britta",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Petite enfance"
+  },
+  "soeurs-de-la-brume": {
+   "titreOrphee": "Les soeurs de la brume",
+   "editeur": "Editions Kinaye",
+   "auteur": "Spaaij Marlyn",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "gardiennes-des-papillons": {
+   "titreOrphee": "Les gardiennes des papillons",
+   "editeur": "Bliss éditions",
+   "auteur": "O'Neill Katie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "prince-edmond": {
+   "titreOrphee": "Prince Edmond",
+   "editeur": "Ecole des loisirs",
+   "auteur": "Maupré Agnès",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "fils-du-pirate": {
+   "titreOrphee": "Le Fils du pirate",
+   "editeur": "Seuil Jeunesse",
+   "auteur": "Bourgeau Vincent",
+   "tomes": {},
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD BOU"
+    }
+   ]
+  },
+  "ma-maman-est-en-amerique-elle-a-rencontre-buffalo-bill": {
+   "titreOrphee": "Ma maman est en Amérique, elle a rencontré Buffalo Bill",
+   "editeur": "Gallimard",
+   "auteur": "Regnaud Jean",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "edlyn": {
+   "titreOrphee": "Edlyn",
+   "editeur": "Soleil",
+   "auteur": "Cécile",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "trois-grains-de-riz": {
+   "titreOrphee": "Trois grains de riz",
+   "editeur": "Gallimard",
+   "auteur": "Aki",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "pome-ou-les-petites-choses": {
+   "titreOrphee": "Pome ou Les petites choses",
+   "editeur": "Atelier du poisson soluble",
+   "auteur": "Troïanowski Johan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "cassis-veut-jouer": {
+   "titreOrphee": "Cassis veut jouer",
+   "editeur": "Dargaud",
+   "auteur": "Luciani Brigitte",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "pecheur-et-les-revenants": {
+   "titreOrphee": "Le pêcheur et les revenants",
+   "editeur": "La Joie de Lire",
+   "auteur": "Estes Max",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "famille-glagla": {
+   "titreOrphee": "La famille Glagla",
+   "editeur": "Didier jeunesse",
+   "auteur": "Delecour François",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "cauchemarre-de-motordu": {
+   "titreOrphee": "Le cauchemarre de Motordu",
+   "editeur": "Gallimard",
+   "auteur": "Pef",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "petite-frappe": {
+   "titreOrphee": "Petite frappe",
+   "editeur": "Delcourt",
+   "auteur": "Bégaudeau François",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "ocelot-le-chat-qui-n-en-etait-pas-un": {
+   "titreOrphee": "Ocelot le chat qui n'en était pas un",
+   "editeur": "Delcourt",
+   "auteur": "Morvan Jean-David",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "poudre-d-escampette": {
+   "titreOrphee": "La poudre d'escampette",
+   "editeur": "Delcourt",
+   "auteur": "Cruchaudet Chloé",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "aventures-de-porcinet": {
+   "titreOrphee": "Les aventures de Porcinet",
+   "editeur": "Disney Hachette",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "chair-de-poule": {
+   "titreOrphee": "Chair de poule",
+   "editeur": "Bayard jeunesse\nImpr. Pollina",
+   "auteur": "Stine R. L.",
+   "tomes": {},
+   "retires": [
+    {
+     "bib": "Servon-sur-Vilaine",
+     "tome": 1,
+     "statut": "Perdu",
+     "cote": "BD STI"
+    }
+   ]
+  },
+  "jinroku": {
+   "titreOrphee": "Jinroku",
+   "editeur": "Joker Editions",
+   "auteur": "Nayel",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "comment-obelix-est-tombe-dans-la-marmite-du-druide-quand-il-etait-petit": {
+   "titreOrphee": "Comment Obélix est tombé dans la marmite du druide quand il était petit",
+   "editeur": "les Éd. Albert-René\nImpr. Pollina",
+   "auteur": "Goscinny René",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "bisbille-fait-mouche": {
+   "titreOrphee": "Bisbille fait mouche",
+   "editeur": "BD Kids",
+   "auteur": "Guibert Emmanuel",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "jean-michel-et-la-revolution-en-poponie": {
+   "titreOrphee": "Jean-Michel et la révolution en Poponie",
+   "editeur": "Actes Sud junior",
+   "auteur": "Le Huche Magali",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "petit-nicolas": {
+   "titreOrphee": "Le Petit Nicolas",
+   "editeur": "IMAV éditions",
+   "auteur": "Sempé Jean-Jacques",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "louis-parmi-les-spectres": {
+   "titreOrphee": "Louis parmi les spectres",
+   "editeur": "La Pastèque",
+   "auteur": "Britt Fanny",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "epouvantable-peur-d-epiphanie-frayeur": {
+   "titreOrphee": "L'épouvantable peur d'Epiphanie Frayeur",
+   "editeur": "Soleil",
+   "auteur": "Gauthier Séverine",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "ecorce-des-choses": {
+   "titreOrphee": "L'écorce des choses",
+   "editeur": "Warum",
+   "auteur": "Bidault Cécile",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "chaque-jour-dracula": {
+   "titreOrphee": "Chaque jour Dracula",
+   "editeur": "Delcourt",
+   "auteur": "Clément Loïc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "jean-michel-le-caribou-dans-l-espace": {
+   "titreOrphee": "Jean-Michel, le caribou dans l'espace",
+   "editeur": "Actes Sud junior",
+   "auteur": "Le Huche Magali",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "rackette-moi-si-tu-peux": {
+   "titreOrphee": "Rackette-moi si tu peux",
+   "editeur": "Gulf Stream",
+   "auteur": "Adriansen Sophie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "chroniques-de-l-ile-perdue": {
+   "titreOrphee": "Chroniques de l'île perdue",
+   "editeur": "Soleil",
+   "auteur": "Clément Loïc",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "timo-l-aventurier": {
+   "titreOrphee": "Timo, l'aventurier",
+   "editeur": "Le Lombard",
+   "auteur": "Garnier Jonathan",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "un-ete-d-enfer": {
+   "titreOrphee": "Un été d'enfer !",
+   "editeur": "Rue de Sèvres\nRue de Sèvres",
+   "auteur": "Brosgol Vera",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "camille-contre-les-cauchemars": {
+   "titreOrphee": "Camille contre les cauchemars",
+   "editeur": "Casterman\nCasterman",
+   "auteur": "Tetri Emily",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "boule-bill": {
+   "titreOrphee": "Boule & Bill",
+   "editeur": "Dargaud\nDargaud",
+   "auteur": "Roba",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "vive-la-nature": {
+   "titreOrphee": "Vive la nature !",
+   "editeur": "la Boîte à bulles\nla Boîte à bulles",
+   "auteur": "Coudray Philippe",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "luminous": {
+   "titreOrphee": "Luminous",
+   "editeur": "Editions de la Gouttière",
+   "auteur": "Marí Guillem",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "bd-de-l-avent": {
+   "titreOrphee": "La BD de l'Avent",
+   "editeur": "Le Lombard",
+   "auteur": "Tébo",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "voisin-grognon": {
+   "titreOrphee": "Le Voisin grognon",
+   "editeur": "Les aventuriers d'ailleurs",
+   "auteur": "Mark Josephine",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Comédie/Humour"
+  },
+  "blancaflor": {
+   "titreOrphee": "Blancaflor",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Spiegelman Nadja",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Aventure"
+  },
+  "leonie-et-les-scarabees": {
+   "titreOrphee": "Léonie et les scarabées",
+   "editeur": "Nathan Jeunesse",
+   "auteur": "Bordier Elsa",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "saute-de-lapin": {
+   "titreOrphee": "Le sauté de lapin",
+   "editeur": "Alice jeunesse",
+   "auteur": "Camil Jérôme",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Comédie/Humour"
+  },
+  "sorciere-de-wickerson": {
+   "titreOrphee": "La sorcière de Wickerson",
+   "editeur": "Aventuriers de l'étrange",
+   "auteur": "Laufman Derek",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "zazie-sans-fautes": {
+   "titreOrphee": "Zazie sans fautes",
+   "editeur": "Le Robert",
+   "auteur": "Gaignard Anne-Marie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "roi-ensommeille": {
+   "titreOrphee": "Le roi ensommeillé",
+   "editeur": "Oxymore",
+   "auteur": "Dahman Myriam",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction / Fantastique"
+  },
+  "cromimi": {
+   "titreOrphee": "Cromimi",
+   "editeur": "Nathan bande dessinée",
+   "auteur": "Romanet Caroline",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "mamie-rocket": {
+   "titreOrphee": "Mamie Rocket",
+   "editeur": "Sarbacane Editions",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction"
+  },
+  "moi-gisele": {
+   "titreOrphee": "Moi, Gisèle",
+   "editeur": "Grasset jeunesse",
+   "auteur": "Bonini Sandrine",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Vécu / Témoignage"
+  },
+  "petiote-a-la-mer": {
+   "titreOrphee": "Petiote à la mer",
+   "editeur": "Nathan bande dessinée",
+   "auteur": "Massey Jane",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "ile-des-cochons-volants": {
+   "titreOrphee": "L'île des cochons volants",
+   "editeur": "Ankama éditions",
+   "auteur": "Millotte Marie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "betty-polo": {
+   "titreOrphee": "Betty & Polo",
+   "editeur": "Charivari",
+   "auteur": "Poissier Adrien",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Comédie/Humour"
+  },
+  "une-aventure-de-rose-et-lock-holmes": {
+   "titreOrphee": "Une aventure de Rose et Lock Holmes",
+   "editeur": "La Doux",
+   "auteur": "Litten Kristyna",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "dinos-des-champs": {
+   "titreOrphee": "Dinos des champs",
+   "editeur": "Glénat jeunesse",
+   "auteur": "Pog",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "foret-de-nenue": {
+   "titreOrphee": "La forêt de Nénue",
+   "editeur": "Sarbacane Editions",
+   "auteur": "Allard Candie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "onde": {
+   "titreOrphee": "L'Onde",
+   "editeur": "Editions de la Gouttière",
+   "auteur": "Maupomé Frédéric",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "jefferson": {
+   "titreOrphee": "Jefferson",
+   "editeur": "Gallimard BD",
+   "auteur": "Ronzon Antoine",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Policier/Thriller"
+  },
+  "mystere-au-musee": {
+   "titreOrphee": "Mystère au Musée",
+   "editeur": "Casterman",
+   "auteur": "Tunnicliffe Hannah",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Policier/Thriller"
+  },
+  "princesse-d-hazelwood": {
+   "titreOrphee": "La princesse d'Hazelwood",
+   "editeur": "Les aventuriers d'ailleurs",
+   "auteur": "Calabretta Arianna",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "souricia-et-le-geant-de-la-clairiere": {
+   "titreOrphee": "Souricia et le géant de la clairière",
+   "editeur": "Albin Michel",
+   "auteur": "Danjou Ludovic",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Fantasy/Fantastique"
+  },
+  "choix-de-sam": {
+   "titreOrphee": "Le choix de Sam",
+   "editeur": "Rue de Sèvres",
+   "auteur": "Pitz Nicolas",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "tillo-et-compagnie": {
+   "titreOrphee": "Tillo et compagnie",
+   "editeur": "Glénat jeunesse",
+   "auteur": "Simon Quitterie",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true
+  },
+  "ce-qui-se-cache-derriere-les-etoiles": {
+   "titreOrphee": "Ce qui se cache Derrière les Etoiles",
+   "editeur": "Glénat",
+   "auteur": "Dubreuil Manon",
+   "tomes": {
+    "Servon-sur-Vilaine": [
+     1
+    ]
+   },
+   "oneShot": true,
+   "genreOrphee": "Science-fiction"
+  }
+ },
+ "anomalies": [
+  {
+   "type": "tome-inconnu",
+   "serie": "ajax-et-sa-bande",
+   "titre": "Ajax et sa bande",
+   "album": "Et plumes si affinités...",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD AJA",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "ambre",
+   "titre": "Ambre",
+   "album": "Ambre et la Grande Métamorphose",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD PAM",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "ariol",
+   "titre": "Ariol",
+   "album": "Ramono, ton tonton fait du bio !",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ARI",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "ariol",
+   "titre": "Ariol",
+   "album": "Les vacances chez Papi et Mamie",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ARI",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "asterix-le-gaulois",
+   "titre": "Astérix le gaulois",
+   "album": "L' empire du Milieu",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD AST",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "asterix-le-gaulois",
+   "titre": "Astérix le Gaulois",
+   "album": "Le  menhir d'or",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD AST",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "avatar-le-dernier-maitre-de-l-air",
+   "titre": "Avatar : le dernier maître de l'air",
+   "album": "La  promesse",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD AVA",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "belfort-et-lupin",
+   "titre": "Belfort et Lupin",
+   "album": "SOS Carpe Diem",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD BEL",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "calvin-and-hobbes",
+   "titre": "Calvin and Hobbes",
+   "album": "The Revenge of the Baby-sat",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "ENG BD WATT",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "choupisson",
+   "titre": "Choupisson",
+   "album": "En ver et contre tous !",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD CHO",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "donjon-antipodes",
+   "titre": "Donjon antipodes",
+   "album": "L'armée du crâne",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD DON",
+   "brut": "Tome : 10000"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "donjon-antipodes",
+   "titre": "Donjon antipodes",
+   "album": "L' inquisiteur mégalomane",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD DON",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "eevi-et-les-esprits-du-nord",
+   "titre": "Eevi et les esprits du Nord",
+   "album": "Un rêve dangereux",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD EEV",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "esope-le-loup",
+   "titre": "Esope le loup",
+   "album": "Louti rikiki, maousse costo",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ESO",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "garfield",
+   "titre": "Garfield",
+   "album": "Garfield se jette à l'eau",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD DAV",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "gaston-lagaffe",
+   "titre": "Gaston Lagaffe",
+   "album": "L'Ecologie Selon Lagaffe",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD GAS",
+   "brut": "Tome : S"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "idefix-et-les-irreductibles",
+   "titre": "Idéfix et les irréductibles",
+   "album": "Les  Romains se prennent une gamelle !",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD IDE",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "idefix-et-les-irreductibles",
+   "titre": "Idéfix et les irréductibles",
+   "album": "Ca balance pas mal à Lutèce !",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD IDE",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "bande-du-mile-end",
+   "titre": "La bande du Mile-End",
+   "album": "La  scène de Maya",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ARS",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "bd-de-loup",
+   "titre": "La BD de Loup",
+   "album": "Aventure en mytholougie",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD LOU",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "livre",
+   "titre": "Le livre : Le livre",
+   "album": "Joyeux anniversaire le livre !",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BB",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "carnets-de-cerise",
+   "titre": "Les carnets de Cerise",
+   "album": "Les carnets de Cerise et Valentin",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD CAR",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "contes-des-coeurs-perdus",
+   "titre": "Les contes des coeurs perdus",
+   "album": "Héloïse et les larmes de givre",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD CON",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "contes-des-coeurs-perdus",
+   "titre": "Les contes des coeurs perdus",
+   "album": "Le  silence est d'ombre",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD CON",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "contes-des-coeurs-perdus",
+   "titre": "Les contes des coeurs perdus",
+   "album": "Mauvais sang",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD CON",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "contes-des-coeurs-perdus",
+   "titre": "Les contes des coeurs perdus",
+   "album": "Merlin",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD CON",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "detectives-du-cagibi",
+   "titre": "Les détectives du cagibi",
+   "album": "La  nouvelle est une alien",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD DET",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "enquetes-de-lady-souris-jimmy-tigre",
+   "titre": "Les enquêtes de Lady Souris & Jimmy Tigré",
+   "album": "Mystères dans le Finistère",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ENQ",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "enquetes-de-lady-souris-jimmy-tigre",
+   "titre": "Les enquêtes de Lady Souris & Jimmy Tigré",
+   "album": "Mystères dans le Finistère",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ENQ",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "enquetes-de-lady-souris-jimmy-tigre",
+   "titre": "Les enquêtes de Lady Souris & Jimmy Tigré",
+   "album": "Mystères dans le Finistère",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ENQ",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "enquetes-de-lady-souris-jimmy-tigre",
+   "titre": "Les enquêtes de Lady Souris & Jimmy Tigré",
+   "album": "Mystères dans le Finistère",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ENQ",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "enquetes-de-lady-souris-jimmy-tigre",
+   "titre": "Les enquêtes de Lady Souris & Jimmy Tigré",
+   "album": "Mystères dans le Finistère",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ENQ",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "lily-medialuna",
+   "titre": "Lily Medialuna",
+   "album": "Le Tournoi de sorcellerie",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD MED",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "lucky-luke",
+   "titre": "Lucky Luke",
+   "album": "Mac chez les indiens",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD LUC",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "marsupilami",
+   "titre": "Marsupilami",
+   "album": "Supermarsu",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD MAR",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "molang",
+   "titre": "Molang",
+   "album": "Glissades et rigolades",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD GOR",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "mortelle-adele",
+   "titre": "Mortelle Adèle",
+   "album": "Mortelle Adèle et les reliques du chat-lune",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD MOR",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "mortelle-adele",
+   "titre": "Mortelle Adèle",
+   "album": "Mortelle Adèle et la galaxie des bizarres",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD MOR",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "mortelle-adele",
+   "titre": "Mortelle Adèle",
+   "album": "Sur les traces du croquepote !",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD MOR",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "pepin-et-olivia",
+   "titre": "Pépin et Olivia",
+   "album": "La grande fête de rien du tout",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD PEP",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "quand-la-nuit-tombe",
+   "titre": "Quand la nuit tombe",
+   "album": "Quand la nuit tombe",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD ACH",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "sami-et-julie",
+   "titre": "Sami et Julie",
+   "album": "Super frousse au phare !",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD SAM",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "tetine-man",
+   "titre": "Tétine Man",
+   "album": "Tétine Man",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD NIC",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "tetine-man",
+   "titre": "Tétine Man",
+   "album": "Tétine Man vous salue bien",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "BD NIC",
+   "brut": "Tome :"
+  },
+  {
+   "type": "tome-inconnu",
+   "serie": "zelie-et-micha",
+   "titre": "Zélie et Micha",
+   "album": "Sauve qui peut !",
+   "bib": "Servon-sur-Vilaine",
+   "cote": "JDR",
+   "brut": "Tome :"
+  }
+ ],
+ "publie": "2026-10-28T13:31:23.038Z"
+}

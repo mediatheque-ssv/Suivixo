@@ -183,6 +183,26 @@ t("œuvres sans série dans Orphée (colonne A vide)", () => {
   assert.equal(nouv["EKEKO"].type, "Série");
   assert.equal(r.fonds.anomalies.length, 0);
 });
+t("BD et romans : état présumé, titres sans numéro, genre d'Orphée", () => {
+  const s = { titre: "X" };
+  const maintenant = Date.parse("2026-10-28");
+  const recent = { bnf: { dernier: 9, tomes: "1-9", dateDernier: "2026-03" } };
+  const ancien = { bnf: { dernier: 6, tomes: "1-6", dateDernier: "2019-05" } };
+  assert.equal(C.infosParution(s, recent, maintenant, 0, { presumer: true }).etat, "En cours");
+  const a = C.infosParution(s, ancien, maintenant, 0, { presumer: true });
+  assert.equal(a.etat, "Terminée"); assert.equal(a.sourceEtat, "ancien");
+  assert.equal(C.infosParution(s, ancien, maintenant).etat, null); // mangas : on ne présume pas
+  const ex = (cote, album, genre) => ["Servon-sur-Vilaine", null, cote, null, null, "Disponible", null, "Jeunesse", null, null, null, null, null, null, `CS2: ${genre}`, null, null, null, null, null, null, null, "Nb prêts total : 3"];
+  const rows = [
+    ["Le clan du chaudron", null, null, null, null, "Tome :", null, null, null, "Le concours de mocheté"], ex("ER CLA", "", "Humour"),
+    ["Le clan du chaudron", null, null, null, null, "Tome :", null, null, null, "La chasse au crapaud-vomi"], ex("ER CLA", "", "Humour"),
+    ["Le clan du chaudron", null, null, null, null, "Tome : 1", null, null, null, "Le clan du chaudron 1"], ex("ER CLA 1", "", "Non renseigné"),
+  ];
+  const r = C.construireFonds(C.lireExportOrphee(rows).exemplaires, [{ id: "clan", titre: "Le clan du chaudron" }]);
+  assert.deepEqual(r.fonds.series.clan.tomes, { "Servon-sur-Vilaine": [1] });
+  assert.deepEqual(r.fonds.series.clan.sansNumero, { "Servon-sur-Vilaine": ["Le concours de mocheté", "La chasse au crapaud-vomi"] });
+  assert.equal(r.fonds.series.clan.genreOrphee, "Humour");
+});
 t("statut de la série", () => {
   const info = { parus: 5, etat: "Terminée" };
   assert.equal(C.statutSerie([1, 2, 3, 4, 5], info).cle, "finie");

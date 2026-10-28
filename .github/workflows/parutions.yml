@@ -5,6 +5,11 @@ on:
     - cron: "17 3 * * 1"   # chaque lundi vers 5 h (heure de Paris)
   workflow_dispatch:
     inputs:
+      collection:
+        description: "Collection (toutes = mangas, puis BD jeunesse, puis romans jeunesse)"
+        type: choice
+        options: [toutes, mangas, bd, romans]
+        default: toutes
       serie:
         description: "Tester une seule série (identifiant, ex. atelier-des-sorciers). Rien n'est enregistré."
         required: false
@@ -60,8 +65,9 @@ jobs:
       - name: Installer Pillow (vignettes des couvertures)
         run: pip install --quiet pillow
 
-      - name: Interroger AniList et la BnF
+      - name: Interroger AniList, Manga-News et la BnF
         env:
+          COLLECTION: ${{ inputs.collection }}
           SERIE: ${{ inputs.serie }}
           LIMITE: ${{ inputs.limite }}
           FORCER: ${{ inputs.forcer }}
@@ -80,27 +86,46 @@ jobs:
           [ "$MN" = "true" ] && ARGS="$ARGS --manga-news-seulement"
           [ "$COUV" = "true" ] && ARGS="$ARGS --couvertures"
           [ -n "$SERIES" ] && ARGS="$ARGS --series $SERIES"
-          python scripts/enrich.py $ARGS
+          if [ -z "$COLLECTION" ] || [ "$COLLECTION" = "toutes" ]; then
+            # passage du lundi : le temps est partagé entre les collections
+            python scripts/enrich.py $ARGS --collection mangas --max-minutes 70 || true
+            python scripts/enrich.py $ARGS --collection bd --max-minutes 25 || true
+            python scripts/enrich.py $ARGS --collection romans --max-minutes 30 || true
+          else
+            python scripts/enrich.py $ARGS --collection "$COLLECTION"
+          fi
 
       - name: Enregistrer les résultats
         if: ${{ !cancelled() && !inputs.serie }}
         run: |
           git config user.name "suivixo-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet data/enrich.json && [ -z "$(git status --porcelain couvertures 2>/dev/null)" ]; then echo "Rien de nouveau."; exit 0; fi
-          git show HEAD:data/enrich.json > /tmp/base.json
-          cp data/enrich.json /tmp/nous.json
-          mkdir -p /tmp/couv && cp -r couvertures/. /tmp/couv/ 2>/dev/null || true
+          FICHIERS="data/enrich.json data/bd/enrich.json data/romans/enrich.json"
+          if [ -z "$(git status --porcelain data couvertures 2>/dev/null | grep -E 'enrich.json|couvertures')" ]; then echo "Rien de nouveau."; exit 0; fi
+          mkdir -p /tmp/fusion /tmp/couv
+          for f in $FICHIERS; do
+            k=$(echo "$f" | tr '/' '_')
+            git show "HEAD:$f" > "/tmp/fusion/base_$k" 2>/dev/null || echo '{"series":{}}' > "/tmp/fusion/base_$k"
+            [ -f "$f" ] && cp "$f" "/tmp/fusion/nous_$k"
+          done
+          cp -r couvertures/. /tmp/couv/ 2>/dev/null || true
           for i in 1 2 3 4 5; do
             git fetch -q origin main
             git reset -q --hard origin/main
-            # fusion avec ce qu'une autre vérification a pu enregistrer entre-temps
-            python scripts/fusion_enrich.py /tmp/base.json /tmp/nous.json data/enrich.json > /tmp/fusion.json
-            cp /tmp/fusion.json data/enrich.json
+            # fusion avec ce qu'une autre vérification ou une publication a pu enregistrer entre-temps
+            for f in $FICHIERS; do
+              k=$(echo "$f" | tr '/' '_')
+              [ -f "/tmp/fusion/nous_$k" ] || continue
+              mkdir -p "$(dirname "$f")"
+              [ -f "$f" ] || echo '{"series":{}}' > "$f"
+              python scripts/fusion_enrich.py "/tmp/fusion/base_$k" "/tmp/fusion/nous_$k" "$f" > /tmp/fusion/res.json
+              cp /tmp/fusion/res.json "$f"
+              git add "$f"
+            done
             mkdir -p couvertures && cp -r /tmp/couv/. couvertures/ 2>/dev/null || true
-            git add data/enrich.json couvertures 2>/dev/null || git add data/enrich.json
+            git add couvertures 2>/dev/null || true
             git diff --cached --quiet && { echo "Rien de nouveau."; exit 0; }
-            git commit -q -m "Vérification des parutions (AniList, BnF, Manga-News)"
+            git commit -q -m "Vérification des parutions"
             git push -q origin HEAD:main && exit 0
             sleep 7
           done

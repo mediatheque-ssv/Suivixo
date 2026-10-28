@@ -1,12 +1,32 @@
 // Suivixo — interface
-import * as C from "./core.js?v=16";
-import { publier, verifierCle, lancerVerification } from "./github.js?v=2";
+import * as C from "./core.js?v=18";
+import { publier, verifierCle, lancerVerification } from "./github.js?v=3";
 
 // ---------------------------------------------------------------------------
 // État et stockage local
 // ---------------------------------------------------------------------------
 
-const LS = { prefs: "suivixo.prefs", brouillon: "suivixo.brouillon", stats: "suivixo.stats", token: "suivixo.token", publie: "suivixo.publie" };
+/**
+ * Collections suivies. Chacune a ses fichiers (séries, fonds, vérifications), ses couvertures,
+ * son brouillon et ses prêts. Les mangas couvrent tout le réseau ; la BD et les romans jeunesse
+ * seulement la médiathèque (exports de Servon).
+ */
+const COLLECTIONS = {
+  mangas: { nom: "Mangas", des: "des mangas du réseau", titre: "Les mangas", dossier: "data/", couv: "couvertures/", reseau: true, mangas: true },
+  bd: { nom: "BD jeunesse", des: "des BD jeunesse", titre: "Les BD jeunesse", dossier: "data/bd/", couv: "couvertures/bd/", reseau: false },
+  romans: { nom: "Romans jeunesse", des: "des romans jeunesse", titre: "Les romans jeunesse", dossier: "data/romans/", couv: "couvertures/romans/", reseau: false },
+};
+const COL_ID = (() => {
+  try {
+    const u = new URLSearchParams(location.search).get("collection");
+    if (u && COLLECTIONS[u]) return u;
+    const p = JSON.parse(localStorage.getItem("suivixo.prefs") || "{}");
+    return COLLECTIONS[p.collection] ? p.collection : "mangas";
+  } catch { return "mangas"; }
+})();
+const COL = COLLECTIONS[COL_ID];
+const suffixe = COL_ID === "mangas" ? "" : `.${COL_ID}`; // les mangas gardent les clés d'origine
+const LS = { prefs: "suivixo.prefs", brouillon: "suivixo.brouillon" + suffixe, stats: "suivixo.stats" + suffixe, token: "suivixo.token", publie: "suivixo.publie" + suffixe };
 const lsGet = (k, def) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : def; } catch { return def; } };
 const lsSet = (k, v) => { try { if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, JSON.stringify(v)); } catch { /* stockage indisponible */ } };
 
@@ -21,7 +41,7 @@ const etat = {
   stats: lsGet(LS.stats, null),
   modifie: new Set(),
   brouillonDate: null,
-  prefs: { ...PREFS_DEFAUT, ...lsGet(LS.prefs, {}), q: "", statut: null },
+  prefs: { ...PREFS_DEFAUT, ...lsGet(LS.prefs, {}), q: "", statut: null, collection: COL_ID },
   token: lsGet(LS.token, ""),
   vues: [], parId: new Map(),
   limite: 150,
@@ -70,12 +90,13 @@ function marquer(quoi) {
 // ---------------------------------------------------------------------------
 
 async function charger() {
-  const get = (f) => fetch(`data/${f}?t=${Date.now()}`, { cache: "no-store" }).then((r) => {
-    if (!r.ok) throw new Error(`Fichier data/${f} introuvable (${r.status}).`);
+  const get = (f, vide) => fetch(`${COL.dossier}${f}?t=${Date.now()}`, { cache: "no-store" }).then((r) => {
+    if (r.status === 404 && vide) return vide; // collection pas encore importée
+    if (!r.ok) throw new Error(`Fichier ${COL.dossier}${f} introuvable (${r.status}).`);
     return r.json();
   });
   const [series, fonds, enrich] = await Promise.all([
-    get("series.json"), get("fonds.json"), get("enrich.json").catch(() => ({ series: {} })),
+    get("series.json", { series: [] }), get("fonds.json", { series: {}, bibliotheques: [], anomalies: [] }), get("enrich.json", { series: {} }).catch(() => ({ series: {} })),
   ]);
   etat.series = series.series || [];
   etat.fonds = fonds;
@@ -114,7 +135,7 @@ function calculer() {
     const enr = etat.enrich.series?.[s.id] || null;
     const ici = f?.tomes?.[bib] || [];
     const reseau = C.tomesReseau(f);
-    const info = C.infosParution(s, enr, Date.now(), reseau.length ? reseau[reseau.length - 1] : 0);
+    const info = C.infosParution(s, enr, Date.now(), C.maxPlausible(reseau), { presumer: !COL.mangas });
     const statut = C.statutSerie(surMoi ? ici : reseau, info);
     const setIci = new Set(ici), setRes = new Set(reseau);
     const manquantsIci = [], manquantsReseau = [];
@@ -126,8 +147,9 @@ function calculer() {
     const al = enr?.anilist && !enr.anilist.rejete && !enr.anilist.auteurDifferent ? enr.anilist : null;
     return {
       s, f, enr, info, ici, reseau, statut, manquantsIci, manquantsReseau,
-      genre: s.genre || (f?.webtoon ? "Webtoon" : "") || al?.demographie || "",
-      genreAuto: !s.genre && !!al?.demographie,
+      genre: s.genre || (f?.webtoon ? "Webtoon" : "") || (COL.mangas ? al?.demographie || f?.genreOrphee : f?.genreOrphee) || "",
+      genreAuto: !s.genre && !!(al?.demographie || f?.genreOrphee),
+      sansNumero: Object.values(f?.sansNumero || {}).flat().length,
       presence: C.presence(f, bib),
       prets: st ? somme(st.prets) : null,
       pretsIci: st ? st.prets?.[bib] || 0 : null,
@@ -147,6 +169,7 @@ function filtrer({ ignorerStatut = false } = {}) {
   return etat.vues.filter((v) => {
     if (p.presence === "moi" && !(v.presence === "ici" || v.presence === "partagee")) return false;
     if (p.presence === "reseau" && v.presence === "aucune") return false;
+    if (p.sansUniques && v.s.type === "One shot") return false;
     if (p.public && (v.s.public || "") !== p.public) return false;
     if (p.genre && v.genre !== p.genre) return false;
     if (!ignorerStatut && p.statut && v.statut.cle !== p.statut) return false;
@@ -190,7 +213,7 @@ function fausseCouv(titre, editeur) {
 function urlsCouv(v) {
   // couverture française (BnF ou Open Library), réduite et rangée dans le dépôt
   const fr = v.enr?.couvFR;
-  if (fr) { const u = `couvertures/${encodeURIComponent(v.s.id)}.jpg?v=${fr.maj || ""}`; return { petite: u, grande: u, fr: true }; }
+  if (fr) { const u = `${COL.couv}${encodeURIComponent(v.s.id)}.jpg?v=${fr.maj || ""}`; return { petite: u, grande: u, fr: true }; }
   const al = v.enr?.anilist && !v.enr.anilist.rejete && !v.enr.anilist.auteurDifferent ? v.enr.anilist : null;
   if (!al?.image) return null;
   return { petite: al.image, grande: al.imageGrande || al.image.replace("/cover/small/", "/cover/medium/") };
@@ -272,14 +295,20 @@ function resumeTomes(v) {
 
 /** « 8 sur 10 parus en VF » : tomes de ma médiathèque sur tomes parus en France. */
 /** « 7 sur 9 parus en VF, 12 au Japon » : tomes de ma médiathèque, parus en France, total de la VO. */
+const enVF = () => (COL.mangas ? "en VF" : ""); // pas de VO à distinguer pour la BD et les romans
+const libParus = (n) => `${n > 1 ? "parus" : "paru"}${COL.mangas ? " en VF" : ""}`;
+
 function compteVF(v) {
   const ici = v.ici.length;
   const p = v.info.parus;
   const vo = v.info.totalVO;
   // Aucune source n'a encore donné le nombre de tomes parus (série toute nouvelle) : on ne l'invente pas
   const nonVerifie = !v.enr || (v.info.sourceParus === "reseau" && !v.info.sourceEnRetard);
-  let t = p === null || nonVerifie ? `<strong>${nf.format(ici)}</strong> ${ici > 1 ? "tomes" : "tome"}, parution VF ${v.enr ? "inconnue" : "pas encore vérifiée"}`
-    : `<strong>${nf.format(ici)}</strong> sur ${nf.format(p)} parus en VF`;
+  if (v.s.type === "One shot") return ici ? "Titre unique" : `Titre unique, pas à ${h(court(etat.prefs.bib))}`;
+  const sansNum = v.sansNumero;
+  let t = p === null || nonVerifie ? `<strong>${nf.format(ici)}</strong> ${ici > 1 ? "tomes" : "tome"}, parution ${v.enr ? "inconnue" : "pas encore vérifiée"}`
+    : `<strong>${nf.format(ici)}</strong> sur ${nf.format(p)} ${libParus(p)}`;
+  if (sansNum) t += `, + ${pluriel(sansNum, "titre")} sans numéro`;
   if (vo && (p === null || vo > p)) t += `, ${nf.format(vo)} ${enVO(v.info)}`;
   else if (v.info.etatVO === "En cours" || v.info.etatVO === "En pause") t += `, en cours ${enVO(v.info)}`;
   return t;
@@ -288,6 +317,10 @@ function compteVF(v) {
 function legende() {
   const t = (cls, fill = "") => `<svg viewBox="0 0 7 14" aria-hidden="true"><rect x="0.5" y="0.5" width="6" height="13" rx="1" class="${cls}" ${fill}/></svg>`;
   const double = `<svg viewBox="0 0 7 14" aria-hidden="true"><rect x="0.5" y="0.5" width="6" height="13" rx="1" class="t-ici"/><rect x="0.5" y="0.5" width="6" height="5" rx="1" fill="url(#trame)" class="t-coiffe"/></svg>`;
+  if (!COL.reseau) return `<p class="legende">
+    <span>${t("t-ici")} À ${h(court(etat.prefs.bib))}</span>
+    <span>${t("t-manque")} Manquant</span>
+  </p>`;
   return `<p class="legende">
     <span>${t("t-ici")} À ${h(court(etat.prefs.bib))} seulement</span>
     <span>${double} À ${h(court(etat.prefs.bib))} et ailleurs</span>
@@ -303,7 +336,7 @@ function legende() {
 
 function nbFiltres() {
   const p = etat.prefs;
-  return [p.presence !== "moi", p.perimetre !== "reseau", !!p.public, !!p.genre, p.tri !== "titre"].filter(Boolean).length;
+  return [p.presence !== "moi", COL.reseau && p.perimetre !== "reseau", !!p.public, !!p.genre, p.tri !== "titre", !!p.sansUniques].filter(Boolean).length;
 }
 
 function rendreSeries() {
@@ -321,7 +354,7 @@ function rendreSeries() {
   const options = (l, val) => `<option value="">Tous</option>` + l.map((x) => `<option ${val === x ? "selected" : ""}>${h(x)}</option>`).join("");
   const tris = [["titre", "Titre"], ["manquants", "Nombre de tomes manquants"], ["statut", "Où ça en est"], ...(avecPrets ? [["prets", "Prêts"]] : [])];
 
-  const titre = p.presence === "moi" ? `Les mangas de ${h(bib)}` : p.presence === "reseau" ? "Les mangas du réseau" : "Toutes les séries";
+  const titre = p.presence === "moi" ? `${COL.titre} de ${h(bib)}` : p.presence === "reseau" ? `${COL.titre} du réseau` : "Toutes les séries";
   const tomesIci = base.reduce((a, v) => a + v.ici.length, 0);
   const total = base.length || 1;
   const grille = p.affichage !== "liste";
@@ -343,11 +376,12 @@ function rendreSeries() {
     </div>
     <div class="panneau-filtres" id="panneau-filtres" ${etat.filtresOuverts ? "" : "hidden"}>
       <fieldset><legend>Séries affichées</legend>
-        ${radio("presence", "moi", `Présentes à ${h(bib)}`)}${radio("presence", "reseau", "Tout le réseau")}${radio("presence", "toutes", "Toutes, même sans exemplaire")}
+        ${radio("presence", "moi", `Présentes à ${h(bib)}`)}${COL.reseau ? radio("presence", "reseau", "Tout le réseau") : ""}${radio("presence", "toutes", "Toutes, même sans exemplaire")}
+        <label class="choix"><input type="checkbox" id="f-uniques" ${p.sansUniques ? "checked" : ""}>Masquer les titres uniques</label>
       </fieldset>
-      <fieldset><legend>Une série est complète si elle l'est</legend>
+      ${COL.reseau ? `<fieldset><legend>Une série est complète si elle l'est</legend>
         ${radio("perimetre", "reseau", "dans le réseau")}${radio("perimetre", "moi", `à ${h(bib)}`)}
-      </fieldset>
+      </fieldset>` : ""}
       <div style="display:grid;gap:12px;align-content:start">
         <label class="champ"><span>Public</span><select id="f-public">${options(publics, p.public)}</select></label>
         <label class="champ"><span>Genre</span><select id="f-genre">${options(genres, p.genre)}</select></label>
@@ -418,9 +452,11 @@ function phraseStatut(v) {
     const fin = info.sourceEtat === "mangaNews" && info.etat === "Terminée" ? " : l'édition française est terminée"
       : info.sourceEtat === "mangaNews" && info.etat === "Abandonnée" ? " : l'éditeur français a arrêté la série" : "";
     morceaux.push(`${pluriel(info.parus, "tome paru", "tomes parus")} en France${date}${venir}${fin}.`);
-    if (info.sourceEtat === "recent") morceaux.push("Aucune source ne dit où en est la série, mais un tome est sorti en France il y a moins d'un an : elle continue sans doute.");
+    if (info.sourceEtat === "recent") morceaux.push(COL.mangas ? "Aucune source ne dit où en est la série, mais un tome est sorti en France il y a moins d'un an : elle continue sans doute."
+      : "Un tome est sorti récemment : la série continue sans doute. Si elle est finie, indique-le dans « Modifier la série ».");
+    if (info.sourceEtat === "ancien") morceaux.push(`Plus aucun tome depuis ${moisFr(info.dateDernier)} : la série est sans doute terminée. Si elle continue, indique-le dans « Modifier la série ».`);
     if (info.prochain) morceaux.push(`Prochain tome${info.prochain.tome ? ` (${info.prochain.tome})` : ""} annoncé pour le ${jourMois(info.prochain.date)}.`);
-    if (info.sourceParus === "reseau") morceaux.push(`Ce nombre vient des exemplaires du réseau${info.sourceEnRetard === "bnf" ? " : la BnF ne recense pas encore les derniers tomes" : ""}.`);
+    if (info.sourceParus === "reseau") morceaux.push(`Ce nombre vient des exemplaires ${COL.reseau ? "du réseau" : `de ${bib}`}${info.sourceEnRetard === "bnf" ? " : la BnF ne recense pas encore les derniers tomes" : ""}.`);
   } else morceaux.push("Le nombre de tomes parus en France est inconnu.");
   if (/arr[eê]t/i.test(info.etat || "")) morceaux.push(`Plus rien n'est paru en France depuis ${moisFr(info.dateDernier) || "longtemps"} : la série a peut-être été arrêtée par l'éditeur, ou l'édition française est différente. Si tu sais ce qu'il en est, indique-le dans « Modifier la série ».`);
   if (info.parus !== null) {
@@ -428,7 +464,7 @@ function phraseStatut(v) {
     if (!v.ici.length) morceaux.push(`${bib} n'a aucun tome.`);
     else if (!v.manquantsIci.length) morceaux.push(`${bib} a tous les tomes parus.`);
     else morceaux.push(`Il manque à ${bib} : ${C.listeCompacte(v.manquantsIci)}${dispoAilleurs.length && v.manquantsReseau.length ? `, dont ${C.listeCompacte(dispoAilleurs)} disponibles ailleurs dans le réseau` : dispoAilleurs.length ? ", tous disponibles ailleurs dans le réseau" : ""}.`);
-    if (v.manquantsReseau.length) morceaux.push(`Absents de tout le réseau : ${C.listeCompacte(v.manquantsReseau)}.`);
+    if (COL.reseau && v.manquantsReseau.length) morceaux.push(`Absents de tout le réseau : ${C.listeCompacte(v.manquantsReseau)}.`);
   }
   return morceaux.join(" ");
 }
@@ -461,7 +497,7 @@ function ouvrirFiche(id) {
   for (const r of f?.retires || []) notes.push(`Tome ${r.tome ?? "?"} retiré à ${court(r.bib)} (${r.statut.toLowerCase()})`);
   if (s.commande) notes.push(`En commande : ${s.commande}`);
   if (s.commentaire) notes.push(s.commentaire);
-  if (st) notes.push(`${pluriel(st.prets?.[bib] || 0, "prêt")} à ${court(bib)}, ${pluriel(somme(st.prets), "prêt")} dans le réseau${somme(st.reserves) ? `, ${pluriel(somme(st.reserves), "réservation")}` : ""}`);
+  if (st) notes.push(`${pluriel(st.prets?.[bib] || 0, "prêt")} à ${court(bib)}${COL.reseau ? `, ${pluriel(somme(st.prets), "prêt")} dans le réseau` : ""}${somme(st.reserves) ? `, ${pluriel(somme(st.reserves), "réservation")}` : ""}`);
 
   const liens = [urlMN && lien(urlMN, "Manga-News"), urlBD && lien(urlBD, "Bédéthèque"), lien(urlBnf, "le catalogue BnF"), al && lien(`https://anilist.co/manga/${al.id}`, "AniList")].filter(Boolean);
 
@@ -479,20 +515,21 @@ function ouvrirFiche(id) {
     <div class="fiche-corps">
     <div class="chiffres-serie">
       <div><strong>${nf.format(v.ici.length)}</strong><span>à ${h(court(bib))}</span></div>
-      <div><strong>${info.parus !== null && v.enr && !(info.sourceParus === "reseau" && !info.sourceEnRetard) ? nf.format(info.parus) : "?"}</strong><span>${v.enr ? "parus en VF" : "parus en VF, pas encore vérifié"}</span></div>
+      <div><strong>${info.parus !== null && v.enr && !(info.sourceParus === "reseau" && !info.sourceEnRetard) ? nf.format(info.parus) : "?"}</strong><span>${v.enr ? libParus(2) : `${libParus(2)}, pas encore vérifié`}</span></div>
       ${info.totalVO ? `<div><strong>${nf.format(info.totalVO)}</strong><span>${h(enVO(info))}</span></div>` : info.etatVO === "En cours" ? `<div><strong>…</strong><span>en cours ${h(enVO(info))}</span></div>` : ""}
     </div>
     <p class="resume">${h(phraseStatut(v))}</p>
     ${total ? `<div class="rayon-complet">${tranches.join("")}</div>${legende()}` : ""}
 
-    <h2>Dans le réseau</h2>
-    ${bibs}
+    ${COL.reseau ? `<h2>Dans le réseau</h2>
+    ${bibs}` : ""}
+    ${v.f?.sansNumero ? `<h2>Titres sans numéro dans Orphée</h2><p class="explication">${h(Object.values(v.f.sansNumero).flat().join(", "))}. Ils ne sont pas comptés comme tomes : ajoute le numéro dans Orphée s'ils font partie d'une série numérotée.</p>` : ""}
     ${notes.length ? `<ul class="notes">${notes.map((n) => `<li>${h(n)}</li>`).join("")}</ul>` : ""}
 
     <details class="repli">
       <summary>Sources et liens</summary>
       <div class="sources">
-        <p><strong>VO</strong> : ${al ? `${h(enVO(al))}, série ${h(ETATS_AL[al.statut] || "?")}${al.volumes ? ` en ${pluriel(al.volumes, "tome")}` : ""}, d'après AniList (« ${h(al.titre)} »)${al.auto ? ", reliée automatiquement" : ""}.` : "série pas encore reliée à AniList. Colle son adresse dans « Modifier la série »."}</p>
+        ${COL.mangas ? `<p><strong>VO</strong> : ${al ? `${h(enVO(al))}, série ${h(ETATS_AL[al.statut] || "?")}${al.volumes ? ` en ${pluriel(al.volumes, "tome")}` : ""}, d'après AniList (« ${h(al.titre)} »)${al.auto ? ", reliée automatiquement" : ""}.` : "série pas encore reliée à AniList. Colle son adresse dans « Modifier la série »."}</p>` : ""}
         <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}${v.enr?.mangaNews && !fmn ? ` Sur Manga-News : ${pluriel(v.enr.mangaNews.tomes, "tome")}${v.enr.mangaNews.editeur ? ` chez ${h(v.enr.mangaNews.editeur)}` : ""} (données du ${dateFr(v.enr.mangaNews.date)}).` : ""}</p>
         ${fmn ? `<p><strong>Manga-News</strong> : ${[Number.isFinite(fmn.vf) ? `VF ${nf.format(fmn.vf)} ${fmn.vf > 1 ? "tomes" : "tome"} (${h((fmn.vfStatut || "").toLowerCase())})` : "", Number.isFinite(fmn.vo) ? `VO ${nf.format(fmn.vo)} (${h((fmn.voStatut || "").toLowerCase())})` : "", fmn.vfDernierDate ? `dernier paru le ${dateFr(fmn.vfDernierDate)}` : "", fmn.vfProchainDate ? `prochain le ${dateFr(fmn.vfProchainDate)}` : ""].filter(Boolean).join(", ")}${v.enr?.mangaNews?.editeur ? `, chez ${h(v.enr.mangaNews.editeur)}` : ""}. Fiche lue le ${dateFr(fmn.verifie)}.</p>` : ""}
         ${s.ancien && (s.ancien.total || s.ancien.etat) ? `<p><strong>Ancien Excel</strong> : ${s.ancien.total ? pluriel(s.ancien.total, "tome") : ""}${s.ancien.etat ? `, ${h(s.ancien.etat.toLowerCase())}` : ""}${s.ancien.annee ? `, dernière parution en ${s.ancien.annee}` : ""}.</p>` : ""}
@@ -564,7 +601,8 @@ function fermerFiche() {
 
 function formulaire(s) {
   const opt = (liste, val) => liste.map((x) => `<option ${x === (val || "") ? "selected" : ""} value="${h(x)}">${h(x || "—")}</option>`).join("");
-  const genres = ["", "Shonen", "Seinen", "Shojo", "Josei", "Kodomo", "Manhwa", "Manhua", "Global-Manga", "Comics", "Autre Manga", "Autre"];
+  const genres = COL.mangas ? ["", "Shonen", "Seinen", "Shojo", "Josei", "Kodomo", "Manhwa", "Manhua", "Global-Manga", "Comics", "Autre Manga", "Autre"]
+    : ["", ...new Set(etat.vues.map((v) => v.genre).filter(Boolean).sort((a, b) => a.localeCompare(b, "fr")))];
   if (s.genre && !genres.includes(s.genre)) genres.push(s.genre);
   const m = s.manuel || {};
   const L = s.liens || {};
@@ -577,8 +615,8 @@ function formulaire(s) {
     <label class="champ"><span>Tomes en commande</span><input name="commande" value="${h(s.commande)}" placeholder="12, 13"></label>
     <label class="champ"><span>Tomes parus en France (si les sources se trompent)</span><input name="parus" type="number" min="0" value="${Number.isFinite(m.parus) ? m.parus : ""}" placeholder="automatique"></label>
     <label class="champ"><span>État en France (si les sources se trompent)</span><select name="etat">${opt(["", "En cours", "Terminée", "En pause", "Abandonnée"], m.etat)}</select></label>
-    <label class="champ"><span>Série AniList (adresse ou numéro)</span><input name="anilist" value="${h(L.anilist ?? "")}" placeholder="automatique"></label>
-    <label class="champ large"><span>Page Manga-News</span><input name="mangaNews" value="${h(L.mangaNews)}" placeholder="https://www.manga-news.com/index.php/serie/…"></label>
+    ${COL.mangas ? `<label class="champ"><span>Série AniList (adresse ou numéro)</span><input name="anilist" value="${h(L.anilist ?? "")}" placeholder="automatique"></label>
+    <label class="champ large"><span>Page Manga-News</span><input name="mangaNews" value="${h(L.mangaNews)}" placeholder="https://www.manga-news.com/index.php/serie/…"></label>` : ""}
     <label class="champ large"><span>Page Bédéthèque</span><input name="bedetheque" value="${h(L.bedetheque)}" placeholder="https://www.bedetheque.com/serie-…html"></label>
     <label class="champ large"><span>Autres titres (un par ligne, pour retrouver la série dans Orphée)</span><textarea name="alias">${h((s.alias || []).join("\n"))}</textarea></label>
     <label class="champ large"><span>Commentaire</span><textarea name="commentaire">${h(s.commentaire)}</textarea></label>
@@ -666,8 +704,8 @@ function rendreAcheter() {
   const { absentsReseau, absentsIci, aRemplacer, avenir } = listeAchats();
   const nb = (l, f) => l.reduce((a, x) => a + f(x), 0);
   const onglets = [
-    { cle: "reseau", titre: "Absents du réseau", n: nb(absentsReseau, (v) => v.manquantsReseau.length),
-      texte: "Tomes parus en France qu'aucune médiathèque du réseau n'a.",
+    { cle: "reseau", titre: COL.reseau ? "Absents du réseau" : "Manquants", n: nb(absentsReseau, (v) => v.manquantsReseau.length),
+      texte: COL.reseau ? "Tomes parus en France qu'aucune médiathèque du réseau n'a." : `Tomes parus que ${h(bib)} n'a pas.`,
       items: absentsReseau.map((v) => itemAchat(v, C.listeCompacte(v.manquantsReseau), v.info.etat)),
       vide: "Tous les tomes parus sont dans le réseau." },
     { cle: "ailleurs", titre: `Absents de ${bib}`, n: nb(absentsIci, (x) => x.t.length),
@@ -687,6 +725,8 @@ function rendreAcheter() {
       }),
       vide: "Rien pour l'instant." },
   ];
+  if (!COL.reseau) onglets.splice(onglets.findIndex((o) => o.cle === "ailleurs"), 1);
+  if (!COL.mangas) onglets.splice(onglets.findIndex((o) => o.cle === "avenir"), 1);
   const cur = onglets.find((o) => o.cle === etat.ongletAchat) || onglets[0];
   $("#vue").innerHTML = `
     <div class="entete-vue">
@@ -782,7 +822,7 @@ function colonnesTomes(c) {
 }
 
 function donneesPrets() {
-  const portee = etat.prefs.pretsPortee === "reseau" ? "reseau" : "ici";
+  const portee = COL.reseau && etat.prefs.pretsPortee === "reseau" ? "reseau" : "ici";
   const liste = etat.vues.map((v) => chiffresPrets(v, portee)).filter(Boolean);
   const tot = liste.reduce((a, c) => ({ ex: a.ex + c.ex, pr: a.pr + c.pr, emp: a.emp + c.emp, res: a.res + c.res }), { ex: 0, pr: 0, emp: 0, res: 0 });
   return { portee, liste, tot };
@@ -871,10 +911,10 @@ function rendrePrets() {
       <div class="liens-vue"><button class="btn-lien" data-action="csv-prets">Exporter en tableur</button></div>
     </div>
     <p class="chapo">D'après l'export Orphée du ${h(dateFr(etat.stats.date))}. Les prêts sont cumulés depuis l'arrivée de chaque exemplaire. Ces chiffres restent dans ce navigateur : ils ne sont jamais publiés.</p>
-    <div class="vues" role="group" aria-label="Portée">
+    ${COL.reseau ? `<div class="vues" role="group" aria-label="Portée">
       <button type="button" data-portee="ici" aria-pressed="${portee === "ici"}">${h(bib)}</button>
       <button type="button" data-portee="reseau" aria-pressed="${portee === "reseau"}">Tout le réseau</button>
-    </div>
+    </div>` : ""}
 
     <div class="kpi">
       <div><strong>${nf.format(tot.pr)}</strong><span>prêts au total</span></div>
@@ -922,9 +962,9 @@ function rendrePrets() {
         <h2>Par genre</h2>
         <p class="explication">Prêts par exemplaire ${h(ou)}, genre par genre.</p>
         <ul class="items bp">${lignesGenres}</ul>
-        <h2>Dans le réseau</h2>
+        ${COL.reseau ? `<h2>Dans le réseau</h2>
         <p class="explication">Prêts par exemplaire de mangas, médiathèque par médiathèque.</p>
-        <ul class="items bp">${lignesBibs}</ul>
+        <ul class="items bp">${lignesBibs}</ul>` : ""}
       </section>
     </div>
   `;
@@ -958,7 +998,7 @@ function controles() {
   const nouvelles = etat.vues.filter((v) => (v.s.ajout || v.s.nouvelle) && !v.s.vu);
   const auDela = etat.vues.filter((v) => v.info.parus !== null && v.info.sourceParus === "manuel" && v.reseau.length && v.reseau[v.reseau.length - 1] > v.info.parus);
   const anomalies = (etat.fonds.anomalies || []);
-  const aRelier = mes.filter((v) => !v.s.liens?.anilist && (!v.enr?.anilist || v.enr.anilist.auteurDifferent || v.enr.anilist.auto && (v.enr.anilist.score ?? 1) < 0.9) && v.s.genre !== "Comics" && v.s.type !== "One shot");
+  const aRelier = !COL.mangas ? [] : mes.filter((v) => !v.s.liens?.anilist && (!v.enr?.anilist || v.enr.anilist.auteurDifferent || v.enr.anilist.auto && (v.enr.anilist.score ?? 1) < 0.9) && v.s.genre !== "Comics" && v.s.type !== "One shot");
   const incomplet = mes.filter((v) => !v.genre || !v.s.public);
   return { commandesRecues, sansExemplaire, nouvelles, auDela, anomalies, aRelier, incomplet, bib };
 }
@@ -1050,7 +1090,7 @@ function rendreImport() {
   if (!ip) {
     $("#vue").innerHTML = `
       <h1>Importer un export Orphée</h1>
-      <p class="chapo">Fais l'édition des mangas du réseau dans Orphée, enregistre le fichier, puis dépose-le ici. Il est lu sur ce poste et n'est envoyé nulle part.</p>
+      <p class="chapo">Collection : <strong>${h(COL.nom)}</strong>. Fais l'édition ${h(COL.des)}${COL.reseau ? "" : ` de ${h(court(etat.prefs.bib))}`} dans Orphée, enregistre le fichier, puis dépose-le ici. Il est lu sur ce poste et n'est envoyé nulle part. Pour une autre collection, change-la d'abord en haut de la page.</p>
       <label class="depot" id="depot">
         <input type="file" id="fichier" accept=".xlsx,.xls,.xlsm,.ods" hidden>
         <svg viewBox="0 0 64 44" aria-hidden="true">
@@ -1076,6 +1116,12 @@ function rendreImport() {
   $("#vue").innerHTML = `
     <h1>Vérifier l'import</h1>
     <p class="chapo">« ${h(ip.nom)} » : ${pluriel(ip.nbExemplaires, "exemplaire")}${ip.annonce === ip.nbExemplaires ? " (tous ceux annoncés par Orphée)" : ""} dans ${pluriel(Object.keys(ip.res.fonds.series).length, "série")}${parBib ? ` (${h(parBib)})` : ""}. Rien n'est encore modifié.</p>
+    ${(() => {
+      // un fichier d'une autre collection ? (presque aucune série déjà connue ici)
+      const nb = Object.keys(ip.res.fonds.series).length;
+      return etat.series.length >= 20 && nb && ip.res.nouvelles.length / nb > 0.6
+        ? `<p class="explication"><strong>Attention :</strong> ${pluriel(ip.res.nouvelles.length, "série")} sur ${nf.format(nb)} sont inconnues dans la collection « ${h(COL.nom)} ». Ce fichier est peut-être celui d'une autre collection : vérifie la collection choisie en haut de la page avant d'appliquer.</p>` : "";
+    })()}
     ${ip.annonce && ip.nbExemplaires && ip.annonce !== ip.nbExemplaires ? `<p class="explication"><strong>Attention :</strong> Orphée annonce ${pluriel(ip.annonce, "document")}, mais Suivixo n'en a reconnu que ${nf.format(ip.nbExemplaires)}. Les autres ont une forme inattendue.</p>` : ""}
     ${ip.nbExemplaires === 0 ? `<p class="explication">Aucun exemplaire reconnu. Vérifie que c'est bien l'édition des mangas d'Orphée : une ligne par tome, suivie d'une ligne par exemplaire.</p>` : ""}
     <label class="champ" style="max-width:220px"><span>Date de l'export</span><input type="date" id="date-import" value="${h(ip.date)}"></label>
@@ -1134,9 +1180,10 @@ function appliquerImport() {
   const date = $("#date-import")?.value || ip.date;
   ip.res.fonds.import.date = date;
   ip.res.stats.date = date;
+  const premierImport = !etat.series.length; // collection vide : rien n'est « nouveau »
   for (const s of ip.res.nouvelles) {
     delete s.nouvelle;
-    s.ajout = date;
+    if (!premierImport) s.ajout = date;
     for (const k of Object.keys(s)) if (s[k] === "" || (Array.isArray(s[k]) && !s[k].length)) delete s[k];
     etat.series.push(s);
   }
@@ -1168,12 +1215,12 @@ async function lancerPublication({ verifier = true } = {}) {
   const instantane = { date: quand };
   if (etat.modifie.has("series")) {
     const series = [...etat.series].sort((a, b) => a.titre.localeCompare(b.titre, "fr", { sensitivity: "base" }));
-    fichiers.push({ chemin: "data/series.json", contenu: JSON.stringify({ version: 1, publie: quand, series }, null, 1) + "\n" });
+    fichiers.push({ chemin: `${COL.dossier}series.json`, contenu: JSON.stringify({ version: 1, publie: quand, series }, null, 1) + "\n" });
     instantane.series = series;
   }
   if (etat.modifie.has("fonds")) {
     etat.fonds.publie = quand;
-    fichiers.push({ chemin: "data/fonds.json", contenu: JSON.stringify(etat.fonds, null, 1) + "\n" });
+    fichiers.push({ chemin: `${COL.dossier}fonds.json`, contenu: JSON.stringify(etat.fonds, null, 1) + "\n" });
     instantane.fonds = etat.fonds;
   }
   if (!fichiers.length) return true;
@@ -1181,7 +1228,7 @@ async function lancerPublication({ verifier = true } = {}) {
   etat.publication = true;
   majEntete();
   try {
-    await publier({ token: etat.token, depot: etat.prefs.depot, fichiers, message: `Mise à jour depuis Suivixo : ${quoi}` });
+    await publier({ token: etat.token, depot: etat.prefs.depot, fichiers, message: `Mise à jour depuis Suivixo (${COL.nom}) : ${quoi}` });
     lsSet(LS.publie, instantane);
     etat.modifie.clear();
     etat.brouillonDate = null;
@@ -1189,7 +1236,7 @@ async function lancerPublication({ verifier = true } = {}) {
     let suite = "";
     if (verifier) {
       try {
-        await lancerVerification({ token: etat.token, depot: etat.prefs.depot });
+        await lancerVerification({ token: etat.token, depot: etat.prefs.depot, collection: COL_ID });
         suite = " La vérification des parutions est lancée pour les nouvelles séries et les liens modifiés : comptes et couvertures arrivent d'ici quelques minutes.";
       } catch (e) {
         suite = e.droits ? " (Pour que la vérification des parutions se lance aussi, ajoute la permission « Actions » à ta clé.)" : "";
@@ -1214,7 +1261,7 @@ async function verifierMaintenant(ids = []) {
   }
   if (etat.modifie.size && !(await lancerPublication({ verifier: false }))) return;
   try {
-    await lancerVerification({ token: etat.token, depot: etat.prefs.depot, series: ids });
+    await lancerVerification({ token: etat.token, depot: etat.prefs.depot, series: ids, collection: COL_ID });
     const qui = ids.length === 1 ? `« ${etat.parId.get(ids[0])?.s.titre || ids[0]} »` : "les séries à revoir";
     toast(`Vérification lancée pour ${qui}. Résultat d'ici 3 à 5 minutes : recharge alors la page.`);
   } catch (e) {
@@ -1332,6 +1379,7 @@ function brancher() {
     if (t.id === "f-public") { etat.prefs.public = t.value; sauverPrefs(); rendre(); }
     else if (t.id === "f-genre") { etat.prefs.genre = t.value; sauverPrefs(); rendre(); }
     else if (t.id === "f-tri") { etat.prefs.tri = t.value; sauverPrefs(); rendre(); }
+    else if (t.id === "f-uniques") { etat.prefs.sansUniques = t.checked; sauverPrefs(); rendre(); $("#f-uniques")?.focus(); }
     else if (t.type === "radio" && (t.name === "presence" || t.name === "perimetre")) {
       etat.prefs[t.name] = t.value; etat.prefs.statut = null; sauverPrefs(); calculer(); rendre();
       $(`input[name="${t.name}"][value="${t.value}"]`)?.focus();
@@ -1356,7 +1404,7 @@ function brancher() {
     if (a === "plus") { etat.limite += 300; rendre(); }
     else if (a === "filtres") { etat.filtresOuverts = !etat.filtresOuverts; rendre(); $(".btn-filtres")?.focus(); }
     else if (a === "reinit") {
-      Object.assign(etat.prefs, { presence: PREFS_DEFAUT.presence, perimetre: PREFS_DEFAUT.perimetre, public: "", genre: "", tri: "titre", statut: null });
+      Object.assign(etat.prefs, { presence: PREFS_DEFAUT.presence, perimetre: PREFS_DEFAUT.perimetre, public: "", genre: "", tri: "titre", statut: null, sansUniques: false });
       sauverPrefs(); calculer(); rendre();
     }
     else if (a === "csv") exporterCSV();
@@ -1415,7 +1463,22 @@ function brancher() {
   });
 }
 
+function brancherCollections() {
+  const sel = $("#collection");
+  sel.innerHTML = Object.entries(COLLECTIONS).map(([id, c]) => `<option value="${id}" ${id === COL_ID ? "selected" : ""}>${h(c.nom)}</option>`).join("");
+  sel.addEventListener("change", () => {
+    etat.prefs.collection = sel.value;
+    sauverPrefs();
+    // nouvelle collection : on recharge la page (données, brouillon et prêts propres à chacune)
+    const u = new URL(location.href);
+    u.searchParams.set("collection", sel.value);
+    location.href = u.pathname + u.search + location.hash;
+  });
+  document.title = COL_ID === "mangas" ? document.title : `Suivixo · ${COL.nom}`;
+}
+
 (async function demarrer() {
+  brancherCollections();
   try {
     await charger();
   } catch (e) {
