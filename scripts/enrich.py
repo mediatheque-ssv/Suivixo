@@ -14,6 +14,7 @@ import csv
 import datetime as dt
 import io
 import difflib
+import hashlib
 import json
 import re
 import sys
@@ -703,7 +704,7 @@ def telecharger(url: str, essais: int = 3) -> bytes | None:
                 return corps if len(corps) > 1500 else None
         except urllib.error.HTTPError as e:
             # la BnF répond 500 quand elle n'a pas d'image : inutile d'insister
-            if e.code in (403, 408, 429, 502, 503, 504) and i < essais - 1 and "bnf.fr" not in url:
+            if e.code in (403, 408, 429, 502, 503, 504) and i < essais - 1 and "bnf.fr" not in url and "di-static.com" not in url:
                 time.sleep(8 * (i + 1))
                 continue
             return None
@@ -715,11 +716,24 @@ def telecharger(url: str, essais: int = 3) -> bytes | None:
     return None
 
 
-COUV_VERSION = 2  # 2 : Manga-News ajouté aux sources ; les séries sans couverture sont réessayées une fois
+COUV_VERSION = 3  # 2 : Manga-News ajouté ; 3 : Decitre et ePagine ajoutés. Les séries sans couverture sont réessayées une fois
+
+# images « pas de couverture » renvoyées à la place d'une vraie couverture (début de l'empreinte md5)
+IMAGES_VIDES = ("5da5beba0e",)  # ePagine : livre ouvert gris
+
+
+def isbn13(isbn: str | None) -> str | None:
+    i = re.sub(r"[^0-9Xx]", "", isbn or "")
+    if len(i) == 13:
+        return i
+    if len(i) != 10:
+        return None
+    b = "978" + i[:9]
+    return b + str((10 - sum(int(c) * (1 if k % 2 == 0 else 3) for k, c in enumerate(b)) % 10) % 10)
 
 
 def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: bool = False, fiche: dict | None = None) -> dict | None:
-    """Cherche la couverture française (Manga-News, BnF, puis Open Library) et l'enregistre en vignette."""
+    """Cherche la couverture française (Manga-News, Decitre, BnF, ePagine, puis Open Library) et l'enregistre en vignette."""
     try:
         from PIL import Image
     except ImportError:
@@ -733,15 +747,26 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
         if u and u not in vues:
             vues.add(u)
             essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None))
-    for c in (bnf or {}).get("candidatsCouv", []):
+    # puis, tome par tome : Decitre (rapide et très complet pour la jeunesse), la BnF, ePagine ;
+    # Open Library en dernier (éditions étrangères possibles)
+    cands = (bnf or {}).get("candidatsCouv", [])
+    for c in cands[:3]:
+        i13 = isbn13(c.get("isbn"))
+        if i13:
+            essais.append(("Decitre", f"https://products-images.di-static.com/image/x/{i13}-475x500-1.jpg", c["n"]))
         if c.get("ark"):
             essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1", c["n"]))
+        if i13:
+            essais.append(("ePagine", f"https://images.epagine.fr/{i13[-3:]}/{i13}_1_75.jpg", c["n"]))
+    for c in cands[:2]:
         if c.get("isbn"):
             essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false", c["n"]))
-    for nom, url, tome in essais[:5]:
-        if nom == "BnF":
-            time.sleep(0.8)
+    for nom, url, tome in essais[:10]:
+        if nom in ("BnF", "Decitre", "ePagine"):
+            time.sleep(0.8 if nom == "BnF" else 0.3)
         corps = telecharger(url)
+        if corps and hashlib.md5(corps).hexdigest().startswith(IMAGES_VIDES):
+            corps = None
         if not corps:
             if debug:
                 dbg(f"    couverture {nom} : rien <- {url}")

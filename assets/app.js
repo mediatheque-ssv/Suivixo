@@ -211,7 +211,7 @@ function fausseCouv(titre, editeur) {
 }
 
 function urlsCouv(v) {
-  // couverture française (BnF ou Open Library), réduite et rangée dans le dépôt
+  // couverture française (Manga-News, Decitre, BnF, ePagine ou Open Library), réduite et rangée dans le dépôt
   const fr = v.enr?.couvFR;
   if (fr) { const u = `${COL.couv}${encodeURIComponent(v.s.id)}.jpg?v=${fr.maj || ""}`; return { petite: u, grande: u, fr: true }; }
   const al = v.enr?.anilist && !v.enr.anilist.rejete && !v.enr.anilist.auteurDifferent ? v.enr.anilist : null;
@@ -534,7 +534,7 @@ function ouvrirFiche(id) {
         <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}${v.enr?.mangaNews && !fmn ? ` Sur Manga-News : ${pluriel(v.enr.mangaNews.tomes, "tome")}${v.enr.mangaNews.editeur ? ` chez ${h(v.enr.mangaNews.editeur)}` : ""} (données du ${dateFr(v.enr.mangaNews.date)}).` : ""}</p>
         ${fmn ? `<p><strong>Manga-News</strong> : ${[Number.isFinite(fmn.vf) ? `VF ${nf.format(fmn.vf)} ${fmn.vf > 1 ? "tomes" : "tome"} (${h((fmn.vfStatut || "").toLowerCase())})` : "", Number.isFinite(fmn.vo) ? `VO ${nf.format(fmn.vo)} (${h((fmn.voStatut || "").toLowerCase())})` : "", fmn.vfDernierDate ? `dernier paru le ${dateFr(fmn.vfDernierDate)}` : "", fmn.vfProchainDate ? `prochain le ${dateFr(fmn.vfProchainDate)}` : ""].filter(Boolean).join(", ")}${v.enr?.mangaNews?.editeur ? `, chez ${h(v.enr.mangaNews.editeur)}` : ""}. Fiche lue le ${dateFr(fmn.verifie)}.</p>` : ""}
         ${s.ancien && (s.ancien.total || s.ancien.etat) ? `<p><strong>Ancien Excel</strong> : ${s.ancien.total ? pluriel(s.ancien.total, "tome") : ""}${s.ancien.etat ? `, ${h(s.ancien.etat.toLowerCase())}` : ""}${s.ancien.annee ? `, dernière parution en ${s.ancien.annee}` : ""}.</p>` : ""}
-        <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `édition française${v.enr.couvFR.tome ? `, tome ${v.enr.couvFR.tome}` : ""}, d'après ${({ BnF: "la BnF", "Manga-News": "Manga-News" })[v.enr.couvFR.source] || "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
+        <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `édition française${v.enr.couvFR.tome ? `, tome ${v.enr.couvFR.tome}` : ""}, d'après ${({ BnF: "la BnF", "Manga-News": "Manga-News", Decitre: "Decitre", ePagine: "ePagine" })[v.enr.couvFR.source] || "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
         <p>Voir sur ${liens.join(", ")}.</p>
         <p class="actions-sources"><button type="button" class="btn" data-action="reverifier" data-id="${h(s.id)}">Revérifier maintenant</button>
           <span class="discret petit">AniList, BnF, Manga-News et couverture, sans attendre lundi. Tes modifications non publiées sont publiées d'abord.</span></p>
