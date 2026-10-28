@@ -98,9 +98,11 @@ def http(url: str, data: bytes | None = None, headers: dict | None = None, essai
                 time.sleep(5 * (i + 1))
                 continue
             raise
-        except (urllib.error.URLError, TimeoutError):
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             if i < essais - 1:
-                time.sleep(5 * (i + 1))
+                # « Connection reset by peer » : le serveur nous freine ; on le laisse souffler
+                coupure = "reset" in str(e).lower() or isinstance(e, ConnectionError)
+                time.sleep((30 if coupure else 5) * (i + 1))
                 continue
             raise
     raise RuntimeError(f"échec après {essais} essais : {url}")
@@ -487,9 +489,12 @@ EXCLUS = re.compile(r"\b(roman|novel|artbook|art book|guide|fanbook|databook|col
 _dernier_bnf = 0.0
 
 
+BNF_INTERVALLE = 2.5  # secondes entre deux recherches à la BnF (au-delà, elle coupe les connexions)
+
+
 def bnf_page(query: str, debut: int) -> ET.Element:
     global _dernier_bnf
-    attente = 1.0 - (time.time() - _dernier_bnf)
+    attente = BNF_INTERVALLE - (time.time() - _dernier_bnf)
     if attente > 0:
         time.sleep(attente)
     _dernier_bnf = time.time()
@@ -913,7 +918,11 @@ def main() -> int:
     a_faire.sort(key=lambda s: -age_jours((cache.get(s["id"]) or {}).get("verifie")))
 
     faites = erreurs = consecutives = 0
-    for rang, s in enumerate(a_faire, 1):
+    a_revoir: list[dict] = []
+    deuxieme = arret = False
+    pauses = 0
+    while True:
+      for rang, s in enumerate(a_faire, 1):
         if args.limite and faites >= args.limite:
             break
         if (time.time() - debut) / 60 > args.max_minutes:
@@ -1054,17 +1063,28 @@ def main() -> int:
             print(f"  erreur : {ex}", file=sys.stderr, flush=True)
             if erreurs <= 15:
                 print(f"::warning title=Erreur sur {s['titre'][:40]}::{str(ex)[:300]}", flush=True)
+            if "BnF" in str(ex) and not deuxieme:
+                a_revoir.append(s)  # refusée par la BnF : nouvel essai à la fin du passage
             if consecutives >= 5:
+                pauses += 1
+                if pauses >= 10:
+                    print("::warning title=Arrêt anticipé::Une source ne répond plus. Les séries déjà vérifiées sont enregistrées, la suite au prochain passage.", flush=True)
+                    arret = True
+                    break
                 print("Plusieurs erreurs de suite : pause de 3 minutes.", flush=True)
                 time.sleep(180)
                 consecutives = 0
-            if erreurs > 40:
-                print("::warning title=Arrêt anticipé::Trop d'erreurs (source indisponible ?). Les séries déjà vérifiées sont enregistrées, la suite au prochain passage.", flush=True)
-                break
             continue
         consecutives = 0
         if faites and faites % 25 == 0:
             ecrire(chemin, cache)
+      # second passage pour les séries que la BnF a refusées (elle coupe quand on va trop vite)
+      if deuxieme or arret or not a_revoir or (time.time() - debut) / 60 > args.max_minutes - 3:
+          break
+      print(f"Second passage pour {len(a_revoir)} séries que la BnF a refusées.", flush=True)
+      ecrire(chemin, cache)
+      time.sleep(90)
+      a_faire, a_revoir, deuxieme, consecutives = a_revoir, [], True, 0
 
     if debug:
         annoter("\n".join(JOURNAL))
