@@ -490,6 +490,8 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
     const d = Math.max(Date.parse(fr?.vfDernierDate || "") || 0, Date.parse(bnf?.dateDernier || "") || 0);
     const delai = (presumer ? 18 : 12) * MOIS;
     if (d && maintenant - d < delai) { etat = "En cours"; sourceEtat = "recent"; }
+    // la médiathèque a des tomes plus récents que ce que recense la BnF : sa date ne dit rien
+    else if (presumer && sourceParus === "reseau") { etat = "En cours"; sourceEtat = "presume"; }
     else if (presumer && d) { etat = "Terminée"; sourceEtat = "ancien"; }
   }
   if (serie.type === "One shot" && !etat) { etat = "Terminée"; sourceEtat = sourceEtat || "type"; }

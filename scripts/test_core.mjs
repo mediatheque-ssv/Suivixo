@@ -192,6 +192,9 @@ t("BD et romans : état présumé, titres sans numéro, genre d'Orphée", () => 
   const a = C.infosParution(s, ancien, maintenant, 0, { presumer: true });
   assert.equal(a.etat, "Terminée"); assert.equal(a.sourceEtat, "ancien");
   assert.equal(C.infosParution(s, ancien, maintenant).etat, null); // mangas : on ne présume pas
+  // Boule et Bill : la BnF s'arrête au tome 27 (1999), Servon a le tome 40 : pas « terminée »
+  const bb = C.infosParution(s, { bnf: { dernier: 27, tomes: "1-27", dateDernier: "1999-09" } }, maintenant, 40, { presumer: true });
+  assert.equal(bb.parus, 40); assert.equal(bb.etat, "En cours"); assert.equal(bb.sourceEtat, "presume");
   const ex = (cote, album, genre) => ["Servon-sur-Vilaine", null, cote, null, null, "Disponible", null, "Jeunesse", null, null, null, null, null, null, `CS2: ${genre}`, null, null, null, null, null, null, null, "Nb prêts total : 3"];
   const rows = [
     ["Le clan du chaudron", null, null, null, null, "Tome :", null, null, null, "Le concours de mocheté"], ex("ER CLA", "", "Humour"),

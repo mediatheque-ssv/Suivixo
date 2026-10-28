@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=18";
+import * as C from "./core.js?v=19";
 import { publier, verifierCle, lancerVerification } from "./github.js?v=3";
 
 // ---------------------------------------------------------------------------
@@ -454,6 +454,7 @@ function phraseStatut(v) {
     morceaux.push(`${pluriel(info.parus, "tome paru", "tomes parus")} en France${date}${venir}${fin}.`);
     if (info.sourceEtat === "recent") morceaux.push(COL.mangas ? "Aucune source ne dit où en est la série, mais un tome est sorti en France il y a moins d'un an : elle continue sans doute."
       : "Un tome est sorti récemment : la série continue sans doute. Si elle est finie, indique-le dans « Modifier la série ».");
+    if (info.sourceEtat === "presume") morceaux.push("La BnF ne recense pas tous les tomes de cette série : elle est considérée en cours. Si elle est finie, indique-le dans « Modifier la série ».");
     if (info.sourceEtat === "ancien") morceaux.push(`Plus aucun tome depuis ${moisFr(info.dateDernier)} : la série est sans doute terminée. Si elle continue, indique-le dans « Modifier la série ».`);
     if (info.prochain) morceaux.push(`Prochain tome${info.prochain.tome ? ` (${info.prochain.tome})` : ""} annoncé pour le ${jourMois(info.prochain.date)}.`);
     if (info.sourceParus === "reseau") morceaux.push(`Ce nombre vient des exemplaires ${COL.reseau ? "du réseau" : `de ${bib}`}${info.sourceEnRetard === "bnf" ? " : la BnF ne recense pas encore les derniers tomes" : ""}.`);
