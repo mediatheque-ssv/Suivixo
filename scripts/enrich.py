@@ -697,7 +697,8 @@ def telecharger(url: str, essais: int = 3) -> bytes | None:
                 corps = r.read()
                 return corps if len(corps) > 1500 else None
         except urllib.error.HTTPError as e:
-            if e.code in (403, 408, 429, 500, 502, 503, 504) and i < essais - 1:
+            # la BnF répond 500 quand elle n'a pas d'image : inutile d'insister
+            if e.code in (403, 408, 429, 502, 503, 504) and i < essais - 1 and "bnf.fr" not in url:
                 time.sleep(8 * (i + 1))
                 continue
             return None
