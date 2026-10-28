@@ -47,8 +47,9 @@ permissions:
   contents: write
 
 concurrency:
-  # les tests d'une seule série tournent à part, sans bloquer ni annuler les passages complets
-  group: parutions-${{ inputs.serie && 'test' || 'complet' }}
+  # les tests d'une seule série tournent à part ; chaque collection a sa file, pour que la BD
+  # et les romans puissent tourner en même temps (l'enregistrement fusionne fichier par fichier)
+  group: parutions-${{ inputs.serie && 'test' || inputs.collection || 'toutes' }}
   cancel-in-progress: false
 
 jobs:
