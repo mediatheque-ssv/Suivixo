@@ -1,6 +1,9 @@
 # Suivixo
 
-Suivi des séries mangas du réseau des médiathèques (Châteaugiron, Domloup, Noyal-sur-Vilaine, Ossé, Piré-Chancé, Servon-sur-Vilaine, St-Aubin du Pavail) : quels tomes sont où, ce qui manque, ce qu'il faut acheter.
+Suivi des séries de la médiathèque de Servon-sur-Vilaine : quels tomes sont où, ce qui manque, ce qu'il faut acheter. Trois collections, au choix en haut du site :
+
+- **Mangas** : tout le réseau (Châteaugiron, Domloup, Noyal-sur-Vilaine, Ossé, Piré-Chancé, Servon-sur-Vilaine, St-Aubin du Pavail), avec AniList, Manga-News et la BnF ;
+- **BD jeunesse** et **Romans jeunesse** : Servon seulement, avec la BnF. Les titres uniques (romans, albums) peuvent être masqués dans les filtres.
 
 Suivixo remplace le classeur Excel « MangaV2-3 » (créé par Erick Bagliniere) par un site web, sans macros.
 
@@ -47,9 +50,11 @@ La clé reste dans le navigateur. Les collègues qui consultent seulement n'en o
 ```
 index.html, assets/        le site (HTML, CSS, JavaScript sans compilation)
 assets/core.js             la logique : lecture d'Orphée, rattachement des titres, statuts
-data/series.json           les séries et ce qui est saisi à la main
-data/fonds.json            le dernier import Orphée publié (tomes par médiathèque)
-data/enrich.json           les infos AniList et BnF (écrit par la vérification automatique)
+data/series.json           mangas : les séries et ce qui est saisi à la main
+data/fonds.json            mangas : le dernier import Orphée publié (tomes par médiathèque)
+data/enrich.json           mangas : les infos AniList, Manga-News et BnF (écrit par la vérification automatique)
+data/bd/, data/romans/     les mêmes fichiers pour la BD et les romans jeunesse
+couvertures/               les couvertures françaises (couvertures/bd/, couvertures/romans/ pour les autres collections)
 scripts/enrich.py          la vérification automatique des parutions
 scripts/seed_from_excel.mjs  la migration depuis l'ancien Excel (déjà faite)
 .github/workflows/         la vérification planifiée du lundi
