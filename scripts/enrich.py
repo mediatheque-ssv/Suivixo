@@ -801,6 +801,9 @@ def couverture_a_chercher(s: dict, e: dict, forcer: bool = False) -> bool:
         # image prise sur une page Manga-News qui n'est plus celle de la série (rapprochement corrigé)
         if cf.get("source") == "Manga-News" and ("mn" not in cf or cf["mn"] != page_mn):
             return True
+        # Open Library se trompe parfois d'édition : on retente une fois avec les nouvelles sources
+        if cf.get("source") == "Open Library" and (e.get("couvVersion") or 1) < COUV_VERSION:
+            return True
         return not (DOSSIER_COUV / f"{s['id']}.jpg").exists()
     # Manga-News a une image pour cette série : on réessaie à chaque passage (un échec vient en général
     # d'un site saturé ce jour-là), et tout de suite si l'image a changé
@@ -816,8 +819,11 @@ def chercher_couverture(s: dict, e: dict) -> None:
     e["couvEssai"] = AUJOURDHUI.isoformat()
     e["couvVersion"] = COUV_VERSION
     e["couvEssaiMN"] = (e.get("mangaNews") or {}).get("couv") or (e.get("mangaNewsFiche") or {}).get("couv") or ""
+    ancienne = e.get("couvFR") or {}
     if trouvee:
         e["couvFR"] = trouvee
+    elif ancienne.get("source") == "Open Library" and (DOSSIER_COUV / f"{s['id']}.jpg").exists():
+        pass  # rien de mieux cette fois : on garde l'image d'Open Library
     else:
         e.pop("couvFR", None)
 
