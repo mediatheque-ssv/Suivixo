@@ -1,0 +1,6766 @@
+{
+ "ajax-et-sa-bande": {
+  "titre": "Ajax et sa bande",
+  "auteur": "Mr Tan",
+  "editeur": "Mr Tan & Co",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Ajax et sa bande inauthor:Tan",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "alia-chasseuse-de-fantomes": {
+  "titre": "Alia : chasseuse de fantômes",
+  "auteur": "BrunoWaro",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822236522",
+   "9782822241632",
+   "9782822244053",
+   "9782822245241"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 11638,
+    "md5": "cd26b6ea89",
+    "ok": true,
+    "dim": "128x178"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 254207,
+    "md5": "21fba45e0d",
+    "ok": true,
+    "dim": "600x837"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 89213,
+    "md5": "eb785dc75d",
+    "ok": true,
+    "dim": "358x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "alix": {
+  "titre": "Alix",
+  "auteur": "Martin Jacques",
+  "editeur": "Casterman",
+  "isbns": [
+   "9782203159235",
+   "9782203022911",
+   "9782203130227"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 69451,
+    "md5": "94692e59a3",
+    "ok": true,
+    "dim": "600x788"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 67915,
+    "md5": "326e83b2e4",
+    "ok": true,
+    "dim": "374x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "alix-et-huguette": {
+  "titre": "Alix et Huguette",
+  "auteur": "Begon Maud",
+  "editeur": "BD kids",
+  "isbns": [
+   "9791036384462"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 141781,
+    "md5": "5d6b824280",
+    "ok": true,
+    "dim": "600x757"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 61037,
+    "md5": "19ba89ea5e",
+    "ok": true,
+    "dim": "396x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ambre": {
+  "titre": "Ambre",
+  "auteur": "Pamment Jason",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782280092142",
+   "9782280092159",
+   "9782280092166",
+   "9782280092173"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 12057,
+    "md5": "f588973be0",
+    "ok": true,
+    "dim": "150x238"
+   },
+   "decitre": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ambre-et-l-ile-des-creatures-perdues": {
+  "titre": "Ambre et l'île des créatures perdues",
+  "auteur": "Pamment Jason",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822240949"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 13048,
+    "md5": "0969760874",
+    "ok": true,
+    "dim": "128x177"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 255395,
+    "md5": "e09031b89f",
+    "ok": true,
+    "dim": "600x829"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 87235,
+    "md5": "1fe8174e87",
+    "ok": true,
+    "dim": "366x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ana-l-entremonde": {
+  "titre": "Ana & l'entremonde",
+  "auteur": "Dubuisson Marc",
+  "editeur": "Glénat",
+  "isbns": [
+   "9782344047972",
+   "9782344051757",
+   "9782344059791",
+   "9782344068564"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 12108,
+    "md5": "024e68fafd",
+    "ok": true,
+    "dim": "128x175"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 229560,
+    "md5": "430271fe8d",
+    "ok": true,
+    "dim": "600x817"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 83855,
+    "md5": "eed102a76a",
+    "ok": true,
+    "dim": "367x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ana-ana": {
+  "titre": "Ana Ana",
+  "auteur": "Dormal Alexis",
+  "editeur": "Dargaud-Jeunesse",
+  "isbns": [
+   "9782205069501",
+   "9782205069518",
+   "9782205072709",
+   "9782205073089"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 99339,
+    "md5": "024d24fe29"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 77856,
+    "md5": "3b94182c96"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "apo-et-kalypse": {
+  "titre": "Apo et Kalypse",
+  "auteur": "Gyom",
+  "editeur": "Editions Auzou",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Apo et Kalypse inauthor:Gyom",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "apres-l-ecole": {
+  "titre": "Après l'école",
+  "auteur": "Frey Julien",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822246439",
+   "9782822249294"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 285405,
+    "md5": "b6d7301526",
+    "ok": true,
+    "dim": "600x789"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 118287,
+    "md5": "d9bfa4ed3b",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "arcade-club": {
+  "titre": "Arcade club",
+  "auteur": "Ducoudray Aurélien",
+  "editeur": "Auzou",
+  "isbns": [
+   "9791039500944",
+   "9791039524322"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 19052,
+    "md5": "dd5ee06da0"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 87853,
+    "md5": "a601d695dd",
+    "ok": true,
+    "dim": "353x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ariol": {
+  "titre": "Ariol",
+  "auteur": "Guibert Emmanuel",
+  "editeur": "BD Kids\nBayard",
+  "isbns": [
+   "9782747030694",
+   "9782747039079",
+   "9782747044622",
+   "9782747052993"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 6628,
+    "md5": "0482053daa",
+    "ok": true,
+    "dim": "128x161"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 75377,
+    "md5": "f9fbd49549",
+    "ok": true,
+    "dim": "600x747"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 36967,
+    "md5": "2f37b72869",
+    "ok": true,
+    "dim": "401x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "armelle-et-mirko": {
+  "titre": "Armelle et Mirko",
+  "auteur": "Montel Anne",
+  "editeur": "Delcourt",
+  "isbns": [
+   "9782413045045",
+   "9782413075578",
+   "9782413082309",
+   "9782413087809"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 12674,
+    "md5": "280c22e005",
+    "ok": true,
+    "dim": "128x171"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 227399,
+    "md5": "1df2845f9a",
+    "ok": true,
+    "dim": "600x800"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 91618,
+    "md5": "b511a890c9",
+    "ok": true,
+    "dim": "375x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "asterix-le-gaulois": {
+  "titre": "Astérix le gaulois",
+  "auteur": "Goscinny René",
+  "editeur": "Hachette",
+  "isbns": [
+   "9782014001341",
+   "9782012101333",
+   "9782012101654",
+   "9782012100015"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 288033,
+    "md5": "e7ad056568",
+    "ok": true,
+    "dim": "600x817"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 118296,
+    "md5": "851885b415",
+    "ok": true,
+    "dim": "367x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "astrid-bromure": {
+  "titre": "Astrid Bromure",
+  "auteur": "Parme Fabrice",
+  "editeur": "Rue de Sèvres",
+  "isbns": [
+   "9782369811404",
+   "9782369811688",
+   "9782369812708",
+   "9782369813002"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 146743,
+    "md5": "63a393c1de",
+    "ok": true,
+    "dim": "600x779"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 70562,
+    "md5": "fdc2253d80",
+    "ok": true,
+    "dim": "385x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "au-chant-des-grenouilles": {
+  "titre": "Au chant des grenouilles",
+  "auteur": "Canepa Barbara",
+  "editeur": "Editions Oxymore",
+  "isbns": [
+   "9782385610180",
+   "9782385610340",
+   "9782385610708",
+   "9782385610951"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 11108,
+    "md5": "209c4807c1",
+    "ok": true,
+    "dim": "128x168"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 299446,
+    "md5": "a2bfd2ffc2",
+    "ok": true,
+    "dim": "600x840"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 99758,
+    "md5": "5b6817c6e1",
+    "ok": true,
+    "dim": "357x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "avatar-le-dernier-maitre-de-l-air": {
+  "titre": "Avatar : le dernier maître de l'air",
+  "auteur": "Konietzko Bryan",
+  "editeur": "Hachette Comics",
+  "isbns": [
+   "9782017203933",
+   "9782017204060",
+   "9782017168799",
+   "9782017237136"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 176311,
+    "md5": "53770be927",
+    "ok": true,
+    "dim": "600x855"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 70490,
+    "md5": "96cf329f48",
+    "ok": true,
+    "dim": "351x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "avni": {
+  "titre": "Avni",
+  "auteur": "Pujol Romain",
+  "editeur": "BD Kids",
+  "isbns": [
+   "9782408049010",
+   "9782745957535",
+   "9782745968494",
+   "9782745981998"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 165560,
+    "md5": "b55e34b20f",
+    "ok": true,
+    "dim": "600x937"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 57284,
+    "md5": "ce2b08a87d",
+    "ok": true,
+    "dim": "320x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "batman": {
+  "titre": "Batman",
+  "auteur": "Templeton Ty",
+  "editeur": "Urban Comics",
+  "isbns": [
+   "9791026829775",
+   "9791026828556",
+   "9791026820963",
+   "9791026819295"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 89326,
+    "md5": "83c13f448e",
+    "ok": true,
+    "dim": "600x900"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 70713,
+    "md5": "fbcb19d411",
+    "ok": true,
+    "dim": "327x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "bd-anatole-latuile": {
+  "titre": "BD Anatole Latuile",
+  "auteur": "Didier Anne",
+  "editeur": "BD Kids",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD Anatole Latuile inauthor:Anne",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-bob-l-eponge": {
+  "titre": "BD Bob l'éponge",
+  "auteur": null,
+  "editeur": "Jungle\nCasterman\nTF1 livres\nImpr. Pollina\nNickelodeon productions",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD Bob l'éponge",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-cedric": {
+  "titre": "BD Cédric",
+  "auteur": "Laudec",
+  "editeur": "Dupuis",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 14313,
+    "md5": "e34d1b9a47",
+    "ok": true,
+    "dim": "180x247"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:BD Cédric inauthor:Laudec",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "BD Pirate : Cédric, tome 14",
+     [
+      "Laudec",
+      "Raoul Cauvin"
+     ],
+     3134198
+    ]
+   ]
+  }
+ },
+ "bd-foot-2-rue": {
+  "titre": "BD Foot 2 rue",
+  "auteur": "Mariolle Mathieu",
+  "editeur": "Soleil",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD Foot 2 rue inauthor:Mathieu",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-geronimo-stilton": {
+  "titre": "BD Geronimo Stilton",
+  "auteur": "Stilton Geronimo",
+  "editeur": "Glénat",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD Geronimo Stilton inauthor:Geronimo",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-la-famille-passiflore": {
+  "titre": "BD La famille Passiflore",
+  "auteur": "Jouannigot Loïc",
+  "editeur": "Dargaud",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD La famille Passiflore inauthor:Loïc",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-samsam": {
+  "titre": "BD Samsam",
+  "auteur": "Bloch Serge",
+  "editeur": "Bayard jeunesse",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD Samsam inauthor:Serge",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-scooby-doo": {
+  "titre": "BD Scooby-doo",
+  "auteur": "Rozum John",
+  "editeur": "Jungle-[Casterman]\nImpr. Pollina",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD Scooby-doo inauthor:John",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-sorcieres-sorcieres": {
+  "titre": "BD Sorcières-sorcières",
+  "auteur": "Chamblain Joris",
+  "editeur": "Kennes Editions",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD Sorcières-sorcières inauthor:Joris",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-titeuf": {
+  "titre": "BD Titeuf",
+  "auteur": "Zep",
+  "editeur": "Glénat",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10106,
+    "md5": "8d0b48d2ac",
+    "ok": true,
+    "dim": "132x180"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:BD Titeuf inauthor:Zep",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "Titeuf, Bd.4, Faszinierend . .",
+     [
+      "Zep"
+     ],
+     3234843
+    ],
+    [
+     "Titeuf, Bd.3, Wie ungerecht . .",
+     [
+      "Zep"
+     ],
+     3234842
+    ],
+    [
+     "Titeuf, Bd.1, Ganz schön spannend . .",
+     [
+      "Zep"
+     ],
+     3234840
+    ]
+   ]
+  }
+ },
+ "bd-yakari": {
+  "titre": "BD Yakari",
+  "auteur": "Derib",
+  "editeur": "Casterman",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:BD Yakari inauthor:Derib",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "Fan de BD!, Yakari, tome 2",
+     [
+      "Job Derib"
+     ],
+     null
+    ]
+   ]
+  }
+ },
+ "belfort-et-lupin": {
+  "titre": "Belfort et Lupin",
+  "auteur": "Stehly Teddy",
+  "editeur": "Editions Dupuis",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Belfort et Lupin inauthor:Teddy",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "betty-polo": {
+  "titre": "Betty & Polo",
+  "auteur": "Poissier Adrien",
+  "editeur": "Charivari",
+  "isbns": [
+   "9782487663053"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 31479,
+    "md5": "b86cbfc4aa",
+    "ok": true,
+    "dim": "400x535"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 57063,
+    "md5": "f0fe59191f",
+    "ok": true,
+    "dim": "374x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "bisbille-fait-mouche": {
+  "titre": "Bisbille fait mouche",
+  "auteur": "Guibert Emmanuel",
+  "editeur": "BD Kids",
+  "isbns": [
+   "9782747029056"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 48513,
+    "md5": "cecfa6cfa0",
+    "ok": true,
+    "dim": "432x557"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 48348,
+    "md5": "cc5fa77c79",
+    "ok": true,
+    "dim": "388x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "boule-bill": {
+  "titre": "Boule & Bill",
+  "auteur": "Roba",
+  "editeur": "Dargaud\nDargaud",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 14174,
+    "md5": "ef4da77951",
+    "ok": true,
+    "dim": "180x251"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:Boule & Bill inauthor:Roba",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "Boule et Bill",
+     [
+      "Jean Roba"
+     ],
+     3152874
+    ],
+    [
+     "Boule & Bill, tome 23",
+     [
+      "Jean Roba"
+     ],
+     12776213
+    ],
+    [
+     "BOULE & BILL TOME 21 : BILLETS DE BILL",
+     [
+      "Jean Roba"
+     ],
+     14625843
+    ]
+   ]
+  }
+ },
+ "boule-et-bill": {
+  "titre": "Boule et Bill",
+  "auteur": "Roba Jean",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9791034757459",
+   "9782800128214",
+   "9791034762712",
+   "9782800128221"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 54087,
+    "md5": "7647f7f9b8",
+    "ok": true,
+    "dim": "600x825"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 49265,
+    "md5": "64a2dd0e32",
+    "ok": true,
+    "dim": "363x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "brume": {
+  "titre": "Brume",
+  "auteur": "Pélissier Jérôme",
+  "editeur": "Glénat",
+  "isbns": [
+   "9782344067079",
+   "9782344051733",
+   "9782344056424",
+   "9782344061329"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/png",
+    "taille": 1269,
+    "md5": "e89e0e364e",
+    "ok": true,
+    "dim": "128x170"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/png",
+    "taille": 2687,
+    "md5": "5da5beba0e",
+    "ok": true,
+    "dim": "154x173"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 97932,
+    "md5": "d99716adb4",
+    "ok": true,
+    "dim": "367x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "calvin-and-hobbes": {
+  "titre": "Calvin and Hobbes",
+  "auteur": "Watterson Bill",
+  "editeur": "Warner",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 14035,
+    "md5": "cb086e7d0d",
+    "ok": true,
+    "dim": "180x231"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:Calvin and Hobbes inauthor:Bill",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "The Authoritative Calvin and Hobbes",
+     [
+      "Bill Watterson"
+     ],
+     636127
+    ],
+    [
+     "The Indispensable Calvin and Hobbes",
+     [
+      "Bill Watterson"
+     ],
+     636164
+    ],
+    [
+     "The essential Calvin and Hobbes",
+     [
+      "Bill Watterson"
+     ],
+     636119
+    ]
+   ]
+  }
+ },
+ "camille-contre-les-cauchemars": {
+  "titre": "Camille contre les cauchemars",
+  "auteur": "Tetri Emily",
+  "editeur": "Casterman\nCasterman",
+  "isbns": [
+   "9782203190900"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 92618,
+    "md5": "8ad69425de",
+    "ok": true,
+    "dim": "600x748"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 93452,
+    "md5": "136c6e74ec",
+    "ok": true,
+    "dim": "391x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "camomille-et-les-chevaux": {
+  "titre": "Camomille et les chevaux",
+  "auteur": "Mésange Lili",
+  "editeur": "Bamboo",
+  "isbns": [
+   "9791041111985",
+   "9782818945094",
+   "9782818946701",
+   "9782818946824"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 333935,
+    "md5": "df7b1d82bb",
+    "ok": true,
+    "dim": "600x848"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 116528,
+    "md5": "4cdb1d0828",
+    "ok": true,
+    "dim": "354x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "casse-noisette-et-le-roi-des-souris": {
+  "titre": "Casse-Noisette et le roi des souris",
+  "auteur": "Andrewson Nathalie",
+  "editeur": "Rue de Sèvres",
+  "isbns": [
+   "9782810204212"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 115738,
+    "md5": "9731acf2bf",
+    "ok": true,
+    "dim": "600x831"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 108882,
+    "md5": "792d9f7d37",
+    "ok": true,
+    "dim": "353x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "cassis-veut-jouer": {
+  "titre": "Cassis veut jouer",
+  "auteur": "Luciani Brigitte",
+  "editeur": "Dargaud",
+  "isbns": [
+   "9782205072174"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 43739,
+    "md5": "bf9b9b90b9"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 44697,
+    "md5": "e4d9508718"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "chair-de-poule": {
+  "titre": "Chair de poule",
+  "auteur": "Stine R. L.",
+  "editeur": "Bayard jeunesse\nImpr. Pollina",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 24682,
+    "md5": "8a54de5016",
+    "ok": true,
+    "dim": "180x260"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:Chair de poule inauthor:L.",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "Chair de Poule Horrorland",
+     [
+      "Robert Lawrence Stine"
+     ],
+     null
+    ],
+    [
+     "Chair de poule , Tome 72",
+     [
+      "Robert Lawrence Stine"
+     ],
+     12546002
+    ],
+    [
+     "Chair de poule, numéro 72",
+     [
+      "Robert Lawrence Stine"
+     ],
+     986288
+    ]
+   ]
+  }
+ },
+ "chaque-jour-dracula": {
+  "titre": "Chaque jour Dracula",
+  "auteur": "Clément Loïc",
+  "editeur": "Delcourt",
+  "isbns": [
+   "9782413028062",
+   "9782413001669"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 174378,
+    "md5": "3a55ce0676",
+    "ok": true,
+    "dim": "600x790"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 74195,
+    "md5": "761c04dcd2",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "choupisson": {
+  "titre": "Choupisson",
+  "auteur": "Périmony David",
+  "editeur": "Editions de la Gouttière",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Choupisson inauthor:David",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "chroniques-de-l-ile-perdue": {
+  "titre": "Chroniques de l'île perdue",
+  "auteur": "Clément Loïc",
+  "editeur": "Soleil",
+  "isbns": [
+   "9782302071230"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 308077,
+    "md5": "ff41530cf1",
+    "ok": true,
+    "dim": "600x801"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 112393,
+    "md5": "ce36d7e48e",
+    "ok": true,
+    "dim": "374x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "coco-le-virus": {
+  "titre": "Coco le virus",
+  "auteur": "Livron Paul de",
+  "editeur": "Larousse",
+  "isbns": [
+   "9782035998408"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 103651,
+    "md5": "aeb5255863",
+    "ok": true,
+    "dim": "600x791"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 44988,
+    "md5": "b31b66e74e",
+    "ok": true,
+    "dim": "379x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "comme-des-betes": {
+  "titre": "Comme des bêtes",
+  "auteur": "Lapuss'",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9791034738922",
+   "9791034741311"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 70534,
+    "md5": "d4942d71a1",
+    "ok": true,
+    "dim": "600x870"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 67536,
+    "md5": "142f251536",
+    "ok": true,
+    "dim": "364x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "constance-et-les-ombres": {
+  "titre": "Constance et les ombres",
+  "auteur": "Chabbert Ingrid",
+  "editeur": "Editions Dupuis",
+  "isbns": [
+   "9791034770434",
+   "9782808509039"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 176153,
+    "md5": "057022f4af",
+    "ok": true,
+    "dim": "600x794"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 79093,
+    "md5": "b69ee6fa50",
+    "ok": true,
+    "dim": "378x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "crevette": {
+  "titre": "Crevette",
+  "auteur": "Shanta Élodie",
+  "editeur": "La Pastèque",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 27703,
+    "md5": "a028268eda",
+    "ok": true,
+    "dim": "180x254"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:Crevette inauthor:Élodie",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "Crevette",
+     [
+      "Elodie Shanta"
+     ],
+     12838994
+    ]
+   ]
+  }
+ },
+ "d-ambre-et-de-feu": {
+  "titre": "D'ambre et de feu",
+  "auteur": "Domergue Agnès",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822242561",
+   "9782822234061"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 279787,
+    "md5": "4ab3021ebc",
+    "ok": true,
+    "dim": "600x829"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 93024,
+    "md5": "6e295289d5",
+    "ok": true,
+    "dim": "362x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "de-cape-et-de-mots": {
+  "titre": "De cape et de mots",
+  "auteur": "Vesco Flore",
+  "editeur": "Dargaud",
+  "isbns": [
+   "9782205082494",
+   "9782017052098"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10646,
+    "md5": "c102cf162f",
+    "ok": true,
+    "dim": "128x171"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 101964,
+    "md5": "5d8ff6aca5",
+    "ok": true,
+    "dim": "600x800"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 94569,
+    "md5": "8113d7ce7d",
+    "ok": true,
+    "dim": "375x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "des-mutants-dans-l-etang": {
+  "titre": "Des mutants dans l'étang",
+  "auteur": "Cauchy Véronique",
+  "editeur": "Kilowatt",
+  "isbns": [
+   "9782917045701"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 217544,
+    "md5": "de87b3061d",
+    "ok": true,
+    "dim": "600x829"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 85582,
+    "md5": "cdef4b6f87",
+    "ok": true,
+    "dim": "361x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "dina-et-le-millimonde": {
+  "titre": "Dina et le Millimonde",
+  "auteur": "Dalena Antonello",
+  "editeur": "Editions Dupuis",
+  "isbns": [
+   "9782808512589"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 9562,
+    "md5": "4cf28385ac",
+    "ok": true,
+    "dim": "128x169"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 167310,
+    "md5": "41b373614e",
+    "ok": true,
+    "dim": "600x792"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 78420,
+    "md5": "c2b12d5b86",
+    "ok": true,
+    "dim": "379x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "dinos-des-champs": {
+  "titre": "Dinos des champs",
+  "auteur": "Pog",
+  "editeur": "Glénat jeunesse",
+  "isbns": [
+   "9782344069677"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 181509,
+    "md5": "62737505ac"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 67893,
+    "md5": "09b3188de6"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "donjon-antipodes": {
+  "titre": "Donjon antipodes",
+  "auteur": "Sfar Joann",
+  "editeur": "Delcourt",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Donjon antipodes inauthor:Joann",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "dragon-the": {
+  "titre": "Dragon-Thé",
+  "auteur": "O'Neill Katie",
+  "editeur": "Bliss éditions",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 23614,
+    "md5": "473e2084f0",
+    "ok": true,
+    "dim": "180x246"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:Dragon-Thé inauthor:Katie",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "The Tea Dragon Society",
+     [
+      "Kay O'Neill"
+     ],
+     8973155
+    ],
+    [
+     "The Tea Dragon Festival",
+     [
+      "Kay O'Neill"
+     ],
+     8988994
+    ]
+   ]
+  }
+ },
+ "eevi-et-les-esprits-du-nord": {
+  "titre": "Eevi et les esprits du Nord",
+  "auteur": "Westin Miila",
+  "editeur": "Sarbacane Editions",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Eevi et les esprits du Nord inauthor:Miila",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "elsbeth": {
+  "titre": "Elsbeth",
+  "auteur": "Roulot Tristan",
+  "editeur": "Le Lombard",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Elsbeth inauthor:Tristan",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "elvira-otto": {
+  "titre": "Elvira & Otto",
+  "auteur": "Baltscheit Martin",
+  "editeur": "Rue de Sèvres",
+  "isbns": [
+   "9782810203772"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 107649,
+    "md5": "87a3d70b20",
+    "ok": true,
+    "dim": "600x767"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 103380,
+    "md5": "5fa7e63c1d",
+    "ok": true,
+    "dim": "382x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "esope-le-loup": {
+  "titre": "Esope le loup",
+  "auteur": "Liroy Lucien",
+  "editeur": "Kennes Editions",
+  "isbns": [
+   "9782380754100",
+   "9782380755657"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 140848,
+    "md5": "48932436aa",
+    "ok": true,
+    "dim": "600x804"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 76986,
+    "md5": "dc1f8171ea",
+    "ok": true,
+    "dim": "374x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "felixe-et-la-maison-qui-marchait-la-nuit": {
+  "titre": "Félixe et la maison qui marchait la nuit",
+  "auteur": "Bedard Sophie",
+  "editeur": "la Ville brûle",
+  "isbns": [
+   "9782360121397"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10871,
+    "md5": "c1d0f0ddb2",
+    "ok": true,
+    "dim": "128x177"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 67017,
+    "md5": "418b42e6b0",
+    "ok": true,
+    "dim": "600x824"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 59909,
+    "md5": "c2e9929f16",
+    "ok": true,
+    "dim": "362x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "fleur-de-bambou": {
+  "titre": "Fleur de Bambou",
+  "auteur": "Marazano Richard",
+  "editeur": "Rue de Sèvres",
+  "isbns": [
+   "9782369811930",
+   "9782369815396"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 101111,
+    "md5": "4677226130",
+    "ok": true,
+    "dim": "600x760"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 103753,
+    "md5": "854cb75d3a",
+    "ok": true,
+    "dim": "383x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "foot-2-rue-saison-4": {
+  "titre": "Foot 2 rue : saison 4",
+  "auteur": "Mariolle Mathieu",
+  "editeur": "Soleil",
+  "isbns": [
+   "9782302099395"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 265144,
+    "md5": "4c2f5328ee",
+    "ok": true,
+    "dim": "600x791"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 109993,
+    "md5": "aacd285a49",
+    "ok": true,
+    "dim": "379x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "foudroyants": {
+  "titre": "Foudroyants",
+  "auteur": "Burniat Mathieu",
+  "editeur": "Charivari",
+  "isbns": [
+   "9782487663138",
+   "9782487663190",
+   "9782487663404"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 11742,
+    "md5": "e5a2fe1f43",
+    "ok": true,
+    "dim": "128x171"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 50313,
+    "md5": "5b74d1ee86",
+    "ok": true,
+    "dim": "400x533"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 92002,
+    "md5": "52dd3e1e49",
+    "ok": true,
+    "dim": "374x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "game-over": {
+  "titre": "Game over",
+  "auteur": "Midam",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9782800135922",
+   "9782800136950",
+   "9782800140230",
+   "9782800145501"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 93435,
+    "md5": "11aab82daa",
+    "ok": true,
+    "dim": "600x821"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 77996,
+    "md5": "7bbd60b00a",
+    "ok": true,
+    "dim": "364x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "gargouilles-les-mondes-caches": {
+  "titre": "Gargouilles : Les Mondes cachés",
+  "auteur": "Filippi Denis-Pierre",
+  "editeur": "Les Humanoïdes Associés",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Gargouilles : Les Mondes cachés inauthor:Denis-Pierre",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "gaston-grognon": {
+  "titre": "Gaston grognon",
+  "auteur": "Lang Suzanne",
+  "editeur": "Casterman",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 13492,
+    "md5": "b3a48b1850"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:Gaston grognon inauthor:Suzanne",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "T'es grognon, Gaston ?",
+     [
+      "Suzanne Lang",
+      "Max Lang"
+     ],
+     11273062
+    ]
+   ]
+  }
+ },
+ "gaston-lagaffe": {
+  "titre": "Gaston Lagaffe",
+  "auteur": "Franquin André",
+  "editeur": "Dupuis",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 19713,
+    "md5": "62036584cd",
+    "ok": true,
+    "dim": "180x226"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:Gaston Lagaffe inauthor:André",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "Gaston Lagaffe",
+     [
+      "André Franquin"
+     ],
+     15136204
+    ],
+    [
+     "Le Cas Lagaffe (Gaston Lagaffe)",
+     [
+      "André Franquin"
+     ],
+     14836669
+    ],
+    [
+     "Gala Des Gaffes a Gogo (Gaston Lagaffe)",
+     [
+      "André Franquin"
+     ],
+     14836667
+    ]
+   ]
+  }
+ },
+ "goupile-la-sorciere": {
+  "titre": "Goupile, la sorcière",
+  "auteur": "Milena",
+  "editeur": "Editions de la Gouttière",
+  "isbns": [
+   "9782357960886",
+   "9782357961272"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 97909,
+    "md5": "2ba8cafa8b",
+    "ok": true,
+    "dim": "600x850"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 76244,
+    "md5": "7651c88dce",
+    "ok": true,
+    "dim": "348x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "hammerdam": {
+  "titre": "Hammerdam",
+  "auteur": "Fernandez Enrique",
+  "editeur": "Ankama",
+  "isbns": [
+   "9791033511472",
+   "9791033513438"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 107604,
+    "md5": "5d211c837f",
+    "ok": true,
+    "dim": "600x866"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 80046,
+    "md5": "d5a4cb97e9",
+    "ok": true,
+    "dim": "340x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "histoires-pressees": {
+  "titre": "Histoires pressées",
+  "auteur": "Friot Bernard",
+  "editeur": "Milan",
+  "isbns": [
+   "9782408034863",
+   "9782408020798",
+   "9782408014933"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 234521,
+    "md5": "a0487deb06",
+    "ok": true,
+    "dim": "600x778"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 94336,
+    "md5": "4676500c28",
+    "ok": true,
+    "dim": "385x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "hotel-etrange": {
+  "titre": "Hôtel étrange",
+  "auteur": "Ferrier Florian",
+  "editeur": "Sarbacane",
+  "isbns": [
+   "9791040803669",
+   "9791040803676",
+   "9782848654843",
+   "9791040803652"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 204733,
+    "md5": "2c08f9760f",
+    "ok": true,
+    "dim": "600x796"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 86258,
+    "md5": "c042ec9f3a",
+    "ok": true,
+    "dim": "377x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "idefix-et-les-irreductibles": {
+  "titre": "Idéfix et les irréductibles",
+  "auteur": "Choquet Matthieu",
+  "editeur": "Albert René",
+  "isbns": [
+   "9782864975960",
+   "9782864976004",
+   "9782864976011",
+   "9782864976646"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 8870,
+    "md5": "13567e615a",
+    "ok": true,
+    "dim": "128x162"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 149043,
+    "md5": "fe237ca919",
+    "ok": true,
+    "dim": "600x774"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 68388,
+    "md5": "150fba5d80",
+    "ok": true,
+    "dim": "387x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "je-suis-pas-petite": {
+  "titre": "Je suis pas petite !!!",
+  "auteur": "Duhamel Bruno",
+  "editeur": "la Boîte à bulles",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Je suis pas petite !!! inauthor:Bruno",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "jean-michel-le-caribou-dans-l-espace": {
+  "titre": "Jean-Michel, le caribou dans l'espace",
+  "auteur": "Le Huche Magali",
+  "editeur": "Actes Sud junior",
+  "isbns": [
+   "9782330086909"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 157813,
+    "md5": "e65ee65b6b",
+    "ok": true,
+    "dim": "600x811"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 71276,
+    "md5": "b5a89c49de",
+    "ok": true,
+    "dim": "370x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "kong-kong": {
+  "titre": "Kong-Kong",
+  "auteur": "Villeminot Vincent",
+  "editeur": "Casterman",
+  "isbns": [
+   "9782203185838"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 92562,
+    "md5": "6b897fe99e",
+    "ok": true,
+    "dim": "600x800"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 85850,
+    "md5": "7ca88617d3",
+    "ok": true,
+    "dim": "373x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "alchimiste": {
+  "titre": "L'alchimiste",
+  "auteur": "Beuglet Nicolas",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822236607",
+   "9782822240888",
+   "9782822244145",
+   "9782822245876"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 281459,
+    "md5": "2c350c32e5",
+    "ok": true,
+    "dim": "600x795"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 102408,
+    "md5": "9c73ad4b5a",
+    "ok": true,
+    "dim": "377x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "emouvantail": {
+  "titre": "L'émouvantail",
+  "auteur": "Dillies Renaud",
+  "editeur": "Ed. de la Gouttière",
+  "isbns": [
+   "9782357960107",
+   "9782357960190",
+   "9782357960374",
+   "9782357960640"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 73335,
+    "md5": "517d248371"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 69669,
+    "md5": "4acc765b85"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "encyclopedie-des-peurs": {
+  "titre": "L'encyclopédie des peurs",
+  "auteur": "Broyart Benoît",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822230575",
+   "9782822231848"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 199663,
+    "md5": "c3c4b8b8a7",
+    "ok": true,
+    "dim": "600x792"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 78336,
+    "md5": "dec496db00",
+    "ok": true,
+    "dim": "379x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ile-de-minuit": {
+  "titre": "L'île de minuit",
+  "auteur": "Lylian",
+  "editeur": "Editions Dupuis",
+  "isbns": [
+   "9782808503266",
+   "9782808510899"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 12106,
+    "md5": "df45a1e654",
+    "ok": true,
+    "dim": "128x177"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 224906,
+    "md5": "80032c2d8c",
+    "ok": true,
+    "dim": "600x825"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 89628,
+    "md5": "1f0d3867e9",
+    "ok": true,
+    "dim": "363x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ile-des-cochons-volants": {
+  "titre": "L'île des cochons volants",
+  "auteur": "Millotte Marie",
+  "editeur": "Ankama éditions",
+  "isbns": [
+   "9791033517887"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 57092,
+    "md5": "5c70f27ba1",
+    "ok": true,
+    "dim": "400x597"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 87061,
+    "md5": "7c64315702",
+    "ok": true,
+    "dim": "335x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ile-du-crane": {
+  "titre": "L'île du crâne",
+  "auteur": "L'Hermenier Maxe",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822237864",
+   "9782822239233"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 12061,
+    "md5": "4a69340c30",
+    "ok": true,
+    "dim": "128x171"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 254955,
+    "md5": "a75d5e4d07",
+    "ok": true,
+    "dim": "600x802"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 101036,
+    "md5": "173dccc5c1",
+    "ok": true,
+    "dim": "374x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ile-oubliee": {
+  "titre": "L'île oubliée",
+  "auteur": "Bétaucourt Xavier",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822241014",
+   "9782822230544",
+   "9782822235617",
+   "9782822236645"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 283559,
+    "md5": "dfb735e9bb",
+    "ok": true,
+    "dim": "600x822"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 84464,
+    "md5": "6bfa25a8af",
+    "ok": true,
+    "dim": "370x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "onde": {
+  "titre": "L'Onde",
+  "auteur": "Maupomé Frédéric",
+  "editeur": "Editions de la Gouttière",
+  "isbns": [
+   "9782357961067"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 208054,
+    "md5": "e3a08bb360",
+    "ok": true,
+    "dim": "600x806"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 80316,
+    "md5": "04e74cd2b7",
+    "ok": true,
+    "dim": "372x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "bande-du-mile-end": {
+  "titre": "La bande du Mile-End",
+  "auteur": "Arsenault Isabelle",
+  "editeur": "PASTEQUE",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:La bande du Mile-End inauthor:Isabelle",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-de-l-avent": {
+  "titre": "La BD de l'Avent",
+  "auteur": "Tébo",
+  "editeur": "Le Lombard",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:La BD de l'Avent inauthor:Tébo",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bd-de-loup": {
+  "titre": "La BD de Loup",
+  "auteur": "Lallemand Orianne",
+  "editeur": "Editions Auzou",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:La BD de Loup inauthor:Orianne",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bulle": {
+  "titre": "La bulle",
+  "auteur": "Gaillard Aurelle",
+  "editeur": "Editions Auzou",
+  "isbns": [
+   "9791039528511"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 19052,
+    "md5": "dd5ee06da0"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 98188,
+    "md5": "c5458102c2",
+    "ok": true,
+    "dim": "353x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "famille-glagla": {
+  "titre": "La famille Glagla",
+  "auteur": "Delecour François",
+  "editeur": "Didier jeunesse",
+  "isbns": [
+   "9782278070817",
+   "9782278067503"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 53476,
+    "md5": "479a1ba81e",
+    "ok": true,
+    "dim": "600x788"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 52154,
+    "md5": "08d22f92ce",
+    "ok": true,
+    "dim": "373x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "famille-vieillepierre": {
+  "titre": "La famille Vieillepierre",
+  "auteur": "Todd-Stanton Joe",
+  "editeur": "Ed. Sarbacane",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:La famille Vieillepierre inauthor:Joe",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "mythologie-en-bd": {
+  "titre": "La mythologie en BD",
+  "auteur": "Bottet Béatrice",
+  "editeur": "Casterman",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:La mythologie en BD inauthor:Béatrice",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "philosophie-koala": {
+  "titre": "La philosophie Koala",
+  "auteur": "Rodriguez Béatrice",
+  "editeur": "Casterman",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:La philosophie Koala inauthor:Béatrice",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "quete": {
+  "titre": "La quête",
+  "auteur": "Maupomé Frédéric",
+  "editeur": "Le Lombard",
+  "isbns": [
+   "9782808212540",
+   "9782808214834",
+   "9782808217385"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 118870,
+    "md5": "21616c0591",
+    "ok": true,
+    "dim": "600x780"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 109234,
+    "md5": "507a034968",
+    "ok": true,
+    "dim": "379x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "sentinelle-du-petit-peuple": {
+  "titre": "La sentinelle du petit peuple",
+  "auteur": "Forns Charlie",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9791034738144",
+   "9791034750924",
+   "9791034757466",
+   "9791034769827"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 104843,
+    "md5": "8c109cdc20",
+    "ok": true,
+    "dim": "600x815"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 87403,
+    "md5": "19c06387aa",
+    "ok": true,
+    "dim": "362x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "sorciere-de-wickerson": {
+  "titre": "La sorcière de Wickerson",
+  "auteur": "Laufman Derek",
+  "editeur": "Aventuriers de l'étrange",
+  "isbns": [
+   "9782490195404"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 113459,
+    "md5": "3e79817f2e",
+    "ok": true,
+    "dim": "600x740"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 114772,
+    "md5": "aa8b0c03ea",
+    "ok": true,
+    "dim": "400x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "bazar-bizarre": {
+  "titre": "Le Bazar Bizarre",
+  "auteur": "Venegoni Valentina",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822247269"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 12145,
+    "md5": "0e2e9f6600",
+    "ok": true,
+    "dim": "128x169"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 241044,
+    "md5": "4e6b8168c4",
+    "ok": true,
+    "dim": "600x789"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 97624,
+    "md5": "4761535613",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "cauchemarre-de-motordu": {
+  "titre": "Le cauchemarre de Motordu",
+  "auteur": "Pef",
+  "editeur": "Gallimard",
+  "isbns": [
+   "9782070657865"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 248581,
+    "md5": "9fa8832e8d",
+    "ok": true,
+    "dim": "600x755"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 105849,
+    "md5": "25d747829e",
+    "ok": true,
+    "dim": "397x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "choix-de-sam": {
+  "titre": "Le choix de Sam",
+  "auteur": "Pitz Nicolas",
+  "editeur": "Rue de Sèvres",
+  "isbns": [
+   "9782810207947"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 177349,
+    "md5": "ea3586b1c0",
+    "ok": true,
+    "dim": "600x781"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 75828,
+    "md5": "cec095d76e",
+    "ok": true,
+    "dim": "384x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "fils-du-pirate": {
+  "titre": "Le Fils du pirate",
+  "auteur": "Bourgeau Vincent",
+  "editeur": "Seuil Jeunesse",
+  "isbns": [
+   "9782020415446"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 27439,
+    "md5": "025420eaca"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 48967,
+    "md5": "126255635c"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "livre": {
+  "titre": "Le livre",
+  "auteur": "Bourgeau Vincent",
+  "editeur": "L'Ecole des Loisirs",
+  "isbns": [],
+  "sources": {
+   "ol-recherche": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 11190,
+    "md5": "92ee085e67",
+    "ok": true,
+    "dim": "180x218"
+   }
+  },
+  "gbRecherche": {
+   "q": "intitle:Le livre inauthor:Vincent",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "LE LIVRE QUI DORT",
+     [
+      "Cédric RAMADIER",
+      "Vincent BOURGEAU"
+     ],
+     null
+    ],
+    [
+     "le livre qui a peur",
+     [
+      "Cédric Ramadier",
+      "Vincent Bourgeau"
+     ],
+     11273655
+    ],
+    [
+     "le livre qui a bobo",
+     [
+      "Cédric Ramadier",
+      "Vincent Bourgeau"
+     ],
+     10832482
+    ]
+   ]
+  }
+ },
+ "monde-des-cancres": {
+  "titre": "Le monde des cancres",
+  "auteur": "Bary Nicolas",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9791034732739"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 57506,
+    "md5": "2b22d50aa1",
+    "ok": true,
+    "dim": "600x775"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 60959,
+    "md5": "7977e59537",
+    "ok": true,
+    "dim": "378x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "mystere-du-lac": {
+  "titre": "Le mystère du lac",
+  "auteur": "Pamment Jason",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822243315",
+   "9782822236768"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 257171,
+    "md5": "b8c041b0fe",
+    "ok": true,
+    "dim": "600x836"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 73071,
+    "md5": "af16fa29e5",
+    "ok": true,
+    "dim": "346x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "pecheur-et-la-salamandre": {
+  "titre": "Le pêcheur et la salamandre",
+  "auteur": "Monde Geoffroy",
+  "editeur": "Charivari",
+  "isbns": [
+   "9782487663299"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 11920,
+    "md5": "63b7377ecd",
+    "ok": true,
+    "dim": "128x171"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 224624,
+    "md5": "1ca29b0a19",
+    "ok": true,
+    "dim": "600x799"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 101731,
+    "md5": "37014d6a73",
+    "ok": true,
+    "dim": "375x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "roi-ensommeille": {
+  "titre": "Le roi ensommeillé",
+  "auteur": "Dahman Myriam",
+  "editeur": "Oxymore",
+  "isbns": [
+   "9782385610029"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10709,
+    "md5": "92183055d8",
+    "ok": true,
+    "dim": "128x171"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 96901,
+    "md5": "ec993e2717",
+    "ok": true,
+    "dim": "600x840"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 85611,
+    "md5": "1f3177249d",
+    "ok": true,
+    "dim": "357x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "royaume-des-brumes": {
+  "titre": "Le royaume des brumes",
+  "auteur": "Rocchi Marco",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822235594"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 205976,
+    "md5": "7aa5bb6692",
+    "ok": true,
+    "dim": "600x830"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 78681,
+    "md5": "0b5f066847",
+    "ok": true,
+    "dim": "361x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "saute-de-lapin": {
+  "titre": "Le sauté de lapin",
+  "auteur": "Camil Jérôme",
+  "editeur": "Alice jeunesse",
+  "isbns": [
+   "9782874265242"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 161364,
+    "md5": "cf01b00862",
+    "ok": true,
+    "dim": "600x774"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 64307,
+    "md5": "c9c12fd93f",
+    "ok": true,
+    "dim": "370x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "temps-des-mitaines": {
+  "titre": "Le Temps des mitaines",
+  "auteur": "Clément Loïc",
+  "editeur": "Didier jeunesse",
+  "isbns": [
+   "9782278081875"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 33129,
+    "md5": "85e614e671",
+    "ok": true,
+    "dim": "373x500"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 83423,
+    "md5": "1deddfb561",
+    "ok": true,
+    "dim": "373x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "aventures-de-vick-et-vicky": {
+  "titre": "Les aventures de Vick et Vicky",
+  "auteur": "Rolland Jean",
+  "editeur": "P'tit Louis",
+  "isbns": [
+   "9782950716422",
+   "9782373730630",
+   "9782950716439",
+   "9782373730517"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 228692,
+    "md5": "d3da4e580a",
+    "ok": true,
+    "dim": "600x789"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 95234,
+    "md5": "9c4e2de57f",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "aventures-indispensables-de-mister-goupil-et-monsieur-le-chick": {
+  "titre": "Les aventures indispensables de Mister Goupil et Monsieur Le Chick",
+  "auteur": "Vinasely",
+  "editeur": "Caurette Editions",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Les aventures indispensables de Mister Goupil et Monsieur Le Chick inauthor:Vinasely",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "bad-guys": {
+  "titre": "Les bad guys",
+  "auteur": "Blabey Aaron",
+  "editeur": "Casterman",
+  "isbns": [
+   "9782203241527",
+   "9782203241534",
+   "9782203250888"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 133310,
+    "md5": "9de892f0b8",
+    "ok": true,
+    "dim": "600x780"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 62754,
+    "md5": "2a62c574fd",
+    "ok": true,
+    "dim": "384x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "chevaliers-de-l-etrange": {
+  "titre": "Les chevaliers de l'étrange",
+  "auteur": "Halard Anaïs",
+  "editeur": "Editions Oxymore",
+  "isbns": [
+   "9782385610425",
+   "9782385610913"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 12161,
+    "md5": "b1e80e93ae",
+    "ok": true,
+    "dim": "128x171"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 130990,
+    "md5": "f0fc007c0a",
+    "ok": true,
+    "dim": "600x840"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 104868,
+    "md5": "f4950f01df",
+    "ok": true,
+    "dim": "357x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "contrees-salees": {
+  "titre": "Les contrées salées",
+  "auteur": "Larson Hope",
+  "editeur": "Rue de Sèvres",
+  "isbns": [
+   "9782810202607"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 56706,
+    "md5": "7448885fca",
+    "ok": true,
+    "dim": "600x812"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 59162,
+    "md5": "9edda7b43b",
+    "ok": true,
+    "dim": "364x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "detectives-du-cagibi": {
+  "titre": "Les détectives du cagibi",
+  "auteur": "Esch Tanja",
+  "editeur": "Biscoto",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Les détectives du cagibi inauthor:Tanja",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "enfants-perches-de-la-revolution": {
+  "titre": "Les enfants perchés de la Révolution",
+  "auteur": "Bordas Jean-Sébastien",
+  "editeur": "Casterman",
+  "isbns": [
+   "9782203226012",
+   "9782203254916",
+   "9782203254909"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 223038,
+    "md5": "1d3889ea31",
+    "ok": true,
+    "dim": "600x803"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 83026,
+    "md5": "f97b903325",
+    "ok": true,
+    "dim": "374x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "enquetes-de-lady-souris-jimmy-tigre": {
+  "titre": "Les enquêtes de Lady Souris & Jimmy Tigré",
+  "auteur": "Girardclos Quentin",
+  "editeur": "La Martinière jeunesse",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Les enquêtes de Lady Souris & Jimmy Tigré inauthor:Quentin",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "filles-au-chocolat-bd": {
+  "titre": "Les filles au chocolat BD",
+  "auteur": "Sébastien Raymond",
+  "editeur": "Jungle",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Les filles au chocolat BD inauthor:Raymond",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "gardiennes-des-papillons": {
+  "titre": "Les gardiennes des papillons",
+  "auteur": "O'Neill Katie",
+  "editeur": "Bliss éditions",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Les gardiennes des papillons inauthor:Katie",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "mecanos": {
+  "titre": "Les mécanos",
+  "auteur": "Saladrigas Max",
+  "editeur": "Joie de lire",
+  "isbns": [
+   "9782889084685"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 47896,
+    "md5": "dfab4fcc19",
+    "ok": true,
+    "dim": "600x781"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 50995,
+    "md5": "ca5927425f",
+    "ok": true,
+    "dim": "384x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "minions": {
+  "titre": "Les Minions",
+  "auteur": "Collin Renaud",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9782800160115",
+   "9791034737543",
+   "9782800163680",
+   "9791034731152"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 15946,
+    "md5": "683559a625",
+    "ok": true,
+    "dim": "128x177"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 116323,
+    "md5": "8d3f96ec1e",
+    "ok": true,
+    "dim": "600x815"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 102975,
+    "md5": "79eca60e08",
+    "ok": true,
+    "dim": "365x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "mondes-perdus": {
+  "titre": "Les mondes perdus",
+  "auteur": "Aucha",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9782808501972",
+   "9782808505352",
+   "9782808511902"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 13822,
+    "md5": "6bd9153f58",
+    "ok": true,
+    "dim": "128x169"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 132752,
+    "md5": "b8fcda3822",
+    "ok": true,
+    "dim": "600x775"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 113797,
+    "md5": "1ea7cd5be9",
+    "ok": true,
+    "dim": "379x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "petits-mythos": {
+  "titre": "Les petits mythos",
+  "auteur": "Cazenove Christophe",
+  "editeur": "Bamboo Editions",
+  "isbns": [
+   "9782818983904",
+   "9782818933947",
+   "9782818943939",
+   "9782818940303"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 130589,
+    "md5": "6470268348",
+    "ok": true,
+    "dim": "600x798"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 110290,
+    "md5": "6d441c97b5",
+    "ok": true,
+    "dim": "368x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "petits-tracas-de-theo-lea": {
+  "titre": "Les petits tracas de Théo & Léa",
+  "auteur": "Muzo",
+  "editeur": "Actes Sud junior",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Les petits tracas de Théo & Léa inauthor:Muzo",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "schtroumpfs-schtroumpferies": {
+  "titre": "Les Schtroumpfs - Schtroumpferies",
+  "auteur": "Peyo",
+  "editeur": "Le Lombard",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Les Schtroumpfs - Schtroumpferies inauthor:Peyo",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "simpson": {
+  "titre": "Les Simpson",
+  "auteur": "Groening Matt",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822222914",
+   "9782822215725",
+   "9782822208222",
+   "9782874426872"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 96552,
+    "md5": "4f0cb38ed1",
+    "ok": true,
+    "dim": "600x841"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 108719,
+    "md5": "d095053be4",
+    "ok": true,
+    "dim": "369x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "souvenirs-de-mamette": {
+  "titre": "Les Souvenirs de Mamette",
+  "auteur": "Nob",
+  "editeur": "Glénat",
+  "isbns": [
+   "9782344001356",
+   "9782344023693",
+   "9782723469487",
+   "9782344025833"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 191057,
+    "md5": "92c050d4e9",
+    "ok": true,
+    "dim": "600x864"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 74320,
+    "md5": "37bec11b27",
+    "ok": true,
+    "dim": "347x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "tchouks": {
+  "titre": "Les Tchouks",
+  "auteur": "Richard Benjamin",
+  "editeur": "Rue de Sèvres\nImpr. Pollina",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Les Tchouks inauthor:Benjamin",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": [
+    [
+     "LES TCHOUKS T3 ON A ATTAQUE UN CHATEAU",
+     [
+      "Benjamin Kerascoet / richard benjamin"
+     ],
+     null
+    ]
+   ]
+  }
+ },
+ "tuniques-bleues": {
+  "titre": "Les Tuniques bleues",
+  "auteur": "Lambil Willy",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9791034768554",
+   "9782800162782",
+   "9782800108582"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 45550,
+    "md5": "240ea4ef93",
+    "ok": true,
+    "dim": "600x650"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 59072,
+    "md5": "000b067e31",
+    "ok": true,
+    "dim": "453x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "utopistes": {
+  "titre": "Les Utopistes",
+  "auteur": "Zanchi Stefano",
+  "editeur": "Editions Dupuis",
+  "isbns": [
+   "9782808503389"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 205357,
+    "md5": "da1c8eae2b",
+    "ok": true,
+    "dim": "600x793"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 96322,
+    "md5": "7003499885",
+    "ok": true,
+    "dim": "378x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "vies-dansent": {
+  "titre": "Les vies dansent",
+  "auteur": "Zay Dominique",
+  "editeur": "Ed. de la Gouttière",
+  "isbns": [
+   "9782357960657"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 61100,
+    "md5": "276e60111a",
+    "ok": true,
+    "dim": "600x800"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 63118,
+    "md5": "fd2c9660f9",
+    "ok": true,
+    "dim": "371x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "lison": {
+  "titre": "Lison",
+  "auteur": "Mayen Cédric",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822248334"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 165850,
+    "md5": "fd1370a1d6",
+    "ok": true,
+    "dim": "600x795"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 74073,
+    "md5": "310e7c7e9f",
+    "ok": true,
+    "dim": "377x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "lolicornes": {
+  "titre": "Lolicornes",
+  "auteur": "Ced",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9791034747719",
+   "9791034754304",
+   "9791034762576"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 75488,
+    "md5": "ef0b573a43",
+    "ok": true,
+    "dim": "600x732"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 88097,
+    "md5": "bcfb849fe0",
+    "ok": true,
+    "dim": "398x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "louca": {
+  "titre": "Louca",
+  "auteur": "Dequier Bruno",
+  "editeur": "Editions Dupuis",
+  "isbns": [
+   "9791034753772",
+   "9791034735709",
+   "9791034730070",
+   "9782800174136"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 80138,
+    "md5": "73830de453",
+    "ok": true,
+    "dim": "600x825"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 69033,
+    "md5": "f369d69ca0",
+    "ok": true,
+    "dim": "362x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "luce-comprend-tout-trop-vite": {
+  "titre": "Luce comprend tout trop vite",
+  "auteur": "Adriansen Sophie",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822236560"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 183793,
+    "md5": "94072d2294",
+    "ok": true,
+    "dim": "600x864"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 76641,
+    "md5": "a78d2a292d",
+    "ok": true,
+    "dim": "370x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "luminous": {
+  "titre": "Luminous",
+  "auteur": "Marí Guillem",
+  "editeur": "Editions de la Gouttière",
+  "isbns": [
+   "9782357960619"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 8812,
+    "md5": "c76c0e8e15",
+    "ok": true,
+    "dim": "128x169"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 36114,
+    "md5": "a6b33fe84e",
+    "ok": true,
+    "dim": "400x526"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 81337,
+    "md5": "28f3366936",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "marla": {
+  "titre": "Marla",
+  "auteur": "Calderon Lorena",
+  "editeur": "Editions Dupuis",
+  "isbns": [
+   "9782808508643"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 220248,
+    "md5": "90bc179862",
+    "ok": true,
+    "dim": "600x794"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 104310,
+    "md5": "993ac0994b",
+    "ok": true,
+    "dim": "378x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "max-et-lili": {
+  "titre": "Max et Lili",
+  "auteur": "Saint-Mars Dominique de",
+  "editeur": "Calligram",
+  "isbns": [
+   "9782884451895",
+   "9782884451901",
+   "9782884806763",
+   "9782884453738"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 148589,
+    "md5": "61c90f7f5f",
+    "ok": true,
+    "dim": "600x789"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 68110,
+    "md5": "53fcfae386",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "merlin": {
+  "titre": "Merlin",
+  "auteur": "Sfar Joann",
+  "editeur": "Dargaud",
+  "isbns": [
+   "9782205078343",
+   "9782205047943",
+   "9782205080483",
+   "9782205049039"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 87380,
+    "md5": "c0b884c67f",
+    "ok": true,
+    "dim": "600x797"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 86398,
+    "md5": "426e42cbea",
+    "ok": true,
+    "dim": "370x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "mi-mouche": {
+  "titre": "Mi-Mouche",
+  "auteur": "Cazot Vero",
+  "editeur": "Editions Dupuis",
+  "isbns": [
+   "9782808504348",
+   "9782808506823",
+   "9782808513661"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 7715,
+    "md5": "6f68d0480c",
+    "ok": true,
+    "dim": "128x170"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 145843,
+    "md5": "04b29650bd",
+    "ok": true,
+    "dim": "600x794"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 64059,
+    "md5": "8dc854311e",
+    "ok": true,
+    "dim": "378x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "mirabelle": {
+  "titre": "Mirabelle",
+  "auteur": "Peultier Christian",
+  "editeur": "Glénat",
+  "isbns": [
+   "9782723431330",
+   "9782723436786",
+   "9782723442497",
+   "9782723447393"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 241446,
+    "md5": "8cb16e08a6",
+    "ok": true,
+    "dim": "600x818"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 74264,
+    "md5": "884fb6af03",
+    "ok": true,
+    "dim": "366x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "miss-shaolin": {
+  "titre": "Miss Shaolin",
+  "auteur": "Bottier Isabelle",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822236546",
+   "9782822240932"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 177697,
+    "md5": "f5394cef8f",
+    "ok": true,
+    "dim": "600x791"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 75946,
+    "md5": "51413880f6",
+    "ok": true,
+    "dim": "379x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "molang": {
+  "titre": "Molang",
+  "auteur": "Goroglin",
+  "editeur": "Dupuis",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Molang inauthor:Goroglin",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "mon-potager-au-fil-des-saisons-en-bd": {
+  "titre": "Mon potager au fil des saisons en BD",
+  "auteur": "Ruau Stento Mathilde",
+  "editeur": "Casterman",
+  "isbns": [
+   "9782203218161"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 233109,
+    "md5": "c67cedf1c0",
+    "ok": true,
+    "dim": "600x814"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 91129,
+    "md5": "a28c1eab85",
+    "ok": true,
+    "dim": "368x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "mystere-au-musee": {
+  "titre": "Mystère au Musée",
+  "auteur": "Tunnicliffe Hannah",
+  "editeur": "Casterman",
+  "isbns": [
+   "9782203292932"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 254622,
+    "md5": "71539d66fb",
+    "ok": true,
+    "dim": "600x827"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 94938,
+    "md5": "291b4f75ff",
+    "ok": true,
+    "dim": "363x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "nelson": {
+  "titre": "Nelson",
+  "auteur": "Bertschy Christophe",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9791034759477",
+   "9782800143880",
+   "9782800135779",
+   "9791034759484"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 69466,
+    "md5": "84dd090d31",
+    "ok": true,
+    "dim": "600x732"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 67154,
+    "md5": "329db7ad86",
+    "ok": true,
+    "dim": "399x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "nevermoor": {
+  "titre": "Nevermoor",
+  "auteur": "L'Hermenier Maxe",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822240857",
+   "9782822241335"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 205669,
+    "md5": "d5863fffc5",
+    "ok": true,
+    "dim": "600x783"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 86992,
+    "md5": "1674fc5639",
+    "ok": true,
+    "dim": "382x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "nonolulu": {
+  "titre": "Nonolulu",
+  "auteur": "Battault Paule",
+  "editeur": "Editions Auzou",
+  "isbns": [
+   "9791039565615"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 266911,
+    "md5": "e1ef62294f",
+    "ok": true,
+    "dim": "600x789"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 105450,
+    "md5": "46aebc4ef2",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "nunuche": {
+  "titre": "Nunuche",
+  "auteur": "Bianco Guillaume",
+  "editeur": "Dargaud",
+  "isbns": [
+   "9782205206494",
+   "9782205211689",
+   "9782205213102"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 7882,
+    "md5": "294acfa966",
+    "ok": true,
+    "dim": "128x167"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 45707,
+    "md5": "89c7546704",
+    "ok": true,
+    "dim": "600x775"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 50597,
+    "md5": "47fe5a04cc",
+    "ok": true,
+    "dim": "384x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "ocelot-le-chat-qui-n-en-etait-pas-un": {
+  "titre": "Ocelot le chat qui n'en était pas un",
+  "auteur": "Morvan Jean-David",
+  "editeur": "Delcourt",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Ocelot le chat qui n'en était pas un inauthor:Jean-David",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "papi-genial": {
+  "titre": "Papi Génial",
+  "auteur": "Emeriau Tony",
+  "editeur": "Komics initiative",
+  "isbns": [
+   "9782491374907",
+   "9782386030000",
+   "9782386030154"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 64734,
+    "md5": "ee7085063c",
+    "ok": true,
+    "dim": "577x794"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 64786,
+    "md5": "468cb84b4e",
+    "ok": true,
+    "dim": "363x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "papi-genial-et-sa-bulle-qui-va-partout": {
+  "titre": "Papi génial et sa bulle qui va partout",
+  "auteur": "Emeriau Tony",
+  "editeur": "Kennes Editions",
+  "isbns": [
+   "9782380754117"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 32987,
+    "md5": "7b77b11f49",
+    "ok": true,
+    "dim": "373x500"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 76463,
+    "md5": "c7381f7530",
+    "ok": true,
+    "dim": "375x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "pepin-et-olivia": {
+  "titre": "Pépin et Olivia",
+  "auteur": "Jourdy Camille",
+  "editeur": "Dupuis",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Pépin et Olivia inauthor:Camille",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "perdus-dans-le-futur": {
+  "titre": "Perdus dans le futur",
+  "auteur": "Campanario Damian",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9791034765140",
+   "9791034739004",
+   "9791034747627",
+   "9791034764990"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 73059,
+    "md5": "c01aff5287",
+    "ok": true,
+    "dim": "400x529"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 120966,
+    "md5": "600499d987",
+    "ok": true,
+    "dim": "378x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "pitchi-poi": {
+  "titre": "Pitchi Poï.",
+  "auteur": "Guth Claude",
+  "editeur": "Delcourt",
+  "isbns": [
+   "9782840555056",
+   "9782840559320",
+   "9782847897197"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 115715,
+    "md5": "1532c00f68",
+    "ok": true,
+    "dim": "609x833"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 99430,
+    "md5": "cebd449f2f",
+    "ok": true,
+    "dim": "382x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "polo": {
+  "titre": "Polo",
+  "auteur": "Faller Régis",
+  "editeur": "Bayard jeunesse",
+  "isbns": [
+   "9782747054102",
+   "9782747052115",
+   "9782747054119",
+   "9782747054133"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 107565,
+    "md5": "629dfc634b",
+    "ok": true,
+    "dim": "1000x1149"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 46024,
+    "md5": "95fbb153b7",
+    "ok": true,
+    "dim": "440x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "quand-la-nuit-tombe": {
+  "titre": "Quand la nuit tombe",
+  "auteur": "Achard Marion",
+  "editeur": "Delcourt",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Quand la nuit tombe inauthor:Marion",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "rackette-moi-si-tu-peux": {
+  "titre": "Rackette-moi si tu peux",
+  "auteur": "Adriansen Sophie",
+  "editeur": "Gulf Stream",
+  "isbns": [
+   "9782354885571"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 135909,
+    "md5": "c3a27e5eeb",
+    "ok": true,
+    "dim": "600x852"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 52264,
+    "md5": "de0cf8baf6",
+    "ok": true,
+    "dim": "352x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "rantanplan": {
+  "titre": "Rantanplan",
+  "auteur": "Morris",
+  "editeur": "Lucky comics",
+  "isbns": [
+   "9782884711333",
+   "9782884712514",
+   "9782884712385",
+   "9782884712521"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/png",
+    "taille": 2687,
+    "md5": "5da5beba0e",
+    "ok": true,
+    "dim": "154x173"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 77778,
+    "md5": "a408d6ee70",
+    "ok": true,
+    "dim": "367x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "runes": {
+  "titre": "Runes",
+  "auteur": "Sánchez Carlos",
+  "editeur": "Casterman",
+  "isbns": [
+   "9782203287426",
+   "9782203290242",
+   "9782203290259"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 12121,
+    "md5": "238231dccb",
+    "ok": true,
+    "dim": "128x177"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 274377,
+    "md5": "d8fd25a181",
+    "ok": true,
+    "dim": "600x830"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 101857,
+    "md5": "2cd9a48816",
+    "ok": true,
+    "dim": "363x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "sami-et-julie": {
+  "titre": "Sami et Julie",
+  "auteur": "Aladjdi Virginie",
+  "editeur": "Hachette Education",
+  "isbns": [
+   "9782013950435",
+   "9782013950442",
+   "9782017016380",
+   "9782017016892"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 89984,
+    "md5": "db25588794",
+    "ok": true,
+    "dim": "600x861"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 71521,
+    "md5": "00d58cdd65",
+    "ok": true,
+    "dim": "341x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "shaker-monster": {
+  "titre": "Shaker monster",
+  "auteur": "Mr Tan",
+  "editeur": "Gallimard-bande dessinée",
+  "isbns": [
+   "9782070663804",
+   "9782070667239",
+   "9782075099387",
+   "9782075123990"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 194303,
+    "md5": "677009acd4",
+    "ok": true,
+    "dim": "600x774"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 85349,
+    "md5": "a3f127096e",
+    "ok": true,
+    "dim": "388x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "snoopy-les-peanuts": {
+  "titre": "Snoopy & les Peanuts",
+  "auteur": "Schulz Charles Monroe",
+  "editeur": "Dargaud",
+  "isbns": [
+   "9782205057874",
+   "9782205059298",
+   "9782205059731",
+   "9782205059748"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 221966,
+    "md5": "5b72d9d2e9"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 55106,
+    "md5": "d439356b95"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "sorceline": {
+  "titre": "Sorceline",
+  "auteur": "Douyé Sylvia",
+  "editeur": "Vents d'Ouest",
+  "isbns": [
+   "9782749308524",
+   "9782749308975",
+   "9782749309200",
+   "9782749309477"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 11899,
+    "md5": "a0c8cd573a",
+    "ok": true,
+    "dim": "128x174"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 249283,
+    "md5": "f60f320393",
+    "ok": true,
+    "dim": "600x817"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 92737,
+    "md5": "73005d77c3",
+    "ok": true,
+    "dim": "367x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "sorunne": {
+  "titre": "Sorunne",
+  "auteur": "Reinfeld Diego G.",
+  "editeur": "Spaceman Project",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Sorunne inauthor:G.",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "spirou-et-fantasio": {
+  "titre": "Spirou et Fantasio",
+  "auteur": "Franquin André",
+  "editeur": "Dupuis",
+  "isbns": [
+   "9782808504645",
+   "9782800138459",
+   "9782800104751"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 84745,
+    "md5": "754525cc1a",
+    "ok": true,
+    "dim": "600x800"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 74036,
+    "md5": "e7abb76930",
+    "ok": true,
+    "dim": "365x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "super-a": {
+  "titre": "Super A",
+  "auteur": "Moreau Jérémie",
+  "editeur": "Albin Michel",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Super A inauthor:Jérémie",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "supers": {
+  "titre": "Supers",
+  "auteur": "Maupomé Frédéric",
+  "editeur": "les Editions de la Gouttière",
+  "isbns": [
+   "9791092111309",
+   "9791092111255",
+   "9791092111385",
+   "9791092111538"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/png",
+    "taille": 1269,
+    "md5": "e89e0e364e",
+    "ok": true,
+    "dim": "128x170"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/png",
+    "taille": 2687,
+    "md5": "5da5beba0e",
+    "ok": true,
+    "dim": "154x173"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 97256,
+    "md5": "71e5847ae7",
+    "ok": true,
+    "dim": "361x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "tao-et-ses-monstres": {
+  "titre": "Tao et ses monstres",
+  "auteur": "Toussaint Kid",
+  "editeur": "Le Lombard",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Tao et ses monstres inauthor:Kid",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "tillo-et-compagnie": {
+  "titre": "Tillo et compagnie",
+  "auteur": "Simon Quitterie",
+  "editeur": "Glénat jeunesse",
+  "isbns": [
+   "9782344069547"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 239835,
+    "md5": "412edb6a92"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 81299,
+    "md5": "a2d03190d6"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "tilly-zorus": {
+  "titre": "Tilly Zorus",
+  "auteur": "Ced",
+  "editeur": "Auzou",
+  "isbns": [
+   "9791039504577"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 19052,
+    "md5": "dd5ee06da0"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 70327,
+    "md5": "dc7e7fd13a",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "toutou-detective-le-heros-de-la-bd-c-est-toi": {
+  "titre": "Toutou détective : le héros de la BD c'est toi !",
+  "auteur": "Tartarotti Stefano",
+  "editeur": "Ynnis éditions",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Toutou détective : le héros de la BD c'est toi ! inauthor:Stefano",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "trois-grains-de-riz": {
+  "titre": "Trois grains de riz",
+  "auteur": "Aki",
+  "editeur": "Gallimard",
+  "isbns": [
+   "9782070638147"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 105396,
+    "md5": "eaadc9c4db",
+    "ok": true,
+    "dim": "600x785"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 53605,
+    "md5": "10fdf30dff",
+    "ok": true,
+    "dim": "382x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "un-chant-de-noel": {
+  "titre": "Un chant de Noël",
+  "auteur": "L'Hermenier Maxe",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822236652"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 247858,
+    "md5": "fa04634804",
+    "ok": true,
+    "dim": "600x880"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 84858,
+    "md5": "433f4913fc",
+    "ok": true,
+    "dim": "341x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "un-ete-au-chalet": {
+  "titre": "Un été au chalet",
+  "auteur": "Aluna",
+  "editeur": "Kennes Editions",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Un été au chalet inauthor:Aluna",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "un-ete-d-enfer": {
+  "titre": "Un été d'enfer !",
+  "auteur": "Brosgol Vera",
+  "editeur": "Rue de Sèvres\nRue de Sèvres",
+  "isbns": [
+   "9782369812067"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 120192,
+    "md5": "84d5867ecb",
+    "ok": true,
+    "dim": "600x873"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 91567,
+    "md5": "4bf359d178",
+    "ok": true,
+    "dim": "335x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "une-aventure-de-rose-et-lock-holmes": {
+  "titre": "Une aventure de Rose et Lock Holmes",
+  "auteur": "Litten Kristyna",
+  "editeur": "La Doux",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Une aventure de Rose et Lock Holmes inauthor:Kristyna",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ },
+ "une-epatante-aventure-de-jules": {
+  "titre": "Une épatante aventure de Jules",
+  "auteur": "Bravo Emile",
+  "editeur": "Dargaud",
+  "isbns": [
+   "9782205058987",
+   "9782205049213",
+   "9782205058994",
+   "9782205050622"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 147396,
+    "md5": "580315cb5f",
+    "ok": true,
+    "dim": "689x838"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 59324,
+    "md5": "58d02272a5",
+    "ok": true,
+    "dim": "417x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "unico": {
+  "titre": "Unico",
+  "auteur": "Tezuka Osamu",
+  "editeur": "Flammarion jeunesse",
+  "isbns": [
+   "9782080488756",
+   "9782080488763"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 225396,
+    "md5": "071fd3905d",
+    "ok": true,
+    "dim": "600x888"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 76516,
+    "md5": "69a5be1371",
+    "ok": true,
+    "dim": "338x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "unico-l-eveil": {
+  "titre": "Unico : l'éveil",
+  "auteur": "Tezuka Osamu",
+  "editeur": "Flammarion jeunesse",
+  "isbns": [
+   "9782080488756"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 225396,
+    "md5": "071fd3905d",
+    "ok": true,
+    "dim": "600x888"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 76516,
+    "md5": "69a5be1371",
+    "ok": true,
+    "dim": "338x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "violette-autour-du-monde": {
+  "titre": "Violette autour du monde",
+  "auteur": "Radice Teresa",
+  "editeur": "Dargaud",
+  "isbns": [
+   "9782205073744",
+   "9782205074437",
+   "9782205074444"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 65472,
+    "md5": "ba202cade7",
+    "ok": true,
+    "dim": "600x788"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 67694,
+    "md5": "d9c8b6133b",
+    "ok": true,
+    "dim": "380x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "violette-tenebris": {
+  "titre": "Violette Ténébris",
+  "auteur": "Manand Marie",
+  "editeur": "Jungle",
+  "isbns": [
+   "9782822250238"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/png",
+    "taille": 1269,
+    "md5": "e89e0e364e",
+    "ok": true,
+    "dim": "128x170"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 173463,
+    "md5": "7248612fd4",
+    "ok": true,
+    "dim": "600x787"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 81945,
+    "md5": "5f5c4b058e",
+    "ok": true,
+    "dim": "381x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "zelie-et-compagnie": {
+  "titre": "Zélie et compagnie",
+  "auteur": "Corbeyran",
+  "editeur": "Bayard",
+  "isbns": [
+   "9782747009522",
+   "9782747009515",
+   "9782747016254",
+   "9782747022965"
+  ],
+  "sources": {
+   "gb-content": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 10794,
+    "md5": "d7c21c65fc",
+    "ok": true,
+    "dim": "128x184"
+   },
+   "epagine": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 72024,
+    "md5": "e2418860e9",
+    "ok": true,
+    "dim": "535x706"
+   },
+   "decitre": {
+    "statut": 200,
+    "type": "image/jpeg",
+    "taille": 80912,
+    "md5": "142a1c75c8",
+    "ok": true,
+    "dim": "379x500"
+   },
+   "bdfugue": {
+    "statut": 403,
+    "type": "",
+    "taille": 0,
+    "md5": ""
+   }
+  },
+  "gbApi": {
+   "statut": 429
+  }
+ },
+ "zelie-et-micha": {
+  "titre": "Zélie et Micha",
+  "auteur": "Naumann-Villemin Christine",
+  "editeur": "Nathan Jeunesse",
+  "isbns": [],
+  "sources": {},
+  "gbRecherche": {
+   "q": "intitle:Zélie et Micha inauthor:Christine",
+   "statut": 429
+  },
+  "olRecherche": {
+   "statut": 200,
+   "titres": []
+  }
+ }
+}
