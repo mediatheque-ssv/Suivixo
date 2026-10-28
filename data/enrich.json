@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T21:52:49Z",
+ "maj": "2026-10-28T22:10:18Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -606,11 +606,11 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "couvEssai": "2026-10-23",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 1,
-    "maj": "2026-10-23"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/A-Silent-Voice",
+    "maj": "2026-10-28"
    },
    "mangaNews": {
     "tomes": 7,
@@ -633,7 +633,9 @@
    "liensVus": {
     "mangaNews": "index.php/serie/A-Silent-Voice",
     "bedetheque": "serie-46085-BD-A-Silent-Voice.html"
-   }
+   },
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.a-silent-voice-1-ki-oon_medium.webp",
+   "couvVersion": 3
   },
   "ad-astra-scipion-l-africain-hannibal-barca": {
    "anilist": {
@@ -1654,11 +1656,11 @@
     "requete": "bib.title all \"amer beton\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "couvEssai": "2026-10-23",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 2,
-    "maj": "2026-10-23"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Amer-beton",
+    "maj": "2026-10-28"
    },
    "verifie": "2026-10-23",
    "mangaNews": {
@@ -1680,7 +1682,9 @@
     "verifie": "2026-10-23"
    },
    "anilistVerifie": "2026-10-23",
-   "liensVus": {}
+   "liensVus": {},
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.amer-beton-1-tonkam_medium.webp",
+   "couvVersion": 3
   },
   "amour-est-au-menu": {
    "anilist": {
@@ -6858,11 +6862,11 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "couvEssai": "2026-10-23",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 2,
-    "maj": "2026-10-23"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Boruto-Naruto-Next-Generations",
+    "maj": "2026-10-28"
    },
    "mangaNews": {
     "tomes": 20,
@@ -6885,7 +6889,9 @@
    "liensVus": {
     "mangaNews": "index.php/serie/Boruto-Naruto-Next-Generations",
     "bedetheque": "serie-55668-BD-Boruto-Naruto-Next-Generations.html"
-   }
+   },
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.boruto-naruto-next-generation-1-kana_medium.webp",
+   "couvVersion": 3
   },
   "box-qu-y-a-t-il-dans-la-boite": {
    "anilist": {
@@ -7490,11 +7496,11 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "couvEssai": "2026-10-23",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 1,
-    "maj": "2026-10-23"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Capitaine-Albator-Dimension-Voyage",
+    "maj": "2026-10-28"
    },
    "mangaNews": {
     "tomes": 10,
@@ -7518,7 +7524,9 @@
    "liensVus": {
     "mangaNews": "index.php/serie/Capitaine-Albator-Dimension-Voyage",
     "bedetheque": "serie-51430-BD-Capitaine-Albator-Dimension-voyage.html"
-   }
+   },
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.albator-dimesion-voyage-vf_medium.webp",
+   "couvVersion": 3
   },
   "captain-tsubasa": {
    "anilist": {
@@ -8375,14 +8383,16 @@
     ],
     "requete": "bib.title all \"chants du cygne noir\" and (bib.doctype=\"a\")"
    },
-   "couvEssai": "2026-10-26",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 1,
-    "maj": "2026-10-26"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Chants-du-Cygne-Noir-Les",
+    "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-26",
-   "liensVus": {}
+   "liensVus": {},
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Chants-du-cygne-noir_t1_Rue-de-sevres_medium.webp",
+   "couvVersion": 3
   },
   "chasse-au-cadavre": {
    "anilist": {
@@ -10868,11 +10878,11 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "couvEssai": "2026-10-23",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 1,
-    "maj": "2026-10-23"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Creatures-fantastiques",
+    "maj": "2026-10-28"
    },
    "mangaNews": {
     "tomes": 5,
@@ -10893,7 +10903,9 @@
     "annee": 2016,
     "verifie": "2026-10-23"
    },
-   "liensVus": {}
+   "liensVus": {},
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.creatures-fantastiques-1-komikku_medium.webp",
+   "couvVersion": 3
   },
   "crows": {
    "bnf": {
@@ -11663,11 +11675,11 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "couvEssai": "2026-10-23",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 1,
-    "maj": "2026-10-23"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Darwins-Game",
+    "maj": "2026-10-28"
    },
    "mangaNews": {
     "tomes": 30,
@@ -11691,7 +11703,9 @@
    "liensVus": {
     "mangaNews": "index.php/serie/Darwins-Game",
     "bedetheque": "serie-44387-BD-Darwin-s-Game.html"
-   }
+   },
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.darwins-game-1-ki-oon_medium.webp",
+   "couvVersion": 3
   },
   "darwin-s-incident": {
    "anilist": {
@@ -11853,11 +11867,11 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "couvEssai": "2026-10-23",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 1,
-    "maj": "2026-10-23"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Death-note",
+    "maj": "2026-10-28"
    },
    "mangaNews": {
     "tomes": 13,
@@ -11882,7 +11896,9 @@
    "liensVus": {
     "mangaNews": "index.php/serie/Death-note",
     "bedetheque": "serie-14704-BD-Death-Note.html"
-   }
+   },
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.death_note_01_medium.webp",
+   "couvVersion": 3
   },
   "death-note-black-edition": {
    "anilist": {
@@ -23614,12 +23630,12 @@
    },
    "bnfVerifie": "2026-10-27",
    "verifie": "2026-10-27",
-   "couvEssai": "2026-10-27",
-   "couvVersion": 2,
+   "couvEssai": "2026-10-28",
+   "couvVersion": 3,
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
-    "maj": "2026-10-27"
+    "maj": "2026-10-28"
    },
    "liensVus": {},
    "couvEssaiMN": ""
@@ -27176,11 +27192,11 @@
     "requete": "bib.title all \"noragami\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "couvEssai": "2026-10-23",
+   "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 2,
-    "maj": "2026-10-23"
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Nos-choeurs-evanescents",
+    "maj": "2026-10-28"
    },
    "verifie": "2026-10-23",
    "anilist": {
@@ -27233,7 +27249,9 @@
    "liensVus": {
     "mangaNews": "index.php/serie/Nos-choeurs-evanescents",
     "bedetheque": "serie-45085-BD-Noragami.html"
-   }
+   },
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nos-choeurs-evanescents-1-akata_medium.webp",
+   "couvVersion": 3
   },
   "normaux": {
    "anilistVerifie": "2026-10-27",
