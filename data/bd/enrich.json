@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T17:46:47Z",
+ "maj": "2026-10-28T17:56:58Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -1174,7 +1174,15 @@
   "aventures-indispensables-de-mister-goupil-et-monsieur-le-chick": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2
+   "couvVersion": 2,
+   "liensVus": {},
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"aventures indispensables de mister goupil et monsieur le chick\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28"
   },
   "avni": {
    "couvEssai": "2026-10-28",
@@ -4978,7 +4986,12 @@
     ],
     "requete": "bib.title all \"hericornes\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 3,
+    "maj": "2026-10-28"
+   }
   },
   "histoire-de-france-en-bd": {
    "couvEssai": "2026-10-28",
@@ -6177,6 +6190,42 @@
    },
    "bnfVerifie": "2026-10-28"
   },
+  "loser-jack": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2022-02",
+    "editeur": "Bamboo édition",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46696282c",
+    "isbn1": "9782818978269",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46696282c",
+      "isbn": "9782818978269"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb469675663",
+      "isbn": "9782818990278"
+     }
+    ],
+    "requete": "bib.title all \"loser jack\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "lou": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -6271,6 +6320,36 @@
    "couvVersion": 2,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
+  },
+  "louise-ou-l-enfance-de-bigoudi": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2020",
+    "editeur": "les Fourmis rouges",
+    "notices": 1,
+    "ark1": "ark:/12148/cb46510693v",
+    "isbn1": "9782369021087",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46510693v",
+      "isbn": "9782369021087"
+     }
+    ],
+    "requete": "bib.title all \"louise ou enfance de bigoudi\" and (bib.doctype=\"a\") and bib.author all \"delphine\""
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "louisette-la-taupe": {
    "couvVersion": 2,
@@ -6404,6 +6483,58 @@
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
   },
+  "lucky-luke": {
+   "bnf": {
+    "dernier": 41,
+    "tomes": "1-15,17-28,30,32-41",
+    "dateDernier": "2014",
+    "editeur": "Lucky comics",
+    "notices": 75,
+    "autresEditeurs": [
+     "",
+     "Barcelone",
+     "Bruxelles",
+     "Dargaud",
+     "Dupuis"
+    ],
+    "ark1": "ark:/12148/cb40984546b",
+    "isbn1": "9782884712033",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb40984546b",
+      "isbn": "9782884712033"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39960463d",
+      "isbn": "2884710132"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb420838997",
+      "isbn": "9782884712606"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb39958704f",
+      "isbn": "2884710248"
+     }
+    ],
+    "requete": "bib.title all \"lucky luke\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "lucy-poids-plume": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -6470,6 +6601,46 @@
     "requete": "bib.title all \"lumiere\" and (bib.doctype=\"a\")"
    },
    "couvVersion": 2
+  },
+  "ma-maman-est-en-amerique-elle-a-rencontre-buffalo-bill": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2015",
+    "editeur": "Gallimard",
+    "notices": 3,
+    "ark1": "ark:/12148/cb44450102q",
+    "isbn1": "9782070669387",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44450102q",
+      "isbn": "9782070669387"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb410539674",
+      "isbn": "9782070572991"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb466932265",
+      "isbn": "9782075126724"
+     }
+    ],
+    "requete": "bib.title all \"ma maman est en amerique elle rencontre buffalo bill\" and (bib.doctype=\"a\") and bib.author all \"regnaud\""
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "magic": {
    "couvVersion": 2,
@@ -6577,6 +6748,36 @@
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnfVerifie": "2026-10-28"
+  },
+  "mamie-rocket": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025",
+    "editeur": "Sarbacane",
+    "notices": 1,
+    "ark1": "ark:/12148/cb476233907",
+    "isbn1": "9791040805298",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb476233907",
+      "isbn": "9791040805298"
+     }
+    ],
+    "requete": "bib.title all \"mamie rocket\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "marion-duval": {
    "couvVersion": 2,
@@ -6691,6 +6892,50 @@
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnfVerifie": "2026-10-28"
+  },
+  "max-et-lili": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 126,
+    "tomes": "17-18,21,35,42,50,53,58,62,73,76,105,109-112,125-126",
+    "dateDernier": "2021-05",
+    "editeur": "Calligram",
+    "notices": 18,
+    "autresEditeurs": [
+     "Calligram-C. Gallimard",
+     "Calligram-Christian Gallimard"
+    ],
+    "ark1": "ark:/12148/cb43414120n",
+    "isbn1": "2884451897",
+    "candidatsCouv": [
+     {
+      "n": 17,
+      "ark": "ark:/12148/cb43414120n",
+      "isbn": "2884451897"
+     },
+     {
+      "n": 18,
+      "ark": "ark:/12148/cb434141210",
+      "isbn": "2884451900"
+     },
+     {
+      "n": 21,
+      "ark": "ark:/12148/cb43495270c",
+      "isbn": "9782884806763"
+     },
+     {
+      "n": 35,
+      "ark": "ark:/12148/cb37006029h",
+      "isbn": "2884453733"
+     }
+    ],
+    "requete": "bib.title all \"max et lili\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
   },
   "mecanos": {
    "couvEssai": "2026-10-28",
@@ -6887,6 +7132,52 @@
    },
    "bnfVerifie": "2026-10-28"
   },
+  "mirabelle": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2006-04",
+    "editeur": "Glénat",
+    "notices": 4,
+    "autresEditeurs": [
+     "Bonne Presse",
+     "Editions des Remparts",
+     "Éditions des Remparts",
+     "Éditions la Fille de la lune"
+    ],
+    "ark1": "ark:/12148/cb37715019c",
+    "isbn1": "2723431339",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb37715019c",
+      "isbn": "2723431339"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb389827859",
+      "isbn": "2723436780"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb39142131n",
+      "isbn": "2723442497"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb40149039p",
+      "isbn": "2723447391"
+     }
+    ],
+    "requete": "bib.title all \"mirabelle\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
+  },
   "miss-charity": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -6958,6 +7249,55 @@
     "requete": "bib.title all \"miss pipelette\" and (bib.doctype=\"a\")"
    },
    "couvVersion": 2
+  },
+  "mistinguette": {
+   "bnf": {
+    "dernier": 15,
+    "tomes": "1-13,15",
+    "dateDernier": "2024-11",
+    "editeur": "Jungle",
+    "notices": 16,
+    "autresEditeurs": [
+     "Splash !",
+     "Steinkis Groupe Jungle"
+    ],
+    "ark1": "ark:/12148/cb455910186",
+    "isbn1": "9782822226004",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb455910186",
+      "isbn": "9782822226004"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42386073k",
+      "isbn": "9782874427367"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45847205b",
+      "isbn": "9782822228480"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb426055816",
+      "isbn": "9782874428913"
+     }
+    ],
+    "requete": "bib.title all \"mistinguette\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "moi-gisele": {
    "couvVersion": 2,
@@ -7108,6 +7448,55 @@
    },
    "bnfVerifie": "2026-10-28"
   },
+  "monsieur-blaireau-et-madame-renarde": {
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-5,7-8",
+    "dateDernier": "2026-10",
+    "editeur": "Dargaud",
+    "notices": 7,
+    "autresEditeurs": [
+     "l'École des loisirs",
+     "Éditions France loisirs"
+    ],
+    "ark1": "ark:/12148/cb40135779p",
+    "isbn1": "2205056786",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb40135779p",
+      "isbn": "2205056786"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb411659194",
+      "isbn": "9782205059267"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb41489435w",
+      "isbn": "9782205062380"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42328949f",
+      "isbn": "9782205063516"
+     }
+    ],
+    "requete": "bib.title all \"monsieur blaireau et madame renarde\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 2,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "monsieur-lion-est-presse": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -7233,6 +7622,51 @@
    },
    "bnfVerifie": "2026-10-28"
   },
+  "nelson": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 28,
+    "tomes": "1-28",
+    "dateDernier": "2026-02",
+    "editeur": "Dupuis",
+    "notices": 39,
+    "autresEditeurs": [
+     "Association Grife",
+     "Ed Calmann-Lévy",
+     "Nelson"
+    ],
+    "ark1": "ark:/12148/cb46814309s",
+    "isbn1": "9791034759477",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46814309s",
+      "isbn": "9791034759477"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb414610641",
+      "isbn": "9782800143880"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39120420x",
+      "isbn": "2800135778"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb468142383",
+      "isbn": "9791034759484"
+     }
+    ],
+    "requete": "bib.title all \"nelson\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
+  },
   "nevermoor": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -7297,6 +7731,32 @@
     "requete": "bib.title all \"ninja malgre moi\" and (bib.doctype=\"a\") and bib.author all \"sanchez\""
    },
    "couvVersion": 2
+  },
+  "nonolulu": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 2,
+    "tomes": "2",
+    "dateDernier": "2026-02",
+    "editeur": "Auzou",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48710407h",
+    "isbn1": "9791039565615",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48710407h",
+      "isbn": "9791039565615"
+     }
+    ],
+    "requete": "bib.title all \"nonolulu\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
   },
   "nouk-et-blik": {
    "couvVersion": 2,
@@ -7374,6 +7834,58 @@
    "couvVersion": 2,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
+  },
+  "oliver-twist": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2011-02",
+    "editeur": "Delcourt",
+    "notices": 5,
+    "autresEditeurs": [
+     "Archipoche",
+     "CMI publishing",
+     "Ed. Hemma",
+     "Editions mondiales",
+     "Glénat"
+    ],
+    "ark1": "ark:/12148/cb410052429",
+    "isbn1": "9782756006710",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb410052429",
+      "isbn": "9782756006710"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb41156662g",
+      "isbn": "9782756009490"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb413829164",
+      "isbn": "9782756009506"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb421382319",
+      "isbn": "9782756015644"
+     }
+    ],
+    "requete": "bib.title all \"oliver twist\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "onde": {
    "couvEssai": "2026-10-28",
@@ -7574,6 +8086,32 @@
    "liensVus": {},
    "bnfVerifie": "2026-10-28"
   },
+  "papi-genial-et-sa-bulle-qui-va-partout": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021-08",
+    "editeur": "Kennes",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46861076d",
+    "isbn1": "9782380754117",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46861076d",
+      "isbn": "9782380754117"
+     }
+    ],
+    "requete": "bib.title all \"papi genial et sa bulle qui va partout\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
+  },
   "pattes": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -7673,6 +8211,36 @@
    "couvVersion": 2,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
+  },
+  "petiote-a-la-mer": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025",
+    "editeur": "Nathan bande dessinée",
+    "notices": 1,
+    "ark1": "ark:/12148/cb485709022",
+    "isbn1": "9782095047573",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb485709022",
+      "isbn": "9782095047573"
+     }
+    ],
+    "requete": "bib.title all \"petiote la mer\" and (bib.doctype=\"a\") and bib.author all \"massey\""
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "petit-nicolas": {
    "couvEssai": "2026-10-28",
@@ -7977,7 +8545,15 @@
   "petits-tracas-de-theo-lea": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2
+   "couvVersion": 2,
+   "liensVus": {},
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"petits tracas de theo lea\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28"
   },
   "philosophie-koala": {
    "couvEssai": "2026-10-28",
@@ -8022,6 +8598,42 @@
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnfVerifie": "2026-10-28"
+  },
+  "pitchi-poi": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2005-04",
+    "editeur": "Delcourt jeunesse",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb37704631f",
+    "isbn1": "2840555050",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb37704631f",
+      "isbn": "2840555050"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb39095393b",
+      "isbn": "2840559323"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb39958888k",
+      "isbn": "2847897194"
+     }
+    ],
+    "requete": "bib.title all \"pitchi poi\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
   },
   "polo": {
    "couvVersion": 2,
@@ -8130,6 +8742,36 @@
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnfVerifie": "2026-10-28"
+  },
+  "prince-edmond": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2023",
+    "editeur": "l'École des loisirs",
+    "notices": 1,
+    "ark1": "ark:/12148/cb47204282g",
+    "isbn1": "9782211318129",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47204282g",
+      "isbn": "9782211318129"
+     }
+    ],
+    "requete": "bib.title all \"prince edmond\" and (bib.doctype=\"a\") and bib.author all \"maupre\""
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "princesse-d-hazelwood": {
    "couvEssai": "2026-10-28",
@@ -8337,6 +8979,52 @@
     "requete": "bib.title all \"quete\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-28"
+  },
+  "rantanplan": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 20,
+    "tomes": "1-2,5-8,13-20",
+    "dateDernier": "2011-01",
+    "editeur": "Lucky comics",
+    "notices": 14,
+    "autresEditeurs": [
+     "Dargaud",
+     "Hachette collections",
+     "Lucky Productions",
+     "Lucky productions"
+    ],
+    "ark1": "ark:/12148/cb392082264",
+    "isbn1": "2884711333",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb392082264",
+      "isbn": "2884711333"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42071114d",
+      "isbn": "9782884712514"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb413431704",
+      "isbn": "9782884712385"
+     },
+     {
+      "n": 6,
+      "ark": "ark:/12148/cb414894007",
+      "isbn": "9782884712521"
+     }
+    ],
+    "requete": "bib.title all \"rantanplan\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
   },
   "ratafia": {
    "couvVersion": 2,
@@ -8546,6 +9234,51 @@
    },
    "bnfVerifie": "2026-10-28"
   },
+  "runes": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-10",
+    "editeur": "Casterman",
+    "notices": 4,
+    "autresEditeurs": [
+     "Heimdal",
+     "Hello éditions",
+     "les Éditions de l'Oeil du sphinx"
+    ],
+    "ark1": "ark:/12148/cb47680279z",
+    "isbn1": "9782203287426",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47680279z",
+      "isbn": "9782203287426"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48822400z",
+      "isbn": "9782203290242"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48674305k",
+      "isbn": "9782203290242"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb50019038n",
+      "isbn": "9782203290259"
+     }
+    ],
+    "requete": "bib.title all \"runes\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
+  },
   "sac-a-puces": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -8662,6 +9395,58 @@
    },
    "bnfVerifie": "2026-10-28"
   },
+  "schtroumpfs": {
+   "bnf": {
+    "dernier": 43,
+    "tomes": "14-43",
+    "dateDernier": "2025-09",
+    "editeur": "le Lombard",
+    "notices": 34,
+    "autresEditeurs": [
+     "\"Nice matin\"",
+     "Cartoon Création",
+     "Cartoon création",
+     "Chantecler",
+     "Dupuis"
+    ],
+    "ark1": "ark:/12148/cb39947920s",
+    "isbn1": "2803620227",
+    "candidatsCouv": [
+     {
+      "n": 14,
+      "ark": "ark:/12148/cb39947920s",
+      "isbn": "2803620227"
+     },
+     {
+      "n": 15,
+      "ark": "ark:/12148/cb40063554r",
+      "isbn": "2803612348"
+     },
+     {
+      "n": 16,
+      "ark": "ark:/12148/cb400635642",
+      "isbn": "2803614545"
+     },
+     {
+      "n": 17,
+      "ark": "ark:/12148/cb40063538h",
+      "isbn": "2803610981"
+     }
+    ],
+    "requete": "bib.title all \"schtroumpfs\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 15,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "schtroumpfs-le-village-des-filles": {
    "couvEssai": "2026-10-28",
    "couvFR": {
@@ -8765,6 +9550,98 @@
     "requete": "bib.title all \"sentinelle du petit peuple\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-28"
+  },
+  "sisters": {
+   "bnf": {
+    "dernier": 102,
+    "tomes": "1-62,65-92,95-96,102",
+    "dateDernier": "2026-10",
+    "editeur": "Bamboo jeunesse",
+    "notices": 141,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46501073m",
+    "isbn1": "9782818975770",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46501073m",
+      "isbn": "9782818975770"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb453907908",
+      "isbn": "9782818943519"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45365981f",
+      "isbn": "9782818942758"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42277746g",
+      "isbn": "9782350789200"
+     }
+    ],
+    "requete": "bib.title all \"sisters\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
+  "skylanders": {
+   "bnf": {
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2017-10",
+    "editeur": "Glénat",
+    "notices": 7,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb444381058",
+    "isbn1": "9782344009536",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb444381058",
+      "isbn": "9782344009536"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb444381147",
+      "isbn": "9782344009543"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb44438110v",
+      "isbn": "9782344009550"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb450474521",
+      "isbn": "9782344016015"
+     }
+    ],
+    "requete": "bib.title all \"skylanders\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "snoopy-les-peanuts": {
    "couvVersion": 2,
@@ -8953,6 +9830,36 @@
    },
    "couvVersion": 2
   },
+  "souricia-et-le-geant-de-la-clairiere": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025",
+    "editeur": "Albin Michel",
+    "notices": 1,
+    "ark1": "ark:/12148/cb47661293b",
+    "isbn1": "9782226488718",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47661293b",
+      "isbn": "9782226488718"
+     }
+    ],
+    "requete": "bib.title all \"souricia et le geant de la clairiere\" and (bib.doctype=\"a\") and bib.author all \"ludovic\""
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "spirou-et-fantasio": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -9044,6 +9951,37 @@
    },
    "couvVersion": 2
   },
+  "studio-danse-academy": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-02",
+    "editeur": "Bamboo édition",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48710276s",
+    "isbn1": "9791041115013",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48710276s",
+      "isbn": "9791041115013"
+     }
+    ],
+    "requete": "bib.title all \"studio danse academy\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "super-a": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -9093,6 +10031,52 @@
    },
    "couvVersion": 2
   },
+  "swan-neo": {
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-3,5-6",
+    "dateDernier": "2025-09",
+    "editeur": "Soleil",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46608582t",
+    "isbn1": "9782302083226",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46608582t",
+      "isbn": "9782302083226"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46909344g",
+      "isbn": "9782302094383"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47178540m",
+      "isbn": "9782302095397"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb475233368",
+      "isbn": "9782302099388"
+     }
+    ],
+    "requete": "bib.title all \"swan neo\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "sybil-la-fee-cartable": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -9139,6 +10123,36 @@
    },
    "couvEssaiMN": ""
   },
+  "tableaux-de-l-ombre": {
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "Delcourt",
+    "notices": 1,
+    "ark1": "ark:/12148/cb457249189",
+    "isbn1": "9782413008194",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb457249189",
+      "isbn": "9782413008194"
+     }
+    ],
+    "requete": "bib.title all \"tableaux de ombre\" and (bib.doctype=\"a\") and bib.author all \"dytar\""
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "tamia-et-les-memoires-du-dragon": {
    "couvEssai": "2026-10-28",
    "couvFR": {
@@ -9168,6 +10182,47 @@
     "requete": "bib.title all \"tamia et les memoires du dragon\" and (bib.doctype=\"a\") and bib.author all \"brana\""
    },
    "couvVersion": 2
+  },
+  "tavutatet": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2023-06",
+    "editeur": "Vents d'Ouest",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46709475p",
+    "isbn1": "9782749309446",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46709475p",
+      "isbn": "9782749309446"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb470378468",
+      "isbn": "9782749309613"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47259090s",
+      "isbn": "9782749309859"
+     }
+    ],
+    "requete": "bib.title all \"tavutatet\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "tchouks": {
    "couvVersion": 2,
@@ -9377,6 +10432,52 @@
    },
    "couvVersion": 2
   },
+  "tib-et-tatoum": {
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2019-11",
+    "editeur": "Glénat",
+    "notices": 9,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45519675z",
+    "isbn1": "9782344016497",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45519675z",
+      "isbn": "9782344016497"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42629556c",
+      "isbn": "9782723484244"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45522706x",
+      "isbn": "9782344017234"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43710675v",
+      "isbn": "9782723494915"
+     }
+    ],
+    "requete": "bib.title all \"tib et tatoum\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "ticayou": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -9437,6 +10538,32 @@
     "requete": "bib.title all \"tidesong\" and (bib.doctype=\"a\") and bib.author all \"wendy\""
    },
    "couvVersion": 2
+  },
+  "tilly-zorus": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2022-11",
+    "editeur": "Auzou BD",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47144460c",
+    "isbn1": "9791039504577",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47144460c",
+      "isbn": "9791039504577"
+     }
+    ],
+    "requete": "bib.title all \"tilly zorus\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
   },
   "timo-l-aventurier": {
    "couvVersion": 2,
@@ -9530,6 +10657,58 @@
    },
    "couvVersion": 2
   },
+  "tom-tom-et-nana": {
+   "bnf": {
+    "dernier": 34,
+    "tomes": "1-34",
+    "dateDernier": "2017-03",
+    "editeur": "Bayard presse",
+    "notices": 52,
+    "autresEditeurs": [
+     "Bayard jeunesse",
+     "Bayard poche",
+     "Bayard éd.-\"J'aime lire\"",
+     "le Grand livre du mois",
+     "Éd. France loisirs"
+    ],
+    "ark1": "ark:/12148/cb45234787x",
+    "isbn1": "9782747076340",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45234787x",
+      "isbn": "9782747076340"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb34780273j",
+      "isbn": "270094027X"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45234786k",
+      "isbn": "9782747076357"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb34780274w",
+      "isbn": "2700940288"
+     }
+    ],
+    "requete": "bib.title all \"tom tom et nana\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "totem": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -9622,6 +10801,19 @@
     "requete": "bib.title all \"toupet\" and (bib.doctype=\"a\")"
    },
    "couvVersion": 2
+  },
+  "toutou-detective-le-heros-de-la-bd-c-est-toi": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"toutou detective le heros de la bd est toi\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
   },
   "tralaland": {
    "couvVersion": 2,
@@ -9746,6 +10938,83 @@
    "liensVus": {},
    "bnfVerifie": "2026-10-28"
   },
+  "trois-grains-de-riz": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2012",
+    "editeur": "Gallimard jeunesse-Giboulées",
+    "notices": 2,
+    "ark1": "ark:/12148/cb428062186",
+    "isbn1": null,
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb428062186",
+      "isbn": null
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42429372q",
+      "isbn": "9782070638147"
+     }
+    ],
+    "requete": "bib.title all \"trois grains de riz\" and (bib.doctype=\"a\") and bib.author all \"aki\""
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
+  },
+  "tuniques-bleues": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 69,
+    "tomes": "1-69",
+    "dateDernier": "2025-10",
+    "editeur": "Dupuis",
+    "notices": 134,
+    "autresEditeurs": [
+     "",
+     "Gombert éditions",
+     "Hachette collections",
+     "J'ai lu",
+     "[Librairie générale française]"
+    ],
+    "ark1": "ark:/12148/cb471791115",
+    "isbn1": "9791034768554",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb471791115",
+      "isbn": "9791034768554"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44408652j",
+      "isbn": "9782800162782"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43416465x",
+      "isbn": null
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43460014h",
+      "isbn": "2800108584"
+     }
+    ],
+    "requete": "bib.title all \"tuniques bleues\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
+  },
   "un-chant-de-noel": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -9783,6 +11052,31 @@
    "couvVersion": 2,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
+  },
+  "une-aventure-de-rose-et-lock-holmes": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025",
+    "editeur": "la Doux",
+    "notices": 1,
+    "ark1": "ark:/12148/cb487114935",
+    "isbn1": null,
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb487114935",
+      "isbn": null
+     }
+    ],
+    "requete": "bib.title all \"une aventure de rose et lock holmes\" and (bib.doctype=\"a\") and bib.author all \"kristyna\""
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
   },
   "une-epatante-aventure-de-jules": {
    "couvVersion": 2,
@@ -9917,6 +11211,47 @@
    },
    "couvVersion": 2
   },
+  "violette-autour-du-monde": {
+   "liensVus": {},
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2015-12",
+    "editeur": "Dargaud",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb44408054k",
+    "isbn1": "9782205073744",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44408054k",
+      "isbn": "9782205073744"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44408006q",
+      "isbn": "9782205074437"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb44474663p",
+      "isbn": "9782205074444"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb44424155n",
+      "isbn": "9782205074444"
+     }
+    ],
+    "requete": "bib.title all \"violette autour du monde\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvVersion": 2,
+   "bnfVerifie": "2026-10-28",
+   "couvEssaiMN": "",
+   "verifie": "2026-10-28"
+  },
   "violette-tenebris": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -10010,6 +11345,78 @@
    "liensVus": {},
    "bnfVerifie": "2026-10-28"
   },
+  "voyages-de-lotta": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2021-11",
+    "editeur": "Jungle",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb466464074",
+    "isbn1": "9782822231985",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb466464074",
+      "isbn": "9782822231985"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46912655g",
+      "isbn": "9782822234740"
+     }
+    ],
+    "requete": "bib.title all \"voyages de lotta\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
+  "waluk": {
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2020-08",
+    "editeur": "Dargaud Benelux",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb465254497",
+    "isbn1": "9782505083276",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb465254497",
+      "isbn": "9782505083276"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb465985428",
+      "isbn": "9782505083283"
+     }
+    ],
+    "requete": "bib.title all \"waluk\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
+  },
   "zazie-sans-fautes": {
    "couvVersion": 2,
    "verifie": "2026-10-28",
@@ -10089,6 +11496,52 @@
    "couvVersion": 2,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
+  },
+  "zita-la-fille-de-l-espace": {
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2023-05",
+    "editeur": "Rue de Sèvres",
+    "notices": 6,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47142272b",
+    "isbn1": "9782810203031",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47142272b",
+      "isbn": "9782810203031"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb436462164",
+      "isbn": "9782369810094"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47142257f",
+      "isbn": "9782810203079"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43775276j",
+      "isbn": "9782369810100"
+     }
+    ],
+    "requete": "bib.title all \"zita la fille de espace\" and (bib.doctype=\"a\")"
+   },
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-28"
+   },
+   "bnfVerifie": "2026-10-28",
+   "verifie": "2026-10-28",
+   "liensVus": {},
+   "couvVersion": 2,
+   "couvEssaiMN": ""
   },
   "zoo-des-animaux-disparus": {
    "couvEssai": "2026-10-28",
