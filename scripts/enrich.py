@@ -913,7 +913,7 @@ def main() -> int:
     a_faire.sort(key=lambda s: -age_jours((cache.get(s["id"]) or {}).get("verifie")))
 
     faites = erreurs = consecutives = 0
-    for s in a_faire:
+    for rang, s in enumerate(a_faire, 1):
         if args.limite and faites >= args.limite:
             break
         if (time.time() - debut) / 60 > args.max_minutes:
@@ -991,7 +991,7 @@ def main() -> int:
             liens_changes = "liensVus" in e and (s.get("liens") or {}) != e["liensVus"]
             if recent and not liens_changes and not (lien and (not al or al.get("id") != lien)):
                 continue
-        print(f"- {s['titre']}", flush=True)
+        print(f"- [{rang}/{len(a_faire)}, {rang * 100 // len(a_faire)} %] {s['titre']}", flush=True)
         try:
             one_shot = s.get("type") == "One shot"
             pannes = []  # une source en panne n'empêche pas les autres (couverture comprise)
