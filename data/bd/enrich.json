@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T21:57:05Z",
+ "maj": "2026-10-28T22:10:54Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -56,11 +56,11 @@
   "agent-212": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 30,
     "tomes": "1-30",
@@ -1072,11 +1072,11 @@
   "aventures-de-porcinet": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -1112,11 +1112,11 @@
   "aventures-de-tintin": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 24,
     "tomes": "1-24",
@@ -1848,10 +1848,10 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -1891,11 +1891,11 @@
   "blagues-de-toto": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 18,
     "tomes": "1-18",
@@ -2011,11 +2011,11 @@
   "boite-a-musique": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 5,
     "tomes": "1-5",
@@ -2999,11 +2999,11 @@
   "cinereve": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -3593,10 +3593,10 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -3783,11 +3783,11 @@
   "eleve-ducobu": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 29,
     "tomes": "1-29",
@@ -4362,11 +4362,11 @@
   "facteur-de-l-espace": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -4403,11 +4403,11 @@
   "famille-blaireau-renard-presente": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 3,
+    "source": "Decitre",
+    "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -4632,11 +4632,11 @@
   "foot-furieux": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 7,
+    "source": "Decitre",
+    "tome": 4,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 18,
     "tomes": "4-18",
@@ -4678,11 +4678,11 @@
   "foot-maniacs": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 24,
     "tomes": "1-20,22-24",
@@ -5026,10 +5026,10 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -5075,10 +5075,10 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -5759,11 +5759,11 @@
   "jean-michel-et-la-revolution-en-poponie": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -5965,11 +5965,11 @@
   "juliette": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 4,
     "tomes": "1-4",
@@ -6017,11 +6017,11 @@
   "kid-paddle": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 21,
     "tomes": "1-11,16-21",
@@ -6289,11 +6289,11 @@
   "leonard": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 22,
+    "source": "Decitre",
+    "tome": 19,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 28,
     "tomes": "19,21-22,25-28",
@@ -6713,12 +6713,12 @@
    "couvEssai": "2026-10-28",
    "liensVus": {},
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -6801,11 +6801,11 @@
   "loup-en-slip": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 2,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 9,
     "tomes": "2-9",
@@ -6992,14 +6992,14 @@
    },
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
    "verifie": "2026-10-28",
    "liensVus": {},
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": ""
   },
   "lucy-poids-plume": {
@@ -7129,14 +7129,14 @@
    },
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
    "verifie": "2026-10-28",
    "liensVus": {},
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": ""
   },
   "magic": {
@@ -7188,7 +7188,7 @@
   "maiana": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 2,
     "maj": "2026-10-28"
    },
@@ -7214,7 +7214,7 @@
     ],
     "requete": "bib.title all \"maiana\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2
+   "couvVersion": 3
   },
   "maison-qui-revait": {
    "couvEssai": "2026-10-28",
@@ -7323,13 +7323,13 @@
    "couvEssaiMN": ""
   },
   "marion-duval": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -7409,12 +7409,12 @@
    "couvEssai": "2026-10-28",
    "liensVus": {},
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 32,
     "tomes": "1-14,16-24,26-32",
@@ -7575,11 +7575,11 @@
   "meilleur-de-tom-tom-et-nana": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 6,
     "tomes": "1-6",
@@ -7839,13 +7839,13 @@
    }
   },
   "miss-charity": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -8519,12 +8519,12 @@
    "couvEssai": "2026-10-28",
    "liensVus": {},
    "couvFR": {
-    "source": "Open Library",
-    "tome": 2,
+    "source": "Decitre",
+    "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 7,
     "tomes": "1-7",
@@ -9286,11 +9286,11 @@
   "petit-spirou": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 20,
     "tomes": "1-18,20",
@@ -9380,13 +9380,13 @@
    "bnfVerifie": "2026-10-28"
   },
   "petit-vampire": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -9727,12 +9727,12 @@
    "couvEssai": "2026-10-28",
    "liensVus": {},
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 7,
     "tomes": "1-7",
@@ -9867,11 +9867,11 @@
   "princesse-guerriere": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -10245,12 +10245,12 @@
    "couvEssai": "2026-10-28",
    "liensVus": {},
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -10288,11 +10288,11 @@
   "roi-catastrophe": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 3,
+    "source": "Decitre",
+    "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 9,
     "tomes": "1-9",
@@ -10334,11 +10334,11 @@
   "roi-des-oiseaux": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -10639,14 +10639,14 @@
    },
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
-    "tome": 15,
+    "source": "Decitre",
+    "tome": 14,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
    "verifie": "2026-10-28",
    "liensVus": {},
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": ""
   },
   "schtroumpfs-le-village-des-filles": {
@@ -11286,7 +11286,7 @@
   "strom": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -11328,7 +11328,7 @@
     ],
     "requete": "bib.title all \"strom\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2
+   "couvVersion": 3
   },
   "studio-danse": {
    "couvEssaiMN": "",
@@ -11760,12 +11760,12 @@
   "temps-des-ombres": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnfVerifie": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -12367,7 +12367,7 @@
   "toupet": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -12408,7 +12408,7 @@
     ],
     "requete": "bib.title all \"toupet\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2
+   "couvVersion": 3
   },
   "toutou-detective": {
    "couvEssaiMN": "",
@@ -12539,11 +12539,11 @@
   "trio-bonaventure": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -13012,7 +13012,7 @@
   "vermeilles": {
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
@@ -13037,7 +13037,7 @@
     ],
     "requete": "bib.title all \"vermeilles\" and (bib.doctype=\"a\") and bib.author all \"camille\""
    },
-   "couvVersion": 2
+   "couvVersion": 3
   },
   "vies-dansent": {
    "bnfVerifie": "2026-10-28",
@@ -13239,14 +13239,14 @@
    },
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
    "verifie": "2026-10-28",
    "liensVus": {},
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": ""
   },
   "wafwaf-captain-miaou": {
@@ -13457,14 +13457,14 @@
    },
    "couvEssai": "2026-10-28",
    "couvFR": {
-    "source": "Open Library",
+    "source": "Decitre",
     "tome": 1,
     "maj": "2026-10-28"
    },
    "bnfVerifie": "2026-10-28",
    "verifie": "2026-10-28",
    "liensVus": {},
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": ""
   },
   "zoo-des-animaux-disparus": {
