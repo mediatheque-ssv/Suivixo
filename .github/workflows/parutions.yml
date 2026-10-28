@@ -10,6 +10,11 @@ on:
         type: choice
         options: [toutes, mangas, bd, romans]
         default: toutes
+      machines:
+        description: "Nombre de machines en parallèle (pour un premier passage long ; chacune interroge la BnF à son rythme)"
+        type: choice
+        options: ["1", "2", "4"]
+        default: "1"
       serie:
         description: "Tester une seule série (identifiant, ex. atelier-des-sorciers). Rien n'est enregistré."
         required: false
@@ -56,6 +61,10 @@ jobs:
   verifier:
     runs-on: ubuntu-latest
     timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        part: ${{ fromJSON(inputs.machines == '4' && '[0,1,2,3]' || inputs.machines == '2' && '[0,1]' || '[0]') }}
     steps:
       - uses: actions/checkout@v5
 
@@ -69,6 +78,8 @@ jobs:
       - name: Interroger AniList, Manga-News et la BnF
         env:
           COLLECTION: ${{ inputs.collection }}
+          MACHINES: ${{ inputs.machines || '1' }}
+          PART: ${{ matrix.part }}
           SERIE: ${{ inputs.serie }}
           LIMITE: ${{ inputs.limite }}
           FORCER: ${{ inputs.forcer }}
@@ -87,6 +98,7 @@ jobs:
           [ "$MN" = "true" ] && ARGS="$ARGS --manga-news-seulement"
           [ "$COUV" = "true" ] && ARGS="$ARGS --couvertures"
           [ -n "$SERIES" ] && ARGS="$ARGS --series $SERIES"
+          [ "$MACHINES" != "1" ] && ARGS="$ARGS --part $PART/$MACHINES"
           if [ -z "$COLLECTION" ] || [ "$COLLECTION" = "toutes" ]; then
             # passage du lundi : le temps est partagé entre les collections
             python scripts/enrich.py $ARGS --collection mangas --max-minutes 70 || true
@@ -110,7 +122,7 @@ jobs:
             [ -f "$f" ] && cp "$f" "/tmp/fusion/nous_$k"
           done
           cp -r couvertures/. /tmp/couv/ 2>/dev/null || true
-          for i in 1 2 3 4 5; do
+          for i in 1 2 3 4 5 6 7 8 9 10; do
             git fetch -q origin main
             git reset -q --hard origin/main
             # fusion avec ce qu'une autre vérification ou une publication a pu enregistrer entre-temps
@@ -128,6 +140,6 @@ jobs:
             git diff --cached --quiet && { echo "Rien de nouveau."; exit 0; }
             git commit -q -m "Vérification des parutions"
             git push -q origin HEAD:main && exit 0
-            sleep 7
+            sleep $((5 + RANDOM % 15))  # plusieurs machines peuvent enregistrer en même temps
           done
           exit 1

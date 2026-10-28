@@ -738,8 +738,9 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
             essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1", c["n"]))
         if c.get("isbn"):
             essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false", c["n"]))
-    for nom, url, tome in essais:
-        time.sleep(0.8)
+    for nom, url, tome in essais[:5]:
+        if nom == "BnF":
+            time.sleep(0.8)
         corps = telecharger(url)
         if not corps:
             if debug:
@@ -878,6 +879,7 @@ def main() -> int:
     ap.add_argument("--manga-news-seulement", action="store_true", help="mettre à jour seulement le nombre de tomes Manga-News (rapide)")
     ap.add_argument("--couvertures", action="store_true", help="chercher seulement les couvertures qui manquent (Manga-News compris)")
     ap.add_argument("--series", default="", help="revérifier et enregistrer ces séries (identifiants séparés par des virgules)")
+    ap.add_argument("--part", default="", help="k/n : ne traiter qu'une part des séries (plusieurs machines en parallèle)")
     ap.add_argument("--collection", default="mangas", choices=["mangas", "bd", "romans"],
                     help="mangas (AniList, Manga-News, BnF) ; bd et romans jeunesse (BnF et couvertures seulement)")
     args = ap.parse_args()
@@ -916,6 +918,10 @@ def main() -> int:
         a_faire.append(s)
     # les jamais vérifiées d'abord, puis les plus anciennes
     a_faire.sort(key=lambda s: -age_jours((cache.get(s["id"]) or {}).get("verifie")))
+    if args.part:
+        k, n = (int(x) for x in args.part.split("/"))
+        a_faire = [s for i, s in enumerate(a_faire) if i % n == k]
+        print(f"Part {k + 1} sur {n} : {len(a_faire)} séries", flush=True)
 
     faites = erreurs = consecutives = 0
     a_revoir: list[dict] = []
