@@ -344,6 +344,13 @@
      3,
      4,
      5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
      13,
      14,
      15,
@@ -362,22 +369,6 @@
      "cote": "MA  ASS"
     }
    ]
-  },
-  "assassination-classroom-2": {
-   "titreOrphee": "Assassination classroom 2",
-   "editeur": "Kana",
-   "auteur": "Matsui Yusei",
-   "tomes": {
-    "Domloup": [
-     6,
-     7,
-     8,
-     9,
-     10,
-     11,
-     12
-    ]
-   }
   },
   "astra-lost-in-space": {
    "titreOrphee": "Astra : lost in space",
@@ -12034,5 +12025,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-10-27T09:59:39.187Z"
+ "publie": "2026-10-28T16:41:41.276Z"
 }
