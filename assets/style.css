@@ -551,3 +551,5 @@ details.repli[open] > summary { margin-bottom: 12px; }
 .entete { border-bottom: 3px solid #000; }
 
 .actions-sources { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 14px; }
+.rattacher { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--filet); }
+.rattacher select { width: 100%; }

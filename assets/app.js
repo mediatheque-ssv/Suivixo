@@ -540,7 +540,14 @@ function ouvrirFiche(id) {
           <span class="discret petit">AniList, BnF, Manga-News et couverture, sans attendre lundi. Tes modifications non publiées sont publiées d'abord.</span></p>
       </div>
     </details>
-    <details class="repli" id="modifier"><summary>Modifier la série</summary>${formulaire(s)}</details>
+    <details class="repli" id="modifier"><summary>Modifier la série</summary>${formulaire(s)}
+      <div class="rattacher">
+        <label class="champ large"><span>C'est en fait la même série qu'une autre (titre différent dans Orphée) : la rattacher à…</span>
+          <select data-relier="${h(s.id)}"><option value="">Choisir la série…</option>${etat.series.filter((o) => o !== s).sort((a, b) => a.titre.localeCompare(b.titre, "fr")).map((o) => `<option value="${h(o.id)}">${h(o.titre)}</option>`).join("")}</select>
+        </label>
+        <p class="discret petit">Ses exemplaires rejoignent l'autre série, et « ${h(s.titre)} » devient un autre titre de celle-ci pour les prochains imports.</p>
+      </div>
+    </details>
     </div>
   `;
   const fiche = $("#fiche");
@@ -1075,6 +1082,28 @@ function relier(idSource, idCible) {
   if (src.liens) cible.liens = { ...src.liens, ...(cible.liens || {}) };
   if (src.ancien && !cible.ancien) cible.ancien = src.ancien;
   etat.series = etat.series.filter((s) => s !== src);
+  // Exemplaires déjà importés sous l'autre titre : on les range tout de suite dans la bonne série
+  const fs = etat.fonds.series?.[idSource];
+  if (fs) {
+    const fc = (etat.fonds.series[idCible] ||= { titreOrphee: cible.titre, editeur: fs.editeur || "", tomes: {} });
+    for (const [b, l] of Object.entries(fs.tomes || {})) fc.tomes[b] = [...new Set([...(fc.tomes[b] || []), ...l])].sort((a, b2) => a - b2);
+    for (const [b, n] of Object.entries(fs.hs || {})) (fc.hs ||= {})[b] = (fc.hs[b] || 0) + n;
+    if (fs.retires?.length) fc.retires = [...(fc.retires || []), ...fs.retires];
+    if (fs.sansNumero) for (const [b, l] of Object.entries(fs.sansNumero)) (fc.sansNumero ||= {})[b] = [...new Set([...(fc.sansNumero[b] || []), ...l])];
+    delete etat.fonds.series[idSource];
+    marquer("fonds");
+    const st = etat.stats?.series;
+    if (st?.[idSource]) {
+      const a = st[idSource], c = (st[idCible] ||= { prets: {}, empruntes: {}, reserves: {}, exemplaires: {}, parTome: {} });
+      for (const k of ["prets", "empruntes", "reserves", "exemplaires"]) for (const [b, n] of Object.entries(a[k] || {})) c[k][b] = (c[k][b] || 0) + n;
+      for (const [b, t] of Object.entries(a.parTome || {})) for (const [n, [p, e]] of Object.entries(t)) {
+        const x = ((c.parTome ||= {})[b] ||= {})[n] ||= [0, 0];
+        x[0] += p; x[1] += e;
+      }
+      delete st[idSource];
+      lsSet(LS.stats, etat.stats);
+    }
+  }
   marquer("series");
   calculer();
   rendre();
@@ -1448,6 +1477,16 @@ function brancher() {
     if (e.target.closest("[data-fermer]")) { fermerFiche(); return; }
     const b = e.target.closest('[data-action="reverifier"]');
     if (b) verifierMaintenant([b.dataset.id]);
+  });
+  $("#fiche").addEventListener("change", (e) => {
+    const t = e.target;
+    if (!t.dataset.relier || !t.value) return;
+    const cible = etat.series.find((x) => x.id === t.value);
+    const src = etat.series.find((x) => x.id === t.dataset.relier);
+    if (cible && src && confirmerSimple(`Rattacher « ${src.titre} » à « ${cible.titre} » ? Ses exemplaires rejoindront « ${cible.titre} ».`)) {
+      relier(src.id, cible.id);
+      ouvrirFiche(cible.id);
+    } else t.value = "";
   });
   $("#fiche").addEventListener("submit", (e) => { if (e.target.dataset.form === "serie") { e.preventDefault(); enregistrerFormulaire(e.target); } });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#fiche").hidden) fermerFiche(); });
