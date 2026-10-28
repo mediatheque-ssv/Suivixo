@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T18:05:21Z",
+ "maj": "2026-10-28T21:57:05Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -158,7 +158,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -166,7 +166,7 @@
   "alchimiste": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -208,7 +208,12 @@
     ],
     "requete": "bib.title all \"alchimiste\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "alia-chasseuse-de-fantomes": {
    "bnf": {
@@ -246,14 +251,19 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "alix": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 44,
@@ -296,11 +306,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "alix-et-huguette": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -322,11 +337,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ambre": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 53,
@@ -369,11 +389,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "ePagine",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ambre-et-l-ile-des-creatures-perdues": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -394,11 +419,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ana-ana": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 28,
@@ -435,11 +465,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ana-l-entremonde": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 4,
@@ -476,7 +511,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "anatole-latuile": {
    "bnf": {
@@ -629,7 +669,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -664,14 +704,19 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "arcade-club": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 3,
@@ -698,11 +743,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ariol": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 19,
@@ -745,11 +795,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 6,
+    "maj": "2026-10-28"
+   }
   },
   "armelle-et-mirko": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 4,
@@ -786,11 +841,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "asterix-le-gaulois": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -831,11 +891,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "astrid-bromure": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 9,
@@ -872,7 +937,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "au-bois": {
    "bnf": {
@@ -940,14 +1010,19 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "avatar-le-dernier-maitre-de-l-air": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 6,
@@ -987,7 +1062,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "aventures-de-porcinet": {
    "couvEssai": "2026-10-28",
@@ -1134,7 +1214,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 25,
@@ -1169,12 +1249,17 @@
     ],
     "requete": "bib.title all \"aventures de vick et vicky\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "aventures-indispensables-de-mister-goupil-et-monsieur-le-chick": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -1186,7 +1271,7 @@
   },
   "avni": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 10,
@@ -1225,13 +1310,18 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "bad-guys": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 4,
@@ -1261,13 +1351,18 @@
     ],
     "requete": "bib.title all \"bad guys\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "bande-du-mile-end": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -1278,7 +1373,7 @@
   },
   "batman": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 10,
@@ -1321,13 +1416,18 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "bazar-bizarre": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -1349,11 +1449,16 @@
     ],
     "requete": "bib.title all \"bazar bizarre\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "bd-anatole-latuile": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -1366,7 +1471,7 @@
   },
   "bd-bob-l-eponge": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -1379,7 +1484,7 @@
   },
   "bd-cedric": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -1394,7 +1499,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -1407,7 +1512,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -1465,7 +1570,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1478,7 +1583,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1491,7 +1596,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1504,7 +1609,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1517,7 +1622,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1530,7 +1635,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1543,7 +1648,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1556,7 +1661,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1599,7 +1704,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -1672,10 +1777,15 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "billie-bang-bang": {
    "bnf": {
@@ -1768,10 +1878,15 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "blagues-de-toto": {
    "couvEssai": "2026-10-28",
@@ -2004,14 +2119,14 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
   },
   "boule-et-bill": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 27,
@@ -2051,11 +2166,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "brume": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 4,
@@ -2098,13 +2218,18 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "BnF",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "bulle": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 2,
@@ -2129,11 +2254,16 @@
     ],
     "requete": "bib.title all \"bulle\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "maj": "2026-10-28"
+   }
   },
   "calvin-and-hobbes": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -2146,7 +2276,7 @@
   },
   "camille-contre-les-cauchemars": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -2167,11 +2297,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "camomille-et-les-chevaux": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 14,
@@ -2211,7 +2346,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "carnets-de-cerise": {
    "couvEssai": "2026-10-28",
@@ -2315,10 +2455,15 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "cassis-veut-jouer": {
    "bnf": {
@@ -2340,7 +2485,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -2394,7 +2539,7 @@
   "cauchemarre-de-motordu": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "verifie": "2026-10-28",
    "bnf": {
@@ -2414,7 +2559,12 @@
     ],
     "requete": "bib.title all \"cauchemarre de motordu\" and (bib.doctype=\"a\") and bib.author all \"pef\""
    },
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "cavalieres": {
    "couvEssai": "2026-10-28",
@@ -2656,14 +2806,14 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
   },
   "chaque-jour-dracula": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -2689,7 +2839,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "chaussettes-trouees": {
    "couvEssai": "2026-10-28",
@@ -2736,7 +2891,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 2,
@@ -2761,13 +2916,18 @@
     ],
     "requete": "bib.title all \"chevaliers de etrange\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "choix-de-sam": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -2786,11 +2946,16 @@
     ],
     "requete": "bib.title all \"choix de sam\" and (bib.doctype=\"a\") and bib.author all \"nicolas\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "choupisson": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -2803,7 +2968,7 @@
   },
   "chroniques-de-l-ile-perdue": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -2824,7 +2989,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "cinereve": {
    "couvEssai": "2026-10-28",
@@ -2859,7 +3029,7 @@
   },
   "coco-le-virus": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -2880,7 +3050,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "college-invisible": {
    "couvEssai": "2026-10-28",
@@ -2930,7 +3105,7 @@
   },
   "comme-des-betes": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 2,
@@ -2961,7 +3136,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "comment-obelix-est-tombe-dans-la-marmite-du-druide-quand-il-etait-petit": {
    "bnf": {
@@ -3029,10 +3209,15 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "contes-des-coeurs-perdus": {
    "couvEssai": "2026-10-28",
@@ -3069,7 +3254,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -3088,7 +3273,12 @@
     ],
     "requete": "bib.title all \"contrees salees\" and (bib.doctype=\"a\") and bib.author all \"larson\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "crevette": {
    "bnf": {
@@ -3098,7 +3288,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -3210,14 +3400,19 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "de-cape-et-de-mots": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -3243,11 +3438,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "des-mutants-dans-l-etang": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -3268,12 +3468,17 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "detectives-du-cagibi": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -3285,7 +3490,7 @@
   },
   "dina-et-le-millimonde": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -3307,11 +3512,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "dinos-des-champs": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -3336,7 +3546,7 @@
   },
   "donjon-antipodes": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -3401,7 +3611,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -3565,7 +3775,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -3627,7 +3837,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -3694,10 +3904,15 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "emile-et-margot": {
    "bnf": {
@@ -3751,7 +3966,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 5,
@@ -3792,7 +4007,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 2,
@@ -3817,7 +4032,12 @@
     ],
     "requete": "bib.title all \"encyclopedie des peurs\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "enfant-ocean": {
    "couvEssai": "2026-10-28",
@@ -3863,7 +4083,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 3,
@@ -3893,13 +4113,18 @@
     ],
     "requete": "bib.title all \"enfants perches de la revolution\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "enquetes-de-lady-souris-jimmy-tigre": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -4053,10 +4278,15 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "maj": "2026-10-28"
+   }
   },
   "excalibrius": {
    "couvEssai": "2026-10-28",
@@ -4215,7 +4445,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -4244,12 +4474,17 @@
     ],
     "requete": "bib.title all \"famille glagla\" and (bib.doctype=\"a\") and bib.author all \"francois\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "famille-vieillepierre": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -4261,7 +4496,7 @@
   },
   "felixe-et-la-maison-qui-marchait-la-nuit": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -4282,13 +4517,18 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "filles-au-chocolat-bd": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -4301,7 +4541,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -4324,7 +4564,7 @@
   },
   "fleur-de-bambou": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 2,
@@ -4351,11 +4591,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "foot-2-rue-saison-4": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 2,
@@ -4377,7 +4622,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "maj": "2026-10-28"
+   }
   },
   "foot-furieux": {
    "couvEssai": "2026-10-28",
@@ -4556,7 +4806,7 @@
   },
   "foudroyants": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 3,
@@ -4591,11 +4841,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "game-over": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 25,
@@ -4638,13 +4893,18 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "gardiennes-des-papillons": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -4833,7 +5093,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -4892,7 +5152,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -4905,7 +5165,7 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "liensVus": {}
@@ -4936,14 +5196,19 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "hammerdam": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 2,
@@ -4970,7 +5235,12 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "hericornes": {
    "couvEssai": "2026-10-28",
@@ -5061,7 +5331,7 @@
   },
   "histoires-pressees": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -5092,11 +5362,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "hotel-etrange": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 6,
@@ -5133,11 +5408,16 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "idefix-et-les-irreductibles": {
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 9,
@@ -5178,13 +5458,18 @@
    },
    "verifie": "2026-10-28",
    "liensVus": {},
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ile-de-minuit": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 2,
@@ -5209,7 +5494,12 @@
     ],
     "requete": "bib.title all \"ile de minuit\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ile-de-puki": {
    "couvEssai": "2026-10-28",
@@ -5251,7 +5541,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -5270,13 +5560,18 @@
     ],
     "requete": "bib.title all \"ile des cochons volants\" and (bib.doctype=\"a\") and bib.author all \"millotte\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ile-du-crane": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 2,
@@ -5304,12 +5599,17 @@
     ],
     "requete": "bib.title all \"ile du crane\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ile-oubliee": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -5348,7 +5648,12 @@
     ],
     "requete": "bib.title all \"ile oubliee\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "jane-des-dragons": {
    "couvEssai": "2026-10-28",
@@ -5442,7 +5747,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -5485,7 +5790,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -5504,7 +5809,12 @@
     ],
     "requete": "bib.title all \"jean michel le caribou dans espace\" and (bib.doctype=\"a\") and bib.author all \"magali\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "jeannot": {
    "couvEssai": "2026-10-28",
@@ -5760,7 +6070,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 2,
@@ -5780,7 +6090,12 @@
     ],
     "requete": "bib.title all \"kong kong\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "maj": "2026-10-28"
+   }
   },
   "legendaires": {
    "couvEssai": "2026-10-28",
@@ -6193,15 +6508,20 @@
     ],
     "requete": "bib.title all \"lison\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "livre": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -6243,8 +6563,13 @@
     ],
     "requete": "bib.title all \"lolicornes\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "loser-jack": {
    "bnf": {
@@ -6373,9 +6698,14 @@
     ],
     "requete": "bib.title all \"louca\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "louis-parmi-les-spectres": {
    "couvEssaiMN": "",
@@ -6565,9 +6895,14 @@
     ],
     "requete": "bib.title all \"luce comprend tout trop vite\" and (bib.doctype=\"a\") and bib.author all \"adriansen\""
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "lucie-et-sa-licorne": {
    "couvEssaiMN": "",
@@ -6756,8 +7091,13 @@
     ],
     "requete": "bib.title all \"luminous\" and (bib.doctype=\"a\") and bib.author all \"guillem\""
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ma-maman-est-en-amerique-elle-a-rencontre-buffalo-bill": {
    "bnf": {
@@ -7054,9 +7394,14 @@
     ],
     "requete": "bib.title all \"marla\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "marsupilami": {
    "couvEssaiMN": "",
@@ -7187,16 +7532,21 @@
     "requete": "bib.title all \"max et lili\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 17,
+    "maj": "2026-10-28"
+   }
   },
   "mecanos": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -7215,7 +7565,12 @@
     ],
     "requete": "bib.title all \"mecanos\" and (bib.doctype=\"a\") and bib.author all \"saladrigas\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "meilleur-de-tom-tom-et-nana": {
    "couvEssai": "2026-10-28",
@@ -7264,7 +7619,7 @@
    "bnfVerifie": "2026-10-28"
   },
   "merlin": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -7308,7 +7663,12 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-28"
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "mi-mouche": {
    "couvEssai": "2026-10-28",
@@ -7342,9 +7702,14 @@
     ],
     "requete": "bib.title all \"mi mouche\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "mimiphisto": {
    "couvEssaiMN": "",
@@ -7380,7 +7745,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 6,
@@ -7415,7 +7780,12 @@
     ],
     "requete": "bib.title all \"minions\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "mirabelle": {
    "liensVus": {},
@@ -7458,10 +7828,15 @@
     "requete": "bib.title all \"mirabelle\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "miss-charity": {
    "couvVersion": 2,
@@ -7563,8 +7938,13 @@
     ],
     "requete": "bib.title all \"miss shaolin\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "mistinguette": {
    "bnf": {
@@ -7654,7 +8034,7 @@
     "notices": 0,
     "requete": "bib.title all \"molang\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
   },
@@ -7663,7 +8043,7 @@
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -7681,7 +8061,12 @@
     ],
     "requete": "bib.title all \"mon potager au fil des saisons en bd\" and (bib.doctype=\"a\") and bib.author all \"mathilde\""
    },
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "monde-de-charline": {
    "couvEssai": "2026-10-28",
@@ -7728,7 +8113,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -7748,13 +8133,18 @@
     ],
     "requete": "bib.title all \"monde des cancres\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "mondes-perdus": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 3,
@@ -7787,7 +8177,12 @@
     ],
     "requete": "bib.title all \"mondes perdus\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "monsieur-blaireau-et-madame-renarde": {
    "bnf": {
@@ -7942,14 +8337,19 @@
     ],
     "requete": "bib.title all \"mystere au musee\" and (bib.doctype=\"a\") and bib.author all \"tunnicliffe\""
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "mystere-du-lac": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -7973,13 +8373,18 @@
     ],
     "requete": "bib.title all \"mystere du lac\" and (bib.doctype=\"a\") and bib.author all \"pamment\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "mythologie-en-bd": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -8028,13 +8433,18 @@
     "requete": "bib.title all \"nelson\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "nevermoor": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -8066,7 +8476,12 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-28"
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ninja-malgre-moi": {
    "couvEssai": "2026-10-28",
@@ -8165,10 +8580,15 @@
     "requete": "bib.title all \"nonolulu\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "maj": "2026-10-28"
+   }
   },
   "nouk-et-blik": {
    "couvVersion": 2,
@@ -8243,9 +8663,14 @@
     ],
     "requete": "bib.title all \"nunuche\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ocelot-le-chat-qui-n-en-etait-pas-un": {
    "bnfVerifie": "2026-10-28",
@@ -8257,7 +8682,7 @@
     "notices": 0,
     "requete": "bib.title all \"ocelot le chat qui en etait pas un\" and (bib.doctype=\"a\") and bib.author all \"morvan\""
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {}
   },
   "oliver-twist": {
@@ -8316,7 +8741,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -8335,7 +8760,12 @@
     ],
     "requete": "bib.title all \"onde\" and (bib.doctype=\"a\") and bib.author all \"frederic\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "orgueil-prejuges": {
    "couvVersion": 2,
@@ -8544,8 +8974,13 @@
     ],
     "requete": "bib.title all \"papi genial\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "papi-genial-et-sa-bulle-qui-va-partout": {
    "liensVus": {},
@@ -8568,10 +9003,15 @@
     "requete": "bib.title all \"papi genial et sa bulle qui va partout\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "pattes": {
    "couvVersion": 2,
@@ -8608,7 +9048,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 2,
@@ -8628,7 +9068,12 @@
     ],
     "requete": "bib.title all \"pecheur et la salamandre\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "maj": "2026-10-28"
+   }
   },
   "pecheur-et-les-revenants": {
    "couvEssai": "2026-10-28",
@@ -8669,7 +9114,7 @@
     "notices": 0,
     "requete": "bib.title all \"pepin et olivia\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
   },
@@ -8711,8 +9156,13 @@
     ],
     "requete": "bib.title all \"perdus dans le futur\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "petiote-a-la-mer": {
    "bnf": {
@@ -9007,7 +9457,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 17,
@@ -9042,12 +9492,17 @@
     ],
     "requete": "bib.title all \"petits mythos\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "petits-tracas-de-theo-lea": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -9061,7 +9516,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -9178,13 +9633,18 @@
     "requete": "bib.title all \"pitchi poi\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "polo": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -9224,7 +9684,12 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-28"
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "pome-ou-les-petites-choses": {
    "couvEssai": "2026-10-28",
@@ -9533,7 +9998,7 @@
     "notices": 0,
     "requete": "bib.title all \"quand la nuit tombe\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
   },
@@ -9571,7 +10036,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 3,
@@ -9604,14 +10069,19 @@
     ],
     "requete": "bib.title all \"quete\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "rackette-moi-si-tu-peux": {
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -9629,7 +10099,12 @@
     ],
     "requete": "bib.title all \"rackette moi si tu peux\" and (bib.doctype=\"a\") and bib.author all \"adriansen\""
    },
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "rantanplan": {
    "liensVus": {},
@@ -9672,10 +10147,15 @@
     "requete": "bib.title all \"rantanplan\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "ratafia": {
    "couvVersion": 2,
@@ -9885,7 +10365,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -9904,13 +10384,18 @@
     ],
     "requete": "bib.title all \"roi ensommeille\" and (bib.doctype=\"a\") and bib.author all \"myriam\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "royaume-des-brumes": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -9929,7 +10414,12 @@
     ],
     "requete": "bib.title all \"royaume des brumes\" and (bib.doctype=\"a\") and bib.author all \"rocchi\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "runes": {
    "liensVus": {},
@@ -9971,10 +10461,15 @@
     "requete": "bib.title all \"runes\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "sac-a-puces": {
    "couvVersion": 2,
@@ -10063,15 +10558,20 @@
     ],
     "requete": "bib.title all \"sami et julie\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 14,
+    "maj": "2026-10-28"
+   }
   },
   "saute-de-lapin": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -10090,7 +10590,12 @@
     ],
     "requete": "bib.title all \"saute de lapin\" and (bib.doctype=\"a\") and bib.author all \"jerome\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "schtroumpfs": {
    "bnf": {
@@ -10193,7 +10698,7 @@
    "couvVersion": 2
   },
   "schtroumpfs-schtroumpferies": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -10209,7 +10714,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 5,
@@ -10246,7 +10751,12 @@
     ],
     "requete": "bib.title all \"sentinelle du petit peuple\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "shaker-monster": {
    "bnfVerifie": "2026-10-28",
@@ -10286,8 +10796,13 @@
     ],
     "requete": "bib.title all \"shaker monster\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "simpson": {
    "bnfVerifie": "2026-10-28",
@@ -10333,8 +10848,13 @@
     ],
     "requete": "bib.title all \"simpson\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "sisters": {
    "bnf": {
@@ -10429,7 +10949,7 @@
    "couvEssaiMN": ""
   },
   "snoopy-les-peanuts": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -10538,15 +11058,20 @@
     ],
     "requete": "bib.title all \"sorceline\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "sorciere-de-wickerson": {
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -10565,7 +11090,12 @@
     ],
     "requete": "bib.title all \"sorciere de wickerson\" and (bib.doctype=\"a\") and bib.author all \"laufman\""
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "sortileges-de-zora": {
    "couvEssai": "2026-10-28",
@@ -10625,7 +11155,7 @@
     "notices": 0,
     "requete": "bib.title all \"sorunne\" and (bib.doctype=\"a\") and bib.author all \"reinfeld\""
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {}
   },
   "souricia-et-le-geant-de-la-clairiere": {
@@ -10663,7 +11193,7 @@
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 6,
     "tomes": "1-6",
@@ -10697,10 +11227,15 @@
     ],
     "requete": "bib.title all \"souvenirs de mamette\" and (bib.doctype=\"a\")"
    },
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "spirou-et-fantasio": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -10741,7 +11276,12 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-28"
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "strom": {
    "couvEssai": "2026-10-28",
@@ -10868,7 +11408,7 @@
    "couvEssaiMN": ""
   },
   "super-a": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -10956,8 +11496,13 @@
     ],
     "requete": "bib.title all \"supers\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "swan-neo": {
    "bnf": {
@@ -11121,7 +11666,7 @@
     "notices": 0,
     "requete": "bib.title all \"tao et ses monstres\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {}
   },
   "tavutatet": {
@@ -11166,7 +11711,7 @@
    "couvEssaiMN": ""
   },
   "tchouks": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -11182,7 +11727,7 @@
    "couvEssai": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {},
    "bnf": {
     "dernier": 2,
@@ -11205,7 +11750,12 @@
     ],
     "requete": "bib.title all \"temps des mitaines\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "maj": "2026-10-28"
+   }
   },
   "temps-des-ombres": {
    "couvEssai": "2026-10-28",
@@ -11543,7 +12093,7 @@
     ],
     "requete": "bib.title all \"tillo et compagnie\" and (bib.doctype=\"a\") and bib.author all \"quitterie\""
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {}
   },
   "tilly-zorus": {
@@ -11567,10 +12117,15 @@
     "requete": "bib.title all \"tilly zorus\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "timo-l-aventurier": {
    "couvVersion": 2,
@@ -11894,7 +12449,7 @@
     "requete": "bib.title all \"toutou detective le heros de la bd est toi\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28"
@@ -12093,10 +12648,15 @@
     "requete": "bib.title all \"trois grains de riz\" and (bib.doctype=\"a\") and bib.author all \"aki\""
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "trois-mousquetaires": {
    "couvEssaiMN": "",
@@ -12192,13 +12752,18 @@
     "requete": "bib.title all \"tuniques bleues\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "un-chant-de-noel": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -12220,7 +12785,12 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-28"
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "un-ete-au-chalet": {
    "couvEssai": "2026-10-28",
@@ -12231,7 +12801,7 @@
     "notices": 0,
     "requete": "bib.title all \"un ete au chalet\" and (bib.doctype=\"a\") and bib.author all \"aluna\""
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "bnfVerifie": "2026-10-28"
   },
@@ -12257,8 +12827,13 @@
     ],
     "requete": "bib.title all \"un ete enfer\" and (bib.doctype=\"a\") and bib.author all \"brosgol\""
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "une-aventure-de-rose-et-lock-holmes": {
    "liensVus": {},
@@ -12280,13 +12855,13 @@
     "requete": "bib.title all \"une aventure de rose et lock holmes\" and (bib.doctype=\"a\") and bib.author all \"kristyna\""
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28"
   },
   "une-epatante-aventure-de-jules": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -12324,7 +12899,12 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-28"
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "unico": {
    "couvEssai": "2026-10-28",
@@ -12355,16 +12935,21 @@
     ],
     "requete": "bib.title all \"unico\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "unico-l-eveil": {
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
    "verifie": "2026-10-28",
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -12383,10 +12968,15 @@
     ],
     "requete": "bib.title all \"unico eveil\" and (bib.doctype=\"a\")"
    },
-   "liensVus": {}
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "utopistes": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -12412,7 +13002,12 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-28"
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "vermeilles": {
    "couvEssai": "2026-10-28",
@@ -12466,8 +13061,13 @@
     ],
     "requete": "bib.title all \"vies dansent\" and (bib.doctype=\"a\") and bib.author all \"dominique\""
    },
-   "couvVersion": 2,
-   "liensVus": {}
+   "couvVersion": 3,
+   "liensVus": {},
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "violette-autour-du-monde": {
    "liensVus": {},
@@ -12505,13 +13105,18 @@
     "requete": "bib.title all \"violette autour du monde\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-28",
-   "couvVersion": 2,
+   "couvVersion": 3,
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "verifie": "2026-10-28"
+   "verifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "violette-tenebris": {
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
    "liensVus": {},
    "bnf": {
@@ -12536,7 +13141,12 @@
    },
    "bnfVerifie": "2026-10-28",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-28"
+   "couvEssai": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "maj": "2026-10-28"
+   }
   },
   "vive-la-nature": {
    "couvEssai": "2026-10-28",
@@ -12789,9 +13399,14 @@
     ],
     "requete": "bib.title all \"zelie et compagnie\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "verifie": "2026-10-28",
-   "bnfVerifie": "2026-10-28"
+   "bnfVerifie": "2026-10-28",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-10-28"
+   }
   },
   "zelie-et-micha": {
    "bnfVerifie": "2026-10-28",
@@ -12803,7 +13418,7 @@
     "notices": 0,
     "requete": "bib.title all \"zelie et micha\" and (bib.doctype=\"a\")"
    },
-   "couvVersion": 2,
+   "couvVersion": 3,
    "liensVus": {}
   },
   "zita-la-fille-de-l-espace": {
