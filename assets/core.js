@@ -108,20 +108,26 @@ export function parseTome(brut, album) {
 
 const texte = (v) => (v === null || v === undefined ? "" : String(v)).trim();
 
-/** ISBN valide (10 ou 13 chiffres, clé de contrôle juste) → ISBN-13 sans tirets ; sinon null.
- *  La clé de contrôle écarte les codes-barres d'exemplaires et autres numéros. */
+/** ISBN lisible dans une cellule → ISBN-13 sans tirets ; sinon null.
+ *  Clé de contrôle vérifiée (écarte les codes-barres d'exemplaires et autres numéros).
+ *  Tolère plusieurs ISBN dans la cellule (le premier valide est pris), un complément « (Poche) »,
+ *  et un ISBN-13 noté sans son « 978- » (2-205-00585-1 pour 978-2-205-00585-1), fréquent dans le catalogue. */
 export function isbnValide(v) {
   const t = texte(v);
-  if (!/^[\dXx][\d\s-]{8,16}[\dXx]$/.test(t)) return null;
-  const c = t.replace(/[\s-]/g, "").toUpperCase();
-  if (c.length === 10 && /^\d{9}[\dX]$/.test(c)) {
-    const somme = [...c].reduce((acc, ch, i) => acc + (10 - i) * (ch === "X" ? 10 : +ch), 0);
-    if (somme % 11) return null;
-    const b = "978" + c.slice(0, 9);
-    return b + ((10 - ([...b].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10)) % 10);
-  }
-  if (c.length === 13 && /^97[89]\d{10}$/.test(c)) {
-    return [...c].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10 ? null : c;
+  if (!t) return null;
+  const ean = (c) => [...c].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10 === 0;
+  for (const m of t.matchAll(/[\dXx][\d -]{8,16}[\dXx]/g)) {
+    const c = m[0].replace(/[\s-]/g, "").toUpperCase();
+    if (c.length === 10 && /^\d{9}[\dX]$/.test(c)) {
+      const somme = [...c].reduce((acc, ch, i) => acc + (10 - i) * (ch === "X" ? 10 : +ch), 0);
+      if (somme % 11 === 0) {
+        const b = "978" + c.slice(0, 9);
+        return b + ((10 - ([...b].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10)) % 10);
+      }
+      if (/^\d{10}$/.test(c) && ean("978" + c)) return "978" + c; // ISBN-13 sans son préfixe
+    } else if (c.length === 13 && /^97[89]\d{10}$/.test(c) && ean(c)) {
+      return c;
+    }
   }
   return null;
 }

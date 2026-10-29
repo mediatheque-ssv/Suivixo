@@ -222,6 +222,13 @@ t("ISBN dans l'export (à la place du public)", () => {
   assert.equal(C.isbnValide("30327000149238"), null); // code-barre d'exemplaire
   assert.equal(C.isbnValide("978-2-205-07276-2"), null); // clé fausse
   assert.equal(C.isbnValide("Jeunesse"), null);
+  assert.equal(C.isbnValide("2-205-00585-1"), "9782205005851"); // ISBN-13 noté sans « 978- »
+  assert.equal(C.isbnValide("2-211-06075-5"), null); // faute de frappe
+  assert.equal(C.isbnValide("978-2-8001-3918-0\n979-10-347-4212-7"), "9782800139180"); // deux ISBN
+  assert.equal(C.isbnValide("978-2-8189-0036-9; 9782298086911"), "9782818900369");
+  assert.equal(C.isbnValide("2-84420-181-4 (Po"), "9782844201812");
+  assert.equal(C.isbnValide("978-2-8189--2203-"), null);
+  assert.equal(C.isbnValide("Nb prêts total : 12"), null);
   const ex = (cote, isbn, statut = "Disponible") => ["Servon-sur-Vilaine", null, cote, null, null, statut, null, isbn, null, null, null, "CS1: BD", null, null, "CS2: Non renseigné", null, null, null, null, null, null, null, "Nb prêts total : 3", null, null, null, "30327000149238"];
   const rows = [
     ["Achille Talon", null, null, null, null, "Tome : 1", null, null, null, "Achille Talon est un homme moderne", null, null, null, null, null, null, "Fabcaro", null, null, null, null, null, null, null, "Dargaud"],
