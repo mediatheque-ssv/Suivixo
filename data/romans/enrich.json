@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T13:46:02Z",
+ "maj": "2026-10-29T13:47:20Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -1681,28 +1681,10 @@
    "verifie": "2026-10-29",
    "liensVus": {},
    "bnf": {
-    "dernier": 268,
-    "tomes": "253,268",
-    "dateDernier": "2016-01",
-    "editeur": "Rageot",
-    "notices": 2,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb43824554z",
-    "isbn1": "9782700242751",
-    "candidatsCouv": [
-     {
-      "n": 253,
-      "ark": "ark:/12148/cb43824554z",
-      "isbn": "9782700242751"
-     },
-     {
-      "n": 268,
-      "ark": "ark:/12148/cb44486886k",
-      "isbn": "9782700247831"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"au royaume de volaria\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"au royaume de volaria\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "couvIsbn": "9782700242751"
   },
@@ -2726,10 +2708,10 @@
     "notices": 7,
     "autresEditeurs": [
      "A. Michel",
-     "Cobra",
      "Comics USA",
      "Dargaud Bénélux",
-     "Eaglemoss collections"
+     "Ed. Aedena",
+     "J'ai lu"
     ],
     "ark1": "ark:/12148/cb47138242n",
     "isbn1": "9782017203964",
@@ -3009,7 +2991,7 @@
     "dernier": 12,
     "tomes": "1-12",
     "dateDernier": "2026-10",
-    "editeur": "Fleurus",
+    "editeur": "Groupe Fleurus",
     "notices": 12,
     "autresEditeurs": [
      "le Livre de poche jeunesse"
@@ -3966,7 +3948,6 @@
     "editeur": "Bayard jeunesse",
     "notices": 126,
     "autresEditeurs": [
-     "Komics initiative",
      "Éd. France loisirs",
      "Éditions France loisirs"
     ],
@@ -5549,7 +5530,7 @@
       "isbn": "221107815X"
      }
     ],
-    "requete": "bib.title all \"cinq sorcieres\" and (bib.doctype=\"a\") and bib.author all \"nathalie\""
+    "requete": "bib.title all \"cinq sorcieres\" and (bib.doctype=\"a\") and bib.author all \"kuperman\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -6257,19 +6238,14 @@
   "cluedo-romans-policiers": {
    "bnf": {
     "dernier": 6,
-    "tomes": "1-6",
+    "tomes": "2-6",
     "dateDernier": "2024-12",
     "editeur": "Hachette jeunesse",
-    "notices": 6,
+    "notices": 5,
     "autresEditeurs": [],
-    "ark1": "ark:/12148/cb472815184",
-    "isbn1": "9782017154105",
+    "ark1": "ark:/12148/cb473111658",
+    "isbn1": "9782017154143",
     "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb472815184",
-      "isbn": "9782017154105"
-     },
      {
       "n": 2,
       "ark": "ark:/12148/cb473111658",
@@ -6284,6 +6260,11 @@
       "n": 4,
       "ark": "ark:/12148/cb47449148d",
       "isbn": "9782017245322"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb47560371w",
+      "isbn": "9782017245377"
      }
     ],
     "accordIsbn": true,
@@ -6990,7 +6971,7 @@
     "tomes": "1-40",
     "dateDernier": "2019-05",
     "editeur": "Gallimard jeunesse",
-    "notices": 53,
+    "notices": 52,
     "autresEditeurs": [
      "Denoël",
      "Imav éditions",
@@ -7881,7 +7862,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"drole de cauchemar\" and (bib.doctype=\"a\") and bib.author all \"aubin\""
+    "requete": "bib.title all \"drole de cauchemar\" and (bib.doctype=\"a\") and bib.author all \"bruno\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -9299,38 +9280,10 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 206,
-    "tomes": "160,167,174,189,193,198-199,201,206",
-    "dateDernier": "2016-03",
-    "editeur": "Milan",
-    "notices": 9,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb425887213",
-    "isbn1": "9782745956385",
-    "candidatsCouv": [
-     {
-      "n": 160,
-      "ark": "ark:/12148/cb425887213",
-      "isbn": "9782745956385"
-     },
-     {
-      "n": 167,
-      "ark": "ark:/12148/cb42685944r",
-      "isbn": "9782745957139"
-     },
-     {
-      "n": 174,
-      "ark": "ark:/12148/cb42753189k",
-      "isbn": "9782745957146"
-     },
-     {
-      "n": 189,
-      "ark": "ark:/12148/cb43778608w",
-      "isbn": "9782745960528"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"enquetes de scarlett et watson\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"enquetes de scarlett et watson\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "couvIsbn": "9782745957139,9782745971425"
   },
@@ -10754,38 +10707,10 @@
   },
   "francette-top-secrete": {
    "bnf": {
-    "dernier": 78,
-    "tomes": "52-53,58,60,64,68,74,78",
-    "dateDernier": "2013-12",
-    "editeur": "Hatier jeunesse",
-    "notices": 8,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb41041294d",
-    "isbn1": "9782218753381",
-    "candidatsCouv": [
-     {
-      "n": 52,
-      "ark": "ark:/12148/cb41041294d",
-      "isbn": "9782218753381"
-     },
-     {
-      "n": 53,
-      "ark": "ark:/12148/cb43397775s",
-      "isbn": "9782218753398"
-     },
-     {
-      "n": 58,
-      "ark": "ark:/12148/cb413396028",
-      "isbn": "9782218928857"
-     },
-     {
-      "n": 60,
-      "ark": "ark:/12148/cb41415349w",
-      "isbn": "9782218929243"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"francette top secrete\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"francette top secrete\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -10925,7 +10850,7 @@
     "notices": 0,
     "requete": "bib.title all \"frissons\" and (bib.doctype=\"a\")",
     "accordIsbn": false,
-    "ecartee": "Éd. Sirius, 4 notices"
+    "ecartee": "Tonkam, 57 notices"
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -11379,7 +11304,7 @@
     "dernier": 9,
     "tomes": "1-9",
     "dateDernier": "2025-12",
-    "editeur": "Pocket jeunesse PKJ",
+    "editeur": "Pocket jeunesse",
     "notices": 10,
     "autresEditeurs": [
      "Lumen"
@@ -12288,7 +12213,7 @@
     "dernier": 12,
     "tomes": "1-12",
     "dateDernier": "2013-09",
-    "editeur": "Castor poche-Flammarion",
+    "editeur": "Flammarion",
     "notices": 17,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb41332825s",
@@ -12605,11 +12530,11 @@
   },
   "hercule-carotte-detective": {
    "bnf": {
-    "dernier": 118,
-    "tomes": "1-13,105,111,118",
-    "dateDernier": "2013-05",
+    "dernier": 13,
+    "tomes": "1-13",
+    "dateDernier": "2023-03",
     "editeur": "Hatier jeunesse",
-    "notices": 27,
+    "notices": 21,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb46644297w",
     "isbn1": "9782401062061",
@@ -14206,8 +14131,8 @@
     "dernier": 52,
     "tomes": "1-21,24-25,28-32,35-37,40-49,51-52",
     "dateDernier": "2026-09",
-    "editeur": "Castor poche-Flammarion",
-    "notices": 56,
+    "editeur": "Flammarion",
+    "notices": 53,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb42526341w",
     "isbn1": "9782081247987",
@@ -15238,8 +15163,8 @@
     "dernier": 26,
     "tomes": "1-12,17-26",
     "dateDernier": "2020-02",
-    "editeur": "Play bac",
-    "notices": 35,
+    "editeur": "Play Bac BD",
+    "notices": 36,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb469162947",
     "isbn1": "9782809677874",
@@ -15251,6 +15176,11 @@
      },
      {
       "n": 1,
+      "ark": "ark:/12148/cb468375758",
+      "isbn": "9782809675597"
+     },
+     {
+      "n": 1,
       "ark": "ark:/12148/cb46829091d",
       "isbn": "9782809676556"
      },
@@ -15258,11 +15188,6 @@
       "n": 1,
       "ark": "ark:/12148/cb45794200r",
       "isbn": "9782809667080"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb45712468s",
-      "isbn": "9782809666632"
      }
     ],
     "accordIsbn": true,
@@ -16304,11 +16229,11 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 152,
-    "tomes": "1-24,120,128,133,136,140,143,150,152",
-    "dateDernier": "2015-11",
+    "dernier": 24,
+    "tomes": "1-24",
+    "dateDernier": "2026-07",
     "editeur": "Hatier jeunesse",
-    "notices": 64,
+    "notices": 55,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb474142496",
     "isbn1": "9782401106178",
@@ -16334,7 +16259,7 @@
       "isbn": "9782218993626"
      }
     ],
-    "accordIsbn": true,
+    "accordIsbn": false,
     "requete": "bib.title all \"ma premiere mythologie\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782218980459"
@@ -16762,13 +16687,11 @@
     "dernier": 5,
     "tomes": "1-5",
     "dateDernier": "2023-10",
-    "editeur": "Seuil",
+    "editeur": "Seuil Jeunesse",
     "notices": 7,
     "autresEditeurs": [
-     "Harlequin",
      "Pocket jeunesse-PKJ",
-     "le Téméraire",
-     "Éd. Harlequin"
+     "le Téméraire"
     ],
     "ark1": "ark:/12148/cb47048128v",
     "isbn1": "9791023517866",
@@ -17106,10 +17029,9 @@
     "notices": 7,
     "autresEditeurs": [
      "Bande d'ados",
-     "Patricia Burgeaud",
-     "Robin Ribaut",
      "Édilivre",
-     "Éditions France loisirs"
+     "Éditions France loisirs",
+     "Éditions les Incorruptibles"
     ],
     "ark1": "ark:/12148/cb43546195t",
     "isbn1": "9782747044974",
@@ -17237,8 +17159,7 @@
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"manu et nono\" and (bib.doctype=\"a\")",
-    "accordIsbn": false,
-    "ecartee": "Éditions MDI, 1 notices"
+    "accordIsbn": false
    },
    "couvFR": {
     "source": "Decitre",
@@ -17533,38 +17454,10 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 126,
-    "tomes": "17-18,21,35,42,50,53,58,62,73,76,82,85-86,93,98,100-103,105,109-112,125-126",
-    "dateDernier": "2021-05",
-    "editeur": "Calligram-Christian Gallimard",
-    "notices": 27,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb43414120n",
-    "isbn1": "2884451897",
-    "candidatsCouv": [
-     {
-      "n": 17,
-      "ark": "ark:/12148/cb43414120n",
-      "isbn": "2884451897"
-     },
-     {
-      "n": 18,
-      "ark": "ark:/12148/cb434141210",
-      "isbn": "2884451900"
-     },
-     {
-      "n": 21,
-      "ark": "ark:/12148/cb43495270c",
-      "isbn": "9782884806763"
-     },
-     {
-      "n": 35,
-      "ark": "ark:/12148/cb37006029h",
-      "isbn": "2884453733"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"max et lili\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"max et lili\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "couvIsbn": "9782884450379,9782884450638,9782884451055"
   },
@@ -17729,11 +17622,8 @@
     "editeur": "Castor poche Flammarion",
     "notices": 4,
     "autresEditeurs": [
-     "Bayard jeunesse",
      "Flammarion",
-     "Futuropolis",
-     "Hachette jeunesse",
-     "HarperCollins"
+     "Futuropolis"
     ],
     "ark1": "ark:/12148/cb41289012s",
     "isbn1": "9782081211186",
@@ -18692,11 +18582,11 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 158,
-    "tomes": "1-15,36,47,70,78,82,94,109,119,132,148,158",
-    "dateDernier": "2016-05",
+    "dernier": 15,
+    "tomes": "1-15",
+    "dateDernier": "2020",
     "editeur": "Hatier jeunesse",
-    "notices": 39,
+    "notices": 25,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb467441206",
     "isbn1": "9782401075740",
@@ -18722,7 +18612,7 @@
       "isbn": "9782401032477"
      }
     ],
-    "accordIsbn": true,
+    "accordIsbn": false,
     "requete": "bib.title all \"moi therese miaou\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782218952876,9782218958700,9782218987601"
@@ -21079,7 +20969,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"papa est un dinosaure\" and (bib.doctype=\"a\") and bib.author all \"aubin\""
+    "requete": "bib.title all \"papa est un dinosaure\" and (bib.doctype=\"a\") and bib.author all \"bruno\""
    },
    "couvFR": {
     "source": "Decitre",
@@ -21538,7 +21428,7 @@
     "tomes": "1-40",
     "dateDernier": "2019-05",
     "editeur": "Gallimard jeunesse",
-    "notices": 53,
+    "notices": 52,
     "autresEditeurs": [
      "Denoël",
      "Imav éditions",
@@ -22387,7 +22277,7 @@
     "dernier": 13,
     "tomes": "1-13",
     "dateDernier": "2021",
-    "editeur": "Castor poche-Flammarion",
+    "editeur": "Flammarion",
     "notices": 18,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb40165001f",
@@ -23835,7 +23725,7 @@
     "dernier": 6,
     "tomes": "1-6",
     "dateDernier": "2015-09",
-    "editeur": "Pocket jeunesse-PKJ",
+    "editeur": "PKJ",
     "notices": 6,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb43569816r",
@@ -25622,7 +25512,7 @@
     "dernier": 10,
     "tomes": "1-10",
     "dateDernier": "2012-09",
-    "editeur": "Castor poche Flammarion",
+    "editeur": "Flammarion",
     "notices": 20,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb42472749n",
@@ -26134,38 +26024,10 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 186,
-    "tomes": "140-141,158-159,169-170,178,183-184,186",
-    "dateDernier": "2013",
-    "editeur": "Milan",
-    "notices": 10,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb42431815j",
-    "isbn1": "9782745949301",
-    "candidatsCouv": [
-     {
-      "n": 140,
-      "ark": "ark:/12148/cb42431815j",
-      "isbn": "9782745949301"
-     },
-     {
-      "n": 141,
-      "ark": "ark:/12148/cb42431822t",
-      "isbn": "9782745949318"
-     },
-     {
-      "n": 158,
-      "ark": "ark:/12148/cb42528885c",
-      "isbn": "9782745953858"
-     },
-     {
-      "n": 159,
-      "ark": "ark:/12148/cb425295833",
-      "isbn": "9782745953865"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"sherlock yack zoo detective\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"sherlock yack zoo detective\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "couvIsbn": "9782745957672,9782745925756,9782745926579"
   },
@@ -27984,8 +27846,7 @@
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"tenebria\" and (bib.doctype=\"a\")",
-    "accordIsbn": false,
-    "ecartee": "Médiaspaul-Libertad, 1 notices"
+    "accordIsbn": false
    },
    "couvFR": {
     "source": "Decitre",
