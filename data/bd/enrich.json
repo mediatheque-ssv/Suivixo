@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T13:07:33Z",
+ "maj": "2026-10-29T14:03:45Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -389,7 +389,7 @@
     "notices": 0,
     "requete": "bib.title all \"ambre\" and (bib.doctype=\"a\")",
     "accordIsbn": false,
-    "ecartee": "Harlequin, 50 notices"
+    "ecartee": "Harlequin, 54 notices"
    },
    "verifie": "2026-10-29",
    "liensVus": {},
@@ -718,11 +718,7 @@
     "dateDernier": "2026-09",
     "editeur": "Jungle",
     "notices": 2,
-    "autresEditeurs": [
-     "Baie des Anges",
-     "Hatier",
-     "O.C.D.L."
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb48588716b",
     "isbn1": "9782822246439",
     "candidatsCouv": [
@@ -906,42 +902,10 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 1,
-    "tomes": "1",
-    "dateDernier": "2024-02",
-    "editeur": "Hachette",
-    "notices": 4,
-    "autresEditeurs": [
-     "Dargaud",
-     "Vagator",
-     "Éditions France loisirs"
-    ],
-    "ark1": "ark:/12148/cb474180755",
-    "isbn1": "9782014001341",
-    "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb474180755",
-      "isbn": "9782014001341"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb43404620t",
-      "isbn": "9782012101333"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb40955450x",
-      "isbn": "2012101658"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb37696280q",
-      "isbn": "2012100015"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"asterix le gaulois\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"asterix le gaulois\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "verifie": "2026-10-29",
    "liensVus": {},
@@ -1658,7 +1622,7 @@
     "dernier": 15,
     "tomes": "1-15",
     "dateDernier": "2010",
-    "editeur": "Jungle",
+    "editeur": "Jungle-[Casterman]",
     "notices": 15,
     "autresEditeurs": [
      "Panini kids"
@@ -2687,40 +2651,41 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 27,
-    "tomes": "1-27",
-    "dateDernier": "1999-09",
-    "editeur": "Dupuis",
-    "notices": 39,
+    "dernier": 29,
+    "tomes": "25-29",
+    "dateDernier": "2011",
+    "editeur": "Dargaud",
+    "notices": 5,
     "autresEditeurs": [
      "",
-     "Dargaud"
+     "Dupuis",
+     "Éd. France loisirs"
     ],
-    "ark1": "ark:/12148/cb46818363j",
-    "isbn1": "9791034757459",
+    "ark1": "ark:/12148/cb455936306",
+    "isbn1": "9782505006596",
     "candidatsCouv": [
      {
-      "n": 1,
-      "ark": "ark:/12148/cb46818363j",
-      "isbn": "9791034757459"
+      "n": 25,
+      "ark": "ark:/12148/cb455936306",
+      "isbn": "9782505006596"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb37047285m",
-      "isbn": "2800128216"
+      "n": 26,
+      "ark": "ark:/12148/cb455936337",
+      "isbn": "9782505006589"
      },
      {
-      "n": 2,
-      "ark": "ark:/12148/cb470475637",
-      "isbn": "9791034762712"
+      "n": 27,
+      "ark": "ark:/12148/cb455936368",
+      "isbn": "9782505006572"
      },
      {
-      "n": 2,
-      "ark": "ark:/12148/cb370472890",
-      "isbn": "2800128224"
+      "n": 28,
+      "ark": "ark:/12148/cb43414291f",
+      "isbn": "2871293538"
      }
     ],
-    "accordIsbn": false,
+    "accordIsbn": true,
     "requete": "bib.title all \"boule et bill\" and (bib.doctype=\"a\")"
    },
    "verifie": "2026-10-29",
@@ -2955,7 +2920,9 @@
     "dateDernier": "2017-11",
     "editeur": "Soleil",
     "notices": 5,
-    "autresEditeurs": [],
+    "autresEditeurs": [
+     "Éditions Oxymore"
+    ],
     "ark1": "ark:/12148/cb42763678h",
     "isbn1": "9782302020092",
     "candidatsCouv": [
@@ -5182,11 +5149,11 @@
    },
    "couvVersion": 3,
    "bnf": {
-    "dernier": 3,
-    "tomes": "1-3",
-    "dateDernier": "2022-07",
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2025-09",
     "editeur": "La Pastèque",
-    "notices": 3,
+    "notices": 4,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb450641370",
     "isbn1": "9782923841892",
@@ -5205,6 +5172,11 @@
       "n": 3,
       "ark": "ark:/12148/cb470577301",
       "isbn": "9782897771263"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48602880s",
+      "isbn": "9782897771867"
      }
     ],
     "accordIsbn": true,
@@ -5659,9 +5631,7 @@
     "dateDernier": "2025-01",
     "editeur": "le Lombard",
     "notices": 5,
-    "autresEditeurs": [
-     "La Pierre d'Alun"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb46962923q",
     "isbn1": "9782808202626",
     "candidatsCouv": [
@@ -5705,10 +5675,7 @@
     "dateDernier": "2026-09",
     "editeur": "Charivari",
     "notices": 3,
-    "autresEditeurs": [
-     "Editions Fleuve noir",
-     "Éditions Fleuve noir"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb47623379q",
     "isbn1": "9782487663138",
     "candidatsCouv": [
@@ -5976,7 +5943,6 @@
     "editeur": "les Humanoïdes associés",
     "notices": 9,
     "autresEditeurs": [
-     "Vauvenargues",
      "Éd. France loisirs"
     ],
     "ark1": "ark:/12148/cb455106853",
@@ -6404,8 +6370,7 @@
     "notices": 9,
     "autresEditeurs": [
      "Hachette jeunesse",
-     "Hachette livre - Hachette Jeunesse",
-     "the marketing store"
+     "Hachette livre - Hachette Jeunesse"
     ],
     "ark1": "ark:/12148/cb468579555",
     "isbn1": "9782864975960",
@@ -7021,10 +6986,8 @@
     "notices": 4,
     "autresEditeurs": [
      "Cévennes éditions",
-     "Marjolaine Lefievre",
-     "Média 1000",
-     "Plumes de Mimi éditions",
-     "Éd. Lito"
+     "Éd. Lito",
+     "Éditions Lito"
     ],
     "ark1": "ark:/12148/cb44526678b",
     "isbn1": "9782875801302",
@@ -8601,8 +8564,8 @@
     "dernier": 35,
     "tomes": "1-35",
     "dateDernier": "2026",
-    "editeur": "Marsu productions",
-    "notices": 62,
+    "editeur": "Dupuis",
+    "notices": 61,
     "autresEditeurs": [
      "Hachette",
      "Hachette collections",
@@ -10216,11 +10179,11 @@
    },
    "couvVersion": 3,
    "bnf": {
-    "dernier": 23,
-    "tomes": "1-5,12-23",
-    "dateDernier": "2023-06",
+    "dernier": 24,
+    "tomes": "1-5,12-24",
+    "dateDernier": "2025-06",
     "editeur": "la Boîte à bulles",
-    "notices": 19,
+    "notices": 20,
     "autresEditeurs": [
      "Hachette",
      "Mango jeunesse"
@@ -13127,9 +13090,7 @@
     "dateDernier": "2019-10",
     "editeur": "les Éditions de la Gouttière",
     "notices": 6,
-    "autresEditeurs": [
-     "Éditions Cornélius"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb445213727",
     "isbn1": "9791092111309",
     "candidatsCouv": [
@@ -13660,11 +13621,40 @@
    "bnfVerifie": "2026-10-29",
    "couvVersion": 3,
    "bnf": {
-    "dernier": null,
-    "notices": 0,
-    "requete": "bib.title all \"theo toutou\" and (bib.doctype=\"a\")",
-    "accordIsbn": false,
-    "ecartee": "BD kids, 3 notices"
+    "dernier": 7,
+    "tomes": "3-7",
+    "dateDernier": "2010-01",
+    "editeur": "Bayard jeunesse",
+    "notices": 5,
+    "autresEditeurs": [
+     "BD kids"
+    ],
+    "ark1": "ark:/12148/cb392753322",
+    "isbn1": "2747012700",
+    "candidatsCouv": [
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb392753322",
+      "isbn": "2747012700"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb400473224",
+      "isbn": "2747017923"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb41089610d",
+      "isbn": "9782747023573"
+     },
+     {
+      "n": 6,
+      "ark": "ark:/12148/cb414084470",
+      "isbn": "9782747027663"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"theo toutou\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782747006545,9782747017923,9782747027663"
   },
@@ -14440,11 +14430,11 @@
     "editeur": "Delcourt",
     "notices": 4,
     "autresEditeurs": [
-     "A. Michel",
-     "Altaya",
      "Archipoche",
-     "Auzou",
-     "Bias"
+     "Calmann-Lévy",
+     "Casterman",
+     "Flammarion",
+     "Furet du Nord"
     ],
     "ark1": "ark:/12148/cb41004057j",
     "isbn1": "9782756002132",
