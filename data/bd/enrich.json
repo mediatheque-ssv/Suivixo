@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T15:21:49Z",
+ "maj": "2026-10-29T15:23:31Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -8031,40 +8031,40 @@
   },
   "lucky-luke": {
    "bnf": {
-    "dernier": 54,
-    "tomes": "1-2,4,6,8,14-16,40-50,52-54",
-    "dateDernier": "1988-10",
-    "editeur": "Dargaud",
-    "notices": 28,
+    "dernier": 31,
+    "tomes": "1-10,12-14,17-31",
+    "dateDernier": "2023-02",
+    "editeur": "Dupuis",
+    "notices": 59,
     "autresEditeurs": [
      "",
      "Barcelone",
      "Bruxelles",
-     "Dupuis",
+     "Dargaud",
      "France loisirs"
     ],
-    "ark1": "ark:/12148/cb355901451",
-    "isbn1": "2205003062",
+    "ark1": "ark:/12148/cb467949971",
+    "isbn1": "9782800114415",
     "candidatsCouv": [
      {
       "n": 1,
-      "ark": "ark:/12148/cb355901451",
-      "isbn": "2205003062"
+      "ark": "ark:/12148/cb467949971",
+      "isbn": "9782800114415"
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb34742881g",
-      "isbn": "2205003046"
+      "ark": "ark:/12148/cb451681374",
+      "isbn": "9782800167404"
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb34730331v",
-      "isbn": "2205024930"
+      "ark": "ark:/12148/cb424078339",
+      "isbn": "9782884713146"
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb34607549c",
-      "isbn": "220501241X"
+      "ark": "ark:/12148/cb41408104w",
+      "isbn": "9782800142913"
      }
     ],
     "accordIsbn": true,
@@ -8611,7 +8611,7 @@
     "dernier": 126,
     "tomes": "1,3-8,10-51,53-105,109-112,125-126",
     "dateDernier": "2021-05",
-    "editeur": "Calligram-Christian Gallimard",
+    "editeur": "Calligram",
     "notices": 112,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb43414597b",
@@ -11547,11 +11547,10 @@
     "dernier": 20,
     "tomes": "1-2,4-8,11,13-20",
     "dateDernier": "2011-01",
-    "editeur": "Lucky Productions",
+    "editeur": "Lucky comics",
     "notices": 22,
     "autresEditeurs": [
-     "Dargaud",
-     "Hachette collections"
+     "Dargaud"
     ],
     "ark1": "ark:/12148/cb392082264",
     "isbn1": "2884711333",
@@ -13925,7 +13924,7 @@
     "dernier": 34,
     "tomes": "1-34",
     "dateDernier": "2017-03",
-    "editeur": "Bayard jeunesse",
+    "editeur": "Bayard poche",
     "notices": 94,
     "autresEditeurs": [
      "le Grand livre du mois",
@@ -14417,7 +14416,6 @@
     "autresEditeurs": [
      "",
      "Gombert éditions",
-     "Hachette collections",
      "J'ai lu",
      "[Librairie générale française]"
     ],
