@@ -487,6 +487,10 @@ def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> N
 
 SRU = "https://catalogue.bnf.fr/api/SRU"
 EXCLUS = re.compile(r"\b(roman|novel|artbook|art book|guide|fanbook|databook|coloriage|anime comics|film|coffret|calendrier|agenda|carnet|light novel)\b", re.I)
+# romans jeunesse : « roman » est justement ce qu'on cherche (complément de titre « roman » très courant)
+EXCLUS_ROMANS = re.compile(r"\b(artbook|art book|guide|fanbook|databook|coloriage|anime comics|coffret|calendrier|agenda|carnet)\b", re.I)
+# collections vendues en kiosque (« Hachette collections », Altaya…) : numérotation à part, jamais nos livres
+EDITEURS_KIOSQUE = re.compile(r"hachette collections|altaya|eaglemoss|[eé]ditions atlas|planeta|del prado", re.I)
 _dernier_bnf = 0.0
 
 
@@ -621,7 +625,9 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
             la_notre = next(((t, v) for t, v in occs if cle(t) in cles_ok), None)
             serie_t = la_notre[0] if la_notre else (occs[0][0] if occs else "")
             texte = " ".join([titre, premier(f, "200", "e"), premier(f, "200", "i"), serie_t, premier(f, "225", "e")])
-            if EXCLUS.search(texte):
+            if (EXCLUS_ROMANS if DATA.name == "romans" else EXCLUS).search(texte):
+                continue
+            if EDITEURS_KIOSQUE.search(premier(f, "214", "c") or premier(f, "210", "c")):
                 continue
             if not ({cle(titre), cle(serie_t)} & cles_ok):
                 continue
