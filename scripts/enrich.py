@@ -656,6 +656,14 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
     if choix is None and eo:
         choix = next((k for k in groupes if k and (k in eo or eo in k)), None)
     if choix is None:
+        if nos_isbn and not accord:
+            # ni nos ISBN ni notre éditeur : la BnF a trouvé une autre série du même nom (« Ambre » chez
+            # Harlequin pour une BD chez Jungle). On n'en tient pas compte.
+            k = max(groupes, key=lambda k: len(groupes[k]))
+            if debug:
+                dbg(f"    BnF : écartée, ni nos ISBN ni notre éditeur ({groupes[k][0]['editeur']})")
+            return {"dernier": None, "notices": 0, "requete": requete, "accordIsbn": False,
+                    "ecartee": f"{groupes[k][0]['editeur']}, {len(groupes[k])} notices"}
         choix = max(groupes, key=lambda k: len({t["n"] for t in groupes[k]}))
     g = groupes[choix]
     nums = sorted({t["n"] for t in g})
