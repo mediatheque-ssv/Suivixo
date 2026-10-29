@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T15:33:09Z",
+ "maj": "2026-10-29T15:34:12Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -293,9 +293,9 @@
     "autresEditeurs": [
      "Dargaud",
      "Ed. J'ai lu",
-     "Hachette collections",
      "Hachette livre - Hachette Romans",
-     "J'ai lu"
+     "J'ai lu",
+     "Éd. Bérénice"
     ],
     "ark1": "ark:/12148/cb45448674t",
     "isbn1": "9782203159235",
@@ -1462,7 +1462,7 @@
     "dernier": 13,
     "tomes": "1-13",
     "dateDernier": "1999-03",
-    "editeur": "Panini kids",
+    "editeur": "Urban comics",
     "notices": 58,
     "autresEditeurs": [
      "A. Michel",
@@ -1972,7 +1972,7 @@
     "dernier": 7,
     "tomes": "1-7",
     "dateDernier": "2008-06",
-    "editeur": "Jungle",
+    "editeur": "Jungle-[Casterman]",
     "notices": 9,
     "autresEditeurs": [
      "Hachette Jeunesse",
@@ -8447,7 +8447,7 @@
     "dernier": 23,
     "tomes": "1-23",
     "dateDernier": "2014",
-    "editeur": "Bayard BD",
+    "editeur": "Bayard jeunesse",
     "notices": 26,
     "autresEditeurs": [
      "BD kids"
@@ -11610,7 +11610,7 @@
     "dernier": 7,
     "tomes": "1-7",
     "dateDernier": "2014-04",
-    "editeur": "Milan",
+    "editeur": "Milan-Treize étrange",
     "notices": 14,
     "autresEditeurs": [
      "Vents d'Ouest"
