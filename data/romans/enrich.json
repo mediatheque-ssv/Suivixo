@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T13:41:59Z",
+ "maj": "2026-10-29T13:46:02Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -4384,16 +4384,13 @@
   "chair-de-poule": {
    "bnf": {
     "dernier": 106,
-    "tomes": "1-7,9-27,29-34,36-37,39-40,42,44,47,50,53-54,60-62,64,67-69,71-73,101-106",
+    "tomes": "1-7,9-27,29-34,36-37,39-40,42-44,47-48,50,53-56,60-62,64,67-69,71-73,101-106",
     "dateDernier": "2003-04",
     "editeur": "Bayard jeunesse",
-    "notices": 99,
+    "notices": 103,
     "autresEditeurs": [
      "",
-     "Denoël",
-     "Dupuis",
-     "Publications Zed",
-     "Vauvenargues"
+     "le Grand livre du mois"
     ],
     "ark1": "ark:/12148/cb470183410",
     "isbn1": "9791036330353",
@@ -5650,7 +5647,7 @@
     "dernier": 3,
     "tomes": "1-3",
     "dateDernier": "2023-06",
-    "editeur": "Actes Sud jeunesse",
+    "editeur": "Actes Sud junior",
     "notices": 3,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb46806900m",
@@ -6102,11 +6099,11 @@
     "maj": "2026-10-29"
    },
    "bnf": {
-    "dernier": 116,
-    "tomes": "1-27,29-46,56,68,81,96,100,116",
-    "dateDernier": "1963",
+    "dernier": 45,
+    "tomes": "1-27,29-45",
+    "dateDernier": "2016-09",
     "editeur": "Hachette",
-    "notices": 89,
+    "notices": 71,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb45850733g",
     "isbn1": "9782017044796",
@@ -7473,8 +7470,7 @@
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"dino\" and (bib.doctype=\"a\")",
-    "accordIsbn": false,
-    "ecartee": "EPA, 1 notices"
+    "accordIsbn": false
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -7677,7 +7673,7 @@
       "isbn": "2268052664"
      }
     ],
-    "requete": "bib.title all \"dragon recalcitrant\" and (bib.doctype=\"a\") and bib.author all \"kenneth\""
+    "requete": "bib.title all \"dragon recalcitrant\" and (bib.doctype=\"a\") and bib.author all \"grahame\""
    },
    "couvEssai": "2026-10-29",
    "bnfVerifie": "2026-10-29",
@@ -9353,7 +9349,7 @@
     "tomes": "1-2",
     "dateDernier": "2026-06",
     "editeur": "Albin Michel jeunesse",
-    "notices": 2,
+    "notices": 3,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb48682579d",
     "isbn1": "9782226502421",
@@ -9362,6 +9358,11 @@
       "n": 1,
       "ark": "ark:/12148/cb48682579d",
       "isbn": "9782226502421"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb500049152",
+      "isbn": "9782226502438"
      },
      {
       "n": 2,
@@ -16596,28 +16597,10 @@
     "maj": "2026-10-29"
    },
    "bnf": {
-    "dernier": 17,
-    "tomes": "6,17",
-    "dateDernier": "2005-08",
-    "editeur": "Nathan",
-    "notices": 5,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb399537256",
-    "isbn1": "2092506560",
-    "candidatsCouv": [
-     {
-      "n": 6,
-      "ark": "ark:/12148/cb399537256",
-      "isbn": "2092506560"
-     },
-     {
-      "n": 17,
-      "ark": "ark:/12148/cb40027447b",
-      "isbn": "2092506986"
-     }
-    ],
-    "accordIsbn": false,
-    "requete": "bib.title all \"mademoiselle zazie\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"mademoiselle zazie\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "couvEssai": "2026-10-29",
    "liensVus": {},
@@ -24523,10 +24506,7 @@
     "dateDernier": "2024-09",
     "editeur": "Gallimard jeunesse",
     "notices": 4,
-    "autresEditeurs": [
-     "Plon",
-     "Pocket jeunesse"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb475767782",
     "isbn1": "9782075185325",
     "candidatsCouv": [
@@ -26999,11 +26979,11 @@
   "star-wars": {
    "verifie": "2026-10-29",
    "bnf": {
-    "dernier": 7,
-    "tomes": "3-7",
-    "dateDernier": "2016-07",
+    "dernier": 136,
+    "tomes": "1-10,13,18,25,35,41,47,52,58,61,64,68,85,87-98,100,130-131,134,136",
+    "dateDernier": "2021-05",
     "editeur": "Hachette collections",
-    "notices": 6,
+    "notices": 55,
     "autresEditeurs": [
      "Altaya",
      "Dark horse France",
@@ -27011,28 +26991,28 @@
      "Fleuve noir",
      "Huginn & Muninn"
     ],
-    "ark1": "ark:/12148/cb450739104",
+    "ark1": "ark:/12148/cb46635377k",
     "isbn1": null,
     "candidatsCouv": [
      {
-      "n": 3,
-      "ark": "ark:/12148/cb450739104",
+      "n": 1,
+      "ark": "ark:/12148/cb46635377k",
       "isbn": null
      },
      {
-      "n": 4,
-      "ark": "ark:/12148/cb44406354x",
-      "isbn": "9782012600201"
+      "n": 1,
+      "ark": "ark:/12148/cb466282425",
+      "isbn": null
      },
      {
-      "n": 5,
-      "ark": "ark:/12148/cb44406356m",
-      "isbn": "9782012600218"
+      "n": 1,
+      "ark": "ark:/12148/cb45809754k",
+      "isbn": null
      },
      {
-      "n": 6,
-      "ark": "ark:/12148/cb44409783b",
-      "isbn": "9782012600225"
+      "n": 1,
+      "ark": "ark:/12148/cb456021766",
+      "isbn": "9782017045007"
      }
     ],
     "accordIsbn": false,
@@ -28284,8 +28264,8 @@
     "dernier": 30,
     "tomes": "1-8,24-30",
     "dateDernier": "2013-07",
-    "editeur": "Hachette livre",
-    "notices": 20,
+    "editeur": "Hachette Jeunesse",
+    "notices": 21,
     "autresEditeurs": [
      "Bayard jeunesse",
      "Jungle",
@@ -29769,8 +29749,7 @@
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"une pincee de magie\" and (bib.doctype=\"a\")",
-    "accordIsbn": false,
-    "ecartee": "PKJ, 2 notices"
+    "accordIsbn": false
    },
    "couvEssaiMN": "",
    "couvIsbn": "9791023512670,9791023512717"
@@ -30254,14 +30233,12 @@
   "violetta": {
    "bnfVerifie": "2026-10-29",
    "bnf": {
-    "dernier": 35,
-    "tomes": "1-30,35",
-    "dateDernier": "1958",
+    "dernier": 30,
+    "tomes": "1-30",
+    "dateDernier": "2015-12",
     "editeur": "Hachette comics",
-    "notices": 36,
-    "autresEditeurs": [
-     "Rivages"
-    ],
+    "notices": 35,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb45073792r",
     "isbn1": "9782010002526",
     "candidatsCouv": [
