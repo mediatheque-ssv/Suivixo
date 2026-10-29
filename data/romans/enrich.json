@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T15:03:59Z",
+ "maj": "2026-10-29T15:07:42Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -2991,7 +2991,7 @@
     "dernier": 12,
     "tomes": "1-12",
     "dateDernier": "2026-10",
-    "editeur": "Groupe Fleurus",
+    "editeur": "Fleurus",
     "notices": 12,
     "autresEditeurs": [
      "le Livre de poche jeunesse"
@@ -5530,7 +5530,7 @@
       "isbn": "221107815X"
      }
     ],
-    "requete": "bib.title all \"cinq sorcieres\" and (bib.doctype=\"a\") and bib.author all \"kuperman\""
+    "requete": "bib.title all \"cinq sorcieres\" and (bib.doctype=\"a\") and bib.author all \"nathalie\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -6967,44 +6967,10 @@
   },
   "d-apres-serie-animee-le-petit-nicolas": {
    "bnf": {
-    "dernier": 40,
-    "tomes": "1-40",
-    "dateDernier": "2019-05",
-    "editeur": "Gallimard jeunesse",
-    "notices": 52,
-    "autresEditeurs": [
-     "Denoël",
-     "Imav éditions",
-     "Éd. France loisirs",
-     "Éditions France loisirs"
-    ],
-    "ark1": "ark:/12148/cb470864041",
-    "isbn1": "9782075166126",
-    "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb470864041",
-      "isbn": "9782075166126"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb427265246",
-      "isbn": "9782070644957"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb42726510h",
-      "isbn": "9782070644919"
-     },
-     {
-      "n": 2,
-      "ark": "ark:/12148/cb470864130",
-      "isbn": "9782075166133"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"petit nicolas\" and (bib.doctype=\"a\")",
-    "titreBnf": "Le petit Nicolas"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"apres serie animee le petit nicolas\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -11327,7 +11293,7 @@
     "dernier": 9,
     "tomes": "1-9",
     "dateDernier": "2025-12",
-    "editeur": "Pocket jeunesse",
+    "editeur": "PKJ",
     "notices": 10,
     "autresEditeurs": [
      "Lumen"
@@ -12236,7 +12202,7 @@
     "dernier": 12,
     "tomes": "1-12",
     "dateDernier": "2013-09",
-    "editeur": "Flammarion",
+    "editeur": "Castor poche-Flammarion",
     "notices": 17,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb41332825s",
@@ -14154,7 +14120,7 @@
     "dernier": 52,
     "tomes": "1-21,24-25,28-32,35-37,40-49,51-52",
     "dateDernier": "2026-09",
-    "editeur": "Flammarion",
+    "editeur": "Castor poche-Flammarion",
     "notices": 53,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb42526341w",
@@ -21451,7 +21417,7 @@
     "tomes": "1-40",
     "dateDernier": "2019-05",
     "editeur": "Gallimard jeunesse",
-    "notices": 52,
+    "notices": 53,
     "autresEditeurs": [
      "Denoël",
      "Imav éditions",
@@ -21482,7 +21448,7 @@
       "isbn": "9782075166133"
      }
     ],
-    "accordIsbn": true,
+    "accordIsbn": false,
     "requete": "bib.title all \"petit nicolas\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782821211407,9782070644933"
@@ -22300,7 +22266,7 @@
     "dernier": 13,
     "tomes": "1-13",
     "dateDernier": "2021",
-    "editeur": "Flammarion",
+    "editeur": "Castor poche-Flammarion",
     "notices": 18,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb40165001f",
@@ -25535,7 +25501,7 @@
     "dernier": 10,
     "tomes": "1-10",
     "dateDernier": "2012-09",
-    "editeur": "Flammarion",
+    "editeur": "Castor poche Flammarion",
     "notices": 20,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb42472749n",
