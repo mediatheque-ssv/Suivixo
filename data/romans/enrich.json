@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T15:01:16Z",
+ "maj": "2026-10-29T15:03:59Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -4365,10 +4365,10 @@
   "chair-de-poule": {
    "bnf": {
     "dernier": 106,
-    "tomes": "1-7,9-27,29-34,36-37,39-40,42-44,47-48,50,53-56,60-62,64,67-69,71-73,101-106",
+    "tomes": "1-7,9-27,29-34,36-37,39-40,42-44,47-48,50,52-56,60-62,64,67-69,71-73,101-106",
     "dateDernier": "2003-04",
-    "editeur": "Bayard jeunesse",
-    "notices": 103,
+    "editeur": "Bayard",
+    "notices": 105,
     "autresEditeurs": [
      "",
      "le Grand livre du mois"
@@ -5390,7 +5390,7 @@
     "dernier": 3,
     "tomes": "1-3",
     "dateDernier": "2010-09",
-    "editeur": "Milan",
+    "editeur": "Milan jeunesse",
     "notices": 19,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb42302772j",
@@ -5628,7 +5628,7 @@
     "dernier": 3,
     "tomes": "1-3",
     "dateDernier": "2023-06",
-    "editeur": "Actes Sud junior",
+    "editeur": "Actes Sud jeunesse",
     "notices": 3,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb46806900m",
@@ -9887,7 +9887,7 @@
       "isbn": "2012011578"
      }
     ],
-    "requete": "bib.title all \"fantomette contre le geant\" and (bib.doctype=\"a\") and bib.author all \"chaulet\""
+    "requete": "bib.title all \"fantomette contre le geant\" and (bib.doctype=\"a\") and bib.author all \"georges\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -11280,10 +11280,33 @@
   "gardiens-de-baguette-magique": {
    "verifie": "2026-10-29",
    "bnf": {
-    "dernier": null,
-    "notices": 0,
-    "requete": "bib.title all \"gardiens de baguette magique\" and (bib.doctype=\"a\")",
-    "accordIsbn": false
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-07",
+    "editeur": "Gallmeister",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb486389626",
+    "isbn1": "9782351783733",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb486389626",
+      "isbn": "9782351783733"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48638984h",
+      "isbn": "9782351783740"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48759512c",
+      "isbn": "9782351783757"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"gardiens de baguette magique\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-29",
    "bnfVerifie": "2026-10-29",
@@ -12266,7 +12289,7 @@
       "isbn": "2742757015"
      }
     ],
-    "requete": "bib.title all \"gustave taloche roi de la bagarre\" and (bib.doctype=\"a\") and bib.author all \"beatrice\""
+    "requete": "bib.title all \"gustave taloche roi de la bagarre\" and (bib.doctype=\"a\") and bib.author all \"fontanel\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -25015,7 +25038,7 @@
       "isbn": "2070550923"
      }
     ],
-    "requete": "bib.title all \"sadi et le general\" and (bib.doctype=\"a\") and bib.author all \"sabet\""
+    "requete": "bib.title all \"sadi et le general\" and (bib.doctype=\"a\") and bib.author all \"katia\""
    },
    "couvEssai": "2026-10-29",
    "bnfVerifie": "2026-10-29",
@@ -26841,40 +26864,40 @@
   "star-wars": {
    "verifie": "2026-10-29",
    "bnf": {
-    "dernier": 136,
-    "tomes": "1-10,13,18,25,35,41,47,52,58,61,64,68,85,87-98,100,130-131,134,136",
-    "dateDernier": "2021-05",
-    "editeur": "Hachette collections",
-    "notices": 55,
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2016-07",
+    "editeur": "Hachette jeunesse",
+    "notices": 8,
     "autresEditeurs": [
-     "Altaya",
      "Dark horse France",
      "Delcourt",
      "Fleuve noir",
-     "Huginn & Muninn"
+     "Huginn & Muninn",
+     "Jeux Descartes"
     ],
-    "ark1": "ark:/12148/cb46635377k",
-    "isbn1": null,
+    "ark1": "ark:/12148/cb456021766",
+    "isbn1": "9782017045007",
     "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb46635377k",
-      "isbn": null
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb466282425",
-      "isbn": null
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb45809754k",
-      "isbn": null
-     },
      {
       "n": 1,
       "ark": "ark:/12148/cb456021766",
       "isbn": "9782017045007"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45601676b",
+      "isbn": "9782017045083"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45601000f",
+      "isbn": "9782017045045"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb456022189",
+      "isbn": "9782017045038"
      }
     ],
     "accordIsbn": false,
@@ -29305,7 +29328,7 @@
     "tomes": "1-17",
     "dateDernier": "2024-01",
     "editeur": "BD kids",
-    "notices": 19,
+    "notices": 22,
     "autresEditeurs": [
      "Bayard",
      "Bayard jeunesse"
@@ -29324,14 +29347,14 @@
       "isbn": "9791036339110"
      },
      {
+      "n": 1,
+      "ark": "ark:/12148/cb45388765s",
+      "isbn": "9782747088398"
+     },
+     {
       "n": 2,
       "ark": "ark:/12148/cb476714050",
       "isbn": "9782747037686"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb476713798",
-      "isbn": "9782747037723"
      }
     ],
     "accordIsbn": true,
