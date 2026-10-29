@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T10:52:05Z",
+ "maj": "2026-10-29T10:59:33Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -2675,14 +2675,12 @@
   },
   "basile-bazar": {
    "bnf": {
-    "dernier": 30,
-    "tomes": "1,26,30",
-    "dateDernier": "2017-03",
-    "editeur": "Bayard poche",
-    "notices": 3,
-    "autresEditeurs": [
-     "Bayard jeunesse"
-    ],
+    "dernier": 36,
+    "tomes": "1,26,30,36",
+    "dateDernier": "2018-02",
+    "editeur": "Bayard jeunesse",
+    "notices": 4,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb45015433n",
     "isbn1": "9782747057806",
     "candidatsCouv": [
@@ -2700,6 +2698,11 @@
       "n": 30,
       "ark": "ark:/12148/cb45227635x",
       "isbn": "9782747061902"
+     },
+     {
+      "n": 36,
+      "ark": "ark:/12148/cb45452373d",
+      "isbn": "9782747083348"
      }
     ],
     "accordIsbn": true,
@@ -3058,13 +3061,12 @@
    "verifie": "2026-10-29",
    "liensVus": {},
    "bnf": {
-    "dernier": 11,
-    "tomes": "1-11",
-    "dateDernier": "2025-11",
+    "dernier": 12,
+    "tomes": "1-12",
+    "dateDernier": "2026-10",
     "editeur": "Fleurus",
-    "notices": 11,
+    "notices": 12,
     "autresEditeurs": [
-     "Groupe Fleurus",
      "le Livre de poche jeunesse"
     ],
     "ark1": "ark:/12148/cb45395568r",
@@ -3868,36 +3870,33 @@
   "c-est-la-vie-lulu": {
    "bnf": {
     "dernier": 36,
-    "tomes": "13-22,24-31,35-36",
+    "tomes": "1-36",
     "dateDernier": "2016-06",
-    "editeur": "Bayard poche",
-    "notices": 20,
-    "autresEditeurs": [
-     "Bayard Jeunesse",
-     "Bayard jeunesse"
-    ],
-    "ark1": "ark:/12148/cb410044371",
-    "isbn1": "9782747022231",
+    "editeur": "Bayard Jeunesse",
+    "notices": 47,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45033063d",
+    "isbn1": "9782747063326",
     "candidatsCouv": [
      {
-      "n": 13,
-      "ark": "ark:/12148/cb410044371",
-      "isbn": "9782747022231"
+      "n": 1,
+      "ark": "ark:/12148/cb45033063d",
+      "isbn": "9782747063326"
      },
      {
-      "n": 14,
-      "ark": "ark:/12148/cb41061883t",
-      "isbn": "9782747022248"
+      "n": 1,
+      "ark": "ark:/12148/cb391536575",
+      "isbn": "274701200X"
      },
      {
-      "n": 15,
-      "ark": "ark:/12148/cb411213844",
-      "isbn": "9782747022255"
+      "n": 2,
+      "ark": "ark:/12148/cb451418923",
+      "isbn": "9782747071895"
      },
      {
-      "n": 16,
-      "ark": "ark:/12148/cb41208120s",
-      "isbn": "9782747025614"
+      "n": 2,
+      "ark": "ark:/12148/cb391536513",
+      "isbn": "2747012018"
      }
     ],
     "accordIsbn": true,
@@ -4495,13 +4494,13 @@
     "tomes": "1-7,9-27,29-34,36-37,39-40,42,44,47,50,53-54,60-62,64,67-69,71-73,101-106",
     "dateDernier": "2003-04",
     "editeur": "Bayard jeunesse",
-    "notices": 97,
+    "notices": 99,
     "autresEditeurs": [
      "",
-     "Bayard",
-     "Bayard Editions",
      "Denoël",
-     "Dupuis"
+     "Dupuis",
+     "Publications Zed",
+     "Vauvenargues"
     ],
     "ark1": "ark:/12148/cb470183410",
     "isbn1": "9791036330353",
@@ -4517,14 +4516,14 @@
       "isbn": "9782747032933"
      },
      {
-      "n": 2,
-      "ark": "ark:/12148/cb47344679p",
-      "isbn": "9791036357527"
+      "n": 1,
+      "ark": "ark:/12148/cb412651987",
+      "isbn": "9782747024044"
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb471443576",
-      "isbn": "9791036330476"
+      "ark": "ark:/12148/cb47344679p",
+      "isbn": "9791036357527"
      }
     ],
     "accordIsbn": true,
@@ -5100,13 +5099,16 @@
     "tomes": "1-3",
     "dateDernier": "2019-08",
     "editeur": "l'École des loisirs",
-    "notices": 3,
-    "autresEditeurs": [
-     "l'École des loisirs-Animax"
-    ],
-    "ark1": "ark:/12148/cb45643937k",
-    "isbn1": "9782211239585",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46578913c",
+    "isbn1": "9782211302883",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46578913c",
+      "isbn": "9782211302883"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb45643937k",
@@ -5518,10 +5520,8 @@
     "tomes": "1-3",
     "dateDernier": "2010-09",
     "editeur": "Milan",
-    "notices": 17,
-    "autresEditeurs": [
-     "Milan jeunesse"
-    ],
+    "notices": 19,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb42302772j",
     "isbn1": "9782745944962",
     "candidatsCouv": [
@@ -5542,8 +5542,8 @@
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb402059115",
-      "isbn": "2745920669"
+      "ark": "ark:/12148/cb43472043s",
+      "isbn": "9782745931177"
      }
     ],
     "accordIsbn": true,
@@ -5754,14 +5754,12 @@
     "maj": "2026-10-29"
    },
    "bnf": {
-    "dernier": 2,
-    "tomes": "1-2",
-    "dateDernier": "2022-05",
-    "editeur": "Actes Sud junior",
-    "notices": 2,
-    "autresEditeurs": [
-     "Actes Sud jeunesse"
-    ],
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2023-06",
+    "editeur": "Actes Sud jeunesse",
+    "notices": 3,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb46806900m",
     "isbn1": "9782330150518",
     "candidatsCouv": [
@@ -5774,6 +5772,11 @@
       "n": 2,
       "ark": "ark:/12148/cb47031386p",
       "isbn": "9782330165840"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb472660594",
+      "isbn": "9782330180416"
      }
     ],
     "accordIsbn": true,
@@ -5842,15 +5845,12 @@
   },
   "clara-et-les-poneys": {
    "bnf": {
-    "dernier": 4,
-    "tomes": "1-4",
-    "dateDernier": "2011-05",
-    "editeur": "Castor poche",
-    "notices": 4,
-    "autresEditeurs": [
-     "Castor poche-Flammarion",
-     "Flammarion"
-    ],
+    "dernier": 15,
+    "tomes": "1-15",
+    "dateDernier": "2007-08",
+    "editeur": "Castor poche-Flammarion",
+    "notices": 22,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb424355239",
     "isbn1": "9782081249172",
     "candidatsCouv": [
@@ -5860,19 +5860,19 @@
       "isbn": "9782081249172"
      },
      {
+      "n": 1,
+      "ark": "ark:/12148/cb38968807t",
+      "isbn": "208162009X"
+     },
+     {
       "n": 2,
       "ark": "ark:/12148/cb42435531x",
       "isbn": "9782081247758"
      },
      {
-      "n": 3,
-      "ark": "ark:/12148/cb42435545m",
-      "isbn": "9782081249189"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb42435555x",
-      "isbn": "9782081247796"
+      "n": 2,
+      "ark": "ark:/12148/cb38968790x",
+      "isbn": "2081620103"
      }
     ],
     "accordIsbn": true,
@@ -7049,10 +7049,8 @@
     "tomes": "1-4",
     "dateDernier": "2025-09",
     "editeur": "Pocket jeunesse-PKJ",
-    "notices": 4,
-    "autresEditeurs": [
-     "Pocket Jeunesse"
-    ],
+    "notices": 5,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb48673788z",
     "isbn1": "9782266345262",
     "candidatsCouv": [
@@ -7068,13 +7066,13 @@
      },
      {
       "n": 3,
-      "ark": "ark:/12148/cb476434631",
-      "isbn": "9782266328487"
+      "ark": "ark:/12148/cb48843563s",
+      "isbn": "9782266355919"
      },
      {
-      "n": 4,
-      "ark": "ark:/12148/cb48601021t",
-      "isbn": "9782266349222"
+      "n": 3,
+      "ark": "ark:/12148/cb476434631",
+      "isbn": "9782266328487"
      }
     ],
     "accordIsbn": true,
@@ -7476,11 +7474,10 @@
    "bnf": {
     "dernier": 13,
     "tomes": "1-13",
-    "dateDernier": "2009-02",
-    "editeur": "Nathan",
-    "notices": 37,
+    "dateDernier": "2010-05",
+    "editeur": "Nathan Jeunesse",
+    "notices": 52,
     "autresEditeurs": [
-     "Nathan Jeunesse",
      "Éd. France loisirs"
     ],
     "ark1": "ark:/12148/cb437822312",
@@ -7493,18 +7490,18 @@
      },
      {
       "n": 1,
+      "ark": "ark:/12148/cb43474290b",
+      "isbn": "9782092524817"
+     },
+     {
+      "n": 1,
       "ark": "ark:/12148/cb41339141s",
       "isbn": "9782092520970"
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb39953655v",
-      "isbn": "209250682X"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb39287872c",
-      "isbn": "2092504770"
+      "ark": "ark:/12148/cb43402636q",
+      "isbn": "9782092520963"
      }
     ],
     "accordIsbn": true,
@@ -9521,36 +9518,33 @@
    "couvEssai": "2026-10-29",
    "bnf": {
     "dernier": 82,
-    "tomes": "24,40,72,82",
+    "tomes": "1,24,40,58,72,82",
     "dateDernier": "2009-04",
-    "editeur": "Milan poche",
-    "notices": 5,
-    "autresEditeurs": [
-     "Milan",
-     "Éd. Milan"
-    ],
-    "ark1": "ark:/12148/cb42282777r",
-    "isbn1": "9782745947222",
+    "editeur": "Milan",
+    "notices": 12,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45307455r",
+    "isbn1": "9782745992529",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45307455r",
+      "isbn": "9782745992529"
+     },
+     {
+      "n": 24,
+      "ark": "ark:/12148/cb45379122w",
+      "isbn": "9782745994387"
+     },
      {
       "n": 24,
       "ark": "ark:/12148/cb42282777r",
       "isbn": "9782745947222"
      },
      {
-      "n": 40,
-      "ark": "ark:/12148/cb38844763g",
-      "isbn": "2745905651"
-     },
-     {
-      "n": 72,
-      "ark": "ark:/12148/cb40191271t",
-      "isbn": "2745920340"
-     },
-     {
-      "n": 82,
-      "ark": "ark:/12148/cb41468578s",
-      "isbn": "9782745936349"
+      "n": 24,
+      "ark": "ark:/12148/cb37683174k",
+      "isbn": "2745902482"
      }
     ],
     "accordIsbn": true,
@@ -9765,36 +9759,33 @@
   "essie": {
    "bnf": {
     "dernier": 133,
-    "tomes": "44,48,55,59,66,71,76,82,87,91,96,101,122,127-128,133",
+    "tomes": "2-6,9-10,12,15,17-18,21-22,26-28,32,39,44,47-48,55,59,66,71,76,82,87,91,96,101,106,110,114,118,122,127-128,133",
     "dateDernier": "2017-04",
-    "editeur": "Bayard poche",
-    "notices": 16,
-    "autresEditeurs": [
-     "Bayard jeunesse",
-     "Bayard éd. jeunesse"
-    ],
-    "ark1": "ark:/12148/cb410191697",
-    "isbn1": "9782747022170",
+    "editeur": "Bayard jeunesse",
+    "notices": 40,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45337987c",
+    "isbn1": "9782747082464",
     "candidatsCouv": [
      {
-      "n": 44,
-      "ark": "ark:/12148/cb410191697",
-      "isbn": "9782747022170"
+      "n": 2,
+      "ark": "ark:/12148/cb45337987c",
+      "isbn": "9782747082464"
      },
      {
-      "n": 48,
-      "ark": "ark:/12148/cb41207015p",
-      "isbn": "9782747025447"
+      "n": 3,
+      "ark": "ark:/12148/cb45337984b",
+      "isbn": "9782747082495"
      },
      {
-      "n": 55,
-      "ark": "ark:/12148/cb41291819p",
-      "isbn": "9782747025508"
+      "n": 4,
+      "ark": "ark:/12148/cb45338085f",
+      "isbn": "9782747082457"
      },
      {
-      "n": 59,
-      "ark": "ark:/12148/cb41405770m",
-      "isbn": "9782747028158"
+      "n": 5,
+      "ark": "ark:/12148/cb453379981",
+      "isbn": "9782747082471"
      }
     ],
     "accordIsbn": true,
@@ -10950,30 +10941,33 @@
   "francette-top-secrete": {
    "bnf": {
     "dernier": 78,
-    "tomes": "68,74,78",
+    "tomes": "52-53,58,60,64,68,74,78",
     "dateDernier": "2013-12",
     "editeur": "Hatier jeunesse",
-    "notices": 3,
-    "autresEditeurs": [
-     "Hatier"
-    ],
-    "ark1": "ark:/12148/cb42499082n",
-    "isbn1": "9782218952982",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb41041294d",
+    "isbn1": "9782218753381",
     "candidatsCouv": [
      {
-      "n": 68,
-      "ark": "ark:/12148/cb42499082n",
-      "isbn": "9782218952982"
+      "n": 52,
+      "ark": "ark:/12148/cb41041294d",
+      "isbn": "9782218753381"
      },
      {
-      "n": 74,
-      "ark": "ark:/12148/cb42781726g",
-      "isbn": "9782218960321"
+      "n": 53,
+      "ark": "ark:/12148/cb43397775s",
+      "isbn": "9782218753398"
      },
      {
-      "n": 78,
-      "ark": "ark:/12148/cb437220120",
-      "isbn": "9782218960314"
+      "n": 58,
+      "ark": "ark:/12148/cb413396028",
+      "isbn": "9782218928857"
+     },
+     {
+      "n": 60,
+      "ark": "ark:/12148/cb41415349w",
+      "isbn": "9782218929243"
      }
     ],
     "accordIsbn": true,
@@ -11215,13 +11209,11 @@
   "gafi-raconte": {
    "bnf": {
     "dernier": 56,
-    "tomes": "1-24,27-56",
+    "tomes": "1-56",
     "dateDernier": "2018-04",
-    "editeur": "Nathan",
-    "notices": 59,
-    "autresEditeurs": [
-     "Nathan Jeunesse"
-    ],
+    "editeur": "Nathan Jeunesse",
+    "notices": 61,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb39251663s",
     "isbn1": "209250407X",
     "candidatsCouv": [
@@ -11322,13 +11314,16 @@
     "tomes": "1-6",
     "dateDernier": "2025-02",
     "editeur": "Actes Sud jeunesse",
-    "notices": 6,
-    "autresEditeurs": [
-     "Actes sud"
-    ],
-    "ark1": "ark:/12148/cb47370860g",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47379256r",
     "isbn1": "9782330186852",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47379256r",
+      "isbn": "9782330186852"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb47370860g",
@@ -11343,11 +11338,6 @@
       "n": 3,
       "ark": "ark:/12148/cb475124452",
       "isbn": "9782330194734"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb47512548c",
-      "isbn": "9782330194758"
      }
     ],
     "accordIsbn": true,
@@ -11572,17 +11562,13 @@
   },
   "gardiens-des-cites-perdues": {
    "bnf": {
-    "dernier": 3,
-    "tomes": "1-3",
-    "dateDernier": "2018-03",
-    "editeur": "PKJ",
-    "notices": 3,
+    "dernier": 9,
+    "tomes": "1-9",
+    "dateDernier": "2025-12",
+    "editeur": "Pocket jeunesse PKJ",
+    "notices": 10,
     "autresEditeurs": [
-     "Lumen",
-     "Pocket Jeunesse",
-     "Pocket jeunesse",
-     "Pocket jeunesse PKJ",
-     "Pocket jeunesse-PKJ"
+     "Lumen"
     ],
     "ark1": "ark:/12148/cb46596358m",
     "isbn1": "9782266270663",
@@ -11601,6 +11587,11 @@
       "n": 3,
       "ark": "ark:/12148/cb454619077",
       "isbn": "9782266270243"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb456295930",
+      "isbn": "9782266272674"
      }
     ],
     "accordIsbn": true,
@@ -11712,14 +11703,12 @@
   },
   "gaspard-le-leopard": {
    "bnf": {
-    "dernier": 98,
-    "tomes": "87-90,93,96,98",
-    "dateDernier": "2011-10",
+    "dernier": 128,
+    "tomes": "87-90,93,96,98,104,120,128",
+    "dateDernier": "2014",
     "editeur": "Milan",
-    "notices": 8,
-    "autresEditeurs": [
-     "Milan poche"
-    ],
+    "notices": 10,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb42194564c",
     "isbn1": "9782745939166",
     "candidatsCouv": [
@@ -12510,15 +12499,12 @@
    "verifie": "2026-10-29",
    "liensVus": {},
    "bnf": {
-    "dernier": 10,
-    "tomes": "1-8,10",
-    "dateDernier": "2012-10",
+    "dernier": 12,
+    "tomes": "1-12",
+    "dateDernier": "2013-09",
     "editeur": "Castor poche-Flammarion",
-    "notices": 9,
-    "autresEditeurs": [
-     "Flammarion",
-     "Flammarion jeunesse"
-    ],
+    "notices": 17,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb41332825s",
     "isbn1": "9782081207424",
     "candidatsCouv": [
@@ -12534,13 +12520,13 @@
      },
      {
       "n": 3,
-      "ark": "ark:/12148/cb414848333",
-      "isbn": "9782081209091"
+      "ark": "ark:/12148/cb46998105n",
+      "isbn": "9782081499003"
      },
      {
-      "n": 4,
-      "ark": "ark:/12148/cb42042167m",
-      "isbn": "9782081209107"
+      "n": 3,
+      "ark": "ark:/12148/cb414848333",
+      "isbn": "9782081209091"
      }
     ],
     "accordIsbn": true,
@@ -12690,20 +12676,28 @@
   },
   "harry-potter": {
    "bnf": {
-    "dernier": 7,
-    "tomes": "1-7",
-    "dateDernier": "2017-04",
-    "editeur": "Gallimard",
-    "notices": 21,
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2016-10",
+    "editeur": "Gallimard jeunesse",
+    "notices": 40,
     "autresEditeurs": [
      "Feryane",
-     "Gallimard jeunesse",
-     "Gallimard-Jeunesse",
      "[France loisirs]"
     ],
-    "ark1": "ark:/12148/cb45252916w",
-    "isbn1": "9782070624522",
+    "ark1": "ark:/12148/cb47086928d",
+    "isbn1": "9782075145930",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47086928d",
+      "isbn": "9782075145930"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45595763x",
+      "isbn": "9782070584628"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb45252916w",
@@ -12713,16 +12707,6 @@
       "n": 1,
       "ark": "ark:/12148/cb444787001",
       "isbn": "9782070669073"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb37090396w",
-      "isbn": "2070541274"
-     },
-     {
-      "n": 2,
-      "ark": "ark:/12148/cb452528874",
-      "isbn": "9782070624539"
      }
     ],
     "accordIsbn": true,
@@ -12835,14 +12819,12 @@
   },
   "hercule-carotte-detective": {
    "bnf": {
-    "dernier": 111,
-    "tomes": "1-13,105,111",
-    "dateDernier": "2013-02",
+    "dernier": 118,
+    "tomes": "1-13,105,111,118",
+    "dateDernier": "2013-05",
     "editeur": "Hatier jeunesse",
-    "notices": 23,
-    "autresEditeurs": [
-     "Hatier"
-    ],
+    "notices": 27,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb46644297w",
     "isbn1": "9782401062061",
     "candidatsCouv": [
@@ -14328,13 +14310,12 @@
    "couvEssai": "2026-10-29",
    "bnf": {
     "dernier": 31,
-    "tomes": "1-15,31",
+    "tomes": "1-15,17-18,20-21,23,25-29,31",
     "dateDernier": "2026-09",
-    "editeur": "Éditions Flammarion",
-    "notices": 17,
+    "editeur": "Flammarion jeunesse",
+    "notices": 41,
     "autresEditeurs": [
-     "Castor poche",
-     "Flammarion jeunesse"
+     "Castor poche"
     ],
     "ark1": "ark:/12148/cb436669619",
     "isbn1": "9782081298927",
@@ -14346,6 +14327,11 @@
      },
      {
       "n": 2,
+      "ark": "ark:/12148/cb474826180",
+      "isbn": "9782080444530"
+     },
+     {
+      "n": 2,
       "ark": "ark:/12148/cb43497966j",
       "isbn": "9782081306615"
      },
@@ -14353,11 +14339,6 @@
       "n": 2,
       "ark": "ark:/12148/cb43490815p",
       "isbn": "9782081298934"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb43492759h",
-      "isbn": "9782081306547"
      }
     ],
     "accordIsbn": true,
@@ -14380,17 +14361,20 @@
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
    "bnf": {
-    "dernier": 8,
-    "tomes": "1-8",
-    "dateDernier": "2018-08",
-    "editeur": "Éditions Flammarion",
-    "notices": 8,
-    "autresEditeurs": [
-     "Flammarion jeunesse"
-    ],
-    "ark1": "ark:/12148/cb444124444",
-    "isbn1": "9782081351387",
+    "dernier": 12,
+    "tomes": "1-12",
+    "dateDernier": "2022-11",
+    "editeur": "Flammarion jeunesse",
+    "notices": 19,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47289830r",
+    "isbn1": "9782080423238",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47289830r",
+      "isbn": "9782080423238"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb444124444",
@@ -14398,18 +14382,13 @@
      },
      {
       "n": 2,
+      "ark": "ark:/12148/cb48534383c",
+      "isbn": "9782080479907"
+     },
+     {
+      "n": 2,
       "ark": "ark:/12148/cb44443409g",
       "isbn": "9782081351370"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb445270318",
-      "isbn": "9782081370661"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb45044568z",
-      "isbn": "9782081370647"
      }
     ],
     "accordIsbn": true,
@@ -14440,37 +14419,33 @@
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 52,
-    "tomes": "3,6-8,10-21,30,49,51-52",
+    "tomes": "1-21,24-25,28-32,35-37,40-49,51-52",
     "dateDernier": "2026-09",
-    "editeur": "Flammarion",
-    "notices": 26,
-    "autresEditeurs": [
-     "Castor poche-Flammarion",
-     "Flammarion jeunesse",
-     "Père Castor"
-    ],
-    "ark1": "ark:/12148/cb47514124r",
-    "isbn1": "9782080446121",
+    "editeur": "Castor poche-Flammarion",
+    "notices": 56,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42526341w",
+    "isbn1": "9782081247987",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42526341w",
+      "isbn": "9782081247987"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb465604951",
+      "isbn": "9782081495173"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42754894b",
+      "isbn": "9782081248007"
+     },
      {
       "n": 3,
       "ark": "ark:/12148/cb47514124r",
       "isbn": "9782080446121"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb43481467v",
-      "isbn": "9782081263987"
-     },
-     {
-      "n": 6,
-      "ark": "ark:/12148/cb48809572c",
-      "isbn": "9782080150257"
-     },
-     {
-      "n": 6,
-      "ark": "ark:/12148/cb43556698f",
-      "isbn": "9782081264007"
      }
     ],
     "accordIsbn": true,
@@ -14878,14 +14853,12 @@
    "bnfVerifie": "2026-10-29",
    "bnf": {
     "dernier": 20,
-    "tomes": "2,5-6,8-20",
+    "tomes": "2-6,8-20",
     "dateDernier": "2025-11",
     "editeur": "Seuil",
-    "notices": 16,
+    "notices": 19,
     "autresEditeurs": [
-     "Seuil / Olivier / Sous-Sol / Points / Pointdeux",
      "Éd. France loisirs",
-     "Éd. du Seuil",
      "Éditions France loisirs"
     ],
     "ark1": "ark:/12148/cb42043311s",
@@ -14897,19 +14870,19 @@
       "isbn": "9782020988186"
      },
      {
+      "n": 3,
+      "ark": "ark:/12148/cb42214534z",
+      "isbn": "9782021011159"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42388835q",
+      "isbn": "9782021041910"
+     },
+     {
       "n": 5,
       "ark": "ark:/12148/cb42593699r",
       "isbn": "9782021060119"
-     },
-     {
-      "n": 6,
-      "ark": "ark:/12148/cb435397296",
-      "isbn": "9782021083781"
-     },
-     {
-      "n": 8,
-      "ark": "ark:/12148/cb44258100m",
-      "isbn": "9791023504637"
      }
     ],
     "accordIsbn": true,
@@ -14926,10 +14899,8 @@
     "tomes": "2-16",
     "dateDernier": "2025-07",
     "editeur": "Milan",
-    "notices": 26,
-    "autresEditeurs": [
-     "Milan jeunesse"
-    ],
+    "notices": 28,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb45582453v",
     "isbn1": "9782745998378",
     "candidatsCouv": [
@@ -14950,8 +14921,8 @@
      },
      {
       "n": 3,
-      "ark": "ark:/12148/cb43747046x",
-      "isbn": "9782745957238"
+      "ark": "ark:/12148/cb438242962",
+      "isbn": "9782745965790"
      }
     ],
     "accordIsbn": true,
@@ -15485,10 +15456,8 @@
     "tomes": "1-12,17-26",
     "dateDernier": "2020-02",
     "editeur": "Play bac",
-    "notices": 34,
-    "autresEditeurs": [
-     "Play Bac BD"
-    ],
+    "notices": 35,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb469162947",
     "isbn1": "9782809677874",
     "candidatsCouv": [
@@ -15499,6 +15468,11 @@
      },
      {
       "n": 1,
+      "ark": "ark:/12148/cb46829091d",
+      "isbn": "9782809676556"
+     },
+     {
+      "n": 1,
       "ark": "ark:/12148/cb45794200r",
       "isbn": "9782809667080"
      },
@@ -15506,11 +15480,6 @@
       "n": 1,
       "ark": "ark:/12148/cb45712468s",
       "isbn": "9782809666632"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb451433806",
-      "isbn": "9782809657050"
      }
     ],
     "accordIsbn": true,
@@ -16552,14 +16521,12 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 150,
-    "tomes": "1-24,120,128,133,136,140,143,150",
-    "dateDernier": "2015-08",
+    "dernier": 152,
+    "tomes": "1-24,120,128,133,136,140,143,150,152",
+    "dateDernier": "2015-11",
     "editeur": "Hatier jeunesse",
-    "notices": 63,
-    "autresEditeurs": [
-     "Hatier"
-    ],
+    "notices": 64,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb474142496",
     "isbn1": "9782401106178",
     "candidatsCouv": [
@@ -17029,19 +16996,23 @@
    "bnf": {
     "dernier": 5,
     "tomes": "1-5",
-    "dateDernier": "2014-10",
+    "dateDernier": "2023-10",
     "editeur": "Seuil",
-    "notices": 5,
+    "notices": 7,
     "autresEditeurs": [
      "Harlequin",
      "Pocket jeunesse-PKJ",
-     "Seuil / Olivier / Sous-Sol / Points / Pointdeux",
-     "Seuil Jeunesse",
-     "le Téméraire"
+     "le Téméraire",
+     "Éd. Harlequin"
     ],
-    "ark1": "ark:/12148/cb42421787x",
-    "isbn1": "9782021047141",
+    "ark1": "ark:/12148/cb47048128v",
+    "isbn1": "9791023517866",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47048128v",
+      "isbn": "9791023517866"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb42421787x",
@@ -17056,11 +17027,6 @@
       "n": 3,
       "ark": "ark:/12148/cb43867773b",
       "isbn": "9782021073522"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb43818527t",
-      "isbn": "9782021047486"
      }
     ],
     "accordIsbn": true,
@@ -17265,9 +17231,8 @@
     "tomes": "1-3",
     "dateDernier": "2026-09",
     "editeur": "Flammarion jeunesse",
-    "notices": 5,
+    "notices": 6,
     "autresEditeurs": [
-     "Flammarion",
      "Voir de près"
     ],
     "ark1": "ark:/12148/cb48606413h",
@@ -17285,13 +17250,13 @@
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb47107176t",
-      "isbn": "9782080273017"
+      "ark": "ark:/12148/cb48751678n",
+      "isbn": "9782080146427"
      },
      {
-      "n": 3,
-      "ark": "ark:/12148/cb48831399j",
-      "isbn": "9782080156662"
+      "n": 2,
+      "ark": "ark:/12148/cb47107176t",
+      "isbn": "9782080273017"
      }
     ],
     "accordIsbn": true,
@@ -17369,17 +17334,17 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 4,
-    "tomes": "1-4",
-    "dateDernier": "2014-05",
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2015-12",
     "editeur": "Bayard jeunesse",
-    "notices": 5,
+    "notices": 7,
     "autresEditeurs": [
      "Bande d'ados",
-     "Bayard",
      "Patricia Burgeaud",
      "Robin Ribaut",
-     "Édilivre"
+     "Édilivre",
+     "Éditions France loisirs"
     ],
     "ark1": "ark:/12148/cb43546195t",
     "isbn1": "9782747044974",
@@ -17804,14 +17769,11 @@
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 126,
-    "tomes": "17-18,21,35,42,50,53,58,62,73,76,105,109-112,125-126",
+    "tomes": "17-18,21,35,42,50,53,58,62,73,76,82,85-86,93,98,100-103,105,109-112,125-126",
     "dateDernier": "2021-05",
-    "editeur": "Calligram",
-    "notices": 18,
-    "autresEditeurs": [
-     "Calligram-C. Gallimard",
-     "Calligram-Christian Gallimard"
-    ],
+    "editeur": "Calligram-Christian Gallimard",
+    "notices": 27,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb43414120n",
     "isbn1": "2884451897",
     "candidatsCouv": [
@@ -18086,10 +18048,8 @@
     "tomes": "1-4",
     "dateDernier": "2024-10",
     "editeur": "l'École des loisirs",
-    "notices": 5,
-    "autresEditeurs": [
-     "Ecole des loisirs"
-    ],
+    "notices": 6,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb487189770",
     "isbn1": "9782211348836",
     "candidatsCouv": [
@@ -18105,13 +18065,13 @@
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb47177210m",
-      "isbn": "9782211321174"
+      "ark": "ark:/12148/cb48746620b",
+      "isbn": "9782211348843"
      },
      {
-      "n": 3,
-      "ark": "ark:/12148/cb473440869",
-      "isbn": "9782211331845"
+      "n": 2,
+      "ark": "ark:/12148/cb47177210m",
+      "isbn": "9782211321174"
      }
     ],
     "accordIsbn": true,
@@ -18967,37 +18927,34 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 132,
-    "tomes": "8-9,36,47,70,78,82,94,109,119,132",
-    "dateDernier": "2014-06",
-    "editeur": "Hatier",
-    "notices": 11,
-    "autresEditeurs": [
-     "Hatier jeunesse",
-     "Hatier poche"
-    ],
-    "ark1": "ark:/12148/cb41235937m",
-    "isbn1": "9782218753534",
+    "dernier": 158,
+    "tomes": "1-15,36,47,70,78,82,94,109,119,132,148,158",
+    "dateDernier": "2016-05",
+    "editeur": "Hatier jeunesse",
+    "notices": 39,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb467441206",
+    "isbn1": "9782401075740",
     "candidatsCouv": [
      {
-      "n": 8,
-      "ark": "ark:/12148/cb41235937m",
-      "isbn": "9782218753534"
+      "n": 1,
+      "ark": "ark:/12148/cb467441206",
+      "isbn": "9782401075740"
      },
      {
-      "n": 9,
-      "ark": "ark:/12148/cb412359306",
-      "isbn": "9782218753541"
+      "n": 1,
+      "ark": "ark:/12148/cb45261969f",
+      "isbn": "9782401032460"
      },
      {
-      "n": 36,
-      "ark": "ark:/12148/cb41297643f",
-      "isbn": "9782218928819"
+      "n": 2,
+      "ark": "ark:/12148/cb46744118n",
+      "isbn": "9782401076044"
      },
      {
-      "n": 47,
-      "ark": "ark:/12148/cb41424974q",
-      "isbn": "9782218928871"
+      "n": 2,
+      "ark": "ark:/12148/cb45266205g",
+      "isbn": "9782401032477"
      }
     ],
     "accordIsbn": true,
@@ -21221,14 +21178,12 @@
    "liensVus": {},
    "couvEssai": "2026-10-29",
    "bnf": {
-    "dernier": 1,
-    "tomes": "1",
-    "dateDernier": "2017-02",
-    "editeur": "Père Castor-Flammarion",
-    "notices": 1,
-    "autresEditeurs": [
-     "Flammarion jeunesse"
-    ],
+    "dernier": 6,
+    "tomes": "1,5-6",
+    "dateDernier": "2024-06",
+    "editeur": "Flammarion jeunesse",
+    "notices": 3,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb45213887j",
     "isbn1": "9782081389519",
     "candidatsCouv": [
@@ -21236,6 +21191,16 @@
       "n": 1,
       "ark": "ark:/12148/cb45213887j",
       "isbn": "9782081389519"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb46863000n",
+      "isbn": "9782081495920"
+     },
+     {
+      "n": 6,
+      "ark": "ark:/12148/cb47498131g",
+      "isbn": "9782080445117"
      }
     ],
     "accordIsbn": true,
@@ -22013,11 +21978,10 @@
    "bnf": {
     "dernier": 8,
     "tomes": "1-8",
-    "dateDernier": "2024",
-    "editeur": "Robert Laffont",
-    "notices": 14,
+    "dateDernier": "2026-04",
+    "editeur": "Robert Laffont / Versilio",
+    "notices": 16,
     "autresEditeurs": [
-     "Robert Laffont / Versilio",
      "Éditions de Noyelles"
     ],
     "ark1": "ark:/12148/cb46918081t",
@@ -22704,36 +22668,33 @@
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 13,
-    "tomes": "7-13",
-    "dateDernier": "2011-07",
+    "tomes": "1-13",
+    "dateDernier": "2021",
     "editeur": "Castor poche-Flammarion",
-    "notices": 7,
-    "autresEditeurs": [
-     "Flammarion",
-     "Flammarion jeunesse"
-    ],
-    "ark1": "ark:/12148/cb41318319h",
-    "isbn1": "9782081210783",
+    "notices": 18,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb40165001f",
+    "isbn1": "2081633701",
     "candidatsCouv": [
      {
-      "n": 7,
-      "ark": "ark:/12148/cb41318319h",
-      "isbn": "9782081210783"
+      "n": 1,
+      "ark": "ark:/12148/cb40165001f",
+      "isbn": "2081633701"
      },
      {
-      "n": 8,
-      "ark": "ark:/12148/cb414316077",
-      "isbn": "9782081220744"
+      "n": 2,
+      "ark": "ark:/12148/cb472909573",
+      "isbn": "9782080266545"
      },
      {
-      "n": 9,
-      "ark": "ark:/12148/cb42042100b",
-      "isbn": "9782081221048"
+      "n": 2,
+      "ark": "ark:/12148/cb40165584b",
+      "isbn": "2081633639"
      },
      {
-      "n": 10,
-      "ark": "ark:/12148/cb43475959c",
-      "isbn": "9782081229983"
+      "n": 3,
+      "ark": "ark:/12148/cb401655908",
+      "isbn": "2081633620"
      }
     ],
     "accordIsbn": true,
@@ -23252,12 +23213,9 @@
     "dernier": 4,
     "tomes": "1-4",
     "dateDernier": "2013",
-    "editeur": "Flammarion",
-    "notices": 5,
-    "autresEditeurs": [
-     "E. Flammarion",
-     "Flammarion jeunesse"
-    ],
+    "editeur": "E. Flammarion",
+    "notices": 8,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb444122615",
     "isbn1": "9782081344631",
     "candidatsCouv": [
@@ -23273,13 +23231,13 @@
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb42502470c",
-      "isbn": "9782081244061"
+      "ark": "ark:/12148/cb452424227",
+      "isbn": "9782081353299"
      },
      {
-      "n": 3,
-      "ark": "ark:/12148/cb43481884j",
-      "isbn": "9782081265257"
+      "n": 2,
+      "ark": "ark:/12148/cb42502470c",
+      "isbn": "9782081244061"
      }
     ],
     "accordIsbn": true,
@@ -24180,14 +24138,12 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 4,
-    "tomes": "1-4",
-    "dateDernier": "2014-05",
-    "editeur": "PKJ",
-    "notices": 4,
-    "autresEditeurs": [
-     "Pocket jeunesse-PKJ"
-    ],
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2015-09",
+    "editeur": "Pocket jeunesse-PKJ",
+    "notices": 6,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb43569816r",
     "isbn1": "9782266185813",
     "candidatsCouv": [
@@ -25981,13 +25937,9 @@
     "dernier": 10,
     "tomes": "1-10",
     "dateDernier": "2012-09",
-    "editeur": "Flammarion",
-    "notices": 13,
-    "autresEditeurs": [
-     "Castor poche",
-     "Castor poche Flammarion",
-     "Castor poche-Flammarion"
-    ],
+    "editeur": "Castor poche Flammarion",
+    "notices": 20,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb42472749n",
     "isbn1": "9782081258495",
     "candidatsCouv": [
@@ -26003,13 +25955,13 @@
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb402176142",
-      "isbn": "2081633698"
+      "ark": "ark:/12148/cb42472302w",
+      "isbn": "9782081258501"
      },
      {
-      "n": 3,
-      "ark": "ark:/12148/cb41023971r",
-      "isbn": "9782081634886"
+      "n": 2,
+      "ark": "ark:/12148/cb402176142",
+      "isbn": "2081633698"
      }
     ],
     "accordIsbn": true,
@@ -26497,14 +26449,12 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 184,
-    "tomes": "140-141,158-159,169-170,178,184",
+    "dernier": 186,
+    "tomes": "140-141,158-159,169-170,178,183-184,186",
     "dateDernier": "2013",
-    "editeur": "Milan jeunesse",
-    "notices": 8,
-    "autresEditeurs": [
-     "Milan"
-    ],
+    "editeur": "Milan",
+    "notices": 10,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb42431815j",
     "isbn1": "9782745949301",
     "candidatsCouv": [
@@ -28991,17 +28941,26 @@
    "bnfVerifie": "2026-10-29",
    "bnf": {
     "dernier": 3,
-    "tomes": "2-3",
-    "dateDernier": "2015-09",
+    "tomes": "1-3",
+    "dateDernier": "2026-01",
     "editeur": "Seuil",
-    "notices": 2,
+    "notices": 5,
     "autresEditeurs": [
-     "Seuil jeunesse",
      "le Livre de poche jeunesse"
     ],
-    "ark1": "ark:/12148/cb434995705",
-    "isbn1": "9791023502879",
+    "ark1": "ark:/12148/cb485976130",
+    "isbn1": "9791023521870",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb485976130",
+      "isbn": "9791023521870"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48598085f",
+      "isbn": "9791023522426"
+     },
      {
       "n": 2,
       "ark": "ark:/12148/cb434995705",
@@ -29009,8 +28968,8 @@
      },
      {
       "n": 3,
-      "ark": "ark:/12148/cb444074951",
-      "isbn": "9791023505016"
+      "ark": "ark:/12148/cb48688122s",
+      "isbn": "9791023522563"
      }
     ],
     "accordIsbn": true,
