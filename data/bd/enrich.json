@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T14:03:45Z",
+ "maj": "2026-10-29T14:06:22Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -72,7 +72,7 @@
     "tomes": "1-30",
     "dateDernier": "2020-10",
     "editeur": "Dupuis",
-    "notices": 48,
+    "notices": 46,
     "autresEditeurs": [
      "",
      "Dargaud",
@@ -2540,9 +2540,7 @@
     "editeur": "Dupuis",
     "notices": 8,
     "autresEditeurs": [
-     "Casterman",
      "France loisirs",
-     "Éditions Fleurus",
      "Éditions de Noyelles"
     ],
     "ark1": "ark:/12148/cb47345610z",
@@ -2962,7 +2960,7 @@
     "tomes": "1-2",
     "dateDernier": "2011",
     "editeur": "Clair de lune",
-    "notices": 2,
+    "notices": 3,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb42284715p",
     "isbn1": "9782353252619",
@@ -2971,6 +2969,11 @@
       "n": 1,
       "ark": "ark:/12148/cb42284715p",
       "isbn": "9782353252619"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43477199w",
+      "isbn": null
      },
      {
       "n": 2,
@@ -5716,16 +5719,14 @@
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 25,
-    "tomes": "1-4,9,12,18-25",
+    "tomes": "1-4,12,18-25",
     "dateDernier": "2026-08",
     "editeur": "Dupuis",
-    "notices": 15,
+    "notices": 14,
     "autresEditeurs": [
-     "Bande d'ados",
-     "Bayard jeunesse",
-     "Hachette jeunesse",
+     "Albin Michel-Bandes dessinées",
      "Mad fabrik",
-     "Rageot"
+     "Éditions Rugicami"
     ],
     "ark1": "ark:/12148/cb392700410",
     "isbn1": "2800135921",
@@ -6194,7 +6195,7 @@
     "tomes": "1-3",
     "dateDernier": "2025",
     "editeur": "le Lombard",
-    "notices": 3,
+    "notices": 4,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47218033w",
     "isbn1": "9782808206204",
@@ -6212,6 +6213,11 @@
      {
       "n": 3,
       "ark": "ark:/12148/cb48830526n",
+      "isbn": "9782808214858"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb477081794",
       "isbn": "9782808214858"
      }
     ],
@@ -6537,10 +6543,7 @@
     "dateDernier": "2024-09",
     "editeur": "Jungle",
     "notices": 2,
-    "autresEditeurs": [
-     "Hachette Jeunesse",
-     "Hachette jeunesse"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb473100543",
     "isbn1": "9782822237864",
     "candidatsCouv": [
@@ -7037,7 +7040,7 @@
     "tomes": "1-11,16-21",
     "dateDernier": "2025-11",
     "editeur": "Dupuis",
-    "notices": 30,
+    "notices": 28,
     "autresEditeurs": [
      "Glénat",
      "Hachette",
@@ -8061,10 +8064,10 @@
   "lucky-luke": {
    "bnf": {
     "dernier": 54,
-    "tomes": "1-2,4,6,8,14-16,39-50,52-54",
+    "tomes": "1-2,4,6,8,14-16,40-50,52-54",
     "dateDernier": "1988-10",
     "editeur": "Dargaud",
-    "notices": 29,
+    "notices": 28,
     "autresEditeurs": [
      "",
      "Barcelone",
@@ -8641,37 +8644,38 @@
    "liensVus": {},
    "bnf": {
     "dernier": 126,
-    "tomes": "17-18,21,35,42,50,53,58,62,73,76,82,85-86,93,98,100-103,105,109-112,125-126",
+    "tomes": "1,3-8,10-51,53-105,109-112,125-126",
     "dateDernier": "2021-05",
-    "editeur": "Calligram-C. Gallimard",
-    "notices": 27,
+    "editeur": "Calligram-Christian Gallimard",
+    "notices": 112,
     "autresEditeurs": [],
-    "ark1": "ark:/12148/cb43414120n",
-    "isbn1": "2884451897",
+    "ark1": "ark:/12148/cb43414597b",
+    "isbn1": "288445036X",
     "candidatsCouv": [
      {
-      "n": 17,
-      "ark": "ark:/12148/cb43414120n",
-      "isbn": "2884451897"
+      "n": 1,
+      "ark": "ark:/12148/cb43414597b",
+      "isbn": "288445036X"
      },
      {
-      "n": 18,
-      "ark": "ark:/12148/cb434141210",
-      "isbn": "2884451900"
+      "n": 3,
+      "ark": "ark:/12148/cb43414598p",
+      "isbn": "2884450343"
      },
      {
-      "n": 21,
-      "ark": "ark:/12148/cb43495270c",
-      "isbn": "9782884806763"
+      "n": 4,
+      "ark": "ark:/12148/cb434145991",
+      "isbn": "2884450351"
      },
      {
-      "n": 35,
-      "ark": "ark:/12148/cb37006029h",
-      "isbn": "2884453733"
+      "n": 5,
+      "ark": "ark:/12148/cb43414601r",
+      "isbn": "2884450602"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"max et lili\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"ainsi va la vie\" and (bib.doctype=\"a\")",
+    "titreBnf": "Ainsi va la vie"
    },
    "couvEssai": "2026-10-29",
    "couvVersion": 3,
@@ -8965,7 +8969,6 @@
     "editeur": "Glénat",
     "notices": 4,
     "autresEditeurs": [
-     "Bonne Presse",
      "Editions des Remparts",
      "Éditions des Remparts",
      "Éditions la Fille de la lune"
@@ -9134,13 +9137,12 @@
   "mistinguette": {
    "bnf": {
     "dernier": 15,
-    "tomes": "1-13,15",
+    "tomes": "1-15",
     "dateDernier": "2024-11",
     "editeur": "Jungle",
-    "notices": 16,
+    "notices": 17,
     "autresEditeurs": [
-     "Splash !",
-     "Steinkis Groupe Jungle"
+     "Splash !"
     ],
     "ark1": "ark:/12148/cb455910186",
     "isbn1": "9782822226004",
@@ -9166,19 +9168,23 @@
       "isbn": "9782874428913"
      }
     ],
+    "accordIsbn": true,
     "requete": "bib.title all \"mistinguette\" and (bib.doctype=\"a\")"
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-29",
    "couvFR": {
-    "source": "BnF",
+    "source": "Decitre",
     "tome": 1,
-    "maj": "2026-10-28"
+    "isbn": "9782874427367",
+    "orphee": true,
+    "maj": "2026-10-29"
    },
    "bnfVerifie": "2026-10-29",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 2,
-   "couvEssaiMN": ""
+   "couvVersion": 3,
+   "couvEssaiMN": "",
+   "couvIsbn": "9782874427367"
   },
   "moi-gisele": {
    "couvVersion": 3,
@@ -9661,9 +9667,10 @@
     "editeur": "Dupuis",
     "notices": 39,
     "autresEditeurs": [
-     "Association Grife",
      "Ed Calmann-Lévy",
-     "Nelson"
+     "Eds Nelson",
+     "Nelson",
+     "Nelson éditeurs"
     ],
     "ark1": "ark:/12148/cb46814309s",
     "isbn1": "9791034759477",
@@ -10000,13 +10007,7 @@
     "dateDernier": "2011-02",
     "editeur": "Delcourt",
     "notices": 5,
-    "autresEditeurs": [
-     "Archipoche",
-     "CMI publishing",
-     "Ed. Hemma",
-     "Editions mondiales",
-     "Glénat"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb410052429",
     "isbn1": "9782756006710",
     "candidatsCouv": [
@@ -10613,7 +10614,6 @@
     "editeur": "Glénat",
     "notices": 22,
     "autresEditeurs": [
-     "Gallimard",
      "Gallimard jeunesse"
     ],
     "ark1": "ark:/12148/cb426126035",
@@ -11579,7 +11579,7 @@
     "dernier": 20,
     "tomes": "1-2,4-8,11,13-20",
     "dateDernier": "2011-01",
-    "editeur": "Lucky comics",
+    "editeur": "Lucky Productions",
     "notices": 22,
     "autresEditeurs": [
      "Dargaud",
@@ -11935,9 +11935,7 @@
     "editeur": "Casterman",
     "notices": 4,
     "autresEditeurs": [
-     "Heimdal",
-     "Hello éditions",
-     "les Éditions de l'Oeil du sphinx"
+     "Heimdal"
     ],
     "ark1": "ark:/12148/cb47680279z",
     "isbn1": "9782203287426",
@@ -12125,11 +12123,11 @@
     "editeur": "le Lombard",
     "notices": 34,
     "autresEditeurs": [
-     "\"Nice matin\"",
      "Cartoon Création",
      "Cartoon création",
      "Chantecler",
-     "Dupuis"
+     "Dupuis",
+     "Hachette jeunesse"
     ],
     "ark1": "ark:/12148/cb39947920s",
     "isbn1": "2803620227",
@@ -14472,7 +14470,7 @@
     "tomes": "1-69",
     "dateDernier": "2025-10",
     "editeur": "Dupuis",
-    "notices": 134,
+    "notices": 132,
     "autresEditeurs": [
      "",
      "Gombert éditions",
