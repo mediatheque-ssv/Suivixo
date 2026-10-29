@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T14:06:22Z",
+ "maj": "2026-10-29T14:12:01Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -120,10 +120,7 @@
     "editeur": "Éditions Tourbillon",
     "notices": 3,
     "autresEditeurs": [
-     "Adolf M. Hakkert",
-     "Bayard jeunesse",
-     "Société d'édition les Belles lettres",
-     "les Belles lettres"
+     "Bayard jeunesse"
     ],
     "ark1": "ark:/12148/cb45243564p",
     "isbn1": "9791027601080",
@@ -1219,11 +1216,7 @@
     "editeur": "Soleil",
     "notices": 7,
     "autresEditeurs": [
-     "Belin",
-     "Compagnie des libraires et éditeurs associés",
-     "Delcourt",
-     "Editions mondiales",
-     "Gallimard"
+     "Delcourt"
     ],
     "ark1": "ark:/12148/cb43475833d",
     "isbn1": "9782302009769",
@@ -1535,9 +1528,7 @@
     "dateDernier": "2026-02",
     "editeur": "Jungle",
     "notices": 1,
-    "autresEditeurs": [
-     "Éditions Fleuve noir"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb487079019",
     "isbn1": "9782822247269",
     "candidatsCouv": [
@@ -2766,12 +2757,7 @@
     "dateDernier": "2024-09",
     "editeur": "Auzou",
     "notices": 1,
-    "autresEditeurs": [
-     "Albin Michel",
-     "Delcourt",
-     "Rue du Monde",
-     "Rue du monde"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb47551021j",
     "isbn1": "9791039528511",
     "candidatsCouv": [
@@ -3275,9 +3261,8 @@
     "editeur": "Albin Michel",
     "notices": 1,
     "autresEditeurs": [
-     "Acteurs/auteurs",
-     "Comédie française",
      "Hachette",
+     "S. Kena",
      "Sharon Kena",
      "Sharon Kena éditions"
     ],
@@ -3960,11 +3945,10 @@
     "tomes": "1-11,13,17-29,32-35,38-39",
     "dateDernier": "2002",
     "editeur": "Ed. du Lombard",
-    "notices": 38,
+    "notices": 37,
     "autresEditeurs": [
      "Chantecler",
      "Dargaud",
-     "Mango jeunesse",
      "Presses pocket"
     ],
     "ark1": "ark:/12148/cb423807105",
@@ -4303,9 +4287,7 @@
     "dateDernier": "2018-09",
     "editeur": "BD kids",
     "notices": 5,
-    "autresEditeurs": [
-     "Milan"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb44406203r",
     "isbn1": "9782745968487",
     "candidatsCouv": [
@@ -5336,7 +5318,7 @@
     "dernier": 15,
     "tomes": "1-15",
     "dateDernier": "2025-12",
-    "editeur": "Jungle",
+    "editeur": "Steinkis Groupe Jungle",
     "notices": 19,
     "autresEditeurs": [
      "Nathan",
@@ -5886,10 +5868,10 @@
     "tomes": "1-80",
     "dateDernier": "2025",
     "editeur": "Dargaud",
-    "notices": 112,
+    "notices": 111,
     "autresEditeurs": [
-     "\"Nice matin\"",
      "Bagheera",
+     "Hemma",
      "PRESSES AVENTURE",
      "Presses aventure",
      "Presses aventures"
@@ -6319,7 +6301,7 @@
    "couvIsbn": "9782408034863"
   },
   "hotel-etrange": {
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-29",
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
@@ -6353,6 +6335,7 @@
       "isbn": "9791040803652"
      }
     ],
+    "accordIsbn": false,
     "requete": "bib.title all \"hotel etrange\" and (bib.doctype=\"a\")"
    },
    "verifie": "2026-10-29",
@@ -6361,8 +6344,11 @@
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
-    "maj": "2026-10-28"
-   }
+    "isbn": "9782848653594",
+    "orphee": true,
+    "maj": "2026-10-29"
+   },
+   "couvIsbn": "9782848653594"
   },
   "idefix-et-les-irreductibles": {
    "couvEssai": "2026-10-29",
@@ -11400,7 +11386,6 @@
     "editeur": "Bamboo éd.",
     "notices": 36,
     "autresEditeurs": [
-     "Jungle",
      "Éditions France loisirs"
     ],
     "ark1": "ark:/12148/cb48600069k",
@@ -12037,34 +12022,19 @@
    "couvEssaiMN": "",
    "liensVus": {},
    "bnf": {
-    "dernier": 20,
-    "tomes": "14-16,20",
-    "dateDernier": "2018-05",
+    "dernier": 2,
+    "tomes": "2",
+    "dateDernier": "2020-10",
     "editeur": "Hachette éducation",
-    "notices": 4,
+    "notices": 1,
     "autresEditeurs": [],
-    "ark1": "ark:/12148/cb45162904x",
-    "isbn1": "9782013950435",
+    "ark1": "ark:/12148/cb46644290g",
+    "isbn1": "9782017873808",
     "candidatsCouv": [
      {
-      "n": 14,
-      "ark": "ark:/12148/cb45162904x",
-      "isbn": "9782013950435"
-     },
-     {
-      "n": 15,
-      "ark": "ark:/12148/cb45162891d",
-      "isbn": "9782013950442"
-     },
-     {
-      "n": 16,
-      "ark": "ark:/12148/cb45264991b",
-      "isbn": "9782017016380"
-     },
-     {
-      "n": 20,
-      "ark": "ark:/12148/cb45510291x",
-      "isbn": "9782017016892"
+      "n": 2,
+      "ark": "ark:/12148/cb46644290g",
+      "isbn": "9782017873808"
      }
     ],
     "accordIsbn": false,
@@ -12190,9 +12160,7 @@
     "dateDernier": "2025-12",
     "editeur": "le Lombard",
     "notices": 6,
-    "autresEditeurs": [
-     "Hachette collections"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb46792887z",
     "isbn1": "9782803673148",
     "candidatsCouv": [
@@ -13571,8 +13539,7 @@
     "editeur": "les Deux royaumes",
     "notices": 12,
     "autresEditeurs": [
-     "Glénat",
-     "Glénat jeunesse"
+     "Glénat"
     ],
     "ark1": "ark:/12148/cb42684924w",
     "isbn1": "9782918771043",
