@@ -614,13 +614,18 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
             if lang and lang != "fre":
                 continue
             titre = premier(f, "200", "a")
-            serie_t = premier(f, "461", "t") or premier(f, "225", "a")
+            # série (461) et collection (225) : on prend le numéro de celle qui porte le titre de notre série.
+            # Le numéro d'une collection d'éditeur (« Premiers romans ; 198 ») n'est pas un numéro de tome.
+            occs = [((o.get("t") or [""])[0], (o.get("v") or [""])[0]) for o in f.get("461", [])] + \
+                   [((o.get("a") or [""])[0], (o.get("v") or [""])[0]) for o in f.get("225", [])]
+            la_notre = next(((t, v) for t, v in occs if cle(t) in cles_ok), None)
+            serie_t = la_notre[0] if la_notre else (occs[0][0] if occs else "")
             texte = " ".join([titre, premier(f, "200", "e"), premier(f, "200", "i"), serie_t, premier(f, "225", "e")])
             if EXCLUS.search(texte):
                 continue
             if not ({cle(titre), cle(serie_t)} & cles_ok):
                 continue
-            num = numero(premier(f, "461", "v")) or numero(premier(f, "225", "v")) or numero(premier(f, "200", "h"))
+            num = (numero(la_notre[1]) if la_notre else None) or numero(premier(f, "200", "h"))
             if num is None or num > 300:
                 continue
             editeur = premier(f, "214", "c") or premier(f, "210", "c")
