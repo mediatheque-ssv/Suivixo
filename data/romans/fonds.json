@@ -1,7 +1,7 @@
 {
  "import": {
-  "date": "2026-10-28",
-  "source": "NRipoll_sti_639287937544651989.xls",
+  "date": "2026-10-29",
+  "source": "NRipoll_sti_639288646818493814.xls",
   "exemplaires": 1438
  },
  "bibliotheques": [
@@ -16,6 +16,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211090001"
    },
    "oneShot": true
   },
@@ -39,6 +42,13 @@
      "Les grandes chanteuses et musiciennes vues par un ado"
     ]
    },
+   "isbnSansNumero": [
+    "9782377422821",
+    "9782377420155",
+    "9782377420162",
+    "9782377421046",
+    "9782377421053"
+   ],
    "genreOrphee": "Historique"
   },
   "20-allee-de-la-danse": {
@@ -63,7 +73,22 @@
      "20, allée de la danse",
      "L'ombre d'un frère"
     ]
-   }
+   },
+   "isbn": {
+    "2": "9782092565353",
+    "8": "9782092572573",
+    "9": "9782092577974",
+    "10": "9782092577998",
+    "11": "9782266347808",
+    "14": "9782092588147",
+    "15": "9782092588161",
+    "18": "9782092592205"
+   },
+   "isbnSansNumero": [
+    "9782092566244",
+    "9782092572597",
+    "9782092566220"
+   ]
   },
   "agatha-et-moi": {
    "titreOrphee": "Agatha (...) et moi",
@@ -73,6 +98,9 @@
     "Servon-sur-Vilaine": [
      2
     ]
+   },
+   "isbn": {
+    "2": "9782226494580"
    }
   },
   "albert": {
@@ -84,7 +112,10 @@
     "Servon-sur-Vilaine": [
      "Albert et le tatouage magique"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782700259728"
+   ]
   },
   "alice": {
    "titreOrphee": "Alice",
@@ -99,6 +130,9 @@
      "cote": "ER QUI"
     }
    ],
+   "isbnSansNumero": [
+    "9782012003682"
+   ],
    "genreOrphee": "Policier/Thriller"
   },
   "alice-lerisque-super-exploratrice": {
@@ -111,6 +145,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782226451088",
+    "2": "9782226451095",
+    "3": "9782226463296"
    },
    "genreOrphee": "Aventure"
   },
@@ -130,6 +169,14 @@
      "Aliénor, fille de Merlin"
     ]
    },
+   "isbn": {
+    "1": "9782211311588"
+   },
+   "isbnSansNumero": [
+    "9782211002806",
+    "9782211330824",
+    "9782211313797"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "amelie-malefice": {
@@ -141,6 +188,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782092577134",
+    "2": "9782092582220"
    }
   },
   "astrogirls": {
@@ -154,6 +205,10 @@
      "Le mystère du Verseau"
     ]
    },
+   "isbnSansNumero": [
+    "9791039543590",
+    "9791039548021"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "au-royaume-de-volaria": {
@@ -164,6 +219,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700242751"
    }
   },
   "au-service-de-sa-majeste-la-mort": {
@@ -176,6 +234,10 @@
      2
     ]
    },
+   "isbn": {
+    "1": "9782362312687",
+    "2": "9782362314995"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "aventures-sur-mesure": {
@@ -187,7 +249,10 @@
     "Servon-sur-Vilaine": [
      "Valet de pique pour Mlle Rose"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782011810069"
+   ]
   },
   "avni": {
    "titreOrphee": "Avni",
@@ -197,6 +262,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791036373343"
    },
    "genreOrphee": "Comédie/Humour"
   },
@@ -218,7 +286,12 @@
      "statut": "Perdu",
      "cote": "ER BAN"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782211324533",
+    "2": "9782211331654",
+    "3": "9782211334143"
+   }
   },
   "barkus": {
    "titreOrphee": "Barkus",
@@ -230,7 +303,11 @@
      "Barkus",
      "Rêves de chiens"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782374080543",
+    "9782374081243"
+   ]
   },
   "basile-bazar": {
    "titreOrphee": "Basile Bazar",
@@ -241,7 +318,10 @@
     "Servon-sur-Vilaine": [
      "Chouette, des petites bêtes !"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782747057820"
+   ]
   },
   "bat-pat": {
    "titreOrphee": "Bat Pat",
@@ -252,6 +332,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782226230478"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "batman": {
@@ -261,6 +344,9 @@
     "Servon-sur-Vilaine": [
      2
     ]
+   },
+   "isbn": {
+    "2": "9782012021822"
    }
   },
   "bella-sara": {
@@ -271,6 +357,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782012023369",
+    "2": "9782012023376"
    }
   },
   "bff-best-friends-forever": {
@@ -293,6 +383,20 @@
      12
     ]
    },
+   "isbn": {
+    "1": "9782215134565",
+    "2": "9782215135982",
+    "3": "9782215135999",
+    "4": "9782215167143",
+    "5": "9782215172383",
+    "6": "9782215174387",
+    "7": "9782215166184",
+    "8": "9782215177746",
+    "9": "9782215182092",
+    "10": "9782215189282",
+    "11": "9782215188148",
+    "12": "9782215199250"
+   },
    "genreOrphee": "Sentimental"
   },
   "bienvenue-a-perfect-city": {
@@ -303,6 +407,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782215166061"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -315,7 +422,10 @@
     "Servon-sur-Vilaine": [
      "Capitaine de l'équipe"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782070639106"
+   ]
   },
   "biscotto": {
    "titreOrphee": "Biscotto",
@@ -326,7 +436,10 @@
     "Servon-sur-Vilaine": [
      "Le gros Petit Poucet"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782092545621"
+   ]
   },
   "bjorn": {
    "titreOrphee": "Björn",
@@ -337,6 +450,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782369020653",
+    "2": "9782369020820"
    },
    "oneShot": true
   },
@@ -355,6 +472,12 @@
      "Boule & Bill"
     ]
    },
+   "isbn": {
+    "7": "9782740420829"
+   },
+   "isbnSansNumero": [
+    "9782740420829"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "bravepatte": {
@@ -365,6 +488,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782385701529"
    },
    "genreOrphee": "Aventure"
   },
@@ -377,7 +503,10 @@
     "Servon-sur-Vilaine": [
      "Bruno"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782211233958"
+   ]
   },
   "c-est-la-vie-lulu": {
    "titreOrphee": "C'est la vie Lulu",
@@ -398,6 +527,17 @@
      "Je veux être une star"
     ]
    },
+   "isbn": {
+    "1": "9782747066068",
+    "4": "9782747012034",
+    "23": "9782747034166",
+    "24": "9782747036801",
+    "27": "9782747040181",
+    "31": "9782747049344"
+   },
+   "isbnSansNumero": [
+    "9782747061728"
+   ],
    "oneShot": true
   },
   "cellule-24": {
@@ -408,6 +548,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791039502672"
    },
    "genreOrphee": "Action"
   },
@@ -433,6 +576,20 @@
      "Les Fantômes de la colo"
     ]
    },
+   "isbn": {
+    "5": "9782227729377",
+    "9": "9782227729117",
+    "13": "9782227729124",
+    "23": "9782227729605",
+    "33": "9782747053556",
+    "37": "9782747046886",
+    "67": "9782747002882",
+    "74": "9782747034555"
+   },
+   "isbnSansNumero": [
+    "9782227738089",
+    "9782227738065"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "chats-sorcieres": {
@@ -443,6 +600,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782215166139"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -455,6 +615,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782211239585",
+    "2": "9782211300629"
    }
   },
   "chien-pourri": {
@@ -474,6 +638,15 @@
      "Chien Pourri fait du ski"
     ]
    },
+   "isbn": {
+    "4": "9782211220781",
+    "19": "9782211352260"
+   },
+   "isbnSansNumero": [
+    "9782211317450",
+    "9782211124546",
+    "9782211237864"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "chopin-au-cp": {
@@ -489,7 +662,13 @@
     "Servon-sur-Vilaine": [
      "Vive l'écriture !"
     ]
-   }
+   },
+   "isbn": {
+    "1": "9782809656534"
+   },
+   "isbnSansNumero": [
+    "9782809656541"
+   ]
   },
   "chroniques-de-lipton-les-baveux": {
    "titreOrphee": "Chroniques de Lipton-les-Baveux",
@@ -499,6 +678,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747027243"
    }
   },
   "chroniques-des-royaumes-invisibles": {
@@ -512,6 +694,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9782075155014",
+    "2": "9782075199537",
+    "3": "9782075200134"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "chroniques-du-bout-du-monde": {
@@ -522,6 +709,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745905413"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -535,6 +725,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782278122639",
+    "2": "9782278122677",
+    "3": "9782278122844"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -554,7 +749,10 @@
      "statut": "Perdu",
      "cote": "ER MIR J"
     }
-   ]
+   ],
+   "isbn": {
+    "3": "9782081249189"
+   }
   },
   "clodomir-mousqueton": {
    "titreOrphee": "Clodomir Mousqueton",
@@ -570,7 +768,14 @@
     "Servon-sur-Vilaine": [
      "Roi de la scène !"
     ]
-   }
+   },
+   "isbn": {
+    "1": "9782092550113",
+    "2": "9782092557662"
+   },
+   "isbnSansNumero": [
+    "9782092571200"
+   ]
   },
   "club-cookies": {
    "titreOrphee": "Club cookies",
@@ -581,7 +786,10 @@
     "Servon-sur-Vilaine": [
      "La recette du succès"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9791039547598"
+   ]
   },
   "cluedo": {
    "titreOrphee": "Cluedo",
@@ -590,6 +798,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782368290774"
    },
    "genreOrphee": "Jeu d'énigme"
   },
@@ -611,6 +822,16 @@
      "Soirée mortelle chez le Dr Lenoir"
     ]
    },
+   "isbn": {
+    "1": "9782012030497",
+    "8": "9782010023897"
+   },
+   "isbnSansNumero": [
+    "9782012044272",
+    "9782011463180",
+    "9782012318748",
+    "9782017035244"
+   ],
    "genreOrphee": "Policier/Thriller"
   },
   "cluedo-romans-policiers": {
@@ -621,6 +842,9 @@
     "Servon-sur-Vilaine": [
      3
     ]
+   },
+   "isbn": {
+    "3": "9782017245292"
    },
    "genreOrphee": "Policier/Thriller"
   },
@@ -636,6 +860,12 @@
      4
     ]
    },
+   "isbn": {
+    "1": "9782266328463",
+    "2": "9782266328470",
+    "3": "9782266328487",
+    "4": "9782266349222"
+   },
    "genreOrphee": "Aventure"
   },
   "d-apres-serie-animee-le-petit-nicolas": {
@@ -647,6 +877,10 @@
      27,
      97
     ]
+   },
+   "isbn": {
+    "27": "9782070663774",
+    "97": "9782070657339"
    }
   },
   "dagfrid": {
@@ -664,6 +898,13 @@
      "A Thor et à travers"
     ]
    },
+   "isbn": {
+    "1": "9782211302500"
+   },
+   "isbnSansNumero": [
+    "9782211317351",
+    "9782211307567"
+   ],
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -675,6 +916,9 @@
     "Servon-sur-Vilaine": [
      3
     ]
+   },
+   "isbn": {
+    "3": "9782733833001"
    }
   },
   "deviens-le-heros": {
@@ -691,6 +935,13 @@
      "Mission Fortnite"
     ]
    },
+   "isbnSansNumero": [
+    "9782733862629",
+    "9782733866061",
+    "9782733869901",
+    "9782733879450",
+    "9782733893975"
+   ],
    "genreOrphee": "Aventure"
   },
   "dino": {
@@ -702,7 +953,10 @@
     "Servon-sur-Vilaine": [
      "Un dino au tableau"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782352412366"
+   ]
   },
   "draculivre": {
    "titreOrphee": "Draculivre",
@@ -712,6 +966,9 @@
     "Servon-sur-Vilaine": [
      6
     ]
+   },
+   "isbn": {
+    "6": "9782092521267"
    }
   },
   "edmond-et-ses-amis": {
@@ -724,7 +981,11 @@
      "La chasse au tuc-tuc-tuc",
      "Le grand chef"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782092567012",
+    "9782092576373"
+   ]
   },
   "elisabeth-princesse-a-versailles": {
    "titreOrphee": "Elisabeth princesse à Versailles",
@@ -737,6 +998,11 @@
      6
     ]
    },
+   "isbn": {
+    "1": "9782226315717",
+    "2": "9782226315724",
+    "6": "9782226328472"
+   },
    "genreOrphee": "Historique"
   },
   "emile-et-margot": {
@@ -747,6 +1013,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791036366000"
    }
   },
   "emile-titan": {
@@ -763,6 +1032,12 @@
      "Dix jours pour sauver Paris"
     ]
    },
+   "isbn": {
+    "1": "9782377421183"
+   },
+   "isbnSansNumero": [
+    "9782377421428"
+   ],
    "oneShot": true,
    "genreOrphee": "Action"
   },
@@ -779,7 +1054,13 @@
     "Servon-sur-Vilaine": [
      "La rencontre"
     ]
-   }
+   },
+   "isbn": {
+    "2": "9782226401007"
+   },
+   "isbnSansNumero": [
+    "9782226400970"
+   ]
   },
   "en-avant-foot": {
    "titreOrphee": "En avant foot",
@@ -790,7 +1071,10 @@
     "Servon-sur-Vilaine": [
      "Lynx en danger !"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782092538388"
+   ]
   },
   "enquete-au-college": {
    "titreOrphee": "Enquête au collège",
@@ -800,6 +1084,9 @@
     "Servon-sur-Vilaine": [
      7
     ]
+   },
+   "isbn": {
+    "7": "9782070654901"
    }
   },
   "esprit-fantomes": {
@@ -810,6 +1097,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012008915"
    }
   },
   "essie": {
@@ -822,7 +1112,11 @@
      "Et si j'étais maîtresse ?",
      "Et si j'étais géante ?"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782747022170",
+    "9782747037426"
+   ]
   },
   "fleur-de-bastion-et-le-renard-masque": {
    "titreOrphee": "Fleur de Bastion et le Renard masqué",
@@ -833,6 +1127,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782211339261",
+    "2": "9782211339278"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -845,7 +1143,10 @@
     "Servon-sur-Vilaine": [
      "Alerte au musée"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782330081379"
+   ]
   },
   "foot-2-rue": {
    "titreOrphee": "Foot 2 rue",
@@ -858,6 +1159,11 @@
      16
     ]
    },
+   "isbn": {
+    "11": "9782012014381",
+    "13": "9782012014725",
+    "16": "9782012016200"
+   },
    "genreOrphee": "Action"
   },
   "francette-top-secrete": {
@@ -869,7 +1175,10 @@
     "Servon-sur-Vilaine": [
      "Justin à la folie"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782218952982"
+   ]
   },
   "franny-k-stein-savante-folle": {
    "titreOrphee": "Franny K. Stein, savante folle",
@@ -879,6 +1188,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791036320026"
    },
    "genreOrphee": "Comédie/Humour"
   },
@@ -892,6 +1204,9 @@
      "Crime sous haute tension"
     ]
    },
+   "isbnSansNumero": [
+    "9791039543620"
+   ],
    "genreOrphee": "Horreur"
   },
   "frostheart": {
@@ -902,6 +1217,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092595398"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -915,7 +1233,11 @@
      "Pagaille chez le vétérinaire !",
      "Qui a fait le coup ?"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782092576212",
+    "9782092575673"
+   ]
   },
   "gardiens-des-cites-perdues": {
    "titreOrphee": "Gardiens des cités perdues",
@@ -925,6 +1247,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782266270663"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -937,7 +1262,10 @@
     "Servon-sur-Vilaine": [
      "Des champions à la piscine"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782410001242"
+   ]
   },
   "gaspard-le-leopard": {
    "titreOrphee": "Gaspard le léopard",
@@ -948,6 +1276,10 @@
      88,
      96
     ]
+   },
+   "isbn": {
+    "88": "9782745939173",
+    "96": "9782745947208"
    }
   },
   "geronimo-stilton": {
@@ -968,7 +1300,17 @@
     "Servon-sur-Vilaine": [
      "Quatre souris dans la jungle noire; Bienvenue à Castel Radin"
     ]
-   }
+   },
+   "isbn": {
+    "6": "9782226140470",
+    "31": "9782226173881",
+    "62": "9782226240514",
+    "73": "9782226315250",
+    "74": "9782226315335"
+   },
+   "isbnSansNumero": [
+    "9782298046793"
+   ]
   },
   "grand-galop": {
    "titreOrphee": "Grand Galop",
@@ -979,7 +1321,10 @@
     "Servon-sur-Vilaine": [
      "Grand Galop"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782747015578"
+   ]
   },
   "guillaume-petit-chevalier": {
    "titreOrphee": "Guillaume petit chevalier",
@@ -989,6 +1334,9 @@
     "Servon-sur-Vilaine": [
      3
     ]
+   },
+   "isbn": {
+    "3": "9782081209091"
    }
   },
   "harry-potter": {
@@ -1011,6 +1359,15 @@
      "Les animaux fantastiques"
     ]
    },
+   "isbn": {
+    "2": "9782070524556",
+    "3": "9782070528189",
+    "5": "9782070556854",
+    "6": "9782070572670"
+   },
+   "isbnSansNumero": [
+    "9782070541270"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "hazel-toucourt-et-les-failles-du-temps": {
@@ -1021,6 +1378,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700286434"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -1033,6 +1393,10 @@
      9,
      13
     ]
+   },
+   "isbn": {
+    "9": "9782401093324",
+    "13": "9782401093300"
    }
   },
   "heroines-de-la-mythologie": {
@@ -1044,7 +1408,10 @@
     "Servon-sur-Vilaine": [
      "Athéna la combative"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782075143547"
+   ]
   },
   "horror-games": {
    "titreOrphee": "Horror games",
@@ -1060,6 +1427,12 @@
      "Attention, collège zombie !"
     ]
    },
+   "isbn": {
+    "1": "9782809675528"
+   },
+   "isbnSansNumero": [
+    "9782809675535"
+   ],
    "genreOrphee": "Horreur"
   },
   "hotel-flamingo": {
@@ -1074,6 +1447,12 @@
      4
     ]
    },
+   "isbn": {
+    "1": "9782203024953",
+    "2": "9782203124745",
+    "3": "9782203171480",
+    "4": "9782203201965"
+   },
    "genreOrphee": "Comédie/Humour"
   },
   "hulotte": {
@@ -1085,7 +1464,10 @@
     "Servon-sur-Vilaine": [
      "Hulotte"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782211307987"
+   ]
   },
   "idefix-et-les-irreductibles": {
    "titreOrphee": "Idéfix et les Irréductibles",
@@ -1095,6 +1477,9 @@
     "Servon-sur-Vilaine": [
      5
     ]
+   },
+   "isbn": {
+    "5": "9782017209294"
    }
   },
   "impossibles-creatures": {
@@ -1106,6 +1491,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782075211413",
+    "2": "9782075234047"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -1121,7 +1510,13 @@
      "La nouvelle élève",
      "Sami et Julie rencontrent Tobi"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782012706217",
+    "9782017015741",
+    "9782017015406",
+    "9782017269014"
+   ]
   },
   "je-suis-en-ce1": {
    "titreOrphee": "Je suis en CE1",
@@ -1133,6 +1528,11 @@
      9,
      10
     ]
+   },
+   "isbn": {
+    "2": "9782081298934",
+    "9": "9782081342019",
+    "10": "9782081342026"
    }
   },
   "je-suis-en-ce2": {
@@ -1146,6 +1546,12 @@
      4,
      7
     ]
+   },
+   "isbn": {
+    "1": "9782081351387",
+    "2": "9782081351370",
+    "4": "9782081370647",
+    "7": "9782081415249"
    }
   },
   "je-suis-en-cp": {
@@ -1169,7 +1575,20 @@
      "Au centre aéré",
      "Journée à la ferme"
     ]
-   }
+   },
+   "isbn": {
+    "1": "9782081247987",
+    "2": "9782081248007",
+    "3": "9782081263987",
+    "5": "9782081264007",
+    "13": "9782081310766",
+    "16": "9782081373150",
+    "18": "9782081392038"
+   },
+   "isbnSansNumero": [
+    "9782081415171",
+    "9782081485570"
+   ]
   },
   "jefferson": {
    "titreOrphee": "Jefferson",
@@ -1180,6 +1599,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782075090254",
+    "2": "9782075169776"
    },
    "genreOrphee": "Policier/Thriller"
   },
@@ -1194,6 +1617,12 @@
      11,
      12
     ]
+   },
+   "isbn": {
+    "4": "9782021041910",
+    "9": "9791023506327",
+    "11": "9791023508499",
+    "12": "9791023508529"
    }
   },
   "journal-d-une-princesse": {
@@ -1210,6 +1639,12 @@
      9,
      10
     ]
+   },
+   "isbn": {
+    "3": "9782013220781",
+    "4": "9782013221481",
+    "6": "9782013211871",
+    "10": "9782013227209"
    }
   },
   "juliette": {
@@ -1221,7 +1656,10 @@
     "Servon-sur-Vilaine": [
      "Juliette autour du monde"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782875804099"
+   ]
   },
   "juliette-autour-du-monde": {
    "titreOrphee": "Juliette autour du monde",
@@ -1231,6 +1669,9 @@
     "Servon-sur-Vilaine": [
      6
     ]
+   },
+   "isbn": {
+    "6": "9782380755336"
    }
   },
   "kate-mene-l-enquete": {
@@ -1244,6 +1685,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9782075161459",
+    "2": "9782075161701",
+    "3": "9782075161718"
+   },
    "genreOrphee": "Policier/Thriller"
   },
   "keo-et-l-epee-magique": {
@@ -1255,6 +1701,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782203242135"
+   },
    "genreOrphee": "Aventure"
   },
   "kikekoa-et-ornicar": {
@@ -1265,6 +1714,9 @@
     "Servon-sur-Vilaine": [
      4
     ]
+   },
+   "isbn": {
+    "4": "9782092556344"
    }
   },
   "kingdom-hearts": {
@@ -1275,6 +1727,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782811615420"
    }
   },
   "kinra-girls": {
@@ -1316,7 +1771,26 @@
     "Servon-sur-Vilaine": [
      "Le code secret d'Alexa"
     ]
-   }
+   },
+   "isbn": {
+    "1": "9782809646078",
+    "2": "9782809646085",
+    "3": "9782809646856",
+    "4": "9782809647181",
+    "5": "9782809647266",
+    "8": "9782809648843",
+    "10": "9782809649437",
+    "11": "9782809650846",
+    "12": "9782809650976",
+    "13": "9782809651706",
+    "14": "9782809652536",
+    "15": "9782809652932",
+    "16": "9782809654264",
+    "17": "9782809654851"
+   },
+   "isbnSansNumero": [
+    "9782809646061"
+   ]
   },
   "agence-mondetranges": {
    "titreOrphee": "L'agence Mondétranges",
@@ -1328,6 +1802,10 @@
      2
     ]
    },
+   "isbn": {
+    "1": "9782016285800",
+    "2": "9782016285879"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "apprenti-chevalier": {
@@ -1337,6 +1815,9 @@
     "Servon-sur-Vilaine": [
      4
     ]
+   },
+   "isbn": {
+    "4": "9782092556375"
    }
   },
   "ecole-d-agathe": {
@@ -1349,6 +1830,11 @@
      7,
      34
     ]
+   },
+   "isbn": {
+    "1": "9782700226638",
+    "7": "9782700226577",
+    "34": "9782700229080"
    }
   },
   "ecole-d-agathe-ce1": {
@@ -1360,7 +1846,10 @@
     "Servon-sur-Vilaine": [
      "Nina, ma nouvelle amie"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782700253481"
+   ]
   },
   "ecole-de-minuit": {
    "titreOrphee": "L'école de minuit",
@@ -1371,6 +1860,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782700279054",
+    "2": "9782700281675"
    },
    "genreOrphee": "Horreur"
   },
@@ -1383,7 +1876,10 @@
     "Servon-sur-Vilaine": [
      "Le sortilège du scarabée"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782745971760"
+   ]
   },
   "ecole-des-champions": {
    "titreOrphee": "L'école des champions",
@@ -1395,6 +1891,9 @@
      "Simone Biles"
     ]
    },
+   "isbnSansNumero": [
+    "9782226451309"
+   ],
    "genreOrphee": "Vécu / Témoignage"
   },
   "ecole-des-mousquetaires": {
@@ -1407,6 +1906,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782266326674",
+    "2": "9782266330541",
+    "3": "9782266341868"
    },
    "genreOrphee": "Aventure"
   },
@@ -1421,6 +1925,12 @@
      3,
      4
     ]
+   },
+   "isbn": {
+    "1": "9782203291218",
+    "2": "9782203291232",
+    "3": "9782203300187",
+    "4": "9782203300170"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -1437,7 +1947,13 @@
     "Servon-sur-Vilaine": [
      "Persée"
     ]
-   }
+   },
+   "isbn": {
+    "2": "9782266314879"
+   },
+   "isbnSansNumero": [
+    "9782266314862"
+   ]
   },
   "extravagante-ecole-de-melisande-malice": {
    "titreOrphee": "L'extravagante école de Mélisande Malice",
@@ -1449,6 +1965,9 @@
      "L'extravagante école de Mélisande Malice"
     ]
    },
+   "isbnSansNumero": [
+    "9782266352284"
+   ],
    "genreOrphee": "Fantasy/Fantastique"
   },
   "brigade-des-cauchemars": {
@@ -1461,6 +1980,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782700279320",
+    "2": "9782700280616",
+    "3": "9782700280630"
    },
    "genreOrphee": "Policier/Thriller"
   },
@@ -1497,7 +2021,28 @@
      "statut": "Perdu",
      "cote": "ER CAB"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782747018340",
+    "2": "9782747004978",
+    "3": "9782747004985",
+    "4": "9782747006309",
+    "5": "9782747018388",
+    "6": "9782747018395",
+    "7": "9782747018401",
+    "8": "9782747009775",
+    "12": "9782747018456",
+    "13": "9782747013420",
+    "14": "9782747013437",
+    "28": "9782747023269",
+    "30": "9782747026154",
+    "32": "9782747027366",
+    "34": "9782747028059",
+    "38": "9782747034562",
+    "44": "9782747049863",
+    "45": "9782747049993",
+    "46": "9782747053501"
+   }
   },
   "confrerie-des-temeraires": {
    "titreOrphee": "La confrérie des téméraires",
@@ -1509,6 +2054,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782377420537",
+    "2": "9782377420896",
+    "3": "9782377421022"
    }
   },
   "disparition-des-enfants-greystone": {
@@ -1522,6 +2072,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9782408004248",
+    "2": "9782408004231",
+    "3": "9782408004255"
+   },
    "genreOrphee": "Aventure"
   },
   "famille-alonzi": {
@@ -1533,6 +2088,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782377422326",
+    "2": "9782377422647"
    },
    "genreOrphee": "Comédie/Humour"
   },
@@ -1548,7 +2107,13 @@
      "Elisa",
      "Bella, la timide pas si timide"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782092556269",
+    "9782092533932",
+    "9782092533949",
+    "9782092548950"
+   ]
   },
   "guerre-des-clans-cycle-1": {
    "titreOrphee": "La guerre des Clans : cycle 1",
@@ -1568,6 +2133,11 @@
      "cote": "ER GUE"
     }
    ],
+   "isbn": {
+    "1": "9782266149488",
+    "2": "9782266149495",
+    "3": "9782266149501"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "ligue-de-la-nature": {
@@ -1580,7 +2150,11 @@
      "Au secours du baleineau",
      "Opération girafe"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782377420841",
+    "9782377420858"
+   ]
   },
   "maison-chapelier": {
    "titreOrphee": "La maison Chapelier",
@@ -1592,6 +2166,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782075157346",
+    "2": "9782075157391",
+    "3": "9782075197359"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -1606,6 +2185,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9782021047141",
+    "2": "9782021047158",
+    "3": "9782021073522"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "maison-sous-la-maison": {
@@ -1618,6 +2202,10 @@
      2
     ]
    },
+   "isbn": {
+    "1": "9791040802754",
+    "2": "9782266358811"
+   },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -1629,6 +2217,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782012007390",
+    "2": "9782012010468"
    },
    "oneShot": true
   },
@@ -1644,6 +2236,12 @@
      5
     ]
    },
+   "isbn": {
+    "1": "9782266185813",
+    "2": "9782266185820",
+    "3": "9782266185837",
+    "5": "9782266185851"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "reine-des-neiges": {
@@ -1653,6 +2251,9 @@
     "Servon-sur-Vilaine": [
      13
     ]
+   },
+   "isbn": {
+    "13": "9782012317192"
    }
   },
   "revolte-des-dragons": {
@@ -1664,6 +2265,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075137485"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "riviere-a-l-envers": {
@@ -1674,6 +2278,9 @@
     "Servon-sur-Vilaine": [
      2
     ]
+   },
+   "isbn": {
+    "2": "9782266123136"
    }
   },
   "street": {
@@ -1684,6 +2291,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782210968363"
    }
   },
   "bureau-des-coeurs-trouves": {
@@ -1698,6 +2308,12 @@
      4
     ]
    },
+   "isbn": {
+    "1": "9782266330190",
+    "2": "9782266330206",
+    "3": "9782266339391",
+    "4": "9782266339407"
+   },
    "genreOrphee": "Sentimental"
   },
   "bus-magique": {
@@ -1711,6 +2327,12 @@
      17,
      20
     ]
+   },
+   "isbn": {
+    "8": "9782747014793",
+    "14": "9782747014762",
+    "17": "9782747024549",
+    "20": "9782747028080"
    }
   },
   "buveur-d-encre": {
@@ -1730,7 +2352,17 @@
      "La cité des buveurs d'encre",
      "Le buveur de grimoires"
     ]
-   }
+   },
+   "isbn": {
+    "2": "9782092507667",
+    "6": "9782092534861",
+    "7": "9782092534878",
+    "9": "9782092556603"
+   },
+   "isbnSansNumero": [
+    "9782092536698",
+    "9782095043179"
+   ]
   },
   "clan-des-cabosses": {
    "titreOrphee": "Le clan des cabossés",
@@ -1741,6 +2373,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782330150518",
+    "2": "9782330165840"
    },
    "genreOrphee": "Comédie/Humour"
   },
@@ -1757,6 +2393,12 @@
      "La chasse au crapaud-vomi"
     ]
    },
+   "isbnSansNumero": [
+    "9782095018375",
+    "9782095018351",
+    "9782095028824",
+    "9782095043216"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "club-de-la-pluie": {
@@ -1768,6 +2410,9 @@
      2
     ]
    },
+   "isbn": {
+    "2": "9782211219105"
+   },
    "genreOrphee": "Policier/Thriller"
   },
   "club-des-chatons": {
@@ -1778,6 +2423,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092532508"
    },
    "oneShot": true
   },
@@ -1810,6 +2458,20 @@
      "Le Club des cinq et le trésor de l'île"
     ]
    },
+   "isbn": {
+    "2": "9782012011380",
+    "4": "9782012011496",
+    "6": "9782012011854",
+    "13": "9782017105237",
+    "24": "9782012024106",
+    "29": "9782012029200",
+    "42": "9782014002928"
+   },
+   "isbnSansNumero": [
+    "9782012011762",
+    "9782012016446",
+    "9782012011373"
+   ],
    "genreOrphee": "Policier/Thriller"
   },
   "club-des-poneys": {
@@ -1820,6 +2482,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092535936"
    }
   },
   "college-de-raxford": {
@@ -1832,6 +2497,11 @@
      19,
      22
     ]
+   },
+   "isbn": {
+    "1": "9782226209467",
+    "19": "9782226258786",
+    "22": "9782226318541"
    }
   },
   "gang-du-cdi": {
@@ -1843,6 +2513,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782330186852",
+    "2": "9782330186869"
    },
    "genreOrphee": "Horreur"
   },
@@ -1857,6 +2531,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9791036302930",
+    "2": "9791036302947",
+    "3": "9791036336126"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "grenier-merveilleux": {
@@ -1869,6 +2548,9 @@
      "Simon et le secret de Lascaux"
     ]
    },
+   "isbnSansNumero": [
+    "9782408028916"
+   ],
    "genreOrphee": "Historique"
   },
   "journal-d-une-grosse-nouille": {
@@ -1879,6 +2561,9 @@
     "Servon-sur-Vilaine": [
      14
     ]
+   },
+   "isbn": {
+    "14": "9782408006488"
    }
   },
   "maitre-des-licornes": {
@@ -1891,6 +2576,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782733856147",
+    "2": "9782733861028",
+    "3": "9782733864074"
    }
   },
   "manoir": {
@@ -1901,6 +2591,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747044974"
    }
   },
   "manoir-croquignole": {
@@ -1914,6 +2607,10 @@
      "Coup de foudre à l'école"
     ]
    },
+   "isbnSansNumero": [
+    "9782745969392",
+    "9782745969385"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "manoir-de-castlecatz": {
@@ -1927,6 +2624,12 @@
      3,
      4
     ]
+   },
+   "isbn": {
+    "1": "9782381672854",
+    "2": "9782381671871",
+    "3": "9782381671888",
+    "4": "9782381671895"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -1945,6 +2648,16 @@
      8,
      10
     ]
+   },
+   "isbn": {
+    "1": "9782075093064",
+    "2": "9782075093118",
+    "4": "9782075134545",
+    "5": "9782075136839",
+    "6": "9782075136884",
+    "7": "9782075166164",
+    "8": "9782075166218",
+    "10": "9782075208888"
    }
   },
   "monde-de-nedarra": {
@@ -1958,6 +2671,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9791023510744",
+    "2": "9791023510751",
+    "3": "9791023510768"
+   },
    "genreOrphee": "Aventure"
   },
   "mystere-de": {
@@ -1968,6 +2686,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782017248422"
    },
    "genreOrphee": "Aventure"
   },
@@ -1980,7 +2701,10 @@
     "Servon-sur-Vilaine": [
      "Le petit Gus au collège"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782226250742"
+   ]
   },
   "petit-nicolas": {
    "titreOrphee": "Le petit Nicolas",
@@ -1992,6 +2716,10 @@
      8,
      57
     ]
+   },
+   "isbn": {
+    "1": "9782821211407",
+    "57": "9782070644933"
    },
    "oneShot": true
   },
@@ -2006,6 +2734,11 @@
      4
     ]
    },
+   "isbn": {
+    "1": "9782221240472",
+    "2": "9782221246290",
+    "4": "9782221247167"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "ranch": {
@@ -2017,6 +2750,10 @@
      2,
      5
     ]
+   },
+   "isbn": {
+    "2": "9782012031319",
+    "5": "9782012036840"
    }
   },
   "ranch-des-mustangs": {
@@ -2035,6 +2772,14 @@
      "Cheval rêvé"
     ]
    },
+   "isbn": {
+    "2": "9782700257588",
+    "3": "9782700278255",
+    "4": "9782700278262"
+   },
+   "isbnSansNumero": [
+    "9782700257571"
+   ],
    "genreOrphee": "Aventure"
   },
   "royaume-d-outrebrume": {
@@ -2045,6 +2790,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070505036"
    }
   },
   "secret-des-enchanteurs": {
@@ -2056,6 +2804,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377424108"
+   },
    "genreOrphee": "Fantasy/Fantastique"
   },
   "talisman-des-4-dragons": {
@@ -2066,6 +2817,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700286175"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -2079,6 +2833,9 @@
      "Grosses fourmis en Amazonie"
     ]
    },
+   "isbnSansNumero": [
+    "9782408019181"
+   ],
    "genreOrphee": "Aventure"
   },
   "100-visages-de-soryan-nesh": {
@@ -2093,6 +2850,12 @@
      4
     ]
    },
+   "isbn": {
+    "1": "9782354886783",
+    "2": "9782354886950",
+    "3": "9782354887667",
+    "4": "9782354887872"
+   },
    "genreOrphee": "Policier/Thriller"
   },
   "amis-de-chien-pourri": {
@@ -2106,6 +2869,10 @@
      "Le caniche à frange"
     ]
    },
+   "isbnSansNumero": [
+    "9782211345019",
+    "9782211343961"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "animaux-de-lou": {
@@ -2125,6 +2892,15 @@
      "Tu es super, Petit Hamster !"
     ]
    },
+   "isbn": {
+    "1": "9782092023020",
+    "2": "9782092530375",
+    "4": "9782092550779"
+   },
+   "isbnSansNumero": [
+    "9782092561799",
+    "9782092556368"
+   ],
    "oneShot": true
   },
   "apprentis-chercheurs": {
@@ -2137,7 +2913,11 @@
      "Sur la piste de l'arc-en-ciel",
      "Une lumière venue de l'espace"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782092556627",
+    "9782092561614"
+   ]
   },
   "aventure-de-la-famille-motordu": {
    "titreOrphee": "Les Aventure de la famille Motordu",
@@ -2147,7 +2927,10 @@
     "Servon-sur-Vilaine": [
      "Motordu a pâle au ventre"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782070552702"
+   ]
   },
   "aventures-d-anouk-et-benji": {
    "titreOrphee": "Les aventures d'Anouk et Benji",
@@ -2158,7 +2941,10 @@
     "Servon-sur-Vilaine": [
      "Une carabine dans les sardines"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782092576458"
+   ]
   },
   "aventures-de-kimamila": {
    "titreOrphee": "Les aventures de Kimamila",
@@ -2168,6 +2954,9 @@
     "Servon-sur-Vilaine": [
      14
     ]
+   },
+   "isbn": {
+    "14": "9782092559840"
    }
   },
   "aventures-de-la-famille-motordu": {
@@ -2179,7 +2968,10 @@
     "Servon-sur-Vilaine": [
      "Silence naturel"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782070552771"
+   ]
   },
   "aventures-de-leon": {
    "titreOrphee": "Les aventures de Léon",
@@ -2191,6 +2983,11 @@
      3,
      4
     ]
+   },
+   "isbn": {
+    "1": "9782745956156",
+    "3": "9782745956170",
+    "4": "9782745965769"
    }
   },
   "aventures-de-moi-meme": {
@@ -2204,6 +3001,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9782080205957",
+    "2": "9782080272966",
+    "3": "9782080430182"
+   },
    "genreOrphee": "Aventure"
   },
   "aventures-involontaires-des-soeurs-mouais": {
@@ -2216,6 +3018,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782374082899",
+    "2": "9782374084169",
+    "3": "9782374085166"
    },
    "genreOrphee": "Aventure"
   },
@@ -2242,6 +3049,19 @@
      "statut": "Perdu",
      "cote": "ER BUS"
     }
+   ],
+   "isbn": {
+    "12": "9782012018792",
+    "15": "9782012023819",
+    "16": "9782012024496",
+    "19": "9782012021945",
+    "21": "9782012033528",
+    "23": "9782012036635",
+    "25": "9782012044708",
+    "26": "9782012045538"
+   },
+   "isbnSansNumero": [
+    "9782012025387"
    ]
   },
   "carnets-de-la-cabane-magique": {
@@ -2251,6 +3071,9 @@
     "Servon-sur-Vilaine": [
      17
     ]
+   },
+   "isbn": {
+    "17": "9782747049870"
    }
   },
   "chasseurs-de-lumieres": {
@@ -2261,6 +3084,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745936714"
    },
    "genreOrphee": "Aventure"
   },
@@ -2275,6 +3101,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9782211335256",
+    "2": "9782211337618",
+    "3": "9782211343183"
+   },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -2286,6 +3117,9 @@
     "Servon-sur-Vilaine": [
      5
     ]
+   },
+   "isbn": {
+    "5": "9782092565841"
    }
   },
   "cousins-karlsson": {
@@ -2296,6 +3130,9 @@
     "Servon-sur-Vilaine": [
      4
     ]
+   },
+   "isbn": {
+    "4": "9782364744615"
    }
   },
   "desastreuses-aventures-des-orphelins-baudelaire": {
@@ -2318,6 +3155,21 @@
      12,
      13
     ]
+   },
+   "isbn": {
+    "1": "9782092823538",
+    "2": "9782092110348",
+    "3": "9782092823569",
+    "4": "9782092823576",
+    "5": "9782092825990",
+    "6": "9782092826003",
+    "7": "9782092826072",
+    "8": "9782092826089",
+    "9": "9782092504321",
+    "10": "9782092524909",
+    "11": "9782092506783",
+    "12": "9782092506790",
+    "13": "9782092506806"
    }
   },
   "dragons-de-nalsara": {
@@ -2331,6 +3183,12 @@
      4,
      18
     ]
+   },
+   "isbn": {
+    "1": "9782747026246",
+    "3": "9782747027137",
+    "4": "9782747028011",
+    "18": "9782747044240"
    }
   },
   "enquetes-de-clem": {
@@ -2344,6 +3202,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9782081425651",
+    "2": "9782081425668",
+    "3": "9782081446748"
+   },
    "genreOrphee": "Policier/Thriller"
   },
   "enquetes-de-l-inspecteur-0-0": {
@@ -2356,6 +3219,9 @@
      "Qui a enlevé l'alpaga sacré ?"
     ]
    },
+   "isbnSansNumero": [
+    "9782383491439"
+   ],
    "genreOrphee": "Policier/Thriller"
   },
   "enquetes-de-scarlett-et-watson": {
@@ -2371,7 +3237,13 @@
     "Servon-sur-Vilaine": [
      "Mystère et crustacés"
     ]
-   }
+   },
+   "isbn": {
+    "2": "9782745957139"
+   },
+   "isbnSansNumero": [
+    "9782745971425"
+   ]
   },
   "enquetes-des-soeurs-lumiere": {
    "titreOrphee": "Les enquêtes des soeurs Lumière",
@@ -2381,6 +3253,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782226502421"
    },
    "genreOrphee": "Policier/Thriller"
   },
@@ -2393,7 +3268,10 @@
     "Servon-sur-Vilaine": [
      "Le voleur de dinosaures"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782745959805"
+   ]
   },
   "enquetes-h2o-d-eglantine-chalutier": {
    "titreOrphee": "Les enquêtes H2O d'Eglantine Chalutier",
@@ -2406,6 +3284,10 @@
      "Qui veut piller le Titanic ?"
     ]
    },
+   "isbnSansNumero": [
+    "9782383494706",
+    "9782383493181"
+   ],
    "genreOrphee": "Policier/Thriller"
   },
   "enquetes-potageres-de-loulou": {
@@ -2418,6 +3300,9 @@
      "La malédiction des fraisiers"
     ]
    },
+   "isbnSansNumero": [
+    "9782383490043"
+   ],
    "genreOrphee": "Policier/Thriller"
   },
   "fabuleuses-aventures-d-aurore": {
@@ -2430,6 +3315,10 @@
      2
     ]
    },
+   "isbn": {
+    "1": "9782266290364",
+    "2": "9782266290371"
+   },
    "genreOrphee": "Policier/Thriller"
   },
   "folles-enigmes-de-mamie-momie": {
@@ -2440,6 +3329,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782401075801"
    }
   },
   "gamines-de-paris": {
@@ -2451,6 +3343,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791036345067"
+   },
    "genreOrphee": "Historique"
   },
   "gardiens-de-baguette-magique": {
@@ -2461,6 +3356,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782351783733"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -2477,6 +3375,13 @@
      5
     ]
    },
+   "isbn": {
+    "1": "9782092594995",
+    "2": "9782092492055",
+    "3": "9782092494288",
+    "4": "9782092494301",
+    "5": "9782095013424"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "heros-de-la-maternelle": {
@@ -2488,7 +3393,10 @@
     "Servon-sur-Vilaine": [
      "Une rentrée à l'école"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9791039573672"
+   ]
   },
   "heros-du-cp": {
    "titreOrphee": "Les héros du CP",
@@ -2503,7 +3411,14 @@
      "Vive l'école !",
      "La grande évaluation"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9791039542487",
+    "9791039542470",
+    "9791039538640",
+    "9782733881965",
+    "9791039575294"
+   ]
   },
   "histoires-inedites-du-petit-nicolas": {
    "titreOrphee": "Les histoires inédites du petit Nicolas",
@@ -2513,6 +3428,9 @@
     "Servon-sur-Vilaine": [
      5
     ]
+   },
+   "isbn": {
+    "5": "9782070619894"
    }
   },
   "lapins-de-la-couronne-d-angleterre": {
@@ -2526,6 +3444,12 @@
      3,
      4
     ]
+   },
+   "isbn": {
+    "1": "9782374081748",
+    "2": "9782374081977",
+    "3": "9782374081779",
+    "4": "9782374081731"
    },
    "genreOrphee": "Comédie/Humour"
   },
@@ -2544,6 +3468,13 @@
      "A la poursuite de l'artismage"
     ]
    },
+   "isbn": {
+    "2": "9782413019954",
+    "5": "9782012025349"
+   },
+   "isbnSansNumero": [
+    "9782756094892"
+   ],
    "genreOrphee": "Aventure"
   },
   "meilleurs-ennemis": {
@@ -2569,6 +3500,10 @@
      1,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782215182955",
+    "3": "9782215194200"
    }
   },
   "monstres-d-outre-terre": {
@@ -2580,6 +3515,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782278128594",
+    "2": "9782278128600"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -2596,6 +3535,12 @@
      "Enlèvement au château"
     ]
    },
+   "isbnSansNumero": [
+    "9782700256772",
+    "9782700274189",
+    "9782700274301",
+    "9782700277128"
+   ],
    "genreOrphee": "Aventure"
   },
   "saison-2": {
@@ -2607,7 +3552,10 @@
     "Servon-sur-Vilaine": [
      "Sur la piste du Dragon Jaune"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782266255547"
+   ]
   },
   "p-tites-poules": {
    "titreOrphee": "Les P'tites poules",
@@ -2616,6 +3564,9 @@
     "Servon-sur-Vilaine": [
      6
     ]
+   },
+   "isbn": {
+    "6": "9782266149563"
    }
   },
   "papiliers-le-petit-peuple-des-livres": {
@@ -2626,6 +3577,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782383491514"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -2640,6 +3594,10 @@
      "Vivement Noël !"
     ]
    },
+   "isbnSansNumero": [
+    "9782700276220",
+    "9782700276268"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "pierres-de-roc-en-terre": {
@@ -2650,6 +3608,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782383495659"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -2663,6 +3624,10 @@
      2
     ]
    },
+   "isbn": {
+    "1": "9782383494614",
+    "2": "9782383494966"
+   },
    "genreOrphee": "Aventure"
   },
   "pointes-noires": {
@@ -2673,6 +3638,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782210965225"
    }
   },
   "premieres-aventures-de-sherlock-holmes": {
@@ -2683,6 +3651,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782081243941"
    },
    "genreOrphee": "Policier/Thriller"
   },
@@ -2696,6 +3667,10 @@
      6
     ]
    },
+   "isbn": {
+    "5": "9782226315694",
+    "6": "9782226321367"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "sauvenature": {
@@ -2707,6 +3682,10 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "2": "9782081633698",
+    "3": "9782081634886"
    }
   },
   "secrets-de-pandorient": {
@@ -2719,6 +3698,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782732494999",
+    "2": "9782732495033",
+    "3": "9791040114918"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -2736,6 +3720,12 @@
      "A la poursuite du corbeau"
     ]
    },
+   "isbn": {
+    "2": "9782874266737"
+   },
+   "isbnSansNumero": [
+    "9782874265389"
+   ],
    "genreOrphee": "Fantasy/Fantastique"
   },
   "succulentes-aventures-de-mila-et-bulle": {
@@ -2753,6 +3743,13 @@
      "Une mission al-dente"
     ]
    },
+   "isbn": {
+    "1": "9782381671208"
+   },
+   "isbnSansNumero": [
+    "9782381672090",
+    "9782381673028"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "tisseurs-de-reves": {
@@ -2768,6 +3765,12 @@
      "Victor et les cauchemars sauvages"
     ]
    },
+   "isbnSansNumero": [
+    "9782700276749",
+    "9782700276756",
+    "9782700279658",
+    "9782700279672"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "vacances-extraordinaires": {
@@ -2778,6 +3781,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782080421821"
    },
    "genreOrphee": "Aventure"
   },
@@ -2791,6 +3797,10 @@
      2
     ]
    },
+   "isbn": {
+    "1": "9782408004200",
+    "2": "9782408004217"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -2803,7 +3813,10 @@
     "Servon-sur-Vilaine": [
      "Les voyages extraordinaires d'Aster Carmin"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782700259179"
+   ]
   },
   "wouf": {
    "titreOrphee": "Les Wouf !",
@@ -2814,6 +3827,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782211339889",
+    "2": "9782211351775"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -2834,6 +3851,14 @@
      "Le Noël carrément chaotique de Lottie Brooks"
     ]
    },
+   "isbn": {
+    "2": "9782075158008",
+    "3": "9782075206143",
+    "4": "9782075207850"
+   },
+   "isbnSansNumero": [
+    "9782075232135"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "lou-pilouface": {
@@ -2845,6 +3870,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782070661282",
+    "2": "9782070661299"
    }
   },
   "ma-premiere-mythologie": {
@@ -2859,6 +3888,9 @@
      "statut": "Perdu",
      "cote": "ER KER"
     }
+   ],
+   "isbnSansNumero": [
+    "9782218980459"
    ]
   },
   "mademoiselle-zazie": {
@@ -2874,7 +3906,13 @@
     "Servon-sur-Vilaine": [
      "Mademoiselle Zazie et la robe de Max"
     ]
-   }
+   },
+   "isbn": {
+    "6": "9782092545607"
+   },
+   "isbnSansNumero": [
+    "9782092534939"
+   ]
   },
   "magic-charly": {
    "titreOrphee": "Magic Charly",
@@ -2886,6 +3924,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782075121453",
+    "2": "9782075138338",
+    "3": "9782075138383"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -2899,6 +3942,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782080237736",
+    "2": "9782080273017",
+    "3": "9782080416445"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -2916,6 +3964,12 @@
      "Le gros chien et la petite bête"
     ]
    },
+   "isbn": {
+    "4": "9782211001069"
+   },
+   "isbnSansNumero": [
+    "9782211306171"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "marius-le-chat": {
@@ -2934,7 +3988,16 @@
      "Un coin de parapluie",
      "Quel cirque !"
     ]
-   }
+   },
+   "isbn": {
+    "8": "9782203122727"
+   },
+   "isbnSansNumero": [
+    "9782203098770",
+    "9782203098749",
+    "9782203122710",
+    "9782203158399"
+   ]
   },
   "mathieu-hidalf": {
    "titreOrphee": "Mathieu Hidalf",
@@ -2946,6 +4009,11 @@
      2,
      6
     ]
+   },
+   "isbn": {
+    "1": "9782070696888",
+    "2": "9782070643646",
+    "6": "9782075089968"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -3024,7 +4092,60 @@
      "statut": "Perdu",
      "cote": "ER SAI"
     }
-   ]
+   ],
+   "isbn": {
+    "2": "9782884450379",
+    "8": "9782884450638",
+    "9": "9782884451055",
+    "11": "9782884451079",
+    "16": "9782884451512",
+    "18": "9782884451901",
+    "20": "9782884451925",
+    "21": "9782884452489",
+    "23": "9782884452496",
+    "27": "9782884453134",
+    "29": "9782884453240",
+    "31": "9782884453264",
+    "40": "9782884454018",
+    "42": "9782884454247",
+    "43": "9782884454254",
+    "51": "9782884455299",
+    "55": "9782884455749",
+    "61": "9782884800228",
+    "62": "9782884800235",
+    "63": "9782884800402",
+    "69": "9782884800983",
+    "71": "9782884801508",
+    "73": "9782884802062",
+    "74": "9782884802079",
+    "75": "9782884802529",
+    "77": "9782884803076",
+    "78": "9782884803212",
+    "83": "9782884804066",
+    "84": "9782884804202",
+    "86": "9782884804738",
+    "87": "9782884804837",
+    "88": "9782884805131",
+    "89": "9782884805315",
+    "90": "9782884805452",
+    "92": "9782884805612",
+    "93": "9782884805711",
+    "94": "9782884805728",
+    "95": "9782884805810",
+    "96": "9782884805933",
+    "97": "9782884806046",
+    "98": "9782884806145",
+    "100": "9782884806336",
+    "101": "9782884806343",
+    "102": "9782884806534",
+    "103": "9782884806633",
+    "105": "9782884806787",
+    "106": "9782884806800",
+    "107": "9782884806947",
+    "112": "9782884807128",
+    "113": "9782884807531",
+    "114": "9782884807555"
+   }
   },
   "memoires-de-la-foret": {
    "titreOrphee": "Mémoires de la forêt",
@@ -3044,7 +4165,13 @@
      "statut": "Perdu",
      "cote": "ER MEM"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782211313155",
+    "2": "9782211321174",
+    "3": "9782211331845",
+    "4": "9782211331852"
+   }
   },
   "mene-l-enquete-au-36-quai-poirot": {
    "titreOrphee": "Mène l'enquête au 36 quai Poirot",
@@ -3056,6 +4183,9 @@
      "Le mystère des bacs jaunes"
     ]
    },
+   "isbnSansNumero": [
+    "9782377422913"
+   ],
    "genreOrphee": "Policier/Thriller"
   },
   "mes-100-premiers-jours-d-ecole": {
@@ -3067,7 +4197,10 @@
     "Servon-sur-Vilaine": [
      "Panique à la cantine"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782070589302"
+   ]
   },
   "mes-amis-les-chevaux": {
    "titreOrphee": "Mes amis les chevaux",
@@ -3082,6 +4215,14 @@
      13,
      17
     ]
+   },
+   "isbn": {
+    "1": "9782012036741",
+    "2": "9782012039681",
+    "3": "9782012041905",
+    "12": "9782012318687",
+    "13": "9782011614711",
+    "17": "9782017021063"
    }
   },
   "mes-petites-histoires-du-grand-mechant-renard": {
@@ -3091,6 +4232,9 @@
     "Servon-sur-Vilaine": [
      4
     ]
+   },
+   "isbn": {
+    "4": "9782036006003"
    }
   },
   "mes-premieres-lectures-montessori": {
@@ -3102,7 +4246,10 @@
     "Servon-sur-Vilaine": [
      "La fête de Lola; précédé de Paco le canari"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782035947185"
+   ]
   },
   "mini-loup": {
    "titreOrphee": "Mini-Loup",
@@ -3121,7 +4268,17 @@
     "Servon-sur-Vilaine": [
      "Mini-Loup et les filles"
     ]
-   }
+   },
+   "isbn": {
+    "1": "9782012007314",
+    "5": "9782012007932",
+    "7": "9782012009455",
+    "11": "9782012010956",
+    "15": "9782012013872"
+   },
+   "isbnSansNumero": [
+    "9782012010017"
+   ]
   },
   "minusculette": {
    "titreOrphee": "Minusculette",
@@ -3132,7 +4289,10 @@
     "Servon-sur-Vilaine": [
      "Minusculette en hiver"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782211233590"
+   ]
   },
   "mission-6e": {
    "titreOrphee": "Mission 6e",
@@ -3149,6 +4309,13 @@
      "Mène ton aventure au collège avec les copains"
     ]
    },
+   "isbn": {
+    "1": "9782377423613"
+   },
+   "isbnSansNumero": [
+    "9782377421640",
+    "9782377423132"
+   ],
    "oneShot": true,
    "genreOrphee": "Jeu de rôle et de mise en scène"
   },
@@ -3160,6 +4327,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092559635"
    }
   },
   "moi-therese-miaou": {
@@ -3178,7 +4348,15 @@
      "Y a quelqu'un ?",
      "J'aime pas les vacances !"
     ]
-   }
+   },
+   "isbn": {
+    "94": "9782218952876"
+   },
+   "isbnSansNumero": [
+    "9782218958700",
+    "9782218987601",
+    "9782218970245"
+   ]
   },
   "monsieur-madame": {
    "titreOrphee": "Monsieur Madame",
@@ -3197,7 +4375,16 @@
      "M. Anniversaire",
      "Monsieur glouton et le bonhomme de pain d'épice"
     ]
-   }
+   },
+   "isbn": {
+    "7": "9782012271838",
+    "41": "9782012266964",
+    "47": "9782012248588"
+   },
+   "isbnSansNumero": [
+    "9782012252004",
+    "9782012200999"
+   ]
   },
   "monsieur-monsieur-et-mademoiselle-moiselle": {
    "titreOrphee": "Monsieur Monsieur et Mademoiselle Moiselle.",
@@ -3213,6 +4400,12 @@
      "Le Chapeau à secrets"
     ]
    },
+   "isbn": {
+    "1": "9782211093644"
+   },
+   "isbnSansNumero": [
+    "9782211053006"
+   ],
    "oneShot": true
   },
   "mordicus": {
@@ -3224,6 +4417,10 @@
      3,
      4
     ]
+   },
+   "isbn": {
+    "3": "9782210961340",
+    "4": "9782210962125"
    }
   },
   "mortelle-adele": {
@@ -3237,6 +4434,10 @@
      "Le roman Dézinzintégré !"
     ]
    },
+   "isbnSansNumero": [
+    "9782494678545",
+    "9782494678774"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "mortelle-adele-roman": {
@@ -3247,6 +4448,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791027608621"
    },
    "genreOrphee": "Comédie/Humour"
   },
@@ -3259,6 +4463,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791036315978"
+   },
    "genreOrphee": "Comédie/Humour"
   },
   "moustique-lagrogne": {
@@ -3269,6 +4476,9 @@
     "Servon-sur-Vilaine": [
      2
     ]
+   },
+   "isbn": {
+    "2": "9782362312243"
    }
   },
   "mysteres-a-minuit": {
@@ -3286,6 +4496,13 @@
      "Le cercle des sorcières"
     ]
    },
+   "isbn": {
+    "3": "9782748530087"
+   },
+   "isbnSansNumero": [
+    "9782748527070",
+    "9782748527292"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "ne-pas-deranger-les-dragons": {
@@ -3296,6 +4513,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782385700775"
    },
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -3313,7 +4533,14 @@
      "C'est nul, un chagrin d'amour !",
      "C'est quoi, ta collec ?"
     ]
-   }
+   },
+   "isbn": {
+    "12": "9782092546642"
+   },
+   "isbnSansNumero": [
+    "9782092575468",
+    "9782092575567"
+   ]
   },
   "noe-et-azote": {
    "titreOrphee": "Noé et Azote",
@@ -3323,6 +4550,9 @@
     "Servon-sur-Vilaine": [
      3
     ]
+   },
+   "isbn": {
+    "3": "9782210961135"
    }
   },
   "ourse-et-lapin": {
@@ -3334,6 +4564,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782081389519",
+    "2": "9782081389526"
    }
   },
   "petites-histoires-de-la-mythologie": {
@@ -3345,6 +4579,10 @@
      8,
      11
     ]
+   },
+   "isbn": {
+    "8": "9782092538029",
+    "11": "9782092538050"
    },
    "genreOrphee": "Historique"
   },
@@ -3359,6 +4597,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9791040806400",
+    "2": "9791040806417",
+    "3": "9791040806424"
+   },
    "genreOrphee": "Policier/Thriller"
   },
   "piper-mcnimbus": {
@@ -3371,6 +4614,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782371022683",
+    "2": "9782371023031",
+    "3": "9782371023277"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -3387,6 +4635,12 @@
      "Les loups des lunes"
     ]
    },
+   "isbnSansNumero": [
+    "9791039539357",
+    "9791039512251",
+    "9791039533928",
+    "9791039550109"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "plume-le-pirate": {
@@ -3397,6 +4651,9 @@
     "Servon-sur-Vilaine": [
      7
     ]
+   },
+   "isbn": {
+    "7": "9782081210783"
    }
   },
   "potions-magiques-et-sortileges": {
@@ -3408,6 +4665,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782700285079",
+    "2": "9782700285147"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -3423,6 +4684,9 @@
      "statut": "Perdu",
      "cote": "ER CAU A"
     }
+   ],
+   "isbnSansNumero": [
+    "9782203128446"
    ]
   },
   "princesse-academy": {
@@ -3435,6 +4699,11 @@
      36,
      41
     ]
+   },
+   "isbn": {
+    "1": "9782012012653",
+    "36": "9782012024465",
+    "41": "9782012026476"
    }
   },
   "professeur-goupil": {
@@ -3446,7 +4715,10 @@
     "Servon-sur-Vilaine": [
      "Professeur Goupil est amoureux"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782374080826"
+   ]
   },
   "quatre-soeurs": {
    "titreOrphee": "Quatre soeurs",
@@ -3461,6 +4733,14 @@
      17,
      18
     ]
+   },
+   "isbn": {
+    "11": "9782700277906",
+    "13": "9782700281439",
+    "14": "9782700283747",
+    "16": "9782700286670",
+    "17": "9782700286984",
+    "18": "9782700288506"
    }
   },
   "raoul-pigeon-detective": {
@@ -3472,6 +4752,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9782203216471",
+    "2": "9782203224223"
    },
    "genreOrphee": "Policier/Thriller"
   },
@@ -3490,6 +4774,13 @@
      "Ralette fait des crêpes"
     ]
    },
+   "isbn": {
+    "1": "9782218744181"
+   },
+   "isbnSansNumero": [
+    "9782218920592",
+    "9782218743689"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "rico-et-oscar": {
@@ -3500,6 +4791,9 @@
     "Servon-sur-Vilaine": [
      2
     ]
+   },
+   "isbn": {
+    "2": "9782070634491"
    }
   },
   "roman-les-legendaires": {
@@ -3512,6 +4806,11 @@
      3,
      4
     ]
+   },
+   "isbn": {
+    "2": "9782012025318",
+    "3": "9782012025325",
+    "4": "9782012025332"
    }
   },
   "roman-titeuf": {
@@ -3531,6 +4830,13 @@
      "statut": "Perdu",
      "cote": "ER ZEP"
     }
+   ],
+   "isbn": {
+    "4": "9782012005556",
+    "6": "9782012006546"
+   },
+   "isbnSansNumero": [
+    "9782012010499"
    ]
   },
   "safir-le-genie": {
@@ -3541,6 +4847,9 @@
     "Servon-sur-Vilaine": [
      2
     ]
+   },
+   "isbn": {
+    "2": "9782092550090"
    }
   },
   "salami-docteur-teckel": {
@@ -3552,7 +4861,10 @@
     "Servon-sur-Vilaine": [
      "Le toutouscope"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782075197755"
+   ]
   },
   "samantha-spinner": {
    "titreOrphee": "Samantha Spinner",
@@ -3565,6 +4877,10 @@
      "Samantha Spinner et les lunettes extraordinaires"
     ]
    },
+   "isbnSansNumero": [
+    "9782081450660",
+    "9782081449411"
+   ],
    "genreOrphee": "Policier/Thriller"
   },
   "samsam": {
@@ -3575,7 +4891,10 @@
     "Servon-sur-Vilaine": [
      "Le défi cosmique"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782747036122"
+   ]
   },
   "scooby-doo": {
    "titreOrphee": "Scooby-doo",
@@ -3587,7 +4906,11 @@
      "Scooby-doo et l'homme des cavernes",
      "Scooby-doo et l'affaire de l'alien lumineux"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782266147781",
+    "9782266169738"
+   ]
   },
   "scooby-doo-detective": {
    "titreOrphee": "Scooby-Doo détective",
@@ -3600,7 +4923,12 @@
      "Scooby-Doo et l'affaire du vampire de l'île",
      "Scooby-Doo et l'affaire de l'araignée géante"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782266167406",
+    "9782266167413",
+    "9782266169691"
+   ]
   },
   "scoop-a-versailles": {
    "titreOrphee": "Scoop à Versailles",
@@ -3612,6 +4940,11 @@
      3,
      4
     ]
+   },
+   "isbn": {
+    "1": "9782075145541",
+    "3": "9782075167376",
+    "4": "9782075172257"
    },
    "genreOrphee": "Historique"
   },
@@ -3626,6 +4959,12 @@
      20,
      23
     ]
+   },
+   "isbn": {
+    "4": "9782747018135",
+    "12": "9782747018210",
+    "20": "9782747018296",
+    "23": "9782747018326"
    }
   },
   "sherlock-yack-zoo-detective": {
@@ -3648,7 +4987,20 @@
      "Qui a piégé le pingouin ?",
      "Qui a carotté l'otarie ?"
     ]
-   }
+   },
+   "isbn": {
+    "2": "9782745957672",
+    "5": "9782745925756",
+    "7": "9782745926579",
+    "8": "9782745959003"
+   },
+   "isbnSansNumero": [
+    "9782745923196",
+    "9782745926562",
+    "9782745949301",
+    "9782745923172",
+    "9782745958983"
+   ]
   },
   "skandar": {
    "titreOrphee": "Skandar",
@@ -3663,6 +5015,13 @@
      5
     ]
    },
+   "isbn": {
+    "1": "9782016285985",
+    "2": "9782017160038",
+    "3": "9782017160045",
+    "4": "9782017248361",
+    "5": "9782017248378"
+   },
    "genreOrphee": "Fantasy/Fantastique"
   },
   "sos-creatures-fantastiques": {
@@ -3675,6 +5034,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782075130226",
+    "2": "9782075133319",
+    "3": "9782075133364"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -3694,6 +5058,16 @@
      8
     ]
    },
+   "isbn": {
+    "1": "9782012318564",
+    "2": "9782012318694",
+    "3": "9782016255889",
+    "4": "9782016265789",
+    "5": "9782012317079",
+    "6": "9782012317086",
+    "7": "9782017035190",
+    "8": "9782017040163"
+   },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -3709,6 +5083,12 @@
      4
     ]
    },
+   "isbn": {
+    "1": "9782203194717",
+    "2": "9782203194724",
+    "3": "9782203194731",
+    "4": "9782203194748"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "start-game": {
@@ -3722,6 +5102,11 @@
      3
     ]
    },
+   "isbn": {
+    "1": "9782210972643",
+    "2": "9782210972650",
+    "3": "9782210974784"
+   },
    "genreOrphee": "Aventure"
   },
   "stellina": {
@@ -3732,6 +5117,9 @@
     "Servon-sur-Vilaine": [
      6
     ]
+   },
+   "isbn": {
+    "6": "9782747033503"
    },
    "genreOrphee": "Policier/Thriller"
   },
@@ -3745,6 +5133,11 @@
      2,
      3
     ]
+   },
+   "isbn": {
+    "1": "9782075170185",
+    "2": "9782075192736",
+    "3": "9782075208734"
    },
    "genreOrphee": "Comédie/Humour"
   },
@@ -3760,6 +5153,9 @@
      "cote": "ER DUN"
     }
    ],
+   "isbn": {
+    "1": "9782081241503"
+   },
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "tarzan-poney-mechant": {
@@ -3778,6 +5174,14 @@
      "Un amour de compète"
     ]
    },
+   "isbn": {
+    "3": "9782377422357"
+   },
+   "isbnSansNumero": [
+    "9782377420650",
+    "9782377420681",
+    "9782377421473"
+   ],
    "genreOrphee": "Comédie/Humour"
   },
   "taupe-mulot": {
@@ -3788,6 +5192,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782330120610"
    }
   },
   "tea-stilton": {
@@ -3800,6 +5207,11 @@
      18,
      31
     ]
+   },
+   "isbn": {
+    "17": "9782226255280",
+    "18": "9782226315267",
+    "31": "9782226403377"
    }
   },
   "tenebreuse-tenebrax": {
@@ -3810,6 +5222,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782226257727"
    }
   },
   "tenebria": {
@@ -3824,6 +5239,11 @@
      "Ténébria"
     ]
    },
+   "isbnSansNumero": [
+    "9782080442147",
+    "9782080428929",
+    "9782080412034"
+   ],
    "genreOrphee": "Science-fiction / Fantastique"
   },
   "thelma-et-ponette": {
@@ -3835,7 +5255,10 @@
     "Servon-sur-Vilaine": [
      "Le nouvel ami"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782036089242"
+   ]
   },
   "totally-spies": {
    "titreOrphee": "Totally Spies !",
@@ -3848,6 +5271,10 @@
      "Sois beau et bats-toi !"
     ]
    },
+   "isbnSansNumero": [
+    "9782012008854",
+    "9782012012202"
+   ],
    "genreOrphee": "Action"
   },
   "tromboline-et-foulbazar": {
@@ -3860,7 +5287,11 @@
      "Le Château fort",
      "L'Avion; Tromboline et Foulbazar"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782211094924",
+    "9782211094894"
+   ]
   },
   "trop-classe-la-sixieme": {
    "titreOrphee": "Trop classe la sixième !",
@@ -3871,6 +5302,9 @@
      1,
      3
     ]
+   },
+   "isbn": {
+    "3": "9791023505016"
    }
   },
   "un-dino-a-paris": {
@@ -3881,6 +5315,9 @@
     "Servon-sur-Vilaine": [
      4
     ]
+   },
+   "isbn": {
+    "4": "9782401093188"
    }
   },
   "un-roman-anatole-latuile": {
@@ -3894,6 +5331,11 @@
      4
     ]
    },
+   "isbn": {
+    "1": "9782747088398",
+    "3": "9791036304743",
+    "4": "9791036314926"
+   },
    "genreOrphee": "Comédie/Humour"
   },
   "une-pincee-de-magie": {
@@ -3905,6 +5347,10 @@
      1,
      2
     ]
+   },
+   "isbn": {
+    "1": "9791023512670",
+    "2": "9791023512717"
    },
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -3918,6 +5364,9 @@
      "Echappe-toi du musée"
     ]
    },
+   "isbnSansNumero": [
+    "9782700276534"
+   ],
    "genreOrphee": "Aventure"
   },
   "ursule-lapine-detective-cp": {
@@ -3929,7 +5378,10 @@
     "Servon-sur-Vilaine": [
      "Les tableaux de Pablo"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782092496572"
+   ]
   },
   "vampirette": {
    "titreOrphee": "Vampirette",
@@ -3940,7 +5392,10 @@
     "Servon-sur-Vilaine": [
      "Ma copine Vampirette"
     ]
-   }
+   },
+   "isbnSansNumero": [
+    "9782747072809"
+   ]
   },
   "verte": {
    "titreOrphee": "Verte",
@@ -3961,6 +5416,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782210966949"
    }
   },
   "violetta": {
@@ -3970,6 +5428,9 @@
     "Servon-sur-Vilaine": [
      3
     ]
+   },
+   "isbn": {
+    "3": "9782012044005"
    }
   },
   "wilma-tenderfoot": {
@@ -3980,6 +5441,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782203048416"
    }
   },
   "winx-club": {
@@ -3991,6 +5455,10 @@
      1,
      9
     ]
+   },
+   "isbn": {
+    "1": "9782012010291",
+    "9": "9782012012233"
    }
   },
   "ile-sans-nom": {
@@ -4001,6 +5469,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791039566322"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -4013,6 +5484,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012008236"
+   },
    "oneShot": true
   },
   "monsieur-bruit": {
@@ -4023,6 +5497,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012245518"
    },
    "oneShot": true
   },
@@ -4035,6 +5512,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012248724"
+   },
    "oneShot": true
   },
   "monsieur-peureux": {
@@ -4045,6 +5525,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012248380"
    },
    "oneShot": true
   },
@@ -4057,6 +5540,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012248144"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -4068,6 +5554,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012010246"
+   },
    "oneShot": true
   },
   "jasmine": {
@@ -4077,6 +5566,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012009646"
    },
    "oneShot": true
   },
@@ -4089,6 +5581,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012011571"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -4100,6 +5595,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012011847"
    },
    "oneShot": true,
    "genreOrphee": "Action"
@@ -4121,6 +5619,9 @@
      "cote": "ER DAH"
     }
    ],
+   "isbn": {
+    "1": "9782070614394"
+   },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -4133,6 +5634,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782884451062"
+   },
    "oneShot": true
   },
   "balade-en-kayak": {
@@ -4144,6 +5648,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782017225843"
+   },
    "oneShot": true
   },
   "tu-es-le-heros-de-la-foret-ensorcelee": {
@@ -4154,6 +5661,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782036052048"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -4167,6 +5677,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791036345029"
+   },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -4179,6 +5692,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211324922"
+   },
    "oneShot": true
   },
   "comment-ratatiner-les-dinosaures": {
@@ -4190,6 +5706,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075203654"
+   },
    "oneShot": true
   },
   "quatre-soeurs-en-grece": {
@@ -4200,6 +5719,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700283204"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -4213,6 +5735,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211334389"
+   },
    "oneShot": true
   },
   "agatha-charlie-et-moi": {
@@ -4223,6 +5748,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782226491701"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -4236,6 +5764,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782035883681"
+   },
    "oneShot": true
   },
   "pourquoi-les-loups-ont-ils-de-si-grandes-dents": {
@@ -4247,6 +5778,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782035883704"
+   },
    "oneShot": true
   },
   "schtroumpfs-2": {
@@ -4256,6 +5790,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012039643"
    },
    "oneShot": true
   },
@@ -4268,6 +5805,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782013987479"
+   },
    "oneShot": true
   },
   "monsieur-madame-vont-camper": {
@@ -4279,6 +5819,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782013987486"
+   },
    "oneShot": true
   },
   "missions-a-haut-risque": {
@@ -4289,6 +5832,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092565025"
    },
    "oneShot": true,
    "genreOrphee": "Action"
@@ -4302,6 +5848,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377420025"
+   },
    "oneShot": true
   },
   "quatre-soeurs-et-un-noel-inoubliable": {
@@ -4313,6 +5862,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700256253"
+   },
    "oneShot": true
   },
   "garcon-qui-nageait-avec-les-piranhas": {
@@ -4323,6 +5875,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782075092715"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -4336,6 +5891,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782367405766"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -4347,6 +5905,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377420308"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -4360,6 +5921,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782016255032"
+   },
    "oneShot": true
   },
   "ile-au-manoir": {
@@ -4370,6 +5934,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782367406190"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -4383,6 +5950,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782081420977"
+   },
    "oneShot": true
   },
   "invitee-de-noel": {
@@ -4393,6 +5963,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782035957085"
    },
    "oneShot": true
   },
@@ -4405,6 +5978,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782035957092"
+   },
    "oneShot": true
   },
   "adele-licorne-malgre-elle": {
@@ -4415,6 +5991,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377420292"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -4428,6 +6007,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211239431"
+   },
    "oneShot": true
   },
   "une-fete-a-l-ecole": {
@@ -4437,6 +6019,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092589281"
    },
    "oneShot": true
   },
@@ -4449,6 +6034,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092589304"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -4459,6 +6047,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092589328"
    },
    "oneShot": true
   },
@@ -4471,6 +6062,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782352894131"
+   },
    "oneShot": true
   },
   "revanche-des-princesses": {
@@ -4480,6 +6074,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377420520"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -4493,6 +6090,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211239349"
+   },
    "oneShot": true
   },
   "eliott-et-la-bibliotheque-fabuleuse": {
@@ -4503,6 +6103,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700259407"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -4516,6 +6119,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377420636"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -4528,6 +6134,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377420698"
+   },
    "oneShot": true
   },
   "pauvre-ame-en-perdition": {
@@ -4538,6 +6147,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782017088608"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -4551,6 +6163,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092589342"
+   },
    "oneShot": true
   },
   "splat-cuisine": {
@@ -4560,6 +6175,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092589366"
    },
    "oneShot": true,
    "genreOrphee": "Action"
@@ -4573,6 +6191,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377420827"
+   },
    "oneShot": true
   },
   "bienvenue-au-cp": {
@@ -4582,6 +6203,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782378011772"
    },
    "oneShot": true
   },
@@ -4594,6 +6218,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782210966352"
+   },
    "oneShot": true
   },
   "arthur-et-la-potion-de-vie-infinie": {
@@ -4604,6 +6231,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782035969828"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -4617,6 +6247,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791097284169"
+   },
    "oneShot": true,
    "genreOrphee": "Vécu / Témoignage"
   },
@@ -4629,6 +6262,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377420865"
+   },
    "oneShot": true
   },
   "pierre-et-la-sorciere": {
@@ -4639,6 +6275,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782278091942"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -4652,6 +6291,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700273878"
+   },
    "oneShot": true
   },
   "pirates": {
@@ -4661,6 +6303,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782017082965"
    },
    "oneShot": true
   },
@@ -4673,6 +6318,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782812619151"
+   },
    "oneShot": true
   },
   "soiree-pyjama": {
@@ -4683,6 +6331,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092593578"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -4696,6 +6347,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782884808149"
+   },
    "oneShot": true
   },
   "catch-tournevis-et-lutins-robots": {
@@ -4706,6 +6360,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377313235"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -4719,6 +6376,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377313761"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -4731,6 +6391,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700275346"
+   },
    "oneShot": true
   },
   "garcon-du-sous-sol": {
@@ -4742,6 +6405,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782221202982"
+   },
    "oneShot": true
   },
   "mystere-de-broceliande": {
@@ -4752,6 +6418,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782956249665"
    },
    "oneShot": true
   },
@@ -4772,6 +6441,9 @@
      "cote": "PL S"
     }
    ],
+   "isbn": {
+    "1": "9782017123170"
+   },
    "oneShot": true
   },
   "super-cartes-de-sami": {
@@ -4783,6 +6455,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782017122845"
+   },
    "oneShot": true
   },
   "splat-a-un-secret": {
@@ -4793,6 +6468,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092594032"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -4806,6 +6484,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782362663635"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -4817,6 +6498,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782019451967"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -4830,6 +6514,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782203208452"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -4842,6 +6529,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211304283"
+   },
    "oneShot": true
   },
   "gardiens-du-cristal-d-argent": {
@@ -4852,6 +6542,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791032403020"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -4865,6 +6558,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377421060"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -4877,6 +6573,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791023514858"
+   },
    "oneShot": true
   },
   "7-histoires-a-lire-en-7-minutes-pour-les-7-ans": {
@@ -4888,6 +6587,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700275513"
+   },
    "oneShot": true
   },
   "tete-en-petard": {
@@ -4898,6 +6600,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782367409061"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -4911,6 +6616,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377421329"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -4922,6 +6630,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700275438"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -4935,6 +6646,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782733881446"
+   },
    "oneShot": true,
    "genreOrphee": "Drame"
   },
@@ -4947,6 +6661,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782371650541"
+   },
    "oneShot": true
   },
   "comment-je-vais-devenir-ecrivain-si-tout-va-bien": {
@@ -4958,6 +6675,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782408016340"
+   },
    "oneShot": true
   },
   "calamity": {
@@ -4968,6 +6688,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791036324796"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -4981,6 +6704,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700259803"
+   },
    "oneShot": true
   },
   "quatre-soeurs-a-l-atelier-patisserie": {
@@ -4991,6 +6717,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700276404"
    },
    "oneShot": true
   },
@@ -5003,6 +6732,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700276602"
+   },
    "oneShot": true
   },
   "ennemi-jure": {
@@ -5014,6 +6746,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782203222106"
+   },
    "oneShot": true
   },
   "hics-du-corps": {
@@ -5024,6 +6759,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211311359"
    },
    "oneShot": true
   },
@@ -5039,7 +6777,10 @@
      "statut": "Perdu",
      "cote": "PL S"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782017147466"
+   }
   },
   "sami-et-julie-jardinent": {
    "titreOrphee": "Sami et Julie jardinent",
@@ -5049,6 +6790,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782017151319"
    },
    "oneShot": true
   },
@@ -5060,6 +6804,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377421350"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5073,6 +6820,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092491966"
+   },
    "oneShot": true
   },
   "une-histoire-sombre-tres-sombre": {
@@ -5083,6 +6833,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782075155199"
    },
    "oneShot": true,
    "genreOrphee": "Horreur"
@@ -5096,6 +6849,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782203222496"
+   },
    "oneShot": true,
    "genreOrphee": "Horreur"
   },
@@ -5107,6 +6863,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782278098446"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5120,6 +6879,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782807701021"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -5132,6 +6894,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211308359"
+   },
    "oneShot": true
   },
   "joseph-poulpe-en-chef": {
@@ -5142,6 +6907,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377421510"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5155,6 +6923,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092491980"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -5167,6 +6938,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092492000"
+   },
    "oneShot": true
   },
   "dragons-ca-n-existe-pas": {
@@ -5177,6 +6951,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782807701410"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5190,6 +6967,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782203222601"
+   },
    "oneShot": true
   },
   "betise-de-splat": {
@@ -5200,6 +6980,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092491928"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5213,6 +6996,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700276794"
+   },
    "oneShot": true
   },
   "jean-bebe-et-baby-john": {
@@ -5223,6 +7009,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211312165"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5236,6 +7025,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700276862"
+   },
    "oneShot": true,
    "genreOrphee": "Vécu / Témoignage"
   },
@@ -5247,6 +7039,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782278100583"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5260,6 +7055,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377422159"
+   },
    "oneShot": true,
    "genreOrphee": "Horreur"
   },
@@ -5271,6 +7069,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782203222656"
    },
    "oneShot": true,
    "genreOrphee": "Horreur"
@@ -5284,6 +7085,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782330153274"
+   },
    "oneShot": true
   },
   "contes-detraques": {
@@ -5294,6 +7098,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377421343"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5307,6 +7114,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782017151487"
+   },
    "oneShot": true
   },
   "5-histoires-pour-aimer-le-cp": {
@@ -5318,6 +7128,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782017158073"
+   },
    "oneShot": true
   },
   "cle-des-champs": {
@@ -5328,6 +7141,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782075160667"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -5341,6 +7157,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211313414"
+   },
    "oneShot": true
   },
   "quatre-soeurs-enquetent": {
@@ -5352,6 +7171,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700277784"
+   },
    "oneShot": true
   },
   "robules": {
@@ -5362,6 +7184,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782874264702"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5375,6 +7200,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700276732"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -5386,6 +7214,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377317172"
    },
    "oneShot": true,
    "genreOrphee": "Sentimental"
@@ -5399,6 +7230,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782226465597"
+   },
    "oneShot": true,
    "genreOrphee": "Historique"
   },
@@ -5410,6 +7244,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092496619"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5423,6 +7260,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782203231528"
+   },
    "oneShot": true
   },
   "c-est-mon-arbre": {
@@ -5433,6 +7273,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211318471"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5446,6 +7289,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211313735"
+   },
    "oneShot": true
   },
   "soeurs-hiver": {
@@ -5456,6 +7302,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211314145"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5469,6 +7318,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211315517"
+   },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -5481,6 +7333,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782874264801"
+   },
    "oneShot": true
   },
   "gargouilles-de-morne-ecu": {
@@ -5491,6 +7346,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782874264825"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5504,6 +7362,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791036305955"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -5515,6 +7376,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377422470"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5528,6 +7392,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782371023291"
+   },
    "oneShot": true,
    "genreOrphee": "Horreur"
   },
@@ -5540,6 +7407,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211318587"
+   },
    "oneShot": true
   },
   "clan-de-l-ogre-advar": {
@@ -5550,6 +7420,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782383490036"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5563,6 +7436,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791032405864"
+   },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
   },
@@ -5574,6 +7450,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782215163541"
    },
    "oneShot": true,
    "genreOrphee": "Historique"
@@ -5587,6 +7466,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092496374"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -5598,6 +7480,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782383490067"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5611,6 +7496,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782874264917"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -5622,6 +7510,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377317257"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -5635,6 +7526,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782017185727"
+   },
    "oneShot": true
   },
   "mon-carnet-de-survie-en-colo-de-l-extreme": {
@@ -5645,6 +7539,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791036319297"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5658,6 +7555,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075157858"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -5669,6 +7569,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782080271235"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -5682,6 +7585,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791097465971"
+   },
    "oneShot": true
   },
   "loudmila-et-la-montagne-volante": {
@@ -5692,6 +7598,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377421527"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -5705,6 +7614,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211316170"
+   },
    "oneShot": true
   },
   "robin-des-garrigues": {
@@ -5715,6 +7627,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791036340246"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -5728,6 +7643,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700279634"
+   },
    "oneShot": true
   },
   "dernier-mouton": {
@@ -5739,6 +7657,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075166317"
+   },
    "oneShot": true
   },
   "isild-a-l-opera": {
@@ -5749,6 +7670,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782035997791"
    },
    "oneShot": true,
    "genreOrphee": "Historique"
@@ -5762,6 +7686,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782807701854"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -5773,6 +7700,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782749949499"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5786,6 +7716,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782330171360"
+   },
    "oneShot": true
   },
   "quatre-soeurs-et-un-mariage-fantastique": {
@@ -5796,6 +7729,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700280203"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5809,6 +7745,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377422920"
+   },
    "oneShot": true,
    "genreOrphee": "Historique"
   },
@@ -5820,6 +7759,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782383491231"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5833,6 +7775,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782383491255"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -5844,6 +7789,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377423118"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -5857,6 +7805,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782017212713"
+   },
    "oneShot": true
   },
   "un-brin-de-malefice": {
@@ -5867,6 +7818,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791023518511"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5880,6 +7834,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211320702"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -5892,6 +7849,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782874265228"
+   },
    "oneShot": true
   },
   "malheurs-de-sophie-traduction-falc": {
@@ -5903,6 +7863,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782494067042"
+   },
    "oneShot": true
   },
   "famille-monstre-fait-sa-rentree": {
@@ -5913,6 +7876,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700259810"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5926,6 +7892,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211323819"
+   },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -5937,6 +7906,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211324694"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -5950,6 +7922,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700277302"
+   },
    "oneShot": true
   },
   "pivoine-la-petite-elfe": {
@@ -5960,6 +7935,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782874265297"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -5973,6 +7951,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782408033132"
+   },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -5985,6 +7966,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782278122653"
+   },
    "oneShot": true
   },
   "fantastique-maitre-renard": {
@@ -5995,6 +7979,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070552689"
    },
    "oneShot": true
   },
@@ -6007,6 +7994,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747006200"
+   },
    "oneShot": true
   },
   "gustave-taloche-roi-de-la-bagarre": {
@@ -6017,6 +8007,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782742757015"
    },
    "oneShot": true
   },
@@ -6029,6 +8022,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211072977"
+   },
    "oneShot": true
   },
   "gentil-petit-diable": {
@@ -6039,6 +8035,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070513437"
    },
    "oneShot": true
   },
@@ -6051,6 +8050,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070392032"
+   },
    "oneShot": true
   },
   "lola-la-pirate": {
@@ -6060,6 +8062,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782736645618"
    },
    "oneShot": true
   },
@@ -6071,6 +8076,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782227729155"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -6084,6 +8092,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211051743"
+   },
    "oneShot": true
   },
   "royaume-de-kensuke": {
@@ -6094,6 +8105,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070541836"
    },
    "oneShot": true
   },
@@ -6106,6 +8120,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070551415"
+   },
    "oneShot": true
   },
   "cool": {
@@ -6116,6 +8133,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070566136"
    },
    "oneShot": true
   },
@@ -6128,6 +8148,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844203212"
+   },
    "oneShot": true
   },
   "oeil-du-loup": {
@@ -6138,6 +8161,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782266126304"
    },
    "oneShot": true
   },
@@ -6150,6 +8176,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844202048"
+   },
    "oneShot": true
   },
   "hollandais-sans-peine": {
@@ -6160,6 +8189,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211047203"
    },
    "oneShot": true
   },
@@ -6172,6 +8204,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782841565528"
+   },
    "oneShot": true
   },
   "fils-de-clown": {
@@ -6182,6 +8217,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782844204288"
    },
    "oneShot": true
   },
@@ -6194,6 +8232,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782350000565"
+   },
    "oneShot": true
   },
   "sorciere-de-la-rue-mouffetard-et-autres-contes-de-la-rue-broca": {
@@ -6204,6 +8245,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070577071"
    },
    "oneShot": true
   },
@@ -6216,6 +8260,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782912084644"
+   },
    "oneShot": true
   },
   "ogre-qui-devore-les-livres": {
@@ -6225,6 +8272,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092826454"
    },
    "oneShot": true
   },
@@ -6237,6 +8287,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844205513"
+   },
    "oneShot": true
   },
   "mon-nom-est-loup-gris": {
@@ -6247,6 +8300,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211094719"
    },
    "oneShot": true
   },
@@ -6259,6 +8315,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844206930"
+   },
    "oneShot": true
   },
   "mon-hamster-et-moi": {
@@ -6269,6 +8328,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747033824"
    },
    "oneShot": true
   },
@@ -6281,6 +8343,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747030472"
+   },
    "oneShot": true
   },
   "lisa-a-disparu": {
@@ -6291,6 +8356,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092524336"
    },
    "oneShot": true
   },
@@ -6303,6 +8371,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070577040"
+   },
    "oneShot": true
   },
   "grande-bagarre": {
@@ -6314,6 +8385,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745933546"
+   },
    "oneShot": true
   },
   "veritable-histoire-de-paulin-le-petit-paysan-qui-revait-d-etre-chevalier": {
@@ -6324,6 +8398,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747035620"
    },
    "oneShot": true
   },
@@ -6357,6 +8434,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782210983649"
    },
    "oneShot": true
   },
@@ -6405,7 +8485,10 @@
      "statut": "Perdu",
      "cote": "ER MAU C"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782203117600"
+   }
   },
   "safari-en-sous-sol": {
    "titreOrphee": "Safari en sous-sol",
@@ -6415,6 +8498,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782742753284"
    },
    "oneShot": true
   },
@@ -6427,6 +8513,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782081661851"
+   },
    "oneShot": true
   },
   "comment-ecrire-comme-un-cochon": {
@@ -6437,6 +8526,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211042406"
    },
    "oneShot": true
   },
@@ -6449,6 +8541,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211050876"
+   },
    "oneShot": true
   },
   "grand-mystere": {
@@ -6459,6 +8554,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782844204318"
    },
    "oneShot": true
   },
@@ -6471,6 +8569,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092824757"
+   },
    "oneShot": true
   },
   "entre-terre-et-ciel": {
@@ -6481,6 +8582,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745912701"
    },
    "oneShot": true
   },
@@ -6493,6 +8597,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070555598"
+   },
    "oneShot": true
   },
   "voleur-de-chateaux": {
@@ -6503,6 +8610,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211067607"
    },
    "oneShot": true
   },
@@ -6515,6 +8625,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070548941"
+   },
    "oneShot": true
   },
   "champ-de-mines": {
@@ -6525,6 +8638,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782844203793"
    },
    "oneShot": true
   },
@@ -6537,6 +8653,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745927873"
+   },
    "oneShot": true
   },
   "ou-sont-passes-les-princes-charmants": {
@@ -6547,6 +8666,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745926951"
    },
    "oneShot": true
   },
@@ -6559,6 +8681,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092514108"
+   },
    "oneShot": true
   },
   "tous-les-jours-c-est-foot": {
@@ -6569,6 +8694,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092507681"
    },
    "oneShot": true
   },
@@ -6581,6 +8709,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745924957"
+   },
    "oneShot": true
   },
   "un-monde-de-cochon": {
@@ -6591,6 +8722,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211079815"
    },
    "oneShot": true
   },
@@ -6603,6 +8737,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844204967"
+   },
    "oneShot": true
   },
   "reve-de-rahim": {
@@ -6614,6 +8751,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844204295"
+   },
    "oneShot": true
   },
   "loup-qui-voulait-apprendre-a-lire": {
@@ -6624,6 +8764,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782350004273"
    },
    "oneShot": true
   },
@@ -6647,6 +8790,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782226180056"
+   },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -6659,6 +8805,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844203823"
+   },
    "oneShot": true
   },
   "au-loup-tordu": {
@@ -6669,6 +8818,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070548903"
    },
    "oneShot": true
   },
@@ -6681,6 +8833,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844207333"
+   },
    "oneShot": true
   },
   "une-maman-dans-l-ecole": {
@@ -6691,6 +8846,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745938619"
    },
    "oneShot": true
   },
@@ -6703,6 +8861,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745941800"
+   },
    "oneShot": true
   },
   "en-vrai": {
@@ -6713,6 +8874,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782844206381"
    },
    "oneShot": true
   },
@@ -6725,6 +8889,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844207777"
+   },
    "oneShot": true
   },
   "tout-le-monde-au-poste": {
@@ -6735,6 +8902,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782844203526"
    },
    "oneShot": true
   },
@@ -6747,6 +8917,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844207746"
+   },
    "oneShot": true
   },
   "georges-et-le-big-bang": {
@@ -6757,6 +8930,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782266183703"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -6770,6 +8946,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782742754694"
+   },
    "oneShot": true
   },
   "mystere-et-cacahuetes": {
@@ -6780,6 +8959,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745903372"
    },
    "oneShot": true
   },
@@ -6792,6 +8974,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747011051"
+   },
    "oneShot": true
   },
   "souriceau-veut-apprendre-a-lire": {
@@ -6802,6 +8987,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747011211"
    },
    "oneShot": true
   },
@@ -6814,6 +9002,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745935557"
+   },
    "oneShot": true
   },
   "un-chien-a-new-york": {
@@ -6825,6 +9016,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070625994"
+   },
    "oneShot": true
   },
   "dur-dur-detre-un-grand-frere": {
@@ -6835,6 +9029,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782266058209"
    },
    "oneShot": true
   },
@@ -6858,6 +9055,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211054645"
+   },
    "oneShot": true
   },
   "matilda": {
@@ -6868,6 +9068,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070576968"
    },
    "oneShot": true
   },
@@ -6880,6 +9083,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070576999"
+   },
    "oneShot": true
   },
   "dragon-des-mers": {
@@ -6891,6 +9097,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070619245"
+   },
    "oneShot": true
   },
   "chien-des-baskerville": {
@@ -6901,6 +9110,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782013225496"
    },
    "oneShot": true
   },
@@ -6924,6 +9136,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745926968"
+   },
    "oneShot": true
   },
   "enfants-d-athena": {
@@ -6938,7 +9153,10 @@
      "statut": "Perdu",
      "cote": "ER BRI"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782013224352"
+   }
   },
   "memoires-dun-ane": {
    "titreOrphee": "Mémoires dun âne",
@@ -6948,6 +9166,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782010182860"
    },
    "oneShot": true
   },
@@ -6963,7 +9184,10 @@
      "statut": "À pilonner",
      "cote": "ER SAI"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782884803342"
+   }
   },
   "piege-dans-le-corps-du-chien": {
    "titreOrphee": "Piégé dans le corps du chien !",
@@ -6996,6 +9220,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782742776955"
+   },
    "oneShot": true
   },
   "doigts-rouges": {
@@ -7006,6 +9233,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782748505702"
    },
    "oneShot": true
   },
@@ -7018,6 +9248,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782218922329"
+   },
    "oneShot": true
   },
   "aime-cesaire-le-negre-indelebile": {
@@ -7028,6 +9261,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782350003436"
    },
    "oneShot": true
   },
@@ -7040,6 +9276,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070577026"
+   },
    "oneShot": true
   },
   "sacrees-sorcieres": {
@@ -7050,6 +9289,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070576975"
    },
    "oneShot": true
   },
@@ -7062,6 +9304,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782913741775"
+   },
    "oneShot": true
   },
   "noel-au-placard": {
@@ -7072,6 +9317,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782742799381"
    },
    "oneShot": true
   },
@@ -7084,6 +9332,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700234961"
+   },
    "oneShot": true
   },
   "attention-je-mords": {
@@ -7094,6 +9345,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782844207326"
    },
    "oneShot": true
   },
@@ -7106,6 +9360,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070631063"
+   },
    "oneShot": true
   },
   "charlie-et-la-chocolaterie-charlie-and-the-chocolat-factory": {
@@ -7116,6 +9373,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070612635"
    },
    "oneShot": true
   },
@@ -7139,6 +9399,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782227721029"
+   },
    "oneShot": true
   },
   "petit-prince": {
@@ -7150,6 +9413,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070105021"
+   },
    "oneShot": true
   },
   "papa-est-un-dinosaure": {
@@ -7160,6 +9426,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782895121138"
    },
    "oneShot": true
   },
@@ -7183,6 +9452,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782094900398"
+   },
    "oneShot": true
   },
   "noel-cest-pas-pour-les-maitresses": {
@@ -7194,6 +9466,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782094901449"
+   },
    "oneShot": true
   },
   "abominables-bonshommes-de-neige": {
@@ -7204,6 +9479,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782227738232"
    },
    "oneShot": true
   },
@@ -7238,6 +9516,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782227722002"
+   },
    "oneShot": true
   },
   "du-commerce-de-la-souris": {
@@ -7249,6 +9530,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070311958"
+   },
    "oneShot": true
   },
   "cavalier-du-nil": {
@@ -7259,6 +9543,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782081647565"
    },
    "oneShot": true
   },
@@ -7274,7 +9561,10 @@
      "statut": "Perdu",
      "cote": "ER PON"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782211057745"
+   }
   },
   "drole-de-cauchemar": {
    "titreOrphee": "Drôle de cauchemar",
@@ -7284,6 +9574,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782895121336"
    },
    "oneShot": true
   },
@@ -7307,6 +9600,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211065962"
+   },
    "oneShot": true
   },
   "gauffrette-petit-beurre-et-chocolat": {
@@ -7317,6 +9613,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782081644656"
    },
    "oneShot": true
   },
@@ -7340,6 +9639,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211065023"
+   },
    "oneShot": true
   },
   "fievre-a-lhopital": {
@@ -7354,7 +9656,10 @@
      "statut": "Perdu",
      "cote": "ER NIC F"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782290331651"
+   }
   },
   "charabiole": {
    "titreOrphee": "La Charabiole",
@@ -7364,6 +9669,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747007443"
    },
    "oneShot": true
   },
@@ -7376,6 +9684,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745910721"
+   },
    "oneShot": true
   },
   "dragon-recalcitrant": {
@@ -7386,6 +9697,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782268052663"
    },
    "oneShot": true
   },
@@ -7409,6 +9723,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844203236"
+   },
    "oneShot": true
   },
   "bien-curieuse-factrice-une": {
@@ -7430,6 +9747,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782841467440"
    },
    "oneShot": true
   },
@@ -7453,6 +9773,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070550920"
+   },
    "oneShot": true
   },
   "vivement-jeudi": {
@@ -7463,6 +9786,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782844201768"
    },
    "oneShot": true
   },
@@ -7486,6 +9812,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745922809"
+   },
    "oneShot": true
   },
   "faut-pas-pousser-meme": {
@@ -7496,6 +9825,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092507841"
    },
    "oneShot": true
   },
@@ -7508,6 +9840,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070567485"
+   },
    "oneShot": true
   },
   "petoche-du-geant-poilu": {
@@ -7518,6 +9853,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745913685"
    },
    "oneShot": true
   },
@@ -7530,6 +9868,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745925039"
+   },
    "oneShot": true
   },
   "c-est-normal": {
@@ -7540,6 +9881,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211079648"
    },
    "oneShot": true
   },
@@ -7552,6 +9896,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211203548"
+   },
    "oneShot": true
   },
   "loup-qui-n-avait-jamais-vu-la-mer": {
@@ -7562,6 +9909,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092525562"
    },
    "oneShot": true
   },
@@ -7574,6 +9924,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745952783"
+   },
    "oneShot": true
   },
   "panier": {
@@ -7584,6 +9937,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211208000"
    },
    "oneShot": true
   },
@@ -7596,6 +9952,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747033565"
+   },
    "oneShot": true
   },
   "on-zappe-la-tele": {
@@ -7606,6 +9965,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700238587"
    },
    "oneShot": true
   },
@@ -7618,6 +9980,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092528563"
+   },
    "oneShot": true
   },
   "lettres-a-plumes-et-a-poils": {
@@ -7628,6 +9993,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782844208651"
    },
    "oneShot": true
   },
@@ -7640,6 +10008,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782226239877"
+   },
    "oneShot": true
   },
   "gout-de-la-tomate": {
@@ -7650,6 +10021,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782364740211"
    },
    "oneShot": true
   },
@@ -7662,6 +10036,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782350008332"
+   },
    "oneShot": true
   },
   "alice-au-pays-des-merveilles": {
@@ -7672,6 +10049,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070628889"
    },
    "oneShot": true
   },
@@ -7684,6 +10064,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782364740235"
+   },
    "oneShot": true
   },
   "cours-ayana": {
@@ -7694,6 +10077,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700238631"
    },
    "oneShot": true
   },
@@ -7706,6 +10092,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747038362"
+   },
    "oneShot": true
   },
   "presque-ado": {
@@ -7716,6 +10105,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782364740228"
    },
    "oneShot": true
   },
@@ -7728,6 +10120,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745956378"
+   },
    "oneShot": true
   },
   "retour-du-monstre-poilu": {
@@ -7738,6 +10133,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070641048"
    },
    "oneShot": true
   },
@@ -7750,6 +10148,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782732451046"
+   },
    "oneShot": true
   },
   "preau-des-z-heros": {
@@ -7760,6 +10161,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782874261756"
    },
    "oneShot": true
   },
@@ -7772,6 +10176,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745957801"
+   },
    "oneShot": true
   },
   "monsieur-kipu": {
@@ -7782,6 +10189,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782226240453"
    },
    "oneShot": true
   },
@@ -7794,6 +10204,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012271876"
+   },
    "oneShot": true
   },
   "ma-tata-therese": {
@@ -7804,6 +10217,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782848654898"
    },
    "oneShot": true
   },
@@ -7816,6 +10232,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782330014964"
+   },
    "oneShot": true
   },
   "ami-de-naoki": {
@@ -7826,6 +10245,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747044387"
    },
    "oneShot": true
   },
@@ -7838,6 +10260,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782844201775"
+   },
    "oneShot": true
   },
   "garcon-au-chien-parlant-la-fille-qui-parle-a-la-mer": {
@@ -7848,6 +10273,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782812605673"
    },
    "oneShot": true
   },
@@ -7860,6 +10288,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782748513431"
+   },
    "oneShot": true
   },
   "journal-malgre-lui-de-henry-k-larsen": {
@@ -7870,6 +10301,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782330022495"
    },
    "oneShot": true
   },
@@ -7893,6 +10327,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782812604003"
+   },
    "oneShot": true
   },
   "ratus-court-le-marathon": {
@@ -7903,6 +10340,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782218960307"
    },
    "oneShot": true
   },
@@ -7915,6 +10355,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782081247383"
+   },
    "oneShot": true
   },
   "quatre-soeurs-a-new-york": {
@@ -7925,6 +10368,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700239546"
    },
    "oneShot": true
   },
@@ -7937,6 +10383,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092528327"
+   },
    "oneShot": true
   },
   "ogre-au-pull-vert-moutarde": {
@@ -7947,6 +10396,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782848656830"
    },
    "oneShot": true
   },
@@ -7959,6 +10411,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782081242111"
+   },
    "oneShot": true
   },
   "aventures-de-tom-sawyer": {
@@ -7969,6 +10424,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070619528"
    },
    "oneShot": true
   },
@@ -7981,6 +10439,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092506523"
+   },
    "oneShot": true
   },
   "tel-est-pris-qui-croyait-prendre": {
@@ -7991,6 +10452,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070552603"
    },
    "oneShot": true
   },
@@ -8003,6 +10467,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745957764"
+   },
    "oneShot": true
   },
   "vet-vicky": {
@@ -8013,6 +10480,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9781844221950"
    },
    "oneShot": true
   },
@@ -8025,6 +10495,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791023501223"
+   },
    "oneShot": true
   },
   "veritable-histoire-de-marcel-soldat-pendant-la-premiere-guerre-mondiale": {
@@ -8035,6 +10508,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747051361"
    },
    "oneShot": true,
    "genreOrphee": "Historique"
@@ -8048,6 +10524,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211215954"
+   },
    "oneShot": true
   },
   "tempete-a-disparu": {
@@ -8059,6 +10538,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745961563"
+   },
    "oneShot": true
   },
   "avatar": {
@@ -8069,6 +10551,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012020948"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -8082,6 +10567,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782364743250"
+   },
    "oneShot": true
   },
   "ecole-de-la-jungle": {
@@ -8092,6 +10580,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745968319"
    },
    "oneShot": true
   },
@@ -8104,6 +10595,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092550106"
+   },
    "oneShot": true
   },
   "peche-a-l-ours": {
@@ -8114,6 +10608,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745971890"
    },
    "oneShot": true
   },
@@ -8126,6 +10623,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745968302"
+   },
    "oneShot": true
   },
   "je-ne-veux-pas-changer-de-maison": {
@@ -8137,6 +10637,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070633425"
+   },
    "oneShot": true
   },
   "vitalabri": {
@@ -8147,6 +10650,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782330036553"
    },
    "oneShot": true
   },
@@ -8161,7 +10667,10 @@
      "statut": "Perdu",
      "cote": "PL J"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782701190556"
+   }
   },
   "jambon-fromage-et-potiron": {
    "titreOrphee": "Jambon, fromage et potiron",
@@ -8171,6 +10680,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782748514865"
    },
    "oneShot": true
   },
@@ -8183,6 +10695,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782812606830"
+   },
    "oneShot": true
   },
   "drole-d-evasion": {
@@ -8193,6 +10708,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782848657134"
    },
    "oneShot": true
   },
@@ -8205,6 +10723,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070623440"
+   },
    "oneShot": true
   },
   "jeanies-et-les-siens": {
@@ -8215,6 +10736,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782918200215"
    },
    "oneShot": true
   },
@@ -8227,6 +10751,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747051347"
+   },
    "oneShot": true
   },
   "un-amour-de-vampire": {
@@ -8237,6 +10764,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747052269"
    },
    "oneShot": true
   },
@@ -8249,6 +10779,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745927439"
+   },
    "oneShot": true
   },
   "je-t-aime": {
@@ -8259,6 +10792,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782364747043"
    },
    "oneShot": true
   },
@@ -8271,6 +10807,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782874262661"
+   },
    "oneShot": true
   },
   "interrogatoire-ou-ce-qui-s-est-vraiment-passe": {
@@ -8281,6 +10820,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092555705"
    },
    "oneShot": true
   },
@@ -8293,6 +10835,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782364747029"
+   },
    "oneShot": true
   },
   "parole-de-loup": {
@@ -8303,6 +10848,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782877678681"
    },
    "oneShot": true
   },
@@ -8315,6 +10863,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747044400"
+   },
    "oneShot": true
   },
   "totem-je-t-aime": {
@@ -8325,6 +10876,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782812605680"
    },
    "oneShot": true
   },
@@ -8337,6 +10891,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782812604423"
+   },
    "oneShot": true
   },
   "contes-et-legendes-de-l-iliade": {
@@ -8346,6 +10903,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092822449"
    },
    "oneShot": true,
    "genreOrphee": "Historique"
@@ -8359,6 +10919,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791023502886"
+   },
    "oneShot": true
   },
   "a-bas-la-lecture": {
@@ -8369,6 +10932,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791021403833"
    },
    "oneShot": true
   },
@@ -8381,6 +10947,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782364746985"
+   },
    "oneShot": true
   },
   "henri-lit-dans-ma-tete": {
@@ -8391,6 +10960,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092556306"
    },
    "oneShot": true
   },
@@ -8403,6 +10975,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791021403680"
+   },
    "oneShot": true
   },
   "tattrolu": {
@@ -8413,6 +10988,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782910861407"
    },
    "oneShot": true
   },
@@ -8428,7 +11006,10 @@
      "statut": "Perdu",
      "cote": "ER LON"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782848657950"
+   }
   },
   "baignoire-aux-sirenes": {
    "titreOrphee": "La baignoire aux sirènes",
@@ -8438,6 +11019,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747057752"
    },
    "oneShot": true
   },
@@ -8450,6 +11034,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782848658605"
+   },
    "oneShot": true
   },
   "chasse-au-secret": {
@@ -8460,6 +11047,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745971814"
    },
    "oneShot": true
   },
@@ -8472,6 +11062,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745957115"
+   },
    "oneShot": true
   },
   "mystere-au-palais": {
@@ -8482,6 +11075,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745942456"
    },
    "oneShot": true
   },
@@ -8494,6 +11090,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012248168"
+   },
    "oneShot": true
   },
   "taureau-a-lunettes": {
@@ -8504,6 +11103,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745952752"
    },
    "oneShot": true
   },
@@ -8516,6 +11118,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745927422"
+   },
    "oneShot": true
   },
   "hercule-et-les-chevaux-ensorceles": {
@@ -8526,6 +11131,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782401024106"
    },
    "oneShot": true
   },
@@ -8538,6 +11146,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782081256286"
+   },
    "oneShot": true
   },
   "vilain-petit-canard": {
@@ -8548,6 +11159,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782081342095"
    },
    "oneShot": true
   },
@@ -8560,6 +11174,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782081342040"
+   },
    "oneShot": true
   },
   "rentree-des-jumeaux-pirates": {
@@ -8570,6 +11187,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747048989"
    },
    "oneShot": true
   },
@@ -8582,6 +11202,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747039109"
+   },
    "oneShot": true
   },
   "qui-sera-le-chef": {
@@ -8592,6 +11215,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747049832"
    },
    "oneShot": true
   },
@@ -8604,6 +11230,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211221672"
+   },
    "oneShot": true
   },
   "super-vanessa-et-la-crique-aux-fantomes": {
@@ -8614,6 +11243,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782848658704"
    },
    "oneShot": true
   },
@@ -8626,6 +11258,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782070603480"
+   },
    "oneShot": true
   },
   "potion-du-pere-noel": {
@@ -8636,6 +11271,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745981653"
    },
    "oneShot": true
   },
@@ -8648,6 +11286,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745972699"
+   },
    "oneShot": true
   },
   "a-l-eau-lili": {
@@ -8658,6 +11299,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747050029"
    },
    "oneShot": true
   },
@@ -8670,6 +11314,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782733839553"
+   },
    "oneShot": true
   },
   "ma-folle-semaine-avec-tess": {
@@ -8680,6 +11327,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747056939"
    },
    "oneShot": true
   },
@@ -8695,7 +11345,10 @@
      "statut": "Perdu",
      "cote": "ER GOU"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782092560228"
+   }
   },
   "super-lecture-boy": {
    "titreOrphee": "Super lecture boy",
@@ -8705,6 +11358,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092561676"
    },
    "oneShot": true
   },
@@ -8717,6 +11373,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782226318695"
+   },
    "oneShot": true
   },
   "madame-fabuleuse": {
@@ -8727,6 +11386,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782013987455"
    },
    "oneShot": true
   },
@@ -8739,6 +11401,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782226392251"
+   },
    "oneShot": true
   },
   "deux-histoires-de-gafi-pour-se-faire-peur": {
@@ -8749,6 +11414,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092563700"
    },
    "oneShot": true
   },
@@ -8761,6 +11429,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782218996146"
+   },
    "oneShot": true
   },
   "mysterieux-voisins": {
@@ -8771,6 +11442,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791021404816"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -8784,6 +11458,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745974525"
+   },
    "oneShot": true
   },
   "au-secours": {
@@ -8794,6 +11471,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745975041"
    },
    "oneShot": true
   },
@@ -8806,6 +11486,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747040068"
+   },
    "oneShot": true
   },
   "plus-grand-detective-du-monde": {
@@ -8816,6 +11499,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745936356"
    },
    "oneShot": true
   },
@@ -8828,6 +11514,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745949813"
+   },
    "oneShot": true
   },
   "c-est-quoi-ton-prenom": {
@@ -8838,6 +11527,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745962850"
    },
    "oneShot": true
   },
@@ -8850,6 +11542,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747036276"
+   },
    "oneShot": true
   },
   "y-a-t-il-quelqu-un-dans-casimir": {
@@ -8860,6 +11555,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211227872"
    },
    "oneShot": true
   },
@@ -8874,7 +11572,10 @@
      "statut": "Remplacement, rachat",
      "cote": "ER GOD"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782012020733"
+   }
   },
   "fils-du-loup-la-balafre-une-odyssee-au-klondyke": {
    "titreOrphee": "Le fils du loup; La balafre; Une odyssée au Klondyke",
@@ -8884,6 +11585,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782094903436"
    },
    "oneShot": true
   },
@@ -8896,6 +11600,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745990877"
+   },
    "oneShot": true
   },
   "je-suis-accro-aux-ecrans": {
@@ -8906,6 +11613,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782226328519"
    },
    "oneShot": true
   },
@@ -8918,6 +11628,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745970022"
+   },
    "oneShot": true
   },
   "un-clafoutis-aux-tomates-cerises": {
@@ -8928,6 +11641,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782081389069"
    },
    "oneShot": true
   },
@@ -8940,6 +11656,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782330072476"
+   },
    "oneShot": true
   },
   "pax-et-le-petit-soldat": {
@@ -8950,6 +11669,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782070666317"
    },
    "oneShot": true
   },
@@ -8965,7 +11687,10 @@
      "statut": "À pilonner",
      "cote": "ER BOU"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782848658353"
+   }
   },
   "une-belle-decouverte": {
    "titreOrphee": "Une belle découverte",
@@ -8975,6 +11700,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747050012"
    },
    "oneShot": true
   },
@@ -8987,6 +11715,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747061902"
+   },
    "oneShot": true
   },
   "lettres-d-un-mauvais-eleve": {
@@ -8998,6 +11729,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782364749610"
+   },
    "oneShot": true
   },
   "droles-de-fantomes": {
@@ -9008,6 +11742,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745978912"
    },
    "oneShot": true
   },
@@ -9023,7 +11760,10 @@
      "statut": "Perdu",
      "cote": "ER CAM"
     }
-   ]
+   ],
+   "isbn": {
+    "1": "9782364748934"
+   }
   },
   "fourmidable": {
    "titreOrphee": "Fourmidable",
@@ -9033,6 +11773,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782364748316"
    },
    "oneShot": true
   },
@@ -9045,6 +11788,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782081389533"
+   },
    "oneShot": true
   },
   "pic-pic-pic-le-moustique": {
@@ -9055,6 +11801,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782410009545"
    },
    "oneShot": true
   },
@@ -9067,6 +11816,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745977762"
+   },
    "oneShot": true
   },
   "aventures-du-monstre-poilu": {
@@ -9077,6 +11829,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782075077682"
    },
    "oneShot": true
   },
@@ -9089,6 +11844,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782410010039"
+   },
    "oneShot": true
   },
   "piano-et-le-velo-c-est-costaud": {
@@ -9099,6 +11857,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782410005974"
    },
    "oneShot": true
   },
@@ -9111,6 +11872,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211227971"
+   },
    "oneShot": true
   },
   "chien-pourri-fait-du-ski": {
@@ -9121,6 +11885,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211235013"
    },
    "oneShot": true
   },
@@ -9133,6 +11900,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092571279"
+   },
    "oneShot": true
   },
   "madame-de-beaupoil-voyage-a-londres": {
@@ -9143,6 +11913,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782368361306"
    },
    "oneShot": true
   },
@@ -9155,6 +11928,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782352893646"
+   },
    "oneShot": true
   },
   "tom-champion-de-l-ecole": {
@@ -9165,6 +11941,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092575741"
    },
    "oneShot": true
   },
@@ -9177,6 +11956,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782226397652"
+   },
    "oneShot": true
   },
   "clara-est-amoureuse": {
@@ -9187,6 +11969,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782410005295"
    },
    "oneShot": true
   },
@@ -9199,6 +11984,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092575390"
+   },
    "oneShot": true
   },
   "pourquoi-j-aime-l-ecole": {
@@ -9209,6 +11997,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782809657708"
    },
    "oneShot": true
   },
@@ -9221,6 +12012,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012042711"
+   },
    "oneShot": true
   },
   "au-secours-maman-retrecit": {
@@ -9232,6 +12026,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782812611971"
+   },
    "oneShot": true
   },
   "incroyable-destin-de-marie-curie-qui-decouvrit-la-radioactivite": {
@@ -9242,6 +12039,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747088053"
    },
    "oneShot": true,
    "genreOrphee": "Historique"
@@ -9255,6 +12055,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377420285"
+   },
    "oneShot": true
   },
   "prince-koo": {
@@ -9265,6 +12068,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782226403261"
    },
    "oneShot": true
   },
@@ -9277,6 +12083,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747056090"
+   },
    "oneShot": true
   },
   "billy-blaireau": {
@@ -9287,6 +12096,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782203149564"
    },
    "oneShot": true
   },
@@ -9299,6 +12111,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700254525"
+   },
    "oneShot": true
   },
   "monde-selon-frrrintek": {
@@ -9309,6 +12124,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782075091671"
    },
    "oneShot": true
   },
@@ -9321,6 +12139,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782203161665"
+   },
    "oneShot": true
   },
   "un-lapin-peut-changer-une-vie": {
@@ -9331,6 +12152,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782748525076"
    },
    "oneShot": true
   },
@@ -9343,6 +12167,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782035951052"
+   },
    "oneShot": true
   },
   "visite-a-la-prehistoire": {
@@ -9353,6 +12180,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782035949042"
    },
    "oneShot": true
   },
@@ -9365,6 +12195,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782092580882"
+   },
    "oneShot": true
   },
   "une-momie-au-musee": {
@@ -9375,6 +12208,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791035800048"
    },
    "oneShot": true
   },
@@ -9387,6 +12223,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782745995148"
+   },
    "oneShot": true
   },
   "un-etrange-visiteur": {
@@ -9397,6 +12236,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791035800062"
    },
    "oneShot": true
   },
@@ -9409,6 +12251,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791035800079"
+   },
    "oneShot": true
   },
   "kimia-petit-singe-en-danger": {
@@ -9419,6 +12264,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745981714"
    },
    "oneShot": true
   },
@@ -9431,6 +12279,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782362661488"
+   },
    "oneShot": true
   },
   "mon-chien-dieu-et-les-poketrucs": {
@@ -9442,6 +12293,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782812616471"
+   },
    "oneShot": true
   },
   "vive-noel": {
@@ -9451,6 +12305,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012903807"
    },
    "oneShot": true
   },
@@ -9463,6 +12320,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782410012026"
+   },
    "oneShot": true
   },
   "comment-devenir-une-vraie-sorciere": {
@@ -9473,6 +12333,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782367406213"
    },
    "oneShot": true
   },
@@ -9485,6 +12348,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075107747"
+   },
    "oneShot": true
   },
   "et-si-je-n-allais-pas-a-l-ecole": {
@@ -9495,6 +12361,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747097017"
    },
    "oneShot": true
   },
@@ -9507,6 +12376,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782035949127"
+   },
    "oneShot": true
   },
   "gloire-de-ma-mere": {
@@ -9517,6 +12389,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782354886363"
    },
    "oneShot": true
   },
@@ -9529,6 +12404,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075107181"
+   },
    "oneShot": true
   },
   "elixir-pour-etre-le-meilleur": {
@@ -9539,6 +12417,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782210965447"
    },
    "oneShot": true
   },
@@ -9551,6 +12432,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700259315"
+   },
    "oneShot": true
   },
   "retour-de-la-bete": {
@@ -9561,6 +12445,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782354886370"
    },
    "oneShot": true
   },
@@ -9573,6 +12460,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747096942"
+   },
    "oneShot": true
   },
   "emy-ne-veut-pas-lire": {
@@ -9583,6 +12473,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092788738"
    },
    "oneShot": true
   },
@@ -9595,6 +12488,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782884807951"
+   },
    "oneShot": true
   },
   "fantome-du-conservatoire": {
@@ -9605,6 +12501,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791093585673"
    },
    "oneShot": true
   },
@@ -9617,6 +12516,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782877679954"
+   },
    "oneShot": true
   },
   "plein-de-blorg": {
@@ -9627,6 +12529,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211235976"
    },
    "oneShot": true
   },
@@ -9639,6 +12544,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782812617294"
+   },
    "oneShot": true
   },
   "30-jours-sans-dechets-ou-plus": {
@@ -9649,6 +12557,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700273625"
    },
    "oneShot": true
   },
@@ -9661,6 +12572,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211239387"
+   },
    "oneShot": true
   },
   "orphelins-de-metal": {
@@ -9671,6 +12585,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782371021693"
    },
    "oneShot": true
   },
@@ -9683,6 +12600,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075120005"
+   },
    "oneShot": true
   },
   "einstein-vu-par-un-ado": {
@@ -9694,6 +12614,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377420476"
+   },
    "oneShot": true
   },
   "moliere-vu-par-une-ado": {
@@ -9703,6 +12626,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377420469"
    },
    "oneShot": true
   },
@@ -9714,6 +12640,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377420599"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -9727,6 +12656,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377312245"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -9739,6 +12671,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075209854"
+   },
    "oneShot": true
   },
   "jour-ou-tout-s-arreta": {
@@ -9750,6 +12685,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211341394"
+   },
    "oneShot": true
   },
   "folle-evasion": {
@@ -9760,6 +12698,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791023520156"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -9773,6 +12714,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782352894193"
+   },
    "oneShot": true
   },
   "hamburger-de-la-peur": {
@@ -9783,6 +12727,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782747099028"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -9796,6 +12743,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782080459121"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -9808,6 +12758,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211222846"
+   },
    "oneShot": true
   },
   "arsene": {
@@ -9818,6 +12771,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377423255"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -9831,6 +12787,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791035205898"
+   },
    "oneShot": true
   },
   "bears-bazaar": {
@@ -9842,6 +12801,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211331791"
+   },
    "oneShot": true
   },
   "ecoute-la-baleine-chanter": {
@@ -9852,6 +12814,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211331401"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -9865,6 +12830,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377423453"
+   },
    "oneShot": true
   },
   "splat-adore-la-fete-foraine": {
@@ -9876,6 +12844,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782095017651"
+   },
    "oneShot": true
   },
   "derniere-des-elfes": {
@@ -9886,6 +12857,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700281101"
    },
    "oneShot": true,
    "genreOrphee": "Aventure"
@@ -9899,6 +12873,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377422814"
+   },
    "oneShot": true,
    "genreOrphee": "Historique"
   },
@@ -9911,6 +12888,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700288377"
+   },
    "oneShot": true
   },
   "femmes-du-bout-du-monde": {
@@ -9921,6 +12901,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782253249016"
    },
    "oneShot": true,
    "genreOrphee": "Feel good"
@@ -9934,6 +12917,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747051989"
+   },
    "oneShot": true
   },
   "ma-maitresse": {
@@ -9944,6 +12930,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782012102040"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -9957,6 +12946,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782266310383"
+   },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
   },
@@ -9969,6 +12961,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377420926"
+   },
    "oneShot": true
   },
   "miss-x-et-mister-pog": {
@@ -9979,6 +12974,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377421459"
    },
    "oneShot": true,
    "genreOrphee": "Action"
@@ -9992,6 +12990,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211303866"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -10004,6 +13005,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782017147459"
+   },
    "oneShot": true
   },
   "splat-et-la-visite-medicale": {
@@ -10014,6 +13018,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782092491942"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -10027,6 +13034,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012249677"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -10038,6 +13048,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782374085807"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -10051,6 +13064,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782075197052"
+   },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
   },
@@ -10062,6 +13078,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782075179522"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -10075,6 +13094,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211330329"
+   },
    "oneShot": true
   },
   "gourou-de-secours": {
@@ -10085,6 +13107,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211333733"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -10098,6 +13123,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211332262"
+   },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -10109,6 +13137,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700283617"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -10122,6 +13153,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782408054199"
+   },
    "oneShot": true
   },
   "moi-pandore": {
@@ -10132,6 +13166,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782381672717"
    },
    "oneShot": true,
    "genreOrphee": "Historique"
@@ -10145,6 +13182,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791039548076"
+   },
    "oneShot": true
   },
   "toi-thesee-contre-le-minotaure": {
@@ -10155,6 +13195,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782381673561"
    },
    "oneShot": true
   },
@@ -10167,6 +13210,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782278122097"
+   },
    "oneShot": true
   },
   "memoires-de-fleur": {
@@ -10178,6 +13224,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791040807582"
+   },
    "oneShot": true
   },
   "clara-s-en-mele": {
@@ -10188,6 +13237,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782377424191"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -10201,6 +13253,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791040807858"
+   },
    "oneShot": true
   },
   "franchir-les-obstacles": {
@@ -10212,6 +13267,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782381674377"
+   },
    "oneShot": true
   },
   "crime-a-la-tour-eiffel": {
@@ -10222,6 +13280,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782215188094"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -10235,6 +13296,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791036351068"
+   },
    "oneShot": true
   },
   "ambre-d-eclair-et-l-appel-des-dragons": {
@@ -10245,6 +13309,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782075216548"
    },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
@@ -10258,6 +13325,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211351454"
+   },
    "oneShot": true,
    "genreOrphee": "Historique"
   },
@@ -10269,6 +13339,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791040807735"
    },
    "oneShot": true,
    "genreOrphee": "Policier/Thriller"
@@ -10282,6 +13355,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782749958132"
+   },
    "oneShot": true
   },
   "en-route-vers-le-podium-avec-victor-wembanyama": {
@@ -10292,6 +13368,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782749958149"
    },
    "oneShot": true
   },
@@ -10304,6 +13383,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782700284386"
+   },
    "oneShot": true
   },
   "incroyable-aventure-de-marie-marvingt-l-intrepide-aux-mille-vies": {
@@ -10314,6 +13396,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791036380754"
    },
    "oneShot": true,
    "genreOrphee": "Vécu / Témoignage"
@@ -10327,6 +13412,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791036372728"
+   },
    "oneShot": true,
    "genreOrphee": "Aventure"
   },
@@ -10339,6 +13427,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782381674759"
+   },
    "oneShot": true
   },
   "fille-de-la-faucheuse": {
@@ -10349,6 +13440,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791039566674"
    },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
@@ -10362,6 +13456,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782408057909"
+   },
    "oneShot": true
   },
   "tous-ensemble": {
@@ -10372,6 +13469,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782211337328"
    },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
@@ -10385,6 +13485,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782874266379"
+   },
    "oneShot": true
   },
   "brins-de-magie-et-village-maudit": {
@@ -10395,6 +13498,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700283556"
    },
    "oneShot": true,
    "genreOrphee": "Science-fiction / Fantastique"
@@ -10408,6 +13514,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782377422340"
+   },
    "oneShot": true,
    "genreOrphee": "Historique"
   },
@@ -10419,6 +13528,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782075167475"
    },
    "oneShot": true,
    "genreOrphee": "Historique"
@@ -10432,6 +13544,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782747090797"
+   },
    "oneShot": true
   },
   "bienvenue-chez-le-fantome": {
@@ -10442,6 +13557,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782745971968"
    },
    "oneShot": true
   },
@@ -10454,6 +13572,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782493290229"
+   },
    "oneShot": true
   },
   "avengers-contre-loki-et-thanos": {
@@ -10465,6 +13586,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782017266945"
+   },
    "oneShot": true
   },
   "minecraft-le-choc": {
@@ -10475,6 +13599,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782362312380"
    },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
@@ -10488,6 +13615,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782012252059"
+   },
    "oneShot": true
   },
   "max-part-en-classe-verte": {
@@ -10499,6 +13629,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782884451482"
+   },
    "oneShot": true
   },
   "hazel-toucourt-et-les-failles-du-temps-tome-2-les-droles-d-invites-de-granny-boum-boum": {
@@ -10509,6 +13642,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9782700288544"
    },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
@@ -10522,6 +13658,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9791035210359"
+   },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
   },
@@ -10534,6 +13673,9 @@
      1
     ]
    },
+   "isbn": {
+    "1": "9782211352512"
+   },
    "oneShot": true,
    "genreOrphee": "Comédie/Humour"
   },
@@ -10545,6 +13687,9 @@
     "Servon-sur-Vilaine": [
      1
     ]
+   },
+   "isbn": {
+    "1": "9791023522341"
    },
    "oneShot": true,
    "genreOrphee": "Fantasy/Fantastique"
@@ -12388,5 +15533,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-10-28T13:31:23.776Z"
+ "publie": "2026-10-29T09:05:48.401Z"
 }

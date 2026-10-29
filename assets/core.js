@@ -108,11 +108,30 @@ export function parseTome(brut, album) {
 
 const texte = (v) => (v === null || v === undefined ? "" : String(v)).trim();
 
+/** ISBN valide (10 ou 13 chiffres, clé de contrôle juste) → ISBN-13 sans tirets ; sinon null.
+ *  La clé de contrôle écarte les codes-barres d'exemplaires et autres numéros. */
+export function isbnValide(v) {
+  const t = texte(v);
+  if (!/^[\dXx][\d\s-]{8,16}[\dXx]$/.test(t)) return null;
+  const c = t.replace(/[\s-]/g, "").toUpperCase();
+  if (c.length === 10 && /^\d{9}[\dX]$/.test(c)) {
+    const somme = [...c].reduce((acc, ch, i) => acc + (10 - i) * (ch === "X" ? 10 : +ch), 0);
+    if (somme % 11) return null;
+    const b = "978" + c.slice(0, 9);
+    return b + ((10 - ([...b].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10)) % 10);
+  }
+  if (c.length === 13 && /^97[89]\d{10}$/.test(c)) {
+    return [...c].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10 ? null : c;
+  }
+  return null;
+}
+
 /**
  * Lit les lignes d'un export Orphée (tableau de tableaux, comme XLSX.utils.sheet_to_json(ws,{header:1})).
  * Structure : une ligne « titre » (A = série, F = « Tome : n », J = album, Q = auteur, Y = éditeur)
  * suivie d'une ou plusieurs lignes « exemplaire » (A = médiathèque, C = cote, F = statut,
- * H = public, W = « Nb prêts total : n », AA = code-barre).
+ * H = public ou ISBN, W = « Nb prêts total : n », AA = code-barre).
+ * L'ISBN est repéré où qu'il soit sur la ligne de l'exemplaire (clé de contrôle vérifiée).
  */
 export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
   const bibs = new Map(bibliotheques.map((b) => [cleTitre(b), b]));
@@ -135,12 +154,15 @@ export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
     if (bib && titre) {
       const cellPrets = row.map(texte).find((v) => /nb\s*pr[eê]ts/i.test(v)) || "";
       const prets = +(cellPrets.match(/(\d+)/)?.[1] ?? 0);
+      // colonne H : le public, ou l'ISBN si l'édition a été modifiée pour l'afficher à sa place
+      const isbn = isbnValide(row[7]) || row.map(isbnValide).find(Boolean) || null;
       exemplaires.push({
         ...titre,
         bib,
         cote: texte(row[2]),
         statut: texte(row[5]),
-        public: texte(row[7]),
+        public: isbnValide(row[7]) ? "" : texte(row[7]),
+        ...(isbn ? { isbn } : {}),
         genre: texte(row[14]).replace(/^CS\d*\s*:\s*/i, "").replace(/^non renseign[ée]$/i, ""),
         prets,
         codeBarre: texte(row[26]),
@@ -257,7 +279,7 @@ export function construireFonds(exemplaires, series, meta = {}) {
   const seriesSansNom = new Set([...numsSansNom].filter(([, ns]) => ns.size > 1).map(([k]) => k));
 
   const assurer = (id, ex) => {
-    if (!fonds[id]) fonds[id] = { titreOrphee: titreNaturel(ex.titreBrut.split("\n")[0]), editeur: "", auteur: "", tomes: {}, hs: {}, retires: [], sansNumero: {}, _genres: {} };
+    if (!fonds[id]) fonds[id] = { titreOrphee: titreNaturel(ex.titreBrut.split("\n")[0]), editeur: "", auteur: "", tomes: {}, hs: {}, retires: [], sansNumero: {}, isbn: {}, isbnSansNumero: [], _genres: {} };
     if (!stats[id]) stats[id] = { prets: {}, empruntes: {}, reserves: {}, exemplaires: {}, parTome: {} };
     return fonds[id];
   };
@@ -295,6 +317,18 @@ export function construireFonds(exemplaires, series, meta = {}) {
     if (ex.genre) f._genres[ex.genre] = (f._genres[ex.genre] || 0) + 1;
     if (/^WT\b/i.test(ex.cote)) f.webtoon = true; // cote « WT … » : webtoon
     const st = stats[id];
+    // ISBN par tome (le premier rencontré ; celui d'un exemplaire en rayon remplace celui d'un retiré)
+    if (ex.isbn) {
+      const n = tome.type === "oneshot" ? 1 : tome.type === "num" && tome.nums.length ? tome.nums[0] : null;
+      if (n !== null) {
+        if (!f.isbn[n] || (f._isbnRetire?.[n] && !estRetire(ex.statut))) {
+          f.isbn[n] = ex.isbn;
+          (f._isbnRetire ||= {})[n] = estRetire(ex.statut);
+        }
+      } else if (tome.type === "inconnu" && f.isbnSansNumero.length < 5 && !f.isbnSansNumero.includes(ex.isbn)) {
+        f.isbnSansNumero.push(ex.isbn);
+      }
+    }
 
     if (estRetire(ex.statut)) {
       f.retires.push({ bib: ex.bib, tome: tome.nums[0] ?? null, statut: ex.statut, cote: ex.cote });
@@ -332,6 +366,9 @@ export function construireFonds(exemplaires, series, meta = {}) {
     if (!Object.keys(f.hs).length) delete f.hs;
     if (!f.retires.length) delete f.retires;
     if (!Object.keys(f.sansNumero).length) delete f.sansNumero;
+    if (!Object.keys(f.isbn).length) delete f.isbn;
+    if (!f.isbnSansNumero.length) delete f.isbnSansNumero;
+    delete f._isbnRetire;
     // genre d'Orphée (champ CS2) le plus fréquent dans la série
     const g = Object.entries(f._genres).sort((a, b) => b[1] - a[1])[0];
     if (g) f.genreOrphee = g[0];

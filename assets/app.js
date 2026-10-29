@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=19";
+import * as C from "./core.js?v=20";
 import { publier, verifierCle, lancerVerification } from "./github.js?v=3";
 
 // ---------------------------------------------------------------------------
@@ -489,7 +489,7 @@ function ouvrirFiche(id) {
   const fmn = C.ficheMangaNews(s, v.enr);
   const urlMN = L.mangaNews ? (L.mangaNews.startsWith("http") ? L.mangaNews : "https://www.manga-news.com/" + L.mangaNews) : fmn?.url || v.enr?.mangaNews?.url || null;
   const urlBD = L.bedetheque ? (L.bedetheque.startsWith("http") ? L.bedetheque : "https://www.bedetheque.com/" + L.bedetheque) : null;
-  const urlBnf = `https://catalogue.bnf.fr/rechercher.do?motRecherche=${encodeURIComponent(s.titre)}`;
+  const urlBnf = `https://catalogue.bnf.fr/rechercher.do?motRecherche=${encodeURIComponent(v.enr?.bnf?.titreBnf || s.titre)}`;
   const meta = [f?.editeur, s.public, v.genre, s.age, s.type === "One shot" ? "One shot" : ""].filter(Boolean).join(", ");
   const src = { manuel: "ta saisie", bnf: "la BnF", mangaNews: "Manga-News", excel: "l'ancien Excel", type: "le type one shot", reseau: "les exemplaires du réseau" };
   const lien = (url, texte) => `<a href="${h(url)}" target="_blank" rel="noopener">${texte}</a>`;
@@ -531,10 +531,10 @@ function ouvrirFiche(id) {
       <summary>Sources et liens</summary>
       <div class="sources">
         ${COL.mangas ? `<p><strong>VO</strong> : ${al ? `${h(enVO(al))}, série ${h(ETATS_AL[al.statut] || "?")}${al.volumes ? ` en ${pluriel(al.volumes, "tome")}` : ""}, d'après AniList (« ${h(al.titre)} »)${al.auto ? ", reliée automatiquement" : ""}.` : "série pas encore reliée à AniList. Colle son adresse dans « Modifier la série »."}</p>` : ""}
-        <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}${v.enr?.mangaNews && !fmn ? ` Sur Manga-News : ${pluriel(v.enr.mangaNews.tomes, "tome")}${v.enr.mangaNews.editeur ? ` chez ${h(v.enr.mangaNews.editeur)}` : ""} (données du ${dateFr(v.enr.mangaNews.date)}).` : ""}</p>
+        <p><strong>France</strong> : ${info.parus !== null ? `${pluriel(info.parus, "tome paru", "tomes parus")}, d'après ${src[info.sourceParus] || info.sourceParus}` : "nombre de tomes parus inconnu"}.${bnf?.dernier ? ` À la BnF${bnf.titreBnf ? ` (sous le titre « ${h(bnf.titreBnf)} », retrouvé grâce à l'ISBN)` : ""} : tome ${C.dernierBnf(bnf)}${bnf.editeur ? ` chez ${h(bnf.editeur)}` : ""}${bnf.dateDernier ? `, déposé en ${moisFr(bnf.dateDernier)}` : ""}.${bnf.plusieursEditions ? " Plusieurs éditions existent, seule celle qui suit la VO est comptée." : ""}` : ""}${v.enr?.mangaNews && !fmn ? ` Sur Manga-News : ${pluriel(v.enr.mangaNews.tomes, "tome")}${v.enr.mangaNews.editeur ? ` chez ${h(v.enr.mangaNews.editeur)}` : ""} (données du ${dateFr(v.enr.mangaNews.date)}).` : ""}</p>
         ${fmn ? `<p><strong>Manga-News</strong> : ${[Number.isFinite(fmn.vf) ? `VF ${nf.format(fmn.vf)} ${fmn.vf > 1 ? "tomes" : "tome"} (${h((fmn.vfStatut || "").toLowerCase())})` : "", Number.isFinite(fmn.vo) ? `VO ${nf.format(fmn.vo)} (${h((fmn.voStatut || "").toLowerCase())})` : "", fmn.vfDernierDate ? `dernier paru le ${dateFr(fmn.vfDernierDate)}` : "", fmn.vfProchainDate ? `prochain le ${dateFr(fmn.vfProchainDate)}` : ""].filter(Boolean).join(", ")}${v.enr?.mangaNews?.editeur ? `, chez ${h(v.enr.mangaNews.editeur)}` : ""}. Fiche lue le ${dateFr(fmn.verifie)}.</p>` : ""}
         ${s.ancien && (s.ancien.total || s.ancien.etat) ? `<p><strong>Ancien Excel</strong> : ${s.ancien.total ? pluriel(s.ancien.total, "tome") : ""}${s.ancien.etat ? `, ${h(s.ancien.etat.toLowerCase())}` : ""}${s.ancien.annee ? `, dernière parution en ${s.ancien.annee}` : ""}.</p>` : ""}
-        <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `édition française${v.enr.couvFR.tome ? `, tome ${v.enr.couvFR.tome}` : ""}, d'après ${({ BnF: "la BnF", "Manga-News": "Manga-News", Decitre: "Decitre", ePagine: "ePagine" })[v.enr.couvFR.source] || "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
+        <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `${v.enr.couvFR.orphee ? "notre édition (ISBN des exemplaires)" : "édition française"}${v.enr.couvFR.tome ? `, tome ${v.enr.couvFR.tome}` : ""}, d'après ${({ BnF: "la BnF", "Manga-News": "Manga-News", Decitre: "Decitre", ePagine: "ePagine" })[v.enr.couvFR.source] || "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
         <p>Voir sur ${liens.join(", ")}.</p>
         <p class="actions-sources"><button type="button" class="btn" data-action="reverifier" data-id="${h(s.id)}">Revérifier maintenant</button>
           <span class="discret petit">AniList, BnF, Manga-News et couverture, sans attendre lundi. Tes modifications non publiées sont publiées d'abord.</span></p>
@@ -1152,6 +1152,8 @@ function rendreImport() {
       return etat.series.length >= 20 && nb && ip.res.nouvelles.length / nb > 0.6
         ? `<p class="explication"><strong>Attention :</strong> ${pluriel(ip.res.nouvelles.length, "série")} sur ${nf.format(nb)} sont inconnues dans la collection « ${h(COL.nom)} ». Ce fichier est peut-être celui d'une autre collection : vérifie la collection choisie en haut de la page avant d'appliquer.</p>` : "";
     })()}
+    ${ip.nbIsbn ? `<p class="explication">ISBN lus pour ${pluriel(ip.nbIsbn, "exemplaire")} sur ${nf.format(ip.nbExemplaires)} : ils servent à trouver la couverture de vos propres livres et la bonne série à la BnF.</p>`
+      : ip.nbExemplaires && Object.values(etat.fonds.series || {}).some((f) => f.isbn) ? `<p class="explication"><strong>Attention :</strong> cet export ne contient pas les ISBN, contrairement au précédent. Sans eux, les couvertures et les séries retrouvées grâce aux ISBN ne seront plus vérifiées. Refais l'export avec la colonne ISBN si tu peux.</p>` : ""}
     ${ip.annonce && ip.nbExemplaires && ip.annonce !== ip.nbExemplaires ? `<p class="explication"><strong>Attention :</strong> Orphée annonce ${pluriel(ip.annonce, "document")}, mais Suivixo n'en a reconnu que ${nf.format(ip.nbExemplaires)}. Les autres ont une forme inattendue.</p>` : ""}
     ${ip.nbExemplaires === 0 ? `<p class="explication">Aucun exemplaire reconnu. Vérifie que c'est bien l'édition des mangas d'Orphée : une ligne par tome, suivie d'une ligne par exemplaire.</p>` : ""}
     <label class="champ" style="max-width:220px"><span>Date de l'export</span><input type="date" id="date-import" value="${h(ip.date)}"></label>
@@ -1192,7 +1194,7 @@ async function lireFichier(fichier) {
     const parBib = {};
     exemplaires.forEach((e) => { parBib[e.bib] = (parBib[e.bib] || 0) + 1; });
     etat.importPrevu = {
-      nom: fichier.name, date: dateDefaut, res, nbExemplaires: exemplaires.length, annonce,
+      nom: fichier.name, date: dateDefaut, res, nbExemplaires: exemplaires.length, annonce, nbIsbn: exemplaires.filter((e) => e.isbn).length,
       parBib: Object.entries(parBib).sort((a, b) => b[1] - a[1]),
       diff: { ajouts: ajouts.sort(tri), retraits: retraits.sort(tri) },
     };

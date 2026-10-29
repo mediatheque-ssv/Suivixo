@@ -556,7 +556,36 @@ def norm_editeur(e: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s)
 
 
-def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False) -> dict | None:
+def lire_notice(rd: ET.Element) -> dict:
+    """Les zones utiles d'une notice BnF (UNIMARC)."""
+    f = champs(rd)
+    ark = next((m.group(0) for el in rd.iter() if sans_ns(el.tag) == "controlfield" and el.get("tag") == "003"
+                for m in [re.search(r"ark:/12148/[a-z0-9]+", el.text or "")] if m), None)
+    return {"titre": premier(f, "200", "a"), "serie": premier(f, "461", "t") or premier(f, "225", "a"),
+            "editeur": premier(f, "214", "c") or premier(f, "210", "c"), "ark": ark,
+            "annee": numero_annee(premier(f, "214", "d") or premier(f, "210", "d")),
+            "isbn": re.sub(r"[^0-9Xx]", "", premier(f, "010", "a")) or None}
+
+
+def notice_par_isbn(isbn: str, debug: bool = False) -> dict | None:
+    """La notice BnF d'un ISBN précis (celui de l'exemplaire dans Orphée)."""
+    racine = bnf_page(f'bib.isbn all "{isbn}"', 1)
+    for rd in (e for e in racine.iter() if sans_ns(e.tag) == "recordData"):
+        n = lire_notice(rd)
+        if debug:
+            dbg(f"    BnF ISBN {isbn} -> {n['titre']} | série {n['serie']} | {n['editeur']}")
+        return n
+    if debug:
+        dbg(f"    BnF ISBN {isbn} -> rien")
+    return None
+
+
+def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
+                isbns_orphee: list[str] | None = None, rattrapage: bool = True) -> dict | None:
+    """Tomes parus à la BnF. Avec les ISBN d'Orphée, on garde l'édition qui contient nos exemplaires ;
+    si la recherche par titre ne la trouve pas (titre trop courant : « Ambre », « Albert »…), on lit la
+    notice de notre ISBN pour connaître le vrai titre de la série à la BnF, et on cherche avec lui."""
+    nos_isbn = set(isbns_orphee or [])
     titres = titres_de(serie)
     cles_ok = {cle(t) for t in titres}
     requete = f'bib.title all "{mots(serie["titre"])}" and (bib.doctype="a")'
@@ -597,16 +626,34 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         debut += 100
         if debut > min(total or 0, 600):
             break
-    if not tomes:
-        return {"dernier": None, "notices": 0, "requete": requete}
-    # Une série peut exister chez plusieurs éditeurs (rééditions) : on garde celui d'Orphée,
-    # sinon celui qui a le plus de tomes.
+    # Une série peut exister chez plusieurs éditeurs (rééditions) : on garde celle qui contient
+    # nos ISBN, sinon celle de l'éditeur d'Orphée, sinon celle qui a le plus de tomes.
     groupes: dict[str, list[dict]] = {}
     for t in tomes:
         groupes.setdefault(norm_editeur(t["editeur"]), []).append(t)
+    communs = {k: sum(1 for t in v if isbn13(t["isbn"]) in nos_isbn) for k, v in groupes.items()} if nos_isbn else {}
+    accord = any(communs.values()) if nos_isbn else None
+    if nos_isbn and not accord and rattrapage:
+        # la recherche par titre n'a pas trouvé nos livres : la notice de notre ISBN donne le titre de la série
+        for i in list(isbns_orphee or [])[:2]:
+            n = notice_par_isbn(i, debug)
+            if not n:
+                continue
+            titre_bnf = n["serie"] or n["titre"]
+            if titre_bnf and cle(titre_bnf) not in {cle(t) for t in titres}:
+                autre = notices_bnf({**serie, "titre": titre_bnf, "alias": []}, n["editeur"] or editeur_orphee, volumes_vo,
+                                    debug, isbns_orphee, rattrapage=False)
+                if autre and autre.get("accordIsbn"):
+                    autre["titreBnf"] = titre_bnf
+                    return autre
+            break
+    if not tomes:
+        return {"dernier": None, "notices": 0, "requete": requete, **({"accordIsbn": False} if nos_isbn else {})}
     eo = norm_editeur(editeur_orphee)
     choix = None
-    if eo:
+    if accord:
+        choix = max(communs, key=lambda k: (communs[k], len(groupes[k])))
+    if choix is None and eo:
         choix = next((k for k in groupes if k and (k in eo or eo in k)), None)
     if choix is None:
         choix = max(groupes, key=lambda k: len({t["n"] for t in groupes[k]}))
@@ -644,12 +691,22 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         "autresEditeurs": sorted({t["editeur"] for k, v in groupes.items() if k != choix for t in v})[:5],
         **({"plusieursEditions": True} if plusieurs_editions else {}),
         **({"ark1": t1["ark"], "isbn1": t1["isbn"], "candidatsCouv": candidats} if t1 else {}),
+        **({"accordIsbn": accord} if accord is not None else {}),
         "requete": requete,
     }
 
 
-def notice_titre_unique(serie: dict, editeur_orphee: str, auteur: str = "", debug: bool = False) -> dict | None:
-    """Titre unique (roman, album) : sa notice à la BnF, pour la couverture et l'année."""
+def notice_titre_unique(serie: dict, editeur_orphee: str, auteur: str = "", debug: bool = False,
+                        isbns_orphee: list[str] | None = None) -> dict | None:
+    """Titre unique (roman, album) : sa notice à la BnF, pour la couverture et l'année.
+    Avec l'ISBN d'Orphée, c'est la notice de ce livre précis."""
+    for i in list(isbns_orphee or [])[:1]:
+        n = notice_par_isbn(i, debug)
+        if n and (n["ark"] or n["isbn"]):
+            c = {"n": 1, "ark": n["ark"], "isbn": n["isbn"] or i}
+            return {"dernier": 1, "tomes": "1", "dateDernier": str(n["annee"]) if n["annee"] else None, "editeur": n["editeur"], "notices": 1,
+                    "ark1": c["ark"], "isbn1": c["isbn"], "candidatsCouv": [c], "accordIsbn": True,
+                    "requete": f'bib.isbn all "{i}"'}
     requete = f'bib.title all "{mots(serie["titre"])}" and (bib.doctype="a")'
     nom = max(jetons_nom(auteur), key=len, default="")
     if nom:
@@ -732,7 +789,19 @@ def isbn13(isbn: str | None) -> str | None:
     return b + str((10 - sum(int(c) * (1 if k % 2 == 0 else 3) for k, c in enumerate(b)) % 10) % 10)
 
 
-def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: bool = False, fiche: dict | None = None) -> dict | None:
+def isbns_orphee(f: dict | None) -> list[tuple[int | None, str]]:
+    """ISBN des exemplaires d'Orphée (depuis l'export qui les contient) : par tome, puis les titres sans numéro."""
+    f = f or {}
+    par_tome = sorted(((int(n), i) for n, i in (f.get("isbn") or {}).items() if str(n).isdigit()), key=lambda x: x[0])
+    return par_tome + [(None, i) for i in f.get("isbnSansNumero") or []]
+
+
+def cle_isbn(isbns: list[tuple[int | None, str]]) -> str:
+    return ",".join(i for _, i in isbns[:3])
+
+
+def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: bool = False, fiche: dict | None = None,
+                  isbns: list[tuple[int | None, str]] | None = None) -> dict | None:
     """Cherche la couverture française (Manga-News, Decitre, BnF, ePagine, puis Open Library) et l'enregistre en vignette."""
     try:
         from PIL import Image
@@ -746,22 +815,35 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
     for u in [(mn or {}).get("couv") if not (mn or {}).get("editeurDifferent") else "", (fiche or {}).get("couv")]:
         if u and u not in vues:
             vues.add(u)
-            essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None))
-    # puis, tome par tome : Decitre (rapide et très complet pour la jeunesse), la BnF, ePagine ;
-    # Open Library en dernier (éditions étrangères possibles)
-    cands = (bnf or {}).get("candidatsCouv", [])
+            essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None, None))
+    # puis nos propres livres, d'après l'ISBN des exemplaires d'Orphée : Decitre, puis ePagine
+    isbns = isbns or []
+    for n, i in isbns[:3]:
+        essais.append(("Decitre", f"https://products-images.di-static.com/image/x/{i}-475x500-1.jpg", n, i))
+        essais.append(("ePagine", f"https://images.epagine.fr/{i[-3:]}/{i}_1_75.jpg", n, i))
+    # puis, tome par tome, l'édition trouvée à la BnF (sauf si elle ne contient aucun de nos ISBN) :
+    # Decitre (rapide et très complet pour la jeunesse), la BnF, ePagine ; Open Library en dernier
+    # (éditions étrangères possibles)
+    cands = (bnf or {}).get("candidatsCouv", []) if (bnf or {}).get("accordIsbn") is not False else []
     for c in cands[:3]:
         i13 = isbn13(c.get("isbn"))
         if i13:
-            essais.append(("Decitre", f"https://products-images.di-static.com/image/x/{i13}-475x500-1.jpg", c["n"]))
+            essais.append(("Decitre", f"https://products-images.di-static.com/image/x/{i13}-475x500-1.jpg", c["n"], None))
         if c.get("ark"):
-            essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1", c["n"]))
+            essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1", c["n"], None))
         if i13:
-            essais.append(("ePagine", f"https://images.epagine.fr/{i13[-3:]}/{i13}_1_75.jpg", c["n"]))
+            essais.append(("ePagine", f"https://images.epagine.fr/{i13[-3:]}/{i13}_1_75.jpg", c["n"], None))
+    for n, i in isbns[:2]:
+        essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{i}-M.jpg?default=false", n, i))
     for c in cands[:2]:
         if c.get("isbn"):
-            essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false", c["n"]))
-    for nom, url, tome in essais[:10]:
+            essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false", c["n"], None))
+    vus, uniques = set(), []
+    for x in essais:
+        if x[1] not in vus:
+            vus.add(x[1])
+            uniques.append(x)
+    for nom, url, tome, isbn_orphee in uniques[:14]:
         if nom in ("BnF", "Decitre", "ePagine"):
             time.sleep(0.8 if nom == "BnF" else 0.3)
         corps = telecharger(url)
@@ -788,14 +870,19 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
         DOSSIER_COUV.mkdir(parents=True, exist_ok=True)
         img.save(fichier, "JPEG", quality=82, optimize=True, progressive=True)
         return {"source": nom, **({"tome": tome} if tome else {}), **({"mn": (mn or {}).get("url") or (fiche or {}).get("url")} if nom == "Manga-News" else {}),
-                "maj": AUJOURDHUI.isoformat()}
+                **({"isbn": isbn_orphee, "orphee": True} if isbn_orphee else {}), "maj": AUJOURDHUI.isoformat()}
     return None
 
 
-def couverture_a_chercher(s: dict, e: dict, forcer: bool = False) -> bool:
+def couverture_a_chercher(s: dict, e: dict, forcer: bool = False, isbns: list | None = None) -> bool:
     if forcer:
         return True
     cf = e.get("couvFR")
+    # nouveaux ISBN dans l'export Orphée : on cherche la couverture de nos propres livres
+    # (sauf si elle vient déjà de Manga-News ou de ces ISBN)
+    ci = cle_isbn(isbns or [])
+    if ci and ci != e.get("couvIsbn") and not (cf and (cf.get("source") == "Manga-News" or cf.get("orphee"))):
+        return True
     page_mn = (e.get("mangaNews") or {}).get("url") or (e.get("mangaNewsFiche") or {}).get("url")
     if cf:
         # image prise sur une page Manga-News qui n'est plus celle de la série (rapprochement corrigé)
@@ -814,16 +901,19 @@ def couverture_a_chercher(s: dict, e: dict, forcer: bool = False) -> bool:
     return (e.get("couvVersion") or 1) < COUV_VERSION or age_jours(e.get("couvEssai")) > 180
 
 
-def chercher_couverture(s: dict, e: dict) -> None:
-    trouvee = couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), fiche=e.get("mangaNewsFiche"))
+def chercher_couverture(s: dict, e: dict, isbns: list | None = None) -> None:
+    trouvee = couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), fiche=e.get("mangaNewsFiche"), isbns=isbns)
     e["couvEssai"] = AUJOURDHUI.isoformat()
     e["couvVersion"] = COUV_VERSION
+    if cle_isbn(isbns or []):
+        e["couvIsbn"] = cle_isbn(isbns)
     e["couvEssaiMN"] = (e.get("mangaNews") or {}).get("couv") or (e.get("mangaNewsFiche") or {}).get("couv") or ""
     ancienne = e.get("couvFR") or {}
     if trouvee:
         e["couvFR"] = trouvee
-    elif ancienne.get("source") == "Open Library" and (DOSSIER_COUV / f"{s['id']}.jpg").exists():
-        pass  # rien de mieux cette fois : on garde l'image d'Open Library
+    elif (ancienne and ancienne.get("source") != "Manga-News" and (DOSSIER_COUV / f"{s['id']}.jpg").exists()
+          and (ancienne.get("orphee") or (e.get("bnf") or {}).get("accordIsbn") is not False)):
+        pass  # rien de mieux cette fois : on garde l'image (sauf si elle venait d'une édition BnF qui n'est pas la nôtre)
     else:
         e.pop("couvFR", None)
 
@@ -975,6 +1065,7 @@ def main() -> int:
             # BD et romans : titre unique déjà trouvé, ou plus aucun tome depuis 18 mois (sans doute terminée)
             der = (e.get("bnf") or {}).get("dateDernier")
             complet = (s.get("type") == "One shot" and bool(e.get("bnfVerifie"))) or bool(der and age_jours(der + "-01" if len(der) == 7 else der) > 540)
+        isbns = isbns_orphee(fonds.get(s["id"]))
         auteur = (fonds.get(s["id"]) or {}).get("auteur", "")
         maxi = max((n for l in ((fonds.get(s["id"]) or {}).get("tomes") or {}).values() for n in l), default=0)
         editeur = (fonds.get(s["id"]) or {}).get("editeur", "")
@@ -985,14 +1076,14 @@ def main() -> int:
                 e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
                 if s.get("type") != "One shot" or (s.get("liens") or {}).get("mangaNews"):
                     lire_fiche(s, e, False, debug)
-            if not couverture_a_chercher(s, e, args.forcer):
+            if not couverture_a_chercher(s, e, args.forcer, isbns):
                 cache[s["id"]] = e
                 continue
             try:
                 if debug:
-                    couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"))
+                    couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"), isbns=isbns)
                 else:
-                    chercher_couverture(s, e)
+                    chercher_couverture(s, e, isbns)
             except Exception as ex:
                 print(f"  couverture : {ex}", file=sys.stderr, flush=True)
             cache[s["id"]] = e
@@ -1067,10 +1158,11 @@ def main() -> int:
             if not one_shot or not mangas:
                 try:
                     vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
+                    nos = [i for _, i in isbns]
                     if one_shot:
-                        e["bnf"] = notice_titre_unique(s, editeur, auteur, debug)
+                        e["bnf"] = notice_titre_unique(s, editeur, auteur, debug, nos)
                     else:
-                        e["bnf"] = notices_bnf(s, editeur, vo, debug)
+                        e["bnf"] = notices_bnf(s, editeur, vo, debug, nos)
                     e["bnfVerifie"] = AUJOURDHUI.isoformat()
                 except Exception as ex:
                     pannes.append(f"BnF : {ex}")
@@ -1080,8 +1172,8 @@ def main() -> int:
                 if not one_shot or (s.get("liens") or {}).get("mangaNews"):
                     lire_fiche(s, e, args.forcer, debug)
             # Couverture française, une seule fois (puis nouvel essai si elle manque)
-            if not debug and couverture_a_chercher(s, e, args.forcer):
-                chercher_couverture(s, e)
+            if not debug and couverture_a_chercher(s, e, args.forcer, isbns):
+                chercher_couverture(s, e, isbns)
             if not pannes:
                 e["verifie"] = AUJOURDHUI.isoformat()  # sinon : revue au prochain passage
                 e["liensVus"] = s.get("liens") or {}
@@ -1092,7 +1184,7 @@ def main() -> int:
             if debug:
                 if e.get("bnf"):
                     tester_couvertures(e["bnf"])
-                couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"))
+                couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"), isbns=isbns)
                 dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1

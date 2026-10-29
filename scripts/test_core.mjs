@@ -215,5 +215,29 @@ t("statut de la série", () => {
   assert.equal(C.statutSerie([1], { parus: null, etat: null }).cle, "verifier");
   assert.equal(C.statutSerie([1, 2, 3, 4, 5, 6, 7, 8], { parus: 8, etat: "Arrêtée en France ?", doute: true }).cle, "verifier");
 });
+t("ISBN dans l'export (à la place du public)", () => {
+  assert.equal(C.isbnValide("978-2-205-07276-1"), "9782205072761");
+  assert.equal(C.isbnValide("2-205-02189-3"), "9782205021899");
+  assert.equal(C.isbnValide("228009214X"), "9782280092142");
+  assert.equal(C.isbnValide("30327000149238"), null); // code-barre d'exemplaire
+  assert.equal(C.isbnValide("978-2-205-07276-2"), null); // clé fausse
+  assert.equal(C.isbnValide("Jeunesse"), null);
+  const ex = (cote, isbn, statut = "Disponible") => ["Servon-sur-Vilaine", null, cote, null, null, statut, null, isbn, null, null, null, "CS1: BD", null, null, "CS2: Non renseigné", null, null, null, null, null, null, null, "Nb prêts total : 3", null, null, null, "30327000149238"];
+  const rows = [
+    ["Achille Talon", null, null, null, null, "Tome : 1", null, null, null, "Achille Talon est un homme moderne", null, null, null, null, null, null, "Fabcaro", null, null, null, null, null, null, null, "Dargaud"],
+    ex("BD ACH", "978-2-205-07276-1"), ex("BD ACH", "2-205-02189-3", "Retiré"),
+    ["Achille Talon", null, null, null, null, "Tome : 29", null, null, null, "Achille Talon a un gros nez !"], ex("BD ACH", "2-205-02189-3"),
+    ["Achille Talon", null, null, null, null, "Tome :", null, null, null, "Hors-série sans numéro"], ex("BD ACH", "978-2-205-05202-2"),
+  ];
+  const l = C.lireExportOrphee(rows);
+  assert.equal(l.exemplaires[0].isbn, "9782205072761");
+  assert.equal(l.exemplaires[0].public, ""); // la colonne H contient l'ISBN, pas le public
+  const f = C.construireFonds(l.exemplaires, [{ id: "achille-talon", titre: "Achille Talon" }]).fonds.series["achille-talon"];
+  assert.deepEqual(f.isbn, { 1: "9782205072761", 29: "9782205021899" });
+  assert.deepEqual(f.isbnSansNumero, ["9782205052022"]);
+  // ancien export, public en colonne H : rien ne change
+  const vieux = C.lireExportOrphee([rows[0], ex("BD ACH", "Jeunesse")]).exemplaires[0];
+  assert.equal(vieux.public, "Jeunesse"); assert.equal(vieux.isbn, undefined);
+});
 
 console.log(`${ok} tests réussis${process.exitCode ? ", des échecs ci-dessus" : ""}.`);
