@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=21";
+import * as C from "./core.js?v=22";
 import { publier, verifierCle, lancerVerification } from "./github.js?v=3";
 
 // ---------------------------------------------------------------------------
@@ -306,6 +306,12 @@ function compteVF(v) {
   const nonVerifie = !v.enr || (v.info.sourceParus === "reseau" && !v.info.sourceEnRetard);
   if (v.s.type === "One shot") return ici ? "Titre unique" : `Titre unique, pas à ${h(court(etat.prefs.bib))}`;
   const sansNum = v.sansNumero;
+  if (!ici && sansNum) {
+    // tous les exemplaires sont sans numéro dans Orphée
+    let t = `<strong>${nf.format(sansNum)}</strong> ${sansNum > 1 ? "titres" : "titre"} sans numéro`;
+    if (p !== null && !nonVerifie) t += `, ${nf.format(p)} ${libParus(p)}`;
+    return t;
+  }
   let t = p === null || nonVerifie ? `<strong>${nf.format(ici)}</strong> ${ici > 1 ? "tomes" : "tome"}, parution ${v.enr ? "inconnue" : "pas encore vérifiée"}`
     : `<strong>${nf.format(ici)}</strong> sur ${nf.format(p)} ${libParus(p)}`;
   if (sansNum) t += `, + ${pluriel(sansNum, "titre")} sans numéro`;
@@ -691,8 +697,10 @@ function itemAchat(v, tomes, info) {
 function listeAchats() {
   const bib = etat.prefs.bib;
   const mes = mesSeries();
-  const absentsReseau = mes.filter((v) => v.manquantsReseau.length).sort(triPriorite);
-  const absentsIci = mes.map((v) => ({ v, t: v.manquantsIci.filter((i) => !v.manquantsReseau.includes(i)) }))
+  // séries dont tous les exemplaires sont sans numéro dans Orphée : on ne sait pas quels tomes manquent
+  const numerotees = mes.filter((v) => v.ici.length);
+  const absentsReseau = numerotees.filter((v) => v.manquantsReseau.length).sort(triPriorite);
+  const absentsIci = numerotees.map((v) => ({ v, t: v.manquantsIci.filter((i) => !v.manquantsReseau.includes(i)) }))
     .filter((x) => x.t.length).sort((a, b) => triPriorite(a.v, b.v));
   const aRemplacer = [];
   for (const v of mes) {
@@ -1003,12 +1011,22 @@ function controles() {
     return c.length && c.every((i) => v.ici.includes(i));
   });
   const sansExemplaire = etat.vues.filter((v) => v.presence === "aucune");
-  const nouvelles = etat.vues.filter((v) => (v.s.ajout || v.s.nouvelle) && !v.s.vu);
+  // nouvelles séries : celles du dernier import d'abord (elles seules comptent dans le chiffre de l'onglet)
+  const dernierImport = etat.fonds.import?.date || null;
+  const aVoir = etat.vues.filter((v) => (v.s.ajout || v.s.nouvelle) && !v.s.vu);
+  const estDuDernier = (v) => !v.s.ajout || !dernierImport || v.s.ajout >= dernierImport;
+  const nouvelles = aVoir.filter(estDuDernier);
+  const anciennesNouvelles = aVoir.filter((v) => !estDuDernier(v));
   const auDela = etat.vues.filter((v) => v.info.parus !== null && v.info.sourceParus === "manuel" && v.reseau.length && v.reseau[v.reseau.length - 1] > v.info.parus);
-  const anomalies = (etat.fonds.anomalies || []);
+  // exemplaire sans numéro dans une série dont les autres tomes sont numérotés : champ tome sans doute
+  // oublié dans Orphée. Les titres d'une série jamais numérotée (« 100 % bio »…) sont normaux : ils restent
+  // dans la fiche de la série (« Titres sans numéro dans Orphée »).
+  const numerotee = (id, b) => (etat.fonds.series?.[id]?.tomes?.[b] || []).length > 0
+    || ((etat.enrich.series?.[id]?.bnf?.dernier || 0) >= 2 && etat.enrich.series[id].bnf.accordIsbn !== false);
+  const anomalies = (etat.fonds.anomalies || []).filter((a) => numerotee(a.serie, a.bib));
   const aRelier = !COL.mangas ? [] : mes.filter((v) => !v.s.liens?.anilist && (!v.enr?.anilist || v.enr.anilist.auteurDifferent || v.enr.anilist.auto && (v.enr.anilist.score ?? 1) < 0.9) && v.s.genre !== "Comics" && v.s.type !== "One shot");
   const incomplet = mes.filter((v) => !v.genre || !v.s.public);
-  return { commandesRecues, sansExemplaire, nouvelles, auDela, anomalies, aRelier, incomplet, bib };
+  return { commandesRecues, sansExemplaire, nouvelles, anciennesNouvelles, dernierImport, auDela, anomalies, aRelier, incomplet, bib };
 }
 
 function suggestions(v) {
@@ -1038,11 +1056,11 @@ function rendreControles() {
     bloc("Commandes arrivées", c.commandesRecues.map((v) => li(v.s.id, v.s.titre, `En commande : ${v.s.commande}`,
       `<button class="btn" data-action="vider-commande" data-id="${h(v.s.id)}">Vider la commande</button>`)),
       `Tous les tomes notés en commande sont maintenant à ${h(bib)}.`, true),
-    bloc("Nouvelles séries", c.nouvelles.map((v) => li(v.s.id, v.s.titre, `Ajoutée par l'import${v.s.ajout ? ` du ${dateFr(v.s.ajout)}` : ""}`,
+    bloc(`Nouvelles séries${c.dernierImport ? ` de l'import du ${dateFr(c.dernierImport)}` : ""}`, c.nouvelles.map((v) => li(v.s.id, v.s.titre, `Ajoutée par l'import${v.s.ajout ? ` du ${dateFr(v.s.ajout)}` : ""}`,
       `<button class="btn" data-action="vu" data-id="${h(v.s.id)}">C'est bon</button>`)),
-      `Trouvées dans Orphée lors d'un import (y compris les one shots sans série dans Orphée). Vérifie le titre et complète le genre. Si c'est une série déjà connue sous un autre nom, relie-la depuis « Sans exemplaire au dernier import ».${c.nouvelles.length > 3 ? ` <button class="btn" data-action="tout-vu">Tout marquer comme bon</button>` : ""}`, true),
-    bloc("Exemplaires sans numéro de tome", c.anomalies.map((a) => li(a.serie, a.titre, `${court(a.bib)}, cote ${a.cote || "?"}`)),
-      "Ils ne sont pas comptés, car le champ tome est vide dans Orphée.", true),
+      `Apparues dans Orphée depuis l'import précédent (y compris les titres uniques). Vérifie le titre et complète le genre. Si c'est une série déjà connue sous un autre nom, rattache-la depuis sa fiche.${c.nouvelles.length > 3 ? ` <button class="btn" data-action="tout-vu" data-quand="dernier">Tout marquer comme bon</button>` : ""}`, true),
+    bloc("Exemplaires sans numéro dans une série numérotée", c.anomalies.map((a) => li(a.serie, a.titre, `${a.album && a.album !== a.titre ? `« ${a.album} », ` : ""}${court(a.bib)}, cote ${a.cote || "?"}`)),
+      "Ces séries sont numérotées (dans Orphée ou à la BnF), mais le champ tome de ces exemplaires est vide dans Orphée : ils ne sont pas comptés. Remplis-le dans Orphée si c'est un oubli. Les titres des séries qui ne sont jamais numérotées sont normaux : ils figurent dans la fiche de leur série."),
     bloc(`Séries de ${h(bib)} à relier à AniList`, c.aRelier.map((v) => li(v.s.id, v.s.titre, v.enr?.anilist ? `Proposition : ${v.enr.anilist.titre}${v.enr.anilist.auteurDifferent ? ", mais l'auteur ne correspond pas" : ""}` : "")),
       "Sans ce lien, Suivixo ne sait pas où en est la série au Japon. Ouvre la fiche, cherche la série sur anilist.co et colle son adresse dans « Modifier la série »."),
     bloc("Nombre de tomes saisi à la main dépassé", c.auDela.map((v) => li(v.s.id, v.s.titre, `Le réseau va jusqu'au tome ${v.reseau[v.reseau.length - 1]}, la fiche dit ${pluriel(v.info.parus, "tome paru", "tomes parus")}`)),
@@ -1057,20 +1075,23 @@ function rendreControles() {
         </select>
         <button class="btn btn-alerte" data-action="supprimer" data-id="${h(v.s.id)}">Supprimer</button>`);
     }), "Séries de l'ancien Excel qu'aucune médiathèque n'a. Relie-les à la bonne série si elles ont été renommées dans Orphée, sinon supprime-les."),
+    bloc("Nouvelles séries des imports précédents, pas encore vues", c.anciennesNouvelles.map((v) => li(v.s.id, v.s.titre, `Ajoutée par l'import du ${dateFr(v.s.ajout)}`,
+      `<button class="btn" data-action="vu" data-id="${h(v.s.id)}">C'est bon</button>`)),
+      `Elles ne comptent plus dans le chiffre de l'onglet.${c.anciennesNouvelles.length > 3 ? ` <button class="btn" data-action="tout-vu" data-quand="anciennes">Tout marquer comme bon</button>` : ""}`),
     bloc(`Séries de ${h(bib)} sans genre ou sans public`, c.incomplet.map((v) => li(v.s.id, v.s.titre, `${[!v.genre && "genre", !v.s.public && "public"].filter(Boolean).join(" et ")} à compléter`)),
       "Utile pour les filtres de la liste des séries."),
   ].join("");
 
   $("#vue").innerHTML = `
     <h1>Contrôles</h1>
-    <p class="chapo">Ce qui mérite un coup d'œil après un import.</p>
+    <p class="chapo">Ce qui demande une action après un import. Le chiffre de l'onglet compte les commandes arrivées et les nouvelles séries du dernier import ; le reste peut attendre.</p>
     ${blocs || `<p class="vide">Rien à vérifier.</p>`}
   `;
 }
 
 function nbControles() {
   const c = controles();
-  return c.commandesRecues.length + c.nouvelles.length + c.anomalies.length;
+  return c.commandesRecues.length + c.nouvelles.length;
 }
 
 function relier(idSource, idCible) {
@@ -1447,7 +1468,8 @@ function brancher() {
     else if (a === "vider-commande") { const s = etat.series.find((x) => x.id === t.dataset.id); if (s) { delete s.commande; marquer("series"); calculer(); rendre(); } }
     else if (a === "vu") { const s = etat.series.find((x) => x.id === t.dataset.id); if (s) { s.vu = true; delete s.nouvelle; marquer("series"); calculer(); rendre(); } }
     else if (a === "tout-vu") {
-      const l = etat.series.filter((x) => (x.ajout || x.nouvelle) && !x.vu);
+      const c = controles();
+      const l = (t.dataset.quand === "anciennes" ? c.anciennesNouvelles : t.dataset.quand === "dernier" ? c.nouvelles : [...c.nouvelles, ...c.anciennesNouvelles]).map((v) => v.s);
       if (l.length && confirmerSimple(`Marquer les ${l.length} nouvelles séries comme vérifiées ?`)) { l.forEach((x) => { x.vu = true; delete x.nouvelle; }); marquer("series"); calculer(); rendre(); }
     }
     else if (a === "supprimer") {

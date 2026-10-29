@@ -578,8 +578,11 @@ export function statutSerie(possedes, info) {
 }
 
 export function presence(f, bib) {
-  const ici = (f?.tomes?.[bib] || []).length > 0;
-  const ailleurs = Object.entries(f?.tomes || {}).some(([b, l]) => b !== bib && l.length > 0);
+  // une médiathèque a la série si elle a au moins un tome numéroté, un hors-série ou un titre sans numéro
+  const a = (b) => (f?.tomes?.[b] || []).length > 0 || (f?.sansNumero?.[b] || []).length > 0 || (f?.hs?.[b] || 0) > 0;
+  const bibs = new Set([...Object.keys(f?.tomes || {}), ...Object.keys(f?.sansNumero || {}), ...Object.keys(f?.hs || {})]);
+  const ici = a(bib);
+  const ailleurs = [...bibs].some((b) => b !== bib && a(b));
   if (ici && ailleurs) return "partagee";
   if (ici) return "ici";
   if (ailleurs) return "reseau";
