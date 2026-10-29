@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T10:59:33Z",
+ "maj": "2026-10-29T13:41:17Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -651,7 +651,7 @@
       "isbn": "9782070696826"
      }
     ],
-    "requete": "bib.title all \"adrien qui ne fait rien\" and (bib.doctype=\"a\") and bib.author all \"tony\""
+    "requete": "bib.title all \"adrien qui ne fait rien\" and (bib.doctype=\"a\") and bib.author all \"ross\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -2675,38 +2675,11 @@
   },
   "basile-bazar": {
    "bnf": {
-    "dernier": 36,
-    "tomes": "1,26,30,36",
-    "dateDernier": "2018-02",
-    "editeur": "Bayard jeunesse",
-    "notices": 4,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb45015433n",
-    "isbn1": "9782747057806",
-    "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb45015433n",
-      "isbn": "9782747057806"
-     },
-     {
-      "n": 26,
-      "ark": "ark:/12148/cb45099777q",
-      "isbn": "9782747057820"
-     },
-     {
-      "n": 30,
-      "ark": "ark:/12148/cb45227635x",
-      "isbn": "9782747061902"
-     },
-     {
-      "n": 36,
-      "ark": "ark:/12148/cb45452373d",
-      "isbn": "9782747083348"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"basile bazar\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"basile bazar\" and (bib.doctype=\"a\")",
+    "accordIsbn": false,
+    "ecartee": "Bayard poche, 1 notices"
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -3835,28 +3808,10 @@
    "liensVus": {},
    "verifie": "2026-10-29",
    "bnf": {
-    "dernier": 12,
-    "tomes": "7,12",
-    "dateDernier": "2005-04",
-    "editeur": "Nathan",
-    "notices": 2,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb358230268",
-    "isbn1": "2092750143",
-    "candidatsCouv": [
-     {
-      "n": 7,
-      "ark": "ark:/12148/cb358230268",
-      "isbn": "2092750143"
-     },
-     {
-      "n": 12,
-      "ark": "ark:/12148/cb39953735h",
-      "isbn": "2092506625"
-     }
-    ],
-    "accordIsbn": false,
-    "requete": "bib.title all \"buveur encre\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"buveur encre\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "couvFR": {
     "source": "Decitre",
@@ -5848,7 +5803,7 @@
     "dernier": 15,
     "tomes": "1-15",
     "dateDernier": "2007-08",
-    "editeur": "Castor poche-Flammarion",
+    "editeur": "Castor poche",
     "notices": 22,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb424355239",
@@ -6306,6 +6261,7 @@
     "editeur": "Splash !",
     "notices": 2,
     "autresEditeurs": [
+     "Hachette jeunesse",
      "Jungle",
      "Jungle !"
     ],
@@ -7674,38 +7630,10 @@
   },
   "draculivre": {
    "bnf": {
-    "dernier": 198,
-    "tomes": "12,44,70,124,164,180,198",
-    "dateDernier": "2010-07",
-    "editeur": "Nathan",
-    "notices": 8,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb39953735h",
-    "isbn1": "2092506625",
-    "candidatsCouv": [
-     {
-      "n": 12,
-      "ark": "ark:/12148/cb39953735h",
-      "isbn": "2092506625"
-     },
-     {
-      "n": 44,
-      "ark": "ark:/12148/cb400755909",
-      "isbn": "2092507664"
-     },
-     {
-      "n": 70,
-      "ark": "ark:/12148/cb401545648",
-      "isbn": "2092509829"
-     },
-     {
-      "n": 124,
-      "ark": "ark:/12148/cb41013057h",
-      "isbn": "9782092513941"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"draculivre\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"draculivre\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -9517,38 +9445,10 @@
    "liensVus": {},
    "couvEssai": "2026-10-29",
    "bnf": {
-    "dernier": 82,
-    "tomes": "1,24,40,58,72,82",
-    "dateDernier": "2009-04",
-    "editeur": "Milan",
-    "notices": 12,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb45307455r",
-    "isbn1": "9782745992529",
-    "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb45307455r",
-      "isbn": "9782745992529"
-     },
-     {
-      "n": 24,
-      "ark": "ark:/12148/cb45379122w",
-      "isbn": "9782745994387"
-     },
-     {
-      "n": 24,
-      "ark": "ark:/12148/cb42282777r",
-      "isbn": "9782745947222"
-     },
-     {
-      "n": 24,
-      "ark": "ark:/12148/cb37683174k",
-      "isbn": "2745902482"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"enquetes fabuleuses de fff le fameux felix file filou\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"enquetes fabuleuses de fff le fameux felix file filou\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "couvFR": {
     "source": "Decitre",
@@ -9758,38 +9658,10 @@
   },
   "essie": {
    "bnf": {
-    "dernier": 133,
-    "tomes": "2-6,9-10,12,15,17-18,21-22,26-28,32,39,44,47-48,55,59,66,71,76,82,87,91,96,101,106,110,114,118,122,127-128,133",
-    "dateDernier": "2017-04",
-    "editeur": "Bayard jeunesse",
-    "notices": 40,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb45337987c",
-    "isbn1": "9782747082464",
-    "candidatsCouv": [
-     {
-      "n": 2,
-      "ark": "ark:/12148/cb45337987c",
-      "isbn": "9782747082464"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb45337984b",
-      "isbn": "9782747082495"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb45338085f",
-      "isbn": "9782747082457"
-     },
-     {
-      "n": 5,
-      "ark": "ark:/12148/cb453379981",
-      "isbn": "9782747082471"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"essie\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"essie\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -10823,7 +10695,7 @@
     "tomes": "1-35",
     "dateDernier": "2012-05",
     "editeur": "Hachette",
-    "notices": 44,
+    "notices": 43,
     "autresEditeurs": [
      "Soleil",
      "Éd. France loisirs"
@@ -11703,38 +11575,10 @@
   },
   "gaspard-le-leopard": {
    "bnf": {
-    "dernier": 128,
-    "tomes": "87-90,93,96,98,104,120,128",
-    "dateDernier": "2014",
-    "editeur": "Milan",
-    "notices": 10,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb42194564c",
-    "isbn1": "9782745939166",
-    "candidatsCouv": [
-     {
-      "n": 87,
-      "ark": "ark:/12148/cb42194564c",
-      "isbn": "9782745939166"
-     },
-     {
-      "n": 88,
-      "ark": "ark:/12148/cb423369940",
-      "isbn": "9782745939173"
-     },
-     {
-      "n": 89,
-      "ark": "ark:/12148/cb42336987q",
-      "isbn": "9782745942562"
-     },
-     {
-      "n": 90,
-      "ark": "ark:/12148/cb42336983b",
-      "isbn": "9782745942579"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"gaspard le leopard\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"gaspard le leopard\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -13395,14 +13239,13 @@
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": 9,
-    "tomes": "1-9",
+    "tomes": "1-5,7-9",
     "dateDernier": "2024-10",
     "editeur": "Hachette jeunesse",
-    "notices": 9,
+    "notices": 8,
     "autresEditeurs": [
      "Les Editions Albert René",
-     "les Éditions Albert René",
-     "the marketing store"
+     "les Éditions Albert René"
     ],
     "ark1": "ark:/12148/cb471222916",
     "isbn1": "9782017180586",
@@ -14898,7 +14741,7 @@
     "dernier": 16,
     "tomes": "2-16",
     "dateDernier": "2025-07",
-    "editeur": "Milan",
+    "editeur": "Milan jeunesse",
     "notices": 28,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb45582453v",
@@ -22018,18 +21861,12 @@
    "verifie": "2026-10-29",
    "couvEssai": "2026-10-29",
    "bnf": {
-    "dernier": 27,
-    "tomes": "1-2,10,12,17-19,27",
-    "dateDernier": "2000",
-    "editeur": "Hachette éducation",
-    "notices": 9,
-    "autresEditeurs": [
-     "Altaya",
-     "Arnaud",
-     "Atlas",
-     "Bias",
-     "Casterman"
-    ],
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2005-06",
+    "editeur": "Hachette",
+    "notices": 2,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb39134022p",
     "isbn1": "2012008593",
     "candidatsCouv": [
@@ -22040,18 +21877,8 @@
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb457198181",
-      "isbn": "9782011183392"
-     },
-     {
-      "n": 2,
       "ark": "ark:/12148/cb39991167t",
       "isbn": "2012010466"
-     },
-     {
-      "n": 10,
-      "ark": "ark:/12148/cb355810553",
-      "isbn": "2230002341"
      }
     ],
     "accordIsbn": true,
@@ -24458,14 +24285,8 @@
     "tomes": "1-5,7-9,11-14,16-30",
     "dateDernier": "2017-11",
     "editeur": "Hachette comics",
-    "notices": 31,
-    "autresEditeurs": [
-     "Altaya",
-     "Arnaud",
-     "Bias",
-     "Ed. Hemma",
-     "Fleurus"
-    ],
+    "notices": 28,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb451644599",
     "isbn1": "9782012785458",
     "candidatsCouv": [
@@ -24481,13 +24302,13 @@
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb468171910",
-      "isbn": "9782017141341"
-     },
-     {
-      "n": 2,
       "ark": "ark:/12148/cb44237520p",
       "isbn": "9782014002812"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb44302837k",
+      "isbn": "9782014018417"
      }
     ],
     "accordIsbn": true,
@@ -28943,7 +28764,7 @@
     "dernier": 3,
     "tomes": "1-3",
     "dateDernier": "2026-01",
-    "editeur": "Seuil",
+    "editeur": "Seuil jeunesse",
     "notices": 5,
     "autresEditeurs": [
      "le Livre de poche jeunesse"
