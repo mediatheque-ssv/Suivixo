@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T13:41:17Z",
+ "maj": "2026-10-29T13:41:59Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -2072,38 +2072,10 @@
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
    "bnf": {
-    "dernier": 292,
-    "tomes": "192,216,291-292",
-    "dateDernier": "2003-03",
-    "editeur": "Gallimard jeunesse",
-    "notices": 4,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb38914014w",
-    "isbn1": "2070538842",
-    "candidatsCouv": [
-     {
-      "n": 192,
-      "ark": "ark:/12148/cb38914014w",
-      "isbn": "2070538842"
-     },
-     {
-      "n": 216,
-      "ark": "ark:/12148/cb389647992",
-      "isbn": "2070536602"
-     },
-     {
-      "n": 291,
-      "ark": "ark:/12148/cb38964813s",
-      "isbn": "2070552756"
-     },
-     {
-      "n": 292,
-      "ark": "ark:/12148/cb389648442",
-      "isbn": "2070552772"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"aventures de la famille motordu\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"aventures de la famille motordu\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "couvFR": {
     "source": "Decitre",
@@ -3413,44 +3385,11 @@
   },
   "boule-bill": {
    "bnf": {
-    "dernier": 230,
-    "tomes": "213-214,218-220,222-228,230",
-    "dateDernier": "2010-07",
-    "editeur": "Mango jeunesse",
-    "notices": 13,
-    "autresEditeurs": [
-     "Dargaud",
-     "Dargaud Bénélux",
-     "Dupuis",
-     "Hachette jeunesse",
-     "M6 interactions"
-    ],
-    "ark1": "ark:/12148/cb392051651",
-    "isbn1": "274041790X",
-    "candidatsCouv": [
-     {
-      "n": 213,
-      "ark": "ark:/12148/cb392051651",
-      "isbn": "274041790X"
-     },
-     {
-      "n": 214,
-      "ark": "ark:/12148/cb39205167q",
-      "isbn": "2740417896"
-     },
-     {
-      "n": 218,
-      "ark": "ark:/12148/cb40217812x",
-      "isbn": "2740418477"
-     },
-     {
-      "n": 219,
-      "ark": "ark:/12148/cb399708166",
-      "isbn": "2740419880"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"boule bill\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"boule bill\" and (bib.doctype=\"a\")",
+    "accordIsbn": false,
+    "ecartee": "Dupuis, 55 notices"
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -3647,8 +3586,7 @@
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"bruno\" and (bib.doctype=\"a\")",
-    "accordIsbn": false,
-    "ecartee": "Jarjille éd., 1 notices"
+    "accordIsbn": false
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -6547,7 +6485,7 @@
       "isbn": "221105885X"
      }
     ],
-    "requete": "bib.title all \"comment ecrire comme un cochon\" and (bib.doctype=\"a\") and bib.author all \"fine\""
+    "requete": "bib.title all \"comment ecrire comme un cochon\" and (bib.doctype=\"a\") and bib.author all \"anne\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -8352,11 +8290,11 @@
    "couvEssai": "2026-10-29",
    "verifie": "2026-10-29",
    "bnf": {
-    "dernier": 3,
-    "tomes": "1,3",
-    "dateDernier": "2026-08",
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-07",
     "editeur": "Casterman",
-    "notices": 3,
+    "notices": 5,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47703503s",
     "isbn1": "9782203291218",
@@ -8365,6 +8303,11 @@
       "n": 1,
       "ark": "ark:/12148/cb47703503s",
       "isbn": "9782203291218"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb485869617",
+      "isbn": "9782203291232"
      },
      {
       "n": 3,
@@ -8659,7 +8602,7 @@
     "tomes": "1-4,15-16",
     "dateDernier": "2026-07",
     "editeur": "Bayard jeunesse",
-    "notices": 8,
+    "notices": 6,
     "autresEditeurs": [
      "BD Kids",
      "BD kids"
@@ -8814,14 +8757,12 @@
   },
   "en-avant-foot": {
    "bnf": {
-    "dernier": 197,
-    "tomes": "1-6,196-197",
-    "dateDernier": "2010",
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2025-09",
     "editeur": "Nathan",
-    "notices": 8,
-    "autresEditeurs": [
-     "Nathan Pôle Jeunesse"
-    ],
+    "notices": 6,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb48563809q",
     "isbn1": "9782095049331",
     "candidatsCouv": [
@@ -11083,7 +11024,7 @@
     "dernier": 56,
     "tomes": "1-56",
     "dateDernier": "2018-04",
-    "editeur": "Nathan Jeunesse",
+    "editeur": "Nathan",
     "notices": 61,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb39251663s",
@@ -14939,10 +14880,8 @@
     "notices": 4,
     "autresEditeurs": [
      "Cévennes éditions",
-     "Marjolaine Lefievre",
-     "Média 1000",
-     "Plumes de Mimi éditions",
-     "Éd. Lito"
+     "Éd. Lito",
+     "Éditions Lito"
     ],
     "ark1": "ark:/12148/cb44526678b",
     "isbn1": "9782875801302",
@@ -17405,7 +17344,7 @@
       "isbn": "2912084644"
      }
     ],
-    "requete": "bib.title all \"match de foot qui dura tout un ete\" and (bib.doctype=\"a\") and bib.author all \"chambaz\""
+    "requete": "bib.title all \"match de foot qui dura tout un ete\" and (bib.doctype=\"a\") and bib.author all \"bernard\""
    },
    "couvFR": {
     "source": "Decitre",
@@ -17890,7 +17829,7 @@
     "dernier": 4,
     "tomes": "1-4",
     "dateDernier": "2024-10",
-    "editeur": "l'École des loisirs",
+    "editeur": "Ecole des loisirs",
     "notices": 6,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb487189770",
@@ -20146,43 +20085,11 @@
    "couvEssai": "2026-10-29",
    "verifie": "2026-10-29",
    "bnf": {
-    "dernier": 190,
-    "tomes": "8,40,49-50,55,62,66,100-101,104,108,128,151,171,190",
-    "dateDernier": "2010-07",
-    "editeur": "Nathan",
-    "notices": 17,
-    "autresEditeurs": [
-     "Dargaud Bénélux",
-     "Hachette collections",
-     "Kana",
-     "[J & B entertainment]"
-    ],
-    "ark1": "ark:/12148/cb399537016",
-    "isbn1": "2092506587",
-    "candidatsCouv": [
-     {
-      "n": 8,
-      "ark": "ark:/12148/cb399537016",
-      "isbn": "2092506587"
-     },
-     {
-      "n": 40,
-      "ark": "ark:/12148/cb40050938p",
-      "isbn": "2092507680"
-     },
-     {
-      "n": 49,
-      "ark": "ark:/12148/cb40148662m",
-      "isbn": "209250892X"
-     },
-     {
-      "n": 50,
-      "ark": "ark:/12148/cb40148663z",
-      "isbn": "2092508938"
-     }
-    ],
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"nico\" and (bib.doctype=\"a\")",
     "accordIsbn": false,
-    "requete": "bib.title all \"nico\" and (bib.doctype=\"a\")"
+    "ecartee": "Dargaud Bénélux, 6 notices"
    },
    "couvFR": {
     "source": "Decitre",
@@ -20602,7 +20509,7 @@
       "isbn": "9782092494639"
      }
     ],
-    "requete": "bib.title all \"oeil du loup\" and (bib.doctype=\"a\") and bib.author all \"pennac\""
+    "requete": "bib.title all \"oeil du loup\" and (bib.doctype=\"a\") and bib.author all \"daniel\""
    },
    "couvIsbn": "9782266126304"
   },
@@ -23040,8 +22947,8 @@
     "dernier": 4,
     "tomes": "1-4",
     "dateDernier": "2013",
-    "editeur": "E. Flammarion",
-    "notices": 8,
+    "editeur": "Flammarion jeunesse",
+    "notices": 7,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb444122615",
     "isbn1": "9782081344631",
@@ -23086,34 +22993,11 @@
    "couvVersion": 3,
    "bnfVerifie": "2026-10-29",
    "bnf": {
-    "dernier": 119,
-    "tomes": "118-119",
-    "dateDernier": "1999-10",
-    "editeur": "Casterman",
-    "notices": 3,
-    "autresEditeurs": [
-     "Delcourt",
-     "Gallimard jeunesse-Giboulées",
-     "Jungle",
-     "PlayBac",
-     "Vauvenargues"
-    ],
-    "ark1": "ark:/12148/cb370508148",
-    "isbn1": "2203128437",
-    "candidatsCouv": [
-     {
-      "n": 118,
-      "ark": "ark:/12148/cb370508148",
-      "isbn": "2203128437"
-     },
-     {
-      "n": 119,
-      "ark": "ark:/12148/cb370508179",
-      "isbn": "2203128445"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"premieres fois\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"premieres fois\" and (bib.doctype=\"a\")",
+    "accordIsbn": false,
+    "ecartee": "PlayBac, 1 notices"
    },
    "couvIsbn": "9782203128446"
   },
@@ -23572,7 +23456,7 @@
     "notices": 0,
     "requete": "bib.title all \"quatre soeurs\" and (bib.doctype=\"a\")",
     "accordIsbn": false,
-    "ecartee": "L'école des loisirs, 12 notices"
+    "ecartee": "L'école des loisirs, 11 notices"
    },
    "couvIsbn": "9782700277906,9782700281439,9782700283747"
   },
@@ -24101,11 +23985,11 @@
    "couvVersion": 3,
    "bnfVerifie": "2026-10-29",
    "bnf": {
-    "dernier": 224,
-    "tomes": "1-10,165-166,175-176,186,189,204,208,214,224",
-    "dateDernier": "2012-09",
+    "dernier": 10,
+    "tomes": "1-10",
+    "dateDernier": "2018",
     "editeur": "Rageot",
-    "notices": 24,
+    "notices": 14,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47047123w",
     "isbn1": "9782700278231",
