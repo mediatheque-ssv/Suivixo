@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T13:47:20Z",
+ "maj": "2026-10-29T15:00:56Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -651,7 +651,7 @@
       "isbn": "9782070696826"
      }
     ],
-    "requete": "bib.title all \"adrien qui ne fait rien\" and (bib.doctype=\"a\") and bib.author all \"ross\""
+    "requete": "bib.title all \"adrien qui ne fait rien\" and (bib.doctype=\"a\") and bib.author all \"tony\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -7347,7 +7347,7 @@
     "dernier": 13,
     "tomes": "1-13",
     "dateDernier": "2010-05",
-    "editeur": "Nathan Jeunesse",
+    "editeur": "Nathan",
     "notices": 52,
     "autresEditeurs": [
      "Éd. France loisirs"
@@ -9930,7 +9930,7 @@
       "isbn": null
      }
     ],
-    "requete": "bib.title all \"fantomette contre le hibou\" and (bib.doctype=\"a\") and bib.author all \"chaulet\""
+    "requete": "bib.title all \"fantomette contre le hibou\" and (bib.doctype=\"a\") and bib.author all \"georges\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -11052,7 +11052,7 @@
     "dernier": 6,
     "tomes": "1-6",
     "dateDernier": "2025-02",
-    "editeur": "Actes Sud jeunesse",
+    "editeur": "Actes sud",
     "notices": 8,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47379256r",
@@ -14022,7 +14022,7 @@
     "dernier": 31,
     "tomes": "1-15,17-18,20-21,23,25-29,31",
     "dateDernier": "2026-09",
-    "editeur": "Flammarion jeunesse",
+    "editeur": "Éditions Flammarion",
     "notices": 41,
     "autresEditeurs": [
      "Castor poche"
