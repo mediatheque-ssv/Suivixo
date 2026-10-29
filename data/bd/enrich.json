@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T14:17:15Z",
+ "maj": "2026-10-29T15:21:49Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -1607,7 +1607,7 @@
     "dernier": 15,
     "tomes": "1-15",
     "dateDernier": "2010",
-    "editeur": "Jungle-[Casterman]",
+    "editeur": "Jungle",
     "notices": 15,
     "autresEditeurs": [
      "Panini kids"
@@ -8537,9 +8537,7 @@
     "editeur": "Dupuis",
     "notices": 61,
     "autresEditeurs": [
-     "Hachette",
-     "Hachette collections",
-     "Hachette collections SNC"
+     "Hachette"
     ],
     "ark1": "ark:/12148/cb453854479",
     "isbn1": "9782800173535",
