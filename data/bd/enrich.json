@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T09:47:58Z",
+ "maj": "2026-10-29T10:58:19Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -1508,17 +1508,17 @@
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 10,
-    "tomes": "1-10",
-    "dateDernier": "2022-10",
-    "editeur": "Urban comics",
-    "notices": 30,
+    "dernier": 13,
+    "tomes": "1-13",
+    "dateDernier": "1999-03",
+    "editeur": "Panini kids",
+    "notices": 59,
     "autresEditeurs": [
      "A. Michel",
      "Cobra",
-     "Comics USA",
      "Dargaud Bénélux",
-     "Eaglemoss collections"
+     "Eaglemoss collections",
+     "Ed. Aedena"
     ],
     "ark1": "ark:/12148/cb474513874",
     "isbn1": "9791026829775",
@@ -1656,12 +1656,11 @@
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 15,
-    "tomes": "1-2,5-6,13-15",
+    "tomes": "1-15",
     "dateDernier": "2010",
     "editeur": "Jungle",
-    "notices": 7,
+    "notices": 15,
     "autresEditeurs": [
-     "Jungle-[Casterman]",
      "Panini kids"
     ],
     "ark1": "ark:/12148/cb39196771j",
@@ -1678,14 +1677,14 @@
       "isbn": "2874420158"
      },
      {
-      "n": 5,
-      "ark": "ark:/12148/cb410545151",
-      "isbn": "9782874424083"
+      "n": 3,
+      "ark": "ark:/12148/cb401968574",
+      "isbn": "2874420751"
      },
      {
-      "n": 6,
-      "ark": "ark:/12148/cb41155059p",
-      "isbn": "9782874424731"
+      "n": 4,
+      "ark": "ark:/12148/cb40239625m",
+      "isbn": "2874422959"
      }
     ],
     "accordIsbn": true,
@@ -2022,21 +2021,31 @@
   },
   "bd-scooby-doo": {
    "bnf": {
-    "dernier": 4,
-    "tomes": "2-4",
-    "dateDernier": "2006",
-    "editeur": "Jungle-[Casterman]",
-    "notices": 3,
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2008-06",
+    "editeur": "Jungle",
+    "notices": 9,
     "autresEditeurs": [
      "Hachette Jeunesse",
      "Hachette jeunesse",
-     "Jungle",
      "Panini books",
-     "Panini comics"
+     "Panini comics",
+     "Panini kids"
     ],
-    "ark1": "ark:/12148/cb40136169z",
-    "isbn1": "2874422363",
+    "ark1": "ark:/12148/cb399880582",
+    "isbn1": "2874421030",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb399880582",
+      "isbn": "2874421030"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb434834691",
+      "isbn": "9782822201728"
+     },
      {
       "n": 2,
       "ark": "ark:/12148/cb40136169z",
@@ -2046,11 +2055,6 @@
       "n": 3,
       "ark": "ark:/12148/cb40239606b",
       "isbn": "2874422967"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb41002991q",
-      "isbn": "9782874424168"
      }
     ],
     "accordIsbn": true,
@@ -3982,17 +3986,16 @@
   },
   "cubitus": {
    "bnf": {
-    "dernier": 38,
-    "tomes": "1-10,24-29,32-35,38",
-    "dateDernier": "2001",
-    "editeur": "le Lombard",
-    "notices": 28,
+    "dernier": 39,
+    "tomes": "1-11,13,17-29,32-35,38-39",
+    "dateDernier": "2002",
+    "editeur": "Ed. du Lombard",
+    "notices": 38,
     "autresEditeurs": [
      "Chantecler",
      "Dargaud",
-     "Ed. du Lombard",
-     "Lombard",
-     "Mango jeunesse"
+     "Mango jeunesse",
+     "Presses pocket"
     ],
     "ark1": "ark:/12148/cb423807105",
     "isbn1": "9782803627769",
@@ -5355,17 +5358,17 @@
    "couvVersion": 3,
    "liensVus": {},
    "bnf": {
-    "dernier": 14,
-    "tomes": "1-12,14",
-    "dateDernier": "2024-10",
+    "dernier": 15,
+    "tomes": "1-15",
+    "dateDernier": "2025-12",
     "editeur": "Jungle",
-    "notices": 17,
+    "notices": 19,
     "autresEditeurs": [
      "Nathan",
      "PKJ",
      "Pocket Jeunesse",
      "Pocket jeunesse",
-     "Steinkis Groupe Jungle"
+     "Éd. France loisirs"
     ],
     "ark1": "ark:/12148/cb472112881",
     "isbn1": "9782822240765",
@@ -8509,14 +8512,12 @@
    },
    "bnf": {
     "dernier": 23,
-    "tomes": "1-10,13-15,23",
+    "tomes": "1-23",
     "dateDernier": "2014",
-    "editeur": "Bayard éd.",
-    "notices": 16,
+    "editeur": "Bayard BD",
+    "notices": 26,
     "autresEditeurs": [
-     "BD kids",
-     "Bayard BD",
-     "Bayard jeunesse"
+     "BD kids"
     ],
     "ark1": "ark:/12148/cb37680682v",
     "isbn1": "2747003949",
@@ -8597,21 +8598,24 @@
    "bnfVerifie": "2026-10-29",
    "couvVersion": 3,
    "bnf": {
-    "dernier": 32,
-    "tomes": "1-14,16-24,26-32",
-    "dateDernier": "2017",
+    "dernier": 35,
+    "tomes": "1-35",
+    "dateDernier": "2026",
     "editeur": "Marsu productions",
-    "notices": 35,
+    "notices": 62,
     "autresEditeurs": [
-     "Dupuis",
      "Hachette",
      "Hachette collections",
-     "Hachette collections SNC",
-     "Marsu productions-Dupuis"
+     "Hachette collections SNC"
     ],
-    "ark1": "ark:/12148/cb34994956d",
-    "isbn1": "2908462095",
+    "ark1": "ark:/12148/cb453854479",
+    "isbn1": "9782800173535",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb453854479",
+      "isbn": "9782800173535"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb34994956d",
@@ -8624,13 +8628,8 @@
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb34949301n",
-      "isbn": "2205036068"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb35051806m",
-      "isbn": "2950221122"
+      "ark": "ark:/12148/cb45484899k",
+      "isbn": "9782800173726"
      }
     ],
     "accordIsbn": true,
@@ -8679,14 +8678,11 @@
    "liensVus": {},
    "bnf": {
     "dernier": 126,
-    "tomes": "17-18,21,35,42,50,53,58,62,73,76,105,109-112,125-126",
+    "tomes": "17-18,21,35,42,50,53,58,62,73,76,82,85-86,93,98,100-103,105,109-112,125-126",
     "dateDernier": "2021-05",
-    "editeur": "Calligram",
-    "notices": 18,
-    "autresEditeurs": [
-     "Calligram-C. Gallimard",
-     "Calligram-Christian Gallimard"
-    ],
+    "editeur": "Calligram-C. Gallimard",
+    "notices": 27,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb43414120n",
     "isbn1": "2884451897",
     "candidatsCouv": [
@@ -11617,19 +11613,23 @@
   "rantanplan": {
    "liensVus": {},
    "bnf": {
-    "dernier": 11,
-    "tomes": "1-2,4-7,11",
-    "dateDernier": "1998",
-    "editeur": "Lucky Productions",
-    "notices": 8,
+    "dernier": 20,
+    "tomes": "1-2,4-8,11,13-20",
+    "dateDernier": "2011-01",
+    "editeur": "Lucky comics",
+    "notices": 22,
     "autresEditeurs": [
      "Dargaud",
-     "Hachette collections",
-     "Lucky comics"
+     "Hachette collections"
     ],
-    "ark1": "ark:/12148/cb43412880z",
-    "isbn1": "294001230X",
+    "ark1": "ark:/12148/cb392082264",
+    "isbn1": "2884711333",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb392082264",
+      "isbn": "2884711333"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb43412880z",
@@ -11637,18 +11637,13 @@
      },
      {
       "n": 2,
+      "ark": "ark:/12148/cb42071114d",
+      "isbn": "9782884712514"
+     },
+     {
+      "n": 2,
       "ark": "ark:/12148/cb434128819",
       "isbn": "2940012245"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb43414418x",
-      "isbn": "2940144400"
-     },
-     {
-      "n": 5,
-      "ark": "ark:/12148/cb43412882n",
-      "isbn": "2940012482"
      }
     ],
     "accordIsbn": true,
@@ -11682,20 +11677,23 @@
     "maj": "2026-10-29"
    },
    "bnf": {
-    "dernier": 4,
-    "tomes": "1-4",
-    "dateDernier": "2007",
-    "editeur": "Milan-Treize étrange",
-    "notices": 4,
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2014-04",
+    "editeur": "Milan",
+    "notices": 14,
     "autresEditeurs": [
      "Flammarion",
-     "Milan",
-     "Treize étrange",
      "Vents d'Ouest"
     ],
-    "ark1": "ark:/12148/cb40024570d",
-    "isbn1": "2745916645",
+    "ark1": "ark:/12148/cb42694420b",
+    "isbn1": "9782723488372",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42694420b",
+      "isbn": "9782723488372"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb40024570d",
@@ -11703,18 +11701,13 @@
      },
      {
       "n": 2,
+      "ark": "ark:/12148/cb426943113",
+      "isbn": "9782723488389"
+     },
+     {
+      "n": 2,
       "ark": "ark:/12148/cb40934959r",
       "isbn": "274591944X"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb40990385x",
-      "isbn": "9782745921550"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb41181108q",
-      "isbn": "9782745927750"
      }
     ],
     "accordIsbn": true,
@@ -12937,13 +12930,11 @@
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 3,
-    "tomes": "1,3",
+    "tomes": "1-3",
     "dateDernier": "2024-11",
-    "editeur": "Nathan bande dessinée",
-    "notices": 2,
+    "editeur": "Nathan Pôle Jeunesse",
+    "notices": 6,
     "autresEditeurs": [
-     "Nathan",
-     "Nathan Pôle Jeunesse",
      "PKJ",
      "les Incorruptibles",
      "Éd. France loisirs"
@@ -12957,9 +12948,19 @@
       "isbn": "9782092494509"
      },
      {
-      "n": 3,
-      "ark": "ark:/12148/cb47606365b",
-      "isbn": "9782095030124"
+      "n": 1,
+      "ark": "ark:/12148/cb42239729j",
+      "isbn": "9782092023105"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47381739t",
+      "isbn": "9782095000141"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42379429q",
+      "isbn": "9782092529683"
      }
     ],
     "accordIsbn": true,
@@ -13991,39 +13992,36 @@
   "tom-tom-et-nana": {
    "bnf": {
     "dernier": 34,
-    "tomes": "1,5-21,23-34",
-    "dateDernier": "2009-03",
+    "tomes": "1-34",
+    "dateDernier": "2017-03",
     "editeur": "Bayard jeunesse",
-    "notices": 37,
+    "notices": 94,
     "autresEditeurs": [
-     "Bayard",
-     "Bayard poche",
-     "Bayard presse",
-     "Bayard éd.",
-     "Bayard éd.-\"J'aime lire\""
+     "le Grand livre du mois",
+     "Éd. France loisirs"
     ],
-    "ark1": "ark:/12148/cb39107838c",
-    "isbn1": "2747013790",
+    "ark1": "ark:/12148/cb45234787x",
+    "isbn1": "9782747076340",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45234787x",
+      "isbn": "9782747076340"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb39107838c",
       "isbn": "2747013790"
      },
      {
-      "n": 5,
-      "ark": "ark:/12148/cb39107896j",
-      "isbn": "2747013839"
+      "n": 1,
+      "ark": "ark:/12148/cb34780273j",
+      "isbn": "270094027X"
      },
      {
-      "n": 6,
-      "ark": "ark:/12148/cb41320268q",
-      "isbn": "9782747013840"
-     },
-     {
-      "n": 7,
-      "ark": "ark:/12148/cb39114140g",
-      "isbn": "2747013855"
+      "n": 2,
+      "ark": "ark:/12148/cb45234786k",
+      "isbn": "9782747076357"
      }
     ],
     "accordIsbn": true,
@@ -14945,16 +14943,19 @@
    "liensVus": {},
    "bnf": {
     "dernier": 2,
-    "tomes": "2",
+    "tomes": "1-2",
     "dateDernier": "2026-09",
-    "editeur": "Steinkis Groupe Jungle",
-    "notices": 1,
-    "autresEditeurs": [
-     "Jungle"
-    ],
-    "ark1": "ark:/12148/cb488287069",
-    "isbn1": "9782822250238",
+    "editeur": "Jungle",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb485878767",
+    "isbn1": "9782822246354",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb485878767",
+      "isbn": "9782822246354"
+     },
      {
       "n": 2,
       "ark": "ark:/12148/cb488287069",
