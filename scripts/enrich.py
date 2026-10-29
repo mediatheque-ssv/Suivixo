@@ -546,6 +546,15 @@ ALIAS_EDITEURS = {"dargaud": "kana", "tonkam": "delcourt", "kaze": "crunchyroll"
                   "neotoon": "hugo", "albinmichel": "albin", "michel": "albin"}
 
 
+MOTS_EDITEUR_COURANTS = {"editions", "edition", "editeur", "jeunesse", "poche", "france", "livre", "les", "des", "and",
+                         "impr", "imprimerie", "publishing", "presse", "groupe", "diffusion", "junior", "album", "albums"}
+
+
+def jetons_editeur(e: str) -> set[str]:
+    """Mots distinctifs d'un nom d'éditeur (« Castor poche-Flammarion » → castor, flammarion)."""
+    return {m for m in re.findall(r"[a-z]+", sans_accents(e or "").lower()) if len(m) >= 3 and m not in MOTS_EDITEUR_COURANTS}
+
+
 def norm_editeur(e: str) -> str:
     s = sans_accents(e or "").lower()
     brut = re.sub(r"[^a-z0-9]", "", s)
@@ -666,6 +675,19 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
                     "ecartee": f"{groupes[k][0]['editeur']}, {len(groupes[k])} notices"}
         choix = max(groupes, key=lambda k: len({t["n"] for t in groupes[k]}))
     g = groupes[choix]
+    if accord:
+        # Série reconnue grâce à nos ISBN : on y joint ses autres éditions chez le même éditeur sous un
+        # autre nom (« Castor poche », « Castor poche-Flammarion », « Flammarion » ; « PKJ », « Pocket jeunesse »).
+        famille = {choix}
+        jetons = {k: {j for t in v for j in jetons_editeur(t["editeur"])} for k, v in groupes.items() if k}
+        a_voir = [choix]
+        while a_voir:
+            k0 = a_voir.pop()
+            for k, js in jetons.items():
+                if k not in famille and js & jetons.get(k0, set()):
+                    famille.add(k)
+                    a_voir.append(k)
+        g = [t for k in famille for t in groupes[k]]
     nums = sorted({t["n"] for t in g})
     # Numéro isolé très loin des autres (ex. « 202 » lu dans « 2024 ») : on l'écarte.
     while len(nums) > 1 and nums[-1] - nums[-2] > 20:
@@ -696,7 +718,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         "dateDernier": date,
         "editeur": g[0]["editeur"],
         "notices": len(g),
-        "autresEditeurs": sorted({t["editeur"] for k, v in groupes.items() if k != choix for t in v})[:5],
+        "autresEditeurs": sorted({t["editeur"] for k, v in groupes.items() if k != choix and not (accord and k in famille) for t in v})[:5],
         **({"plusieursEditions": True} if plusieurs_editions else {}),
         **({"ark1": t1["ark"], "isbn1": t1["isbn"], "candidatsCouv": candidats} if t1 else {}),
         **({"accordIsbn": accord} if accord is not None else {}),
