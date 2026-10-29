@@ -594,7 +594,8 @@ def notice_par_isbn(isbn: str, debug: bool = False) -> dict | None:
 
 
 def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
-                isbns_orphee: list[str] | None = None, rattrapage: bool = True) -> dict | None:
+                isbns_orphee: list[str] | None = None, rattrapage: bool = True,
+                numeros_orphee: dict[str, int] | None = None) -> dict | None:
     """Tomes parus à la BnF. Avec les ISBN d'Orphée, on garde l'édition qui contient nos exemplaires ;
     si la recherche par titre ne la trouve pas (titre trop courant : « Ambre », « Albert »…), on lit la
     notice de notre ISBN pour connaître le vrai titre de la série à la BnF, et on cherche avec lui."""
@@ -651,7 +652,20 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
     groupes: dict[str, list[dict]] = {}
     for t in tomes:
         groupes.setdefault(norm_editeur(t["editeur"]), []).append(t)
-    communs = {k: sum(1 for t in v if isbn13(t["isbn"]) in nos_isbn) for k, v in groupes.items()} if nos_isbn else {}
+    # un de nos ISBN dans une édition : accord, sauf si le numéro de tome n'est pas le nôtre (notre tome 1
+    # numéroté 812 à la BnF : c'est le numéro d'une collection d'éditeur, « Bibliothèque verte », pas notre série)
+    nums_o = numeros_orphee or {}
+    def accords(v: list[dict]) -> int:
+        oui = non = 0
+        for t in v:
+            i = isbn13(t["isbn"])
+            if i in nos_isbn:
+                if i in nums_o and nums_o[i] != t["n"]:
+                    non += 1
+                else:
+                    oui += 1
+        return oui if oui > non else 0
+    communs = {k: accords(v) for k, v in groupes.items()} if nos_isbn else {}
     accord = any(communs.values()) if nos_isbn else None
     if nos_isbn and not accord and rattrapage:
         # la recherche par titre n'a pas trouvé nos livres : la notice de notre ISBN donne le titre de la série
@@ -662,7 +676,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
             titre_bnf = n["serie"] or n["titre"]
             if titre_bnf and cle(titre_bnf) not in {cle(t) for t in titres}:
                 autre = notices_bnf({**serie, "titre": titre_bnf, "alias": []}, n["editeur"] or editeur_orphee, volumes_vo,
-                                    debug, isbns_orphee, rattrapage=False)
+                                    debug, isbns_orphee, rattrapage=False, numeros_orphee=numeros_orphee)
                 if autre and autre.get("accordIsbn"):
                     autre["titreBnf"] = titre_bnf
                     return autre
@@ -1203,7 +1217,7 @@ def main() -> int:
                     if one_shot:
                         e["bnf"] = notice_titre_unique(s, editeur, auteur, debug, nos)
                     else:
-                        e["bnf"] = notices_bnf(s, editeur, vo, debug, nos)
+                        e["bnf"] = notices_bnf(s, editeur, vo, debug, nos, numeros_orphee={i: n for n, i in isbns if n is not None})
                     e["bnfVerifie"] = AUJOURDHUI.isoformat()
                 except Exception as ex:
                     pannes.append(f"BnF : {ex}")
