@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T15:00:56Z",
+ "maj": "2026-10-29T15:01:16Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -386,7 +386,7 @@
       "isbn": "2844204961"
      }
     ],
-    "requete": "bib.title all \"bas la vaisselle\" and (bib.doctype=\"a\") and bib.author all \"yann\""
+    "requete": "bib.title all \"bas la vaisselle\" and (bib.doctype=\"a\") and bib.author all \"mens\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -7958,7 +7958,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"dur dur detre un grand frere\" and (bib.doctype=\"a\") and bib.author all \"erica\""
+    "requete": "bib.title all \"dur dur detre un grand frere\" and (bib.doctype=\"a\") and bib.author all \"frost\""
    },
    "bnfVerifie": "2026-10-29",
    "couvEssai": "2026-10-29",
@@ -10950,7 +10950,7 @@
     "dernier": 56,
     "tomes": "1-56",
     "dateDernier": "2018-04",
-    "editeur": "Nathan",
+    "editeur": "Nathan Jeunesse",
     "notices": 61,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb39251663s",
@@ -14565,7 +14565,7 @@
     "dernier": 20,
     "tomes": "2-6,8-20",
     "dateDernier": "2025-11",
-    "editeur": "Seuil",
+    "editeur": "Éd. du Seuil",
     "notices": 19,
     "autresEditeurs": [
      "Éd. France loisirs",
@@ -15118,14 +15118,19 @@
     "dernier": 7,
     "tomes": "1-7",
     "dateDernier": "2014-05",
-    "editeur": "Pika éd.",
-    "notices": 7,
+    "editeur": "Pika édition",
+    "notices": 9,
     "autresEditeurs": [
      "Nobi nobi !"
     ],
-    "ark1": "ark:/12148/cb426958153",
-    "isbn1": "9782811606640",
+    "ark1": "ark:/12148/cb44206561d",
+    "isbn1": "9782811615420",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44206561d",
+      "isbn": "9782811615420"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb426958153",
@@ -15133,21 +15138,16 @@
      },
      {
       "n": 2,
+      "ark": "ark:/12148/cb44206871j",
+      "isbn": "9782811615581"
+     },
+     {
+      "n": 2,
       "ark": "ark:/12148/cb42699021s",
       "isbn": "9782811606657"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb42696270t",
-      "isbn": "9782811606879"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb42761598c",
-      "isbn": "9782811609504"
      }
     ],
-    "accordIsbn": false,
+    "accordIsbn": true,
     "requete": "bib.title all \"kingdom hearts\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782811615420"
@@ -17248,7 +17248,7 @@
       "isbn": "2912084644"
      }
     ],
-    "requete": "bib.title all \"match de foot qui dura tout un ete\" and (bib.doctype=\"a\") and bib.author all \"bernard\""
+    "requete": "bib.title all \"match de foot qui dura tout un ete\" and (bib.doctype=\"a\") and bib.author all \"chambaz\""
    },
    "couvFR": {
     "source": "Decitre",
@@ -21560,7 +21560,7 @@
     "tomes": "1",
     "dateDernier": "2026",
     "editeur": "Éditions Gallimard",
-    "notices": 35,
+    "notices": 32,
     "ark1": "ark:/12148/cb48754193w",
     "isbn1": "9782073143815",
     "candidatsCouv": [
@@ -21580,7 +21580,7 @@
       "isbn": "9782075120258"
      }
     ],
-    "requete": "bib.title all \"petit prince\" and (bib.doctype=\"a\") and bib.author all \"exupery\""
+    "requete": "bib.title all \"petit prince\" and (bib.doctype=\"a\") and bib.author all \"antoine\""
    },
    "couvIsbn": "9782070105021"
   },
@@ -27430,7 +27430,8 @@
     "autresEditeurs": [
      "Flammarion",
      "Jungle",
-     "XO jeunesse"
+     "XO jeunesse",
+     "XO éd."
     ],
     "ark1": "ark:/12148/cb39004085s",
     "isbn1": "2020602164",
@@ -29247,7 +29248,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"un monde de cochon\" and (bib.doctype=\"a\") and bib.author all \"mario\""
+    "requete": "bib.title all \"un monde de cochon\" and (bib.doctype=\"a\") and bib.author all \"ramos\""
    },
    "couvEssai": "2026-10-29",
    "couvVersion": 3,
