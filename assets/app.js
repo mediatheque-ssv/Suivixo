@@ -13,7 +13,7 @@ import { publier, verifierCle, lancerVerification } from "./github.js?v=3";
  */
 const COLLECTIONS = {
   mangas: { nom: "Mangas", des: "des mangas du réseau", titre: "Les mangas", dossier: "data/", couv: "couvertures/", reseau: true, mangas: true },
-  bd: { nom: "BD jeunesse", des: "des BD jeunesse", titre: "Les BD jeunesse", dossier: "data/bd/", couv: "couvertures/bd/", reseau: false },
+  bd: { nom: "BD jeunesse", des: "des BD jeunesse", titre: "Les BD jeunesse", dossier: "data/bd/", couv: "couvertures/bd/", reseau: false, intercalaires: true },
   romans: { nom: "Romans jeunesse", des: "des romans jeunesse", titre: "Les romans jeunesse", dossier: "data/romans/", couv: "couvertures/romans/", reseau: false },
 };
 const COL_ID = (() => {
@@ -171,6 +171,8 @@ function filtrer({ ignorerStatut = false } = {}) {
     if (p.presence === "moi" && !(v.presence === "ici" || v.presence === "partagee")) return false;
     if (p.presence === "reseau" && v.presence === "aucune") return false;
     if (p.sansUniques && v.s.type === "One shot") return false;
+    // intercalaire en rayon (BD) : seulement pour les séries, pas les titres uniques
+    if (COL.intercalaires && p.intercalaire && (v.s.type === "One shot" || !!v.s.intercalaire !== (p.intercalaire === "avec"))) return false;
     if (p.public && (v.s.public || "") !== p.public) return false;
     if (p.genre && v.genre !== p.genre) return false;
     if (!ignorerStatut && p.statut && v.statut.cle !== p.statut) return false;
@@ -379,7 +381,7 @@ function legende() {
 
 function nbFiltres() {
   const p = etat.prefs;
-  return [p.presence !== "moi", COL.reseau && p.perimetre !== "reseau", !!p.public, !!p.genre, p.tri !== "titre", !!p.sansUniques].filter(Boolean).length;
+  return [p.presence !== "moi", COL.reseau && p.perimetre !== "reseau", !!p.public, !!p.genre, p.tri !== "titre", !!p.sansUniques, COL.intercalaires && !!p.intercalaire].filter(Boolean).length;
 }
 
 function rendreSeries() {
@@ -428,6 +430,11 @@ function rendreSeries() {
       <div style="display:grid;gap:12px;align-content:start">
         <label class="champ"><span>Public</span><select id="f-public">${options(publics, p.public)}</select></label>
         <label class="champ"><span>Genre</span><select id="f-genre">${options(genres, p.genre)}</select></label>
+        ${COL.intercalaires ? `<label class="champ"><span>Intercalaire en rayon</span><select id="f-intercalaire">
+          <option value="" ${!p.intercalaire ? "selected" : ""}>Toutes les séries</option>
+          <option value="sans" ${p.intercalaire === "sans" ? "selected" : ""}>Séries sans intercalaire</option>
+          <option value="avec" ${p.intercalaire === "avec" ? "selected" : ""}>Séries avec intercalaire</option>
+        </select></label>` : ""}
       </div>
       <label class="champ" style="align-content:start"><span>Trier par</span><select id="f-tri">${tris.map(([k, l]) => `<option value="${k}" ${p.tri === k ? "selected" : ""}>${l}</option>`).join("")}</select></label>
       ${n ? `<button type="button" class="btn-lien reinit" data-action="reinit">Réinitialiser les filtres</button>` : ""}
@@ -458,7 +465,27 @@ function carteSerie(v) {
   </button>`;
 }
 
+function boutonIntercalaire(v, classe = "btn-intercalaire") {
+  if (!COL.intercalaires || v.s.type === "One shot") return "";
+  const oui = !!v.s.intercalaire;
+  return `<button type="button" class="${classe}" data-intercalaire="${h(v.s.id)}" aria-pressed="${oui}"
+    title="${oui ? "Intercalaire en rayon (cliquer pour l'enlever)" : "Pas d'intercalaire en rayon (cliquer si on en a un)"}">${oui ? "Intercalaire ✓" : "Sans intercalaire"}</button>`;
+}
+
+function basculerIntercalaire(id) {
+  const s = etat.series.find((x) => x.id === id);
+  if (!s) return;
+  if (s.intercalaire) delete s.intercalaire; else s.intercalaire = true;
+  marquer("series");
+  calculer();
+}
+
 function ligneSerie(v) {
+  const btn = boutonIntercalaire(v);
+  return btn ? `<div class="ligne-avec-action">${ligneSerieSeule(v)}${btn}</div>` : ligneSerieSeule(v);
+}
+
+function ligneSerieSeule(v) {
   const meta = v.f?.editeur || "";
   return `<button type="button" class="ligne" data-serie="${h(v.s.id)}">
     <span class="vignette">${couverture(v)}</span>
@@ -553,7 +580,7 @@ function ouvrirFiche(id) {
       <div>
         <h1 id="fiche-titre">${h(s.titre)}</h1>
         ${meta ? `<p class="sous-titre">${h(meta)}</p>` : ""}
-        ${statut(v.statut.cle)}
+        ${statut(v.statut.cle)} ${boutonIntercalaire(v, "btn-intercalaire fiche-intercalaire")}
       </div>
     </div>
     <div class="fiche-corps">
@@ -665,6 +692,7 @@ function formulaire(s) {
     <label class="champ"><span>Public</span><select name="public">${opt(["", "Jeunesse", "Ado", "Adulte"], s.public)}</select></label>
     <label class="champ"><span>Âge conseillé</span><input name="age" value="${h(s.age)}" placeholder="12+"></label>
     <label class="champ"><span>Type</span><select name="type">${opt(["Série", "One shot"], s.type || "Série")}</select></label>
+    ${COL.intercalaires ? `<label class="choix large"><input type="checkbox" name="intercalaire" ${s.intercalaire ? "checked" : ""}> Intercalaire en rayon pour cette série</label>` : ""}
     <label class="champ"><span>Tomes en commande</span><input name="commande" value="${h(s.commande)}" placeholder="12, 13"></label>
     <label class="champ"><span>Tomes parus en France (si les sources se trompent)</span><input name="parus" type="number" min="0" value="${Number.isFinite(m.parus) ? m.parus : ""}" placeholder="automatique"></label>
     <label class="champ"><span>État en France (si les sources se trompent)</span><select name="etat">${opt(["", "En cours", "Terminée", "En pause", "Abandonnée"], m.etat)}</select></label>
@@ -688,6 +716,7 @@ function enregistrerFormulaire(form) {
   s.titre = t(d.titre) || s.titre;
   for (const k of ["genre", "public", "age", "commande", "commentaire"]) { if (t(d[k])) s[k] = t(d[k]); else delete s[k]; }
   s.type = d.type === "One shot" ? "One shot" : "Série";
+  if (COL.intercalaires) { if (d.intercalaire) s.intercalaire = true; else delete s.intercalaire; }
   const alias = t(d.alias).split("\n").map(t).filter(Boolean);
   if (alias.length) s.alias = alias; else delete s.alias;
   const liens = { ...(s.liens || {}) };
@@ -1476,6 +1505,7 @@ function brancher() {
     const t = e.target;
     if (t.id === "f-public") { etat.prefs.public = t.value; sauverPrefs(); rendre(); }
     else if (t.id === "f-genre") { etat.prefs.genre = t.value; sauverPrefs(); rendre(); }
+    else if (t.id === "f-intercalaire") { etat.prefs.intercalaire = t.value; if (t.value) etat.prefs.affichage = "liste"; sauverPrefs(); rendre(); $("#f-intercalaire")?.focus(); }
     else if (t.id === "f-tri") { etat.prefs.tri = t.value; sauverPrefs(); rendre(); }
     else if (t.id === "f-uniques") { etat.prefs.sansUniques = t.checked; sauverPrefs(); rendre(); $("#f-uniques")?.focus(); }
     else if (t.type === "radio" && (t.name === "presence" || t.name === "perimetre")) {
@@ -1497,12 +1527,21 @@ function brancher() {
     if (t.dataset.portee) { etat.prefs.pretsPortee = t.dataset.portee; sauverPrefs(); rendre(); $(`[data-portee="${t.dataset.portee}"]`)?.focus(); return; }
     if (t.dataset.triPrets) { etat.prefs.pretsTri = t.dataset.triPrets; sauverPrefs(); rendre(); $(`[data-tri-prets="${t.dataset.triPrets}"]`)?.focus(); return; }
     if (t.dataset.affichage) { etat.prefs.affichage = t.dataset.affichage; sauverPrefs(); rendre(); return; }
+    if (t.dataset.intercalaire) {
+      // la série reste affichée jusqu'au prochain changement de filtre, pour pouvoir corriger un clic
+      const id = t.dataset.intercalaire;
+      basculerIntercalaire(id);
+      const oui = !!etat.series.find((x) => x.id === id)?.intercalaire;
+      t.setAttribute("aria-pressed", String(oui));
+      t.textContent = oui ? "Intercalaire ✓" : "Sans intercalaire";
+      return;
+    }
     if (t.dataset.serie) { ouvrirFiche(t.dataset.serie); return; }
     const a = t.dataset.action;
     if (a === "plus") { etat.limite += 300; rendre(); }
     else if (a === "filtres") { etat.filtresOuverts = !etat.filtresOuverts; rendre(); $(".btn-filtres")?.focus(); }
     else if (a === "reinit") {
-      Object.assign(etat.prefs, { presence: PREFS_DEFAUT.presence, perimetre: PREFS_DEFAUT.perimetre, public: "", genre: "", tri: "titre", statut: null, sansUniques: false });
+      Object.assign(etat.prefs, { presence: PREFS_DEFAUT.presence, perimetre: PREFS_DEFAUT.perimetre, public: "", genre: "", tri: "titre", statut: null, sansUniques: false, intercalaire: "" });
       sauverPrefs(); calculer(); rendre();
     }
     else if (a === "csv") exporterCSV();
@@ -1548,6 +1587,16 @@ function brancher() {
     if (b) verifierMaintenant([b.dataset.id]);
     const c = e.target.closest("[data-copier]");
     if (c) copierTexte(c.dataset.copier);
+    const i = e.target.closest("[data-intercalaire]");
+    if (i) {
+      basculerIntercalaire(i.dataset.intercalaire);
+      const oui = !!etat.series.find((x) => x.id === i.dataset.intercalaire)?.intercalaire;
+      i.setAttribute("aria-pressed", String(oui));
+      i.textContent = oui ? "Intercalaire ✓" : "Sans intercalaire";
+      const caseForm = $('#fiche input[name="intercalaire"]');
+      if (caseForm) caseForm.checked = oui;
+      rendre();
+    }
   });
   $("#fiche").addEventListener("change", (e) => {
     const t = e.target;

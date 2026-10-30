@@ -553,6 +553,22 @@ details.repli[open] > summary { margin-bottom: 12px; }
 .rattacher select { width: 100%; }
 
 
+/* BD : intercalaire en rayon, à cocher depuis la liste ou la fiche */
+.ligne-avec-action { display: flex; align-items: center; border-bottom: 1px solid var(--filet); }
+.ligne-avec-action:last-child { border-bottom: 0; }
+.ligne-avec-action .ligne { flex: 1; min-width: 0; border-bottom: 0; }
+.ligne-avec-action .btn-intercalaire { margin: 0 14px 0 0; flex: none; }
+.btn-intercalaire { padding: 4px 10px; font: inherit; font-size: 0.75rem; font-weight: 700; white-space: nowrap; cursor: pointer;
+  color: var(--encre-2); background: var(--surface); border: 1.5px dashed var(--filet-fort); border-radius: 999px; }
+.btn-intercalaire[aria-pressed="true"] { color: var(--s-attente); background: var(--s-attente-f); border: 1.5px solid currentColor; }
+.btn-intercalaire:hover { background: var(--survol); }
+.btn-intercalaire:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.fiche-intercalaire { margin-left: 6px; vertical-align: middle; }
+@media (max-width: 760px) {
+  .ligne-avec-action { flex-wrap: wrap; }
+  .ligne-avec-action .btn-intercalaire { margin: -6px 14px 12px 70px; }
+}
+
 /* Fiche : exemplaires en rayon (code-barre et ISBN à copier pour Orphée, lien vers le portail) */
 ul.exemplaires { list-style: none; margin: 8px 0 4px; padding: 0; }
 ul.exemplaires li { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 4px 12px; padding: 9px 0; border-bottom: 1px solid var(--filet); font-size: 0.875rem; }
