@@ -34,9 +34,9 @@ L'état de l'édition française vient d'abord de la fiche Manga-News ; sans fic
 
 Quand les sources se trompent (édition française différente, série arrêtée par l'éditeur…), on peut forcer le nombre de tomes parus et l'état dans la fiche de la série.
 
-## Publier des modifications
+## Enregistrer des modifications
 
-Les modifications (import, fiches) sont d'abord enregistrées sur le poste. Pour les partager avec l'équipe, il faut une clé d'accès GitHub, à créer une seule fois :
+Les modifications (import, fiches, intercalaires) sont gardées sur le poste puis enregistrées automatiquement pour toute l'équipe quelques secondes après. Les fiches sont fusionnées avec la version du dépôt, pour ne pas écraser ce qu'un autre poste a enregistré entre-temps. Il faut pour ça une clé d'accès GitHub, à créer une seule fois :
 
 1. Se connecter à GitHub avec le compte **mediatheque-ssv**.
 2. Aller sur https://github.com/settings/personal-access-tokens/new
@@ -51,7 +51,7 @@ La clé reste dans le navigateur. Les collègues qui consultent seulement n'en o
 index.html, assets/        le site (HTML, CSS, JavaScript sans compilation)
 assets/core.js             la logique : lecture d'Orphée, rattachement des titres, statuts
 data/series.json           mangas : les séries et ce qui est saisi à la main
-data/fonds.json            mangas : le dernier import Orphée publié (tomes par médiathèque)
+data/fonds.json            mangas : le dernier import Orphée enregistré (tomes par médiathèque)
 data/enrich.json           mangas : les infos AniList, Manga-News et BnF (écrit par la vérification automatique)
 data/bd/, data/romans/     les mêmes fichiers pour la BD et les romans jeunesse
 couvertures/               les couvertures françaises (couvertures/bd/, couvertures/romans/ pour les autres collections)
@@ -64,4 +64,4 @@ scripts/seed_from_excel.mjs  la migration depuis l'ancien Excel (déjà faite)
 
 - Tests de la logique : `npm install` puis `npm test`.
 - Lancer la vérification des parutions à la main : onglet **Actions** → « Vérifier les parutions » → *Run workflow*. Le champ « Tester une seule série » affiche le détail pour une série sans rien enregistrer.
-- Le site est servi par GitHub Pages depuis la branche `main`, à la racine (*Settings* → *Pages* → *Deploy from a branch*). Il se met à jour tout seul après chaque publication et chaque vérification des parutions.
+- Le site est servi par GitHub Pages depuis la branche `main`, à la racine (*Settings* → *Pages* → *Deploy from a branch*). Il se met à jour tout seul après chaque enregistrement et chaque vérification des parutions.
