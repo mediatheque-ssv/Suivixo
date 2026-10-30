@@ -1025,7 +1025,8 @@ function controles() {
     || ((etat.enrich.series?.[id]?.bnf?.dernier || 0) >= 2 && etat.enrich.series[id].bnf.accordIsbn !== false);
   const anomalies = (etat.fonds.anomalies || []).filter((a) => numerotee(a.serie, a.bib));
   const aRelier = !COL.mangas ? [] : mes.filter((v) => !v.s.liens?.anilist && (!v.enr?.anilist || v.enr.anilist.auteurDifferent || v.enr.anilist.auto && (v.enr.anilist.score ?? 1) < 0.9) && v.s.genre !== "Comics" && v.s.type !== "One shot");
-  const incomplet = mes.filter((v) => !v.genre || !v.s.public);
+  // les titres uniques (romans isolés…) n'y figurent pas : surtout utile pour les séries
+  const incomplet = mes.filter((v) => v.s.type !== "One shot" && (!v.genre || !v.s.public));
   return { commandesRecues, sansExemplaire, nouvelles, anciennesNouvelles, dernierImport, auDela, anomalies, aRelier, incomplet, bib };
 }
 
@@ -1078,8 +1079,8 @@ function rendreControles() {
     bloc("Nouvelles séries des imports précédents, pas encore vues", c.anciennesNouvelles.map((v) => li(v.s.id, v.s.titre, `Ajoutée par l'import du ${dateFr(v.s.ajout)}`,
       `<button class="btn" data-action="vu" data-id="${h(v.s.id)}">C'est bon</button>`)),
       `Elles ne comptent plus dans le chiffre de l'onglet.${c.anciennesNouvelles.length > 3 ? ` <button class="btn" data-action="tout-vu" data-quand="anciennes">Tout marquer comme bon</button>` : ""}`),
-    bloc(`Séries de ${h(bib)} sans genre ou sans public`, c.incomplet.map((v) => li(v.s.id, v.s.titre, `${[!v.genre && "genre", !v.s.public && "public"].filter(Boolean).join(" et ")} à compléter`)),
-      "Utile pour les filtres de la liste des séries."),
+    bloc(`Séries de ${h(bib)} sans genre${c.incomplet.some((v) => !v.s.public) ? " ou sans public" : ""}`, c.incomplet.map((v) => li(v.s.id, v.s.titre, `${[!v.genre && "genre", !v.s.public && "public"].filter(Boolean).join(" et ")} à compléter`)),
+      `Le genre sert seulement au filtre « Genre » de la liste des séries. ${COL.mangas ? "Il vient d'AniList (relie la série) ou" : "Il vient du champ CS2 d'Orphée : il suffit de le remplir pour un exemplaire de la série (le tome 1, par exemple). Sinon, il vient"} de « Modifier la série ». Les titres uniques ne sont pas listés ici.`),
   ].join("");
 
   $("#vue").innerHTML = `
