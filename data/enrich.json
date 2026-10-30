@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T15:44:25Z",
+ "maj": "2026-10-30T15:44:52Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -7904,7 +7904,8 @@
    },
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.cc_sakura_01_medium.webp",
    "liensVus": {
-    "mangaNews": "index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1"
+    "mangaNews": "index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1",
+    "bedetheque": "BD-Card-Captor-Sakura-INT1-331395.html"
    }
   },
   "card-captor-sakura-clear-card-arc": {
