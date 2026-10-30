@@ -310,7 +310,7 @@ RE_AUTRE_FORMAT = re.compile(r"light\s*novel|\bnovel\b|\broman\b|art\s*book|fan\
 
 
 def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: dict | None = None,
-                     auteur: str = "", maxi: int = 0) -> dict | None:
+                     auteur: str = "", maxi: int = 0, url_serie: str = "") -> dict | None:
     idx = manga_news()
     eo = norm_editeur(editeur_orphee)
     ja = jetons_nom(auteur)
@@ -320,7 +320,8 @@ def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: 
     # 1. la page indiquée dans la série (souvent reprise de l'ancien Excel) : c'est elle qui fait foi
     lien = (serie.get("liens") or {}).get("mangaNews")
     if lien:
-        cibles = {chemin_mn(lien), chemin_mn(page_serie_mn(lien))}  # page d'un tome : celle de sa série
+        # page d'un tome : celle de sa série (lue sur la page du tome au passage précédent, sinon devinée)
+        cibles = {chemin_mn(lien), chemin_mn(page_serie_mn(lien))} | ({chemin_mn(url_serie)} if url_serie else set())
         cands = [c for liste in idx.values() for c in liste if chemin_mn(c["url"]) in cibles]
         manuel = bool(cands)
     # 2. même titre
@@ -374,7 +375,6 @@ _dernier_mn = 0.0
 def url_manga_news(serie: dict, mn: dict | None) -> str | None:
     lien = (serie.get("liens") or {}).get("mangaNews")
     if lien:
-        lien = page_serie_mn(lien)  # page d'un tome indiquée : on lit la fiche de sa série (chiffres de cette édition)
         return lien if lien.startswith("http") else "https://www.manga-news.com/" + lien.lstrip("/")
     return (mn or {}).get("url") or None
 
@@ -410,8 +410,17 @@ def fiche_manga_news(url: str | None, debug: bool = False) -> dict | None:
     page = h.unescape(re.sub(r"<script.*?</script>|<style.*?</style>", " ", page, flags=re.S))
     texte = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page))
     vf, vo = RE_VF.search(texte), RE_VO.search(texte)
-    if re.search(r"/manga/[^/]+/vol-", url):
+    serie_url = ""
+    m_vol = re.search(r"/manga/([^/]+)/vol-", url)
+    if m_vol:
         vf = vo = None  # page d'un tome : on n'en garde que l'image, ses chiffres peuvent concerner une autre édition
+        # lien vers la page de la série de ce tome (celle dont le nom ressemble le plus à celui du tome)
+        import difflib
+        slug = m_vol.group(1).lower()
+        liens = {x.rstrip("/") for x in re.findall(r'href="((?:https?://www\.manga-news\.com)?/index\.php/serie/[^"#?\s]+)"', page)}
+        notes = sorted(((difflib.SequenceMatcher(None, slug, l.rsplit("/serie/", 1)[1].lower()).ratio(), l) for l in liens), reverse=True)
+        if notes and notes[0][0] >= 0.6:
+            serie_url = notes[0][1] if notes[0][1].startswith("http") else "https://www.manga-news.com" + notes[0][1]
     og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page) or re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', page)
     couv = og.group(1).strip() if og and "/public/images/" in og.group(1) else ""
     if not couv:
@@ -428,7 +437,7 @@ def fiche_manga_news(url: str | None, debug: bool = False) -> dict | None:
         # on garde au moins la date du dernier tome paru en France.
         _, d = _bloc_volume(page, "Dernier paru", "paraître")
         return {"url": url, "lu": False, **({"vfDernierDate": d} if d else {}), **({"couv": couv} if couv else {}),
-                "verifie": AUJOURDHUI.isoformat()}
+                **({"serieUrl": serie_url} if serie_url else {}), "verifie": AUJOURDHUI.isoformat()}
     if vf:
         r.update(vf=int(vf.group(1)), vfStatut=vf.group(2).strip())
     if vo:
@@ -466,11 +475,18 @@ def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> N
     if not url:
         e.pop("mangaNewsFiche", None)  # la page lue avant n'était pas la bonne
         return
-    autre_page = chemin_mn((e.get("mangaNewsFiche") or {}).get("url") or "") != chemin_mn(url)
+    f0 = e.get("mangaNewsFiche") or {}
+    autre_page = chemin_mn(f0.get("lien") or f0.get("url") or "") != chemin_mn(url)
     if not (debug or autre_page or fiche_a_lire(e, forcer)):
         return
     try:
         e["mangaNewsFiche"] = fiche_manga_news(url, debug)
+        f = e["mangaNewsFiche"] or {}
+        if f.get("serieUrl"):
+            # lien indiqué vers la page d'un tome (bonne édition) : les chiffres viennent de la page de sa série,
+            # l'image reste celle du tome ; « lien » garde la page indiquée pour le site
+            fs = fiche_manga_news(f["serieUrl"], debug) or {}
+            e["mangaNewsFiche"] = {**fs, **({"couv": f["couv"]} if f.get("couv") else {}), "lien": url}
     except Exception as ex:
         print(f"  fiche Manga-News : {ex}", file=sys.stderr, flush=True)
         if "404" not in str(ex) and "410" not in str(ex):
@@ -1161,7 +1177,7 @@ def main() -> int:
             # rapprochement Manga-News refait pour toutes les séries (rapide), fiche relue si la page a changé
             e.setdefault("liensVus", s.get("liens") or {})
             if mangas:
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi, url_serie=(e.get("mangaNewsFiche") or {}).get("url", "") if (e.get("mangaNewsFiche") or {}).get("lien") else "")
                 if s.get("type") != "One shot" or (s.get("liens") or {}).get("mangaNews"):
                     lire_fiche(s, e, False, debug)
             if not couverture_a_chercher(s, e, args.forcer, isbns):
@@ -1181,7 +1197,7 @@ def main() -> int:
             continue
         if args.manga_news_seulement:
             if s.get("type") != "One shot":
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi, url_serie=(e.get("mangaNewsFiche") or {}).get("url", "") if (e.get("mangaNewsFiche") or {}).get("lien") else "")
                 lire_fiche(s, e, args.forcer, debug)
                 cache[s["id"]] = e
                 faites += 1
@@ -1192,14 +1208,14 @@ def main() -> int:
             # Revérifie les liens AniList trouvés automatiquement, sans toucher à la BnF ni aux couvertures
             if lien or not auteur or s.get("type") == "One shot":
                 if s.get("type") != "One shot":
-                    e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                    e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi, url_serie=(e.get("mangaNewsFiche") or {}).get("url", "") if (e.get("mangaNewsFiche") or {}).get("lien") else "")
                     lire_fiche(s, e, False, debug)
                     cache[s["id"]] = e
                 continue
             print(f"- {s['titre']}", flush=True)
             try:
                 e["anilist"] = chercher_anilist(s, auteur, debug)
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi, url_serie=(e.get("mangaNewsFiche") or {}).get("url", "") if (e.get("mangaNewsFiche") or {}).get("lien") else "")
                 lire_fiche(s, e, False, debug)
                 e["anilistVerifie"] = AUJOURDHUI.isoformat()
                 cache[s["id"]] = e
@@ -1256,7 +1272,7 @@ def main() -> int:
                     pannes.append(f"BnF : {ex}")
             # Manga-News (jeu de données, puis fiche : pour un one shot, seulement si une page est indiquée)
             if mangas:
-                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi)
+                e["mangaNews"] = tomes_manga_news(s, editeur, debug, e.get("anilist"), auteur, maxi, url_serie=(e.get("mangaNewsFiche") or {}).get("url", "") if (e.get("mangaNewsFiche") or {}).get("lien") else "")
                 if not one_shot or (s.get("liens") or {}).get("mangaNews"):
                     lire_fiche(s, e, args.forcer, debug)
             # Couverture française, une seule fois (puis nouvel essai si elle manque)

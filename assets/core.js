@@ -465,7 +465,9 @@ export function ficheMangaNews(serie, enr, memeIllisible = false) {
   const f = enr?.mangaNewsFiche;
   if (!f || (!memeIllisible && (f.lu === false || !(Number.isFinite(f.vf) || Number.isFinite(f.vo))))) return null;
   const manuel = serie.liens?.mangaNews;
-  const okManuel = manuel && f.url && f.url.endsWith(manuel.replace(/^https?:\/\/(www\.)?manga-news\.com\//, ""));
+  const chemin = (u) => (u || "").replace(/^https?:\/\/(www\.)?manga-news\.com\//, "");
+  // f.lien : page d'un tome indiquée à la main, dont la fiche de la série a été lue
+  const okManuel = manuel && ((f.url && f.url.endsWith(chemin(manuel))) || (f.lien && chemin(f.lien) === chemin(manuel)));
   // page trouvée dans le jeu de données Manga-News (même éditeur), si aucune page n'est indiquée ou si elle a disparu
   const okJeu = enr.mangaNews && !enr.mangaNews.editeurDifferent && f.url === enr.mangaNews.url && (!manuel || f.secours);
   return okManuel || okJeu ? f : null;
