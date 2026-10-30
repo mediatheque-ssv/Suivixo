@@ -425,30 +425,6 @@
    },
    "genreOrphee": "Comédie/Humour"
   },
-  "anatole-latuile": {
-   "titreOrphee": "Anatole Latuile",
-   "editeur": "BD kids",
-   "auteur": "Didier Anne",
-   "tomes": {
-    "Servon-sur-Vilaine": [
-     20
-    ]
-   },
-   "isbn": {
-    "20": "9791036396045"
-   },
-   "exemplaires": {
-    "Servon-sur-Vilaine": [
-     {
-      "t": 20,
-      "i": "979-10-363-9604-5",
-      "c": "30327000335456",
-      "k": "BD ANA"
-     }
-    ]
-   },
-   "genreOrphee": "Comédie/Humour"
-  },
   "anna-et-froga": {
    "titreOrphee": "Anna et Froga",
    "editeur": "Sarbacane",
@@ -1359,7 +1335,8 @@
      16,
      17,
      18,
-     19
+     19,
+     20
     ]
    },
    "retires": [
@@ -16523,5 +16500,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-10-30T11:04:27.753Z"
+ "publie": "2026-10-30T11:14:54.951Z"
 }

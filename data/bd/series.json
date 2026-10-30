@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-10-28T13:31:23.038Z",
+ "publie": "2026-10-30T11:14:54.951Z",
  "series": [
   {
    "id": "achille-talon",
@@ -59,12 +59,6 @@
   {
    "id": "ana-ana",
    "titre": "Ana Ana",
-   "public": "Jeunesse",
-   "type": "Série"
-  },
-  {
-   "id": "anatole-latuile",
-   "titre": "Anatole Latuile",
    "public": "Jeunesse",
    "type": "Série"
   },
@@ -156,7 +150,10 @@
    "id": "bd-anatole-latuile",
    "titre": "BD Anatole Latuile",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "alias": [
+    "Anatole Latuile"
+   ]
   },
   {
    "id": "bd-bob-l-eponge",
