@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T11:15:16Z",
+ "maj": "2026-10-30T11:23:36Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -428,7 +428,7 @@
    "couvIsbn": "9782822240949"
   },
   "ana-ana": {
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "couvVersion": 3,
    "couvEssaiMN": "",
    "bnf": {
@@ -465,14 +465,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"ana ana\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-10-29",
+   "verifie": "2026-10-30",
    "liensVus": {},
-   "bnfVerifie": "2026-10-29",
-   "couvFR": {
-    "source": "Open Library",
-    "tome": 1,
-    "maj": "2026-10-28"
-   },
+   "bnfVerifie": "2026-10-30",
    "couvIsbn": "9782205074109,9782205075687,9782205079227"
   },
   "ana-l-entremonde": {
