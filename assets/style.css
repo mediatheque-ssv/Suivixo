@@ -553,6 +553,10 @@ details.repli[open] > summary { margin-bottom: 12px; }
 .rattacher select { width: 100%; }
 
 
+/* recherche : séries trouvées hors de ma médiathèque */
+.note-recherche { margin: 0 0 16px; padding: 10px 14px; background: var(--prim-f); border-radius: var(--rayon); font-size: 0.9375rem; line-height: 1.6; }
+.note-recherche .btn-lien { font-weight: 700; }
+
 /* BD : intercalaire en rayon, à cocher depuis la liste ou la fiche */
 .ligne-avec-action { display: flex; align-items: center; border-bottom: 1px solid var(--filet); }
 .ligne-avec-action:last-child { border-bottom: 0; }

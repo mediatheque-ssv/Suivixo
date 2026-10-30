@@ -163,13 +163,13 @@ function calculer() {
 
 const ORDRE_STATUT = ["completer", "continuer", "attente", "finie", "abandonnee", "verifier"];
 
-function filtrer({ ignorerStatut = false } = {}) {
+function filtrer({ ignorerStatut = false, ignorerPresence = false } = {}) {
   const p = etat.prefs;
   // « Boule et Bill » trouve aussi « Boule & Bill », et inversement
   const q = C.sansAccents(p.q).toLowerCase().replace(/&/g, " et ").replace(/\s+/g, " ").trim();
   return etat.vues.filter((v) => {
-    if (p.presence === "moi" && !(v.presence === "ici" || v.presence === "partagee")) return false;
-    if (p.presence === "reseau" && v.presence === "aucune") return false;
+    if (!ignorerPresence && p.presence === "moi" && !(v.presence === "ici" || v.presence === "partagee")) return false;
+    if (!ignorerPresence && p.presence === "reseau" && v.presence === "aucune") return false;
     if (p.sansUniques && v.s.type === "One shot") return false;
     // intercalaire en rayon (BD) : seulement pour les séries, pas les titres uniques
     if (COL.intercalaires && p.intercalaire && (v.s.type === "One shot" || !!v.s.intercalaire !== (p.intercalaire === "avec"))) return false;
@@ -390,6 +390,8 @@ function rendreSeries() {
   const comptes = {};
   base.forEach((v) => { comptes[v.statut.cle] = (comptes[v.statut.cle] || 0) + 1; });
   const liste = trier(filtrer());
+  // une recherche qui trouve des séries absentes de ma médiathèque : on le dit au lieu de les cacher
+  const ailleurs = p.q.trim() && p.presence !== "toutes" ? filtrer({ ignorerPresence: true }).filter((v) => !liste.includes(v)) : [];
   const publics = [...new Set(etat.series.map((s) => s.public).filter(Boolean))].sort();
   const genres = [...new Set(etat.vues.map((v) => v.genre).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr"));
   const bib = court(p.bib);
@@ -446,7 +448,9 @@ function rendreSeries() {
       <button type="button" data-statut="" aria-pressed="${!p.statut}"><span class="pt pt-tout"></span>Toutes <span class="nb">${nf.format(base.length)}</span></button>
       ${ORDRE_STATUT.filter((k) => comptes[k]).map((k) => `<button type="button" data-statut="${k}" aria-pressed="${p.statut === k}"><span class="pt pt-${k}"></span>${C.STATUTS[k]} <span class="nb">${nf.format(comptes[k])}</span></button>`).join("")}
     </div>
-    ${!liste.length ? `<p class="vide">Aucune série ne correspond. Essaie d'élargir les filtres.</p>`
+    ${ailleurs.length ? `<p class="note-recherche">${liste.length ? "Aussi" : `Aucune série présente à ${h(bib)} ne correspond, mais`} ${pluriel(ailleurs.length, "série")} ${COL.reseau ? "ailleurs dans le réseau" : "sans exemplaire"} : ${ailleurs.slice(0, 5).map((v) => `<button type="button" class="btn-lien" data-serie="${h(v.s.id)}">${h(v.s.titre)}</button>${v.presence === "reseau" ? ` <span class="discret">(${h(Object.keys(v.f?.tomes || {}).filter((b) => (v.f.tomes[b] || []).length).map(court).join(", "))})</span>` : ""}`).join(", ")}${ailleurs.length > 5 ? "…" : ""}
+      <button type="button" class="btn-lien" data-action="voir-partout">Les afficher dans la liste</button></p>` : ""}
+    ${!liste.length && !ailleurs.length ? `<p class="vide">Aucune série ne correspond. Essaie d'élargir les filtres.</p>` : !liste.length ? ""
       : grille ? `<div class="grille">${liste.slice(0, etat.limite).map(carteSerie).join("")}</div>`
       : `<div class="liste${avecPrets ? " avec-prets" : ""}">${liste.slice(0, etat.limite).map(ligneSerie).join("")}</div>`}
     ${liste.length > etat.limite ? `<button class="btn plus" data-action="plus">Afficher les ${nf.format(liste.length - etat.limite)} autres séries</button>` : ""}
@@ -1544,6 +1548,7 @@ function brancher() {
       Object.assign(etat.prefs, { presence: PREFS_DEFAUT.presence, perimetre: PREFS_DEFAUT.perimetre, public: "", genre: "", tri: "titre", statut: null, sansUniques: false, intercalaire: "" });
       sauverPrefs(); calculer(); rendre();
     }
+    else if (a === "voir-partout") { etat.prefs.presence = COL.reseau ? "reseau" : "toutes"; etat.prefs.statut = null; sauverPrefs(); calculer(); rendre(); }
     else if (a === "csv") exporterCSV();
     else if (a === "csv-prets") exporterCSVPrets();
     else if (a === "imprimer") window.print();
