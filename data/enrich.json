@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T15:50:27Z",
+ "maj": "2026-10-30T15:56:02Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -7886,13 +7886,13 @@
     "editeur": "Pika",
     "url": "https://www.manga-news.com/index.php/serie/Card-Captor-Sakura",
     "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.cc_sakura_01_medium.webp"
+    "couv": "https://www.manga-news.com/public/images/series/.cc_sakura_01_medium.webp",
+    "manuel": true
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Card-Captor-Sakura",
     "couv": "https://www.manga-news.com/public/images/vols/card-captor-sakura-deluxe-1-pika.jpg",
-    "vf": 12,
-    "vfStatut": "Terminé",
+    "vf": 9,
     "vo": 12,
     "voStatut": "Terminé",
     "vfDernier": 9,
@@ -7900,7 +7900,8 @@
     "pays": "JP",
     "annee": 1996,
     "verifie": "2026-10-30",
-    "lien": "https://www.manga-news.com/index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1"
+    "lien": "https://www.manga-news.com/index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1",
+    "edition": true
    },
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
