@@ -52,9 +52,11 @@ permissions:
   contents: write
 
 concurrency:
-  # les tests d'une seule série tournent à part ; chaque collection a sa file, pour que la BD
-  # et les romans puissent tourner en même temps (l'enregistrement fusionne fichier par fichier)
-  group: parutions-${{ inputs.serie && 'test' || inputs.collection || 'toutes' }}
+  # chaque collection a sa file, pour que la BD et les romans puissent tourner en même temps
+  # (l'enregistrement fusionne fichier par fichier). Le bouton « Revérifier » d'une fiche (series)
+  # et les tests d'une seule série ne font pas la queue derrière un passage complet : ils ont leur
+  # propre groupe, unique.
+  group: parutions-${{ (inputs.serie || inputs.series) && format('une-{0}', github.run_id) || inputs.collection || 'toutes' }}
   cancel-in-progress: false
 
 jobs:
