@@ -232,7 +232,7 @@ t("ISBN dans l'export (à la place du public)", () => {
   const ex = (cote, isbn, statut = "Disponible") => ["Servon-sur-Vilaine", null, cote, null, null, statut, null, isbn, null, null, null, "CS1: BD", null, null, "CS2: Non renseigné", null, null, null, null, null, null, null, "Nb prêts total : 3", null, null, null, "30327000149238"];
   const rows = [
     ["Achille Talon", null, null, null, null, "Tome : 1", null, null, null, "Achille Talon est un homme moderne", null, null, null, null, null, null, "Fabcaro", null, null, null, null, null, null, null, "Dargaud"],
-    ex("BD ACH", "978-2-205-07276-1"), ex("BD ACH", "2-205-02189-3", "Retiré"),
+    ex("BD ACH", "978-2-205-07276-1"), ex("BD ACH", "2-205-02189-3", "Perdu"),
     ["Achille Talon", null, null, null, null, "Tome : 29", null, null, null, "Achille Talon a un gros nez !"], ex("BD ACH", "2-205-02189-3"),
     ["Achille Talon", null, null, null, null, "Tome :", null, null, null, "Hors-série sans numéro"], ex("BD ACH", "978-2-205-05202-2"),
   ];
@@ -242,6 +242,10 @@ t("ISBN dans l'export (à la place du public)", () => {
   const f = C.construireFonds(l.exemplaires, [{ id: "achille-talon", titre: "Achille Talon" }]).fonds.series["achille-talon"];
   assert.deepEqual(f.isbn, { 1: "9782205072761", 29: "9782205021899" });
   assert.deepEqual(f.isbnSansNumero, ["9782205052022"]);
+  // exemplaires en rayon, avec l'ISBN tel qu'écrit dans Orphée et le code-barre (pas le retiré)
+  assert.deepEqual(f.exemplaires["Servon-sur-Vilaine"].map((x) => [x.t, x.i]), [[1, "978-2-205-07276-1"], [29, "2-205-02189-3"], ["Hors-série sans numéro", "978-2-205-05202-2"]]);
+  assert.equal(f.exemplaires["Servon-sur-Vilaine"][0].c, "30327000149238");
+  assert.deepEqual(C.isbnDe("978-2-8001-3918-0\n979-10-347-4212-7"), { isbn: "9782800139180", brut: "978-2-8001-3918-0" });
   // ancien export, public en colonne H : rien ne change
   const vieux = C.lireExportOrphee([rows[0], ex("BD ACH", "Jeunesse")]).exemplaires[0];
   assert.equal(vieux.public, "Jeunesse"); assert.equal(vieux.isbn, undefined);

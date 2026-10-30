@@ -553,6 +553,22 @@ details.repli[open] > summary { margin-bottom: 12px; }
 .rattacher select { width: 100%; }
 
 
+/* Fiche : exemplaires en rayon (code-barre et ISBN à copier pour Orphée, lien vers le portail) */
+ul.exemplaires { list-style: none; margin: 8px 0 4px; padding: 0; }
+ul.exemplaires li { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 4px 12px; padding: 9px 0; border-bottom: 1px solid var(--filet); font-size: 0.875rem; }
+ul.exemplaires li:last-child { border-bottom: 0; }
+.ex-tome .discret { font-weight: 400; font-size: 0.8125rem; }
+.ex-champs { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.ex-champ { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.ex-champ .discret { font-size: 0.75rem; }
+.ex-champ .code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 0.8125rem; }
+.ex-portail { font-size: 0.8125rem; font-weight: 700; white-space: nowrap; }
+.ex-portail::after { content: " ↗"; }
+.btn-copier { padding: 2px 8px; font: inherit; font-size: 0.75rem; font-weight: 700; color: var(--prim); background: var(--surface);
+  border: 1px solid var(--filet-fort); border-radius: 999px; cursor: pointer; }
+.btn-copier:hover { background: var(--survol); }
+.btn-copier:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
 /* =====================================================================
    Un style par collection (data-collection sur <html>)
    Mangas : planche shōnen (ci-dessus). BD jeunesse et romans jeunesse

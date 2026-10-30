@@ -113,21 +113,33 @@ const texte = (v) => (v === null || v === undefined ? "" : String(v)).trim();
  *  Tolère plusieurs ISBN dans la cellule (le premier valide est pris), un complément « (Poche) »,
  *  et un ISBN-13 noté sans son « 978- » (2-205-00585-1 pour 978-2-205-00585-1), fréquent dans le catalogue. */
 export function isbnValide(v) {
+  return isbnDe(v)?.isbn || null;
+}
+
+/** Comme isbnValide, avec aussi l'ISBN tel qu'il est écrit dans Orphée (« 978-2-205-07276-1 »),
+ *  pour la recherche sur le portail des médiathèques. */
+export function isbnDe(v) {
   const t = texte(v);
   if (!t) return null;
-  const ean = (c) => [...c].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10 === 0;
   for (const m of t.matchAll(/[\dXx][\d -]{8,16}[\dXx]/g)) {
-    const c = m[0].replace(/[\s-]/g, "").toUpperCase();
-    if (c.length === 10 && /^\d{9}[\dX]$/.test(c)) {
-      const somme = [...c].reduce((acc, ch, i) => acc + (10 - i) * (ch === "X" ? 10 : +ch), 0);
-      if (somme % 11 === 0) {
-        const b = "978" + c.slice(0, 9);
-        return b + ((10 - ([...b].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10)) % 10);
-      }
-      if (/^\d{10}$/.test(c) && ean("978" + c)) return "978" + c; // ISBN-13 sans son préfixe
-    } else if (c.length === 13 && /^97[89]\d{10}$/.test(c) && ean(c)) {
-      return c;
+    const isbn = isbnNormalise(m[0]);
+    if (isbn) return { isbn, brut: m[0].trim() };
+  }
+  return null;
+}
+
+function isbnNormalise(brut) {
+  const ean = (c) => [...c].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10 === 0;
+  const c = brut.replace(/[\s-]/g, "").toUpperCase();
+  if (c.length === 10 && /^\d{9}[\dX]$/.test(c)) {
+    const somme = [...c].reduce((acc, ch, i) => acc + (10 - i) * (ch === "X" ? 10 : +ch), 0);
+    if (somme % 11 === 0) {
+      const b = "978" + c.slice(0, 9);
+      return b + ((10 - ([...b].reduce((acc, ch, i) => acc + +ch * (i % 2 ? 3 : 1), 0) % 10)) % 10);
     }
+    if (/^\d{10}$/.test(c) && ean("978" + c)) return "978" + c; // ISBN-13 sans son préfixe
+  } else if (c.length === 13 && /^97[89]\d{10}$/.test(c) && ean(c)) {
+    return c;
   }
   return null;
 }
@@ -161,14 +173,14 @@ export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
       const cellPrets = row.map(texte).find((v) => /nb\s*pr[eê]ts/i.test(v)) || "";
       const prets = +(cellPrets.match(/(\d+)/)?.[1] ?? 0);
       // colonne H : le public, ou l'ISBN si l'édition a été modifiée pour l'afficher à sa place
-      const isbn = isbnValide(row[7]) || row.map(isbnValide).find(Boolean) || null;
+      const lu = isbnDe(row[7]) || row.map(isbnDe).find(Boolean) || null;
       exemplaires.push({
         ...titre,
         bib,
         cote: texte(row[2]),
         statut: texte(row[5]),
-        public: isbnValide(row[7]) ? "" : texte(row[7]),
-        ...(isbn ? { isbn } : {}),
+        public: isbnDe(row[7]) ? "" : texte(row[7]),
+        ...(lu ? { isbn: lu.isbn, isbnBrut: lu.brut } : {}),
         genre: texte(row[14]).replace(/^CS\d*\s*:\s*/i, "").replace(/^non renseign[ée]$/i, ""),
         prets,
         codeBarre: texte(row[26]),
@@ -346,6 +358,12 @@ export function construireFonds(exemplaires, series, meta = {}) {
       }
     }
 
+    if (!estRetire(ex.statut) && (ex.codeBarre || ex.isbnBrut)) {
+      // pour la fiche : copier le code-barre ou l'ISBN et chercher dans Orphée, voir le livre sur le portail
+      const t = tome.type === "num" && tome.nums.length ? tome.nums[0] : tome.type === "oneshot" ? 1 : titreNaturel(ex.album || ex.titreBrut);
+      ((f.exemplaires ||= {})[ex.bib] ||= []).push({ t, ...(ex.isbnBrut ? { i: ex.isbnBrut } : {}), ...(ex.codeBarre ? { c: ex.codeBarre } : {}), ...(ex.cote ? { k: ex.cote } : {}) });
+    }
+
     if (estRetire(ex.statut)) {
       f.retires.push({ bib: ex.bib, tome: tome.nums[0] ?? null, statut: ex.statut, cote: ex.cote });
       continue;
@@ -383,6 +401,9 @@ export function construireFonds(exemplaires, series, meta = {}) {
     if (!f.retires.length) delete f.retires;
     if (!Object.keys(f.sansNumero).length) delete f.sansNumero;
     if (!Object.keys(f.isbn).length) delete f.isbn;
+    for (const l of Object.values(f.exemplaires || {})) {
+      l.sort((a, b) => (typeof a.t === "number" ? 0 : 1) - (typeof b.t === "number" ? 0 : 1) || (typeof a.t === "number" ? a.t - b.t : String(a.t).localeCompare(String(b.t), "fr")));
+    }
     if (!f.isbnSansNumero.length) delete f.isbnSansNumero;
     delete f._isbnRetire;
     // genre d'Orphée (champ CS2) le plus fréquent dans la série

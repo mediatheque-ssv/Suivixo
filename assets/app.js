@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=23";
+import * as C from "./core.js?v=24";
 import { publier, verifierCle, lancerVerification } from "./github.js?v=3";
 
 // ---------------------------------------------------------------------------
@@ -260,6 +260,42 @@ function bornes(v) {
   const decoupageDifferent = v.enr?.bnf?.plusieursEditions || /termin/i.test(v.s.manuel?.etat || "");
   const avenir = !decoupageDifferent && vo > n ? Math.min(vo - n, 60) : 0;
   return { n, total: n + avenir };
+}
+
+// Portail public des médiathèques : recherche par ISBN (l'adresse d'une recherche ordinaire ne change pas)
+const PORTAIL_ISBN = "https://mediatheques.pcc.bzh/recherche-simple/simple/I.s.b.n./0/{isbn}/ligne";
+
+/** Fiche : exemplaires en rayon, avec de quoi les retrouver dans Orphée (copier) et sur le portail. */
+function blocExemplaires(v, bib) {
+  const l = v.f?.exemplaires?.[bib] || [];
+  if (!l.length) return "";
+  const copier = (val, quoi) => `<button type="button" class="btn-copier" data-copier="${h(val)}" aria-label="Copier ${quoi} ${h(val)}">copier</button>`;
+  const lignes = l.map((x) => `<li>
+      <strong class="ex-tome">${typeof x.t === "number" ? (v.s.type === "One shot" ? "Titre unique" : `Tome ${x.t}`) : h(x.t)}${x.k ? ` <span class="discret">· ${h(x.k)}</span>` : ""}</strong>
+      ${x.i ? `<a class="ex-portail" href="${h(PORTAIL_ISBN.replace("{isbn}", encodeURIComponent(x.i)))}" target="_blank" rel="noopener">Voir sur le portail</a>` : "<span></span>"}
+      <span class="ex-champs">
+        ${x.c ? `<span class="ex-champ"><span class="discret">Code-barre</span> <span class="code">${h(x.c)}</span>${copier(x.c, "le code-barre")}</span>` : ""}
+        ${x.i ? `<span class="ex-champ"><span class="discret">ISBN</span> <span class="code">${h(x.i)}</span>${copier(x.i, "l'ISBN")}</span>` : ""}
+      </span>
+    </li>`).join("");
+  return `<details class="repli">
+      <summary>Exemplaires à ${h(court(bib))} <span class="discret">(${nf.format(l.length)})</span></summary>
+      <p class="discret petit">Pour retrouver un exemplaire dans Orphée, copie son code-barre ou son ISBN et colle-le dans la recherche.</p>
+      <ul class="exemplaires">${lignes}</ul>
+    </details>`;
+}
+
+async function copierTexte(val) {
+  try {
+    await navigator.clipboard.writeText(val);
+  } catch {
+    const t = document.createElement("textarea");
+    t.value = val; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.opacity = "0";
+    document.body.append(t); t.select();
+    try { document.execCommand("copy"); } catch { /* rien */ }
+    t.remove();
+  }
+  toast(`« ${val} » copié : colle-le dans la recherche d'Orphée.`);
 }
 
 /** Rangée de tranches en SVG (liste). */
@@ -533,6 +569,8 @@ function ouvrirFiche(id) {
     ${bibs}` : ""}
     ${v.f?.sansNumero ? `<h2>Titres sans numéro dans Orphée</h2><p class="explication">${h(Object.values(v.f.sansNumero).flat().join(", "))}. Ils ne sont pas comptés comme tomes : ajoute le numéro dans Orphée s'ils font partie d'une série numérotée.</p>` : ""}
     ${notes.length ? `<ul class="notes">${notes.map((n) => `<li>${h(n)}</li>`).join("")}</ul>` : ""}
+
+    ${blocExemplaires(v, bib)}
 
     <details class="repli">
       <summary>Sources et liens</summary>
@@ -1508,6 +1546,8 @@ function brancher() {
     if (e.target.closest("[data-fermer]")) { fermerFiche(); return; }
     const b = e.target.closest('[data-action="reverifier"]');
     if (b) verifierMaintenant([b.dataset.id]);
+    const c = e.target.closest("[data-copier]");
+    if (c) copierTexte(c.dataset.copier);
   });
   $("#fiche").addEventListener("change", (e) => {
     const t = e.target;
