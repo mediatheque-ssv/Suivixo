@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T15:07:42Z",
+ "maj": "2026-10-30T11:22:36Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -2917,12 +2917,12 @@
    "couvIsbn": "9782012008236"
   },
   "belle-lisse-poire-du-prince-motordu": {
-   "bnfVerifie": "2026-10-29",
-   "verifie": "2026-10-29",
+   "bnfVerifie": "2026-10-30",
+   "verifie": "2026-10-30",
    "couvFR": {
     "source": "Open Library",
     "tome": 1,
-    "maj": "2026-10-28"
+    "maj": "2026-10-30"
    },
    "bnf": {
     "dernier": 1,
@@ -2941,7 +2941,7 @@
     ],
     "requete": "bib.title all \"belle lisse poire du prince motordu\" and (bib.doctype=\"a\") and bib.author all \"pef\""
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "liensVus": {},
    "couvEssaiMN": "",
    "couvVersion": 3
@@ -22126,14 +22126,14 @@
    "couvIsbn": "9782383494614,9782383494966"
   },
   "pires-enfants-de-lhistoire-du-monde": {
-   "verifie": "2026-10-29",
+   "verifie": "2026-10-30",
    "bnf": {
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"pires enfants de lhistoire du monde\" and (bib.doctype=\"a\") and bib.author all \"robinson\""
    },
-   "couvEssai": "2026-10-29",
-   "bnfVerifie": "2026-10-29",
+   "couvEssai": "2026-10-30",
+   "bnfVerifie": "2026-10-30",
    "liensVus": {},
    "couvEssaiMN": "",
    "couvVersion": 3,
@@ -22143,7 +22143,7 @@
     "tome": 1,
     "isbn": "9782081621954",
     "orphee": true,
-    "maj": "2026-10-29"
+    "maj": "2026-10-30"
    }
   },
   "pivoine-la-petite-elfe": {
