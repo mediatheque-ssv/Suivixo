@@ -411,6 +411,7 @@ def fiche_manga_news(url: str | None, debug: bool = False) -> dict | None:
     texte = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page))
     vf, vo = RE_VF.search(texte), RE_VO.search(texte)
     serie_url = ""
+    vols_edition: set[int] = set()
     m_vol = re.search(r"/manga/([^/]+)/vol-", url)
     if m_vol:
         vf = vo = None  # page d'un tome : on n'en garde que l'image, ses chiffres peuvent concerner une autre édition
@@ -421,6 +422,10 @@ def fiche_manga_news(url: str | None, debug: bool = False) -> dict | None:
         notes = sorted(((difflib.SequenceMatcher(None, slug, l.rsplit("/serie/", 1)[1].lower()).ratio(), l) for l in liens), reverse=True)
         if notes and notes[0][0] >= 0.6:
             serie_url = notes[0][1] if notes[0][1].startswith("http") else "https://www.manga-news.com" + notes[0][1]
+        # les autres tomes de la même édition, listés sur la page (« Card-Captor-Sakura-Edition-Deluxe/vol-9 »)
+        vols_edition = {int(n) for n in re.findall(r"/manga/" + re.escape(m_vol.group(1)) + r"/vol-(\d{1,3})\b", page, re.I)}
+        if debug:
+            dbg(f"    Page d'un tome : série {serie_url or '?'} ; tomes de cette édition listés : {sorted(vols_edition)}")
     og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page) or re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', page)
     couv = og.group(1).strip() if og and "/public/images/" in og.group(1) else ""
     if not couv:
@@ -437,7 +442,8 @@ def fiche_manga_news(url: str | None, debug: bool = False) -> dict | None:
         # on garde au moins la date du dernier tome paru en France.
         _, d = _bloc_volume(page, "Dernier paru", "paraître")
         return {"url": url, "lu": False, **({"vfDernierDate": d} if d else {}), **({"couv": couv} if couv else {}),
-                **({"serieUrl": serie_url} if serie_url else {}), "verifie": AUJOURDHUI.isoformat()}
+                **({"serieUrl": serie_url} if serie_url else {}),
+                **({"tomesEdition": max(vols_edition)} if m_vol and vols_edition else {}), "verifie": AUJOURDHUI.isoformat()}
     if vf:
         r.update(vf=int(vf.group(1)), vfStatut=vf.group(2).strip())
     if vo:
@@ -486,7 +492,16 @@ def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> N
             # lien indiqué vers la page d'un tome (bonne édition) : les chiffres viennent de la page de sa série,
             # l'image reste celle du tome ; « lien » garde la page indiquée pour le site
             fs = fiche_manga_news(f["serieUrl"], debug) or {}
-            e["mangaNewsFiche"] = {**fs, **({"couv": f["couv"]} if f.get("couv") else {}), "lien": url}
+            fiche = {**fs, **({"couv": f["couv"]} if f.get("couv") else {}), "lien": url}
+            # autre édition que celle de la page de série (Deluxe : 9 tomes, l'édition normale : 12) :
+            # le nombre de tomes est celui listé sur la page du tome ; l'état de la page de série ne vaut pas pour elle
+            n = f.get("tomesEdition")
+            if n and n != fs.get("vf"):
+                fiche.update(vf=n, edition=True)
+                fiche.pop("vfStatut", None)
+                if (fs.get("vfDernier") or 0) > n:
+                    fiche.pop("vfDernier", None)
+            e["mangaNewsFiche"] = fiche
     except Exception as ex:
         print(f"  fiche Manga-News : {ex}", file=sys.stderr, flush=True)
         if "404" not in str(ex) and "410" not in str(ex):
