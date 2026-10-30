@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T15:41:49Z",
+ "maj": "2026-10-30T15:42:59Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -7681,10 +7681,17 @@
      "Romance"
     ],
     "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30106-GgFOXeyB70xj.png",
+    "imageGrande": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30106-GgFOXeyB70xj.png",
+    "auteurs": [
+     "CLAMP",
+     "Satsuki Igarashi",
+     "Nanase Ohkawa",
+     "Ageha Ohkawa"
+    ],
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-10-23",
+   "anilistVerifie": "2026-10-30",
    "bnf": {
     "dernier": 12,
     "tomes": "1-12",
@@ -7695,10 +7702,34 @@
      "Média système éd."
     ],
     "plusieursEditions": true,
+    "ark1": "ark:/12148/cb45494950q",
+    "isbn1": "9782811625771",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45494950q",
+      "isbn": "9782811625771"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45391023f",
+      "isbn": "9782811637781"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb41356042j",
+      "isbn": "9782845999770"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb37196657f",
+      "isbn": "2845990316"
+     }
+    ],
     "requete": "bib.title all \"card captor sakura\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-30",
+   "verifie": "2026-10-30",
    "mangaNews": {
     "tomes": 12,
     "editeur": "Pika",
@@ -7707,26 +7738,24 @@
     "couv": "https://www.manga-news.com/public/images/series/.cc_sakura_01_medium.webp"
    },
    "mangaNewsFiche": {
-    "url": "https://www.manga-news.com/index.php/serie/Card-Captor-Sakura",
-    "vf": 12,
-    "vfStatut": "Terminé",
-    "vo": 12,
-    "voStatut": "Terminé",
-    "vfDernier": 9,
+    "url": "https://www.manga-news.com/index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1",
+    "lu": false,
     "vfDernierDate": "2018-12-12",
-    "pays": "JP",
-    "annee": 1996,
-    "verifie": "2026-10-23"
+    "couv": "https://www.manga-news.com/public/images/vols/card-captor-sakura-deluxe-1-pika.jpg",
+    "verifie": "2026-10-30"
    },
-   "couvEssai": "2026-10-27",
-   "couvVersion": 2,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvFR": {
     "source": "Manga-News",
     "mn": "https://www.manga-news.com/index.php/serie/Card-Captor-Sakura",
-    "maj": "2026-10-27"
+    "maj": "2026-10-30"
    },
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.cc_sakura_01_medium.webp",
-   "liensVus": {}
+   "liensVus": {
+    "mangaNews": "index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1",
+    "bedetheque": "BD-Card-Captor-Sakura-INT1-331395.html"
+   }
   },
   "card-captor-sakura-clear-card-arc": {
    "anilist": {
