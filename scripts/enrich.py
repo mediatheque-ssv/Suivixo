@@ -828,7 +828,7 @@ def telecharger(url: str, essais: int = 3) -> bytes | None:
     return None
 
 
-COUV_VERSION = 3  # 2 : Manga-News ajouté ; 3 : Decitre et ePagine ajoutés. Les séries sans couverture sont réessayées une fois
+COUV_VERSION = 4  # 2 : Manga-News ; 3 : Decitre et ePagine ; 4 : couvertures carrées acceptées. Les séries sans couverture sont réessayées une fois
 
 # images « pas de couverture » renvoyées à la place d'une vraie couverture (début de l'empreinte md5)
 IMAGES_VIDES = ("5da5beba0e",)  # ePagine : livre ouvert gris
@@ -842,6 +842,19 @@ def isbn13(isbn: str | None) -> str | None:
         return None
     b = "978" + i[:9]
     return b + str((10 - sum(int(c) * (1 if k % 2 == 0 else 3) for k, c in enumerate(b)) % 10) % 10)
+
+
+def cadrer_portrait(img):
+    """Image carrée ou en largeur → format 2/3, centrée sur un fond de la couleur de ses bords."""
+    from PIL import Image
+    l, h = img.size
+    bords = [img.getpixel((x, y)) for x in range(0, l, max(1, l // 20)) for y in (0, h - 1)] + \
+            [img.getpixel((x, y)) for y in range(0, h, max(1, h // 20)) for x in (0, l - 1)]
+    fond = tuple(sum(p[i] for p in bords) // len(bords) for i in range(3))
+    H = round(l * 1.5)
+    toile = Image.new("RGB", (l, H), fond)
+    toile.paste(img, (0, (H - h) // 2))
+    return toile
 
 
 def isbns_orphee(f: dict | None) -> list[tuple[int | None, str]]:
@@ -918,10 +931,14 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
             if debug:
                 dbg(f"    couverture {nom} : illisible ({ex}) <- {url}")
             continue
-        if img.width < 80 or img.height < 100 or not (1.05 < img.height / img.width < 2.2):
+        if img.width < 80 or img.height < 60 or not (0.55 < img.height / img.width < 2.2):
             if debug:
                 dbg(f"    couverture {nom} : {img.width}×{img.height} refusée <- {url}")
             continue  # vignette vide, image trop petite ou pas au format d'une couverture
+        # Albums carrés ou à l'italienne (Ana Ana, Snoopy…) : posés au milieu d'un fond de leur couleur,
+        # au format des autres couvertures, pour ne pas être rognés dans la liste
+        if img.height / img.width < 1.3:
+            img = cadrer_portrait(img)
         img.thumbnail((300, 460))
         if debug:
             dbg(f"    couverture {nom} : OK {img.width}×{img.height} <- {url}")
