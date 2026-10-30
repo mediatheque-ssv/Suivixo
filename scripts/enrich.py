@@ -294,6 +294,12 @@ def manga_news() -> dict:
     return _MN
 
 
+def page_serie_mn(lien: str) -> str:
+    """Lien vers la page d'un tome (« manga/Card-Captor-Sakura-Edition-Deluxe/vol-1 ») → page de la série
+    (« serie/Card-Captor-Sakura-Edition-Deluxe ») : c'est elle qui donne les chiffres de cette édition."""
+    return re.sub(r"(?i)\bmanga/([^/]+)/vol-[^/]*/?$", r"serie/\1", (lien or "").strip())
+
+
 def chemin_mn(u: str) -> str:
     """« https://www.manga-news.com/index.php/serie/Pokemon-X/Y » → « serie/pokemon-x/y » (pour comparer deux adresses)."""
     u = re.sub(r"^https?://(www\.)?manga-news\.com/", "", (u or "").strip(), flags=re.I)
@@ -314,8 +320,8 @@ def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: 
     # 1. la page indiquée dans la série (souvent reprise de l'ancien Excel) : c'est elle qui fait foi
     lien = (serie.get("liens") or {}).get("mangaNews")
     if lien:
-        cible = chemin_mn(lien)
-        cands = [c for liste in idx.values() for c in liste if chemin_mn(c["url"]) == cible]
+        cibles = {chemin_mn(lien), chemin_mn(page_serie_mn(lien))}  # page d'un tome : celle de sa série
+        cands = [c for liste in idx.values() for c in liste if chemin_mn(c["url"]) in cibles]
         manuel = bool(cands)
     # 2. même titre
     if not cands:
@@ -357,6 +363,7 @@ def tomes_manga_news(serie: dict, editeur_orphee: str, debug: bool = False, al: 
     return {"tomes": c["tomes"], "editeur": c["editeur"], "url": c["url"], "date": _MN_DATE,
             **({"couv": c["couv"]} if c.get("couv") else {}),
             **({"titre": c["titre"], "approche": True} if approx else {}),
+            **({"manuel": True} if manuel else {}),
             **({} if manuel or memes or not eo else {"editeurDifferent": True})}
 
 RE_VF = re.compile(r"\bVF\s*:\s*(\d+)\s*\(([^)]{3,40})\)", re.I)
@@ -367,6 +374,7 @@ _dernier_mn = 0.0
 def url_manga_news(serie: dict, mn: dict | None) -> str | None:
     lien = (serie.get("liens") or {}).get("mangaNews")
     if lien:
+        lien = page_serie_mn(lien)  # page d'un tome indiquée : on lit la fiche de sa série (chiffres de cette édition)
         return lien if lien.startswith("http") else "https://www.manga-news.com/" + lien.lstrip("/")
     return (mn or {}).get("url") or None
 
@@ -869,7 +877,7 @@ def cle_isbn(isbns: list[tuple[int | None, str]]) -> str:
 
 
 def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: bool = False, fiche: dict | None = None,
-                  isbns: list[tuple[int | None, str]] | None = None) -> dict | None:
+                  isbns: list[tuple[int | None, str]] | None = None, lien_manuel: bool = False) -> dict | None:
     """Cherche la couverture française (Manga-News, Decitre, BnF, ePagine, puis Open Library) et l'enregistre en vignette."""
     try:
         from PIL import Image
@@ -880,7 +888,10 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
     essais = []
     # Manga-News d'abord : fiable et rapide (la BnF répond souvent en erreur 500)
     vues = set()
-    for u in [(mn or {}).get("couv") if not (mn or {}).get("editeurDifferent") else "", (fiche or {}).get("couv")]:
+    couv_auto = (mn or {}).get("couv") if not (mn or {}).get("editeurDifferent") else ""
+    couv_fiche = (fiche or {}).get("couv")
+    # page Manga-News indiquée à la main (bonne édition) : son image d'abord
+    for u in ([couv_fiche, couv_auto] if lien_manuel and not (mn or {}).get("manuel") else [couv_auto, couv_fiche]):
         if u and u not in vues:
             vues.add(u)
             essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None, None))
@@ -978,7 +989,8 @@ def couverture_a_chercher(s: dict, e: dict, forcer: bool = False, isbns: list | 
 
 
 def chercher_couverture(s: dict, e: dict, isbns: list | None = None) -> None:
-    trouvee = couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), fiche=e.get("mangaNewsFiche"), isbns=isbns)
+    trouvee = couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), fiche=e.get("mangaNewsFiche"), isbns=isbns,
+                            lien_manuel=bool((s.get("liens") or {}).get("mangaNews")))
     e["couvEssai"] = AUJOURDHUI.isoformat()
     e["couvVersion"] = COUV_VERSION
     if cle_isbn(isbns or []):
