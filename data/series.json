@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-10-30T15:20:16.041Z",
+ "publie": "2026-10-30T15:28:25.657Z",
  "series": [
   {
    "id": "cooking-karine",
@@ -1572,7 +1572,8 @@
     "etat": "Terminée"
    },
    "liens": {
-    "mangaNews": "index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1"
+    "mangaNews": "index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1",
+    "bedetheque": "BD-Card-Captor-Sakura-INT1-331395.html"
    }
   },
   {
