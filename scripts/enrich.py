@@ -907,7 +907,7 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
     couv_auto = (mn or {}).get("couv") if not (mn or {}).get("editeurDifferent") else ""
     couv_fiche = (fiche or {}).get("couv")
     # page Manga-News indiquée à la main (bonne édition) : son image d'abord
-    for u in ([couv_fiche, couv_auto] if lien_manuel and not (mn or {}).get("manuel") else [couv_auto, couv_fiche]):
+    for u in ([couv_fiche, couv_auto] if lien_manuel else [couv_auto, couv_fiche]):
         if u and u not in vues:
             vues.add(u)
             essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None, None))
@@ -1185,7 +1185,7 @@ def main() -> int:
                 continue
             try:
                 if debug:
-                    couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"), isbns=isbns)
+                    couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"), isbns=isbns, lien_manuel=bool((s.get("liens") or {}).get("mangaNews")))
                 else:
                     chercher_couverture(s, e, isbns)
             except Exception as ex:
@@ -1288,7 +1288,7 @@ def main() -> int:
             if debug:
                 if e.get("bnf"):
                     tester_couvertures(e["bnf"])
-                couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"), isbns=isbns)
+                couverture_fr(s["id"], e.get("bnf"), e.get("mangaNews"), debug=True, fiche=e.get("mangaNewsFiche"), isbns=isbns, lien_manuel=bool((s.get("liens") or {}).get("mangaNews")))
                 dbg(json.dumps(e, ensure_ascii=False, indent=1))
         except Exception as ex:  # une série en erreur ne bloque pas les autres
             erreurs += 1
