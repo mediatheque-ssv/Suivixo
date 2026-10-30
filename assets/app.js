@@ -155,7 +155,7 @@ function calculer() {
       pretsIci: st ? st.prets?.[bib] || 0 : null,
       reserves: st ? somme(st.reserves) : 0,
       cle: C.cleTri(s.titre),
-      texte: C.sansAccents([s.titre, ...(s.alias || []), f?.editeur, f?.titreOrphee].join(" ")).toLowerCase(),
+      texte: C.sansAccents([s.titre, ...(s.alias || []), f?.editeur, f?.titreOrphee].join(" ")).toLowerCase().replace(/&/g, " et "),
     };
   });
   etat.parId = new Map(etat.vues.map((v) => [v.s.id, v]));
@@ -165,7 +165,8 @@ const ORDRE_STATUT = ["completer", "continuer", "attente", "finie", "abandonnee"
 
 function filtrer({ ignorerStatut = false } = {}) {
   const p = etat.prefs;
-  const q = C.sansAccents(p.q).toLowerCase().trim();
+  // « Boule et Bill » trouve aussi « Boule & Bill », et inversement
+  const q = C.sansAccents(p.q).toLowerCase().replace(/&/g, " et ").replace(/\s+/g, " ").trim();
   return etat.vues.filter((v) => {
     if (p.presence === "moi" && !(v.presence === "ici" || v.presence === "partagee")) return false;
     if (p.presence === "reseau" && v.presence === "aucune") return false;
