@@ -227,6 +227,9 @@ h3 { font-size: 1rem; margin: 20px 0 6px; }
 
 /* ---------- recherche et filtres ---------- */
 .barre { display: flex; gap: 10px; align-items: stretch; margin-bottom: 14px; }
+/* la recherche reste visible au défilement, juste sous l'en-tête (hauteur mesurée par le script) */
+#vue .barre { position: sticky; top: var(--haut-entete, 64px); z-index: 15; margin: 0 -10px 14px; padding: 8px 10px; background: var(--papier); border-radius: 0 0 var(--rayon) var(--rayon); }
+#vue .barre.collee { box-shadow: 0 6px 12px -8px rgba(0, 0, 0, 0.35); }
 .recherche {
   flex: 1; max-width: 520px; border: 1px solid var(--filet-fort); border-radius: var(--rayon); background: var(--surface);
   padding: 9px 12px;

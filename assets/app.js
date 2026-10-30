@@ -1628,6 +1628,20 @@ function brancher() {
   });
 }
 
+/** Hauteur de l'en-tête collant, pour placer la barre de recherche juste dessous (elle change sur téléphone). */
+function suivreEntete() {
+  const entete = document.querySelector(".entete");
+  if (!entete) return;
+  const maj = () => document.documentElement.style.setProperty("--haut-entete", `${entete.getBoundingClientRect().height}px`);
+  maj();
+  if ("ResizeObserver" in window) new ResizeObserver(maj).observe(entete);
+  // ombre sous la barre quand elle est collée sous l'en-tête
+  window.addEventListener("scroll", () => {
+    const barre = document.querySelector("#vue .barre");
+    if (barre) barre.classList.toggle("collee", barre.getBoundingClientRect().top <= entete.getBoundingClientRect().height + 1 && window.scrollY > 0);
+  }, { passive: true });
+}
+
 function brancherCollections() {
   if (COL_ID === "mangas") delete document.documentElement.dataset.collection;
   else document.documentElement.dataset.collection = COL_ID;
@@ -1648,6 +1662,7 @@ function brancherCollections() {
 
 (async function demarrer() {
   brancherCollections();
+  suivreEntete();
   try {
     await charger();
   } catch (e) {
