@@ -94,3 +94,16 @@ export async function lancerVerification({ token, depot, branche = "main", serie
     throw e;
   }
 }
+
+/** Exécutions de la vérification lancées depuis `depuis` (date ISO), de la plus ancienne à la plus récente. */
+export async function executionsDepuis({ token, depot, depuis }) {
+  const d = await appel(token, "GET", `/repos/${depot}/actions/workflows/parutions.yml/runs?event=workflow_dispatch&per_page=10`);
+  return (d.workflow_runs || []).filter((r) => r.created_at >= depuis).sort((a, b) => a.created_at.localeCompare(b.created_at))
+    .map((r) => ({ id: r.id, statut: r.status, conclusion: r.conclusion }));
+}
+
+/** État d'une exécution : { statut: "queued" | "in_progress" | "completed", conclusion }. */
+export async function etatExecution({ token, depot, id }) {
+  const r = await appel(token, "GET", `/repos/${depot}/actions/runs/${id}`);
+  return { statut: r.status, conclusion: r.conclusion };
+}

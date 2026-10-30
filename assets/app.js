@@ -1,6 +1,6 @@
 // Suivixo — interface
 import * as C from "./core.js?v=24";
-import { publier, verifierCle, lancerVerification, lireFichier as lireFichierDepot } from "./github.js?v=4";
+import { publier, verifierCle, lancerVerification, lireFichier as lireFichierDepot, executionsDepuis, etatExecution } from "./github.js?v=5";
 
 // ---------------------------------------------------------------------------
 // État et stockage local
@@ -1466,11 +1466,60 @@ async function verifierMaintenant(ids = []) {
   }
   if (etat.modifie.size && !(await lancerPublication({ verifier: false }))) return; // ce qui attend est enregistré d'abord
   try {
+    const depuis = new Date(Date.now() - 5000).toISOString().replace(/\.\d+Z$/, "Z");
     await lancerVerification({ token: etat.token, depot: etat.prefs.depot, series: ids, collection: COL_ID });
     const qui = ids.length === 1 ? `« ${etat.parId.get(ids[0])?.s.titre || ids[0]} »` : "les séries à revoir";
-    toast(ids.length ? `Vérification lancée pour ${qui}. Résultat d'ici 2 minutes environ : recharge alors la page.` : `Vérification lancée pour ${qui}. Elle peut durer de quelques minutes à une heure selon le nombre de séries.`);
+    if (!ids.length) { toast(`Vérification lancée pour ${qui}. Elle peut durer de quelques minutes à une heure selon le nombre de séries.`); return; }
+    toast(`Vérification lancée pour ${qui}. La fiche se mettra à jour toute seule d'ici 2 minutes environ.`);
+    suivreVerification(ids, qui, depuis);
   } catch (e) {
     toast(e.message, true);
+  }
+}
+
+/** Suit la vérification d'une série : quand elle est finie et que le site a pris le résultat, on recharge
+ *  les vérifications (enrich.json) et la fiche, sans recharger la page. */
+async function suivreVerification(ids, qui, depuis) {
+  const attendre = (ms) => new Promise((r) => setTimeout(r, ms));
+  const lireEnrich = () => fetch(`${COL.dossier}enrich.json?t=${Date.now()}`, { cache: "no-store" }).then((r) => r.json());
+  const avant = JSON.stringify(ids.map((id) => etat.enrich.series?.[id] || null));
+  etat.verifEnCours = qui;
+  majEntete();
+  try {
+    // 1. la vérification sur GitHub (au plus 10 minutes)
+    let execution = null;
+    for (let i = 0; i < 60; i++) {
+      await attendre(10000);
+      try {
+        if (!execution) execution = (await executionsDepuis({ token: etat.token, depot: etat.prefs.depot, depuis }))[0] || null;
+        if (execution) {
+          const e = await etatExecution({ token: etat.token, depot: etat.prefs.depot, id: execution.id });
+          if (e.statut === "completed") { execution.conclusion = e.conclusion; break; }
+        }
+      } catch { /* clé sans la permission « Actions » en lecture : on attend seulement le résultat sur le site */ if (i >= 6) break; }
+    }
+    if (execution?.conclusion && execution.conclusion !== "success") {
+      toast(`La vérification de ${qui} a échoué sur GitHub. Réessaie dans un moment.`, true);
+      return;
+    }
+    // 2. le site mis à jour par GitHub Pages (au plus 3 minutes)
+    let enrich = null;
+    for (let i = 0; i < 18; i++) {
+      try {
+        const e = await lireEnrich();
+        if (JSON.stringify(ids.map((id) => e.series?.[id] || null)) !== avant) { enrich = e; break; }
+      } catch { /* réessai */ }
+      await attendre(10000);
+    }
+    if (!enrich) { toast(`Vérification de ${qui} terminée : rien n'a changé.`); return; }
+    etat.enrich = enrich;
+    calculer();
+    rendre();
+    if (!$("#fiche").hidden && ids.includes($("#fiche").dataset.id)) ouvrirFiche($("#fiche").dataset.id);
+    toast(`Fiche mise à jour : ${qui}.`);
+  } finally {
+    etat.verifEnCours = null;
+    majEntete();
   }
 }
 
@@ -1552,11 +1601,12 @@ function majEntete() {
   // petit témoin discret pendant l'enregistrement
   const tem = $("#temoin-enregistrement");
   if (tem) {
-    tem.hidden = !(etat.publication || (etat.modifie.size && !etat.erreurEnregistrement) || etat.enregistreA);
-    tem.textContent = etat.publication || etat.modifie.size ? "Enregistrement…" : "Modification enregistrée ✓";
-    tem.classList.toggle("fini", !etat.publication && !etat.modifie.size);
+    const enregistre = etat.publication || (etat.modifie.size && !etat.erreurEnregistrement);
+    tem.hidden = !(enregistre || etat.enregistreA || etat.verifEnCours);
+    tem.textContent = enregistre ? "Enregistrement…" : etat.enregistreA ? "Modification enregistrée ✓" : `Vérification de ${etat.verifEnCours}…`;
+    tem.classList.toggle("fini", !enregistre && !!etat.enregistreA);
     clearTimeout(etat.minuteurTemoin);
-    if (!etat.publication && !etat.modifie.size && etat.enregistreA) etat.minuteurTemoin = setTimeout(() => { tem.hidden = true; etat.enregistreA = null; }, 2500);
+    if (!enregistre && etat.enregistreA) etat.minuteurTemoin = setTimeout(() => { etat.enregistreA = null; majEntete(); }, 2500);
   }
   const n = etat.vues.length ? nbControles() : 0;
   $("#nb-controles").textContent = n ? String(n) : "";
