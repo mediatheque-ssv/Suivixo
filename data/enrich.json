@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T15:56:02Z",
+ "maj": "2026-10-30T15:57:16Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -7893,7 +7893,7 @@
     "url": "https://www.manga-news.com/index.php/serie/Card-Captor-Sakura",
     "couv": "https://www.manga-news.com/public/images/vols/card-captor-sakura-deluxe-1-pika.jpg",
     "vf": 9,
-    "vo": 12,
+    "vo": 9,
     "voStatut": "Terminé",
     "vfDernier": 9,
     "vfDernierDate": "2018-12-12",
