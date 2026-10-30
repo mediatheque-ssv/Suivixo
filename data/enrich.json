@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T11:34:23Z",
+ "maj": "2026-10-30T15:41:49Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -28113,7 +28113,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-10-23",
+   "anilistVerifie": "2026-10-30",
    "bnf": {
     "dernier": 112,
     "tomes": "1-12,14-112",
@@ -28123,10 +28123,34 @@
     "autresEditeurs": [
      "Hachette jeunesse"
     ],
+    "ark1": "ark:/12148/cb469150786",
+    "isbn1": "9782344050125",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb469150786",
+      "isbn": "9782344050125"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43636708p",
+      "isbn": "9782723488525"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb40184954p",
+      "isbn": "2723454185"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb38888887j",
+      "isbn": "2723433358"
+     }
+    ],
     "requete": "bib.title all \"one piece\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23",
+   "bnfVerifie": "2026-10-30",
+   "verifie": "2026-10-30",
    "mangaNews": {
     "tomes": 112,
     "editeur": "Glénat",
@@ -28148,12 +28172,12 @@
     "annee": 1997,
     "verifie": "2026-10-30"
    },
-   "couvEssai": "2026-10-27",
-   "couvVersion": 2,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvFR": {
     "source": "Manga-News",
     "mn": "https://www.manga-news.com/index.php/serie/One-piece-Edition-originale",
-    "maj": "2026-10-27"
+    "maj": "2026-10-30"
    },
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.one-piece-manga-1-glenat_medium.webp",
    "liensVus": {
