@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Bangers&family=Caveat:wght@700&family=Dela+Gothic+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20">
+  <link rel="stylesheet" href="assets/style.css?v=21">
   <script>
     // le style de la collection s'applique avant l'affichage (sinon la page clignote aux couleurs des mangas)
     try {
@@ -77,8 +77,8 @@
         <select id="in-bib"></select>
       </label>
 
-      <h3>Publier les modifications</h3>
-      <p class="discret">Pour que l'équipe voie tes modifications, Suivixo a besoin d'une clé d'accès GitHub. Elle reste dans ce navigateur. Sans clé, tout se consulte mais rien n'est publié.</p>
+      <h3>Enregistrer les modifications</h3>
+      <p class="discret">Tes modifications sont enregistrées automatiquement pour toute l'équipe. Pour ça, Suivixo a besoin d'une clé d'accès GitHub. Elle reste dans ce navigateur. Sans clé, tout se consulte mais rien n'est enregistré.</p>
       <label class="champ">
         <span>Clé d'accès GitHub</span>
         <input id="in-token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
@@ -99,7 +99,7 @@
       </details>
 
       <h3>Vérification des parutions</h3>
-      <p class="discret" id="txt-verification">Elle passe tout le réseau en revue chaque lundi vers 4 h, et se lance aussi après chaque publication. Tu peux la lancer tout de suite : elle traite les nouvelles séries et celles dont tu as modifié les liens.</p>
+      <p class="discret" id="txt-verification">Elle passe tout le réseau en revue chaque lundi vers 4 h, et se lance aussi après un import. Tu peux la lancer tout de suite : elle traite les nouvelles séries et celles dont tu as modifié les liens.</p>
       <button type="button" id="btn-verifier-tout" class="btn">Lancer la vérification maintenant</button>
 
       <h3>Statistiques de prêt</h3>
@@ -115,8 +115,9 @@
   </dialog>
 
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <div id="temoin-enregistrement" class="temoin-enregistrement" role="status" aria-live="polite" hidden></div>
 
   <script src="assets/vendor/xlsx.full.min.js" defer></script>
-  <script type="module" src="assets/app.js?v=41"></script>
+  <script type="module" src="assets/app.js?v=43"></script>
 </body>
 </html>

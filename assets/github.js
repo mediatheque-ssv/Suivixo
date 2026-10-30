@@ -26,7 +26,7 @@ async function appel(token, methode, chemin, corps) {
 function messageErreur(status, detail) {
   if (status === 401) return "La clé d'accès GitHub est refusée (expirée ou mal copiée). Remplace-la dans les réglages.";
   if (status === 403 || status === 404) return "La clé d'accès n'a pas le droit d'écrire dans ce dépôt. Vérifie qu'elle cible bien « suivixo » avec Contents en lecture et écriture.";
-  if (status === 409 || status === 422) return "Le dépôt a changé pendant la publication. Recharge la page puis publie à nouveau.";
+  if (status === 409 || status === 422) return "Le dépôt a changé pendant l'enregistrement. Nouvel essai dans un instant.";
   return `GitHub a répondu ${status}${detail ? ` : ${detail}` : ""}.`;
 }
 
@@ -35,6 +35,21 @@ export async function verifierCle(token, depot) {
   const d = await appel(token, "GET", `/repos/${depot}`);
   if (!d.permissions?.push) throw new Error("Cette clé peut lire le dépôt mais pas y écrire.");
   return d.full_name;
+}
+
+/** Contenu actuel d'un fichier du dépôt (null s'il n'existe pas encore). */
+export async function lireFichier({ token, depot, branche = "main", chemin }) {
+  const r = await fetch(`${API}/repos/${depot}/contents/${chemin}?ref=${branche}&t=${Date.now()}`, {
+    headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github.raw+json", "X-GitHub-Api-Version": "2022-11-28" },
+    cache: "no-store",
+  });
+  if (r.status === 404) return null;
+  if (!r.ok) {
+    const err = new Error(messageErreur(r.status, ""));
+    err.status = r.status;
+    throw err;
+  }
+  return r.text();
 }
 
 /**

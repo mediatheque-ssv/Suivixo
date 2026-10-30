@@ -165,6 +165,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .bandeau-ligne { display: flex; align-items: center; gap: 16px; max-width: 1180px; margin: 0 auto; padding: 8px 24px; font-size: 0.9375rem; }
 .bandeau-ligne p { margin: 0; flex: 1; }
 .bandeau .btn { padding: 4px 12px; }
+.bandeau-erreur { background: #FDE2E1; color: #5C0B0B; border-bottom-color: #F3A5A2; }
+/* enregistrement automatique : petit témoin en bas à gauche */
+.temoin-enregistrement { position: fixed; left: 16px; bottom: 16px; z-index: 40; padding: 7px 14px; border-radius: 999px;
+  background: var(--surface); color: var(--encre-2); border: 1.5px solid var(--filet-fort); font-size: 0.875rem; font-weight: 700;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15); }
+.temoin-enregistrement.fini { color: var(--s-attente); border-color: currentColor; background: var(--s-attente-f); }
+@media print { .temoin-enregistrement { display: none; } }
 @media (prefers-color-scheme: dark) {
   .bandeau { background: #3A2F1C; color: #F3E3BD; border-color: #5A4A2A; }
 }

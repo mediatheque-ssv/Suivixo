@@ -1,6 +1,6 @@
 // Suivixo — interface
 import * as C from "./core.js?v=24";
-import { publier, verifierCle, lancerVerification } from "./github.js?v=3";
+import { publier, verifierCle, lancerVerification, lireFichier as lireFichierDepot } from "./github.js?v=4";
 
 // ---------------------------------------------------------------------------
 // État et stockage local
@@ -75,14 +75,27 @@ function sauverBrouillon() {
     date: etat.brouillonDate,
     modifie: [...etat.modifie],
     series: etat.modifie.has("series") ? etat.series : undefined,
+    base: etat.modifie.has("series") ? etat.baseSeries : undefined,
     fonds: etat.modifie.has("fonds") ? etat.fonds : undefined,
   });
 }
 
+/** Une modification : gardée sur ce poste tout de suite, puis enregistrée pour l'équipe quelques secondes après. */
 function marquer(quoi) {
   etat.modifie.add(quoi);
+  if (etat.publication) (etat.modifieDepuis ||= new Set()).add(quoi); // pendant un enregistrement : pour le suivant
   sauverBrouillon();
+  programmerEnregistrement();
   majEntete();
+}
+
+// Enregistrement automatique : on attend une courte pause (plusieurs clics d'affilée → un seul enregistrement)
+let minuteurEnregistrement;
+function programmerEnregistrement(delai = 2500) {
+  clearTimeout(minuteurEnregistrement);
+  if (!etat.modifie.size) return;
+  if (!etat.token) { etat.erreurEnregistrement = "cle"; majEntete(); return; }
+  minuteurEnregistrement = setTimeout(() => lancerPublication({ auto: true }), delai);
 }
 
 // ---------------------------------------------------------------------------
@@ -110,9 +123,10 @@ async function charger() {
     if (pub.fonds && (fonds.publie || "") < pub.date) { etat.fonds = pub.fonds; encore = true; }
     if (!encore || Date.now() - Date.parse(pub.date) > 6 * 3600 * 1000) lsSet(LS.publie, null);
   }
+  etat.baseSeries = structuredClone(etat.series); // copie : les fiches modifiées ensuite ne doivent pas la toucher
   const b = lsGet(LS.brouillon, null);
   if (b && b.modifie?.length) {
-    if (b.series) etat.series = b.series;
+    if (b.series) { etat.series = b.series; if (b.base) etat.baseSeries = b.base; }
     if (b.fonds) etat.fonds = b.fonds;
     b.modifie.forEach((m) => etat.modifie.add(m));
     etat.brouillonDate = b.date;
@@ -613,7 +627,7 @@ function ouvrirFiche(id) {
         <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `${v.enr.couvFR.orphee ? "notre édition (ISBN des exemplaires)" : "édition française"}${v.enr.couvFR.tome ? `, tome ${v.enr.couvFR.tome}` : ""}, d'après ${({ BnF: "la BnF", "Manga-News": "Manga-News", Decitre: "Decitre", ePagine: "ePagine" })[v.enr.couvFR.source] || "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
         <p>Voir sur ${liens.join(", ")}.</p>
         <p class="actions-sources"><button type="button" class="btn" data-action="reverifier" data-id="${h(s.id)}">Revérifier maintenant</button>
-          <span class="discret petit">${COL.mangas ? "AniList, BnF, Manga-News et couverture" : "BnF et couverture"}, sans attendre lundi. Tes modifications non publiées sont publiées d'abord.</span></p>
+          <span class="discret petit">${COL.mangas ? "AniList, BnF, Manga-News et couverture" : "BnF et couverture"}, sans attendre lundi.</span></p>
       </div>
     </details>
     <details class="repli" id="modifier"><summary>Modifier la série</summary>${formulaire(s)}
@@ -707,7 +721,7 @@ function formulaire(s) {
     <label class="champ large"><span>Commentaire</span><textarea name="commentaire">${h(s.commentaire)}</textarea></label>
     <div class="actions large">
       <button class="btn btn-fort" type="submit">Enregistrer</button>
-      <span class="discret">Les modifications restent sur ce poste jusqu'à ce que tu publies.</span>
+      <span class="discret">Enregistré automatiquement pour toute l'équipe.</span>
     </div>
   </form>`;
 }
@@ -742,7 +756,7 @@ function enregistrerFormulaire(form) {
   calculer();
   rendre();
   ouvrirFiche(s.id);
-  toast("Série enregistrée sur ce poste. Publie pour la partager.");
+  toast("Série modifiée.");
 }
 
 // ---------------------------------------------------------------------------
@@ -1327,60 +1341,120 @@ function appliquerImport() {
   etat.importPrevu = null;
   calculer();
   location.hash = "#series";
-  toast("Import appliqué sur ce poste. Publie pour le partager avec l'équipe.");
+  toast("Import appliqué. Il s'enregistre pour toute l'équipe.");
 }
 
 // ---------------------------------------------------------------------------
 // Publication
 // ---------------------------------------------------------------------------
 
-/** Publie, puis lance la vérification des parutions (nouvelles séries, liens modifiés) sauf si `verifier` est faux.
- *  Renvoie vrai si la publication a réussi (ou s'il n'y avait rien à publier). */
-async function lancerPublication({ verifier = true } = {}) {
+/** Changements de ce poste par rapport à la version de départ : séries modifiées ou ajoutées, séries supprimées. */
+function changementsSeries() {
+  const base = new Map((etat.baseSeries || []).map((s) => [s.id, JSON.stringify(s)]));
+  const ici = new Map(etat.series.map((s) => [s.id, s]));
+  const changees = etat.series.filter((s) => base.get(s.id) !== JSON.stringify(s));
+  const supprimees = [...base.keys()].filter((id) => !ici.has(id));
+  // la vérification des parutions n'est utile que pour une nouvelle série ou des liens modifiés
+  const avecLiens = changees.some((s) => {
+    const b = base.get(s.id);
+    return !b || JSON.stringify(JSON.parse(b).liens || {}) !== JSON.stringify(s.liens || {});
+  });
+  return { changees, supprimees, avecLiens };
+}
+
+/** Enregistre pour toute l'équipe (un commit dans le dépôt), puis lance la vérification des parutions si elle
+ *  sert à quelque chose (import, nouvelle série, lien modifié). Les fiches sont fusionnées avec la version
+ *  actuelle du dépôt : les changements faits entre-temps sur un autre poste sont gardés.
+ *  Renvoie vrai si l'enregistrement a réussi (ou s'il n'y avait rien à enregistrer). */
+async function lancerPublication({ verifier = true, auto = false } = {}) {
+  clearTimeout(minuteurEnregistrement);
   if (!etat.token) {
-    ouvrirReglages("Ajoute d'abord une clé d'accès GitHub pour publier.");
+    etat.erreurEnregistrement = "cle";
+    majEntete();
+    if (!auto) toast("Pas de clé d'accès GitHub : les modifications restent sur ce poste. Ajoute-la dans les Réglages.", true);
     return false;
   }
-  const fichiers = [];
+  if (etat.publication) { etat.aRefaire = true; return false; }
+  if (!etat.modifie.size) return true;
   const quand = new Date().toISOString();
   const instantane = { date: quand };
-  if (etat.modifie.has("series")) {
-    const series = [...etat.series].sort((a, b) => a.titre.localeCompare(b.titre, "fr", { sensitivity: "base" }));
-    fichiers.push({ chemin: `${COL.dossier}series.json`, contenu: JSON.stringify({ version: 1, publie: quand, series }, null, 1) + "\n" });
-    instantane.series = series;
-  }
-  if (etat.modifie.has("fonds")) {
-    etat.fonds.publie = quand;
-    fichiers.push({ chemin: `${COL.dossier}fonds.json`, contenu: JSON.stringify(etat.fonds, null, 1) + "\n" });
-    instantane.fonds = etat.fonds;
-  }
-  if (!fichiers.length) return true;
-  const quoi = [etat.modifie.has("fonds") && `import Orphée du ${dateFr(etat.fonds.import?.date)}`, etat.modifie.has("series") && "fiches séries"].filter(Boolean).join(" et ");
+  const modifie = new Set(etat.modifie);
+  const { changees, supprimees, avecLiens } = changementsSeries();
+  // état de chaque fiche au départ, pour reconnaître celles modifiées pendant l'enregistrement
+  const auDepart = new Map(etat.series.map((s) => [s.id, JSON.stringify(s)]));
+  etat.modifieDepuis = new Set();
+  const avecVerification = verifier && (modifie.has("fonds") || avecLiens);
   etat.publication = true;
+  etat.erreurEnregistrement = null;
   majEntete();
   try {
-    await publier({ token: etat.token, depot: etat.prefs.depot, fichiers, message: `Mise à jour depuis Suivixo (${COL.nom}) : ${quoi}` });
-    lsSet(LS.publie, instantane);
-    etat.modifie.clear();
-    etat.brouillonDate = null;
-    sauverBrouillon();
-    let suite = "";
-    if (verifier) {
+    for (let essai = 1; ; essai++) {
+      const fichiers = [];
+      let series = null;
+      if (modifie.has("series")) {
+        // fusion avec la version du dépôt : nos fiches modifiées, ajoutées ou supprimées ; le reste tel quel
+        const brut = await lireFichierDepot({ token: etat.token, depot: etat.prefs.depot, chemin: `${COL.dossier}series.json` });
+        const distant = brut ? JSON.parse(brut).series || [] : [];
+        const parId = new Map(distant.map((s) => [s.id, s]));
+        supprimees.forEach((id) => parId.delete(id));
+        changees.forEach((s) => parId.set(s.id, s));
+        series = [...parId.values()].sort((a, b) => a.titre.localeCompare(b.titre, "fr", { sensitivity: "base" }));
+        fichiers.push({ chemin: `${COL.dossier}series.json`, contenu: JSON.stringify({ version: 1, publie: quand, series }, null, 1) + "\n" });
+        instantane.series = series;
+      }
+      if (modifie.has("fonds")) {
+        etat.fonds.publie = quand;
+        fichiers.push({ chemin: `${COL.dossier}fonds.json`, contenu: JSON.stringify(etat.fonds, null, 1) + "\n" });
+        instantane.fonds = etat.fonds;
+      }
+      const quoi = [modifie.has("fonds") && `import Orphée du ${dateFr(etat.fonds.import?.date)}`, modifie.has("series") && "fiches séries"].filter(Boolean).join(" et ");
+      try {
+        await publier({ token: etat.token, depot: etat.prefs.depot, fichiers, message: `Mise à jour depuis Suivixo (${COL.nom}) : ${quoi}` });
+      } catch (e) {
+        if ((e.status === 409 || e.status === 422) && essai < 3) { await new Promise((r) => setTimeout(r, 1500 * essai)); continue; }
+        throw e;
+      }
+      lsSet(LS.publie, instantane);
+      if (series) {
+        // fiches modifiées sur ce poste pendant l'enregistrement : gardées pour le prochain
+        const depuis = etat.series.filter((s) => auDepart.get(s.id) !== JSON.stringify(s));
+        const supprDepuis = [...auDepart.keys()].filter((id) => !etat.series.some((s) => s.id === id));
+        const envoyees = JSON.parse(fichiers[0].contenu).series;
+        etat.baseSeries = structuredClone(envoyees);
+        const parId = new Map(envoyees.map((s) => [s.id, s]));
+        supprDepuis.forEach((id) => parId.delete(id));
+        depuis.forEach((s) => parId.set(s.id, s));
+        const avant = JSON.stringify(etat.series.map((s) => s.id).sort());
+        const fusion = [...parId.values()].sort((a, b) => a.titre.localeCompare(b.titre, "fr", { sensitivity: "base" }));
+        // changements faits sur un autre poste : on les affiche
+        const autresPostes = avant !== JSON.stringify(fusion.map((s) => s.id).sort()) || envoyees.some((s) => !changees.some((c) => c.id === s.id) && auDepart.get(s.id) !== undefined && auDepart.get(s.id) !== JSON.stringify(s));
+        etat.series = fusion;
+        if (autresPostes) { calculer(); rendre(); }
+      }
+      etat.modifie = new Set(etat.modifieDepuis);
+      etat.modifieDepuis = new Set();
+      etat.brouillonDate = null;
+      sauverBrouillon();
+      break;
+    }
+    etat.enregistreA = new Date();
+    if (avecVerification) {
       try {
         await lancerVerification({ token: etat.token, depot: etat.prefs.depot, collection: COL_ID });
-        suite = " La vérification des parutions est lancée pour les nouvelles séries et les liens modifiés : comptes et couvertures arrivent d'ici quelques minutes.";
+        if (!auto || modifie.has("fonds")) toast("Enregistré. La vérification des parutions est lancée : comptes et couvertures arrivent d'ici quelques minutes.");
       } catch (e) {
-        suite = e.droits ? " (Pour que la vérification des parutions se lance aussi, ajoute la permission « Actions » à ta clé.)" : "";
+        if (e.droits) toast("Enregistré. (Pour que la vérification des parutions se lance aussi, ajoute la permission « Actions » à ta clé.)");
       }
     }
-    toast(`Publié. Le site sera à jour pour toute l'équipe d'ici une minute ou deux.${suite}`);
     return true;
   } catch (e) {
+    etat.erreurEnregistrement = e.message;
     toast(e.message, true);
     return false;
   } finally {
     etat.publication = false;
     majEntete();
+    if (etat.aRefaire || (etat.modifie.size && !etat.erreurEnregistrement)) { etat.aRefaire = false; programmerEnregistrement(1000); }
   }
 }
 
@@ -1390,7 +1464,7 @@ async function verifierMaintenant(ids = []) {
     ouvrirReglages("Ajoute d'abord une clé d'accès GitHub (avec la permission « Actions ») pour lancer la vérification.");
     return;
   }
-  if (etat.modifie.size && !(await lancerPublication({ verifier: false }))) return;
+  if (etat.modifie.size && !(await lancerPublication({ verifier: false }))) return; // ce qui attend est enregistré d'abord
   try {
     await lancerVerification({ token: etat.token, depot: etat.prefs.depot, series: ids, collection: COL_ID });
     const qui = ids.length === 1 ? `« ${etat.parId.get(ids[0])?.s.titre || ids[0]} »` : "les séries à revoir";
@@ -1401,7 +1475,7 @@ async function verifierMaintenant(ids = []) {
 }
 
 function abandonnerModifs() {
-  if (!confirmerSimple("Abandonner les modifications non publiées ?")) return;
+  if (!confirmerSimple("Abandonner les modifications qui n'ont pas pu être enregistrées ?")) return;
   lsSet(LS.brouillon, null);
   location.reload();
 }
@@ -1418,7 +1492,7 @@ function ouvrirReglages(message) {
   $("#in-token").value = etat.token || "";
   $("#in-depot").value = etat.prefs.depot;
   $("#txt-stats").textContent = etat.stats
-    ? `Les prêts de l'import du ${dateFr(etat.stats.date)} sont enregistrés dans ce navigateur. Ils ne sont pas publiés.`
+    ? `Les prêts de l'import du ${dateFr(etat.stats.date)} sont gardés dans ce navigateur. Ils ne sont jamais envoyés sur GitHub.`
     : "Aucune statistique de prêt dans ce navigateur. Importe un export Orphée pour les voir.";
   $("#btn-oublier-stats").hidden = !etat.stats;
   if (message) toast(message);
@@ -1438,10 +1512,11 @@ async function fermerReglages(e) {
     etat.token = token;
     lsSet(LS.token, token || null);
     if (token) {
-      try { await verifierCle(token, depot); toast("Clé vérifiée : tu peux publier."); }
+      try { await verifierCle(token, depot); toast("Clé vérifiée : les modifications sont enregistrées automatiquement."); }
       catch (err) { toast(err.message, true); }
     }
   }
+  if (etat.token && etat.modifie.size) { etat.erreurEnregistrement = null; programmerEnregistrement(300); }
   majEntete();
 }
 
@@ -1454,15 +1529,35 @@ function majEntete() {
   const enr = etat.enrich.maj ? `Parutions vérifiées le ${dateFr(etat.enrich.maj)}` : "Parutions pas encore vérifiées";
   $("#pied").textContent = `${imp}. ${enr}.`;
   const ban = $("#bandeau");
-  if (etat.modifie.size) {
-    const off = etat.publication ? "disabled" : "";
+  if (etat.erreurEnregistrement === "cle" && etat.modifie.size) {
     ban.hidden = false;
+    ban.className = "bandeau bandeau-erreur";
     ban.innerHTML = `<div class="bandeau-ligne">
-      <p>${etat.publication ? "Publication en cours…" : "Modifications pas encore publiées : le reste de l'équipe ne les voit pas."}</p>
-      <button class="btn" data-action="abandonner" ${off}>Abandonner</button>
-      <button class="btn btn-fort" data-action="publier" ${off}>Publier</button>
+      <p><strong>Modifications non enregistrées :</strong> il manque la clé d'accès GitHub. Elles restent sur ce poste en attendant.</p>
+      <button class="btn" data-action="abandonner">Abandonner</button>
+      <button class="btn btn-fort" data-action="reglages">Ajouter la clé</button>
     </div>`;
-  } else ban.hidden = true;
+  } else if (etat.erreurEnregistrement && etat.modifie.size) {
+    ban.hidden = false;
+    ban.className = "bandeau bandeau-erreur";
+    ban.innerHTML = `<div class="bandeau-ligne">
+      <p><strong>Enregistrement impossible :</strong> ${h(etat.erreurEnregistrement)}</p>
+      <button class="btn" data-action="abandonner">Abandonner</button>
+      <button class="btn btn-fort" data-action="enregistrer">Réessayer</button>
+    </div>`;
+  } else {
+    ban.hidden = true;
+    ban.className = "bandeau";
+  }
+  // petit témoin discret pendant l'enregistrement
+  const tem = $("#temoin-enregistrement");
+  if (tem) {
+    tem.hidden = !(etat.publication || (etat.modifie.size && !etat.erreurEnregistrement) || etat.enregistreA);
+    tem.textContent = etat.publication || etat.modifie.size ? "Enregistrement…" : "Modification enregistrée ✓";
+    tem.classList.toggle("fini", !etat.publication && !etat.modifie.size);
+    clearTimeout(etat.minuteurTemoin);
+    if (!etat.publication && !etat.modifie.size && etat.enregistreA) etat.minuteurTemoin = setTimeout(() => { tem.hidden = true; etat.enregistreA = null; }, 2500);
+  }
   const n = etat.vues.length ? nbControles() : 0;
   $("#nb-controles").textContent = n ? String(n) : "";
 }
@@ -1623,7 +1718,8 @@ function brancher() {
   $("#btn-oublier-stats").addEventListener("click", () => { lsSet(LS.stats, null); etat.stats = null; calculer(); rendre(); $("#dlg-reglages").close(); toast("Statistiques de prêt effacées de ce navigateur."); });
   $("#bandeau").addEventListener("click", (e) => {
     const a = e.target.closest("button")?.dataset.action;
-    if (a === "publier") lancerPublication();
+    if (a === "enregistrer") lancerPublication();
+    if (a === "reglages") ouvrirReglages();
     if (a === "abandonner") abandonnerModifs();
   });
 }
@@ -1657,7 +1753,7 @@ function brancherCollections() {
   });
   document.title = `Suivixo · ${COL.nom}`;
   const txtVerif = $("#txt-verification");
-  if (txtVerif) txtVerif.textContent = `Elle passe ${COL.reseau ? "tout le réseau" : "toutes les séries de la collection"} en revue chaque lundi vers 4 h${COL.mangas ? " (AniList, Manga-News et BnF)" : " (BnF et couvertures)"}, et se lance aussi après chaque publication. Tu peux la lancer tout de suite : elle traite les nouvelles séries et celles dont tu as modifié les liens.`;
+  if (txtVerif) txtVerif.textContent = `Elle passe ${COL.reseau ? "tout le réseau" : "toutes les séries de la collection"} en revue chaque lundi vers 4 h${COL.mangas ? " (AniList, Manga-News et BnF)" : " (BnF et couvertures)"}, et se lance aussi après un import. Tu peux la lancer tout de suite : elle traite les nouvelles séries et celles dont tu as modifié les liens.`;
 }
 
 (async function demarrer() {
@@ -1672,4 +1768,7 @@ function brancherCollections() {
   calculer();
   brancher();
   rendre();
+  // modifications restées sur ce poste (page fermée trop tôt, pas de réseau…) : on les enregistre
+  if (etat.modifie.size) programmerEnregistrement(1500);
+  majEntete();
 })();
