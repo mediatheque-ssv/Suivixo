@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=22";
+import * as C from "./core.js?v=23";
 import { publier, verifierCle, lancerVerification } from "./github.js?v=3";
 
 // ---------------------------------------------------------------------------
@@ -1107,7 +1107,12 @@ function relier(idSource, idCible) {
   const fs = etat.fonds.series?.[idSource];
   if (fs) {
     const fc = (etat.fonds.series[idCible] ||= { titreOrphee: cible.titre, editeur: fs.editeur || "", tomes: {} });
-    for (const [b, l] of Object.entries(fs.tomes || {})) fc.tomes[b] = [...new Set([...(fc.tomes[b] || []), ...l])].sort((a, b2) => a - b2);
+    // un titre unique n'a pas de vrai numéro (« 1 ») : il rejoint les titres sans numéro de la série
+    const unique = src.type === "One shot" || fs.oneShot;
+    for (const [b, l] of Object.entries(fs.tomes || {})) {
+      if (unique) (fc.sansNumero ||= {})[b] = [...new Set([...(fc.sansNumero[b] || []), src.titre])];
+      else fc.tomes[b] = [...new Set([...(fc.tomes[b] || []), ...l])].sort((a, b2) => a - b2);
+    }
     for (const [b, n] of Object.entries(fs.hs || {})) (fc.hs ||= {})[b] = (fc.hs[b] || 0) + n;
     if (fs.retires?.length) fc.retires = [...(fc.retires || []), ...fs.retires];
     if (fs.sansNumero) for (const [b, l] of Object.entries(fs.sansNumero)) (fc.sansNumero ||= {})[b] = [...new Set([...(fc.sansNumero[b] || []), ...l])];

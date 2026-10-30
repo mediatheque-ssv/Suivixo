@@ -266,6 +266,9 @@ function tomeExemplaire(ex, seriesSansNom) {
  */
 export function construireFonds(exemplaires, series, meta = {}) {
   const idx = indexSeries(series);
+  const parSerie = new Map(series.map((s) => [s.id, s]));
+  // numéros indiqués pour des titres rattachés : { "Abominables bonshommes de neige": 38 }
+  const numerosDe = (s) => new Map(Object.entries(s.numeros || {}).map(([t, n]) => [cleTitre(t), +n]));
   const ids = new Set(series.map((s) => s.id));
   const nouvelles = new Map(); // cle → série créée
   const fonds = {};
@@ -300,6 +303,13 @@ export function construireFonds(exemplaires, series, meta = {}) {
     }
     const tome = tomeExemplaire(ex, seriesSansNom);
     if (tome.type === "num" && tome.nums.some((n) => n > 200)) Object.assign(tome, { type: "inconnu", nums: [] }); // « 10000 », « 2006 »…
+    // titre sans série dans Orphée, rattaché dans Suivixo à une vraie série (« Abominables bonshommes de
+    // neige » → Chair de poule) : son numéro s'il a été indiqué, sinon titre sans numéro (pas un « tome 1 »)
+    const cible = id ? parSerie.get(id) : null;
+    if (cible && ex.sansSerie && cible.type !== "One shot") {
+      const n = numerosDe(cible).get(cleTitre(ex.album || ex.titreBrut));
+      Object.assign(tome, n ? { type: "num", nums: [n] } : { type: "inconnu", nums: [] });
+    }
     if (!id) {
       const titre = titreNaturel(ex.titreBrut.split("\n")[0]);
       let nid = slug(titre), n = 2;

@@ -246,5 +246,20 @@ t("ISBN dans l'export (à la place du public)", () => {
   const vieux = C.lireExportOrphee([rows[0], ex("BD ACH", "Jeunesse")]).exemplaires[0];
   assert.equal(vieux.public, "Jeunesse"); assert.equal(vieux.isbn, undefined);
 });
+t("titre sans série rattaché à une série", () => {
+  const ex = (cote) => ["Servon-sur-Vilaine", null, cote, null, null, "Disponible", null, "2-227-73823-5", null, null, null, "CS1: Roman", null, null, "CS2: Non renseigné", null, null, null, null, null, null, null, "Nb prêts total : 3"];
+  const rows = [[null, null, null, null, null, "Tome :", null, null, null, "Abominables bonshommes de neige"], ex("ER STI A")];
+  const lus = C.lireExportOrphee(rows).exemplaires;
+  const cdp = { id: "chair-de-poule", titre: "Chair de Poule", type: "Série", alias: ["Abominables bonshommes de neige"] };
+  let f = C.construireFonds(lus, [cdp]).fonds.series["chair-de-poule"];
+  assert.deepEqual(f.tomes["Servon-sur-Vilaine"] || [], []); // pas de « tome 1 »
+  assert.deepEqual(f.sansNumero, { "Servon-sur-Vilaine": ["Abominables bonshommes de neige"] });
+  assert.equal(f.oneShot, undefined);
+  f = C.construireFonds(lus, [{ ...cdp, numeros: { "Abominables bonshommes de neige": 38 } }]).fonds.series["chair-de-poule"];
+  assert.deepEqual(f.tomes, { "Servon-sur-Vilaine": [38] });
+  // sans rattachement : toujours un titre unique
+  const r = C.construireFonds(lus, []);
+  assert.equal(r.nouvelles[0].type, "One shot");
+});
 
 console.log(`${ok} tests réussis${process.exitCode ? ", des échecs ci-dessus" : ""}.`);
