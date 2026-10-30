@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T11:22:36Z",
+ "maj": "2026-10-30T11:25:41Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -1880,8 +1880,8 @@
     "requete": "bib.title all \"auteur de mes jours\" and (bib.doctype=\"a\") and bib.author all \"hoestlandt\""
    },
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
    "liensVus": {}
@@ -2944,7 +2944,7 @@
    "couvEssai": "2026-10-30",
    "liensVus": {},
    "couvEssaiMN": "",
-   "couvVersion": 3
+   "couvVersion": 4
   },
   "betise-de-splat": {
    "bnfVerifie": "2026-10-29",
@@ -3073,8 +3073,8 @@
     "requete": "bib.title all \"bien curieuse factrice une\" and (bib.doctype=\"a\") and bib.author all \"dominique\""
    },
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
    "liensVus": {}
@@ -5016,10 +5016,10 @@
   },
   "cheval-dans-la-maison": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -7927,8 +7927,8 @@
     "requete": "bib.title all \"dur dur detre un grand frere\" and (bib.doctype=\"a\") and bib.author all \"frost\""
    },
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
    "liensVus": {},
@@ -8844,8 +8844,8 @@
     "requete": "bib.title all \"enfant qui parlait aux animaux\" and (bib.doctype=\"a\") and bib.author all \"roald\""
    },
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
    "liensVus": {},
@@ -10360,9 +10360,9 @@
   "fils-du-loup-la-balafre-une-odyssee-au-klondyke": {
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": null,
@@ -11603,12 +11603,19 @@
     "requete": "bib.isbn all \"9782211215954\""
    },
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvIsbn": "9782211215954"
+   "couvIsbn": "9782211215954",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782211215954",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "geronimo-stilton": {
    "bnf": {
@@ -13009,12 +13016,19 @@
     "accordIsbn": false
    },
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvIsbn": "9782809675528,9782809675535"
+   "couvIsbn": "9782809675528,9782809675535",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782809675528",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "hotel-flamingo": {
    "bnf": {
@@ -14255,10 +14269,10 @@
   },
   "jeanies-et-les-siens": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -14728,8 +14742,8 @@
   },
   "journee-a-cloche-pied-une": {
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "verifie": "2026-10-29",
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
@@ -15489,10 +15503,10 @@
   },
   "lili-a-peur-des-controles": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -15596,10 +15610,10 @@
   },
   "lili-se-dispute-avec-son-frere": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -15708,9 +15722,9 @@
   "lola-la-pirate": {
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": 1,
@@ -16042,9 +16056,9 @@
   "m-sale-salit-tout-sur-son-passage": {
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": 1,
@@ -16064,7 +16078,14 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782012271876\""
    },
-   "couvIsbn": "9782012271876"
+   "couvIsbn": "9782012271876",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012271876",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "ma-folle-semaine-avec-tess": {
    "couvEssai": "2026-10-29",
@@ -16120,12 +16141,19 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782012102040\""
    },
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
    "couvEssaiMN": "",
-   "couvVersion": 3,
-   "couvIsbn": "9782012102040"
+   "couvVersion": 4,
+   "couvIsbn": "9782012102040",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012102040",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "ma-mere-est-un-gorille-et-alors": {
    "couvVersion": 3,
@@ -16357,10 +16385,10 @@
   },
   "madame-contraire": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -16384,7 +16412,14 @@
     ],
     "requete": "bib.title all \"madame contraire\" and (bib.doctype=\"a\") and bib.author all \"hargreaves\""
    },
-   "couvIsbn": "9782012248724"
+   "couvIsbn": "9782012248724",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012248724",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "madame-de-beaupoil-voyage-a-londres": {
    "verifie": "2026-10-29",
@@ -16422,11 +16457,11 @@
   },
   "madame-fabuleuse": {
    "bnfVerifie": "2026-10-29",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "verifie": "2026-10-29",
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -16445,14 +16480,21 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782013987455\""
    },
-   "couvIsbn": "9782013987455"
+   "couvIsbn": "9782013987455",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782013987455",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "madame-malchance": {
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": 1,
@@ -16471,14 +16513,21 @@
     ],
     "requete": "bib.title all \"madame malchance\" and (bib.doctype=\"a\") and bib.author all \"hargreaves\""
    },
-   "couvIsbn": "9782012248168"
+   "couvIsbn": "9782012248168",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012248168",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "madame-tetue-et-la-licorne": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -16498,7 +16547,14 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782012252059\""
    },
-   "couvIsbn": "9782012252059"
+   "couvIsbn": "9782012252059",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012252059",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "mademoiselle-zazie": {
    "bnfVerifie": "2026-10-29",
@@ -17732,10 +17788,10 @@
   },
   "memoires-dun-ane": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -19097,11 +19153,11 @@
   },
   "monsieur-bruit": {
    "bnfVerifie": "2026-10-29",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "verifie": "2026-10-29",
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -19120,14 +19176,21 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782012245518\""
    },
-   "couvIsbn": "9782012245518"
+   "couvIsbn": "9782012245518",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012245518",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "monsieur-gentil": {
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": 1,
@@ -19151,7 +19214,14 @@
     ],
     "requete": "bib.title all \"monsieur gentil\" and (bib.doctype=\"a\") and bib.author all \"hargreaves\""
    },
-   "couvIsbn": "9782012248144"
+   "couvIsbn": "9782012248144",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012248144",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "monsieur-kipu": {
    "couvEssai": "2026-10-29",
@@ -19221,19 +19291,26 @@
     "accordIsbn": false,
     "requete": "bib.title all \"monsieur madame\" and (bib.doctype=\"a\")"
    },
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "liensVus": {},
    "couvEssaiMN": "",
-   "couvVersion": 3,
-   "couvIsbn": "9782012271838,9782012266964,9782012248588"
+   "couvVersion": 4,
+   "couvIsbn": "9782012271838,9782012266964,9782012248588",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 7,
+    "isbn": "9782012271838",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "monsieur-madame-au-pays-magique": {
    "bnfVerifie": "2026-10-29",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "verifie": "2026-10-29",
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -19252,14 +19329,21 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782012249677\""
    },
-   "couvIsbn": "9782012249677"
+   "couvIsbn": "9782012249677",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012249677",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "monsieur-madame-et-le-gouter-d-anniversaire": {
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": 1,
@@ -19279,14 +19363,21 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782013987479\""
    },
-   "couvIsbn": "9782013987479"
+   "couvIsbn": "9782013987479",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782013987479",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "monsieur-madame-font-de-la-musique": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -19306,7 +19397,14 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782012042711\""
    },
-   "couvIsbn": "9782012042711"
+   "couvIsbn": "9782012042711",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012042711",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "monsieur-madame-vont-camper": {
    "verifie": "2026-10-29",
@@ -19328,12 +19426,19 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782013987486\""
    },
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
    "couvEssaiMN": "",
-   "couvVersion": 3,
-   "couvIsbn": "9782013987486"
+   "couvVersion": 4,
+   "couvIsbn": "9782013987486",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782013987486",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "monsieur-monsieur-et-mademoiselle-moiselle": {
    "bnfVerifie": "2026-10-29",
@@ -19360,9 +19465,9 @@
   "monsieur-peureux": {
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": 1,
@@ -19386,7 +19491,14 @@
     ],
     "requete": "bib.title all \"monsieur peureux\" and (bib.doctype=\"a\") and bib.author all \"hargreaves\""
    },
-   "couvIsbn": "9782012248380"
+   "couvIsbn": "9782012248380",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782012248380",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "monstres": {
    "bnfVerifie": "2026-10-29",
@@ -20048,11 +20160,11 @@
   },
   "noel-cest-pas-pour-les-maitresses": {
    "bnfVerifie": "2026-10-29",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "verifie": "2026-10-29",
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "bnf": {
     "dernier": null,
     "notices": 0,
@@ -21930,9 +22042,9 @@
   "pierre-et-la-sorciere": {
    "couvEssaiMN": "",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "bnf": {
     "dernier": 1,
@@ -21952,7 +22064,14 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782278091942\""
    },
-   "couvIsbn": "9782278091942"
+   "couvIsbn": "9782278091942",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782278091942",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "pierres-de-roc-en-terre": {
    "bnfVerifie": "2026-10-29",
@@ -22136,7 +22255,7 @@
    "bnfVerifie": "2026-10-30",
    "liensVus": {},
    "couvEssaiMN": "",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvIsbn": "9782081621954",
    "couvFR": {
     "source": "Open Library",
@@ -27502,7 +27621,7 @@
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
    "couvEssaiMN": "",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -27521,8 +27640,15 @@
     "requete": "bib.title all \"tattrolu\" and (bib.doctype=\"a\") and bib.author all \"degrenne\""
    },
    "verifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
-   "couvIsbn": "9782910861407"
+   "couvEssai": "2026-10-30",
+   "couvIsbn": "9782910861407",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782910861407",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "taupe-mulot": {
    "couvFR": {
@@ -27921,8 +28047,8 @@
     "notices": 0,
     "requete": "bib.title all \"the enormous crocodile\" and (bib.doctype=\"a\") and bib.author all \"roald\""
    },
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "liensVus": {},
    "couvEssaiMN": "",
    "verifie": "2026-10-29"
@@ -27950,8 +28076,8 @@
   },
   "theo-et-balthazar-dans-l-ile-du-pere-noel": {
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "verifie": "2026-10-29",
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
@@ -28462,7 +28588,7 @@
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
    "couvEssaiMN": "",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnf": {
     "dernier": null,
     "notices": 0,
@@ -28470,8 +28596,14 @@
     "accordIsbn": false
    },
    "verifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
-   "couvIsbn": "9782211094924,9782211094894"
+   "couvEssai": "2026-10-30",
+   "couvIsbn": "9782211094924,9782211094894",
+   "couvFR": {
+    "source": "Decitre",
+    "isbn": "9782211094924",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "trop-classe-la-sixieme": {
    "bnfVerifie": "2026-10-29",
@@ -28812,8 +28944,8 @@
     "notices": 0,
     "requete": "bib.title all \"tu veux ma photo\" and (bib.doctype=\"a\") and bib.author all \"carolyn\""
    },
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "liensVus": {},
    "couvEssaiMN": "",
    "verifie": "2026-10-29"
@@ -29875,8 +30007,8 @@
     "notices": 0,
     "requete": "bib.title all \"verte\" and (bib.doctype=\"a\")"
    },
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "liensVus": {},
    "couvEssaiMN": "",
    "verifie": "2026-10-29"
@@ -29885,15 +30017,22 @@
    "bnfVerifie": "2026-10-29",
    "liensVus": {},
    "couvEssaiMN": "",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "bnf": {
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"vet vicky\" and (bib.doctype=\"a\") and bib.author all \"mandy\""
    },
    "verifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
-   "couvIsbn": "9781844221950"
+   "couvEssai": "2026-10-30",
+   "couvIsbn": "9781844221950",
+   "couvFR": {
+    "source": "Open Library",
+    "tome": 1,
+    "isbn": "9781844221950",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "vibidia": {
    "bnfVerifie": "2026-10-29",
@@ -30584,10 +30723,10 @@
   },
   "voyage-de-l-ane": {
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -30607,7 +30746,14 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782278122097\""
    },
-   "couvIsbn": "9782278122097"
+   "couvIsbn": "9782278122097",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782278122097",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "voyages-extraordinaires-d-aster-carmin": {
    "couvEssaiMN": "",
