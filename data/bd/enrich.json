@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T11:23:36Z",
+ "maj": "2026-10-30T11:24:52Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -429,7 +429,7 @@
   },
   "ana-ana": {
    "couvEssai": "2026-10-30",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 28,
@@ -468,7 +468,14 @@
    "verifie": "2026-10-30",
    "liensVus": {},
    "bnfVerifie": "2026-10-30",
-   "couvIsbn": "9782205074109,9782205075687,9782205079227"
+   "couvIsbn": "9782205074109,9782205075687,9782205079227",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 5,
+    "isbn": "9782205074109",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "ana-l-entremonde": {
    "couvEssai": "2026-10-29",
@@ -3027,12 +3034,19 @@
     "requete": "bib.isbn all \"9782205072174\""
    },
    "bnfVerifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
    "liensVus": {},
-   "couvIsbn": "9782205072174"
+   "couvIsbn": "9782205072174",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205072174",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "cath-son-chat": {
    "bnf": {
@@ -3518,8 +3532,8 @@
    "couvIsbn": "9782810207947"
   },
   "choupisson": {
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
@@ -3530,7 +3544,14 @@
    "verifie": "2026-10-29",
    "liensVus": {},
    "bnfVerifie": "2026-10-29",
-   "couvIsbn": "9782357961043,9782357961241"
+   "couvIsbn": "9782357961043,9782357961241",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782357961043",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "chroniques-de-l-ile-perdue": {
    "couvEssai": "2026-10-29",
@@ -4138,8 +4159,8 @@
    "couvIsbn": "9782808512589"
   },
   "dinos-des-champs": {
-   "couvEssai": "2026-10-29",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 1,
@@ -4162,7 +4183,14 @@
    "verifie": "2026-10-29",
    "liensVus": {},
    "bnfVerifie": "2026-10-29",
-   "couvIsbn": "9782344069677"
+   "couvIsbn": "9782344069677",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782344069677",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "donjon-antipodes": {
    "couvEssai": "2026-10-29",
@@ -4671,10 +4699,10 @@
    "couvIsbn": "9791036314889"
   },
   "emouvantail": {
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "liensVus": {},
    "bnf": {
     "dernier": 5,
@@ -4711,7 +4739,14 @@
     "requete": "bib.title all \"emouvantail\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-29",
-   "couvIsbn": "9791092111903,9782357960107,9782357960190"
+   "couvIsbn": "9791092111903,9782357960107,9782357960190",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9791092111903",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "encyclopedie-des-peurs": {
    "couvEssai": "2026-10-29",
@@ -5352,10 +5387,10 @@
    "couvIsbn": "9782822208147"
   },
   "fils-du-pirate": {
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "liensVus": {},
    "bnf": {
     "dernier": 1,
@@ -5375,7 +5410,14 @@
     "requete": "bib.title all \"fils du pirate\" and (bib.doctype=\"a\") and bib.author all \"bourgeau\""
    },
    "bnfVerifie": "2026-10-29",
-   "couvIsbn": "9782020415446"
+   "couvIsbn": "9782020415446",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782020415446",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "fleur-de-bambou": {
    "couvEssai": "2026-10-29",
@@ -12444,7 +12486,7 @@
    "couvIsbn": "9782344009536,9782344009543,9782344009550"
   },
   "snoopy-les-peanuts": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "verifie": "2026-10-29",
    "liensVus": {},
    "bnf": {
@@ -12483,8 +12525,15 @@
    },
    "bnfVerifie": "2026-10-29",
    "couvEssaiMN": "",
-   "couvEssai": "2026-10-29",
-   "couvIsbn": "9782205076851"
+   "couvEssai": "2026-10-30",
+   "couvIsbn": "9782205076851",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 19,
+    "isbn": "9782205076851",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "soeurs-de-la-brume": {
    "couvVersion": 3,
@@ -13716,7 +13765,7 @@
    "bnfVerifie": "2026-10-29",
    "couvEssaiMN": "",
    "verifie": "2026-10-29",
-   "couvEssai": "2026-10-29",
+   "couvEssai": "2026-10-30",
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -13735,9 +13784,16 @@
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782344069547\""
    },
-   "couvVersion": 3,
+   "couvVersion": 4,
    "liensVus": {},
-   "couvIsbn": "9782344069547"
+   "couvIsbn": "9782344069547",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782344069547",
+    "orphee": true,
+    "maj": "2026-10-30"
+   }
   },
   "tilly-zorus": {
    "liensVus": {},
