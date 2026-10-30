@@ -1468,7 +1468,7 @@ async function verifierMaintenant(ids = []) {
   try {
     await lancerVerification({ token: etat.token, depot: etat.prefs.depot, series: ids, collection: COL_ID });
     const qui = ids.length === 1 ? `« ${etat.parId.get(ids[0])?.s.titre || ids[0]} »` : "les séries à revoir";
-    toast(`Vérification lancée pour ${qui}. Résultat d'ici 3 à 5 minutes : recharge alors la page.`);
+    toast(ids.length ? `Vérification lancée pour ${qui}. Résultat d'ici 2 minutes environ : recharge alors la page.` : `Vérification lancée pour ${qui}. Elle peut durer de quelques minutes à une heure selon le nombre de séries.`);
   } catch (e) {
     toast(e.message, true);
   }
