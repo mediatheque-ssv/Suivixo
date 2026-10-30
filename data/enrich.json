@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T22:10:18Z",
+ "maj": "2026-10-30T11:31:20Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -92,6 +92,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/13e-Piste-la",
+    "couv": "https://www.manga-news.com/public/images/series/.La_13e_piste_T01_-_Ki-oon_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 7,
@@ -102,7 +103,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "verifie": "2026-10-26",
@@ -357,6 +358,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/A-crocs-a-toi",
+    "couv": "https://www.manga-news.com/public/images/series/.a-crocs-a-toi-akata-1_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 7,
@@ -367,7 +369,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -447,6 +449,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/A-limage-de-Mona-Lisa",
+    "couv": "https://www.manga-news.com/public/images/series/.imlage_de_mona_lisa_1_akata_medium.webp",
     "vf": 9,
     "vfStatut": "En cours",
     "vo": 10,
@@ -455,7 +458,7 @@
     "vfDernierDate": "2024-11-07",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -533,6 +536,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/A-sign-of-affection",
+    "couv": "https://www.manga-news.com/public/images/series/.A_sign_of_affection_1_akata_medium.webp",
     "vf": 14,
     "vfStatut": "En cours",
     "vo": 14,
@@ -541,7 +545,7 @@
     "vfDernierDate": "2026-09-10",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -1027,6 +1031,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Alice-au-dela-des-etoiles",
+    "couv": "https://www.manga-news.com/public/images/series/.Alice_au-del__des__toiles_-_Tome_01_-_Glenat_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 7,
@@ -1037,7 +1042,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -1729,6 +1734,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Tsukuritai-onna-to-tabetai-onna",
+    "couv": "https://www.manga-news.com/public/images/series/.L_amour_est_au_menu_-_Tome_1_-_Akata_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 6,
@@ -1737,7 +1743,7 @@
     "vfDernierDate": "2025-06-19",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -1772,6 +1778,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Amour-est-dans-le-the-l",
+    "couv": "https://www.manga-news.com/public/images/series/.amour-est-dans-le-the-glenat_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vo": 14,
@@ -1782,7 +1789,7 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -2119,6 +2126,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Animal-Crossing-New-Horizon",
+    "couv": "https://www.manga-news.com/public/images/series/.Animal_Crossing_new_horizon_1_soleil_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vo": 14,
@@ -2129,7 +2137,7 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvVersion": 2,
    "couvFR": {
@@ -2250,8 +2258,8 @@
    "liensVus": {}
   },
   "antiheros": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -2314,6 +2322,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ao-Ashi",
+    "couv": "https://www.manga-news.com/public/images/series/.ao-ashi-1-mangetsu_medium.webp",
     "vf": 36,
     "vfStatut": "En cours",
     "vo": 40,
@@ -2324,7 +2333,7 @@
     "vfProchain": 37,
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -2837,6 +2846,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Asadora",
+    "couv": "https://www.manga-news.com/public/images/series/.asadora-1-kana_medium.webp",
     "vf": 9,
     "vfStatut": "En cours",
     "vo": 10,
@@ -2845,7 +2855,7 @@
     "vfDernierDate": "2025-06-06",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Asadora"
@@ -3219,6 +3229,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Astro-Royale",
+    "couv": "https://www.manga-news.com/public/images/series/.Astro_Royale_-_Tome_01_-_Glenat_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vo": 6,
@@ -3229,7 +3240,7 @@
     "vfProchain": 6,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -3355,6 +3366,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Atelier-des-sorciers-l",
+    "couv": "https://www.manga-news.com/public/images/series/.atelier-des-sorciers-1-pika_medium.webp",
     "vf": 15,
     "vfStatut": "En cours",
     "vo": 16,
@@ -3364,7 +3376,7 @@
     "vfProchainDate": "2026-11-04",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -3633,6 +3645,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Au-bout-du-chemin2",
+    "couv": "https://www.manga-news.com/public/images/series/.Au_bout_du_chemin_T01_-_Delcourt_Tonkam_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 3,
@@ -3641,7 +3654,7 @@
     "vfDernierDate": "2026-08-13",
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -4549,6 +4562,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Basara",
+    "couv": "https://www.manga-news.com/public/images/series/.basara_01_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 27,
@@ -4559,7 +4573,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 1991,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -4636,6 +4650,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Battle-Game-in-5-Seconds",
+    "couv": "https://www.manga-news.com/public/images/series/.battle-game-5s-1-doki_medium.webp",
     "vf": 26,
     "vfStatut": "En cours",
     "vo": 31,
@@ -4646,7 +4661,7 @@
     "vfProchain": 27,
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Battle-Game-in-5-Seconds",
@@ -4851,6 +4866,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Be-Blues",
+    "couv": "https://www.manga-news.com/public/images/series/.Be-Blues_t1_Meian_medium.webp",
     "vf": 30,
     "vfStatut": "En cours",
     "vo": 49,
@@ -4859,7 +4875,7 @@
     "vfDernierDate": "2026-10-23",
     "pays": "JP",
     "annee": 2011,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -5040,16 +5056,17 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Berserk-2Ed",
+    "couv": "https://www.manga-news.com/public/images/series/.berserk-2016-1-glenat_medium.webp",
     "vf": 43,
     "vfStatut": "En cours",
     "vo": 43,
     "voStatut": "En cours",
-    "vfDernier": 6,
-    "vfDernierDate": "2026-08-26",
-    "vfProchainDate": "2026-10-28",
+    "vfDernierDate": "2026-10-28",
+    "vfProchainDate": "2026-11-18",
+    "vfProchain": 7,
     "pays": "JP",
     "annee": 1990,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Berserk-2Ed",
@@ -5463,6 +5480,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Black-Butler",
+    "couv": "https://www.manga-news.com/public/images/series/.black-butler-kana-1_medium.webp",
     "vf": 35,
     "vfStatut": "En cours",
     "vo": 36,
@@ -5471,7 +5489,7 @@
     "vfDernierDate": "2026-06-26",
     "pays": "JP",
     "annee": 2007,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvVersion": 2,
    "couvFR": {
@@ -5530,6 +5548,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Black-Clover",
+    "couv": "https://www.manga-news.com/public/images/series/.black-clover-1-kaze_medium.webp",
     "vf": 37,
     "vfStatut": "En cours",
     "vo": 38,
@@ -5539,7 +5558,7 @@
     "vfProchainDate": "2026-11-18",
     "pays": "JP",
     "annee": 2014,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -5600,6 +5619,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Black-Shadow",
+    "couv": "https://www.manga-news.com/public/images/series/.black-shadox-1-pika_medium.webp",
     "vf": 14,
     "vfStatut": "En cours",
     "vo": 35,
@@ -5610,7 +5630,7 @@
     "vfProchain": 16,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -5858,13 +5878,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blitz",
+    "couv": "https://www.manga-news.com/public/images/series/.blitz-1-iwa_medium.webp",
     "vf": 11,
     "vfStatut": "En cours",
     "vfDernier": 11,
     "vfDernierDate": "2025-10-16",
     "pays": "FR",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -6220,6 +6241,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blue-Box",
+    "couv": "https://www.manga-news.com/public/images/series/.blue-box-1-delcourt_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vo": 28,
@@ -6230,7 +6252,7 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -6415,17 +6437,18 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blue-Lock",
-    "vf": 34,
+    "couv": "https://www.manga-news.com/public/images/series/.blue-lock-1-pika_medium.webp",
+    "vf": 35,
     "vfStatut": "En cours",
     "vo": 40,
     "voStatut": "En cours",
-    "vfDernier": 34,
-    "vfDernierDate": "2026-08-26",
-    "vfProchainDate": "2026-10-28",
-    "vfProchain": 35,
+    "vfDernier": 35,
+    "vfDernierDate": "2026-10-28",
+    "vfProchainDate": "2026-12-02",
+    "vfProchain": 36,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -6499,6 +6522,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Blue-Period",
+    "couv": "https://www.manga-news.com/public/images/series/.blue-period-t1-pika_medium.webp",
     "vf": 18,
     "vfStatut": "En cours",
     "vo": 19,
@@ -6509,7 +6533,7 @@
     "vfProchain": 19,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -7197,6 +7221,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Bride-stories",
+    "couv": "https://www.manga-news.com/public/images/series/.Bride-Stories_medium.webp",
     "vf": 15,
     "vfStatut": "En cours",
     "vo": 15,
@@ -7205,7 +7230,7 @@
     "vfDernierDate": "2025-04-17",
     "pays": "JP",
     "annee": 2009,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Bride-stories",
@@ -7408,6 +7433,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Cantine-de-minuit-la",
+    "couv": "https://www.manga-news.com/public/images/series/.cantine-de-minuit-1-lezard_medium.webp",
     "vf": 14,
     "vfStatut": "En cours",
     "vo": 31,
@@ -7418,7 +7444,7 @@
     "vfProchain": 15,
     "pays": "JP",
     "annee": 2006,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -7812,6 +7838,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Carnets-de-lapothicaire-les",
+    "couv": "https://www.manga-news.com/public/images/series/.Les_Carnets_de_l_Apothicaire_1_medium.webp",
     "vf": 16,
     "vfStatut": "En cours",
     "vo": 17,
@@ -7820,7 +7847,7 @@
     "vfProchainDate": "2026-11-05",
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -8091,6 +8118,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Cats-and-Dragon",
+    "couv": "https://www.manga-news.com/public/images/series/.Cats_and_Dragon_-_vol._01_-_Doki_Doki_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vo": 13,
@@ -8101,7 +8129,7 @@
     "vfProchain": 6,
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -8249,6 +8277,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chainsaw-Man",
+    "couv": "https://www.manga-news.com/public/images/series/.chainsaw-man-1-kaze_medium.webp",
     "vf": 23,
     "vfStatut": "En cours",
     "vo": 24,
@@ -8257,7 +8286,7 @@
     "vfDernierDate": "2026-10-14",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Chainsaw-Man"
@@ -8297,6 +8326,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chanson-de-Lala-La",
+    "couv": "https://www.manga-news.com/public/images/series/.La_Chanson_de_Lala_T1_-_Renard_Dor__medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 2,
@@ -8305,7 +8335,7 @@
     "vfDernierDate": "2026-06-03",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "verifie": "2026-10-26",
@@ -8353,6 +8383,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chants-du-Cygne-Noir-Les",
+    "couv": "https://www.manga-news.com/public/images/series/.Chants-du-cygne-noir_t1_Rue-de-sevres_medium.webp",
     "vf": 1,
     "vfStatut": "En cours",
     "vfDernier": 1,
@@ -8361,7 +8392,7 @@
     "vfProchain": 2,
     "pays": "FR",
     "annee": 2026,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "verifie": "2026-10-26",
@@ -8625,6 +8656,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chat-malgre-moi",
+    "couv": "https://www.manga-news.com/public/images/series/.chat-malgre-moi-1-nobi_medium.webp",
     "vf": 13,
     "vfStatut": "En cours",
     "vo": 15,
@@ -8633,12 +8665,12 @@
     "vfDernierDate": "2026-06-03",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
   "chat-mene-l-enquete": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": {
     "tomes": 1,
     "editeur": "Doki Doki",
@@ -8647,7 +8679,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.Le_chat_m_ne_l_enqu_te_-_vol._01_-_Doki_Doki_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_chat_m_ne_l_enqu_te_-_vol._01_-_Doki_Doki_medium.webp",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -8760,6 +8792,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chaventures-de-Tai-et-Mamie-Sue-les",
+    "couv": "https://www.manga-news.com/public/images/series/.tai-mamie-sue-1-nobi_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 7,
@@ -8770,7 +8803,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -8825,6 +8858,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chaventures-de-Tai-et-Mamie-Sue-les",
+    "couv": "https://www.manga-news.com/public/images/series/.tai-mamie-sue-1-nobi_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 7,
@@ -8835,7 +8869,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -8862,13 +8896,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chefs-doeuvres-de-Lovecraft-les",
+    "couv": "https://www.manga-news.com/public/images/series/.montagnes-halucinees-coffret-integrale-ki-oon_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vfDernierDate": "2021-12-09",
     "vfProchainDate": "2026-11-05",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "verifie": "2026-10-26",
@@ -9616,6 +9651,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Choubi-Choubi-Mon-chat-tout-petit",
+    "couv": "https://www.manga-news.com/public/images/series/.choubi-choubi-Mon-Chat-Tout-Petit-1-soleil_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 2,
@@ -9624,7 +9660,7 @@
     "vfDernierDate": "2016-03-09",
     "pays": "JP",
     "annee": 2014,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvVersion": 2,
    "couvFR": {
@@ -9688,6 +9724,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chroniques-de-la-mariee-de-Bretagne-les",
+    "couv": "https://www.manga-news.com/public/images/series/.Chroniques_de_la_mari_e_de_Bretagne_-_Tome_1_-_Kurokawa_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 7,
@@ -9698,7 +9735,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -9745,13 +9782,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chronoctis-Express",
+    "couv": "https://www.manga-news.com/public/images/series/.chronotic-express-fr-1_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vfDernier": 3,
     "vfDernierDate": "2022-10-07",
     "pays": "FR",
     "annee": 2014,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Chronoctis-Express",
@@ -9820,12 +9858,13 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Cicatrices-Vega",
+    "couv": "https://www.manga-news.com/public/images/series/.Cicatrices_-_Tome_1_-_Vega_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vfDernier": 3,
     "vfDernierDate": "2025-08-29",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvVersion": 2,
    "couvFR": {
@@ -9984,6 +10023,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Classroom-of-the-Elite",
+    "couv": "https://www.manga-news.com/public/images/series/.Classroom_of_the_Elite_T.1_-_Ototo_medium.webp",
     "vf": 11,
     "vfStatut": "En cours",
     "vo": 12,
@@ -9992,14 +10032,14 @@
     "vfDernierDate": "2026-02-27",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
   "cleopatre": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": null,
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -10268,6 +10308,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Colocataires-a-leur-maniere",
+    "couv": "https://www.manga-news.com/public/images/series/.Colocataires_maniere_1_nobi_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vo": 12,
@@ -10276,7 +10317,7 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2014,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -10355,6 +10396,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Comme-les-autres",
+    "couv": "https://www.manga-news.com/public/images/series/.comme-les-autres-1-kana_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vo": 7,
@@ -10363,7 +10405,7 @@
     "vfDernierDate": "2022-11-11",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -10978,6 +11020,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Crows",
+    "couv": "https://www.manga-news.com/public/images/series/.Crows-1-manga_medium.webp",
     "vf": 8,
     "vfStatut": "En cours",
     "vo": 26,
@@ -10988,7 +11031,7 @@
     "vfProchain": 9,
     "pays": "JP",
     "annee": 1990,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -11016,6 +11059,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Tengu-no-Daidokoro",
+    "couv": "https://www.manga-news.com/public/images/series/.La_cuisine_du_Tengu_-_Tome_1_-_Le_Lezard_Noir_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 8,
@@ -11026,7 +11070,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -11089,7 +11133,7 @@
     "lu": false,
     "vfDernierDate": "2025-11-13",
     "couv": "https://www.manga-news.com/public/images/series/.Cursed_Princess_Club_-_Hugo_Publishing_medium.webp",
-    "verifie": "2026-10-28"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -11168,6 +11212,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/DGray-man",
+    "couv": "https://www.manga-news.com/public/images/series/.dgray_man_01_medium.webp",
     "vf": 29,
     "vfStatut": "En cours",
     "vo": 29,
@@ -11176,7 +11221,7 @@
     "vfDernierDate": "2026-07-01",
     "pays": "JP",
     "annee": 2004,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/DGray-man",
@@ -11346,9 +11391,10 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dandadan",
+    "couv": "https://www.manga-news.com/public/images/series/.Dandadan_1_crunchyroll_medium.webp",
     "vf": 23,
     "vfStatut": "En cours",
-    "vo": 25,
+    "vo": 26,
     "voStatut": "En cours",
     "vfDernier": 23,
     "vfDernierDate": "2026-07-01",
@@ -11356,7 +11402,7 @@
     "vfProchain": 24,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -11453,7 +11499,7 @@
    }
   },
   "dans-la-prison": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": {
     "tomes": 1,
     "editeur": "Lézard Noir (le)",
@@ -11462,7 +11508,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.Dans_la_prison-lezard_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Dans_la_prison-lezard_medium.webp",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -11586,6 +11632,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dark-Soul-Redemption",
+    "couv": "https://www.manga-news.com/public/images/series/.Dark_Souls_Redemption_T01_-_Mana_Books_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 3,
@@ -11594,7 +11641,7 @@
     "vfDernierDate": "2026-06-04",
     "pays": "FR",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -11779,6 +11826,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Darwin-Incident",
+    "couv": "https://www.manga-news.com/public/images/series/.Darwin_Incident_1_Kana_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 11,
@@ -11789,13 +11837,13 @@
     "vfProchain": 11,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
   "de-rouille-et-de-carats": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -11942,7 +11990,7 @@
     "lu": false,
     "vfDernierDate": "2023-10-20",
     "couv": "https://www.manga-news.com/public/images/vols/death-note-black-edition-1-kana.jpg",
-    "verifie": "2026-10-28"
+    "verifie": "2026-10-30"
    },
    "liensVus": {
     "bedetheque": "serie-24902-BD-Death-note-Black-Edition.html",
@@ -11956,8 +12004,8 @@
   },
   "decheance-d-un-homme": {
    "verifie": "2026-10-27",
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "mangaNews": {
     "tomes": 3,
     "editeur": "Delcourt / Tonkam",
@@ -12043,6 +12091,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Deep-3",
+    "couv": "https://www.manga-news.com/public/images/series/.Deep_3_1_mangetsu_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vo": 15,
@@ -12053,7 +12102,7 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "liensVus": {}
   },
@@ -12124,6 +12173,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Deep-Sea-Aquarium-Magmell",
+    "couv": "https://www.manga-news.com/public/images/series/.deep-sea-aquarium-magmell-1-vega_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 10,
@@ -12132,7 +12182,7 @@
     "vfDernierDate": "2026-03-20",
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvVersion": 2,
    "couvFR": {
@@ -12495,6 +12545,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dernier-ecrivain-Le",
+    "couv": "https://www.manga-news.com/public/images/series/.Le_Dernier__crivain_-_Tome_01_-_Glenat_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 4,
@@ -12505,7 +12556,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -12601,10 +12652,10 @@
     "requete": "bib.title all \"destin de la princesse sirene\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-23",
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-23",
    "anilistVerifie": "2026-10-27",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "liensVus": {}
   },
@@ -12633,6 +12684,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Detective-Conan",
+    "couv": "https://www.manga-news.com/public/images/series/.detective-conan-manga-volume1_medium.webp",
     "vf": 107,
     "vfStatut": "En cours",
     "vo": 109,
@@ -12641,7 +12693,7 @@
     "vfDernierDate": "2026-09-04",
     "pays": "JP",
     "annee": 1994,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -12814,6 +12866,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Diable-shabille-en-papa-Le",
+    "couv": "https://www.manga-news.com/public/images/series/.Le_diable_s_habille_en_papa_T01_-_Mana_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 4,
@@ -12824,7 +12877,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -13009,6 +13062,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dog-Signal",
+    "couv": "https://www.manga-news.com/public/images/series/.Dog_Signal_T01_-_Soleil_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 16,
@@ -13017,7 +13071,7 @@
     "vfDernierDate": "2026-06-04",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -13306,6 +13360,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dragon-Ball-SD",
+    "couv": "https://www.manga-news.com/public/images/series/.dragon-ball-sd-1-glenat_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vo": 12,
@@ -13314,7 +13369,7 @@
     "vfDernierDate": "2026-10-07",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -13373,6 +13428,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dragon-Ball-Super",
+    "couv": "https://www.manga-news.com/public/images/series/.dragon-ball-super-1-glenat_medium.webp",
     "vf": 24,
     "vfStatut": "En cours",
     "vo": 24,
@@ -13381,7 +13437,7 @@
     "vfDernierDate": "2025-11-19",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -13491,13 +13547,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/DreaMaker",
+    "couv": "https://www.manga-news.com/public/images/series/.dreamaker-1-ki-oon_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vfDernier": 2,
     "vfDernierDate": "2023-11-02",
     "pays": "FR",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -13534,16 +13591,16 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Dreamland",
+    "couv": "https://www.manga-news.com/public/images/series/.dreamland_01_medium.webp",
     "vf": 24,
     "vfStatut": "En cours",
     "vo": 6,
     "voStatut": "En cours",
-    "vfDernierDate": "2026-10-07",
-    "vfProchainDate": "2026-10-28",
-    "vfProchain": 2,
+    "vfDernier": 2,
+    "vfDernierDate": "2026-10-28",
     "pays": "FR",
     "annee": 2006,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14026,6 +14083,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Elden-Ring-Le-chemin-vers-lArbre-Monde",
+    "couv": "https://www.manga-news.com/public/images/series/.Elden_ring_1-mana_medium.webp",
     "vf": 11,
     "vfStatut": "En cours",
     "vo": 12,
@@ -14036,7 +14094,7 @@
     "vfProchain": 12,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14195,6 +14253,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/En-scene",
+    "couv": "https://www.manga-news.com/public/images/series/.En-scene-T1-kurokawa_medium.webp",
     "vf": 28,
     "vfStatut": "En cours",
     "vo": 30,
@@ -14205,7 +14264,7 @@
     "vfProchain": 29,
     "pays": "JP",
     "annee": 2014,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14293,6 +14352,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Pedaleur-ne",
+    "couv": "https://www.manga-news.com/public/images/series/.en-selle-sakamichi-1-kurokawa_medium.webp",
     "vf": 16,
     "vfStatut": "En cours",
     "vo": 102,
@@ -14303,7 +14363,7 @@
     "vfProchain": 17,
     "pays": "JP",
     "annee": 2008,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -14392,6 +14452,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Enfant-du-dragon-fantome",
+    "couv": "https://www.manga-news.com/public/images/series/.enfant-dragon-fantome-1-komikku_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 6,
@@ -14400,7 +14461,7 @@
     "vfDernierDate": "2025-10-30",
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14569,6 +14630,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Enfants-de-Gorre-les",
+    "couv": "https://www.manga-news.com/public/images/series/.enfants-de-gorre-1-maho_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vfDernierDate": "2023-11-03",
@@ -14576,7 +14638,7 @@
     "vfProchain": 4,
     "pays": "FR",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14947,17 +15009,16 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Erio-The-Electric-Doll",
-    "vf": 4,
-    "vfStatut": "En cours",
+    "couv": "https://www.manga-news.com/public/images/series/.Erio___The_Electric_Doll_T01_-_Mangetsu_medium.webp",
+    "vf": 5,
+    "vfStatut": "Terminé",
     "vo": 5,
     "voStatut": "Terminé",
-    "vfDernier": 4,
-    "vfDernierDate": "2026-03-04",
-    "vfProchainDate": "2026-10-28",
-    "vfProchain": 5,
+    "vfDernier": 5,
+    "vfDernierDate": "2026-10-28",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -15104,8 +15165,8 @@
    "liensVus": {}
   },
   "etrange-boutique-de-monsieur-nekomata": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -15464,6 +15525,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Koiseyo-Mayakashi-Tenshi-domo",
+    "couv": "https://www.manga-news.com/public/images/series/.Fall_in_Love__False_Angels_T01_-_Pika_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 7,
@@ -15474,7 +15536,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -15703,6 +15765,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Fiancee-du-clan-Kyougane-La",
+    "couv": "https://www.manga-news.com/public/images/series/.La_Fianc_e_du_clan_Kyougane_T01_-_Ki-oon_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 5,
@@ -15713,7 +15776,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -15808,6 +15871,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Fin-du-monde-avec-mon-Shiba-Inu-la",
+    "couv": "https://www.manga-news.com/public/images/series/.fin-du-monde-shiba-inu-1_meian_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 4,
@@ -15816,7 +15880,7 @@
     "vfDernierDate": "2026-03-20",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -15932,6 +15996,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Flying-Witch",
+    "couv": "https://www.manga-news.com/public/images/series/.flying-witch-1-nobi_medium.webp",
     "vf": 14,
     "vfStatut": "En cours",
     "vo": 15,
@@ -15940,7 +16005,7 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -16160,6 +16225,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Four-Knights-of-the-Apocalypse",
+    "couv": "https://www.manga-news.com/public/images/series/.Four_Knights_of_the_Apocalypse_1_pika_medium.webp",
     "vf": 22,
     "vfStatut": "En cours",
     "vo": 28,
@@ -16170,7 +16236,7 @@
     "vfProchain": 23,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -16246,6 +16312,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Frieren-:",
+    "couv": "https://www.manga-news.com/public/images/series/.Frieren_1_ki-oon_medium.webp",
     "vf": 15,
     "vfStatut": "En cours",
     "vo": 15,
@@ -16253,7 +16320,7 @@
     "vfDernierDate": "2026-06-04",
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -16558,6 +16625,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Galaxias",
+    "couv": "https://www.manga-news.com/public/images/series/.galaxias-pika-1_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 4,
@@ -16568,7 +16636,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -16771,7 +16839,7 @@
    }
   },
   "garcon-et-le-dragon": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": {
     "tomes": 1,
     "editeur": "Doki Doki",
@@ -16780,7 +16848,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.Le_Gar_on_et_le_Dragon_-_Doki_Doki_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Gar_on_et_le_Dragon_-_Doki_Doki_medium.webp",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -16920,6 +16988,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Geobreeders",
+    "couv": "https://www.manga-news.com/public/images/series/.geobreeders_01_medium.webp",
     "vf": 13,
     "vfStatut": "Stoppé",
     "vo": 16,
@@ -16928,7 +16997,7 @@
     "vfDernierDate": "2009-08-19",
     "pays": "JP",
     "annee": 1995,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -16987,6 +17056,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Goal-masters",
+    "couv": "https://www.manga-news.com/public/images/series/.goal_master_01_medium.webp",
     "vf": 9,
     "vfStatut": "Stoppé",
     "vo": 22,
@@ -16995,7 +17065,7 @@
     "vfDernierDate": "2008-11-06",
     "pays": "KR",
     "annee": 1999,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -17093,7 +17163,7 @@
    "couvEssai": "2026-10-27"
   },
   "goldorak": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": {
     "tomes": 4,
     "editeur": "Black Box Editions",
@@ -17102,7 +17172,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.Goldorak-1-blackbox_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Goldorak-1-blackbox_medium.webp",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -17282,8 +17352,8 @@
    }
   },
   "grand-migrateur": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -17377,6 +17447,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Green-Mechanic",
+    "couv": "https://www.manga-news.com/public/images/series/.green-mechanic-1-ki-oon_medium.webp",
     "vf": 9,
     "vfStatut": "En cours",
     "vfDernier": 9,
@@ -17385,7 +17456,7 @@
     "vfProchain": 10,
     "pays": "FR",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -17890,8 +17961,8 @@
    },
    "bnfVerifie": "2026-10-23",
    "verifie": "2026-10-23",
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "liensVus": {}
   },
@@ -17906,8 +17977,8 @@
    "bnfVerifie": "2026-10-27",
    "verifie": "2026-10-27",
    "mangaNews": null,
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "liensVus": {}
   },
@@ -18019,7 +18090,7 @@
     "lu": false,
     "vfDernierDate": "2026-08-26",
     "couv": "https://www.manga-news.com/public/images/series/.Le_harem_de_l_imp_ratrice_T01_-_Pika_medium.webp",
-    "verifie": "2026-10-28"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -18079,6 +18150,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Heritiere-du-dragon-L",
+    "couv": "https://www.manga-news.com/public/images/series/.L_H_riti_re_du_dragon_-_Tome_01_-_Glenat_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 3,
@@ -18089,7 +18161,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "verifie": "2026-10-26",
@@ -18253,6 +18325,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Hero-Organization",
+    "couv": "https://www.manga-news.com/public/images/series/.Hero_Organization_-_Tome_01_-_Glenat_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 7,
@@ -18263,7 +18336,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -18343,6 +18416,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Heterogenia-Linguistico-Etude-linguistique-des-especes-fantastiques",
+    "couv": "https://www.manga-news.com/public/images/series/.Heterogenia_1_nobi_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 7,
@@ -18351,7 +18425,7 @@
     "vfDernierDate": "2026-08-19",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -18567,6 +18641,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Hip-Hop",
+    "couv": "https://www.manga-news.com/public/images/series/.hip_hop_01_medium.webp",
     "vf": 3,
     "vfStatut": "Stoppé",
     "vo": 24,
@@ -18575,7 +18650,7 @@
     "vfDernierDate": "2007-11-08",
     "pays": "KR",
     "annee": 1998,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -18637,6 +18712,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Hirayasumi",
+    "couv": "https://www.manga-news.com/public/images/series/.hirayasumi-1-lezard_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 11,
@@ -18645,7 +18721,7 @@
     "vfDernierDate": "2026-08-26",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -18748,6 +18824,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Histoire-en-manga-l",
+    "couv": "https://www.manga-news.com/public/images/series/.histoire-en-manga-1-bayard_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vo": 12,
@@ -18756,7 +18833,7 @@
     "vfDernierDate": "2024-03-13",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -18781,6 +18858,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Homme-inivsible-et-sa-future-epouse-l",
+    "couv": "https://www.manga-news.com/public/images/series/.L_Homme_invisible_et_sa_future__pouse_T01_-_Noeve_medium.webp",
     "vf": 1,
     "vfStatut": "En cours",
     "vo": 10,
@@ -18789,7 +18867,7 @@
     "vfDernierDate": "2025-10-03",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "verifie": "2026-10-26",
@@ -18938,6 +19016,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Hunter-X-hunter",
+    "couv": "https://www.manga-news.com/public/images/series/.Hunter-X-Hunter-t1-kana_medium.webp",
     "vf": 38,
     "vfStatut": "En cours",
     "vo": 39,
@@ -18948,7 +19027,7 @@
     "vfProchain": 39,
     "pays": "JP",
     "annee": 1998,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -19124,6 +19203,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ichi-the-Witch",
+    "couv": "https://www.manga-news.com/public/images/series/.Ichi_the_Witch_T01_-_Ki-oon_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vo": 10,
@@ -19134,7 +19214,7 @@
     "vfProchain": 6,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -19184,6 +19264,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ichiko-et-Niko",
+    "couv": "https://www.manga-news.com/public/images/series/.Ichiko-neko-1-kana_medium.webp",
     "vf": 14,
     "vfStatut": "Stoppé",
     "vo": 14,
@@ -19192,7 +19273,7 @@
     "vfDernierDate": "2021-05-28",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -19689,13 +19770,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Instinct",
+    "couv": "https://www.manga-news.com/public/images/series/.instinct-inoxtag-manga-michel-lafon_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vfDernier": 2,
     "vfDernierDate": "2025-11-20",
     "pays": "FR",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -19717,8 +19799,8 @@
    "bnfVerifie": "2026-10-27",
    "couvEssaiMN": "",
    "verifie": "2026-10-27",
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28"
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30"
   },
   "iruma-a-l-ecole-des-demons": {
    "anilist": {
@@ -19764,6 +19846,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Iruma-a-lecole-des-demons",
+    "couv": "https://www.manga-news.com/public/images/series/.iruma-ecole-des-demons-1-nobi_medium.webp",
     "vf": 36,
     "vfStatut": "En cours",
     "vo": 51,
@@ -19774,7 +19857,7 @@
     "vfProchain": 37,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -19828,6 +19911,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Isabella-Bird-femme-exploratrice",
+    "couv": "https://www.manga-news.com/public/images/series/.isabella-bird-1-ki-oon_medium.webp",
     "vf": 13,
     "vfStatut": "En cours",
     "vo": 14,
@@ -19836,7 +19920,7 @@
     "vfDernierDate": "2026-08-27",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -20524,6 +20608,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Kagurabachi",
+    "couv": "https://www.manga-news.com/public/images/series/.Kagurabachi_1_kana_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 12,
@@ -20534,7 +20619,7 @@
     "vfProchain": 11,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -20927,6 +21012,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Kamisama-School",
+    "couv": "https://www.manga-news.com/public/images/series/.Kamisama_School_1_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vo": 15,
@@ -20937,7 +21023,7 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -20985,6 +21071,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Kemono-Incidents",
+    "couv": "https://www.manga-news.com/public/images/series/.Kemono-Incidents-1-kurokawa_medium.webp",
     "vf": 24,
     "vfStatut": "En cours",
     "vo": 25,
@@ -20993,7 +21080,7 @@
     "vfDernierDate": "2026-06-11",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -21204,6 +21291,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Kindergarten-Wars",
+    "couv": "https://www.manga-news.com/public/images/series/.Kindergarten_Wars_1_ki-oon_medium.webp",
     "vf": 16,
     "vfStatut": "En cours",
     "vo": 18,
@@ -21214,7 +21302,7 @@
     "vfProchain": 17,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -21546,6 +21634,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Komi-cherche-ses-mots",
+    "couv": "https://www.manga-news.com/public/images/series/.Komi_cherche_ses_mots_1_pika_medium.webp",
     "vf": 27,
     "vfStatut": "En cours",
     "vo": 37,
@@ -21556,7 +21645,7 @@
     "vfProchain": 28,
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -21617,6 +21706,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Kuma-Kuma-Kuma-Bear",
+    "couv": "https://www.manga-news.com/public/images/series/.kuma-kuma-bear-1-meian_medium.webp",
     "vf": 11,
     "vfStatut": "En cours",
     "vo": 14,
@@ -21625,7 +21715,7 @@
     "vfDernierDate": "2026-06-12",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -22032,8 +22122,8 @@
    "couvEssai": "2026-10-27"
   },
   "legende-de-hakutaku": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -22176,8 +22266,8 @@
    "liensVus": {}
   },
   "librairie-celeste": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -22192,6 +22282,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Lights-Drag-Action",
+    "couv": "https://www.manga-news.com/public/images/series/.Lights-drag-action-manga-visual_medium.webp",
     "vf": 1,
     "vfStatut": "En cours",
     "vo": 1,
@@ -22202,7 +22293,7 @@
     "vfProchain": 2,
     "pays": "FR",
     "annee": 2026,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "verifie": "2026-10-26",
@@ -22256,6 +22347,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Liselotte-et-la-foret-des-sorcieres",
+    "couv": "https://www.manga-news.com/public/images/series/.liselotte-1-delcourt_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vo": 5,
@@ -22264,7 +22356,7 @@
     "vfDernierDate": "2015-07-01",
     "pays": "JP",
     "annee": 2011,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -22837,6 +22929,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ryui-no-Luka",
+    "couv": "https://www.manga-news.com/public/images/series/.Luca__v_t_rinaire_draconique_-_Tome_01_-_Glenat_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 7,
@@ -22847,7 +22940,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -23158,11 +23251,11 @@
     "requete": "bib.title all \"mafia dating sim\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-10-27",
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "mangaNews": null,
    "anilistVerifie": "2026-10-27",
-   "couvVersion": 3,
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "liensVus": {}
   },
@@ -23189,6 +23282,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Magic-Maker",
+    "couv": "https://www.manga-news.com/public/images/series/.magic-maker-1-komikku_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 3,
@@ -23197,7 +23291,7 @@
     "vfDernierDate": "2023-05-25",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -23318,6 +23412,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Magus-of-the-Library",
+    "couv": "https://www.manga-news.com/public/images/series/.magus-of-the-library-1-ki-oon_medium.webp",
     "vf": 9,
     "vfStatut": "En cours",
     "vo": 10,
@@ -23326,7 +23421,7 @@
     "vfDernierDate": "2026-04-02",
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -23756,6 +23851,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Man-in-the-Window",
+    "couv": "https://www.manga-news.com/public/images/series/.man-in-the-window-1-ki-oon_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 2,
@@ -23764,7 +23860,7 @@
     "vfDernierDate": "2017-08-24",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -23823,6 +23919,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Arsene-Lupin",
+    "couv": "https://www.manga-news.com/public/images/series/.arsene-lupin-2022-1-kurokawa_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 11,
@@ -23831,7 +23928,7 @@
     "vfDernierDate": "2023-04-13",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -24093,13 +24190,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Mariee-du-Roi-Dragon-La",
+    "couv": "https://www.manga-news.com/public/images/series/.La_Mari_e_du_roi_dragon_-_Tome_1_-_Michel_Lafon_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vfDernier": 6,
     "vfDernierDate": "2025-10-16",
     "pays": "KR",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -24811,6 +24909,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Minuscule",
+    "couv": "https://www.manga-news.com/public/images/series/.minuscule-1-komikku_medium.webp",
     "vf": 13,
     "vfStatut": "En cours",
     "vo": 14,
@@ -24821,7 +24920,7 @@
     "vfProchain": 14,
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -24925,7 +25024,7 @@
    "liensVus": {}
   },
   "miserables": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": {
     "tomes": 8,
     "editeur": "Kurokawa",
@@ -24934,7 +25033,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.Les-Mise_rables-1-kurokawa_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Les-Mise_rables-1-kurokawa_medium.webp",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -25063,6 +25162,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Mission-in-the-Apocalypse",
+    "couv": "https://www.manga-news.com/public/images/series/.Mission_in_the_Apocalypse_T01_-_Delcourt_Tonkam_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 5,
@@ -25073,7 +25173,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -25122,6 +25222,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Mission:-Yozakura-Family",
+    "couv": "https://www.manga-news.com/public/images/series/.Mission_Yozakura_Family_1_Kana_medium.webp",
     "vf": 28,
     "vfStatut": "En cours",
     "vo": 29,
@@ -25132,7 +25233,7 @@
     "vfProchain": 29,
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -25504,6 +25605,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Mon-amie-des-tenebres",
+    "couv": "https://www.manga-news.com/public/images/series/.Mon_amie_des_tenebres_1_nobi_medium.webp",
     "vf": 20,
     "vfStatut": "En cours",
     "vo": 24,
@@ -25514,7 +25616,7 @@
     "vfProchain": 21,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -25638,6 +25740,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Monsieur-Mechant-va-detruire-la-terre-apres-ses-conges",
+    "couv": "https://www.manga-news.com/public/images/series/.Monsieur_Mechant_1_nobi_medium.webp",
     "vf": 7,
     "vfStatut": "En cours",
     "vo": 8,
@@ -25648,7 +25751,7 @@
     "vfProchain": 8,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -25922,6 +26025,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Monthly-girls-Nozaki-kun",
+    "couv": "https://www.manga-news.com/public/images/series/.Monthly_Girls_Nozaki-kun_t1_noeve_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 18,
@@ -25930,7 +26034,7 @@
     "vfDernierDate": "2026-02-25",
     "pays": "JP",
     "annee": 2011,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -26069,7 +26173,7 @@
     "lu": false,
     "vfDernierDate": "2026-06-03",
     "couv": "https://www.manga-news.com/public/images/series/.Morgana___Oz_-_tome_1_-_Albin_Michel_medium.webp",
-    "verifie": "2026-10-28"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -26375,6 +26479,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Mon-mariage-Heureux",
+    "couv": "https://www.manga-news.com/public/images/series/.my_happy_marriage_1_kurokawa_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 6,
@@ -26383,7 +26488,7 @@
     "vfDernierDate": "2026-10-08",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -26575,6 +26680,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/My-Love-Story-With-Yamada-kun-at-LVL-999",
+    "couv": "https://www.manga-news.com/public/images/series/.My_Love_Story_With_Yamada-kun_1_mana_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 10,
@@ -26583,7 +26689,7 @@
     "vfDernierDate": "2026-01-22",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -26648,6 +26754,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Nana",
+    "couv": "https://www.manga-news.com/public/images/series/.nana_01_medium.webp",
     "vf": 21,
     "vfStatut": "En cours",
     "vo": 21,
@@ -26657,7 +26764,7 @@
     "vfProchain": 2,
     "pays": "JP",
     "annee": 1999,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -27373,6 +27480,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Nos-Coeurs-de-chats",
+    "couv": "https://www.manga-news.com/public/images/series/.Nos-coeurs-de-chat_t1_dokidoki_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 3,
@@ -27383,7 +27491,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -27408,8 +27516,8 @@
    "liensVus": {}
   },
   "nos-rendez-vous-gourmands": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -27552,6 +27660,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Nova-et-la-foret-des-monstres",
+    "couv": "https://www.manga-news.com/public/images/series/.Nova-foret-des-monstres_t1_komikku_medium.webp",
     "vf": 1,
     "vfStatut": "En cours",
     "vo": 2,
@@ -27562,7 +27671,7 @@
     "vfProchain": 2,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -27672,6 +27781,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ocean-Rush",
+    "couv": "https://www.manga-news.com/public/images/series/.Ocean_Rush_1_akata_medium.webp",
     "vf": 7,
     "vfStatut": "En cours",
     "vo": 9,
@@ -27682,7 +27792,7 @@
     "vfProchain": 8,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -27735,6 +27845,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ochibi-et-ses-amis",
+    "couv": "https://www.manga-news.com/public/images/series/.Ochibi_et_ses_amis_T1__-_Renard_Dor__medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 10,
@@ -27745,7 +27856,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2008,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -27956,6 +28067,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Lecteur-omniscient",
+    "couv": "https://www.manga-news.com/public/images/series/.Omniscient-Readers-Viewpoint_t1_pika_medium.webp",
     "vf": 11,
     "vfStatut": "En cours",
     "vo": 12,
@@ -27966,7 +28078,7 @@
     "vfProchain": 12,
     "pays": "KR",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -28021,6 +28133,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/One-piece-Edition-originale",
+    "couv": "https://www.manga-news.com/public/images/series/.one-piece-manga-1-glenat_medium.webp",
     "vf": 113,
     "vfStatut": "En cours",
     "vo": 115,
@@ -28030,7 +28143,7 @@
     "vfProchainDate": "2026-11-04",
     "pays": "JP",
     "annee": 1997,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -28093,6 +28206,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/One-Punch-Man",
+    "couv": "https://www.manga-news.com/public/images/series/.one-punch-man-1-kurokawa_medium.webp",
     "vf": 35,
     "vfStatut": "En cours",
     "vo": 37,
@@ -28103,7 +28217,7 @@
     "vfProchain": 36,
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -28683,6 +28797,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Palais-des-Assassins-le",
+    "couv": "https://www.manga-news.com/public/images/series/.Le_Palais_des_assassins_T01_-_Ki-oon_medium.webp",
     "vf": 9,
     "vfStatut": "En cours",
     "vo": 11,
@@ -28693,7 +28808,7 @@
     "vfProchain": 10,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -28837,6 +28952,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Paradis-des-chiens-le",
+    "couv": "https://www.manga-news.com/public/images/series/.paradis-des-chiens-1-glenat_medium.webp",
     "vf": 11,
     "vfStatut": "En cours",
     "vo": 11,
@@ -28845,7 +28961,7 @@
     "vfDernierDate": "2020-06-17",
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -29069,8 +29185,8 @@
    "liensVus": {}
   },
   "pensees-noires": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -29218,6 +29334,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Petit-monde-de-Machida-le",
+    "couv": "https://www.manga-news.com/public/images/series/.petit-monde-de-machida-1-akata_medium.webp",
     "vf": 7,
     "vfStatut": "En cours",
     "vo": 7,
@@ -29226,7 +29343,7 @@
     "vfDernierDate": "2023-11-16",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -29273,6 +29390,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Petit-Requin",
+    "couv": "https://www.manga-news.com/public/images/series/.Petit_Requin_renard_dore_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 4,
@@ -29281,7 +29399,7 @@
     "vfDernierDate": "2025-09-24",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -29559,6 +29677,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Phantom-Busters",
+    "couv": "https://www.manga-news.com/public/images/series/.Phantom-Busters_t1_kioon_medium.webp",
     "vf": 7,
     "vfStatut": "En cours",
     "vo": 8,
@@ -29567,7 +29686,7 @@
     "vfDernierDate": "2026-10-01",
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -29880,6 +29999,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Plum-un-amour-de-chat",
+    "couv": "https://www.manga-news.com/public/images/series/.plum-amour-de-chat_medium.webp",
     "vf": 22,
     "vfStatut": "En cours",
     "vo": 29,
@@ -29890,7 +30010,7 @@
     "vfProchain": 23,
     "pays": "JP",
     "annee": 2008,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -30502,6 +30622,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Princesse-Detective",
+    "couv": "https://www.manga-news.com/public/images/series/.princesse-detective-1-nobi_medium.webp",
     "vf": 17,
     "vfStatut": "En cours",
     "vo": 17,
@@ -30510,7 +30631,7 @@
     "vfDernierDate": "2025-03-19",
     "pays": "JP",
     "annee": 2010,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -30663,6 +30784,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Li-Princesse-vagabonde",
+    "couv": "https://www.manga-news.com/public/images/series/.princesse-vagabonde-vol1-urban-china_medium.webp",
     "vf": 7,
     "vfStatut": "Stoppé",
     "vo": 11,
@@ -30671,7 +30793,7 @@
     "vfDernierDate": "2017-01-13",
     "pays": "CN",
     "annee": 2011,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -30755,6 +30877,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Principal",
+    "couv": "https://www.manga-news.com/public/images/series/.Principal_-_Tome_1_-_Akata_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 7,
@@ -30765,7 +30888,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2010,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -31006,6 +31129,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Promenons-nous-dans-lespace",
+    "couv": "https://www.manga-news.com/public/images/series/.Promenons-nous_dans_l_espace_-_Tome_01_-_Glenat_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 7,
@@ -31016,7 +31140,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -31250,6 +31374,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Quatre-freres-Yuzuki-les",
+    "couv": "https://www.manga-news.com/public/images/series/.Les_quatre_fr_res_Yuzuki_T01_-_Nobi_Nobi_medium.webp",
     "vf": 17,
     "vfStatut": "En cours",
     "vo": 24,
@@ -31260,7 +31385,7 @@
     "vfProchain": 18,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -31382,13 +31507,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Quitter-la-ville",
+    "couv": "https://www.manga-news.com/public/images/series/.quitter-laville-01_medium.webp",
     "vf": 1,
     "vfStatut": "En cours",
     "vo": 2,
     "voStatut": "Terminé",
     "vfDernier": 1,
     "vfDernierDate": "2009-05-15",
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -31452,15 +31578,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Radiant",
-    "vf": 19,
+    "couv": "https://www.manga-news.com/public/images/series/.radiant-1-ankama_medium.webp",
+    "vf": 20,
     "vfStatut": "En cours",
-    "vfDernier": 19,
-    "vfDernierDate": "2024-11-22",
-    "vfProchainDate": "2026-10-30",
-    "vfProchain": 20,
+    "vfDernier": 20,
+    "vfDernierDate": "2026-10-30",
     "pays": "FR",
     "annee": 2013,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -31524,6 +31649,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ranking-of-Kings",
+    "couv": "https://www.manga-news.com/public/images/series/.ranking-of-kings-1-kioon_medium.webp",
     "vf": 18,
     "vfStatut": "En cours",
     "vo": 23,
@@ -31534,7 +31660,7 @@
     "vfProchain": 20,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -31918,13 +32044,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Retour-du-Clan-Hwasan-le",
+    "couv": "https://www.manga-news.com/public/images/series/.Retour_du_clan_Hwasan_-_Tome_1_-_Michel_Lafon_medium.webp",
     "vf": 8,
     "vfStatut": "En cours",
     "vfDernier": 8,
     "vfDernierDate": "2025-11-06",
     "pays": "KR",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -32042,6 +32169,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Rhapsody-in-Red",
+    "couv": "https://www.manga-news.com/public/images/series/.Rhapsody_in_Red_T01_-_Delcourt_Tonkam_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 5,
@@ -32052,7 +32180,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -32104,6 +32232,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ripper",
+    "couv": "https://www.manga-news.com/public/images/series/.ripper-1-ankama_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vfDernier": 5,
@@ -32112,7 +32241,7 @@
     "vfProchain": 6,
     "pays": "FR",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -32240,6 +32369,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ron-Kamonohashi-Deranged-Detective",
+    "couv": "https://www.manga-news.com/public/images/series/.Ron_Kamonohashi_Deranged_Detective1_medium.webp",
     "vf": 18,
     "vfStatut": "En cours",
     "vo": 19,
@@ -32250,7 +32380,7 @@
     "vfProchain": 19,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -32406,6 +32536,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ruridragon",
+    "couv": "https://www.manga-news.com/public/images/series/.ruridragon-1-glenat_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vo": 5,
@@ -32416,7 +32547,7 @@
     "vfProchain": 6,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -32500,9 +32631,9 @@
    "verifie": "2026-10-23"
   },
   "sahara": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": null,
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -32767,9 +32898,10 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Sakamoto-Days",
+    "couv": "https://www.manga-news.com/public/images/series/.Sakamoto_Days_1_glenat_temp_medium.webp",
     "vf": 23,
     "vfStatut": "En cours",
-    "vo": 28,
+    "vo": 29,
     "voStatut": "En cours",
     "vfDernier": 23,
     "vfDernierDate": "2026-10-07",
@@ -32777,7 +32909,7 @@
     "vfProchain": 24,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -32928,6 +33060,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/SANDA",
+    "couv": "https://www.manga-news.com/public/images/series/.Sanda_T01__-_Ki-oon_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 16,
@@ -32938,14 +33071,14 @@
     "vfProchain": 11,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
   },
   "sanji-s-food-wars": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -33194,6 +33327,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Sayonara-Miniskirt",
+    "couv": "https://www.manga-news.com/public/images/series/.sayonara-Miniskirt-1-soleil_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 4,
@@ -33202,7 +33336,7 @@
     "vfDernierDate": "2021-01-13",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -33497,6 +33631,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Secrets-of-the-Magical-Stones",
+    "couv": "https://www.manga-news.com/public/images/series/.Secrets_stone_1_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 3,
@@ -33505,7 +33640,7 @@
     "vfDernierDate": "2022-02-04",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -33580,6 +33715,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Voisin",
+    "couv": "https://www.manga-news.com/public/images/series/.seki-voisin-de-classe-1-akata_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 10,
@@ -33588,7 +33724,7 @@
     "vfDernierDate": "2017-12-07",
     "pays": "JP",
     "annee": 2010,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -33669,8 +33805,8 @@
    }
   },
   "sentier-des-douaniers": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -33739,6 +33875,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Servamp",
+    "couv": "https://www.manga-news.com/public/images/series/.servamp-1-doki_medium.webp",
     "vf": 23,
     "vfStatut": "En cours",
     "vo": 24,
@@ -33747,7 +33884,7 @@
     "vfDernierDate": "2026-06-03",
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -33792,6 +33929,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Servant-beasts",
+    "couv": "https://www.manga-news.com/public/images/series/.Servant_beasts_-_Tome_1__-_Vega_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 4,
@@ -33800,7 +33938,7 @@
     "vfDernierDate": "2026-10-02",
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-26",
    "verifie": "2026-10-26",
@@ -33896,6 +34034,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Seule-la-mort-attend-la-Vilaine",
+    "couv": "https://www.manga-news.com/public/images/series/.Seule_la_mort_attend_la_Vilaine_1_kotoon_medium.webp",
     "vf": 8,
     "vfStatut": "En cours",
     "vfDernier": 9,
@@ -33904,7 +34043,7 @@
     "vfProchain": 10,
     "pays": "KR",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -34019,6 +34158,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Shadows-House",
+    "couv": "https://www.manga-news.com/public/images/series/.shadow-house-1-glenat_medium.webp",
     "vf": 20,
     "vfStatut": "En cours",
     "vo": 22,
@@ -34029,7 +34169,7 @@
     "vfProchain": 21,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-26",
    "verifie": "2026-10-26",
@@ -34122,6 +34262,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Shangri-La-Frontier",
+    "couv": "https://www.manga-news.com/public/images/series/.sangri-la-frontier-1-glenat_medium.webp",
     "vf": 21,
     "vfStatut": "En cours",
     "vo": 28,
@@ -34132,7 +34273,7 @@
     "vfProchain": 22,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -34191,15 +34332,18 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Guy-She-Was-Interested-in-Wasnt-a-Guy-at-All",
+    "couv": "https://www.manga-news.com/public/images/series/.She_Wasn_t_a_Guy_T01_-_Mangetsu_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vo": 3,
     "voStatut": "En cours",
     "vfDernier": 5,
     "vfDernierDate": "2026-10-14",
+    "vfProchainDate": "2027-02-03",
+    "vfProchain": 1,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -34315,9 +34459,10 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Shiba-Inu-Rooms",
+    "couv": "https://www.manga-news.com/public/images/series/.shiba-inu-rooms-doki-doki-1_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
-    "vo": 8,
+    "vo": 9,
     "voStatut": "En cours",
     "vfDernier": 4,
     "vfDernierDate": "2026-10-07",
@@ -34325,7 +34470,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-26",
    "verifie": "2026-10-26",
@@ -34514,6 +34659,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Shirayuki-aux-cheveux-rouges",
+    "couv": "https://www.manga-news.com/public/images/series/.shirayuki-aux-cheveux-rouges-1-kana_medium.webp",
     "vf": 27,
     "vfStatut": "En cours",
     "vo": 27,
@@ -34522,7 +34668,7 @@
     "vfDernierDate": "2025-11-28",
     "pays": "JP",
     "annee": 2007,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -34584,6 +34730,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Show-ha-Shoten",
+    "couv": "https://www.manga-news.com/public/images/series/.show-ha-shoten-1-kana_medium.webp",
     "vf": 9,
     "vfStatut": "En cours",
     "vo": 11,
@@ -34594,7 +34741,7 @@
     "vfProchain": 10,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -34769,6 +34916,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Silence",
+    "couv": "https://www.manga-news.com/public/images/series/.Silence_-_Tome_1_-_Kana_medium.webp",
     "vf": 7,
     "vfStatut": "En cours",
     "vfDernier": 7,
@@ -34777,7 +34925,7 @@
     "vfProchain": 8,
     "pays": "FR",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -34960,6 +35108,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Sk8rs",
+    "couv": "https://www.manga-news.com/public/images/series/.sk8rs-fr-1_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 3,
@@ -34968,7 +35117,7 @@
     "vfDernierDate": "2017-03-17",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35348,6 +35497,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Somali-et-lesprit-de-la-foret",
+    "couv": "https://www.manga-news.com/public/images/series/.somali-1-komikku_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 6,
@@ -35356,7 +35506,7 @@
     "vfDernierDate": "2020-06-25",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35464,6 +35614,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Sorciere-aux-champigons",
+    "couv": "https://www.manga-news.com/public/images/series/.sorciere_aux_champignons_1_Glenat_medium.webp",
     "vf": 7,
     "vfStatut": "En cours",
     "vo": 7,
@@ -35472,7 +35623,7 @@
     "vfDernierDate": "2026-08-19",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35769,6 +35920,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Sounds-of-life",
+    "couv": "https://www.manga-news.com/public/images/series/.Sounds_of_life_1_akata_medium.webp",
     "vf": 21,
     "vfStatut": "En cours",
     "vo": 35,
@@ -35779,7 +35931,7 @@
     "vfProchain": 22,
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35971,6 +36123,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Splatoon",
+    "couv": "https://www.manga-news.com/public/images/series/.splatoon-1-soleil_medium.webp",
     "vf": 16,
     "vfStatut": "En cours",
     "vo": 16,
@@ -35978,7 +36131,7 @@
     "vfDernierDate": "2023-11-02",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -36041,16 +36194,17 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Spy-X-Family",
+    "couv": "https://www.manga-news.com/public/images/series/.Spy-Family-1-kurokawa_medium.webp",
     "vf": 16,
     "vfStatut": "En cours",
-    "vo": 17,
+    "vo": 18,
     "voStatut": "En cours",
     "vfDernierDate": "2026-06-04",
     "vfProchainDate": "2026-11-12",
     "vfProchain": 17,
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -36125,6 +36279,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Star-Strike-It-Rich",
+    "couv": "https://www.manga-news.com/public/images/series/.Star-Strike-It-Rich_t1_meian_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vo": 7,
@@ -36135,7 +36290,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -36374,6 +36529,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Stray-Dog",
+    "couv": "https://www.manga-news.com/public/images/series/.stray-dog-1-glenat_medium.webp",
     "vf": 7,
     "vfStatut": "En cours",
     "vfDernier": 7,
@@ -36382,7 +36538,7 @@
     "vfProchain": 8,
     "pays": "FR",
     "annee": 2013,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -36544,17 +36700,18 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Sukima",
-    "vf": 2,
+    "couv": "https://www.manga-news.com/public/images/series/.Sukima_-_Casterman_medium.webp",
+    "vf": 3,
     "vfStatut": "En cours",
     "vo": 4,
     "voStatut": "Terminé",
-    "vfDernier": 2,
-    "vfDernierDate": "2026-07-01",
-    "vfProchainDate": "2026-10-28",
-    "vfProchain": 3,
+    "vfDernier": 3,
+    "vfDernierDate": "2026-10-28",
+    "vfProchainDate": "2027-01-06",
+    "vfProchain": 4,
     "pays": "TW",
     "annee": 2023,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -36662,6 +36819,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Super-Mario-Manga-adventures",
+    "couv": "https://www.manga-news.com/public/images/series/.super-mario-manga-adventure-1-soleil_medium.webp",
     "vf": 36,
     "vfStatut": "En cours",
     "vo": 61,
@@ -36671,7 +36829,7 @@
     "vfProchain": 37,
     "pays": "JP",
     "annee": 1991,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -36860,13 +37018,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Switch-Family",
+    "couv": "https://www.manga-news.com/public/images/series/.Switch_Family_T01__-_Ki-oon_medium.webp",
     "vf": 4,
     "vfStatut": "En cours",
     "vfDernier": 4,
     "vfDernierDate": "2025-12-04",
     "pays": "JP",
     "annee": 2025,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -37099,13 +37258,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Talli-fille-de-la-lune",
+    "couv": "https://www.manga-news.com/public/images/series/.talli-1-ankama_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vfDernier": 3,
     "vfDernierDate": "2021-01-22",
     "pays": "FR",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -37271,8 +37431,8 @@
    },
    "bnfVerifie": "2026-10-27",
    "verifie": "2026-10-27",
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "liensVus": {
     "bedetheque": "serie-61415-BD-Blue-Giant.html"
    },
@@ -37324,6 +37484,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Terra-Formars",
+    "couv": "https://www.manga-news.com/public/images/series/.terras-formars-1-kaze_medium.webp",
     "vf": 23,
     "vfStatut": "En cours",
     "vo": 24,
@@ -37332,7 +37493,7 @@
     "vfDernierDate": "2025-06-25",
     "pays": "JP",
     "annee": 2011,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -37526,19 +37687,20 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Terror-Man",
+    "couv": "https://www.manga-news.com/public/images/series/.Terror_Man_T01_-_Pika_medium.webp",
     "vf": 5,
     "vfStatut": "En cours",
     "vfDernier": 5,
     "vfDernierDate": "2026-06-17",
     "pays": "KR",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
   },
   "terukan-boys": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": {
     "tomes": 1,
     "editeur": "Doki Doki",
@@ -37547,7 +37709,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.Terukan-boys-1-doki_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Terukan-boys-1-doki_medium.webp",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -37618,19 +37780,20 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Beginning-After-The-End",
+    "couv": "https://www.manga-news.com/public/images/series/.The_Beginning_After_The_End_1_kbooks_medium.webp",
     "vf": 12,
     "vfStatut": "En cours",
     "vfDernier": 12,
     "vfDernierDate": "2026-10-08",
     "pays": "KR",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
   },
   "the-big-wall": {
-   "couvVersion": 3,
+   "couvVersion": 4,
    "mangaNews": {
     "tomes": 1,
     "editeur": "Paulsen",
@@ -37639,7 +37802,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.The_Big_Wall_paulsen_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-10-28",
+   "couvEssai": "2026-10-30",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.The_Big_Wall_paulsen_medium.webp",
    "verifie": "2026-10-27",
    "liensVus": {}
@@ -37667,6 +37830,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Bugle-Call",
+    "couv": "https://www.manga-news.com/public/images/series/.The_Bugle_Call_T01_-_Ki-oon_medium.webp",
     "vf": 11,
     "vfStatut": "En cours",
     "vo": 14,
@@ -37675,7 +37839,7 @@
     "vfDernierDate": "2026-10-01",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -37762,6 +37926,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Druid-of-Seoul-Station",
+    "couv": "https://www.manga-news.com/public/images/series/.seoul-station-druid-1-kbooks_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vfDernier": 10,
@@ -37770,7 +37935,7 @@
     "vfProchain": 11,
     "pays": "KR",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -37818,6 +37983,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Elusive-Samurai",
+    "couv": "https://www.manga-news.com/public/images/series/.The_Elusive_Samurai_1_kana_medium.webp",
     "vf": 20,
     "vfStatut": "En cours",
     "vo": 27,
@@ -37828,7 +37994,7 @@
     "vfProchain": 21,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -37873,8 +38039,8 @@
    "bnfVerifie": "2026-10-27",
    "verifie": "2026-10-27",
    "mangaNews": null,
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "couvEssaiMN": "",
    "liensVus": {}
   },
@@ -38280,6 +38446,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Regalia-of-the-Underdog",
+    "couv": "https://www.manga-news.com/public/images/series/.The-Regalia-of-the-Underdog_t1_glenat_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 3,
@@ -38290,7 +38457,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -38405,6 +38572,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Ete-ou-Hikaru-est-mort-l",
+    "couv": "https://www.manga-news.com/public/images/series/.The_summer_Hikaru_died_1_Pika_medium.webp",
     "vf": 8,
     "vfStatut": "En cours",
     "vo": 9,
@@ -38413,7 +38581,7 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -38589,6 +38757,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/The-Witch-and-the-Beast",
+    "couv": "https://www.manga-news.com/public/images/series/.The_Witch_and_the_Beast_1_pika_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 10,
@@ -38597,7 +38766,7 @@
     "vfDernierDate": "2023-05-03",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -38877,6 +39046,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Todays-Burger",
+    "couv": "https://www.manga-news.com/public/images/series/.Today_s_Burger_1_soleil_medium.webp",
     "vf": 11,
     "vfStatut": "En cours",
     "vo": 18,
@@ -38885,7 +39055,7 @@
     "vfDernierDate": "2026-08-27",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -38947,6 +39117,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Toilet-bound-Hanako-kun",
+    "couv": "https://www.manga-news.com/public/images/series/.Toilet-Bound_Hanako-kun-1-pika_medium.webp",
     "vf": 25,
     "vfStatut": "En cours",
     "vo": 25,
@@ -38955,7 +39126,7 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39014,6 +39185,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Tokyo-Higoro",
+    "couv": "https://www.manga-news.com/public/images/series/.Tokyo__ces_jours-ci_T1_-_Kana_medium.webp",
     "vf": 2,
     "vfStatut": "En cours",
     "vo": 3,
@@ -39021,7 +39193,7 @@
     "vfDernierDate": "2026-09-04",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39538,6 +39710,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Trillion-Game",
+    "couv": "https://www.manga-news.com/public/images/series/.Trillion_Game_1_glenat_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 11,
@@ -39548,7 +39721,7 @@
     "vfProchain": 11,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39656,6 +39829,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Tsugai-Daemons-of-the-Shadow-Realm",
+    "couv": "https://www.manga-news.com/public/images/series/.Tsugai_Daemons_of_the_Shadow_Realm_1_kurokawa_medium.webp",
     "vf": 10,
     "vfStatut": "En cours",
     "vo": 13,
@@ -39665,7 +39839,7 @@
     "vfProchain": 12,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39714,8 +39888,8 @@
    },
    "bnfVerifie": "2026-10-27",
    "verifie": "2026-10-27",
-   "couvEssai": "2026-10-28",
-   "couvVersion": 3,
+   "couvEssai": "2026-10-30",
+   "couvVersion": 4,
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -39762,6 +39936,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Two-F-aced",
+    "couv": "https://www.manga-news.com/public/images/series/.Two_Faced_Tamon_1_crunchy_medium.webp",
     "vf": 13,
     "vfStatut": "En cours",
     "vo": 17,
@@ -39772,7 +39947,7 @@
     "vfProchain": 14,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39997,8 +40172,8 @@
    "liensVus": {}
   },
   "understella": {
-   "couvVersion": 3,
-   "couvEssai": "2026-10-28",
+   "couvVersion": 4,
+   "couvEssai": "2026-10-30",
    "verifie": "2026-10-27",
    "liensVus": {},
    "couvEssaiMN": ""
@@ -40382,7 +40557,7 @@
     "lu": false,
     "vfDernierDate": "2026-05-13",
     "couv": "https://www.manga-news.com/public/images/series/.Unordinary_-_Tome_01_-_Hugo_BD_medium.webp",
-    "verifie": "2026-10-28"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -40421,6 +40596,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/vacances-de-Jesus-et-Bouddha",
+    "couv": "https://www.manga-news.com/public/images/series/.Jesus-Bouddha-1-kurokawa_medium.webp",
     "vf": 21,
     "vfStatut": "En cours",
     "vo": 22,
@@ -40429,7 +40605,7 @@
     "vfDernierDate": "2026-08-20",
     "pays": "JP",
     "annee": 2008,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -40495,6 +40671,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Vagabond",
+    "couv": "https://www.manga-news.com/public/images/series/.vagabond_01_medium.webp",
     "vf": 37,
     "vfStatut": "En cours",
     "vo": 37,
@@ -40503,7 +40680,7 @@
     "vfDernierDate": "2026-01-22",
     "pays": "JP",
     "annee": 1999,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -40656,6 +40833,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Versus",
+    "couv": "https://www.manga-news.com/public/images/series/.Versus_1_pika_medium.webp",
     "vf": 6,
     "vfStatut": "En cours",
     "vo": 7,
@@ -40666,7 +40844,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -40822,6 +41000,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Voie-du-Tablier-la",
+    "couv": "https://www.manga-news.com/public/images/series/.voie-tablier-1-kana_medium.webp",
     "vf": 16,
     "vfStatut": "En cours",
     "vo": 17,
@@ -40830,7 +41009,7 @@
     "vfDernierDate": "2026-05-22",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -41023,13 +41202,14 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Wakfu-La-Grande-Vague",
+    "couv": "https://www.manga-news.com/public/images/series/.wakfu-grande-vague-1-ankama_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
     "vfDernier": 3,
     "vfDernierDate": "2026-04-03",
     "pays": "FR",
     "annee": 2024,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -41190,6 +41370,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Whale-Star",
+    "couv": "https://www.manga-news.com/public/images/series/.Whale_Star_-_tome_1_-_Kotoon_medium.webp",
     "vf": 1,
     "vfStatut": "En cours",
     "vfDernier": 2,
@@ -41198,7 +41379,7 @@
     "vfProchain": 3,
     "pays": "KR",
     "annee": 2019,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -41273,6 +41454,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/White-Blood",
+    "couv": "https://www.manga-news.com/public/images/series/.white-blood-1-miwhel-lafon-sikku_medium.webp",
     "vf": 7,
     "vfStatut": "En cours",
     "vo": 8,
@@ -41281,7 +41463,7 @@
     "vfDernierDate": "2024-01-18",
     "pays": "KR",
     "annee": 2020,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -41339,6 +41521,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Wind-Breaker",
+    "couv": "https://www.manga-news.com/public/images/series/.Wind_breaker_1_pika_medium.webp",
     "vf": 24,
     "vfStatut": "En cours",
     "vo": 27,
@@ -41349,7 +41532,7 @@
     "vfProchain": 25,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -41396,6 +41579,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Witch-Watch",
+    "couv": "https://www.manga-news.com/public/images/series/.witch-watch-1-soleil_medium.webp",
     "vf": 14,
     "vfStatut": "En cours",
     "vo": 28,
@@ -41406,7 +41590,7 @@
     "vfProchain": 15,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-26",
    "verifie": "2026-10-26",
@@ -41910,6 +42094,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Yona-Princesse-de-lAube",
+    "couv": "https://www.manga-news.com/public/images/series/.yona-princesse-de-l-aube_medium.webp",
     "vf": 47,
     "vfStatut": "En cours",
     "vo": 48,
@@ -41918,7 +42103,7 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2009,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "anilistVerifie": "2026-10-23",
    "verifie": "2026-10-26",
@@ -42043,6 +42228,7 @@
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Yotsuba",
+    "couv": "https://www.manga-news.com/public/images/series/.yotsuba_01_medium.webp",
     "vf": 16,
     "vfStatut": "En cours",
     "vo": 16,
@@ -42051,7 +42237,7 @@
     "vfDernierDate": "2025-10-09",
     "pays": "JP",
     "annee": 2003,
-    "verifie": "2026-10-23"
+    "verifie": "2026-10-30"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
