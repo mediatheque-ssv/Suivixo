@@ -452,7 +452,7 @@ function carteSerie(v) {
     ${couverture(v, true)}
     <span class="carte-titre">${h(v.s.titre)}</span>
     ${v.f?.editeur ? `<span class="carte-meta">${h(v.f.editeur)}</span>` : ""}
-    <span class="compte-vf" title="Tomes à ${h(court(etat.prefs.bib))}, tomes parus en France, total de la série en VO">${compteVF(v)}</span>
+    <span class="compte-vf" title="Tomes à ${h(court(etat.prefs.bib))}, tomes parus en France${COL.mangas ? ", total de la série en VO" : ""}">${compteVF(v)}</span>
     ${etagere(v, 160, 16, 1.4)}
     ${statut(v.statut.cle)}
   </button>`;
@@ -582,7 +582,7 @@ function ouvrirFiche(id) {
         <p><strong>Couverture</strong> : ${v.enr?.couvFR ? `${v.enr.couvFR.orphee ? "notre édition (ISBN des exemplaires)" : "édition française"}${v.enr.couvFR.tome ? `, tome ${v.enr.couvFR.tome}` : ""}, d'après ${({ BnF: "la BnF", "Manga-News": "Manga-News", Decitre: "Decitre", ePagine: "ePagine" })[v.enr.couvFR.source] || "Open Library"}.` : urlsCouv(v) ? "édition japonaise, d'après AniList (pas de couverture française trouvée)." : "aucune trouvée."}</p>
         <p>Voir sur ${liens.join(", ")}.</p>
         <p class="actions-sources"><button type="button" class="btn" data-action="reverifier" data-id="${h(s.id)}">Revérifier maintenant</button>
-          <span class="discret petit">AniList, BnF, Manga-News et couverture, sans attendre lundi. Tes modifications non publiées sont publiées d'abord.</span></p>
+          <span class="discret petit">${COL.mangas ? "AniList, BnF, Manga-News et couverture" : "BnF et couverture"}, sans attendre lundi. Tes modifications non publiées sont publiées d'abord.</span></p>
       </div>
     </details>
     <details class="repli" id="modifier"><summary>Modifier la série</summary>${formulaire(s)}
@@ -1221,7 +1221,7 @@ function rendreImport() {
     ${ip.nbIsbn ? `<p class="explication">ISBN lus pour ${pluriel(ip.nbIsbn, "exemplaire")} sur ${nf.format(ip.nbExemplaires)} : ils servent à trouver la couverture de vos propres livres et la bonne série à la BnF.</p>`
       : ip.nbExemplaires && Object.values(etat.fonds.series || {}).some((f) => f.isbn) ? `<p class="explication"><strong>Attention :</strong> cet export ne contient pas les ISBN, contrairement au précédent. Sans eux, les couvertures et les séries retrouvées grâce aux ISBN ne seront plus vérifiées. Refais l'export avec la colonne ISBN si tu peux.</p>` : ""}
     ${ip.annonce && ip.nbExemplaires && ip.annonce !== ip.nbExemplaires ? `<p class="explication"><strong>Attention :</strong> Orphée annonce ${pluriel(ip.annonce, "document")}, mais Suivixo n'en a reconnu que ${nf.format(ip.nbExemplaires)}. Les autres ont une forme inattendue.</p>` : ""}
-    ${ip.nbExemplaires === 0 ? `<p class="explication">Aucun exemplaire reconnu. Vérifie que c'est bien l'édition des mangas d'Orphée : une ligne par tome, suivie d'une ligne par exemplaire.</p>` : ""}
+    ${ip.nbExemplaires === 0 ? `<p class="explication">Aucun exemplaire reconnu. Vérifie que c'est bien l'édition ${h(COL.des)} d'Orphée : une ligne par tome, suivie d'une ligne par exemplaire.</p>` : ""}
     <label class="champ" style="max-width:220px"><span>Date de l'export</span><input type="date" id="date-import" value="${h(ip.date)}"></label>
     <div class="actions" style="margin-bottom:24px">
       <button class="btn btn-fort" data-action="appliquer-import" ${ip.nbExemplaires ? "" : "disabled"}>Appliquer cet import</button>
@@ -1587,7 +1587,9 @@ function brancherCollections() {
     u.searchParams.set("collection", sel.value);
     location.href = u.pathname + u.search + location.hash;
   });
-  document.title = COL_ID === "mangas" ? document.title : `Suivixo · ${COL.nom}`;
+  document.title = `Suivixo · ${COL.nom}`;
+  const txtVerif = $("#txt-verification");
+  if (txtVerif) txtVerif.textContent = `Elle passe ${COL.reseau ? "tout le réseau" : "toutes les séries de la collection"} en revue chaque lundi vers 4 h${COL.mangas ? " (AniList, Manga-News et BnF)" : " (BnF et couvertures)"}, et se lance aussi après chaque publication. Tu peux la lancer tout de suite : elle traite les nouvelles séries et celles dont tu as modifié les liens.`;
 }
 
 (async function demarrer() {
