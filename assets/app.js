@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=25";
+import * as C from "./core.js?v=26";
 import { publier, verifierCle, lancerVerification, lireFichier as lireFichierDepot, executionsDepuis, etatExecution } from "./github.js?v=5";
 
 // ---------------------------------------------------------------------------

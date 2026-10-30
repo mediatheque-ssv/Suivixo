@@ -497,7 +497,7 @@ def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> N
             # le nombre de tomes est celui listé sur la page du tome ; l'état de la page de série ne vaut pas pour elle
             n = f.get("tomesEdition")
             if n and n != fs.get("vf"):
-                fiche.update(vf=n, edition=True)
+                fiche.update(vf=n, vo=n, edition=True)  # même découpage en tomes que son édition japonaise
                 fiche.pop("vfStatut", None)
                 if (fs.get("vfDernier") or 0) > n:
                     fiche.pop("vfDernier", None)

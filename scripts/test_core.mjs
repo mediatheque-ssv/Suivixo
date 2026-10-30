@@ -265,5 +265,13 @@ t("titre sans série rattaché à une série", () => {
   const r = C.construireFonds(lus, []);
   assert.equal(r.nouvelles[0].type, "One shot");
 });
+t("édition choisie à la main (Card Captor Sakura Deluxe)", () => {
+  const s = { id: "ccs", titre: "Card Captor Sakura", liens: { mangaNews: "index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1" } };
+  const enr = { bnf: { dernier: 12, tomes: "1-12" }, anilist: { statut: "FINISHED", volumes: 12 },
+    mangaNewsFiche: { url: "https://www.manga-news.com/index.php/serie/Card-Captor-Sakura", lien: "https://www.manga-news.com/index.php/manga/Card-Captor-Sakura-Edition-Deluxe/vol-1", vf: 9, vo: 9, voStatut: "Terminé", edition: true } };
+  const info = C.infosParution(s, enr, Date.now(), 9);
+  assert.equal(info.parus, 9); assert.equal(info.etat, "Terminée");
+  assert.equal(C.statutSerie([1, 2, 3, 4, 5, 6, 7, 8, 9], info).cle, "finie");
+});
 
 console.log(`${ok} tests réussis${process.exitCode ? ", des échecs ci-dessus" : ""}.`);

@@ -504,7 +504,8 @@ export function infosParution(serie, enr, maintenant = Date.now(), maxReseau = 0
   // le tome annoncé est sorti depuis la lecture de la fiche
   if (fvf !== null && etatFiche !== "Terminée" && fiche.vfProchain > fvf && fiche.vfProchainDate && Date.parse(fiche.vfProchainDate) <= maintenant) fvf = fiche.vfProchain;
   if (Number.isFinite(man.parus)) { parus = man.parus; sourceParus = "manuel"; }
-  else if (fvf !== null && etatFiche === "Terminée") { parus = fvf; sourceParus = "mangaNews"; }
+  // fiche d'une édition choisie à la main (Deluxe…) : son nombre de tomes, pas celui des autres éditions à la BnF
+  else if (fvf !== null && (etatFiche === "Terminée" || fiche.edition)) { parus = fvf; sourceParus = "mangaNews"; }
   else if (dernierBnf(bnf) || mn || fvf) {
     // BnF et Manga-News : on garde le plus grand (la BnF a du retard, Manga-News date de sa dernière publication)
     const b = dernierBnf(bnf) || 0;
