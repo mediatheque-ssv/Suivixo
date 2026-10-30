@@ -873,7 +873,9 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
             essais.append(("Manga-News", u if u.startswith("http") else "https://www.manga-news.com/" + u.lstrip("/"), None, None))
     # puis nos propres livres, d'après l'ISBN des exemplaires d'Orphée : Decitre, puis ePagine
     isbns = isbns or []
-    for n, i in isbns[:3]:
+    # les premiers tomes d'abord, puis les deux plus récents (souvent les seuls encore chez les libraires)
+    choisis = isbns[:3] + [x for x in isbns[-2:] if x not in isbns[:3]]
+    for n, i in choisis:
         essais.append(("Decitre", f"https://products-images.di-static.com/image/x/{i}-475x500-1.jpg", n, i))
         essais.append(("ePagine", f"https://images.epagine.fr/{i[-3:]}/{i}_1_75.jpg", n, i))
     # puis, tome par tome, l'édition trouvée à la BnF (sauf si elle ne contient aucun de nos ISBN) :
@@ -888,9 +890,11 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
             essais.append(("BnF", f"https://catalogue.bnf.fr/couverture?appName=NE&idArk={c['ark']}&couverture=1", c["n"], None))
         if i13:
             essais.append(("ePagine", f"https://images.epagine.fr/{i13[-3:]}/{i13}_1_75.jpg", c["n"], None))
+    # Open Library en dernier recours : ses fiches se trompent parfois d'image, même pour un ISBN exact
+    # (Ana Ana tome 1 → une autre BD). Avec nos propres ISBN, on n'y cherche que ceux-là.
     for n, i in isbns[:2]:
         essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{i}-M.jpg?default=false", n, i))
-    for c in cands[:2]:
+    for c in (cands[:2] if not isbns else []):
         if c.get("isbn"):
             essais.append(("Open Library", f"https://covers.openlibrary.org/b/isbn/{c['isbn']}-M.jpg?default=false", c["n"], None))
     vus, uniques = set(), []
@@ -898,7 +902,7 @@ def couverture_fr(ident: str, bnf: dict | None, mn: dict | None = None, debug: b
         if x[1] not in vus:
             vus.add(x[1])
             uniques.append(x)
-    for nom, url, tome, isbn_orphee in uniques[:14]:
+    for nom, url, tome, isbn_orphee in uniques[:18]:
         if nom in ("BnF", "Decitre", "ePagine"):
             time.sleep(0.8 if nom == "BnF" else 0.3)
         corps = telecharger(url)
@@ -966,9 +970,9 @@ def chercher_couverture(s: dict, e: dict, isbns: list | None = None) -> None:
     ancienne = e.get("couvFR") or {}
     if trouvee:
         e["couvFR"] = trouvee
-    elif (ancienne and ancienne.get("source") != "Manga-News" and (DOSSIER_COUV / f"{s['id']}.jpg").exists()
+    elif (ancienne and ancienne.get("source") not in ("Manga-News", "Open Library") and (DOSSIER_COUV / f"{s['id']}.jpg").exists()
           and (ancienne.get("orphee") or (e.get("bnf") or {}).get("accordIsbn") is not False)):
-        pass  # rien de mieux cette fois : on garde l'image (sauf si elle venait d'une édition BnF qui n'est pas la nôtre)
+        pass  # rien de mieux cette fois : on garde l'image (sauf Open Library, ou une édition BnF qui n'est pas la nôtre)
     else:
         e.pop("couvFR", None)
 
