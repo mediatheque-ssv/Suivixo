@@ -121,7 +121,11 @@ jobs:
             git show "HEAD:$f" > "/tmp/fusion/base_$k" 2>/dev/null || echo '{"series":{}}' > "/tmp/fusion/base_$k"
             [ -f "$f" ] && cp "$f" "/tmp/fusion/nous_$k"
           done
-          cp -r couvertures/. /tmp/couv/ 2>/dev/null || true
+          # seulement les couvertures nouvelles ou changées par CE passage : copier tout le dossier
+          # écraserait celles qu'un autre passage a enregistrées entre-temps (Ana Ana revenue à l'ancienne image)
+          git status --porcelain -uall couvertures | sed 's/^...//' > /tmp/couv_liste || true
+          while read -r f; do [ -f "$f" ] && mkdir -p "/tmp/couv/$(dirname "$f")" && cp "$f" "/tmp/couv/$f"; done < /tmp/couv_liste
+          echo "$(wc -l < /tmp/couv_liste) couverture(s) nouvelle(s) ou changée(s)"
           for i in 1 2 3 4 5 6 7 8 9 10; do
             git fetch -q origin main
             git reset -q --hard origin/main
@@ -135,7 +139,7 @@ jobs:
               cp /tmp/fusion/res.json "$f"
               git add "$f"
             done
-            mkdir -p couvertures && cp -r /tmp/couv/. couvertures/ 2>/dev/null || true
+            cp -r /tmp/couv/. ./ 2>/dev/null || true
             git add couvertures 2>/dev/null || true
             git diff --cached --quiet && { echo "Rien de nouveau."; exit 0; }
             git commit -q -m "Vérification des parutions"
