@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:39:28.572Z",
+ "publie": "2026-11-13T16:40:17.809Z",
  "series": [
   {
    "id": "achille-talon",
@@ -111,19 +111,22 @@
    "id": "armelle-et-mirko",
    "titre": "Armelle et Mirko",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "asterix-le-gaulois",
    "titre": "Astérix le gaulois",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "astrid-bromure",
    "titre": "Astrid Bromure",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "au-bois",
@@ -135,13 +138,15 @@
    "id": "au-chant-des-grenouilles",
    "titre": "Au chant des grenouilles",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "avatar-le-dernier-maitre-de-l-air",
    "titre": "Avatar : le dernier maître de l'air",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "avni",
@@ -162,7 +167,8 @@
    "type": "Série",
    "alias": [
     "Anatole Latuile"
-   ]
+   ],
+   "intercalaire": true
   },
   {
    "id": "bd-bob-l-eponge",
@@ -1142,13 +1148,15 @@
    "id": "aventures-de-tintin",
    "titre": "Les aventures de Tintin",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "aventures-de-tom-sawyer",
    "titre": "Les Aventures de Tom Sawyer",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "aventures-de-vick-et-vicky",
@@ -1166,7 +1174,8 @@
    "id": "bad-guys",
    "titre": "Les bad guys",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "blagues-de-toto",
