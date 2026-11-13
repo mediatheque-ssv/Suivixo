@@ -2526,7 +2526,12 @@
      }
     ]
    },
-   "genreOrphee": "Comédie/Humour"
+   "genreOrphee": "Comédie/Humour",
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Boule & Bill"
+    ]
+   }
   },
   "brume": {
    "titreOrphee": "Brume",
@@ -15340,30 +15345,6 @@
    },
    "oneShot": true
   },
-  "boule-bill": {
-   "titreOrphee": "Boule & Bill",
-   "editeur": "Dargaud\nDargaud",
-   "auteur": "Roba",
-   "tomes": {
-    "Servon-sur-Vilaine": [
-     1
-    ]
-   },
-   "isbn": {
-    "1": "9782505078289"
-   },
-   "exemplaires": {
-    "Servon-sur-Vilaine": [
-     {
-      "t": 1,
-      "i": "978-2-505-07828-9",
-      "c": "30327000233164",
-      "k": "BD BOU"
-     }
-    ]
-   },
-   "oneShot": true
-  },
   "vive-la-nature": {
    "titreOrphee": "Vive la nature !",
    "editeur": "la Boîte à bulles\nla Boîte à bulles",
@@ -16477,5 +16458,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-11-13T16:41:18.151Z"
+ "publie": "2026-11-13T16:42:14.161Z"
 }
