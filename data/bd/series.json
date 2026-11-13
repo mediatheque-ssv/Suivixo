@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:52:45.322Z",
+ "publie": "2026-11-13T16:55:15.454Z",
  "series": [
   {
    "id": "achille-talon",
@@ -1082,13 +1082,11 @@
    "id": "petit-spirou",
    "titre": "Le petit Spirou",
    "public": "Jeunesse",
-   "type": "Série"
-  },
-  {
-   "id": "petit-spirou-presente",
-   "titre": "Le petit spirou présente",
-   "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "alias": [
+    "Le petit spirou présente"
+   ],
+   "intercalaire": true
   },
   {
    "id": "roi-catastrophe",

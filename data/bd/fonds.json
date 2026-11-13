@@ -6070,6 +6070,7 @@
    "auteur": "Tome",
    "tomes": {
     "Servon-sur-Vilaine": [
+     3,
      4,
      5,
      6,
@@ -6173,29 +6174,6 @@
     ]
    },
    "genreOrphee": "Comédie/Humour"
-  },
-  "petit-spirou-presente": {
-   "titreOrphee": "Le petit spirou présente",
-   "editeur": "Dupuis",
-   "auteur": "Janry",
-   "tomes": {
-    "Servon-sur-Vilaine": [
-     3
-    ]
-   },
-   "isbn": {
-    "3": "9782800147536"
-   },
-   "exemplaires": {
-    "Servon-sur-Vilaine": [
-     {
-      "t": 3,
-      "i": "978-2-8001-4753-6",
-      "c": "30327000138231",
-      "k": "BD PET"
-     }
-    ]
-   }
   },
   "roi-catastrophe": {
    "titreOrphee": "Le Roi Catastrophe",
@@ -16392,5 +16370,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-11-13T16:48:48.856Z"
+ "publie": "2026-11-13T16:55:15.454Z"
 }
