@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:48:48.856Z",
+ "publie": "2026-11-13T16:49:50.545Z",
  "series": [
   {
    "id": "achille-talon",
@@ -694,13 +694,15 @@
    "id": "kid-paddle",
    "titre": "Kid Paddle",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "kong-kong",
    "titre": "Kong-Kong",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "enfant-ocean",
@@ -1147,13 +1149,15 @@
    "id": "leonard",
    "titre": "Léonard",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "leonarde",
    "titre": "Léonarde",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "leonie-et-les-scarabees",
@@ -1330,25 +1334,29 @@
    "id": "legendaires",
    "titre": "Les Légendaires",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "legendaires-origines",
    "titre": "Les Légendaires - Origines",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "legendaires-resistance",
    "titre": "Les Légendaires - Résistance",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "legendaires-parodia",
    "titre": "Les Légendaires Parodia",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "licorniers",
@@ -1522,7 +1530,8 @@
    "id": "lily-medialuna",
    "titre": "Lily Medialuna",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "lison",
@@ -1534,25 +1543,29 @@
    "id": "lolicornes",
    "titre": "Lolicornes",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "loser-jack",
    "titre": "Loser Jack",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "lou",
    "titre": "Lou !",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "louca",
    "titre": "Louca",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "louis-parmi-les-spectres",
