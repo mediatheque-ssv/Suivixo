@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:55:15.454Z",
+ "publie": "2026-11-13T16:56:18.324Z",
  "series": [
   {
    "id": "achille-talon",
@@ -945,7 +945,8 @@
    "id": "quete",
    "titre": "La quête",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "sentinelle-du-petit-peuple",
@@ -1092,7 +1093,8 @@
    "id": "roi-catastrophe",
    "titre": "Le Roi Catastrophe",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "roi-des-oiseaux",
@@ -1397,13 +1399,15 @@
    "id": "p-tits-diables",
    "titre": "Les P'tits diables",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "petits-mythos",
    "titre": "Les petits mythos",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "petits-tracas-de-theo-lea",
@@ -1421,7 +1425,8 @@
    "id": "profs",
    "titre": "Les profs",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "quatre-ours",
@@ -1433,7 +1438,8 @@
    "id": "schtroumpfs",
    "titre": "Les Schtroumpfs",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "schtroumpfs-schtroumpferies",
@@ -1895,7 +1901,8 @@
    "id": "petit-vampire",
    "titre": "Petit Vampire",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "petite-frappe",
@@ -1907,7 +1914,8 @@
    "id": "pico-bogue",
    "titre": "Pico Bogue",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "pitchi-poi",
@@ -1931,7 +1939,8 @@
    "id": "popotka-le-petit-sioux",
    "titre": "Popotka le petit sioux",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "prince-edmond",
@@ -1943,7 +1952,8 @@
    "id": "princesse-sara",
    "titre": "Princesse Sara",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "quand-la-nuit-tombe",
@@ -1967,19 +1977,22 @@
    "id": "ratafia",
    "titre": "Ratafia",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "raven-l-ours",
    "titre": "Raven & l'ours",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "roger-et-ses-humains",
    "titre": "Roger et ses humains",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "runes",
