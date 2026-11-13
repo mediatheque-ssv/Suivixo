@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T11:56:48Z",
+ "maj": "2026-11-13T16:38:06Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -8915,7 +8915,7 @@
   },
   "chat-qui-rendait-l-homme-heureux": {
    "couvEssai": "2026-11-04",
-   "anilistVerifie": "2026-11-04",
+   "anilistVerifie": "2026-11-13",
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Chat-qui-rendait-lhomme-heureux-et-inversement-Le",
     "couv": "https://www.manga-news.com/public/images/series/.Chat_qui_rendait_lhomme_heureux_1_soleil_medium.webp",
@@ -8927,7 +8927,7 @@
     "vfDernierDate": "2026-09-10",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-04"
+    "verifie": "2026-11-13"
    },
    "bnf": {
     "dernier": 14,
@@ -8989,9 +8989,9 @@
     "auto": true,
     "score": 0.806
    },
-   "verifie": "2026-11-04",
+   "verifie": "2026-11-13",
    "couvVersion": 4,
-   "bnfVerifie": "2026-11-04",
+   "bnfVerifie": "2026-11-13",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Chat_qui_rendait_lhomme_heureux_1_soleil_medium.webp",
    "mangaNews": {
     "tomes": 14,
@@ -30833,9 +30833,9 @@
     "notices": 0,
     "requete": "bib.title all \"petite faiseuse de livres deuxieme arc\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-04",
+   "verifie": "2026-11-13",
    "couvVersion": 4,
-   "bnfVerifie": "2026-11-04",
+   "bnfVerifie": "2026-11-13",
    "couvEssaiMN": "",
    "liensVus": {}
   },
@@ -37135,7 +37135,7 @@
   },
   "solo-leveling-ragnarok": {
    "couvEssai": "2026-11-04",
-   "anilistVerifie": "2026-11-04",
+   "anilistVerifie": "2026-11-13",
    "bnf": {
     "dernier": null,
     "notices": 0,
@@ -37166,9 +37166,9 @@
     "auto": true,
     "score": 1.0
    },
-   "verifie": "2026-11-04",
+   "verifie": "2026-11-13",
    "couvVersion": 4,
-   "bnfVerifie": "2026-11-04",
+   "bnfVerifie": "2026-11-13",
    "couvEssaiMN": "",
    "liensVus": {}
   },
@@ -42065,7 +42065,7 @@
    },
    "couvEssai": "2026-11-04",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.UN_AMOUR_D_MONIAQUE_-_Le_Lezard_Noir_medium.webp",
-   "verifie": "2026-11-04",
+   "verifie": "2026-11-13",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Lézard Noir (le)",
