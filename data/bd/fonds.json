@@ -3218,7 +3218,12 @@
      }
     ]
    },
-   "genreOrphee": "Fantasy/Fantastique"
+   "genreOrphee": "Fantasy/Fantastique",
+   "sansNumero": {
+    "Servon-sur-Vilaine": [
+     "Elsbeth et la malédiction du Beau Silence"
+    ]
+   }
   },
   "elvira-otto": {
    "titreOrphee": "Elvira & Otto",
@@ -13633,31 +13638,6 @@
     ]
    }
   },
-  "elsbeth-et-la-malediction-du-beau-silence": {
-   "titreOrphee": "Elsbeth et la malédiction du Beau Silence",
-   "editeur": "Le Lombard",
-   "auteur": "Roulot Tristan",
-   "tomes": {},
-   "sansNumero": {
-    "Servon-sur-Vilaine": [
-     "Elsbeth et la malédiction du Beau Silence"
-    ]
-   },
-   "isbnSansNumero": [
-    "9782808214421"
-   ],
-   "exemplaires": {
-    "Servon-sur-Vilaine": [
-     {
-      "t": "Elsbeth et la malédiction du Beau Silence",
-      "i": "978-2-8082-1442-1",
-      "c": "30327000335936",
-      "k": "BD ELS"
-     }
-    ]
-   },
-   "genreOrphee": "Fantasy/Fantastique"
-  },
   "boite-de-petits-pois": {
    "titreOrphee": "La boîte de petits pois",
    "editeur": "Delcourt",
@@ -16435,5 +16415,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-11-13T16:44:35.048Z"
+ "publie": "2026-11-13T16:46:22.059Z"
 }

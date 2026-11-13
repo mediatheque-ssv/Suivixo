@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:45:31.435Z",
+ "publie": "2026-11-13T16:46:22.059Z",
  "series": [
   {
    "id": "achille-talon",
@@ -511,13 +511,11 @@
    "id": "elsbeth",
    "titre": "Elsbeth",
    "public": "Jeunesse",
-   "type": "Série"
-  },
-  {
-   "id": "elsbeth-et-la-malediction-du-beau-silence",
-   "titre": "Elsbeth et la malédiction du Beau Silence",
-   "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "alias": [
+    "Elsbeth et la malédiction du Beau Silence"
+   ],
+   "intercalaire": true
   },
   {
    "id": "elvira-otto",
