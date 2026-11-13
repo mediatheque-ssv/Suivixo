@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:44:35.048Z",
+ "publie": "2026-11-13T16:45:31.435Z",
  "series": [
   {
    "id": "achille-talon",
@@ -420,7 +420,8 @@
    "id": "constance-et-les-ombres",
    "titre": "Constance et les ombres",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "crevette",
@@ -741,7 +742,8 @@
    "id": "eleve-ducobu",
    "titre": "L'élève Ducobu",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "emouvantail",
