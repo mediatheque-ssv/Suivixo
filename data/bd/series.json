@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:56:18.324Z",
+ "publie": "2026-11-13T16:57:21.584Z",
  "series": [
   {
    "id": "achille-talon",
@@ -952,7 +952,8 @@
    "id": "sentinelle-du-petit-peuple",
    "titre": "La sentinelle du petit peuple",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "sorciere-de-wickerson",
@@ -1439,31 +1440,25 @@
    "titre": "Les Schtroumpfs",
    "public": "Jeunesse",
    "type": "Série",
-   "intercalaire": true
-  },
-  {
-   "id": "schtroumpfs-schtroumpferies",
-   "titre": "Les Schtroumpfs - Schtroumpferies",
-   "public": "Jeunesse",
-   "type": "Série"
-  },
-  {
-   "id": "schtroumpfs-le-village-des-filles",
-   "titre": "Les Schtroumpfs & le village des filles",
-   "public": "Jeunesse",
-   "type": "Série"
+   "intercalaire": true,
+   "alias": [
+    "Les Schtroumpfs & le village des filles",
+    "Les Schtroumpfs - Schtroumpferies"
+   ]
   },
   {
    "id": "simpson",
    "titre": "Les Simpson",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "sisters",
    "titre": "Les sisters",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "soeurs-de-la-brume",
@@ -1475,7 +1470,8 @@
    "id": "sortileges-de-zora",
    "titre": "Les sortilèges de Zora",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "souvenirs-de-mamette",
@@ -2034,7 +2030,8 @@
    "id": "sorceline",
    "titre": "Sorceline",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "sorunne",
