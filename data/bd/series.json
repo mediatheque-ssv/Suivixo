@@ -1,30 +1,34 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:37:22.463Z",
+ "publie": "2026-11-13T16:39:28.572Z",
  "series": [
   {
    "id": "achille-talon",
    "titre": "Achille Talon",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ajax",
    "titre": "Ajax",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ajax-et-sa-bande",
    "titre": "Ajax et sa bande",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "alia-chasseuse-de-fantomes",
    "titre": "Alia : chasseuse de fantômes",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "alix",
@@ -54,13 +58,15 @@
    "id": "ana-l-entremonde",
    "titre": "Ana & l'entremonde",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ana-ana",
    "titre": "Ana Ana",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "anna-et-froga",
@@ -72,7 +78,8 @@
    "id": "anuki",
    "titre": "Anuki",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "apo-et-kalypse",
@@ -90,13 +97,15 @@
    "id": "arcade-club",
    "titre": "Arcade club",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ariol",
    "titre": "Ariol",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "armelle-et-mirko",
@@ -693,13 +702,15 @@
    "id": "agent-212",
    "titre": "L'agent 212",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "alchimiste",
    "titre": "L'alchimiste",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ecole-de-pan",
