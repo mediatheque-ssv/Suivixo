@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:43:33.804Z",
+ "publie": "2026-11-13T16:44:35.048Z",
  "series": [
   {
    "id": "achille-talon",
@@ -122,7 +122,10 @@
    "titre": "Astérix le gaulois",
    "public": "Jeunesse",
    "type": "Série",
-   "intercalaire": true
+   "intercalaire": true,
+   "alias": [
+    "Comment Obélix est tombé dans la marmite du druide quand il était petit"
+   ]
   },
   {
    "id": "astrid-bromure",
@@ -412,12 +415,6 @@
    "public": "Jeunesse",
    "type": "Série",
    "intercalaire": true
-  },
-  {
-   "id": "comment-obelix-est-tombe-dans-la-marmite-du-druide-quand-il-etait-petit",
-   "titre": "Comment Obélix est tombé dans la marmite du druide quand il était petit",
-   "public": "Jeunesse",
-   "type": "One shot"
   },
   {
    "id": "constance-et-les-ombres",
@@ -731,7 +728,8 @@
    "id": "ecole-de-pan",
    "titre": "L'école de Pan",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ecorce-des-choses",

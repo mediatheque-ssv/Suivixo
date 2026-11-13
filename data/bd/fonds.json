@@ -885,7 +885,8 @@
    "sansNumero": {
     "Servon-sur-Vilaine": [
      "L' empire du Milieu",
-     "Le menhir d'or"
+     "Le menhir d'or",
+     "Comment Obélix est tombé dans la marmite du druide quand il était petit"
     ]
    },
    "isbn": {
@@ -15032,30 +15033,6 @@
    },
    "oneShot": true
   },
-  "comment-obelix-est-tombe-dans-la-marmite-du-druide-quand-il-etait-petit": {
-   "titreOrphee": "Comment Obélix est tombé dans la marmite du druide quand il était petit",
-   "editeur": "les Éd. Albert-René\nImpr. Pollina",
-   "auteur": "Goscinny René",
-   "tomes": {
-    "Servon-sur-Vilaine": [
-     1
-    ]
-   },
-   "isbn": {
-    "1": "9782864972129"
-   },
-   "exemplaires": {
-    "Servon-sur-Vilaine": [
-     {
-      "t": 1,
-      "i": "978-2-864-972129",
-      "c": "30327000204751",
-      "k": "BD AST"
-     }
-    ]
-   },
-   "oneShot": true
-  },
   "jean-michel-et-la-revolution-en-poponie": {
    "titreOrphee": "Jean-Michel et la révolution en Poponie",
    "editeur": "Actes Sud junior",
@@ -16458,5 +16435,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-11-13T16:42:14.161Z"
+ "publie": "2026-11-13T16:44:35.048Z"
 }
