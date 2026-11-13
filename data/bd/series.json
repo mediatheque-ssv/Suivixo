@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:51:50.364Z",
+ "publie": "2026-11-13T16:52:45.322Z",
  "series": [
   {
    "id": "achille-talon",
@@ -1075,7 +1075,8 @@
    "id": "petit-prince",
    "titre": "Le Petit Prince",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "petit-spirou",
@@ -1806,7 +1807,8 @@
    "id": "ninn",
    "titre": "Ninn",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "nonolulu",
@@ -1824,7 +1826,8 @@
    "id": "nunuche",
    "titre": "Nunuche",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ocelot-le-chat-qui-n-en-etait-pas-un",
@@ -1836,13 +1839,15 @@
    "id": "oliver-twist",
    "titre": "Oliver Twist",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "orgueil-prejuges",
    "titre": "Orgueil & préjugés",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ortie-et-douce",
@@ -1854,7 +1859,8 @@
    "id": "papi-genial",
    "titre": "Papi Génial",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "papi-genial-et-sa-bulle-qui-va-partout",
@@ -1878,7 +1884,8 @@
    "id": "perdus-dans-le-futur",
    "titre": "Perdus dans le futur",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "petiote-a-la-mer",
