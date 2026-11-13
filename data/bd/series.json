@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:57:21.584Z",
+ "publie": "2026-11-13T16:58:22.023Z",
  "series": [
   {
    "id": "achille-talon",
@@ -1131,13 +1131,15 @@
    "id": "temps-des-ombres",
    "titre": "Le temps des ombres",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "trio-bonaventure",
    "titre": "Le trio Bonaventure",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "voisin-grognon",
@@ -1495,19 +1497,22 @@
    "id": "terreurs-des-mers",
    "titre": "Les terreurs des mers",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "trois-mousquetaires",
    "titre": "Les trois mousquetaires",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "tuniques-bleues",
    "titre": "Les Tuniques bleues",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "utopistes",
@@ -2061,7 +2066,8 @@
    "id": "studio-danse",
    "titre": "Studio danse",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "studio-danse-academy",
@@ -2097,7 +2103,8 @@
    "id": "sybil-la-fee-cartable",
    "titre": "Sybil la fée cartable",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "tamia-et-les-memoires-du-dragon",
@@ -2115,7 +2122,8 @@
    "id": "tavutatet",
    "titre": "Tâvutatèt",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "tetine-man",
@@ -2133,7 +2141,8 @@
    "id": "theo-toutou",
    "titre": "Théo Toutou",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "tib-et-tatoum",
@@ -2163,7 +2172,8 @@
    "id": "tilly-zorus",
    "titre": "Tilly Zorus",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "timo-l-aventurier",
@@ -2175,25 +2185,29 @@
    "id": "titeuf",
    "titre": "Titeuf",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "tizombi",
    "titre": "Tizombi",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "tom-tom-et-nana",
    "titre": "Tom-Tom et Nana",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "totem",
    "titre": "Totem",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "toupet",
@@ -2217,19 +2231,22 @@
    "id": "tralaland",
    "titre": "Tralaland",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "tranche-trognes",
    "titre": "Tranche-Trognes",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "triple-galop",
    "titre": "Triple galop",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "trois-grains-de-riz",
@@ -2265,7 +2282,8 @@
    "id": "une-epatante-aventure-de-jules",
    "titre": "Une épatante aventure de Jules",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "unico",
