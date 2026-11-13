@@ -648,7 +648,8 @@
    "sansNumero": {
     "Servon-sur-Vilaine": [
      "Ramono, ton tonton fait du bio !",
-     "Les vacances chez Papi et Mamie"
+     "Les vacances chez Papi et Mamie",
+     "Bisbille fait mouche"
     ]
    },
    "isbn": {
@@ -15050,30 +15051,6 @@
    },
    "oneShot": true
   },
-  "bisbille-fait-mouche": {
-   "titreOrphee": "Bisbille fait mouche",
-   "editeur": "BD Kids",
-   "auteur": "Guibert Emmanuel",
-   "tomes": {
-    "Servon-sur-Vilaine": [
-     1
-    ]
-   },
-   "isbn": {
-    "1": "9782747037839"
-   },
-   "exemplaires": {
-    "Servon-sur-Vilaine": [
-     {
-      "t": 1,
-      "i": "978-2-7470-3783-9",
-      "c": "30327000205691",
-      "k": "BD GUI"
-     }
-    ]
-   },
-   "oneShot": true
-  },
   "jean-michel-et-la-revolution-en-poponie": {
    "titreOrphee": "Jean-Michel et la révolution en Poponie",
    "editeur": "Actes Sud junior",
@@ -16500,5 +16477,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-10-30T11:14:54.951Z"
+ "publie": "2026-11-13T16:41:18.151Z"
 }
