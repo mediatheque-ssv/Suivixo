@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:47:31.033Z",
+ "publie": "2026-11-13T16:48:48.856Z",
  "series": [
   {
    "id": "achille-talon",
@@ -644,13 +644,15 @@
    "id": "idefix-et-les-irreductibles",
    "titre": "Idéfix et les irréductibles",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "jane-des-dragons",
    "titre": "Jane des Dragons",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "je-suis-pas-petite",
@@ -667,12 +669,6 @@
   {
    "id": "jean-michel-le-caribou-dans-l-espace",
    "titre": "Jean-Michel, le caribou dans l'espace",
-   "public": "Jeunesse",
-   "type": "One shot"
-  },
-  {
-   "id": "jeannot",
-   "titre": "Jeannot",
    "public": "Jeunesse",
    "type": "One shot"
   },
@@ -776,7 +772,8 @@
    "id": "histoire-de-france-en-bd",
    "titre": "L'Histoire de France en BD",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ile-de-minuit",
@@ -788,7 +785,8 @@
    "id": "ile-de-puki",
    "titre": "L'île de Puki",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ile-des-cochons-volants",
@@ -800,13 +798,15 @@
    "id": "ile-du-crane",
    "titre": "L'île du crâne",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ile-oubliee",
    "titre": "L'île oubliée",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "onde",
@@ -1237,7 +1237,10 @@
    "id": "contes-des-coeurs-perdus",
    "titre": "Les contes des coeurs perdus",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "alias": [
+    "Jeannot"
+   ]
   },
   {
    "id": "contrees-salees",

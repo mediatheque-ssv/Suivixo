@@ -7147,7 +7147,8 @@
      "Héloïse et les larmes de givre",
      "Le silence est d'ombre",
      "Mauvais sang",
-     "Merlin"
+     "Merlin",
+     "Jeannot"
     ]
    },
    "isbnSansNumero": [
@@ -13833,30 +13834,6 @@
    },
    "oneShot": true
   },
-  "jeannot": {
-   "titreOrphee": "Jeannot",
-   "editeur": "Delcourt",
-   "auteur": "Clément Loïc",
-   "tomes": {
-    "Servon-sur-Vilaine": [
-     1
-    ]
-   },
-   "isbn": {
-    "1": "9782413019657"
-   },
-   "exemplaires": {
-    "Servon-sur-Vilaine": [
-     {
-      "t": 1,
-      "i": "978-2-413-01965-7",
-      "c": "30327000250820",
-      "k": "BD CON"
-     }
-    ]
-   },
-   "oneShot": true
-  },
   "des-mutants-dans-l-etang": {
    "titreOrphee": "Des mutants dans l'étang",
    "editeur": "Kilowatt",
@@ -16415,5 +16392,5 @@
    "brut": "Tome :"
   }
  ],
- "publie": "2026-11-13T16:46:22.059Z"
+ "publie": "2026-11-13T16:48:48.856Z"
 }
