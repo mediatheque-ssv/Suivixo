@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:50:48.881Z",
+ "publie": "2026-11-13T16:51:50.364Z",
  "series": [
   {
    "id": "achille-talon",
@@ -914,7 +914,8 @@
    "id": "mythologie-en-bd",
    "titre": "La mythologie en BD",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "philosophie-koala",
@@ -1043,7 +1044,8 @@
    "id": "monde-des-cancres",
    "titre": "Le monde des cancres",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "mystere-du-lac",
@@ -1389,7 +1391,8 @@
    "id": "mondes-perdus",
    "titre": "Les mondes perdus",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "p-tits-diables",
@@ -1708,7 +1711,8 @@
    "id": "mirabelle",
    "titre": "Mirabelle",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "miss-charity",
@@ -1726,7 +1730,8 @@
    "id": "miss-shaolin",
    "titre": "Miss Shaolin",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "mistinguette",
@@ -1756,7 +1761,8 @@
    "id": "monsieur-blaireau-et-madame-renarde",
    "titre": "Monsieur Blaireau et Madame Renarde",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "monsieur-lion-est-presse",
@@ -1768,7 +1774,8 @@
    "id": "mortelle-adele",
    "titre": "Mortelle Adèle",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "mystere-au-musee",
@@ -1786,7 +1793,8 @@
    "id": "nevermoor",
    "titre": "Nevermoor",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "ninja-malgre-moi",
