@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-13T16:49:50.545Z",
+ "publie": "2026-11-13T16:50:48.881Z",
  "series": [
   {
    "id": "achille-talon",
@@ -1023,13 +1023,15 @@
    "id": "loup-en-slip",
    "titre": "Le loup en slip",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "meilleur-de-tom-tom-et-nana",
    "titre": "Le meilleur de Tom-Tom et Nana",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "monde-de-charline",
@@ -1380,7 +1382,8 @@
    "id": "minions",
    "titre": "Les Minions",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "mondes-perdus",
@@ -1583,7 +1586,8 @@
    "id": "louisette-la-taupe",
    "titre": "Louisette la taupe",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "luce-comprend-tout-trop-vite",
@@ -1595,19 +1599,22 @@
    "id": "lucie-et-sa-licorne",
    "titre": "Lucie et sa licorne",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "lucky-luke",
    "titre": "Lucky Luke",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "lucy-poids-plume",
    "titre": "Lucy poids plume",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "lumiere",
@@ -1631,19 +1638,22 @@
    "id": "magic",
    "titre": "Magic",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "maiana",
    "titre": "Maïana",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "mamette",
    "titre": "Mamette",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "mamie-rocket",
@@ -1667,7 +1677,8 @@
    "id": "marsupilami",
    "titre": "Marsupilami",
    "public": "Jeunesse",
-   "type": "Série"
+   "type": "Série",
+   "intercalaire": true
   },
   {
    "id": "max-et-lili",
