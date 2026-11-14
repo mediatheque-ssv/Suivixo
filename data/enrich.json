@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T16:38:06Z",
+ "maj": "2026-11-14T15:10:18Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -2144,42 +2144,42 @@
   },
   "animal-crossing-new-horizons-le-journal-de-l-ile": {
    "anilist": {
-    "id": 48315,
-    "titre": "Dobutsu no Mori: Hohinda Mura Dayori",
-    "titreVO": "Dobutsu no Mori: Hohinda Mura Dayori",
-    "statut": "FINISHED",
-    "volumes": 12,
+    "id": 130060,
+    "titre": "Animal Crossing: New Horizons - Deserted Island Diary",
+    "titreVO": "Atsumare Doubutsu no Mori: Mujintou Diary",
+    "statut": "RELEASING",
+    "volumes": null,
     "format": "MANGA",
     "pays": "JP",
-    "demographie": null,
+    "demographie": "Kodomo",
     "genres": [
+     "Comedy",
+     "Fantasy",
      "Slice of Life"
     ],
-    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx48315-cyuwLf65QGWQ.png",
-    "imageGrande": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx48315-cyuwLf65QGWQ.png",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx130060-JunZrFAQ11PP.jpg",
+    "imageGrande": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx130060-JunZrFAQ11PP.jpg",
     "auteurs": [
-     "Sayori Abe",
-     "Katsuya Eguchi"
+     "Coconas☆Rumba"
     ],
-    "auto": true,
-    "score": 0.97,
-    "auteurDifferent": true
+    "auto": false
    },
-   "anilistVerifie": "2026-10-23",
+   "anilistVerifie": "2026-11-14",
    "bnf": {
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"animal crossing new horizons le journal de ile\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-14",
+   "verifie": "2026-11-14",
    "couvEssai": "2026-10-27",
    "mangaNews": {
     "tomes": 12,
     "editeur": "Soleil",
     "url": "https://www.manga-news.com/index.php/serie/Animal-Crossing-New-Horizon",
     "date": "2026-08-04",
-    "couv": "https://www.manga-news.com/public/images/series/.Animal_Crossing_new_horizon_1_soleil_medium.webp"
+    "couv": "https://www.manga-news.com/public/images/series/.Animal_Crossing_new_horizon_1_soleil_medium.webp",
+    "manuel": true
    },
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Animal-Crossing-New-Horizon",
@@ -2203,7 +2203,10 @@
     "maj": "2026-10-27"
    },
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Animal_Crossing_new_horizon_1_soleil_medium.webp",
-   "liensVus": {}
+   "liensVus": {
+    "mangaNews": "index.php/serie/Animal-Crossing-New-Horizon",
+    "anilist": 130060
+   }
   },
   "animal-kingdom": {
    "anilist": {
