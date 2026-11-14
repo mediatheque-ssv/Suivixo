@@ -1,6 +1,6 @@
 {
  "version": 1,
- "publie": "2026-11-04T15:03:01.991Z",
+ "publie": "2026-11-14T15:09:57.101Z",
  "series": [
   {
    "id": "cooking-karine",
@@ -400,7 +400,11 @@
    "genre": "Kodomo",
    "public": "Jeunesse",
    "age": "8",
-   "type": "Série"
+   "type": "Série",
+   "liens": {
+    "mangaNews": "index.php/serie/Animal-Crossing-New-Horizon",
+    "anilist": 130060
+   }
   },
   {
    "id": "animal-crossing-new-horizons-l-ile-de-la-detente",
