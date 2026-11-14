@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T15:10:18Z",
+ "maj": "2026-11-14T15:10:21Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -2172,7 +2172,7 @@
    },
    "bnfVerifie": "2026-11-14",
    "verifie": "2026-11-14",
-   "couvEssai": "2026-10-27",
+   "couvEssai": "2026-11-14",
    "mangaNews": {
     "tomes": 12,
     "editeur": "Soleil",
@@ -2194,13 +2194,13 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-14"
    },
-   "couvVersion": 2,
+   "couvVersion": 4,
    "couvFR": {
     "source": "Manga-News",
     "mn": "https://www.manga-news.com/index.php/serie/Animal-Crossing-New-Horizon",
-    "maj": "2026-10-27"
+    "maj": "2026-11-14"
    },
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Animal_Crossing_new_horizon_1_soleil_medium.webp",
    "liensVus": {
