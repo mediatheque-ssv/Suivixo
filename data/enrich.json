@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T15:10:21Z",
+ "maj": "2026-11-16T11:47:56Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -103,10 +103,10 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -141,7 +141,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "300-jours-avec-toi": {
@@ -346,14 +346,14 @@
     ],
     "requete": "bib.title all \"crocs toi\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 3,
     "editeur": "Akata",
@@ -374,7 +374,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -437,8 +437,8 @@
     ],
     "requete": "bib.title all \"image de mona lisa\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -463,7 +463,7 @@
     "vfDernierDate": "2024-11-07",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -490,7 +490,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 14,
     "tomes": "1-14",
@@ -524,8 +524,8 @@
     ],
     "requete": "bib.title all \"sign of affection\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -550,7 +550,7 @@
     "vfDernierDate": "2026-09-10",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -726,7 +726,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.adieu-eri-crunchyroll_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "aether-dreams": {
@@ -748,14 +748,14 @@
     ],
     "requete": "bib.title all \"aether dreams\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
   },
@@ -839,9 +839,9 @@
     ],
     "requete": "bib.title all \"agents of the four seasons la danse du printemps\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-27",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 2,
     "editeur": "Akata",
@@ -850,7 +850,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.Agents_of_the_Four_Seasons_-_T1_-_Akata_medium.webp",
     "manuel": true
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "couvVersion": 2,
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Agents_of_the_Four_Seasons_-_T1_-_Akata_medium.webp",
    "anilist": {
@@ -895,7 +895,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Agents-of-the-Four-Seasons"
@@ -1022,14 +1022,14 @@
     ],
     "requete": "bib.title all \"alice au dela des etoiles\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Glénat",
@@ -1050,7 +1050,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -1546,7 +1546,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.alter-ego-glenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "amatsuki": {
@@ -1722,7 +1722,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 4,
     "tomes": "1-4",
@@ -1756,8 +1756,8 @@
     ],
     "requete": "bib.title all \"amour est au menu\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Akata",
@@ -1776,7 +1776,7 @@
     "vfDernierDate": "2025-06-19",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -1824,8 +1824,8 @@
     ],
     "requete": "bib.title all \"amour est dans le the\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 12,
     "editeur": "Glénat",
@@ -1846,7 +1846,7 @@
     "vfProchain": 14,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -1983,8 +1983,8 @@
     ],
     "requete": "bib.title all \"amulet\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -2314,13 +2314,13 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.anne-maison-pignons-verts-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "antiheros": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -2365,8 +2365,8 @@
     ],
     "requete": "bib.title all \"ao ashi playmaker\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -2393,7 +2393,7 @@
     "vfProchain": 38,
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -2413,7 +2413,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.aphorisme-sur-la-sagesse-dans-la-vie-kurokawa_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "appare-ranman": {
@@ -2465,7 +2465,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Appel_de_Cthulhu_ki-oon_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "apres-la-pluie": {
@@ -2628,7 +2628,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.argent-du-deshonneur-akata_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "aria-the-masterpiece": {
@@ -2829,7 +2829,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.arsene-lupin-gentlemen-cambrioleur-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "asadora": {
@@ -2855,7 +2855,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 9,
     "tomes": "1-9",
@@ -2889,8 +2889,8 @@
     ],
     "requete": "bib.title all \"asadora\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -2916,7 +2916,7 @@
     "vfDernierDate": "2025-06-06",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Asadora"
@@ -3252,14 +3252,14 @@
     ],
     "requete": "bib.title all \"astro royale\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 176832,
     "titre": "Astro Royale",
@@ -3301,7 +3301,7 @@
     "vfProchain": 6,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -3322,7 +3322,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.atchoum-naoki-urasawa-anthology-kana_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "atelier-des-fees": {
@@ -3406,13 +3406,13 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
-    "dernier": 15,
-    "tomes": "1-15",
-    "dateDernier": "2026-06",
+    "dernier": 16,
+    "tomes": "1-16",
+    "dateDernier": "2026-11",
     "editeur": "Pika édition",
-    "notices": 33,
+    "notices": 34,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47645542t",
     "isbn1": "9782811698874",
@@ -3440,8 +3440,8 @@
     ],
     "requete": "bib.title all \"atelier des sorciers\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 15,
     "editeur": "Pika",
@@ -3453,15 +3453,14 @@
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Atelier-des-sorciers-l",
     "couv": "https://www.manga-news.com/public/images/series/.atelier-des-sorciers-1-pika_medium.webp",
-    "vf": 15,
+    "vf": 16,
     "vfStatut": "En cours",
     "vo": 16,
     "voStatut": "En cours",
-    "vfDernierDate": "2026-11-04",
-    "vfProchainDate": "2026-11-12",
+    "vfDernierDate": "2026-11-12",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -3760,7 +3759,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Au_chevet_dune_guerriere-1-ofelbe_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "au-coeur-de-fukushima": {
@@ -3844,7 +3843,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Au_creux_de_nos_mains_-_Nazca_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "aux-cotes-du-dieu-loup": {
@@ -3973,7 +3972,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.aventure-tom-sawyer-nobi-2021_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "ayashimon": {
@@ -4679,7 +4678,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.le-bateau-usine-akata_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "battle-game-in-5-seconds": {
@@ -4718,8 +4717,8 @@
     ],
     "requete": "bib.title all \"battle game in 5 seconds\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -4747,7 +4746,7 @@
     "vfProchain": 27,
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Battle-Game-in-5-Seconds",
@@ -4913,14 +4912,14 @@
     ],
     "requete": "bib.title all \"be blues\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 88867,
     "titre": "BE BLUES!: Ao ni Nare",
@@ -4961,7 +4960,7 @@
     "vfDernierDate": "2026-10-23",
     "pays": "JP",
     "annee": 2011,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -5088,7 +5087,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 43,
     "tomes": "1-12,14-28,30-36,38-43",
@@ -5122,8 +5121,8 @@
     ],
     "requete": "bib.title all \"berserk\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -5150,7 +5149,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 1990,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Berserk-2Ed",
@@ -5518,7 +5517,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 35,
     "tomes": "1-35",
@@ -5552,8 +5551,8 @@
     ],
     "requete": "bib.title all \"black butler\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-27",
    "mangaNews": {
     "tomes": 35,
@@ -5574,7 +5573,7 @@
     "vfDernierDate": "2026-06-26",
     "pays": "JP",
     "annee": 2007,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvVersion": 2,
    "couvFR": {
@@ -5646,8 +5645,8 @@
     ],
     "requete": "bib.title all \"black clover\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 37,
     "editeur": "Crunchyroll - Editions",
@@ -5668,7 +5667,7 @@
     "vfProchainDate": "2026-11-18",
     "pays": "JP",
     "annee": 2014,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -5740,8 +5739,8 @@
     ],
     "requete": "bib.title all \"black shadow\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 14,
     "editeur": "Pika",
@@ -5763,7 +5762,7 @@
     "vfProchain": 16,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -6008,8 +6007,8 @@
     ],
     "requete": "bib.title all \"blitz\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 11,
     "editeur": "Iwa",
@@ -6026,7 +6025,7 @@
     "vfDernierDate": "2025-10-16",
     "pays": "FR",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -6365,8 +6364,8 @@
     ],
     "requete": "bib.title all \"blue box\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -6393,7 +6392,7 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -6413,7 +6412,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Blue-Corner_Jiro-Taniguchi_2024_Pika_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "blue-flag": {
@@ -6525,7 +6524,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 35,
     "tomes": "1-25,27-35",
@@ -6561,8 +6560,8 @@
     ],
     "requete": "bib.title all \"blue lock\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -6581,7 +6580,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.blue-lock-1-pika_medium.webp",
     "vf": 35,
     "vfStatut": "En cours",
-    "vo": 40,
+    "vo": 41,
     "voStatut": "En cours",
     "vfDernier": 35,
     "vfDernierDate": "2026-10-28",
@@ -6589,7 +6588,7 @@
     "vfProchain": 36,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -6616,7 +6615,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 18,
     "tomes": "1-18",
@@ -6650,8 +6649,8 @@
     ],
     "requete": "bib.title all \"blue period\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -6678,7 +6677,7 @@
     "vfProchain": 19,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -6698,7 +6697,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Blue-phobia-glenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "blue-spring-ride": {
@@ -7316,7 +7315,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 15,
     "tomes": "1-15",
@@ -7350,8 +7349,8 @@
     ],
     "requete": "bib.title all \"bride stories\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -7377,7 +7376,7 @@
     "vfDernierDate": "2025-04-17",
     "pays": "JP",
     "annee": 2009,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Bride-stories",
@@ -7559,7 +7558,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 13,
     "tomes": "1-13",
@@ -7593,8 +7592,8 @@
     ],
     "requete": "bib.title all \"cantine de minuit\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 14,
     "editeur": "Lézard Noir (le)",
@@ -7614,7 +7613,7 @@
     "vfDernierDate": "2026-11-04",
     "pays": "JP",
     "annee": 2006,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -8022,13 +8021,13 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
-    "dernier": 16,
-    "tomes": "1-16",
-    "dateDernier": "2026-06",
+    "dernier": 17,
+    "tomes": "1-17",
+    "dateDernier": "2026-11",
     "editeur": "Ki-oon",
-    "notices": 17,
+    "notices": 18,
     "autresEditeurs": [
      "Lumen",
      "Mana books"
@@ -8059,8 +8058,8 @@
     ],
     "requete": "bib.title all \"carnets de apothicaire\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 16,
     "editeur": "Ki-oon",
@@ -8080,7 +8079,7 @@
     "vfProchain": 17,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -8306,7 +8305,9 @@
     "dateDernier": "2026-09",
     "editeur": "Bamboo édition",
     "notices": 5,
-    "autresEditeurs": [],
+    "autresEditeurs": [
+     ""
+    ],
     "ark1": "ark:/12148/cb48713144m",
     "isbn1": "9791041114641",
     "candidatsCouv": [
@@ -8333,14 +8334,14 @@
     ],
     "requete": "bib.title all \"cats and dragon\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Doki Doki",
@@ -8362,7 +8363,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -8383,7 +8384,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Cerisiers-fleurissent-malgres-tout-kana_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "chacun-ses-gouts": {
@@ -8493,8 +8494,8 @@
     ],
     "requete": "bib.title all \"chainsaw man\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -8520,7 +8521,7 @@
     "vfDernierDate": "2026-10-14",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Chainsaw-Man"
@@ -8569,10 +8570,10 @@
     "vfDernierDate": "2026-06-03",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 2,
     "tomes": "1-2",
@@ -8597,7 +8598,7 @@
     "requete": "bib.title all \"chanson de lala\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-27",
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvVersion": 2,
    "couvFR": {
     "source": "Manga-News",
@@ -8624,10 +8625,10 @@
     "vfDernierDate": "2026-11-04",
     "pays": "FR",
     "annee": 2026,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -8652,7 +8653,7 @@
     "mn": "https://www.manga-news.com/index.php/serie/Chants-du-Cygne-Noir-Les",
     "maj": "2026-10-30"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Chants-du-cygne-noir_t1_Rue-de-sevres_medium.webp",
    "couvVersion": 4
@@ -8871,8 +8872,8 @@
     ],
     "requete": "bib.title all \"chat malgre moi\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -8897,7 +8898,7 @@
     "vfDernierDate": "2026-06-03",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -8911,9 +8912,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Le_chat_m_ne_l_enqu_te_-_vol._01_-_Doki_Doki_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-11-09",
+   "couvEssai": "2026-11-16",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_chat_m_ne_l_enqu_te_-_vol._01_-_Doki_Doki_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "chat-qui-rendait-l-homme-heureux": {
@@ -9104,8 +9105,8 @@
     "notices": 0,
     "requete": "bib.title all \"chaventures de tai et mamie sue\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 6,
     "editeur": "nobi nobi!",
@@ -9126,7 +9127,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -9194,8 +9195,8 @@
     ],
     "requete": "bib.title all \"chaventures de tai mamie sue\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 6,
     "editeur": "nobi nobi!",
@@ -9217,7 +9218,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -9250,10 +9251,10 @@
     "vfDernierDate": "2026-11-05",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -9293,7 +9294,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "chi-une-vie-de-chat": {
@@ -9986,8 +9987,8 @@
     "notices": 0,
     "requete": "bib.title all \"choubi choubi mon chat tout petit\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-27",
    "mangaNews": {
     "tomes": 2,
@@ -10007,7 +10008,7 @@
     "vfDernierDate": "2016-03-09",
     "pays": "JP",
     "annee": 2014,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvVersion": 2,
    "couvFR": {
@@ -10054,8 +10055,8 @@
     ],
     "requete": "bib.title all \"chroniques de la mariee de bretagne\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -10082,7 +10083,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -10112,8 +10113,8 @@
     ],
     "requete": "bib.title all \"chronoctis express\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -10137,7 +10138,7 @@
     "vfDernierDate": "2022-10-07",
     "pays": "FR",
     "annee": 2014,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/Chronoctis-Express",
@@ -10316,7 +10317,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 5,
     "tomes": "1-5",
@@ -10353,8 +10354,8 @@
     ],
     "requete": "bib.title all \"classroom of the elite\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -10380,7 +10381,7 @@
     "vfDernierDate": "2026-02-27",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -10389,7 +10390,7 @@
    "mangaNews": null,
    "couvEssai": "2026-10-30",
    "couvEssaiMN": "",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "coco-l-ile-magique": {
@@ -10537,7 +10538,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Coffee-time-ki-oon_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "colere-nucleaire": {
@@ -10639,8 +10640,8 @@
     ],
     "requete": "bib.title all \"colocataires leur maniere\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -10665,7 +10666,7 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2014,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -10773,7 +10774,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.comte-monte-cristo-kurokawa_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "confrerie-des-lions-blancs": {
@@ -10838,7 +10839,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Contes_fabuleux_de_la_nuit_-_Rue_de_Sevres_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "cooking-karine": {
@@ -11330,14 +11331,14 @@
     ],
     "requete": "bib.title all \"crows\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 35651,
     "titre": "CROWS",
@@ -11378,7 +11379,7 @@
     "vfProchain": 9,
     "pays": "JP",
     "annee": 1990,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -11419,8 +11420,8 @@
     ],
     "requete": "bib.title all \"cuisine du tengu\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Lézard Noir (le)",
@@ -11441,7 +11442,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -11487,14 +11488,14 @@
     ],
     "requete": "bib.title all \"cursed princess club\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Hugo Publishing",
@@ -11507,7 +11508,7 @@
     "lu": false,
     "vfDernierDate": "2025-11-13",
     "couv": "https://www.manga-news.com/public/images/series/.Cursed_Princess_Club_-_Hugo_Publishing_medium.webp",
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -11535,7 +11536,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 29,
     "tomes": "1-29",
@@ -11569,8 +11570,8 @@
     ],
     "requete": "bib.title all \"gray man\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -11596,7 +11597,7 @@
     "vfDernierDate": "2026-07-01",
     "pays": "JP",
     "annee": 2004,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {
     "mangaNews": "index.php/serie/DGray-man",
@@ -11715,7 +11716,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 23,
     "tomes": "1-23",
@@ -11749,8 +11750,8 @@
     ],
     "requete": "bib.title all \"dandadan\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -11777,7 +11778,7 @@
     "vfProchain": 24,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -11883,9 +11884,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Dans_la_prison-lezard_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-11-09",
+   "couvEssai": "2026-11-16",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Dans_la_prison-lezard_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "dans-le-premier-train-du-matin": {
@@ -11990,8 +11991,8 @@
     ],
     "requete": "bib.title all \"dark souls redemption\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -12016,7 +12017,7 @@
     "vfDernierDate": "2026-06-04",
     "pays": "FR",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -12036,7 +12037,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.daru-chan-lezard_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "darwin-s-game": {
@@ -12151,7 +12152,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 10,
     "tomes": "1-10",
@@ -12185,8 +12186,8 @@
     ],
     "requete": "bib.title all \"darwin incident\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -12213,14 +12214,14 @@
     "vfProchain": 11,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
   "de-rouille-et-de-carats": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -12356,8 +12357,8 @@
     "notices": 0,
     "requete": "bib.title all \"death note black edition\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-11-02",
    "mangaNews": null,
    "couvVersion": 4,
@@ -12370,7 +12371,7 @@
     "voStatut": "Terminé",
     "pays": "JP",
     "annee": 2006,
-    "verifie": "2026-11-09",
+    "verifie": "2026-11-16",
     "lien": "https://www.manga-news.com/index.php/manga/Death-Note-Black-Edition/vol-1",
     "edition": true
    },
@@ -12385,9 +12386,9 @@
    }
   },
   "decheance-d-un-homme": {
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "couvVersion": 4,
-   "couvEssai": "2026-11-09",
+   "couvEssai": "2026-11-16",
    "mangaNews": {
     "tomes": 3,
     "editeur": "Delcourt / Tonkam",
@@ -12422,7 +12423,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 12,
     "tomes": "1-12",
@@ -12456,8 +12457,8 @@
     ],
     "requete": "bib.title all \"deep 3\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
@@ -12484,7 +12485,7 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "liensVus": {}
   },
@@ -12509,7 +12510,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 10,
     "tomes": "1-10",
@@ -12543,8 +12544,8 @@
     ],
     "requete": "bib.title all \"deep sea aquarium magmell\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-27",
    "mangaNews": {
     "tomes": 10,
@@ -12564,7 +12565,7 @@
     "vfDernierDate": "2026-03-20",
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvVersion": 2,
    "couvFR": {
@@ -12888,11 +12889,11 @@
   },
   "dernier-ecrivain": {
    "bnf": {
-    "dernier": 2,
-    "tomes": "1-2",
-    "dateDernier": "2026-08",
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-11",
     "editeur": "Glénat",
-    "notices": 2,
+    "notices": 3,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb48780944j",
     "isbn1": "9782344070390",
@@ -12906,18 +12907,23 @@
       "n": 2,
       "ark": "ark:/12148/cb488267869",
       "isbn": "9782344074855"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48864008x",
+      "isbn": "9782344077306"
      }
     ],
     "requete": "bib.title all \"dernier ecrivain\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Glénat",
@@ -12938,7 +12944,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -12959,7 +12965,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.desatreuse-aventure_des_jumeaux_Stevenson_delcourt_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "desert-9": {
@@ -13033,9 +13039,9 @@
     "notices": 0,
     "requete": "bib.title all \"destin de la princesse sirene\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilistVerifie": "2026-10-27",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -13079,8 +13085,8 @@
     ],
     "requete": "bib.title all \"detective conan\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 104,
     "editeur": "Kana",
@@ -13100,7 +13106,7 @@
     "vfDernierDate": "2026-09-04",
     "pays": "JP",
     "annee": 1994,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -13174,7 +13180,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.deux-ans-de-vacances-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "developpeurs": {
@@ -13206,14 +13212,14 @@
     ],
     "requete": "bib.title all \"developpeurs\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": null,
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -13234,7 +13240,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Devenir_enfin_moi-m_me_-_Glenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "diable-s-habille-en-papa": {
@@ -13256,14 +13262,14 @@
     ],
     "requete": "bib.title all \"diable habille en papa\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 2,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Mana Books",
@@ -13284,7 +13290,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -13448,7 +13454,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -13477,8 +13483,8 @@
     ],
     "requete": "bib.title all \"dog signal\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Soleil",
@@ -13498,7 +13504,7 @@
     "vfDernierDate": "2026-06-04",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -13737,7 +13743,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.dracula-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "dragon-ball-sd": {
@@ -13766,7 +13772,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 12,
     "tomes": "11-12",
@@ -13790,8 +13796,8 @@
     ],
     "requete": "bib.title all \"dragon ball sd\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 11,
     "editeur": "Glénat",
@@ -13811,7 +13817,7 @@
     "vfDernierDate": "2026-10-07",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -13849,7 +13855,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 24,
     "tomes": "1-24",
@@ -13883,8 +13889,8 @@
     ],
     "requete": "bib.title all \"dragon ball super\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 24,
     "editeur": "Glénat",
@@ -13904,7 +13910,7 @@
     "vfDernierDate": "2025-11-19",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14017,8 +14023,8 @@
     ],
     "requete": "bib.title all \"dreamaker\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 2,
     "editeur": "Ki-oon",
@@ -14035,7 +14041,7 @@
     "vfDernierDate": "2023-11-02",
     "pays": "FR",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14083,8 +14089,8 @@
     ],
     "requete": "bib.title all \"dreamland\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 24,
     "editeur": "Pika",
@@ -14104,7 +14110,7 @@
     "vfDernierDate": "2026-10-28",
     "pays": "FR",
     "annee": 2006,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14502,10 +14508,10 @@
     "vfDernierDate": "2023-07-20",
     "pays": "FR",
     "annee": 2010,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.ekeko-edition-salamao_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilistVerifie": "2026-10-27",
    "bnf": {
     "dernier": 3,
@@ -14530,7 +14536,7 @@
     ],
     "requete": "bib.title all \"ekeko\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {
     "mangaNews": "index.php/serie/Ekeko"
    },
@@ -14567,7 +14573,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 10,
     "tomes": "1-10",
@@ -14601,8 +14607,8 @@
     ],
     "requete": "bib.title all \"elden ring le chemin vers arbre monde\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 9,
     "editeur": "Mana Books",
@@ -14623,7 +14629,7 @@
     "vfProchain": 12,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14651,7 +14657,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.elegie-en-rouge-cornelius_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "elle": {
@@ -14670,7 +14676,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Elle-pika-graphic_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "en-pays-lointain": {
@@ -14689,7 +14695,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.En-pays-lointain_nobinobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "en-proie-au-silence": {
@@ -14761,22 +14767,17 @@
    "anilistVerifie": "2026-10-23",
    "bnf": {
     "dernier": 28,
-    "tomes": "1-4,27-28",
+    "tomes": "2-4,27-28",
     "dateDernier": "2026-09",
     "editeur": "Kurokawa",
-    "notices": 6,
+    "notices": 5,
     "autresEditeurs": [
      "Au loup éditions",
      "LamaO éditions"
     ],
-    "ark1": "ark:/12148/cb451472112",
-    "isbn1": "9782368523834",
+    "ark1": "ark:/12148/cb451712268",
+    "isbn1": "9782368523841",
     "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb451472112",
-      "isbn": "9782368523834"
-     },
      {
       "n": 2,
       "ark": "ark:/12148/cb451712268",
@@ -14791,12 +14792,17 @@
       "n": 4,
       "ark": "ark:/12148/cb45289711x",
       "isbn": "9782368523865"
+     },
+     {
+      "n": 27,
+      "ark": "ark:/12148/cb487035090",
+      "isbn": "9791042021405"
      }
     ],
     "requete": "bib.title all \"en scene\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 28,
     "editeur": "Kurokawa",
@@ -14808,17 +14814,15 @@
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/En-scene",
     "couv": "https://www.manga-news.com/public/images/series/.En-scene-T1-kurokawa_medium.webp",
-    "vf": 28,
+    "vf": 29,
     "vfStatut": "En cours",
     "vo": 30,
     "voStatut": "En cours",
-    "vfDernier": 28,
-    "vfDernierDate": "2026-07-02",
-    "vfProchainDate": "2026-11-12",
-    "vfProchain": 29,
+    "vfDernier": 29,
+    "vfDernierDate": "2026-11-12",
     "pays": "JP",
     "annee": 2014,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -14867,14 +14871,14 @@
     ],
     "requete": "bib.title all \"en selle sakamichi\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 53627,
     "titre": "Yowamushi Pedal",
@@ -14917,9 +14921,9 @@
     "vfProchain": 17,
     "pays": "JP",
     "annee": 2008,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "enemigo": {
@@ -14938,7 +14942,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.enemigo-casterman_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "enfant-des-abysses": {
@@ -14972,14 +14976,14 @@
     ],
     "requete": "bib.title all \"enfant des abysses\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
   },
@@ -15014,8 +15018,8 @@
     ],
     "requete": "bib.title all \"enfant du dragon fantome\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 6,
     "editeur": "Komikku Editions",
@@ -15035,7 +15039,7 @@
     "vfDernierDate": "2025-10-30",
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -15212,8 +15216,8 @@
     ],
     "requete": "bib.title all \"enfants de gorre\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Mahô Editions",
@@ -15231,7 +15235,7 @@
     "vfProchain": 4,
     "pays": "FR",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -15632,7 +15636,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.errances-emanon-Ki-oon_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "escale-a-yokohama": {
@@ -15760,7 +15764,7 @@
   "etrange-boutique-de-monsieur-nekomata": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -15839,7 +15843,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.etranger-de-la-plage-idp_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "eyeshield-21": {
@@ -16079,14 +16083,14 @@
     ],
     "requete": "bib.title all \"fall in love false angels\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 164263,
     "titre": "Fall in Love, You False Angels",
@@ -16129,9 +16133,9 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "fantastique-voyage-de-nicola-au-pays-des-demons": {
@@ -16221,8 +16225,8 @@
     ],
     "requete": "bib.title all \"fantome de opera\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
    "couvFR": {
@@ -16347,9 +16351,9 @@
     ],
     "requete": "bib.title all \"fiancee du clan kyougane\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-27",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Ki-oon",
@@ -16362,13 +16366,13 @@
     "couv": "https://www.manga-news.com/public/images/series/.La_Fianc_e_du_clan_Kyougane_T01_-_Ki-oon_medium.webp",
     "vf": 3,
     "vfStatut": "En cours",
-    "vo": 5,
+    "vo": 6,
     "voStatut": "En cours",
     "vfDernier": 3,
     "vfDernierDate": "2026-11-05",
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -16396,7 +16400,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.fillette-drapeau-blanc-akata_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "fin-du-monde-avec-mon-shiba-inu": {
@@ -16430,14 +16434,14 @@
     ],
     "requete": "bib.title all \"fin du monde avec mon shiba inu\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 2,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 105658,
     "titre": "Doomsday with My Dog",
@@ -16479,9 +16483,9 @@
     "vfDernierDate": "2026-03-20",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "fire-force": {
@@ -16574,7 +16578,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 14,
     "tomes": "1-14",
@@ -16608,8 +16612,8 @@
     ],
     "requete": "bib.title all \"flying witch\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 13,
     "editeur": "nobi nobi!",
@@ -16629,7 +16633,7 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -16888,7 +16892,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Fragments_d_histoires_troublantes_-_Kbooks_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "frieren": {
@@ -16915,7 +16919,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 15,
     "tomes": "1-15",
@@ -16949,8 +16953,8 @@
     ],
     "requete": "bib.title all \"frieren\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 15,
     "editeur": "Ki-oon",
@@ -16968,7 +16972,7 @@
     "vfDernierDate": "2026-06-04",
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -17200,7 +17204,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.furari-jiro-taniguchi-casterman_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "galaxias": {
@@ -17232,14 +17236,14 @@
     ],
     "requete": "bib.title all \"galaxias\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 179484,
     "titre": "GALAXIAS",
@@ -17284,9 +17288,9 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "gamaran": {
@@ -17496,9 +17500,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Le_Gar_on_et_le_Dragon_-_Doki_Doki_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-11-09",
+   "couvEssai": "2026-11-16",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Gar_on_et_le_Dragon_-_Doki_Doki_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "gardiens-du-louvre": {
@@ -17517,7 +17521,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/gardiens-du-louvre.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "gen-d-hiroshima": {
@@ -17615,7 +17619,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 13,
     "tomes": "1-13",
@@ -17649,8 +17653,8 @@
     ],
     "requete": "bib.title all \"geobreeders\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 13,
     "editeur": "Doki Doki",
@@ -17670,7 +17674,7 @@
     "vfDernierDate": "2009-08-19",
     "pays": "JP",
     "annee": 1995,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -17701,7 +17705,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.globule-une-vie-de-lapin-soleil_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "goal-masters": {
@@ -17742,8 +17746,8 @@
     ],
     "requete": "bib.title all \"goal masters\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 9,
     "editeur": "Milan",
@@ -17763,7 +17767,7 @@
     "vfDernierDate": "2008-11-06",
     "pays": "KR",
     "annee": 1999,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -17794,7 +17798,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.gogo_monster_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "goldfish": {
@@ -17870,9 +17874,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Goldorak-1-blackbox_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-11-09",
+   "couvEssai": "2026-11-16",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Goldorak-1-blackbox_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "goodnight-i-love-you": {
@@ -17934,7 +17938,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.gourmet-solitaire-sakka-casterman_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "gout-des-retrouvailles": {
@@ -18052,7 +18056,7 @@
   "grand-migrateur": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -18158,8 +18162,8 @@
     ],
     "requete": "bib.title all \"green mechanic\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 9,
     "editeur": "Ki-oon",
@@ -18178,7 +18182,7 @@
     "vfProchain": 10,
     "pays": "FR",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -18300,7 +18304,7 @@
    "liensVus": {}
   },
   "grossesse-de-m-hiyama": {
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "couvVersion": 2,
    "couvFR": {
     "source": "Manga-News",
@@ -18587,14 +18591,14 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"hachi maruru chats des rues\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 6,
     "editeur": "Doki Doki",
@@ -18614,7 +18618,7 @@
     "vfDernierDate": "2025-06-04",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -18681,8 +18685,8 @@
     "notices": 0,
     "requete": "bib.title all \"haikyu les as du volley smash edition\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -18696,8 +18700,8 @@
     "notices": 0,
     "requete": "bib.title all \"hajime teddy riner ascension une legende\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": null,
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
@@ -18725,8 +18729,8 @@
     ],
     "requete": "bib.title all \"hamster et boule de gomme\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 2,
     "editeur": "Doki Doki",
@@ -18746,7 +18750,7 @@
     "vfDernierDate": "2025-06-04",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -18792,14 +18796,14 @@
     ],
     "requete": "bib.title all \"harem de imperatrice\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 3,
     "editeur": "Pika",
@@ -18812,7 +18816,7 @@
     "lu": false,
     "vfDernierDate": "2026-08-26",
     "couv": "https://www.manga-news.com/public/images/series/.Le_harem_de_l_imp_ratrice_T01_-_Pika_medium.webp",
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -18851,14 +18855,14 @@
     ],
     "requete": "bib.title all \"heartstopper\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
   },
@@ -18883,10 +18887,10 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 2,
     "tomes": "1-2",
@@ -18916,7 +18920,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "heritiers-d-agione": {
@@ -19010,14 +19014,14 @@
     ],
     "requete": "bib.title all \"hero organization\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 180739,
     "titre": "Hero Organization",
@@ -19063,9 +19067,9 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "heterogenia-linguistico": {
@@ -19102,14 +19106,14 @@
     ],
     "requete": "bib.title all \"heterogenia linguistico\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 101551,
     "titre": "Heterogenia Linguistico",
@@ -19152,9 +19156,9 @@
     "vfDernierDate": "2026-08-19",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "hideout": {
@@ -19173,7 +19177,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Hideout-01-shogakukan_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "hikari-reve-de-star": {
@@ -19374,8 +19378,8 @@
     ],
     "requete": "bib.title all \"hip hop\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 3,
     "editeur": "Milan",
@@ -19395,7 +19399,7 @@
     "vfDernierDate": "2007-11-08",
     "pays": "KR",
     "annee": 1998,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -19415,8 +19419,8 @@
     "id": 132288,
     "titre": "Hirayasumi",
     "titreVO": "Hirayasumi",
-    "statut": "RELEASING",
-    "volumes": null,
+    "statut": "FINISHED",
+    "volumes": 11,
     "format": "MANGA",
     "pays": "JP",
     "demographie": "Seinen",
@@ -19434,7 +19438,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 9,
     "tomes": "1-3,9",
@@ -19470,8 +19474,8 @@
     ],
     "requete": "bib.title all \"hirayasumi\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 9,
     "editeur": "Lézard Noir (le)",
@@ -19490,7 +19494,7 @@
     "vfDernierDate": "2026-08-26",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -19606,8 +19610,8 @@
     ],
     "requete": "bib.title all \"histoire en manga\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 12,
     "editeur": "Bayard Jeunesse",
@@ -19627,7 +19631,7 @@
     "vfDernierDate": "2024-03-13",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -19661,10 +19665,10 @@
     "vfDernierDate": "2025-10-03",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -19689,7 +19693,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "homme-qui-marche": {
@@ -19708,7 +19712,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.homme_marche_2ed_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "horseland": {
@@ -19747,8 +19751,8 @@
     ],
     "requete": "bib.title all \"horseland\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
    "couvFR": {
@@ -19787,7 +19791,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 38,
     "tomes": "1-5,7,9-11,13-38",
@@ -19823,8 +19827,8 @@
     ],
     "requete": "bib.title all \"hunter hunter\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 38,
     "editeur": "Kana",
@@ -19846,7 +19850,7 @@
     "vfProchain": 39,
     "pays": "JP",
     "annee": 1998,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -19877,7 +19881,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.icare_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "ice-age-chronicle-of-the-earth": {
@@ -19980,14 +19984,14 @@
     ],
     "requete": "bib.title all \"ichi the witch\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 2,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 180752,
     "titre": "Ichi the Witch",
@@ -20033,9 +20037,9 @@
     "vfProchain": 6,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "ichiko-et-niko": {
@@ -20096,8 +20100,8 @@
     ],
     "requete": "bib.title all \"ichiko et niko\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 14,
     "editeur": "Kana",
@@ -20117,7 +20121,7 @@
     "vfDernierDate": "2021-05-28",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -20326,8 +20330,8 @@
     ],
     "requete": "bib.title all \"imago\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": null,
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -20355,7 +20359,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.In_summer_lezard_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "inazuma-eleven-go": {
@@ -20640,9 +20644,9 @@
     "requete": "bib.title all \"integral monster\" and (bib.doctype=\"a\")"
    },
    "liensVus": {},
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssaiMN": "",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "couvVersion": 4,
    "couvEssai": "2026-10-30"
   },
@@ -20669,7 +20673,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 36,
     "tomes": "1-36",
@@ -20703,8 +20707,8 @@
     ],
     "requete": "bib.title all \"iruma ecole des demons\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 34,
     "editeur": "nobi nobi!",
@@ -20726,7 +20730,7 @@
     "vfProchain": 37,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -20769,8 +20773,8 @@
     "notices": 0,
     "requete": "bib.title all \"isabella bird femme exploratrice\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 12,
     "editeur": "Ki-oon",
@@ -20790,7 +20794,7 @@
     "vfDernierDate": "2026-08-27",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -20821,7 +20825,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.jaco-galactic-patrol-man-glenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "jalouses": {
@@ -20969,7 +20973,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.jizo-glenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "jojo-s-bizarre-adventure-steel-ball-run": {
@@ -21154,8 +21158,8 @@
     ],
     "requete": "bib.title all \"journal de mobu\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Gallimard",
@@ -21173,7 +21177,7 @@
     "voStatut": "En cours",
     "vfDernier": 1,
     "vfDernierDate": "2025-04-02",
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -21462,7 +21466,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 10,
     "tomes": "1-10",
@@ -21496,8 +21500,8 @@
     ],
     "requete": "bib.title all \"kagurabachi\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 9,
     "editeur": "Kana",
@@ -21516,7 +21520,7 @@
     "vfDernierDate": "2026-11-06",
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -21839,9 +21843,9 @@
    "bnf": {
     "dernier": 12,
     "tomes": "1-12",
-    "dateDernier": "2026-09",
+    "dateDernier": "2026-11",
     "editeur": "Ki-oon",
-    "notices": 12,
+    "notices": 13,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb472818942",
     "isbn1": "9791032713440",
@@ -21869,14 +21873,14 @@
     ],
     "requete": "bib.title all \"kamisama school\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 3,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 137526,
     "titre": "The Failure at God School",
@@ -21920,9 +21924,9 @@
     "vfProchain": 13,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "kemono-incidents": {
@@ -21947,7 +21951,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 24,
     "tomes": "1-24",
@@ -21981,8 +21985,8 @@
     ],
     "requete": "bib.title all \"kemono incidents\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 24,
     "editeur": "Kurokawa",
@@ -22002,7 +22006,7 @@
     "vfDernierDate": "2026-06-11",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -22193,7 +22197,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 16,
     "tomes": "1-10,12-16",
@@ -22227,8 +22231,8 @@
     ],
     "requete": "bib.title all \"kindergarten wars\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 15,
     "editeur": "Ki-oon",
@@ -22249,7 +22253,7 @@
     "vfProchain": 17,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -22485,7 +22489,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.koko-glenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "koko-debut": {
@@ -22594,8 +22598,8 @@
     ],
     "requete": "bib.title all \"komi cherche ses mots\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 25,
     "editeur": "Pika",
@@ -22617,7 +22621,7 @@
     "vfProchain": 28,
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -22657,7 +22661,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 10,
     "tomes": "1-6,9-10",
@@ -22694,8 +22698,8 @@
     ],
     "requete": "bib.title all \"kuma kuma kuma bear\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 11,
     "editeur": "Meian",
@@ -22713,9 +22717,11 @@
     "voStatut": "En cours",
     "vfDernier": 11,
     "vfDernierDate": "2026-06-12",
+    "vfProchainDate": "2026-12-16",
+    "vfProchain": 1,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -23124,7 +23130,7 @@
   "legende-de-hakutaku": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -23268,7 +23274,7 @@
   "librairie-celeste": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -23293,10 +23299,10 @@
     "vfProchain": 2,
     "pays": "FR",
     "annee": 2026,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -23321,7 +23327,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "liselotte-et-la-foret-des-sorcieres": {
@@ -23360,8 +23366,8 @@
     ],
     "requete": "bib.title all \"liselotte et la foret des sorcieres\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 5,
     "editeur": "Delcourt",
@@ -23381,7 +23387,7 @@
     "vfDernierDate": "2015-07-01",
     "pays": "JP",
     "annee": 2011,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -23481,7 +23487,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.livre-de-la-jungle-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "loin-de-moi-pres-de-toi": {
@@ -23611,7 +23617,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.look-back-kaze_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "lost-lad-london": {
@@ -23943,8 +23949,8 @@
     "notices": 0,
     "requete": "bib.title all \"luca veterinaire draconique\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 5,
     "editeur": "Glénat",
@@ -23966,7 +23972,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -24276,9 +24282,9 @@
     "notices": 0,
     "requete": "bib.title all \"mafia dating sim\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": null,
    "anilistVerifie": "2026-10-27",
    "couvVersion": 4,
@@ -24316,8 +24322,8 @@
     ],
     "requete": "bib.title all \"magic maker\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 2,
     "editeur": "Komikku Editions",
@@ -24336,7 +24342,7 @@
     "vfDernierDate": "2023-05-25",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -24436,7 +24442,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 9,
     "tomes": "1-9",
@@ -24470,8 +24476,8 @@
     ],
     "requete": "bib.title all \"magus of the library\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 9,
     "editeur": "Ki-oon",
@@ -24491,7 +24497,7 @@
     "vfDernierDate": "2026-04-02",
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -24793,8 +24799,8 @@
     ],
     "requete": "bib.title all \"majo no michi\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvFR": {
@@ -24900,7 +24906,7 @@
     "score": 1.0,
     "auteurDifferent": true
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 2,
     "tomes": "1-2",
@@ -24924,8 +24930,8 @@
     ],
     "requete": "bib.title all \"man in the window\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 2,
     "editeur": "Ki-oon",
@@ -24945,7 +24951,7 @@
     "vfDernierDate": "2017-08-24",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -24993,8 +24999,8 @@
     "notices": 0,
     "requete": "bib.title all \"manga arsene lupin\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 10,
     "editeur": "Kurokawa",
@@ -25014,7 +25020,7 @@
     "vfDernierDate": "2023-04-13",
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -25227,7 +25233,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.marie-antoinette-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "mariee-du-roi-dragon": {
@@ -25264,9 +25270,9 @@
     ],
     "requete": "bib.title all \"mariee du roi dragon\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-27",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 5,
     "editeur": "Michel Lafon",
@@ -25283,7 +25289,7 @@
     "vfDernierDate": "2025-10-16",
     "pays": "KR",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -25403,7 +25409,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.martin-luther-king-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "mashle": {
@@ -25804,7 +25810,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mes-yeux-rives-sur-toi-akata_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "miaou-big-boss-le-magnifique": {
@@ -25947,7 +25953,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Mimosa__Momo_et_Moi_-_Rue_de_Sevres_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "minuscule": {
@@ -25972,7 +25978,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 13,
     "tomes": "1-13",
@@ -26008,8 +26014,8 @@
     ],
     "requete": "bib.title all \"minuscule\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 13,
     "editeur": "Komikku Editions",
@@ -26031,7 +26037,7 @@
     "vfProchain": 14,
     "pays": "JP",
     "annee": 2013,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -26083,8 +26089,8 @@
     ],
     "requete": "bib.title all \"miraculous\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": null,
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -26112,7 +26118,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mirages-emanon-ki-oon_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "miroirs": {
@@ -26131,7 +26137,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.miroirs-kaze_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "miserables": {
@@ -26144,9 +26150,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Les-Mise_rables-1-kurokawa_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-11-09",
+   "couvEssai": "2026-11-16",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Les-Mise_rables-1-kurokawa_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "miss-marvel": {
@@ -26186,9 +26192,9 @@
    "liensVus": {
     "bedetheque": "serie-3541-BD-Miss-Marvel.html"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssaiMN": "",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
    "couvFR": {
@@ -26231,14 +26237,14 @@
     ],
     "requete": "bib.title all \"mission in the apocalypse\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 145531,
     "titre": "The Color of the End: Mission in the Apocalypse",
@@ -26271,19 +26277,17 @@
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Mission-in-the-Apocalypse",
     "couv": "https://www.manga-news.com/public/images/series/.Mission_in_the_Apocalypse_T01_-_Delcourt_Tonkam_medium.webp",
-    "vf": 4,
+    "vf": 5,
     "vfStatut": "En cours",
     "vo": 5,
     "voStatut": "En cours",
-    "vfDernier": 4,
-    "vfDernierDate": "2025-09-10",
-    "vfProchainDate": "2026-11-12",
-    "vfProchain": 5,
+    "vfDernier": 5,
+    "vfDernierDate": "2026-11-12",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "mission-yozakura-family": {
@@ -26343,8 +26347,8 @@
     ],
     "requete": "bib.title all \"mission yozakura family\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 26,
     "editeur": "Kana",
@@ -26365,7 +26369,7 @@
     "vfProchain": 29,
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -26533,9 +26537,9 @@
     ],
     "requete": "bib.title all \"mofusand\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilistVerifie": "2026-10-30",
    "couvVersion": 4,
    "liensVus": {},
@@ -26750,8 +26754,8 @@
     ],
     "requete": "bib.title all \"mon amie des tenebres\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 20,
     "editeur": "nobi nobi!",
@@ -26765,7 +26769,7 @@
     "couv": "https://www.manga-news.com/public/images/series/.Mon_amie_des_tenebres_1_nobi_medium.webp",
     "vf": 20,
     "vfStatut": "En cours",
-    "vo": 24,
+    "vo": 25,
     "voStatut": "En cours",
     "vfDernier": 20,
     "vfDernierDate": "2026-06-03",
@@ -26773,7 +26777,7 @@
     "vfProchain": 21,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -26837,11 +26841,11 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.mon-voisin-totoro-anime-comics-glenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "monde-dans-leurs-yeux": {
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "couvVersion": 2,
    "couvFR": {
     "source": "Manga-News",
@@ -26875,7 +26879,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Monde_de_Suzuka_Morino_-_Vega_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "monsieur-mechant-va-detruire-la-terre-apres-ses-conges": {
@@ -26886,8 +26890,8 @@
     "notices": 0,
     "requete": "bib.title all \"monsieur mechant va detruire la terre apres ses conges\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 7,
     "editeur": "nobi nobi!",
@@ -26908,7 +26912,7 @@
     "vfProchain": 8,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -27144,14 +27148,14 @@
     ],
     "requete": "bib.title all \"monthly girls nozaki kun\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 59211,
     "titre": "Monthly Girls' Nozaki-kun",
@@ -27191,9 +27195,9 @@
     "vfDernierDate": "2026-02-25",
     "pays": "JP",
     "annee": 2011,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "moon-et-iro": {
@@ -27243,8 +27247,8 @@
     ],
     "requete": "bib.title all \"moon et iro\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Milan",
@@ -27264,7 +27268,7 @@
     "vfDernierDate": "2025-01-22",
     "pays": "KR",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -27310,14 +27314,14 @@
     ],
     "requete": "bib.title all \"morgana oz\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Albin Michel",
@@ -27330,7 +27334,7 @@
     "lu": false,
     "vfDernierDate": "2026-06-03",
     "couv": "https://www.manga-news.com/public/images/series/.Morgana___Oz_-_tome_1_-_Albin_Michel_medium.webp",
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -27508,7 +27512,7 @@
    }
   },
   "my-broken-mariko": {
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "couvVersion": 2,
    "couvFR": {
     "source": "Manga-News",
@@ -27613,7 +27617,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 5,
     "tomes": "1-5",
@@ -27649,8 +27653,8 @@
     ],
     "requete": "bib.title all \"my happy marriage\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 5,
     "editeur": "Kurokawa",
@@ -27669,7 +27673,7 @@
     "vfDernierDate": "2026-10-08",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -27850,8 +27854,8 @@
     "notices": 0,
     "requete": "bib.title all \"my love story with yamada kun at lvl999\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 10,
     "editeur": "Mana Books",
@@ -27870,7 +27874,7 @@
     "vfDernierDate": "2026-01-22",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -27908,7 +27912,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 21,
     "tomes": "1-13,15-21",
@@ -27942,8 +27946,8 @@
     ],
     "requete": "bib.title all \"nana\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 21,
     "editeur": "Delcourt",
@@ -27964,7 +27968,7 @@
     "vfProchain": 2,
     "pays": "JP",
     "annee": 1999,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -28304,14 +28308,14 @@
     ],
     "requete": "bib.title all \"nichijo\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 3,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": null,
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -28360,7 +28364,7 @@
    "liensVus": {}
   },
   "ningyo": {
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "couvVersion": 2,
    "couvFR": {
     "source": "Manga-News",
@@ -28461,7 +28465,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.NonNonB__-_Cornelius_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "noragami": {
@@ -28582,8 +28586,8 @@
     "requete": "bib.title all \"normaux\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
-   "bnfVerifie": "2026-11-09",
+   "verifie": "2026-11-16",
+   "bnfVerifie": "2026-11-16",
    "couvVersion": 4,
    "liensVus": {},
    "couvEssaiMN": "",
@@ -28663,14 +28667,14 @@
     ],
     "requete": "bib.title all \"nos coeurs de chats\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Doki Doki",
@@ -28692,7 +28696,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -28713,13 +28717,13 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nos-meilleures-vies-casterman_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "nos-rendez-vous-gourmands": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -28739,7 +28743,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nos-yeux-fermes-pika_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "nouilles-tchajang": {
@@ -28758,7 +28762,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nouillestchajang_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "nouvelles-extraordinaires-d-edgar-allan-poe": {
@@ -28777,7 +28781,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.nouvelle-edgar-alan-poe-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "nova": {
@@ -28849,9 +28853,9 @@
     ],
     "requete": "bib.title all \"nova et la foret des monstres\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-27",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Komikku Editions",
@@ -28872,7 +28876,7 @@
     "vfProchain": 2,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -28934,7 +28938,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.obara_Chroniques_des_Abysses_NH_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "ocean-rush": {
@@ -28995,8 +28999,8 @@
     ],
     "requete": "bib.title all \"ocean rush\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 7,
     "editeur": "Akata",
@@ -29017,7 +29021,7 @@
     "vfProchain": 8,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -29053,14 +29057,14 @@
     ],
     "requete": "bib.title all \"ochibi et ses amis\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 2,
     "editeur": "Rue de Sèvres",
@@ -29081,7 +29085,7 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2008,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -29248,14 +29252,14 @@
     ],
     "requete": "bib.title all \"omniscient reader viewpoint\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 119257,
     "titre": "Omniscient Reader",
@@ -29303,9 +29307,9 @@
     "vfProchain": 12,
     "pays": "KR",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "one-piece": {
@@ -29335,7 +29339,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 112,
     "tomes": "1-12,14-112",
@@ -29371,8 +29375,8 @@
     ],
     "requete": "bib.title all \"one piece\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 112,
     "editeur": "Glénat",
@@ -29394,7 +29398,7 @@
     "vfProchain": 114,
     "pays": "JP",
     "annee": 1997,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
@@ -29436,7 +29440,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 35,
     "tomes": "1-35",
@@ -29470,8 +29474,8 @@
     ],
     "requete": "bib.title all \"one punch man\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 34,
     "editeur": "Kurokawa",
@@ -29493,7 +29497,7 @@
     "vfProchain": 36,
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -29610,7 +29614,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.operation_mort_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "orange": {
@@ -29701,7 +29705,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.orme-du-caucase-1er-edition-casterman_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "oublies": {
@@ -29835,7 +29839,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.our-dining-table-taifu_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "our-summer-holiday": {
@@ -29854,7 +29858,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.our-summer-holiday-t1_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "oxalis-et-l-or": {
@@ -30052,7 +30056,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 9,
     "tomes": "1-9",
@@ -30086,8 +30090,8 @@
     ],
     "requete": "bib.title all \"palais des assassins\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 9,
     "editeur": "Ki-oon",
@@ -30108,7 +30112,7 @@
     "vfProchain": 10,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -30156,14 +30160,14 @@
     ],
     "requete": "bib.title all \"pan pan panda\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": null,
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -30229,7 +30233,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 11,
     "tomes": "1-11",
@@ -30263,8 +30267,8 @@
     ],
     "requete": "bib.title all \"paradis des chiens\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 11,
     "editeur": "Glénat",
@@ -30283,7 +30287,7 @@
     "vfDernierDate": "2020-06-17",
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -30378,7 +30382,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.parfum-des-hommes-atrabil_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "pays-des-cerisiers": {
@@ -30397,7 +30401,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.pays-des-cerisiers-edition-2023_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "peace-maker": {
@@ -30509,7 +30513,7 @@
   "pensees-noires": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -30691,7 +30695,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 4,
     "tomes": "1-4",
@@ -30725,8 +30729,8 @@
     ],
     "requete": "bib.title all \"petit requin\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Rue de Sèvres",
@@ -30745,7 +30749,7 @@
     "vfDernierDate": "2025-09-24",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -30858,7 +30862,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.les-petites-contemplations-urban-china_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "petits-en-cas-de-monsieur-matcha": {
@@ -30995,14 +30999,14 @@
     ],
     "requete": "bib.title all \"phantom busters\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 168984,
     "titre": "Phantom Busters",
@@ -31046,9 +31050,9 @@
     "vfDernierDate": "2026-10-01",
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "phenix-l-oiseau-de-feu-integrale": {
@@ -31338,7 +31342,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 22,
     "tomes": "22",
@@ -31357,8 +31361,8 @@
     ],
     "requete": "bib.title all \"plum un amour de chat\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 22,
     "editeur": "Soleil",
@@ -31380,7 +31384,7 @@
     "vfProchain": 23,
     "pays": "JP",
     "annee": 2008,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -31411,7 +31415,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Plus_Belle_Couleur_du_Monde_glenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "pluto": {
@@ -31522,14 +31526,14 @@
     ],
     "requete": "bib.title all \"pokemon ecarlate et violet\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
   },
@@ -31859,7 +31863,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.pommes-miracle-akata_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "pompon-compagnie": {
@@ -31878,7 +31882,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Pompon___compagnie_-_Renard_Dor__medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "pourquoi-je-galere-toujours-en-amour": {
@@ -31897,7 +31901,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Pourquoi-je-galere-toujours-en-amour-akata_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "power-gamer-adventure": {
@@ -32005,8 +32009,8 @@
     ],
     "requete": "bib.title all \"princesse detective\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 17,
     "editeur": "nobi nobi!",
@@ -32026,7 +32030,7 @@
     "vfDernierDate": "2025-03-19",
     "pays": "JP",
     "annee": 2010,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -32158,7 +32162,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 7,
     "tomes": "1-7",
@@ -32192,8 +32196,8 @@
     ],
     "requete": "bib.title all \"princesse vagabonde\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 7,
     "editeur": "Urban China",
@@ -32213,7 +32217,7 @@
     "vfDernierDate": "2017-01-13",
     "pays": "CN",
     "annee": 2011,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -32257,14 +32261,14 @@
     ],
     "requete": "bib.title all \"principal\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 65273,
     "titre": "Principal",
@@ -32308,7 +32312,7 @@
     "vfProchain": 4,
     "pays": "JP",
     "annee": 2010,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -32510,14 +32514,14 @@
     ],
     "requete": "bib.title all \"promenons nous dans espace\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 2,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 168727,
     "titre": "Spacewalking With You",
@@ -32560,9 +32564,9 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "prophecy": {
@@ -32807,8 +32811,8 @@
     ],
     "requete": "bib.title all \"quatre freres yuzuki\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 15,
     "editeur": "nobi nobi!",
@@ -32829,7 +32833,7 @@
     "vfProchain": 18,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -32940,8 +32944,8 @@
     "notices": 0,
     "requete": "bib.title all \"quitter la ville\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 1,
     "editeur": "Atrabile",
@@ -32959,7 +32963,7 @@
     "voStatut": "Terminé",
     "vfDernier": 1,
     "vfDernierDate": "2009-05-15",
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -33035,8 +33039,8 @@
     ],
     "requete": "bib.title all \"radiant\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 19,
     "editeur": "Ankama Editions",
@@ -33054,7 +33058,7 @@
     "vfDernierDate": "2026-10-30",
     "pays": "FR",
     "annee": 2013,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -33097,7 +33101,7 @@
     "score": 1.0,
     "auteurDifferent": true
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 19,
     "tomes": "1-19",
@@ -33131,8 +33135,8 @@
     ],
     "requete": "bib.title all \"ranking of kings\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 18,
     "editeur": "Ki-oon",
@@ -33153,7 +33157,7 @@
     "vfProchain": 20,
     "pays": "JP",
     "annee": 2017,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -33377,7 +33381,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reine-des-neige-II-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "renard-et-le-petit-tanuki": {
@@ -33463,7 +33467,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reset_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "retour-du-clan-hwasan": {
@@ -33500,9 +33504,9 @@
     ],
     "requete": "bib.title all \"retour du clan hwasan\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-27",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 132144,
     "titre": "Return of the Blossoming Blade",
@@ -33544,9 +33548,9 @@
     "vfDernierDate": "2025-11-06",
     "pays": "KR",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "couvVersion": 2,
    "couvFR": {
     "source": "Manga-News",
@@ -33572,7 +33576,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reverie-golo-zhao-casterman_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "reveries-d-emanon": {
@@ -33591,7 +33595,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.reveries-emanon-ki-oon_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "rhapsody-in-red": {
@@ -33623,14 +33627,14 @@
     ],
     "requete": "bib.title all \"rhapsody in red\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 176652,
     "titre": "Rhapsody in Red",
@@ -33673,7 +33677,7 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -33824,14 +33828,14 @@
     ],
     "requete": "bib.title all \"ron kamonohashi deranged detective\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 124895,
     "titre": "Ron Kamonohashi: Deranged Detective",
@@ -33873,7 +33877,7 @@
     "vfProchain": 19,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -33989,14 +33993,14 @@
     ],
     "requete": "bib.title all \"ruridragon\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 150440,
     "titre": "RuriDragon",
@@ -34040,9 +34044,9 @@
     "vfProchain": 6,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "s-class-heroine": {
@@ -34064,14 +34068,14 @@
     ],
     "requete": "bib.title all \"class heroine\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
   },
@@ -34128,7 +34132,7 @@
    "mangaNews": null,
    "couvEssai": "2026-10-30",
    "couvEssaiMN": "",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "sailor-moon": {
@@ -34370,7 +34374,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 23,
     "tomes": "1-16,18-23",
@@ -34404,8 +34408,8 @@
     ],
     "requete": "bib.title all \"sakamoto days\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 22,
     "editeur": "Glénat",
@@ -34426,7 +34430,7 @@
     "vfProchain": 24,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -34538,14 +34542,14 @@
     ],
     "requete": "bib.title all \"sanda\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 136680,
     "titre": "SANDA",
@@ -34588,7 +34592,7 @@
     "vfProchain": 11,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -34596,7 +34600,7 @@
   "sanji-s-food-wars": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -34616,7 +34620,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.sans-meme-nous-dire-au-revoir-kana_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "save-me-pythie": {
@@ -34823,7 +34827,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 2,
     "tomes": "1-2",
@@ -34847,8 +34851,8 @@
     ],
     "requete": "bib.title all \"sayonara miniskirt\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 2,
     "editeur": "Soleil",
@@ -34868,7 +34872,7 @@
     "vfDernierDate": "2021-01-13",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35200,7 +35204,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.seediq-bale-akata_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "seki-mon-voisin-de-classe": {
@@ -35226,7 +35230,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 10,
     "tomes": "1-10",
@@ -35260,8 +35264,8 @@
     ],
     "requete": "bib.title all \"seki mon voisin de classe\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 10,
     "editeur": "Akata",
@@ -35281,7 +35285,7 @@
     "vfDernierDate": "2017-12-07",
     "pays": "JP",
     "annee": 2010,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35364,7 +35368,7 @@
   "sentier-des-douaniers": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -35384,7 +35388,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.seraphim_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "servamp": {
@@ -35445,8 +35449,8 @@
     ],
     "requete": "bib.title all \"servamp\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 23,
     "editeur": "Doki Doki",
@@ -35466,7 +35470,7 @@
     "vfDernierDate": "2026-06-03",
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35520,10 +35524,10 @@
     "vfDernierDate": "2026-10-02",
     "pays": "JP",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 4,
     "tomes": "1-4",
@@ -35558,7 +35562,7 @@
     "requete": "bib.title all \"servant beasts\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-10-27",
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvVersion": 2,
    "couvFR": {
     "source": "Manga-News",
@@ -35595,13 +35599,13 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 8,
     "tomes": "1-8",
     "dateDernier": "2026-05",
     "editeur": "Kotoon",
-    "notices": 10,
+    "notices": 11,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb48795258q",
     "isbn1": "9782494102873",
@@ -35618,19 +35622,19 @@
      },
      {
       "n": 2,
-      "ark": "ark:/12148/cb47285986p",
-      "isbn": "9782494102064"
+      "ark": "ark:/12148/cb488645801",
+      "isbn": "9782494102880"
      },
      {
-      "n": 3,
-      "ark": "ark:/12148/cb47681176w",
-      "isbn": "9782494102071"
+      "n": 2,
+      "ark": "ark:/12148/cb47285986p",
+      "isbn": "9782494102064"
      }
     ],
     "requete": "bib.title all \"seule la mort attend la vilaine\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 8,
     "editeur": "Kotoon",
@@ -35649,7 +35653,7 @@
     "vfProchain": 10,
     "pays": "KR",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35775,10 +35779,10 @@
     "vfProchain": 21,
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 20,
     "tomes": "1-20",
@@ -35818,7 +35822,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "shangri-la-frontier": {
@@ -35847,7 +35851,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 21,
     "tomes": "1-21",
@@ -35881,8 +35885,8 @@
     ],
     "requete": "bib.title all \"shangri la frontier\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 20,
     "editeur": "Glénat",
@@ -35904,7 +35908,7 @@
     "vfProchain": 22,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -35942,7 +35946,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 4,
     "tomes": "1-4",
@@ -35976,8 +35980,8 @@
     ],
     "requete": "bib.title all \"she wasn guy\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 3,
     "editeur": "Mangetsu",
@@ -35996,7 +36000,7 @@
     "vfDernierDate": "2026-10-14",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -36123,10 +36127,10 @@
     "vfProchain": 5,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 4,
     "tomes": "1-4",
@@ -36166,7 +36170,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "shiita-et-la-foret-des-minuscules": {
@@ -36291,7 +36295,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 27,
     "tomes": "1-27",
@@ -36325,8 +36329,8 @@
     ],
     "requete": "bib.title all \"shirayuki aux cheveux rouges\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 27,
     "editeur": "Kana",
@@ -36346,7 +36350,7 @@
     "vfDernierDate": "2025-11-28",
     "pays": "JP",
     "annee": 2007,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -36421,8 +36425,8 @@
     ],
     "requete": "bib.title all \"show ha shoten\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 9,
     "editeur": "Kana",
@@ -36443,7 +36447,7 @@
     "vfProchain": 10,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -36591,7 +36595,7 @@
     "score": 1.0,
     "auteurDifferent": true
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 7,
     "tomes": "1-7",
@@ -36631,8 +36635,8 @@
     ],
     "requete": "bib.title all \"silence\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 7,
     "editeur": "Kana",
@@ -36651,7 +36655,7 @@
     "vfProchain": 8,
     "pays": "FR",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -36679,7 +36683,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Silent_Blue_-_Delcourt_-_Tonkam_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "silver-spoon": {
@@ -37275,8 +37279,8 @@
     ],
     "requete": "bib.title all \"somali et esprit de la foret\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 6,
     "editeur": "Komikku Editions",
@@ -37296,7 +37300,7 @@
     "vfDernierDate": "2020-06-25",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -37417,8 +37421,8 @@
     ],
     "requete": "bib.title all \"sorciere aux champignons\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 6,
     "editeur": "Glénat",
@@ -37438,7 +37442,7 @@
     "vfDernierDate": "2026-08-19",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -37714,7 +37718,7 @@
     "score": 0.97,
     "auteurDifferent": true
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 21,
     "tomes": "1-21",
@@ -37748,8 +37752,8 @@
     ],
     "requete": "bib.title all \"sounds of life\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 20,
     "editeur": "Akata",
@@ -37770,7 +37774,7 @@
     "vfProchain": 22,
     "pays": "JP",
     "annee": 2012,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -37798,7 +37802,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Sous-un-ciel-nouveau-ki-oon_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "souvenirs-d-emanon": {
@@ -37817,7 +37821,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.souvenirs-emanon-ki-oon_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "spider-man": {
@@ -37914,7 +37918,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.spirale_01-2_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "splatoon": {
@@ -38012,7 +38016,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 16,
     "tomes": "1-16",
@@ -38046,8 +38050,8 @@
     ],
     "requete": "bib.title all \"spy family\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 16,
     "editeur": "Kurokawa",
@@ -38059,16 +38063,15 @@
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Spy-X-Family",
     "couv": "https://www.manga-news.com/public/images/series/.Spy-Family-1-kurokawa_medium.webp",
-    "vf": 16,
+    "vf": 17,
     "vfStatut": "En cours",
     "vo": 18,
     "voStatut": "En cours",
-    "vfDernierDate": "2026-06-04",
-    "vfProchainDate": "2026-11-12",
-    "vfProchain": 17,
+    "vfDernier": 17,
+    "vfDernierDate": "2026-11-12",
     "pays": "JP",
     "annee": 2019,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -38099,7 +38102,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.stand-be-me-love-letter-akata_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "star-strike-it-rich": {
@@ -38368,14 +38371,14 @@
     ],
     "requete": "bib.title all \"stray dog\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 33303,
     "titre": "STRAY DOG",
@@ -38416,7 +38419,7 @@
     "vfProchain": 8,
     "pays": "FR",
     "annee": 2013,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -38545,9 +38548,9 @@
     ],
     "requete": "bib.title all \"sukima\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-27",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 162701,
     "titre": "Sukima",
@@ -38589,7 +38592,7 @@
     "vfProchain": 4,
     "pays": "TW",
     "annee": 2023,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "couvVersion": 2,
@@ -38686,8 +38689,8 @@
     "notices": 0,
     "requete": "bib.title all \"super mario manga adventures\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 36,
     "editeur": "Soleil",
@@ -38706,7 +38709,7 @@
     "vfDernierDate": "2026-11-05",
     "pays": "JP",
     "annee": 1991,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -38878,14 +38881,14 @@
     ],
     "requete": "bib.title all \"switch family\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 4,
     "editeur": "Ki-oon",
@@ -38902,7 +38905,7 @@
     "vfDernierDate": "2025-12-04",
     "pays": "JP",
     "annee": 2025,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -39124,8 +39127,8 @@
     "notices": 0,
     "requete": "bib.title all \"talli fille de la lune\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 3,
     "editeur": "Ankama Editions",
@@ -39142,7 +39145,7 @@
     "vfDernierDate": "2021-01-22",
     "pays": "FR",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39306,8 +39309,8 @@
     "notices": 0,
     "requete": "bib.title all \"tenor saxophone miyamoto dai blue giant\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "liensVus": {
@@ -39340,7 +39343,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 23,
     "tomes": "1-23",
@@ -39374,8 +39377,8 @@
     ],
     "requete": "bib.title all \"terra formars\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 23,
     "editeur": "Crunchyroll - Editions",
@@ -39395,7 +39398,7 @@
     "vfDernierDate": "2025-06-25",
     "pays": "JP",
     "annee": 2011,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39492,7 +39495,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le_Terrarium_dans_mon_tiroir_-_Casterman_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "terre-de-reves": {
@@ -39511,7 +39514,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.terre_reves_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "terror-man": {
@@ -39548,14 +39551,14 @@
     ],
     "requete": "bib.title all \"terror man\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 86785,
     "titre": "Terror Man",
@@ -39596,7 +39599,7 @@
     "vfDernierDate": "2026-06-17",
     "pays": "KR",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -39611,9 +39614,9 @@
     "couv": "https://www.manga-news.com/public/images/series/.Terukan-boys-1-doki_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-11-09",
+   "couvEssai": "2026-11-16",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Terukan-boys-1-doki_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "the-arms-peddler": {
@@ -39665,14 +39668,14 @@
     ],
     "requete": "bib.title all \"the beginning after the end\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 11,
     "editeur": "Kbooks",
@@ -39689,7 +39692,7 @@
     "vfDernierDate": "2026-10-08",
     "pays": "KR",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -39704,20 +39707,20 @@
     "couv": "https://www.manga-news.com/public/images/series/.The_Big_Wall_paulsen_medium.webp",
     "editeurDifferent": true
    },
-   "couvEssai": "2026-11-09",
+   "couvEssai": "2026-11-16",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.The_Big_Wall_paulsen_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "the-bugle-call": {
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 10,
-    "tomes": "1-10",
-    "dateDernier": "2026-07",
+    "dernier": 11,
+    "tomes": "1-11",
+    "dateDernier": "2026-11",
     "editeur": "Ki-oon",
-    "notices": 11,
+    "notices": 12,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47423489z",
     "isbn1": "9791032716694",
@@ -39745,8 +39748,8 @@
     ],
     "requete": "bib.title all \"the bugle call\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 10,
     "editeur": "Ki-oon",
@@ -39765,7 +39768,7 @@
     "vfDernierDate": "2026-10-01",
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39811,14 +39814,14 @@
     ],
     "requete": "bib.title all \"the druid of seoul station\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 135369,
     "titre": "The Druid of Seoul Station",
@@ -39861,7 +39864,7 @@
     "vfProchain": 12,
     "pays": "KR",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -39922,8 +39925,8 @@
     ],
     "requete": "bib.title all \"the elusive samurai\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 19,
     "editeur": "Kana",
@@ -39944,7 +39947,7 @@
     "vfProchain": 21,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -39980,14 +39983,14 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"the faraway paladin\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": null,
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
@@ -40356,14 +40359,14 @@
     ],
     "requete": "bib.title all \"the regalia of the underdog\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 2,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 180776,
     "titre": "The Regalia of the Underdog",
@@ -40407,9 +40410,9 @@
     "vfProchain": 3,
     "pays": "JP",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "liensVus": {}
   },
   "the-sound-of-my-soul": {
@@ -40503,11 +40506,11 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 7,
-    "tomes": "1-7",
-    "dateDernier": "2026-04",
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2026-11",
     "editeur": "Pika édition",
-    "notices": 7,
+    "notices": 8,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47355608m",
     "isbn1": "9782811678562",
@@ -40535,8 +40538,8 @@
     ],
     "requete": "bib.title all \"the summer hikaru died\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 7,
     "editeur": "Pika",
@@ -40557,7 +40560,7 @@
     "vfProchain": 9,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -40712,7 +40715,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 10,
     "tomes": "1-10",
@@ -40746,8 +40749,8 @@
     ],
     "requete": "bib.title all \"the witch and the beast\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 10,
     "editeur": "Pika",
@@ -40767,7 +40770,7 @@
     "vfDernierDate": "2023-05-03",
     "pays": "JP",
     "annee": 2016,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -40798,7 +40801,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.wize-wize-beasts-wisdoms-nagabe-komikku_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "thermae-romae": {
@@ -41060,8 +41063,8 @@
     ],
     "requete": "bib.title all \"today burger\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 10,
     "editeur": "Soleil",
@@ -41080,7 +41083,7 @@
     "vfDernierDate": "2026-08-27",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -41121,7 +41124,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 2,
     "tomes": "2",
@@ -41140,8 +41143,8 @@
     ],
     "requete": "bib.title all \"toilet bound hanako kun\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 24,
     "editeur": "Pika",
@@ -41161,7 +41164,7 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2015,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -41459,7 +41462,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.tomie_01_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "toriko": {
@@ -41585,7 +41588,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.tout-au-bout-du-quartier-mangetsu_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "trait-pour-trait-dessine-et-tais-toi": {
@@ -41687,8 +41690,8 @@
     ],
     "requete": "bib.title all \"tresors de tsukasa hojo\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
    "couvFR": {
@@ -41758,8 +41761,8 @@
     ],
     "requete": "bib.title all \"trillion game\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 10,
     "editeur": "Glénat",
@@ -41780,7 +41783,7 @@
     "vfProchain": 11,
     "pays": "JP",
     "annee": 2020,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -41808,7 +41811,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.trois-mousquetaires-classique-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "tsubasa": {
@@ -41871,14 +41874,14 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": null,
     "notices": 0,
     "requete": "bib.title all \"tsugai daemons of the shadow realm\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 10,
     "editeur": "Kurokawa",
@@ -41890,16 +41893,15 @@
    "mangaNewsFiche": {
     "url": "https://www.manga-news.com/index.php/serie/Tsugai-Daemons-of-the-Shadow-Realm",
     "couv": "https://www.manga-news.com/public/images/series/.Tsugai_Daemons_of_the_Shadow_Realm_1_kurokawa_medium.webp",
-    "vf": 10,
+    "vf": 11,
     "vfStatut": "En cours",
     "vo": 14,
     "voStatut": "En cours",
-    "vfDernierDate": "2026-10-08",
-    "vfProchainDate": "2026-11-12",
-    "vfProchain": 12,
+    "vfDernier": 12,
+    "vfDernierDate": "2026-11-12",
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -41946,8 +41948,8 @@
     "notices": 0,
     "requete": "bib.title all \"twisted wonderland la maison heartslabyul\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "liensVus": {},
@@ -41975,7 +41977,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 13,
     "tomes": "1-13",
@@ -42009,8 +42011,8 @@
     ],
     "requete": "bib.title all \"two aced tamon\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 12,
     "editeur": "Crunchyroll - Editions",
@@ -42031,7 +42033,7 @@
     "vfProchain": 14,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -42099,7 +42101,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.un-dernier-soir-a-pekiglenat_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "un-drole-de-pere": {
@@ -42188,7 +42190,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.ete-tsurumaki-ihmo_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "un-second-au-revoir": {
@@ -42254,7 +42256,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.zoo-en-hiver-ecritures-2009_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "undercurrent": {
@@ -42273,13 +42275,13 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/undercurrent.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "understella": {
    "couvVersion": 4,
    "couvEssai": "2026-10-30",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {},
    "couvEssaiMN": ""
   },
@@ -42690,8 +42692,8 @@
     "notices": 0,
     "requete": "bib.title all \"vacances de jesus et bouddha\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 21,
     "editeur": "Kurokawa",
@@ -42705,13 +42707,13 @@
     "couv": "https://www.manga-news.com/public/images/series/.Jesus-Bouddha-1-kurokawa_medium.webp",
     "vf": 21,
     "vfStatut": "En cours",
-    "vo": 22,
+    "vo": 23,
     "voStatut": "En cours",
     "vfDernier": 22,
     "vfDernierDate": "2026-08-20",
     "pays": "JP",
     "annee": 2008,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -42752,7 +42754,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 37,
     "tomes": "1-37",
@@ -42788,8 +42790,8 @@
     ],
     "requete": "bib.title all \"vagabond\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 37,
     "editeur": "Delcourt / Tonkam",
@@ -42809,7 +42811,7 @@
     "vfDernierDate": "2026-01-22",
     "pays": "JP",
     "annee": 1999,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -42909,7 +42911,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.van-goh-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "versus": {
@@ -42938,7 +42940,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 6,
     "tomes": "1-6",
@@ -42976,8 +42978,8 @@
     ],
     "requete": "bib.title all \"versus\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 6,
     "editeur": "Pika",
@@ -42998,7 +43000,7 @@
     "vfProchain": 7,
     "pays": "JP",
     "annee": 2022,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -43133,7 +43135,7 @@
     "auto": true,
     "score": 0.97
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 16,
     "tomes": "1-16",
@@ -43167,8 +43169,8 @@
     ],
     "requete": "bib.title all \"voie du tablier\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 16,
     "editeur": "Kana",
@@ -43188,7 +43190,7 @@
     "vfDernierDate": "2026-05-22",
     "pays": "JP",
     "annee": 2018,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -43276,7 +43278,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Voyage_d_ours-lune_renard_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "voyage-de-chihiro": {
@@ -43340,7 +43342,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.Le-Voyage_de_Shuna_sabacane_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "voyages-de-gulliver": {
@@ -43359,7 +43361,7 @@
    },
    "couvEssai": "2026-10-27",
    "couvEssaiMN": "https://www.manga-news.com/public/images/series/.voyage-gulliver-manga-classqiue-nobi_medium.webp",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "liensVus": {}
   },
   "wakfu-la-grande-vague": {
@@ -43370,8 +43372,8 @@
     "notices": 0,
     "requete": "bib.title all \"wakfu la grande vague\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 3,
     "editeur": "Ankama Editions",
@@ -43389,7 +43391,7 @@
     "vfDernierDate": "2026-04-03",
     "pays": "FR",
     "annee": 2024,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -43510,14 +43512,14 @@
     ],
     "requete": "bib.title all \"whale star\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "couvEssai": "2026-10-23",
    "couvFR": {
     "source": "BnF",
     "tome": 1,
     "maj": "2026-10-23"
    },
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "anilist": {
     "id": 111489,
     "titre": "Whale Star: The Gyeongseong Mermaid",
@@ -43559,7 +43561,7 @@
     "vfProchain": 3,
     "pays": "KR",
     "annee": 2019,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
    "liensVus": {}
@@ -43678,13 +43680,13 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
-    "dernier": 23,
-    "tomes": "1-23",
-    "dateDernier": "2026-09",
+    "dernier": 24,
+    "tomes": "1-24",
+    "dateDernier": "2026-11",
     "editeur": "Pika éditions",
-    "notices": 23,
+    "notices": 24,
     "autresEditeurs": [
      "Komogi"
     ],
@@ -43714,8 +43716,8 @@
     ],
     "requete": "bib.title all \"wind breaker\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 22,
     "editeur": "Pika",
@@ -43736,7 +43738,7 @@
     "vfProchain": 25,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
@@ -43753,8 +43755,8 @@
     "id": 128896,
     "titre": "WITCH WATCH",
     "titreVO": "Witch Watch",
-    "statut": "RELEASING",
-    "volumes": null,
+    "statut": "FINISHED",
+    "volumes": 30,
     "format": "MANGA",
     "pays": "JP",
     "demographie": "Shonen",
@@ -43786,18 +43788,18 @@
     "couv": "https://www.manga-news.com/public/images/series/.witch-watch-1-soleil_medium.webp",
     "vf": 14,
     "vfStatut": "En cours",
-    "vo": 28,
-    "voStatut": "En cours",
+    "vo": 30,
+    "voStatut": "Terminé",
     "vfDernier": 14,
     "vfDernierDate": "2026-08-27",
     "vfProchainDate": "2027-01-07",
     "vfProchain": 15,
     "pays": "JP",
     "annee": 2021,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
-   "anilistVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "bnf": {
     "dernier": 13,
     "tomes": "1-13",
@@ -43837,7 +43839,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "xxe-siecle-en-manga": {
@@ -43876,8 +43878,8 @@
     ],
     "requete": "bib.title all \"xxe siecle en manga\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
    "couvFR": {
@@ -44307,16 +44309,16 @@
     "vfDernierDate": "2026-10-21",
     "pays": "JP",
     "annee": 2009,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "anilistVerifie": "2026-10-23",
-   "verifie": "2026-11-09",
+   "verifie": "2026-11-16",
    "bnf": {
-    "dernier": 46,
-    "tomes": "1-46",
-    "dateDernier": "2026-04",
+    "dernier": 47,
+    "tomes": "1-47",
+    "dateDernier": "2026-11",
     "editeur": "Pika édition",
-    "notices": 48,
+    "notices": 49,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb48671762s",
     "isbn1": "9791043304392",
@@ -44350,7 +44352,7 @@
     "tome": 1,
     "maj": "2026-10-26"
    },
-   "bnfVerifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
    "liensVus": {}
   },
   "yoshi-s-new-island": {
@@ -44411,7 +44413,7 @@
     "auto": true,
     "score": 1.0
    },
-   "anilistVerifie": "2026-11-09",
+   "anilistVerifie": "2026-11-16",
    "bnf": {
     "dernier": 16,
     "tomes": "1-16",
@@ -44445,8 +44447,8 @@
     ],
     "requete": "bib.title all \"yotsuba\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-09",
-   "verifie": "2026-11-09",
+   "bnfVerifie": "2026-11-16",
+   "verifie": "2026-11-16",
    "mangaNews": {
     "tomes": 16,
     "editeur": "Kurokawa",
@@ -44466,7 +44468,7 @@
     "vfDernierDate": "2025-10-09",
     "pays": "JP",
     "annee": 2003,
-    "verifie": "2026-11-09"
+    "verifie": "2026-11-16"
    },
    "couvEssai": "2026-10-27",
    "couvVersion": 2,
