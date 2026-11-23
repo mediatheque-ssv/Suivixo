@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T12:08:01Z",
+ "maj": "2026-11-23T14:29:09Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -166,11 +166,11 @@
     "requete": "bib.title all \"ajax et sa bande\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -265,11 +265,11 @@
     "accordIsbn": true,
     "requete": "bib.title all \"alia chasseuse de fantomes\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -324,9 +324,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"alix\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 14,
@@ -359,9 +359,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"alix et huguette\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -382,9 +382,9 @@
     "accordIsbn": false,
     "ecartee": "Harlequin, 54 notices"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "isbn": "9782822247788",
@@ -465,9 +465,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"ana ana\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvIsbn": "9782205074109,9782205075687,9782205079227",
    "couvFR": {
     "source": "Decitre",
@@ -515,9 +515,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"ana entremonde\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -689,11 +689,11 @@
     "requete": "bib.title all \"apo et kalypse\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -729,11 +729,11 @@
     "accordIsbn": true,
     "requete": "bib.title all \"apres ecole\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -878,9 +878,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"armelle et mirko\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -900,9 +900,9 @@
     "requete": "bib.title all \"asterix le gaulois\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -950,9 +950,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"astrid bromure\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -1031,11 +1031,11 @@
     "accordIsbn": true,
     "requete": "bib.title all \"au chant des grenouilles\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -1664,9 +1664,9 @@
     "requete": "bib.title all \"bd cedric\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 10,
@@ -2086,11 +2086,11 @@
     "requete": "bib.title all \"bd titeuf\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -2108,11 +2108,11 @@
     "requete": "bib.title all \"bd yakari\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -2164,11 +2164,11 @@
     "requete": "bib.title all \"belfort et lupin\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -2294,7 +2294,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"billie bang bang\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -2305,7 +2305,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782808203654,9782808210102,9782808210140"
   },
@@ -2728,9 +2728,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"brume\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -2785,9 +2785,9 @@
     "requete": "bib.title all \"calvin and hobbes\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvIsbn": "9780751508314",
    "couvFR": {
     "source": "Decitre",
@@ -2871,9 +2871,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"camomille et les chevaux\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -3083,7 +3083,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"cath son chat\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -3094,7 +3094,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782818908426,9782818921524,9782818924587"
   },
@@ -3281,7 +3281,7 @@
     "requete": "bib.title all \"celestine\" and (bib.doctype=\"a\")",
     "titreBnf": "Célestine"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -3292,7 +3292,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782226494931"
   },
@@ -3543,9 +3543,9 @@
     "requete": "bib.title all \"choupisson\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvIsbn": "9782357961043,9782357961241",
    "couvFR": {
     "source": "Decitre",
@@ -3809,11 +3809,11 @@
     "accordIsbn": true,
     "requete": "bib.title all \"constance et les ombres\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -3899,11 +3899,11 @@
     "requete": "bib.title all \"crevette\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -4148,9 +4148,9 @@
     "accordIsbn": true,
     "requete": "bib.title all \"dina et le millimonde\" and (bib.doctype=\"a\")"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -4204,9 +4204,9 @@
     "requete": "bib.title all \"donjon antipodes\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "isbn": "9782413016854",
@@ -4272,11 +4272,11 @@
     "requete": "bib.title all \"dragon the\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -4454,11 +4454,11 @@
     "requete": "bib.title all \"eevi et les esprits du nord\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9791040807063,9791040807056",
    "couvFR": {

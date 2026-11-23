@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T12:34:26Z",
+ "maj": "2026-11-23T14:59:37Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -9,11 +9,11 @@
     "requete": "bib.title all \"100 bio\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782377422821,9782377420155,9782377420162",
    "couvFR": {
@@ -743,11 +743,11 @@
     "requete": "bib.title all \"agatha et moi\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -876,11 +876,11 @@
     "accordIsbn": false,
     "ecartee": "Yvang, 1 notices"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -928,7 +928,7 @@
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "bnf": {
     "dernier": null,
     "notices": 0,
@@ -936,7 +936,7 @@
     "accordIsbn": false,
     "ecartee": "ADA éditions, 3 notices"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -987,11 +987,11 @@
     "requete": "bib.title all \"alice lerisque super exploratrice\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -1161,11 +1161,11 @@
     "requete": "bib.title all \"amelie malefice\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -1541,11 +1541,11 @@
     "requete": "bib.title all \"astrogirls\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9791039543590,9791039548021",
    "couvFR": {
@@ -1670,7 +1670,7 @@
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -1678,7 +1678,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "bnf": {
     "dernier": null,
@@ -2266,11 +2266,11 @@
     "requete": "bib.title all \"aventures sur mesure\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782011810069",
    "couvFR": {
@@ -2317,7 +2317,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"avni\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -2328,7 +2328,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9791036373343"
   },
@@ -2613,11 +2613,11 @@
     "requete": "bib.title all \"barkus\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782374080543,9782374081243",
    "couvFR": {
@@ -2635,7 +2635,7 @@
     "accordIsbn": false,
     "ecartee": "Bayard poche, 1 notices"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -2645,7 +2645,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782747057820"
   },
@@ -2984,14 +2984,14 @@
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "bnfVerifie": "2026-11-16",
-   "verifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "bnf": {
     "dernier": 12,
     "tomes": "1-12",
     "dateDernier": "2026-10",
-    "editeur": "Groupe Fleurus",
+    "editeur": "Fleurus",
     "notices": 12,
     "autresEditeurs": [
      "le Livre de poche jeunesse"
@@ -3086,11 +3086,11 @@
     "requete": "bib.title all \"bienvenue perfect city\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782215166061",
    "couvFR": {
@@ -3261,11 +3261,11 @@
     "requete": "bib.title all \"biscotto\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -3282,11 +3282,11 @@
     "requete": "bib.title all \"bjorn\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -3373,7 +3373,7 @@
     "accordIsbn": false,
     "ecartee": "Dupuis, 55 notices"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -3384,7 +3384,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782740420829,9782740420836,9782740420829"
   },
@@ -3392,8 +3392,8 @@
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "bnfVerifie": "2026-11-16",
-   "verifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "bnf": {
     "dernier": 3,
@@ -3570,11 +3570,11 @@
     "requete": "bib.title all \"bruno\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -5873,11 +5873,11 @@
     "requete": "bib.title all \"clodomir mousqueton\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -5955,11 +5955,11 @@
     "accordIsbn": false,
     "requete": "bib.title all \"club cookies\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -6220,11 +6220,11 @@
     "requete": "bib.title all \"cluedo bibliotheque verte\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -6920,7 +6920,7 @@
     "dernier": 4,
     "tomes": "1-4",
     "dateDernier": "2025-09",
-    "editeur": "Pocket jeunesse-PKJ",
+    "editeur": "Pocket Jeunesse",
     "notices": 5,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb48673788z",
@@ -6950,7 +6950,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"crookhaven\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -6961,7 +6961,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782266328463,9782266328470,9782266328487"
   },
@@ -6972,11 +6972,11 @@
     "requete": "bib.title all \"apres serie animee le petit nicolas\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -6994,11 +6994,11 @@
     "requete": "bib.title all \"dagfrid\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782211317351,9782211307567,9782211302500",
    "couvFR": {
@@ -7153,11 +7153,11 @@
     "requete": "bib.title all \"dent dure et courtepatte\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782733833001",
    "couvFR": {
@@ -7397,11 +7397,11 @@
     "requete": "bib.title all \"deviens le heros\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -7418,11 +7418,11 @@
     "requete": "bib.title all \"dino\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782352412366",
    "couvFR": {
@@ -7515,11 +7515,11 @@
     "requete": "bib.title all \"draculivre\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -8370,11 +8370,11 @@
     "requete": "bib.title all \"edmond et ses amis\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782092567012,9782092576373",
    "couvFR": {
@@ -8489,7 +8489,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"elisabeth princesse versailles\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -8500,7 +8500,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782226315717,9782226315724,9782226328472"
   },
@@ -8576,7 +8576,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"emile et margot\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -8587,7 +8587,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9791036366000"
   },
@@ -8598,11 +8598,11 @@
     "requete": "bib.title all \"emile titan\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -8731,7 +8731,7 @@
     "accordIsbn": false,
     "requete": "bib.title all \"en avant foot\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-16",
+   "bnfVerifie": "2026-11-23",
    "couvEssai": "2026-10-30",
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -8741,7 +8741,7 @@
     "orphee": true,
     "maj": "2026-10-30"
    },
-   "verifie": "2026-11-16",
+   "verifie": "2026-11-23",
    "liensVus": {},
    "couvIsbn": "9782092538388"
   },
