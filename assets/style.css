@@ -690,7 +690,61 @@ ul.exemplaires li:last-child { border-bottom: 0; }
   :root[data-collection="romans"] body { background-position: -40px 0, 0 0, 0 0, 0 0; }
 }
 
+/* --- BD ado-adulte : roman graphique, encre et hachures, bleu pétrole et ocre, titres d'affiche --- */
+:root[data-collection="bdadulte"] {
+  --papier: #F4EEE2; --surface: #FFFDF8;
+  --encre: #16232B; --encre-2: #3F4E57; --encre-3: #67747B;
+  --filet: #E3DACA; --filet-fort: #16232B;
+  --trame: #8FA7AA; --trame-fond: #E6E0D2;
+  --prim: #0E6B73; --prim-f: #FBE2C1; --jaune: #E9A23B; --rouge: #C94F24; --hanko: #C23B22;
+  --nuit: #0E6B73; --survol: #FFF4E3; --focus: #0E6B73;
+  --s-completer: #B83A26; --s-completer-f: #FBE2DC;
+  --s-continuer: #0E6B73; --s-continuer-f: #DCEFEC;
+  --s-attente: #2E6E35;   --s-attente-f: #DFF0DD;
+  --s-finie: #16232B;     --s-finie-f: #E8E2D6;
+  --s-abandonnee: #67747B; --s-abandonnee-f: #EEE9DF;
+  --s-verifier: #8A5300;  --s-verifier-f: #FFEFC8;
+  --rayon: 4px; --couv-rayon: 2px; --couv-bord: 1.5px solid #16232B;
+  --ombre: 7px 7px 0 #16232B;
+  --ombre-panneau: 3px 3px 0 #16232B;
+  --ombre-couv: 3px 3px 0 #16232B;
+  --ombre-couv-survol: 5px 5px 0 #C94F24;
+  --fond-motif: repeating-linear-gradient(135deg, rgba(22, 35, 43, 0.05) 0 1px, transparent 1px 7px);
+  --police-titre: "Bebas Neue", var(--police); --titre-graisse: 400; --titre-ombre: 2px 2px 0 #E9A23B;
+  --tranche-ici: #0E6B73; --tranche-texte: #FFFFFF;
+  --entete-fond: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0 1px, transparent 1px 6px), linear-gradient(100deg, #10333C, #0E5560);
+  --entete-bord: 4px solid #E9A23B;
+  --entete-texte: #FFFFFF; --entete-texte-2: rgba(255, 255, 255, 0.86); --entete-actif: #E9A23B;
+  --compteur-fond: #E9A23B; --compteur-texte: #16232B;
+  --logo-ici: #E9A23B; --logo-manque: #FFFFFF; --logo-reseau: rgba(255, 255, 255, 0.75);
+}
+:root[data-collection="bdadulte"] h1 { font-size: 3.1rem; letter-spacing: 0.03em; line-height: 1; }
+:root[data-collection="bdadulte"] .marque { font-size: 1.95rem; letter-spacing: 0.06em; }
+:root[data-collection="bdadulte"] .fiche-tete h1 { font-size: 2.4rem; }
+@media (max-width: 760px) {
+  :root[data-collection="bdadulte"] h1 { font-size: 2.3rem; }
+}
+
 @media (prefers-color-scheme: dark) {
+  :root[data-collection="bdadulte"] {
+    --papier: #12191D; --surface: #1A2429;
+    --encre: #F1EBDF; --encre-2: #CBC4B6; --encre-3: #9AA3A6;
+    --filet: #2B373D; --filet-fort: #E3DACA;
+    --trame: #6F8C90; --trame-fond: #26333A;
+    --prim: #5FC1C8; --prim-f: #3A2E14; --survol: #22303A; --focus: #8ED6DB; --hanko: #FF7A5C;
+    --s-completer: #FF8A73; --s-completer-f: #3D1E19;
+    --s-continuer: #5FC1C8; --s-continuer-f: #15343A;
+    --s-attente: #7ED38A;   --s-attente-f: #15301B;
+    --s-finie: #F1EBDF;     --s-finie-f: #2B373D;
+    --s-abandonnee: #A7B0B3; --s-abandonnee-f: #252F35;
+    --s-verifier: #FFC94D;  --s-verifier-f: #3A2E10;
+    --ombre-panneau: 3px 3px 0 #000;
+    --couv-bord: 1.5px solid #E3DACA;
+    --ombre-couv: 3px 3px 0 #000;
+    --fond-motif: repeating-linear-gradient(135deg, rgba(241, 235, 223, 0.035) 0 1px, transparent 1px 7px);
+    --titre-ombre: 2px 2px 0 #8A5A16;
+    --tranche-ici: #5FC1C8; --tranche-texte: #12191D;
+  }
   :root[data-collection="bd"] {
     --papier: #150B24; --surface: #20123A;
     --encre: #F6F0FF; --encre-2: #D3C6EC; --encre-3: #A08DC4;

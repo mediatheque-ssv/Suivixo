@@ -145,14 +145,45 @@ function isbnNormalise(brut) {
 }
 
 /**
+ * Colonnes d'un export Orphée. Selon le format (.xls ou .xlsx) et l'édition, les colonnes bougent :
+ * titre « A = série, F = Tome : n, J = album, Q = auteur, Y = éditeur » dans un .xls, « I, P, V » dans
+ * un .xlsx ; exemplaire « C = cote, F = statut, H ou G = public ». On les repère d'après les colonnes
+ * remplies le plus souvent sur les lignes de titre et d'exemplaire.
+ */
+function profilColonnes(rows, bibs) {
+  const apresTome = new Map(), exemplaire = new Map();
+  let nT = 0, nE = 0;
+  for (const row of rows.slice(0, 4000)) {
+    if (!row) continue;
+    const t = row.map(texte);
+    const ti = t.findIndex((v) => /^\s*tome\s*:/i.test(v));
+    if (ti >= 0) {
+      nT++;
+      t.forEach((v, j) => { if (j > ti && v) apresTome.set(j, (apresTome.get(j) || 0) + 1); });
+    } else if (bibs.has(cleTitre(t[0] || ""))) {
+      nE++;
+      t.forEach((v, j) => { if (j > 0 && v && !/^cs\d\s*:/i.test(v) && !/nb\s*pr[eê]ts/i.test(v) && !/^\d{10,16}$/.test(v)) exemplaire.set(j, (exemplaire.get(j) || 0) + 1); });
+    }
+  }
+  const frequentes = (m, n, seuil) => [...m.entries()].filter(([, c]) => c >= seuil).sort((a, b) => b[1] - a[1]).slice(0, n).map(([j]) => j).sort((a, b) => a - b);
+  const titre = frequentes(apresTome, 3, Math.max(1, nT * 0.2));
+  const ex = frequentes(exemplaire, 3, Math.max(1, nE * 0.2));
+  return {
+    album: titre.length === 3 ? titre[0] : 9, auteur: titre.length === 3 ? titre[1] : 16, editeur: titre.length === 3 ? titre[2] : 24,
+    cote: ex.length === 3 ? ex[0] : 2, statut: ex.length === 3 ? ex[1] : 5, public: ex.length === 3 ? ex[2] : 7,
+  };
+}
+
+/**
  * Lit les lignes d'un export Orphée (tableau de tableaux, comme XLSX.utils.sheet_to_json(ws,{header:1})).
- * Structure : une ligne « titre » (A = série, F = « Tome : n », J = album, Q = auteur, Y = éditeur)
- * suivie d'une ou plusieurs lignes « exemplaire » (A = médiathèque, C = cote, F = statut,
- * H = public ou ISBN, W = « Nb prêts total : n », AA = code-barre).
- * L'ISBN est repéré où qu'il soit sur la ligne de l'exemplaire (clé de contrôle vérifiée).
+ * Structure : une ligne « titre » (série, « Tome : n », album, auteur, éditeur) suivie d'une ou plusieurs
+ * lignes « exemplaire » (médiathèque, cote, statut, public, « CS2 : genre », « Nb prêts total : n », code-barre).
+ * L'ISBN est repéré où qu'il soit sur la ligne de l'exemplaire (clé de contrôle vérifiée), ou sur la ligne
+ * qui la suit (les exports .xlsx le mettent seul sur sa ligne).
  */
 export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
   const bibs = new Map(bibliotheques.map((b) => [cleTitre(b), b]));
+  const col = profilColonnes(rows, bibs);
   const exemplaires = [];
   let titre = null;
   let lignesTitre = 0;
@@ -169,35 +200,45 @@ export function lireExportOrphee(rows, bibliotheques = BIBLIOTHEQUES) {
     const a = texte(row[0]);
     const bib = bibs.get(cleTitre(a));
     const celluleTome = row.findIndex((v) => /^\s*tome\s*:/i.test(texte(v)));
+    const remplies = row.map(texte).filter(Boolean);
     if (bib && titre) {
-      const cellPrets = row.map(texte).find((v) => /nb\s*pr[eê]ts/i.test(v)) || "";
+      const t = row.map(texte);
+      const cellPrets = t.find((v) => /nb\s*pr[eê]ts/i.test(v)) || "";
       const prets = +(cellPrets.match(/(\d+)/)?.[1] ?? 0);
-      // colonne H : le public, ou l'ISBN si l'édition a été modifiée pour l'afficher à sa place
-      const lu = isbnDe(row[7]) || row.map(isbnDe).find(Boolean) || null;
+      // colonne du public : le public, ou l'ISBN si l'édition a été modifiée pour l'afficher à sa place
+      const lu = isbnDe(row[col.public]) || row.map(isbnDe).find(Boolean) || null;
+      // code-barre : la dernière cellule remplie de la ligne (« 30327000149238 », « L-034993 », « 1114860 »)
+      const derniere = t.filter(Boolean).pop() || "";
+      const codes = derniere && !/nb\s*pr[eê]ts|^cs\d\s*:/i.test(derniere) && !isbnDe(derniere) && derniere !== t[col.public] && derniere !== t[col.statut] ? [derniere] : [];
       exemplaires.push({
         ...titre,
         bib,
-        cote: texte(row[2]),
-        statut: texte(row[5]),
-        public: isbnDe(row[7]) ? "" : texte(row[7]),
+        cote: t[col.cote] || "",
+        statut: t[col.statut] || "",
+        public: isbnDe(row[col.public]) ? "" : t[col.public] || "",
         ...(lu ? { isbn: lu.isbn, isbnBrut: lu.brut } : {}),
-        genre: texte(row[14]).replace(/^CS\d*\s*:\s*/i, "").replace(/^non renseign[ée]$/i, ""),
+        genre: (t.find((v) => /^cs2\s*:/i.test(v)) || "").replace(/^CS\d*\s*:\s*/i, "").replace(/^non renseign[ée]$/i, ""),
         prets,
-        codeBarre: texte(row[26]),
+        codeBarre: codes[codes.length - 1] || "",
       });
+    } else if (celluleTome < 0 && remplies.length && remplies.every((v) => /^[\dXx][\d -]{8,16}[\dXx]$/.test(v)) && remplies.some(isbnDe)) {
+      // ligne qui ne contient que l'ISBN de l'exemplaire précédent (exports .xlsx)
+      const dernier = exemplaires[exemplaires.length - 1];
+      const lu = remplies.map(isbnDe).find(Boolean);
+      if (dernier && titre && !dernier.isbn) Object.assign(dernier, { isbn: lu.isbn, isbnBrut: lu.brut });
     } else if (celluleTome >= 0) {
       // Ligne de titre. Les œuvres sans série dans Orphée (« Les trois mousquetaires », « Spirale »…)
       // n'ont rien en colonne A : leur titre est celui de l'album. Avant, ces lignes étaient sautées
       // et leurs exemplaires attribués au titre précédent (Zozo zombie, Your name…).
-      const album = texte(row[9]);
+      const album = texte(row[col.album]);
       if (!a && !album) { titre = null; continue; }
       lignesTitre++;
       titre = {
         titreBrut: a || album,
         tomeBrut: texte(row[celluleTome]),
         album,
-        auteur: texte(row[16]),
-        editeur: texte(row[24]),
+        auteur: texte(row[col.auteur]),
+        editeur: texte(row[col.editeur]),
         ...(a ? {} : { sansSerie: true }),
       };
     }

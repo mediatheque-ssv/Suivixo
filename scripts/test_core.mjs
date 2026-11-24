@@ -273,5 +273,26 @@ t("édition choisie à la main (Card Captor Sakura Deluxe)", () => {
   assert.equal(info.parus, 9); assert.equal(info.etat, "Terminée");
   assert.equal(C.statutSerie([1, 2, 3, 4, 5, 6, 7, 8, 9], info).cle, "finie");
 });
+t("export .xlsx (BD ado-adulte) : colonnes décalées, ISBN sur sa propre ligne", () => {
+  const titre = (tome, album) => { const r = Array(22).fill(null); r[0] = "Agito Cosmos"; r[5] = `Tome : ${tome}`; r[8] = album; r[15] = "Milhaud Olivier"; r[21] = "Glénat"; return r; };
+  const ex = (bib, cote, statut, code) => { const r = Array(23).fill(null); Object.assign(r, { 0: bib, 2: cote, 5: statut, 6: "Ado", 9: "CS1: BD", 12: "CS2: Science-fiction", 16: "CS3: Non renseigné", 18: "Nb prêts total : 13", 22: code }); return r; };
+  const isbn = (v) => { const r = Array(12).fill(null); r[11] = v; return r; };
+  const rows = [
+    titre(1, "Aquaviva"), [], ex("Servon-sur-Vilaine", "BDJ AGI 1", "Emprunté", "30327000237694"), isbn("978-2-7234-8412-1"),
+    ex("Noyal-sur-Vilaine", "BD AGI T1", "Disponible", "L-034993"), isbn("978-2-7234-8412-1"),
+    titre(2, "Pro humanitate"), ex("Servon-sur-Vilaine", "BDJ AGI 2", "Disponible", "1114860"), [], isbn("978-2-7234-9044-3"),
+  ];
+  const l = C.lireExportOrphee(rows).exemplaires;
+  assert.equal(l.length, 3);
+  assert.deepEqual(l.map((x) => [x.bib, x.album, x.auteur, x.editeur, x.cote, x.statut, x.public]), [
+    ["Servon-sur-Vilaine", "Aquaviva", "Milhaud Olivier", "Glénat", "BDJ AGI 1", "Emprunté", "Ado"],
+    ["Noyal-sur-Vilaine", "Aquaviva", "Milhaud Olivier", "Glénat", "BD AGI T1", "Disponible", "Ado"],
+    ["Servon-sur-Vilaine", "Pro humanitate", "Milhaud Olivier", "Glénat", "BDJ AGI 2", "Disponible", "Ado"],
+  ]);
+  assert.deepEqual(l.map((x) => x.isbn), ["9782723484121", "9782723484121", "9782723490443"]);
+  assert.deepEqual(l.map((x) => x.codeBarre), ["30327000237694", "L-034993", "1114860"]);
+  assert.deepEqual(l.map((x) => x.prets), [13, 13, 13]);
+  assert.equal(l[0].genre, "Science-fiction");
+});
 
 console.log(`${ok} tests réussis${process.exitCode ? ", des échecs ci-dessus" : ""}.`);

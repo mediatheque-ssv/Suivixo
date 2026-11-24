@@ -1,0 +1,8478 @@
+{
+ "version": 1,
+ "publie": "2026-11-24T15:44:32.551Z",
+ "series": [
+  {
+   "id": "accidentmajeur",
+   "titre": "#AccidentMajeur",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "j-accuse",
+   "titre": "#J'accuse... !",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "nouveaucontact",
+   "titre": "#nouveaucontact",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "1629-ou-l-effrayante-histoire-des-naufrages-du-jakarta",
+   "titre": "1629 ou l'effrayante histoire des naufragés du Jakarta",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "1984",
+   "titre": "1984",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "21-jours-avant-la-fin-du-monde",
+   "titre": "21 jours avant la fin du monde",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "22",
+   "titre": "22",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "273-amis",
+   "titre": "273 amis",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "40-elephants",
+   "titre": "40 éléphants",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "40-hommes-et-12-fusils",
+   "titre": "40 hommes et 12 fusils",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "47-cordes",
+   "titre": "47 cordes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "50-nuances-de-grecs",
+   "titre": "50 nuances de Grecs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "9-11",
+   "titre": "9/11",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "a-coucher-dehors",
+   "titre": "À coucher dehors",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "a-l-origine-des-contes",
+   "titre": "A l'origine des contes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "a-la-maison-des-femmes",
+   "titre": "A la Maison des femmes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "a-la-vie",
+   "titre": "A la vie !",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "a-mourir-entre-les-bras-de-ma-nourrice",
+   "titre": "A mourir entre les bras de ma nourrice",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "a-vicious-circle",
+   "titre": "A Vicious Circle",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "a-volonte",
+   "titre": "A volonté",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "aama",
+   "titre": "Aâma",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "abc-bazooka",
+   "titre": "ABC Bazooka",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "abelard-ou-les-errances-de-trois-voyageurs-solitaires",
+   "titre": "Abélard ou Les errances de trois voyageurs solitaires",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "absolute-batman",
+   "titre": "Absolute Batman",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "absolute-superman",
+   "titre": "Absolute Superman",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "adele-blanc-sec",
+   "titre": "Adèle Blanc-sec",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ados-a-deux",
+   "titre": "Ados à deux",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "agito-cosmos",
+   "titre": "Agito cosmos",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "agrippine",
+   "titre": "Agrippine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "airborne-44",
+   "titre": "Airborne 44",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "aire-libre",
+   "titre": "Aire Libre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "aldebaran-les-mondes-d-aldebaran-cycle-1",
+   "titre": "Aldebaran : Les mondes d'Aldebaran cycle 1",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "aldobrando",
+   "titre": "Aldobrando",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "algerie-une-guerre-francaise",
+   "titre": "Algérie, une guerre française",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "algues-vertes",
+   "titre": "Algues vertes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "alice-au-pays-des-merveilles",
+   "titre": "Alice au pays des merveilles",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "alice-guy",
+   "titre": "Alice Guy",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "alicia",
+   "titre": "Alicia",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "alim-le-tanneur",
+   "titre": "Alim le tanneur",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "alisik",
+   "titre": "Alisik",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "alt-life",
+   "titre": "Alt-life",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "alter-ego",
+   "titre": "Alter ego",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "alter-ego-saison-2",
+   "titre": "Alter ego : saison 2",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "alyson-ford",
+   "titre": "Alyson Ford",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "alyssa",
+   "titre": "Alyssa",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ama",
+   "titre": "Ama",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "amazigh",
+   "titre": "Amazigh",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "amazonie-kenya-saison-3",
+   "titre": "Amazonie : Kenya saison 3",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "amere-patrie",
+   "titre": "Amère patrie",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "amere-russie",
+   "titre": "Amère Russie",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "american-gods",
+   "titre": "American gods",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "american-parano",
+   "titre": "American parano",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "americana-ou-comment-j-ai-renonce-a-mon-reve-americain",
+   "titre": "Americana (ou Comment j'ai renoncé à mon rêve américain)",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "amerikkka",
+   "titre": "Amerikkka",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "amore",
+   "titre": "Amore",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "amorostasia",
+   "titre": "Amorostasia",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "amour-passion-cx-diesel",
+   "titre": "Amour, passion & CX diesel",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "amulet",
+   "titre": "Amulet",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "anais-nin",
+   "titre": "Anaïs Nin",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ananke",
+   "titre": "Ananké",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "andromeda",
+   "titre": "Andromeda",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "angel-wings",
+   "titre": "Angel wings",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "anjela",
+   "titre": "Anjela",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "antares-les-mondes-d-aldebaran-cycle-3",
+   "titre": "Antares : Les mondes d'Aldébaran cycle 3",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "appelez-moi-nathan",
+   "titre": "Appelez-moi Nathan",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "apprendre-a-tomber",
+   "titre": "Apprendre à tomber",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "apres-arthur",
+   "titre": "Après Arthur",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "aquarica",
+   "titre": "Aquarica",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "arcana",
+   "titre": "Arcana",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "aristophania",
+   "titre": "Aristophania",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "armen-43",
+   "titre": "Armen 43",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "arsenic",
+   "titre": "Arsenic",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "arthus-trivium",
+   "titre": "Arthus Trivium",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "asgard",
+   "titre": "Asgard",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ashrel",
+   "titre": "Ashrel",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "aslak",
+   "titre": "Aslak",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "asterix-le-gaulois",
+   "titre": "Astérix le gaulois",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "au-bonheur-des-dames",
+   "titre": "Au bonheur des dames",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "au-coeur-des-solitudes",
+   "titre": "Au coeur des solitudes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "au-nom-de-catherine",
+   "titre": "Au nom de Catherine",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "au-nom-du-fils",
+   "titre": "Au nom du fils",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "au-royaume-des-aveugles",
+   "titre": "Au royaume des aveugles",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "au-dela-des-etoiles",
+   "titre": "Au-delà des étoiles",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "auto-bio",
+   "titre": "Auto bio",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "autopsie-d-un-imposteur",
+   "titre": "Autopsie d'un imposteur",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "autre",
+   "titre": "Autre",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "avec-ou-sans-moustache",
+   "titre": "Avec ou sans moustache ?",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "axolot",
+   "titre": "Axolot",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "aya-de-yopougon",
+   "titre": "Aya de Yopougon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ayati",
+   "titre": "Ayati",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "azimut",
+   "titre": "Azimut",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bad-mum",
+   "titre": "Bad mum",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bagdad-inc",
+   "titre": "Bagdad Inc.",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ballade-pour-sophie",
+   "titre": "Ballade pour Sophie",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "banana-story",
+   "titre": "Banana story",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "barbe-bleue",
+   "titre": "Barbe bleue",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "barracuda",
+   "titre": "Barracuda",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bartleby-le-scribe",
+   "titre": "Bartleby, le scribe",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "basketful-of-heads",
+   "titre": "Basketful of heads",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "batman",
+   "titre": "Batman",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "batman-robin-annee-un",
+   "titre": "Batman & Robin Année Un",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "batman-vs-le-pingouin",
+   "titre": "Batman vs le Pingouin",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "batman-le-chevalier-noir-integrale",
+   "titre": "Batman, le chevalier noir : intégrale",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "battling-boy",
+   "titre": "Battling Boy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "baume-du-tigre",
+   "titre": "Baume du tigre",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bayou-bastardise",
+   "titre": "Bayou bastardise",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-agatha-christie",
+   "titre": "BD Agatha Christie",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-calpurnia",
+   "titre": "BD Calpurnia",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bd-detectives",
+   "titre": "BD Détectives",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-l-assassin-royal",
+   "titre": "BD L'Assassin royal",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-la-balade-de-yaya",
+   "titre": "BD La balade de Yaya",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-la-quete-d-ewilan",
+   "titre": "BD La Quête d'Ewilan",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bd-la-quete-d-ewilan-ellana",
+   "titre": "BD La quête d'Ewilan Ellana",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bd-le-journal-d-aurelie-laflamme",
+   "titre": "BD Le journal d'Aurélie Laflamme",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bd-le-rapport-de-brodeck",
+   "titre": "BD Le rapport de Brodeck",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-le-temple-du-passe",
+   "titre": "BD Le temple du passé",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-les-mondes-d-ewilan",
+   "titre": "BD Les mondes d'Ewilan",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bd-miss-peregrine-et-les-enfants-particuliers",
+   "titre": "BD Miss Peregrine et les enfants particuliers",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bd-neo",
+   "titre": "BD NEO",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bd-niourk",
+   "titre": "BD Niourk",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-northlanders",
+   "titre": "BD Northlanders",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-oms-en-serie",
+   "titre": "BD OmS en série",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bd-titeuf",
+   "titre": "BD Titeuf",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bd-travis",
+   "titre": "BD Travis",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bea-wolf",
+   "titre": "Bea Wolf",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "beate-et-serge-klarsfeld",
+   "titre": "Beate et Serge Klarsfeld",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "beatrice",
+   "titre": "Béatrice",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "beaute",
+   "titre": "Beauté",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "beaute-noire-le-groupe-prospero",
+   "titre": "Beauté noire & le groupe Prospero",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "beetle-les-hollowbones",
+   "titre": "Beetle & les Hollowbones",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "belem",
+   "titre": "Belem",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "beneath-the-trees-where-nobody-sees",
+   "titre": "Beneath the trees where nobody sees",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bertille-bertille",
+   "titre": "Bertille & Bertille",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "betelgeuse-les-mondes-d-aldebaran-cycle-2",
+   "titre": "Bételgeuse : les mondes d'Aldébaran, cycle 2",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "betty-boum",
+   "titre": "Betty Boum",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bienvenue",
+   "titre": "Bienvenue",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bienvenue-chez-les-loud",
+   "titre": "Bienvenue chez les Loud",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "big-bang-cats",
+   "titre": "Big Bang Cats",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "birdking",
+   "titre": "Birdking",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "black-lord",
+   "titre": "Black Lord",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "black-op",
+   "titre": "Black Op",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "black-widow",
+   "titre": "Black Widow",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "blacksad",
+   "titre": "Blacksad",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "blacksad-stories",
+   "titre": "Blacksad Stories",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "blake-et-mortimer",
+   "titre": "Blake et Mortimer",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "blanc-autour",
+   "titre": "Blanc autour",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "blankets",
+   "titre": "Blankets",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "blast",
+   "titre": "Blast",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bleak",
+   "titre": "Bleak",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bleu-a-la-lumiere-du-jour",
+   "titre": "Bleu à la lumière du jour",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bobigny-1972",
+   "titre": "Bobigny 1972",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bolchoi-arena",
+   "titre": "Bolchoi arena",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "borb",
+   "titre": "Borb",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bordeaux-shanghai",
+   "titre": "Bordeaux Shanghai",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bordeterre",
+   "titre": "Bordeterre",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "bouche-d-ombre",
+   "titre": "Bouche d'ombre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bouncer",
+   "titre": "Bouncer",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bourbon-street",
+   "titre": "Bourbon street",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "brigade-d-outre-tombe",
+   "titre": "Brigade d'outre-tombe",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "broadway",
+   "titre": "Broadway",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "broceliande-foret-du-petit-peuple",
+   "titre": "Brocéliande, forêt du petit peuple",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "brzrkr",
+   "titre": "BRZRKR",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bug",
+   "titre": "Bug",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "c-est-comme-ca-que-je-disparais",
+   "titre": "C'est comme ça que je disparais",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "cabot-caboche",
+   "titre": "Cabot-Caboche",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "cache-cache-mortel-a-brehat",
+   "titre": "Cache-cache mortel à Bréhat",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "calfboy",
+   "titre": "Calfboy",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "camel-joe",
+   "titre": "Camel Joe",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "captain-america",
+   "titre": "Captain America",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "carbone-silicium",
+   "titre": "Carbone & Silicium",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "carcajou",
+   "titre": "Carcajou",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "carnets-d-orient",
+   "titre": "Carnets d'Orient",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "carthago",
+   "titre": "Carthago",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cassandre",
+   "titre": "Cassandre",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "cassio",
+   "titre": "Cassio",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "castelmaure",
+   "titre": "Castelmaure",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "catwoman",
+   "titre": "Catwoman",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ce-n-est-pas-toi-que-j-attendais",
+   "titre": "Ce n'est pas toi que j'attendais",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ce-que-les-corbeaux-nous-laissent",
+   "titre": "Ce que les corbeaux nous laissent",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "celeste",
+   "titre": "Céleste",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "celle-que",
+   "titre": "Celle que...",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "cent-mille-ans",
+   "titre": "Cent mille ans",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "centaurus",
+   "titre": "Centaurus",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cervocomix",
+   "titre": "Cervocomix",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "cesure",
+   "titre": "Césure",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "cezembre",
+   "titre": "Cézembre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chambre-obscure",
+   "titre": "Chambre obscure",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chansons-de-telephone-en-bandes-dessinees",
+   "titre": "Chansons de Téléphone en bandes dessinées...",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "chaplin",
+   "titre": "Chaplin",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "charlotte-et-moi",
+   "titre": "Charlotte et moi",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "charlotte-imperatrice",
+   "titre": "Charlotte impératrice",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chateau-l-attente",
+   "titre": "Château l'attente",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chateaux-bordeaux",
+   "titre": "Châteaux Bordeaux",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chateaux-bordeaux-a-table",
+   "titre": "Châteaux Bordeaux à table !",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chemin-perdu",
+   "titre": "Chemin perdu",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "cher-corps",
+   "titre": "Cher corps",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "cherub",
+   "titre": "Cherub",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "chez-francisque",
+   "titre": "Chez Francisque",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chez-toi",
+   "titre": "Chez toi",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "chien-hurlant",
+   "titre": "Chien hurlant",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "choc",
+   "titre": "Choc",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chroniques-d-un-mangaka",
+   "titre": "Chroniques d'un mangaka",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "chroniques-de-jeunesse",
+   "titre": "Chroniques de jeunesse",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "chroniques-de-san-francisco",
+   "titre": "Chroniques de San Francisco",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chroniques-du-monde-emerge",
+   "titre": "Chroniques du Monde Emergé",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chronosquad",
+   "titre": "Chronosquad",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cicatrices",
+   "titre": "Cicatrices",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ciel-en-ruine",
+   "titre": "Ciel en ruine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cigarettes",
+   "titre": "Cigarettes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "cinq-avril",
+   "titre": "Cinq Avril",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "circuit-court",
+   "titre": "Circuit court",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "civil-war",
+   "titre": "Civil war",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "clemence-en-colere",
+   "titre": "Clémence en colère",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "clivages",
+   "titre": "Clivages",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "coeur-de-tenebres",
+   "titre": "Coeur de ténèbres",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "coeurs-en-sourdine",
+   "titre": "Coeurs en sourdine",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "cognac",
+   "titre": "Cognac",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "colossale",
+   "titre": "Colossale",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "comet-club",
+   "titre": "Comet club",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "comics-assassin-s-creed",
+   "titre": "Comics Assassin's creed",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "comme-on-peut",
+   "titre": "Comme on peut",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "comme-un-garcon",
+   "titre": "Comme un garçon",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "comment-je-ne-suis-pas-devenu-moine",
+   "titre": "Comment je ne suis pas devenu moine",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "commissaire-kouame",
+   "titre": "Commissaire Kouamé",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "communardes",
+   "titre": "Communardes !",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "complainte-des-landes-perdues",
+   "titre": "Complainte des Landes Perdues",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "connexions",
+   "titre": "Connexions",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "constellation",
+   "titre": "Constellation",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "contrapaso",
+   "titre": "Contrapaso",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "corto-maltese",
+   "titre": "Corto Maltese",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "corum",
+   "titre": "Corum",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cosmoknights",
+   "titre": "Cosmoknights",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "cosplay",
+   "titre": "Cosplay",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "couleurs-de-l-incendie",
+   "titre": "Couleurs de l'incendie",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "courtney-crumrin",
+   "titre": "Courtney Crumrin",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "coven",
+   "titre": "Coven",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "crayon-noir",
+   "titre": "Crayon noir",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "criminal",
+   "titre": "Criminal",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cristal-celeste",
+   "titre": "Cristal Céleste",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "croisade",
+   "titre": "Croisade",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "croquemitaines",
+   "titre": "Croquemitaines",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "crusaders",
+   "titre": "Crusaders",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "culottees",
+   "titre": "Culottées",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "curiosity-shop",
+   "titre": "Curiosity Shop",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cutshin-creek",
+   "titre": "Cutshin Creek",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "d-or-et-d-oreillers",
+   "titre": "D'Or et d'Oreillers",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "dad",
+   "titre": "Dad",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "daemon",
+   "titre": "Daemon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dali",
+   "titre": "Dali",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "damien-l-empreinte-du-vent",
+   "titre": "Damien. L'empreinte du vent",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dampierre",
+   "titre": "Dampierre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dans-la-gueule-du-loup",
+   "titre": "Dans la gueule du loup",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dans-la-tete-de-sherlock-holmes",
+   "titre": "Dans la tête de Sherlock Holmes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dans-les-forets-de-siberie",
+   "titre": "Dans les forêts de Sibérie",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dans-les-yeux-de-lya",
+   "titre": "Dans les yeux de Lya",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "dans-mon-open-space",
+   "titre": "Dans mon open space",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dans-mon-village-on-mangeait-des-chats",
+   "titre": "Dans mon village, on mangeait des chats",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dantes",
+   "titre": "Dantès",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "danthrakon",
+   "titre": "Danthrakon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dark-knights-of-steel",
+   "titre": "Dark Knights of Steel",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "darryl-ouvremonde",
+   "titre": "Darryl Ouvremonde",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "de-cape-et-de-crocs",
+   "titre": "De cape et de crocs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "de-ira",
+   "titre": "De ira",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dedales",
+   "titre": "Dédales",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "deep-it",
+   "titre": "Deep it",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "deep-vacation",
+   "titre": "Deep Vacation",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "deepwater-prison",
+   "titre": "DEEPWATER PRISON",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "demain",
+   "titre": "Demain",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "demain-est-un-autre-jour",
+   "titre": "Demain est un autre jour",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "demain-les-chats",
+   "titre": "Demain les chats",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "demain-de-l-autre-cote",
+   "titre": "Demain, de l'autre côté",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "derangee",
+   "titre": "Dérangée",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "derriere-le-rideau",
+   "titre": "Derrière le rideau",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "detectives",
+   "titre": "Détectives",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "detox",
+   "titre": "Détox",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "deux-ans-de-vacances",
+   "titre": "Deux ans de vacances",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "diabolo-menthe",
+   "titre": "Diabolo menthe",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "diana-d-un-monde-a-l-autre",
+   "titre": "Diana d'un monde à l'autre",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "dickens-dickens",
+   "titre": "Dickens & Dickens",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dieu-n-a-pas-reponse-a-tout",
+   "titre": "Dieu n'a pas réponse à tout",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "djinn",
+   "titre": "Djinn",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "donjon-antipodes",
+   "titre": "Donjon antipodes",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "donjon-monsters",
+   "titre": "Donjon monsters",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "donne-moi-des-ailes",
+   "titre": "Donne-moi des ailes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "doomsday-clock",
+   "titre": "Doomsday clock",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "down-under",
+   "titre": "Down under",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dracula",
+   "titre": "Dracula",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dragman",
+   "titre": "Dragman",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "easy-breezy",
+   "titre": "Easy Breezy",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "eclats",
+   "titre": "Eclats",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "eclepsis",
+   "titre": "Eclepsis",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ecolila",
+   "titre": "Ecolila",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ecuyere",
+   "titre": "Ecuyère",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "edika",
+   "titre": "Edika",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ekho-monde-miroir",
+   "titre": "Ekhö, monde miroir",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "electric-miles",
+   "titre": "Electric Miles",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "elinor-jones",
+   "titre": "Elinor Jones",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ellana",
+   "titre": "Ellana",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "elle-s-appelait-sarah",
+   "titre": "Elle s'appelait Sarah",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "elles",
+   "titre": "Elles",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "elliot-au-college",
+   "titre": "Elliot au collège",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "elric",
+   "titre": "Elric",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "emilie-voit-quelqu-un",
+   "titre": "Emilie voit quelqu'un",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "emkla",
+   "titre": "Emkla",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "emma-et-capucine",
+   "titre": "Emma et Capucine",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "empires",
+   "titre": "Empires",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "en-attendant-bojangles",
+   "titre": "En attendant Bojangles",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "en-scene",
+   "titre": "En scène",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "enferme-moi-si-tu-peux",
+   "titre": "Enferme-moi si tu peux",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "entre-les-lignes",
+   "titre": "Entre les lignes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "entrez-dans-la-danse",
+   "titre": "Entrez dans la danse",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "epiphania",
+   "titre": "Epiphania",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "equinox",
+   "titre": "Equinox",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ernestine",
+   "titre": "Ernestine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "espace-vital",
+   "titre": "Espace vital",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "esteban",
+   "titre": "Esteban",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "euy",
+   "titre": "Euy",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "evo-a-gamer-s-story",
+   "titre": "Evo, a gamer's story",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ex-machina",
+   "titre": "Ex machina",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "exo",
+   "titre": "Exo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "experience-mort",
+   "titre": "Expérience mort",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "extases",
+   "titre": "Extases",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "facteur-pour-femmes",
+   "titre": "Facteur pour femmes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "faits-divers",
+   "titre": "Faits divers",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "fake-news",
+   "titre": "Fake news",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "fausses-pistes",
+   "titre": "Fausses pistes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "faut-pas-prendre-les-cons-pour-des-gens",
+   "titre": "Faut pas prendre les cons pour des gens",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "fenetre-sur-cour-d-ecole",
+   "titre": "Fenêtre sur cour d'école",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "filles-uniques",
+   "titre": "Filles uniques",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "fils-de-ploucs",
+   "titre": "Fils de ploucs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "fleur-de-tonnerre",
+   "titre": "Fleur de tonnerre",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "flipette-venere",
+   "titre": "Flipette & Vénère",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "forcats",
+   "titre": "Forçats",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "formica",
+   "titre": "Formica",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "forte",
+   "titre": "Forté",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "fox-boy",
+   "titre": "Fox-Boy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "fraise-et-chocolat",
+   "titre": "Fraise et chocolat",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "francois-sans-nom",
+   "titre": "François sans nom",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "frankenstein",
+   "titre": "Frankenstein",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "freaks-squeele",
+   "titre": "Freaks' squeele",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "freres-de-terroirs",
+   "titre": "Frères de terroirs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "frizzy",
+   "titre": "Frizzy",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "frnck",
+   "titre": "Frnck",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "fukushima",
+   "titre": "Fukushima",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "gagner-la-guerre",
+   "titre": "Gagner la guerre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "garcons-manques",
+   "titre": "Garçons manqués",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "garulfo",
+   "titre": "Garulfo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "gaston-lagaffe",
+   "titre": "Gaston Lagaffe",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "gataca",
+   "titre": "Gataca",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "geante",
+   "titre": "Géante",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "geisha-ou-le-jeu-du-shamisen",
+   "titre": "Geisha ou le jeu du shamisen",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "gen-z-girl",
+   "titre": "Gen Z Girl",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "gentlemind",
+   "titre": "Gentlemind",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "george-best",
+   "titre": "George Best",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "george-sand",
+   "titre": "George Sand",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "geostrategix",
+   "titre": "Géostratégix",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "germaine-cellier",
+   "titre": "Germaine Cellier",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ghost-kid",
+   "titre": "Ghost kid",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "gianna",
+   "titre": "Gianna",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "giant",
+   "titre": "Giant",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "giant-days",
+   "titre": "Giant days",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "gibrat",
+   "titre": "Gibrat",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "girl-on-fire",
+   "titre": "Girl on fire",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "girlfriends",
+   "titre": "Girlfriends",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "gloomcookie",
+   "titre": "GloomCookie",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "glory-owl",
+   "titre": "Glory owl",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "gnomes-de-troy",
+   "titre": "Gnomes de Troy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "goblin-s",
+   "titre": "Goblin's",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "goldorak",
+   "titre": "Goldorak",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "gone-with-the-wind",
+   "titre": "Gone with the wind",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "goupil-ou-face",
+   "titre": "Goupil ou face",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "graines-de-charlie",
+   "titre": "Graines de Charlie",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "grand-silence",
+   "titre": "Grand silence",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "green-class",
+   "titre": "Green class",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guerilla-green",
+   "titre": "Guerilla green",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "gunfighter",
+   "titre": "Gunfighter",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "gung-ho",
+   "titre": "Gung Ho",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "gus",
+   "titre": "Gus",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "habemus-bastard",
+   "titre": "Habemus Bastard",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "happy-books",
+   "titre": "Happy books",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "happy-end",
+   "titre": "Happy end",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "harlem",
+   "titre": "Harlem",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "harley-quinn",
+   "titre": "Harley Quinn",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "harmony",
+   "titre": "Harmony",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "hauteville-house",
+   "titre": "Hauteville house",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "heartstopper",
+   "titre": "Heartstopper",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "helena",
+   "titre": "Héléna",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "hell-school",
+   "titre": "Hell School",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "hellboy",
+   "titre": "Hellboy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "heretique",
+   "titre": "Hérétique",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "hey-june",
+   "titre": "Hey June",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "histoire-s-de-femmes",
+   "titre": "Histoire(s) de femmes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "hiver-indien",
+   "titre": "Hiver indien",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "holly-ann",
+   "titre": "Holly Ann",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "hollywoodland",
+   "titre": "Hollywoodland",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "holmes-1854-1891",
+   "titre": "Holmes (1854-1891 ?)",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "homicide-une-annee-dans-les-rues-de-baltimore",
+   "titre": "Homicide, une année dans les rues de Baltimore",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "hope-one",
+   "titre": "Hope one",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "how-i-live-now",
+   "titre": "How I live now",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "hungry-ghost",
+   "titre": "Hungry ghost",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "i-kill-giants",
+   "titre": "I kill giants",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "idiss",
+   "titre": "Idiss",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "il-est-ou-le-patron",
+   "titre": "Il est où le patron ?",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "il-etait-une-fois-a-new-york",
+   "titre": "Il était une fois à New York",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "il-etait-une-fois-dans-l-est",
+   "titre": "Il était une fois dans l'Est",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "il-etait-une-fois-en-france",
+   "titre": "Il était une fois en France",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "il-etait-une-fois-l-amerique",
+   "titre": "Il était une fois l'Amérique",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "il-faut-flinguer-ramirez",
+   "titre": "Il faut flinguer Ramirez",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ilenter",
+   "titre": "Ilenter",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "imbattable",
+   "titre": "Imbattable",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "impostures",
+   "titre": "Impostures",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "in-waves",
+   "titre": "In waves",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "incroyable",
+   "titre": "Incroyable !",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "inexistences",
+   "titre": "Inexistences",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "inhumain",
+   "titre": "Inhumain",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "injustice-les-dieux-sont-parmi-nous",
+   "titre": "Injustice : Les Dieux sont parmi nous",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "intelligences-artificielles",
+   "titre": "Intelligences artificielles",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "irena",
+   "titre": "Irena",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "irons",
+   "titre": "Irons",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "irs",
+   "titre": "IRS",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "irs-all-watcher",
+   "titre": "IRS - All watcher",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "isaac-le-pirate",
+   "titre": "Isaac le pirate.",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "islander",
+   "titre": "Islander",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "issunboshi",
+   "titre": "Issunboshi",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "izunas-la-legende-des-nuees-ecarlates",
+   "titre": "Izunas : La légende des nuées écarlates",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "j-ai-tue-le-soleil",
+   "titre": "J'ai tué le soleil",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "j-peux-pas-j-ai-sabre-laser",
+   "titre": "J'peux pas, j'ai sabre laser",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "j-y-vais-mais-j-ai-peur",
+   "titre": "J'y vais mais j'ai peur",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "jack-palmer",
+   "titre": "Jack Palmer",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "jamais",
+   "titre": "Jamais",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "janardana",
+   "titre": "Janardana",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "jason-brice",
+   "titre": "Jason Brice",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "je-serai-la",
+   "titre": "Je serai là !",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "je-suis-ton-secret",
+   "titre": "Je suis ton secret",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "jean-corentin-carre-l-enfant-soldat",
+   "titre": "Jean-Corentin Carré, l'enfant soldat",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "jerome-k-jerome-bloche",
+   "titre": "Jérôme K. Jérôme Bloche",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "jim-hawkins",
+   "titre": "Jim Hawkins",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "joe-bar-team",
+   "titre": "Joe Bar team",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "joe-la-pirate",
+   "titre": "Joe la pirate",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "joker",
+   "titre": "Joker",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "josephine",
+   "titre": "Joséphine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "jour-j",
+   "titre": "Jour J",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "journal-d-anne-frank",
+   "titre": "Journal d'Anne Frank",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "journal-d-un-enfant-de-lune",
+   "titre": "Journal d'un enfant de Lune",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "journal-inquiet-d-istanbul",
+   "titre": "Journal inquiet d'Istanbul",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "jours-de-sable",
+   "titre": "Jours de sable",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "judee-sill",
+   "titre": "Judee Sill",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "julia-la-seule",
+   "titre": "Julia la seule",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "jumelle",
+   "titre": "Jumelle",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "jusqu-au-dernier",
+   "titre": "Jusqu'au dernier",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "jusqu-ici-tout-va-bien",
+   "titre": "Jusqu'ici tout va bien",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "kaboul-disco",
+   "titre": "Kaboul disco",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "kamarades",
+   "titre": "Kamarades",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "kariba",
+   "titre": "Kariba",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "karmen",
+   "titre": "Karmen",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "katanga",
+   "titre": "Katanga",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "kaya",
+   "titre": "Kaya",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ken-games",
+   "titre": "Ken games",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "kent-state",
+   "titre": "Kent State",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "kenya",
+   "titre": "Kenya",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "kersten-medecin-d-himmler",
+   "titre": "Kersten médecin d'Himmler",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "kessel",
+   "titre": "Kessel",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "kid-paddle",
+   "titre": "Kid Paddle",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "kililana-song",
+   "titre": "Kililana song",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "kill-annie-wong",
+   "titre": "Kill Annie Wong",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "klaw",
+   "titre": "Klaw",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "knight-club",
+   "titre": "Knight Club",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "kosmos",
+   "titre": "Kosmos",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "kraa",
+   "titre": "Kraa",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "krakaendraggon",
+   "titre": "Kräkaendraggon",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "kroma",
+   "titre": "Kroma",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "accident-de-chasse",
+   "titre": "L' accident de chasse",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "aeropostale",
+   "titre": "L' AEROPOSTALE",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "annee-ou-je-suis-devenue-ado",
+   "titre": "L' année où je suis devenue ado",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "echelle-de-richter",
+   "titre": "L' échelle de Richter",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "enfer-est-vide-tous-les-demons-sont-ici",
+   "titre": "L' enfer est vide, tous les démons sont ici",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "espace-d-un-instant",
+   "titre": "L' espace d'un instant",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "ete-a-kingdom-fields",
+   "titre": "L' été à Kingdom Fields",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "homme-bouc",
+   "titre": "L' homme bouc",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "homme-semence",
+   "titre": "L' homme semence",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "origine-du-monde",
+   "titre": "L' origine du monde",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "adoption",
+   "titre": "L'adoption",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "age-d-or",
+   "titre": "L'âge d'or",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "alchimiste",
+   "titre": "L'alchimiste",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "amant",
+   "titre": "L'amant",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ambulance-13",
+   "titre": "L'ambulance 13",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "amour-en-equation",
+   "titre": "L'amour en équation",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "appel-des-origines",
+   "titre": "L'appel des origines",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "arabe-du-futur",
+   "titre": "L'Arabe du futur",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "effet-boule-de-neige",
+   "titre": "L'effet boule de neige",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "elixir-de-dieu",
+   "titre": "L'élixir de Dieu",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "enfant-de-l-orage",
+   "titre": "L'enfant de l'orage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "enfantome",
+   "titre": "L'enfantôme",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "envolee-sauvage",
+   "titre": "L'Envolée sauvage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "epouvanteur",
+   "titre": "L'Epouvanteur",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ete-63",
+   "titre": "L'été 63",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ete-fantome",
+   "titre": "L'été fantôme",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "homme-le-plus-flippe-du-monde",
+   "titre": "L'homme le plus flippé du monde",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "homme-qui-n-aimait-pas-les-armes-a-feu",
+   "titre": "L'Homme qui n'aimait pas les armes à feu",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "homme-qui-pouvait-accomplir-des-miracles",
+   "titre": "L'homme qui pouvait accomplir des miracles",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "homme-qui-tua-chris-kyle",
+   "titre": "L'homme qui tua Chris Kyle",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ile-au-poulailler",
+   "titre": "L'île au poulailler",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ile-de-puki",
+   "titre": "L'île de Puki",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ile-vierge",
+   "titre": "L'île Vierge",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "illusion-magnifique",
+   "titre": "L'illusion magnifique",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "immeuble-d-en-face",
+   "titre": "L'immeuble d'en face",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "institutrice",
+   "titre": "L'institutrice",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "oasis",
+   "titre": "L'oasis",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "odyssee-d-hakim",
+   "titre": "L'odyssée d'Hakim",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "oeil-du-marabout",
+   "titre": "L'oeil du marabout",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "oiseau-rare",
+   "titre": "L'oiseau rare",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ombre-des-lumieres-lettres-du-chevalier-de-saint-sauveur",
+   "titre": "L'ombre des Lumières : lettres du chevalier de Saint-Sauveur",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "or-des-marees",
+   "titre": "L'or des marées",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "or-du-temps",
+   "titre": "L'or du temps",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "or-et-le-sang",
+   "titre": "L'or et le sang",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ordre-de-ciceron",
+   "titre": "L'Ordre de Cicéron",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "balade-de-yaya",
+   "titre": "La Balade de Yaya",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "baleine-bibliotheque",
+   "titre": "La baleine bibliothèque",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ballade-de-dusty",
+   "titre": "La ballade de Dusty",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ballade-du-soldat-odawaa",
+   "titre": "La ballade du soldat Odawaa",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "banque",
+   "titre": "La Banque",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "baronne-du-jazz",
+   "titre": "La baronne du jazz",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bataille",
+   "titre": "La Bataille",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bete",
+   "titre": "La bête",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bibliothecaire-d-auschwitz",
+   "titre": "La bibliothécaire d'Auschwitz",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "boite-de-petits-pois",
+   "titre": "La boîte de petits pois",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bombe",
+   "titre": "La bombe",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "boucle-d-oreille-rose",
+   "titre": "La boucle d'oreille rose",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "brigade-des-cauchemars",
+   "titre": "La brigade des cauchemars",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "brigade-des-souvenirs",
+   "titre": "La brigade des souvenirs",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "cagoule-un-fascisme-a-la-francaise",
+   "titre": "La cagoule : un fascisme à la française",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cathedrale-des-abymes",
+   "titre": "La Cathédrale des Abymes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chronique-des-immortels",
+   "titre": "La chronique des immortels",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cite-de-l-arche",
+   "titre": "La Cité de l'arche",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cite-des-dames",
+   "titre": "La Cité des Dames",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cite-des-illusions",
+   "titre": "La cité des illusions",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "cite-des-secrets",
+   "titre": "La cité des secrets",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "cite-sans-nom",
+   "titre": "La Cité sans nom",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "compagnie-rouge",
+   "titre": "La compagnie rouge",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "confrerie-des-tempetes",
+   "titre": "La Confrérie des Tempêtes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cour-des-miracles",
+   "titre": "La cour des Miracles",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "course-contre-l-amour-de-valentina-tran",
+   "titre": "La course contre l'amour de Valentina Tran",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "cuisine-des-ogres",
+   "titre": "La cuisine des Ogres",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "curee",
+   "titre": "La curée",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dame-blanche",
+   "titre": "La dame blanche",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "deconfiture",
+   "titre": "La Déconfiture",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "derniere-croizad",
+   "titre": "La dernière CroiZAD",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "derniere-ombre",
+   "titre": "La dernière ombre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "derniere-rose-de-l-ete",
+   "titre": "La dernière rose de l'été",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "desobeissance-du-radis",
+   "titre": "La désobéissance du radis",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "desolation",
+   "titre": "La désolation",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "douceur-de-l-enfer",
+   "titre": "La douceur de l'enfer",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "falaise",
+   "titre": "La falaise",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "faune-symbolique",
+   "titre": "La faune symbolique",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ferme-des-animaux",
+   "titre": "La ferme des animaux",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "ferme-petit-pois",
+   "titre": "La ferme Petit pois",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "fete-des-ombres",
+   "titre": "La fête des ombres",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "fete-du-strip",
+   "titre": "La fête du strip",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "fille-de-l-exposition-universelle",
+   "titre": "La fille de l'Exposition universelle",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "fille-de-la-mer",
+   "titre": "La fille de la mer",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "fille-de-ses-reves",
+   "titre": "La fille de ses rêves",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "fille-du-quai",
+   "titre": "La fille du quai",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "fille-maudite-du-capitaine-pirate",
+   "titre": "La fille maudite du capitaine pirate",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "fin-de-juillet",
+   "titre": "La fin de juillet",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "fleur-des-absents",
+   "titre": "La fleur des absents",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "folle-histoire-de-la-mondialisation",
+   "titre": "La folle histoire de la mondialisation",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "foret",
+   "titre": "La forêt",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "forteresse-volante",
+   "titre": "La forteresse volante",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "fuite-du-cerveau",
+   "titre": "La fuite du cerveau",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "grande-odalisque",
+   "titre": "La Grande Odalisque",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "grippe-coloniale",
+   "titre": "La Grippe coloniale",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guerre-d-alan",
+   "titre": "La Guerre d'Alan",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guerre-de-catherine",
+   "titre": "La guerre de Catherine",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "guerre-des-amants",
+   "titre": "La guerre des amants",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guerre-des-lulus",
+   "titre": "La guerre des Lulus",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "guerre-des-sambre",
+   "titre": "La guerre des Sambre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guerre-des-sambre-hugo-iris",
+   "titre": "La Guerre des Sambre : Hugo & Iris",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guerre-secrete-de-l-espace",
+   "titre": "La guerre secrète de l'espace",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "horde-du-contrevent",
+   "titre": "La horde du contrevent",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "jeune-femme-et-la-mer",
+   "titre": "La jeune femme et la mer",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "jungle",
+   "titre": "La Jungle",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "librairie-de-tous-les-possibles",
+   "titre": "La librairie de tous les possibles",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "licorne",
+   "titre": "La Licorne",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "loi-des-probabilites",
+   "titre": "La loi des probabilités",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "malediction-du-petrole",
+   "titre": "La malédiction du pétrole",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "marche-brume",
+   "titre": "La marche brume",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "memoire-dans-les-poches",
+   "titre": "La mémoire dans les poches",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "memoire-de-l-eau",
+   "titre": "La mémoire de l'eau",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mondaine",
+   "titre": "La mondaine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mort-de-staline",
+   "titre": "La Mort de Staline",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mort-est-dans-le-pre",
+   "titre": "La mort est dans le pré",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "naissance-en-bd",
+   "titre": "La naissance en BD",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nuit-des-morts-vivants",
+   "titre": "La Nuit des morts vivants",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nuit-est-mon-royaume",
+   "titre": "La nuit est mon royaume",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "part-de-l-ombre",
+   "titre": "La part de l'ombre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "part-merveilleuse",
+   "titre": "La part merveilleuse",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "passe-miroir",
+   "titre": "La Passe-miroir",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "passeuse-de-mots",
+   "titre": "La passeuse de mots",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "patrie-des-freres-werner",
+   "titre": "La patrie des frères Werner",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "peau-de-l-ours",
+   "titre": "La peau de l'ours",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "petite-derniere",
+   "titre": "La petite dernière",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "petite-fille-au-fusil",
+   "titre": "La petite fille au fusil",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "petite-mort",
+   "titre": "La petite mort",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "peur-geante",
+   "titre": "La peur géante",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "planete-des-sages",
+   "titre": "La planète des sages",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "planete-des-singes",
+   "titre": "La planète des singes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "princesse-de-cleves",
+   "titre": "La princesse de Clèves",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "princesse-et-le-croque-monsieur",
+   "titre": "La princesse et le croque-monsieur",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "promesse-de-la-tortue",
+   "titre": "La Promesse de la Tortue",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "promotion",
+   "titre": "La promotion",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "quete-de-l-oiseau-du-temps",
+   "titre": "La Quête de l'Oiseau du Temps",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "quete-de-l-oiseau-du-temps-avant-la-quete",
+   "titre": "La quête de l'oiseau du temps : avant la quête",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rose-ecarlate",
+   "titre": "La rose écarlate",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "rose-ecarlate-missions",
+   "titre": "La Rose écarlate - Missions",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "rose-la-plus-rouge-s-epanouit",
+   "titre": "La rose la plus rouge s'épanouit",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "route",
+   "titre": "La route",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "science-fiction",
+   "titre": "La science-fiction",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "sirene-des-pompiers",
+   "titre": "La sirène des pompiers",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tempete",
+   "titre": "La tempête",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "trahison-d-olympe",
+   "titre": "La Trahison d'Olympe",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "trahison-du-reel",
+   "titre": "La trahison du réel",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "vengeance-de-croc-en-jambe",
+   "titre": "La vengeance de croc-en-jambe",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "venin",
+   "titre": "La venin",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vie-compliquee-de-lea-olivier",
+   "titre": "La vie compliquée de Léa Olivier",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "vie-de-tous-les-jours",
+   "titre": "La vie de tous les jours",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vie-mysterieuse-insolente-et-heroique-du-docteur-james-barry-nee-margaret-bulkley",
+   "titre": "La vie mystérieuse, insolente et héroïque du docteur James Barry (née Margaret Bulkley)",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "vie-renversee-de-willow",
+   "titre": "La vie renversée de Willow",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "vie-sans-portable",
+   "titre": "La vie sans portable",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "vie-secrete-des-jeunes",
+   "titre": "La Vie secrète des jeunes",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ladies-with-guns",
+   "titre": "Ladies with guns",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "lady-s",
+   "titre": "Lady S",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "lanfeust-de-troy",
+   "titre": "Lanfeust de Troy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "lanfeust-des-etoiles",
+   "titre": "Lanfeust des étoiles",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "largo-winch",
+   "titre": "Largo Winch",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bal-des-folles",
+   "titre": "Le bal des folles",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "banquier-du-reich",
+   "titre": "Le banquier du Reich",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bois-des-vierges",
+   "titre": "Le bois des vierges",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "boiseleur",
+   "titre": "Le boiseleur",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bourreau",
+   "titre": "Le bourreau",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "bruit-des-gens",
+   "titre": "Le bruit des gens",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "cadet-des-soupetard",
+   "titre": "Le Cadet des Soupetard",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "cahier-a-fleurs",
+   "titre": "Le Cahier à fleurs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "caravage",
+   "titre": "Le caravage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "casse",
+   "titre": "Le casse",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cercle-des-dragonnes",
+   "titre": "Le cercle des dragonnes",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "champ-des-possibles",
+   "titre": "Le champ des possibles",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "chant-des-stryges",
+   "titre": "Le Chant des Stryges",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chant-du-cygne",
+   "titre": "Le chant du cygne",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chant-du-monde",
+   "titre": "Le chant du monde",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "chanteur-perdu",
+   "titre": "Le chanteur perdu",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "chapeau-mysterieux-de-monsieur-pinon",
+   "titre": "Le chapeau mystérieux de monsieur Pinon",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "chat",
+   "titre": "Le Chat",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chat-du-rabbin",
+   "titre": "Le chat du rabbin",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chateau-des-animaux",
+   "titre": "Le château des animaux",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chateau-des-etoiles",
+   "titre": "Le château des étoiles",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "cheval-d-orgueil",
+   "titre": "Le cheval d'orgueil",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "choeur-des-femmes",
+   "titre": "Le choeur des femmes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ciel-dans-la-tete",
+   "titre": "Le ciel dans la tête",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "clan-des-otori",
+   "titre": "Le clan des Otori",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "coeur-en-braille",
+   "titre": "Le coeur en braille",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "col-de-py",
+   "titre": "Le col de Py",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "colibri",
+   "titre": "Le colibri",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "college-noir",
+   "titre": "Le collège noir",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "combat-ordinaire",
+   "titre": "Le combat ordinaire",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "convoyeur",
+   "titre": "Le convoyeur",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "crepuscule-des-dieux",
+   "titre": "Le Crépuscule des Dieux",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "cri-du-peuple",
+   "titre": "Le cri du peuple",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "decalogue",
+   "titre": "Le Décalogue",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "demon-de-bolingbroke",
+   "titre": "Le démon de Bolingbroke",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "demon-de-la-colline-aux-loups",
+   "titre": "Le démon de la colline aux loups",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dernier-atlas",
+   "titre": "Le dernier Atlas",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dernier-jour-de-howard-phillips-lovecraft",
+   "titre": "Le dernier jour de Howard Phillips Lovecraft",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dernier-voeu",
+   "titre": "Le dernier voeu",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "detection-club",
+   "titre": "Le Detection club",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "deviant",
+   "titre": "Le Déviant",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "diable-et-coral",
+   "titre": "Le Diable et Coral",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "diner-de-noel",
+   "titre": "Le dîner de Noël",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "discours-de-la-panthere",
+   "titre": "Le discours de la panthère",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "don-de-rachel",
+   "titre": "Le don de Rachel",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "donjon-de-naheulbeuk",
+   "titre": "Le donjon de Naheulbeuk",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "feul",
+   "titre": "Le Feul",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "fond-du-bocal",
+   "titre": "Le fond du bocal",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "gigot-du-dimanche",
+   "titre": "Le gigot du dimanche",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "gout-d-emma",
+   "titre": "Le goût d'Emma",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "gout-de-la-nectarine",
+   "titre": "Le goût de la nectarine",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "grand-duc",
+   "titre": "Le grand duc",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "grand-large",
+   "titre": "Le grand large",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "grand-mort",
+   "titre": "Le grand mort",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "grand-siecle",
+   "titre": "Le Grand siècle",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "grimoire-noir",
+   "titre": "Le grimoire noir",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "grizzli",
+   "titre": "Le Grizzli",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guide-du-mauvais-pere",
+   "titre": "Le guide du mauvais père",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guide-du-papa-pas-parfait-mais-qui-essaie-de-l-etre-quand-meme",
+   "titre": "Le guide du papa pas parfait (mais qui essaie de l'être quand même)",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "japon",
+   "titre": "Le Japon",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "jardin-de-rose",
+   "titre": "Le jardin de Rose",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "jardin-des-fees",
+   "titre": "Le jardin des fées",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "jardin-paris",
+   "titre": "Le jardin, Paris",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "jour-d-avant",
+   "titre": "Le jour d'avant",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "jour-ou",
+   "titre": "Le jour où",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "journal-d-aurelie-laflamme",
+   "titre": "Le journal d'Aurélie Laflamme",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "journal-de-celia-infirmiere-au-temps-du-covid",
+   "titre": "Le journal de Célia, infirmière au temps du Covid",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "journal-de-mon-pere",
+   "titre": "Le Journal de mon père",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "livre-oracle",
+   "titre": "Le livre oracle",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "magicien-de-whitechapel",
+   "titre": "Le magicien de Whitechapel",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "manoir-bd",
+   "titre": "Le manoir - BD",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "marchand-de-tapis-de-constantinople",
+   "titre": "Le marchand de tapis de Constantinople",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "meilleur-des-pieds-nickeles",
+   "titre": "Le meilleur des Pieds Nickelés",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ministere-secret",
+   "titre": "Le ministère secret",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "monde-au-balcon",
+   "titre": "Le monde au balcon",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "monde-de-milo",
+   "titre": "Le monde de Milo",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "monde-de-sophie",
+   "titre": "Le Monde de Sophie",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "monde-de-zhou-zhou",
+   "titre": "Le monde de Zhou Zhou",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "monde-sans-fin",
+   "titre": "Le monde sans fin",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "monde-selon-ch-ro",
+   "titre": "Le monde selon Ch'ro",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mythe-de-l-ossuaire",
+   "titre": "Le mythe de l'ossuaire",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nom-de-la-rose",
+   "titre": "Le nom de la rose",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "paris-des-merveilles",
+   "titre": "Le Paris des Merveilles",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "passeur-d-ames",
+   "titre": "Le Passeur d'âmes",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "passeur-de-lagunes",
+   "titre": "Le passeur de lagunes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "patient",
+   "titre": "Le patient",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pere-goriot",
+   "titre": "Le Père Goriot",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "petit-astronaute",
+   "titre": "Le petit astronaute",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "petit-christian",
+   "titre": "Le petit Christian",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "petit-grumeau-illustre",
+   "titre": "Le petit grumeau illustré",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "petit-livre-french-pop",
+   "titre": "Le petit livre French pop",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "petit-spirou",
+   "titre": "Le Petit Spirou",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "photographe",
+   "titre": "Le Photographe",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pilote-a-l-edelweiss",
+   "titre": "Le pilote à l'Edelweiss",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "plongeon",
+   "titre": "Le plongeon",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "port-de-la-lune",
+   "titre": "Le port de la lune",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "potager-rocambole",
+   "titre": "Le potager rocambole",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pre-derriere-l-eglise",
+   "titre": "Le pré derrière l'église",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "president",
+   "titre": "Le Président",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "printemps-suivant",
+   "titre": "Le printemps suivant",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "probleme-a-3-corps",
+   "titre": "Le problème à 3 corps",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "regne",
+   "titre": "Le règne",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "repas-des-hyenes",
+   "titre": "Le repas des hyènes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "reseau-bombyce",
+   "titre": "Le Réseau Bombyce",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "reseau-papillon",
+   "titre": "Le réseau Papillon",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "reste-du-monde",
+   "titre": "Le reste du monde",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "retour-a-la-terre",
+   "titre": "Le retour à la terre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "roi-des-bourdons",
+   "titre": "Le roi des bourdons",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "roi-des-fauves",
+   "titre": "Le Roi des Fauves",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "roi-louve",
+   "titre": "Le roi louve",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "roi-meduse",
+   "titre": "Le roi méduse",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "roman-des-goscinny",
+   "titre": "Le roman des Goscinny",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "sang-des-batisseurs",
+   "titre": "Le sang des bâtisseurs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sang-du-dragon",
+   "titre": "Le Sang du Dragon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "scorpion",
+   "titre": "Le Scorpion",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sentier-de-la-guerre",
+   "titre": "Le sentier de la guerre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sentier-des-reines",
+   "titre": "Le sentier des reines",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "serment-des-lampions",
+   "titre": "Le serment des lampions",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "serpent-et-la-lance",
+   "titre": "Le serpent et la lance",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "silence-et-la-colere",
+   "titre": "Le silence et la colère",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "sorcier-de-terremer",
+   "titre": "Le sorcier de Terremer",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "soufflevent",
+   "titre": "Le soufflevent",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "spectateur",
+   "titre": "Le spectateur",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "spirou-de",
+   "titre": "Le Spirou de...",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sursis",
+   "titre": "Le Sursis",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "temps-des-cites",
+   "titre": "Le temps des cités",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "temps-des-pivoines",
+   "titre": "Le temps des pivoines",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "temps-du-reve",
+   "titre": "Le temps du rêve",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tombeau-d-alexandre",
+   "titre": "Le tombeau d'Alexandre",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "train-des-orphelins",
+   "titre": "Le train des orphelins",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tresor-du-cygne-noir",
+   "titre": "Le trésor du Cygne noir",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "triangle-secret",
+   "titre": "Le Triangle Secret",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "triangle-secret-i-n-r-i",
+   "titre": "Le Triangle Secret : I.N.R.I",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "triangle-secret-les-gardiens-du-sang",
+   "titre": "Le Triangle Secret : Les Gardiens du sang",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "triskel-vole",
+   "titre": "Le triskel volé",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "troisieme-testament",
+   "titre": "Le Troisième testament",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "trone-d-argile",
+   "titre": "Le Trône d'Argile",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vagabond-des-etoiles",
+   "titre": "Le vagabond des étoiles",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vaisseau-d-amelia",
+   "titre": "Le vaisseau d'Amelia",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "vent-des-dieux",
+   "titre": "Le Vent des Dieux",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vol-de-la-cigogne",
+   "titre": "Le Vol de la cigogne",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "vol-du-corbeau",
+   "titre": "Le Vol du corbeau",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "voyage-avec-bill",
+   "titre": "Le voyage avec Bill",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "voyage-d-abel",
+   "titre": "Le voyage d'Abel",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "voyage-de-shuna",
+   "titre": "Le voyage de Shuna",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "voyage-improbable",
+   "titre": "Le voyage improbable",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "led-zeppelin-en-bandes-dessinees",
+   "titre": "Led Zeppelin en bandes dessinées",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "legende",
+   "titre": "Legende",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "leonard-2-vinci",
+   "titre": "Leonard 2 Vinci",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "leonard-cohen",
+   "titre": "Leonard Cohen",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "5-drapeaux",
+   "titre": "Les 5 drapeaux",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "5-terres",
+   "titre": "Les 5 Terres",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "5-terres-cycle-iii-arnor",
+   "titre": "Les 5 Terres : Cycle III - Arnor",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "5-terres-cycle-1-angleon",
+   "titre": "Les 5 terres, cycle 1, Angleon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "5-terres-cycle-2-lys",
+   "titre": "Les 5 terres, cycle 2, Lys",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "5-terres-cycle-3-arnor",
+   "titre": "Les 5 terres, cycle 3, Arnor",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ados-laura-et-ludo",
+   "titre": "Les Ados Laura et Ludo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "aigles-de-rome",
+   "titre": "Les Aigles de Rome",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "amants-d-herouville",
+   "titre": "Les amants d'Hérouville",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "artilleuses",
+   "titre": "Les artilleuses",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "autres-gens",
+   "titre": "Les Autres gens",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-de-blake-et-mortimer",
+   "titre": "Les aventures de Blake et Mortimer.",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-de-tintin",
+   "titre": "Les aventures de Tintin",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-de-vincent-lacoste-au-cinema",
+   "titre": "Les aventures de Vincent Lacoste au cinéma",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "aventures-extraordinaires-d-adele-blanc-sec",
+   "titre": "Les Aventures extraordinaires d'Adèle Blanc-sec",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "beaux-etes",
+   "titre": "Les beaux étés",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "belles-personnes",
+   "titre": "Les belles personnes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "bidochon",
+   "titre": "Les Bidochon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "boules-vitales",
+   "titre": "Les boules vitales",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "cahiers-d-esther",
+   "titre": "Les cahiers d'Esther",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "campbell",
+   "titre": "Les Campbell",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "champions-d-albion",
+   "titre": "Les champions d'Albion",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "chats-du-louvre",
+   "titre": "Les chats du Louvre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chiens-de-pripyat",
+   "titre": "Les chiens de Pripyat",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "chroniques-de-wormwood",
+   "titre": "Les chroniques de Wormwood",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "coeurs-de-ferraille",
+   "titre": "Les coeurs de ferraille",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "combats-invisibles",
+   "titre": "Les Combats invisibles",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "compagnons-du-crepuscule",
+   "titre": "Les Compagnons du Crépuscule",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "complotistes",
+   "titre": "Les complotistes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "conquerants-de-troy",
+   "titre": "Les Conquérants de Troy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "contes-de-broceliande",
+   "titre": "Les contes de Brocéliande",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "contes-de-l-ankou",
+   "titre": "Les Contes de l'Ankou",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "contes-de-la-pieuvre",
+   "titre": "Les contes de la Pieuvre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "contes-drolatiques",
+   "titre": "Les contes drolatiques",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "couloirs-aeriens",
+   "titre": "Les couloirs aériens",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "croques",
+   "titre": "Les Croques",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "dalton",
+   "titre": "Les Dalton",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "deux-vies-de-penelope",
+   "titre": "Les deux vies de Pénélope",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "dominants",
+   "titre": "Les dominants",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "druides",
+   "titre": "Les Druides",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ecroees-a-tintin",
+   "titre": "Lés ecröées a Tintin.",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "enfants-d-evernight",
+   "titre": "Les enfants d'Evernight",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "enfants-de-la-resistance",
+   "titre": "Les enfants de la Résistance",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "entrailles-de-new-york",
+   "titre": "Les entrailles de New York",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "epees-de-verre",
+   "titre": "Les Epées de verre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "esclaves-oublies-de-tromelin",
+   "titre": "Les esclaves oubliés de Tromelin",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "evapores",
+   "titre": "Les évaporés",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "exiles-de-mosseheim",
+   "titre": "Les exilés de Mosseheim",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "femmes-en-blanc",
+   "titre": "Les femmes en blanc",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "filles-au-chocolat-bd",
+   "titre": "Les filles au chocolat BD",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "filles-des-marins-perdus",
+   "titre": "Les filles des marins perdus",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "fondus",
+   "titre": "Les fondus",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "foot-furieux",
+   "titre": "Les Foot furieux",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "forets-d-opale",
+   "titre": "Les Forêts d'Opale",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "freres-rubinstein",
+   "titre": "Les frères Rubinstein",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "frustres",
+   "titre": "Les Frustrés",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "geeks",
+   "titre": "Les geeks",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "gendarmes",
+   "titre": "Les Gendarmes",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "gens-honnetes",
+   "titre": "Les Gens honnêtes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "godillots",
+   "titre": "Les Godillots",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "gorilles-du-general",
+   "titre": "Les gorilles du Général",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "grandes-et-les-petites-choses",
+   "titre": "Les grandes et les petites choses",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "grands-parents-en-bd",
+   "titre": "Les grands-parents en BD",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guerres-de-lucas",
+   "titre": "Les guerres de Lucas",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "guerriers-de-dieu",
+   "titre": "Les guerriers de Dieu",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "hauts-de-hurlevent",
+   "titre": "Les Hauts de Hurlevent",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "indes-fourbes",
+   "titre": "Les Indes fourbes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "informaticiens",
+   "titre": "Les informaticiens",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "maitres-de-l-orge",
+   "titre": "Les Maîtres de l'Orge",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "maitres-de-white-plain",
+   "titre": "Les maîtres de White Plain",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mentors",
+   "titre": "Les mentors",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "metamorphoses-1858",
+   "titre": "Les métamorphoses 1858",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mondes-d-ewilan",
+   "titre": "Les mondes d'Ewilan",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mondes-de-thorgal-louve",
+   "titre": "Les mondes de Thorgal - Louve",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mysteres-de-la-cinquieme-republique",
+   "titre": "Les mystères de la cinquième république",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mysteres-de-la-quatrieme-republique",
+   "titre": "Les mystères de la quatrième république",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mysteres-de-la-troisieme-republique",
+   "titre": "Les mystères de la troisième République",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "naufrages-d-ythaq",
+   "titre": "Les naufragés d'Ythaq",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "naufrages-du-metropolitain",
+   "titre": "Les Naufragés du METROPOLITAIN",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nombrils",
+   "titre": "Les Nombrils",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "normaux",
+   "titre": "Les Normaux",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "nouvelles-aventures-de-barbe-rouge",
+   "titre": "Les nouvelles aventures de Barbe-Rouge",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nouvelles-aventures-de-lapinot",
+   "titre": "Les nouvelles aventures de Lapinot",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "ogres-dieux",
+   "titre": "Les ogres-dieux",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "oies-cendrees",
+   "titre": "Les oies cendrées",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "oiseaux-ne-se-retournent-pas",
+   "titre": "Les oiseaux ne se retournent pas",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "omniscients",
+   "titre": "Les omniscients",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "passagers-du-vent",
+   "titre": "Les Passagers du vent",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pauvres-aventures-de-jeremie",
+   "titre": "Les pauvres aventures de Jérémie",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pesteuses-mesaventures-du-mille-fois-meprisable-alastor-de-sombregarde",
+   "titre": "Les pesteuses mésaventures du mille fois méprisable Alastor de Sombregarde",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "petites-reines",
+   "titre": "Les petites reines",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "petits",
+   "titre": "Les petits",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pieds-nickeles",
+   "titre": "Les Pieds Nickelés",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "piliers-de-la-terre",
+   "titre": "Les piliers de la terre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pionniers",
+   "titre": "Les pionniers",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "poilus-de-l-alaska",
+   "titre": "Les poilus de l'Alaska",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pompiers",
+   "titre": "Les Pompiers",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "profs",
+   "titre": "Les profs",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "quatre-coins-du-monde",
+   "titre": "Les quatre coins du monde",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "quatre-de-baker-street",
+   "titre": "Les quatre de Baker Street",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "racines-de-la-colere",
+   "titre": "Les racines de la colère",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "reflets-du-monde",
+   "titre": "Les reflets du monde",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "regles-de-l-amitie",
+   "titre": "Les règles de l'amitié",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "reines-de-sang",
+   "titre": "Les reines de sang",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "reines-de-sang-catherine-de-medicis-la-reine-maudite",
+   "titre": "Les reines de sang - Catherine de Médicis, la reine maudite",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "royaumes-du-nord",
+   "titre": "Les royaumes du Nord",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rugbymen",
+   "titre": "Les rugbymen",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "scientiflics",
+   "titre": "Les scientiflics",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "secrets-de-brune",
+   "titre": "Les secrets de Brune",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "seigneurs-de-la-terre",
+   "titre": "Les seigneurs de la terre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sentinelles",
+   "titre": "Les sentinelles",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "simpson",
+   "titre": "Les Simpson",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "simpson-futurama",
+   "titre": "Les Simpson-Futurama",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "simpson-la-cabane-des-horreurs",
+   "titre": "Les Simpson, la cabane des horreurs",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "sirenes-de-gotham",
+   "titre": "Les sirènes de Gotham",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "soeurs-gremillet",
+   "titre": "Les soeurs Grémillet",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "songes-du-roi-griffu",
+   "titre": "Les songes du roi griffu",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "souliers-rouges",
+   "titre": "Les Souliers rouges",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "toubibs",
+   "titre": "Les toubibs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tours-de-bois-maury",
+   "titre": "Les tours de Bois-Maury",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "trois-fantomes-de-tesla",
+   "titre": "Les trois fantômes de Tesla",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tuniques-bleues",
+   "titre": "Les Tuniques bleues",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vacheries-des-nombrils",
+   "titre": "Les vacheries des Nombrils",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vieux-fourneaux",
+   "titre": "Les vieux fourneaux",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "voleurs-de-carthage",
+   "titre": "Les voleurs de Carthage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vous",
+   "titre": "Les Vous",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "yeux-d-edith",
+   "titre": "Les Yeux d'Edith",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "yeux-fermes",
+   "titre": "Les yeux fermés",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "yeux-verts",
+   "titre": "Les yeux verts",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "lettres-perdues",
+   "titre": "Lettres perdues",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "life-is-strange-integrale",
+   "titre": "Life is strange : intégrale",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "lightfall",
+   "titre": "Lightfall",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "lila",
+   "titre": "Lila",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "lisa-et-mohamed",
+   "titre": "Lisa et Mohamed",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "lloyd-singer",
+   "titre": "LLoyd singer",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "locas-love-and-rockets",
+   "titre": "Locas - Love and rockets",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "locke-key",
+   "titre": "Locke & Key",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "long-john-silver",
+   "titre": "Long John Silver",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "looking-for-banksy",
+   "titre": "Looking for Banksy",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "lore-olympus",
+   "titre": "Lore Olympus",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "lou",
+   "titre": "Lou !",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "lou-sonata",
+   "titre": "Lou ! Sonata",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "louca",
+   "titre": "Louca",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "louis-parmi-les-spectres",
+   "titre": "Louis parmi les spectres",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "lucien",
+   "titre": "Lucien",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "lucky-luke",
+   "titre": "Lucky Luke",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "lulu-femme-nue",
+   "titre": "Lulu, femme nue",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "luminary",
+   "titre": "Luminary",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "luuna",
+   "titre": "Luuna",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "lycornes",
+   "titre": "Lycornes",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-crohn-de-vie",
+   "titre": "Ma Crohn de vie",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-fille-mon-enfant",
+   "titre": "Ma fille, mon enfant",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-petite-louve",
+   "titre": "Ma petite louve",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-vie-d-ado",
+   "titre": "Ma vie d'ado",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "ma-vie-posthume",
+   "titre": "Ma vie posthume",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "madeleine-resistante",
+   "titre": "Madeleine, résistante",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "maestros",
+   "titre": "Maestros",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "magasin-general",
+   "titre": "Magasin général",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "maggy-garrisson",
+   "titre": "Maggy Garrisson",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "maison-ronde",
+   "titre": "Maison ronde",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "maitres-assassins",
+   "titre": "Maîtres Assassins",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "malefiques",
+   "titre": "Maléfiques",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "malgre-tout",
+   "titre": "Malgré tout",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "mamada",
+   "titre": "Mamada",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mamie-n-a-plus-toute-sa-tete",
+   "titre": "Mamie n'a plus toute sa tête",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "maori",
+   "titre": "Maori",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "marcas-maitre-franc-macon",
+   "titre": "Marcas, maître franc-maçon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "marcel-pagnol-en-bd",
+   "titre": "Marcel Pagnol en BD",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "marecage",
+   "titre": "Marécage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "margaux-motin-rencontre-la-femme-parfaite-est-une-connasse",
+   "titre": "Margaux Motin rencontre La femme parfaite est une connasse !",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "maria-et-salazar",
+   "titre": "Maria et Salazar",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "marie-curie",
+   "titre": "Marie Curie",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "marvel-ultimates",
+   "titre": "Marvel Ultimates",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "masques",
+   "titre": "Masques",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mata-hari",
+   "titre": "Mata Hari",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "mathilde",
+   "titre": "Mathilde",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "matteo",
+   "titre": "Mattéo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mauvaise-reputation-la-veritable-histoire-d-emmett-dalton",
+   "titre": "Mauvaise réputation : la véritable histoire d'Emmett Dalton",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mayam",
+   "titre": "Mayam",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mecanique-celeste",
+   "titre": "Mécanique céleste",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "medee",
+   "titre": "Médée",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "megafauna",
+   "titre": "Mégafauna",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "melody",
+   "titre": "Melody",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mercredi-musique",
+   "titre": "Mercredi musique",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mercy",
+   "titre": "Mercy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "merlin",
+   "titre": "Merlin",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mermaid-project",
+   "titre": "Mermaid project",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mes-cop-s",
+   "titre": "Mes cop's",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mes-mauvaises-filles",
+   "titre": "Mes mauvaises filles",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "mes-premieres-fois",
+   "titre": "Mes premières fois",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "mes-quatorze-ans",
+   "titre": "Mes quatorze ans",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "messire-guillaume",
+   "titre": "Messire Guillaume",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "metamorphes",
+   "titre": "Métamorphes",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "meto",
+   "titre": "Méto",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "metropolia",
+   "titre": "Metropolia",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "metropolitan",
+   "titre": "Metropolitan",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "meuf",
+   "titre": "Meuf",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "mia-co",
+   "titre": "Mia & Co",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "michel-vaillant-l-integrale",
+   "titre": "Michel Vaillant - L'intégrale",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "middlewest",
+   "titre": "Middlewest",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mille-femmes-blanches",
+   "titre": "Mille femmes blanches",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "millenaire",
+   "titre": "Millénaire",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "minecraft-la-bd-officielle",
+   "titre": "Minecraft : la BD officielle",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "miss-endicott",
+   "titre": "Miss Endicott",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "miss-pas-touche",
+   "titre": "Miss pas touche",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "missak-manouchian",
+   "titre": "Missak Manouchian",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "mister-mammoth",
+   "titre": "Mister Mammoth",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mistinguette",
+   "titre": "Mistinguette",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "mitsuko",
+   "titre": "Mitsuko",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "mitsuo",
+   "titre": "Mitsuo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mjollnir",
+   "titre": "Mjöllnir",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mobilis",
+   "titre": "Mobilis",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "moderne-olympia",
+   "titre": "Moderne Olympia",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "moi-rene-tardi-prisonnier-de-guerre-au-stalag-ii-b",
+   "titre": "Moi René Tardi, prisonnier de guerre au stalag II B",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "moi-ce-que-j-aime-c-est-les-monstres",
+   "titre": "Moi, ce que j'aime, c'est les monstres",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "moi-fadi-le-frere-vole",
+   "titre": "Moi, Fadi, le frère volé",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "moi-je-veux-etre-une-sorciere",
+   "titre": "Moi, je veux être une sorcière",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "mojo-hand",
+   "titre": "Mojo hand",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "momo",
+   "titre": "Momo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mon-refuge",
+   "titre": "Mon Refuge",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "mon-voisin-raymond",
+   "titre": "Mon voisin Raymond",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "mondo-reverso",
+   "titre": "Mondo reverso",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "monsieur-jules",
+   "titre": "Monsieur Jules",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "monsieur-leon",
+   "titre": "Monsieur Léon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "monster-club",
+   "titre": "Monster club",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "monstress",
+   "titre": "Monstress",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "moon",
+   "titre": "Moon",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "moon-river",
+   "titre": "Moon River",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "mort-au-tsar",
+   "titre": "Mort au tsar",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mortelle-adele",
+   "titre": "Mortelle Adèle",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "motherfucker",
+   "titre": "Motherfucker",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "mots-rumeurs-mots-cutter",
+   "titre": "Mots rumeurs, mots cutter",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "muchacho",
+   "titre": "Muchacho",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "murena",
+   "titre": "Murena",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "n-en-parlons-plus",
+   "titre": "N'en parlons plus",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "nains",
+   "titre": "Nains",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "namibia-kenya-saison-2",
+   "titre": "Namibia : Kenya saison 2",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "naoto",
+   "titre": "Naoto",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "napoleon",
+   "titre": "Napoléon",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ne-m-oublie-pas",
+   "titre": "Ne m'oublie pas",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ne-tirez-pas-sur-l-oiseau-moqueur",
+   "titre": "Ne tirez pas sur l'oiseau moqueur",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "neandertal",
+   "titre": "Neandertal",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "negalyod",
+   "titre": "Negalyod",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nellie-bly",
+   "titre": "Nellie Bly",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "neo",
+   "titre": "NEO",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "neoforest",
+   "titre": "Neoforest",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "new-york-cannibals",
+   "titre": "New York cannibals",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "new-york-trilogie",
+   "titre": "New York Trilogie",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ni-dieu-ni-bete",
+   "titre": "Ni Dieu, ni bête",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nico",
+   "titre": "Nico",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nikopol",
+   "titre": "Nikopol",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ninn",
+   "titre": "Ninn",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "no-direction",
+   "titre": "No direction",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "nocean",
+   "titre": "Nocéan",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "noir-burlesque",
+   "titre": "Noir burlesque",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "noir-comme-l-eau-la-nuit",
+   "titre": "Noir comme l'eau la nuit",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "noir-horizon",
+   "titre": "Noir horizon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nomad-2-0",
+   "titre": "NOMAD 2.0",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "noo",
+   "titre": "Noô",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "noob",
+   "titre": "Noob",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "nos-coeurs-tordus",
+   "titre": "Nos coeurs tordus",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "nos-vacances-au-bled",
+   "titre": "Nos vacances au bled",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "notre-amerique",
+   "titre": "NOTRE AMERIQUE",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "notre-dame",
+   "titre": "Notre Dame",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "notre-seul-ami-commun",
+   "titre": "Notre seul ami commun",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "nous-aurons-toujours-20-ans",
+   "titre": "Nous aurons toujours 20 ans",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "nous-etions-les-ennemis",
+   "titre": "Nous étions les ennemis",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "o-boys",
+   "titre": "O'boys",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "oblivion-song",
+   "titre": "Oblivion Song",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "octopolis",
+   "titre": "Octopolis",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "odyxes",
+   "titre": "Odyxes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "oh-les-filles",
+   "titre": "Oh les filles !",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "okko",
+   "titre": "Okko",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "oleg",
+   "titre": "Oleg",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "olive",
+   "titre": "Olive",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "on-dirait-le-sud",
+   "titre": "On dirait le Sud",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "on-etait-des-anges",
+   "titre": "On était des anges",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "one-piece",
+   "titre": "One Piece",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "onibi",
+   "titre": "Onibi",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "ontophage",
+   "titre": "Ontophage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "open-bar",
+   "titre": "Open bar",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "operation-copperhead",
+   "titre": "Opération Copperhead",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "operation-survie-au-college",
+   "titre": "Opération survie au collège",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "operatique",
+   "titre": "Opératique",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "oradour",
+   "titre": "Oradour",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "orbital",
+   "titre": "Orbital",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "orcs-gobelins",
+   "titre": "Orcs & Gobelins",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "orwell",
+   "titre": "Orwell",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ou-le-regard-ne-porte-pas",
+   "titre": "Où le regard ne porte pas",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ou-sont-passes-les-grands-jours",
+   "titre": "Où sont passés les grands jours ?",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ouessant-terrae",
+   "titre": "Ouessant terrae",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ouragan-sur-le-couple",
+   "titre": "Ouragan sur le couple",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "paci",
+   "titre": "Paci",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pacome-hegesippe-adelard-ladislas-comte-de-champignac",
+   "titre": "Pacôme Hégésippe Adélard Ladislas, comte de Champignac",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "palestine",
+   "titre": "Palestine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pandemonium",
+   "titre": "Pandemonium",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "papeete-1914",
+   "titre": "Papeete 1914",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "paracuellos",
+   "titre": "Paracuellos",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "paradise",
+   "titre": "Paradise",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "parasites",
+   "titre": "Parasites",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "paroles-de-poilus",
+   "titre": "Paroles de poilus",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pas-facile-de-grandir",
+   "titre": "Pas facile de grandir",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "pascal-brutal",
+   "titre": "Pascal Brutal",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "patient-zero",
+   "titre": "Patient zéro",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "patria",
+   "titre": "Patria",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "payer-la-terre",
+   "titre": "Payer la terre",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "peau-d-homme",
+   "titre": "Peau d'homme",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pema-ling",
+   "titre": "Péma Ling",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "penis-de-table",
+   "titre": "Pénis de table",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "penss-et-les-plis-du-monde",
+   "titre": "Penss et les plis du monde",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pepe-carvalho",
+   "titre": "Pepe Carvalho",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pepouze",
+   "titre": "Pépouze",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "pepper-page",
+   "titre": "Pepper Page",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "persepolis",
+   "titre": "Persepolis",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "peter-pan",
+   "titre": "Peter Pan",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "petit-guide-pratique-ludique-et-illustre-de-l-effondrement",
+   "titre": "Petit guide pratique, ludique et illustré de l'effondrement",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "petit-pays",
+   "titre": "Petit pays",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "petit-traite-d-ecologie-sauvage",
+   "titre": "Petit traité d'écologie sauvage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "petit-traite-de-velosophie",
+   "titre": "Petit traité de vélosophie",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "phagocytose",
+   "titre": "Phagocytose",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "phobos",
+   "titre": "Phobos",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "phonogram",
+   "titre": "Phonogram",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pico-bogue",
+   "titre": "Pico Bogue",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "piments-zoizos",
+   "titre": "Piments Zoizos",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pitcairn-l-ile-des-revoltes-du-bounty",
+   "titre": "Pitcairn, l'île des révoltés du Bounty",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "planeta-extra",
+   "titre": "Planeta extra",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "playlist",
+   "titre": "Playlist",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "pleine-lune",
+   "titre": "Pleine lune",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "plouheran",
+   "titre": "Plouhéran",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "plunge",
+   "titre": "Plunge",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "poet-anderson",
+   "titre": "Poet Anderson",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "poil-de-carotte",
+   "titre": "Poil de carotte",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "pop-porn",
+   "titre": "Pop-Porn",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "porcelaine",
+   "titre": "Porcelaine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "poser-mon-sac",
+   "titre": "Poser mon sac",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pot-bouille",
+   "titre": "Pot-Bouille",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pour-un-peu-de-bonheur",
+   "titre": "Pour un peu de bonheur",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pourpre-sang",
+   "titre": "Pourpre-Sang",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pourquoi-y-a-t-il-des-inegalites-entre-les-hommes-et-les-femmes",
+   "titre": "Pourquoi y a-t-il des inégalités entre les hommes et les femmes ?",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "poussiere",
+   "titre": "Poussière",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "powa",
+   "titre": "Powa",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "preacher",
+   "titre": "Preacher",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "pretty-deadly",
+   "titre": "Pretty deadly",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "protocole-commotion",
+   "titre": "Protocole commotion",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "ptsd",
+   "titre": "PTSD",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pucelle",
+   "titre": "Pucelle",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "puisqu-il-faut-des-hommes",
+   "titre": "Puisqu'il faut des hommes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "pulp",
+   "titre": "Pulp",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "punk-mambo",
+   "titre": "Punk Mambo",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "punk-mamy",
+   "titre": "Punk mamy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "putain-de-chat",
+   "titre": "Putain de chat",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "putain-de-guerre",
+   "titre": "Putain de guerre !",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "quai-d-orsay-chroniques-diplomatiques",
+   "titre": "Quai d'Orsay : Chroniques diplomatiques",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "quand-je-serai-grande-je-serai-patrick-swayze",
+   "titre": "Quand je serai grande je serai Patrick Swayze",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "quand-la-nuit-tombe",
+   "titre": "Quand la nuit tombe",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "quatre-soeurs",
+   "titre": "Quatre soeurs",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "queenie-la-marraine-de-harlem",
+   "titre": "Queenie, la marraine de Harlem",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "quelqu-un-a-qui-parler",
+   "titre": "Quelqu'un à qui parler",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "qui-m-aime-me-suive",
+   "titre": "Qui m'aime me suive",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "quitter-la-baie",
+   "titre": "Quitter la baie",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "racines",
+   "titre": "Racines",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "radium-girls",
+   "titre": "Radium girls",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "rat-les-animaux-moches",
+   "titre": "Rat & les animaux moches",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "rat-queens",
+   "titre": "Rat queens",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rayons-pour-sidar",
+   "titre": "Rayons pour Sidar",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rebis",
+   "titre": "Rebis",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "refugies-climatiques-castagnettes",
+   "titre": "Réfugiés climatiques & castagnettes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "renaissance",
+   "titre": "Renaissance",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rencontre-sur-la-transsaharienne",
+   "titre": "Rencontre sur la Transsaharienne",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "rencontres-obliques",
+   "titre": "Rencontres obliques",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "rene-e-aux-bois-dormants",
+   "titre": "René.e aux bois dormants",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "renee-stone",
+   "titre": "Renée Stone",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "residence-autonomie",
+   "titre": "Résidence autonomie",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "resistances",
+   "titre": "Résistances",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "retour-a-killybegs",
+   "titre": "Retour à Killybegs",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "retour-au-centre-de-la-terre",
+   "titre": "Retour au centre de la terre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "retour-de-flammes",
+   "titre": "Retour de flammes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "retour-sur-aldebaran-cycle-5",
+   "titre": "Retour sur Aldébaran, cycle 5",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "revanche",
+   "titre": "Revanche",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "revoir-paris",
+   "titre": "Revoir Paris",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "revolution",
+   "titre": "Révolution",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rip",
+   "titre": "RIP",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rita-sauvee-des-eaux",
+   "titre": "Rita, sauvée des eaux",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "rivages-lointains",
+   "titre": "Rivages lointains",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "robinsons-pere-fils",
+   "titre": "Robinsons père & fils",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "rock-stone",
+   "titre": "Rock & Stone",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "roger-et-ses-humains",
+   "titre": "Roger et ses humains",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "rosa",
+   "titre": "Rosa",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rosalie-blum",
+   "titre": "Rosalie Blum",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "rose",
+   "titre": "Rose",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "royal-city",
+   "titre": "Royal City",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "s-a-m",
+   "titre": "S.A.M",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "sa-majeste-des-ours",
+   "titre": "Sa majesté des ours",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sacha-guitry-une-vie-en-bande-dessinee",
+   "titre": "Sacha Guitry, une vie en bande dessinée",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "sacrifice",
+   "titre": "Sacrifice",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "saga",
+   "titre": "Saga",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "saga-valta",
+   "titre": "Saga Valta",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "saint-rose",
+   "titre": "Saint Rose",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "saint-barthelemy",
+   "titre": "Saint-Barthélemy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "saint-elme",
+   "titre": "Saint-Elme",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "salut-les-copines",
+   "titre": "Salut les copines",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "sambre",
+   "titre": "Sambre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sanctuaire",
+   "titre": "Sanctuaire",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sangre",
+   "titre": "Sangre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sant-fieg",
+   "titre": "Sant-Fieg",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "santiag",
+   "titre": "Santiag",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sapiens",
+   "titre": "Sapiens",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "scalped",
+   "titre": "Scalped",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "scum",
+   "titre": "Scum",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "scurry",
+   "titre": "Scurry",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "se-retablir",
+   "titre": "Se rétablir",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "secrets-l-angelus",
+   "titre": "Secrets : L'angélus",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "secrets-l-ecorche",
+   "titre": "Secrets : L'écorché",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "secrets-le-serpent-sous-la-glace",
+   "titre": "Secrets : Le serpent sous la glace",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "secrets-samsara",
+   "titre": "Secrets : Samsara",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "seizieme-printemps",
+   "titre": "Seizième printemps",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "senso",
+   "titre": "Senso",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "sept",
+   "titre": "Sept",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sequana",
+   "titre": "Séquana",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "seraphine",
+   "titre": "Séraphine",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "servitude",
+   "titre": "Servitude",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "seul-au-monde",
+   "titre": "Seul au monde",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "seules-a-berlin",
+   "titre": "Seules à Berlin",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "seuls",
+   "titre": "Seuls",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "shades-of-magic-the-steel-prince-trilogy",
+   "titre": "Shades of magic : the steel prince trilogy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "shanghai-dream",
+   "titre": "Shanghai Dream",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "shelton-felter",
+   "titre": "Shelton & Felter",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sherlock-holmes-les-vampires-de-londres",
+   "titre": "SHERLOCK HOLMES & les Vampires de Londres",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sherman",
+   "titre": "Sherman",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "shi",
+   "titre": "Shi",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "shibumi",
+   "titre": "Shibumi",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "short",
+   "titre": "Short",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sigi",
+   "titre": "Sigi",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "silas-corey",
+   "titre": "Silas Corey",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "silex-and-the-city",
+   "titre": "Silex and the city",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sillage",
+   "titre": "Sillage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "simenon-et-les-romans-durs",
+   "titre": "Simenon et les romans durs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "simone",
+   "titre": "Simone",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sin-city",
+   "titre": "Sin City",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sir-arthur-benton",
+   "titre": "Sir Arthur Benton",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sky-doll",
+   "titre": "Sky Doll",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "slava",
+   "titre": "Slava",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "snapdragon",
+   "titre": "Snapdragon",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "soeur-marie-therese",
+   "titre": "Soeur Marie-Thérèse",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "soeurs-d-ys",
+   "titre": "Soeurs d'Ys",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "solo",
+   "titre": "Solo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "solo-chemins-traces",
+   "titre": "Solo : chemins tracés",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "solo-lyra",
+   "titre": "Solo : Lyra",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "something-is-killing-the-children",
+   "titre": "Something is killing the children",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sommeil-du-monstre",
+   "titre": "Sommeil du monstre",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "soon",
+   "titre": "Soon",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "sorcieres-disent-ils",
+   "titre": "Sorcières ! disent-ils",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "sortileges",
+   "titre": "Sortilèges",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "sous-terre",
+   "titre": "Sous terre",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "sousbrouillard",
+   "titre": "Sousbrouillard",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "space-boy",
+   "titre": "Space boy",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "space-cats",
+   "titre": "Space Cats",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "speed-angels",
+   "titre": "SPEED Angels",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "spider-man-les-avengers",
+   "titre": "Spider-Man & les Avengers",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "spider-man-et-les-heros-marvel",
+   "titre": "Spider-Man et les héros Marvel",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "spinning",
+   "titre": "Spinning",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "splash",
+   "titre": "Splash",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "squad",
+   "titre": "Squad",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "star-wars-la-genese-des-jedi",
+   "titre": "Star wars : la genèse des Jedi",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "stern",
+   "titre": "Stern",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "stray-dogs",
+   "titre": "Stray Dogs",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "streamliner",
+   "titre": "Streamliner",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "strom",
+   "titre": "Strom",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "suicide-squad-rebirth",
+   "titre": "Suicide squad rebirth",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "superman",
+   "titre": "Superman",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "survivants-anomalies-quantiques-les-mondes-d-aldebaran-cycle-4",
+   "titre": "Survivants : anomalies quantiques : Les mondes d'Aldebaran cycle 4",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "suzette-ou-le-grand-amour",
+   "titre": "Suzette ou Le grand amour",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "swamp",
+   "titre": "Swamp",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "sweet-home",
+   "titre": "Sweet home",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "sweet-tooth",
+   "titre": "Sweet tooth",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ta-deuxieme-vie-commence-quand-tu-comprends-que-tu-n-en-as-qu-une",
+   "titre": "Ta deuxième vie commence quand tu comprends que tu n'en as qu'une",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tamara",
+   "titre": "Tamara",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "tananarive",
+   "titre": "Tananarive",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tanatos",
+   "titre": "Tanatos",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tango",
+   "titre": "Tango",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tant-pis-pour-l-amour-ou-comment-j-ai-survecu-a-un-manipulateur",
+   "titre": "Tant pis pour l'amour ou Comment j'ai survécu à un manipulateur",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tanz",
+   "titre": "Tanz !",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tartuffe-de-moliere",
+   "titre": "Tartuffe de Molière",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tavutatet",
+   "titre": "Tâvutatèt",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "taxi-ghost",
+   "titre": "Taxi Ghost",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "tea-for-two",
+   "titre": "Tea for two",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ted-bundy",
+   "titre": "Ted Bundy",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "telepathes",
+   "titre": "Télépathes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "temudjin",
+   "titre": "Temudjin",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tendre-banlieue",
+   "titre": "Tendre banlieue",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tenebreuse",
+   "titre": "Ténébreuse",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ter",
+   "titre": "Ter",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "terre-ou-lune",
+   "titre": "Terre ou lune",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "terres-d-ogon",
+   "titre": "Terres d'Ogon",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "terres-lointaines",
+   "titre": "Terres lointaines",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tete-de-chien",
+   "titre": "Tête de chien",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "the-deep-dark",
+   "titre": "The Deep Dark",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "the-manhattan-projects",
+   "titre": "The Manhattan Projects",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "the-nice-house-by-the-sea",
+   "titre": "The Nice House by The Sea",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "the-nice-house-on-the-lake",
+   "titre": "The nice house on the lake",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "the-unwritten",
+   "titre": "The unwritten",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "theo",
+   "titre": "Théo",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "theodore-poussin",
+   "titre": "Théodore Poussin",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "therapie-de-groupe",
+   "titre": "Thérapie de groupe",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "thoreau-et-moi",
+   "titre": "Thoreau et moi",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "thorgal",
+   "titre": "Thorgal",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "thornhill",
+   "titre": "Thornhill",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "tiburce",
+   "titre": "Tiburce",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "tisseuse",
+   "titre": "Tisseuse",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "titeuf",
+   "titre": "Titeuf",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "tokyo-ghost",
+   "titre": "Tokyo ghost",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "topaze",
+   "titre": "TOPAZE",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "totem",
+   "titre": "Totem",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "toubab",
+   "titre": "Toubab",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "touchees",
+   "titre": "Touchées",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tout-plaquer-et-aller-prendre-un-bain",
+   "titre": "Tout plaquer et aller prendre un bain",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "toutes-les-princesses-meurent-apres-minuit",
+   "titre": "Toutes les princesses meurent après minuit",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "toutes-pour-un",
+   "titre": "Toutes pour un",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "tracnar-faribol",
+   "titre": "Tracnar & Faribol",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tramp",
+   "titre": "Tramp",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "transitions",
+   "titre": "Transitions",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "traquemage",
+   "titre": "Traquemage",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "travis",
+   "titre": "Travis",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "trees",
+   "titre": "Trees",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "trois-touches-de-noir",
+   "titre": "Trois touches de noir",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "trolls-de-troy",
+   "titre": "Trolls de Troy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tsiganes",
+   "titre": "Tsiganes",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tu-mourras-moins-bete",
+   "titre": "Tu mourras moins bête",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tueurs-de-mamans",
+   "titre": "Tueurs de mamans",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "tulipe",
+   "titre": "Tulipe",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tulipe-et-les-sorciers",
+   "titre": "Tulipe et les sorciers",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "tyler-cross",
+   "titre": "Tyler cross",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ucc-dolores",
+   "titre": "UCC Dolores",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "uchronie-s",
+   "titre": "Uchronie[s]",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "ultimate-spider-man",
+   "titre": "Ultimate Spider-Man",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "umbrella-academy",
+   "titre": "Umbrella academy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-amour-de-guerre",
+   "titre": "Un amour de guerre",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "un-autre-regard",
+   "titre": "Un autre regard",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-avion-sans-elle",
+   "titre": "Un avion sans elle",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "un-coin-de-ciel-bleu",
+   "titre": "Un coin de ciel bleu",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-ete-en-apnee",
+   "titre": "Un été en apnée",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "un-general-des-generaux",
+   "titre": "Un général, des généraux",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "un-grand-bourgogne-oublie",
+   "titre": "Un grand bourgogne oublié",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-loup-pour-l-homme",
+   "titre": "Un loup pour l'homme",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "un-monde-en-pieces",
+   "titre": "Un monde en pièces",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-monde-si-tranquille",
+   "titre": "Un Monde si tranquille",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-monde-terrible-et-beau",
+   "titre": "Un monde terrible et beau",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "un-pays-dans-le-ciel",
+   "titre": "Un pays dans le ciel",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "un-petit-gout-de-noisette",
+   "titre": "Un petit goût de noisette",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-petit-livre-oublie-sur-un-banc",
+   "titre": "Un petit livre oublié sur un banc",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-peu-de-tarte-aux-epinards",
+   "titre": "Un peu de tarte aux épinards",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-polar-a-barcelone",
+   "titre": "Un polar à Barcelone",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-putain-de-salopard",
+   "titre": "Un putain de salopard",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-sac-de-billes",
+   "titre": "Un sac de billes",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "un-travail-comme-un-autre",
+   "titre": "Un travail comme un autre",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "underground",
+   "titre": "Underground",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "undertaker",
+   "titre": "Undertaker",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "une-annee-avec-les-raspberry",
+   "titre": "Une année avec les Raspberry",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "une-apres-midi-d-ete",
+   "titre": "Une après-midi d'été",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-aventure-de-blake-et-mortimer-a-new-york-d-apres-les-personnages-d-edgar-p-jacobs",
+   "titre": "Une aventure de Blake et Mortimer à New York : d'après les personnages d'Edgar P. Jacobs",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "une-aventure-de-mystere-et-boule-de-gomme",
+   "titre": "Une aventure de Mystère et Boule de Gomme",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-demi-douzaine-d-elles",
+   "titre": "Une demi-douzaine d'elles",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "une-erreur-de-parcours",
+   "titre": "Une erreur de parcours",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-histoire-d-amour",
+   "titre": "Une histoire d'amour",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-histoire-de-l-ile-d-errance",
+   "titre": "Une histoire de l'île d'Errance",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "une-histoire-du-nationalisme-corse",
+   "titre": "Une histoire du nationalisme corse",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-histoire-du-sexe",
+   "titre": "Une histoire du sexe",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-ile-sur-la-volga",
+   "titre": "Une île sur la Volga",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-maternite-rouge",
+   "titre": "Une maternité rouge",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-nuit-a-rome",
+   "titre": "Une nuit à Rome",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "une-romance-anglaise",
+   "titre": "Une romance anglaise",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "une-vie-winston-smith-1903-1984-la-biographie-retrouvee",
+   "titre": "Une vie : Winston Smith, 1903-1984 : la biographie retrouvée",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "une-vie-avec-alexandra-david-neel",
+   "titre": "Une vie avec Alexandra David-Néel",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "une-vie-d-huissier",
+   "titre": "Une vie d'huissier",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "unico",
+   "titre": "Unico",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vague-d-amour",
+   "titre": "Vague d'amour",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "val-les-chevaliers",
+   "titre": "Val & les chevaliers",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "valentine",
+   "titre": "Valentine",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "vampyria-inquisition",
+   "titre": "Vampyria inquisition",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "venom",
+   "titre": "Venom",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "verdun",
+   "titre": "Verdun",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "vernon-subutex",
+   "titre": "Vernon Subutex",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "verts",
+   "titre": "Verts",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "vertu-de-st-cyr",
+   "titre": "Vertu de St-Cyr",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "vierges",
+   "titre": "Vierges",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "vikings-dans-la-brume",
+   "titre": "Vikings dans la brume",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "villevermine",
+   "titre": "VilleVermine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "violette-morris",
+   "titre": "Violette Morris",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "visa-transit",
+   "titre": "Visa transit",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "voleuse",
+   "titre": "Voleuse",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "voyageur",
+   "titre": "Voyageur",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "w0rldtr33",
+   "titre": "W0rldtr33",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "walking-dead",
+   "titre": "Walking dead",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "walking-dead-clementine",
+   "titre": "Walking Dead - Clementine",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "wanted-lucky-luke",
+   "titre": "Wanted Lucky Luke",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "wat",
+   "titre": "Wat",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "we-live",
+   "titre": "We live",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "we-only-find-them-when-they-re-dead",
+   "titre": "We only find them when they're dead",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "weena",
+   "titre": "Weena",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "west-weird-enforcement-special-team",
+   "titre": "WEST : Weird Enforcement Special Team",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "west-fantasy",
+   "titre": "West Fantasy",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "what-a-wonderful-world",
+   "titre": "What a wonderful world !",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "wika",
+   "titre": "Wika",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "wild-west",
+   "titre": "Wild West",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "wild-west-dragons",
+   "titre": "Wild West dragons",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "wilderman",
+   "titre": "Wilderman",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "wilderness",
+   "titre": "Wilderness",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "wollodrin",
+   "titre": "Wollodrïn",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "woman-world",
+   "titre": "Woman world",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "wonder-woman-rebirth",
+   "titre": "Wonder Woman Rebirth",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "wonderball",
+   "titre": "Wonderball",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "work-in-progress",
+   "titre": "Work in progress",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "world-of-warcraft",
+   "titre": "World of Warcraft",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "world-war-wolves",
+   "titre": "World war wolves",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "worm",
+   "titre": "Worm",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "wormworld-saga",
+   "titre": "Wormworld saga",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "x-men",
+   "titre": "X-Men",
+   "public": "Ado",
+   "type": "Série"
+  },
+  {
+   "id": "xiii",
+   "titre": "XIII",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "xiii-mystery",
+   "titre": "XIII mystery",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "y-le-dernier-homme",
+   "titre": "Y, le dernier homme",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "yezidie",
+   "titre": "Yézidie !",
+   "public": "Ado",
+   "type": "One shot"
+  },
+  {
+   "id": "yiya",
+   "titre": "Yiya",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "yuan-journal-d-une-adoption",
+   "titre": "Yuan, journal d'une adoption",
+   "public": "Adulte",
+   "type": "One shot"
+  },
+  {
+   "id": "zeropedia",
+   "titre": "Zéropédia",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "zoe-carrington",
+   "titre": "Zoé Carrington",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "zombies",
+   "titre": "Zombies",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "zombies-nechronologies",
+   "titre": "Zombies Néchronologies",
+   "public": "Adulte",
+   "type": "Série"
+  },
+  {
+   "id": "zombillenium",
+   "titre": "Zombillénium",
+   "public": "Ado",
+   "type": "Série"
+  }
+ ]
+}

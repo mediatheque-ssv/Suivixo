@@ -1,8 +1,9 @@
 # Suivixo
 
-Suivi des séries de la médiathèque de Servon-sur-Vilaine : quels tomes sont où, ce qui manque, ce qu'il faut acheter. Trois collections, au choix en haut du site :
+Suivi des séries de la médiathèque de Servon-sur-Vilaine : quels tomes sont où, ce qui manque, ce qu'il faut acheter. Quatre collections, au choix en haut du site :
 
 - **Mangas** : tout le réseau (Châteaugiron, Domloup, Noyal-sur-Vilaine, Ossé, Piré-Chancé, Servon-sur-Vilaine, St-Aubin du Pavail), avec AniList, Manga-News et la BnF ;
+- **BD ado-adulte** : tout le réseau, comme les mangas, mais avec la BnF (pas AniList ni Manga-News) et le suivi des intercalaires, comme la BD jeunesse ;
 - **BD jeunesse** et **Romans jeunesse** : Servon seulement, avec la BnF. Les titres uniques (romans, albums) peuvent être masqués dans les filtres.
 
 Suivixo remplace le classeur Excel « MangaV2-3 » (créé par Erick Bagliniere) par un site web, sans macros.
@@ -53,8 +54,9 @@ assets/core.js             la logique : lecture d'Orphée, rattachement des titr
 data/series.json           mangas : les séries et ce qui est saisi à la main
 data/fonds.json            mangas : le dernier import Orphée enregistré (tomes par médiathèque)
 data/enrich.json           mangas : les infos AniList, Manga-News et BnF (écrit par la vérification automatique)
-data/bd/, data/romans/     les mêmes fichiers pour la BD et les romans jeunesse
-couvertures/               les couvertures françaises (couvertures/bd/, couvertures/romans/ pour les autres collections)
+data/bd/, data/romans/,    les mêmes fichiers pour la BD jeunesse, les romans jeunesse
+data/bdadulte/             et la BD ado-adulte
+couvertures/               les couvertures françaises (couvertures/bd/, couvertures/romans/, couvertures/bdadulte/ pour les autres collections)
 scripts/enrich.py          la vérification automatique des parutions
 scripts/seed_from_excel.mjs  la migration depuis l'ancien Excel (déjà faite)
 .github/workflows/         la vérification planifiée du lundi

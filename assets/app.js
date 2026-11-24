@@ -1,5 +1,5 @@
 // Suivixo — interface
-import * as C from "./core.js?v=26";
+import * as C from "./core.js?v=27";
 import { publier, verifierCle, lancerVerification, lireFichier as lireFichierDepot, executionsDepuis, etatExecution } from "./github.js?v=5";
 
 // ---------------------------------------------------------------------------
@@ -15,6 +15,8 @@ const COLLECTIONS = {
   mangas: { nom: "Mangas", des: "des mangas du réseau", titre: "Les mangas", dossier: "data/", couv: "couvertures/", reseau: true, mangas: true },
   bd: { nom: "BD jeunesse", des: "des BD jeunesse", titre: "Les BD jeunesse", dossier: "data/bd/", couv: "couvertures/bd/", reseau: false, intercalaires: true },
   romans: { nom: "Romans jeunesse", des: "des romans jeunesse", titre: "Les romans jeunesse", dossier: "data/romans/", couv: "couvertures/romans/", reseau: false },
+  // BD ado-adulte : tout le réseau (comme les mangas), sources de la BD jeunesse (BnF, Decitre, ePagine)
+  bdadulte: { nom: "BD ado-adulte", des: "des BD ado-adulte du réseau", titre: "Les BD ado-adulte", dossier: "data/bdadulte/", couv: "couvertures/bdadulte/", reseau: true, intercalaires: true },
 };
 const COL_ID = (() => {
   try {
@@ -462,7 +464,7 @@ function rendreSeries() {
       <button type="button" data-statut="" aria-pressed="${!p.statut}"><span class="pt pt-tout"></span>Toutes <span class="nb">${nf.format(base.length)}</span></button>
       ${ORDRE_STATUT.filter((k) => comptes[k]).map((k) => `<button type="button" data-statut="${k}" aria-pressed="${p.statut === k}"><span class="pt pt-${k}"></span>${C.STATUTS[k]} <span class="nb">${nf.format(comptes[k])}</span></button>`).join("")}
     </div>
-    ${ailleurs.length ? `<p class="note-recherche">${liste.length ? "Aussi" : `Aucune série présente à ${h(bib)} ne correspond, mais`} ${pluriel(ailleurs.length, "série")} ${COL.reseau ? "ailleurs dans le réseau" : "sans exemplaire"} : ${ailleurs.slice(0, 5).map((v) => `<button type="button" class="btn-lien" data-serie="${h(v.s.id)}">${h(v.s.titre)}</button>${v.presence === "reseau" ? ` <span class="discret">(${h(Object.keys(v.f?.tomes || {}).filter((b) => (v.f.tomes[b] || []).length).map(court).join(", "))})</span>` : ""}`).join(", ")}${ailleurs.length > 5 ? "…" : ""}
+    ${ailleurs.length ? `<p class="note-recherche">${liste.length ? "Aussi" : `Aucune série présente à ${h(bib)} ne correspond, mais`} ${pluriel(ailleurs.length, "série")} ${COL.reseau ? "ailleurs dans le réseau" : "sans exemplaire"} : ${ailleurs.slice(0, 5).map((v) => `<button type="button" class="btn-lien" data-serie="${h(v.s.id)}">${h(v.s.titre)}</button>${v.presence === "reseau" && bibsAvec(v.f).length ? ` <span class="discret">(${h(bibsAvec(v.f).map(court).join(", "))})</span>` : ""}`).join(", ")}${ailleurs.length > 5 ? "…" : ""}
       <button type="button" class="btn-lien" data-action="voir-partout">Les afficher dans la liste</button></p>` : ""}
     ${!liste.length && !ailleurs.length ? `<p class="vide">Aucune série ne correspond. Essaie d'élargir les filtres.</p>` : !liste.length ? ""
       : grille ? `<div class="grille">${liste.slice(0, etat.limite).map(carteSerie).join("")}</div>`
@@ -556,6 +558,13 @@ function phraseStatut(v) {
     if (COL.reseau && v.manquantsReseau.length) morceaux.push(`Absents de tout le réseau : ${C.listeCompacte(v.manquantsReseau)}.`);
   }
   return morceaux.join(" ");
+}
+
+/** Médiathèques qui ont au moins un exemplaire de la série (tomes numérotés, sans numéro ou hors-série). */
+function bibsAvec(f) {
+  const b = new Set();
+  for (const champ of ["tomes", "sansNumero", "hs"]) for (const [bib, l] of Object.entries(f?.[champ] || {})) if (l?.length) b.add(bib);
+  return [...b].sort((x, y) => x.localeCompare(y, "fr"));
 }
 
 function ouvrirFiche(id) {

@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       collection:
-        description: "Collection (toutes = mangas, puis BD jeunesse, puis romans jeunesse)"
+        description: "Collection (toutes = mangas, BD jeunesse, romans jeunesse, puis BD ado-adulte)"
         type: choice
-        options: [toutes, mangas, bd, romans]
+        options: [toutes, mangas, bd, romans, bdadulte]
         default: toutes
       machines:
         description: "Nombre de machines en parallèle (pour un premier passage long ; chacune interroge la BnF à son rythme)"
@@ -103,9 +103,10 @@ jobs:
           [ "$MACHINES" != "1" ] && ARGS="$ARGS --part $PART/$MACHINES"
           if [ -z "$COLLECTION" ] || [ "$COLLECTION" = "toutes" ]; then
             # passage du lundi : le temps est partagé entre les collections
-            python scripts/enrich.py $ARGS --collection mangas --max-minutes 70 || true
-            python scripts/enrich.py $ARGS --collection bd --max-minutes 25 || true
-            python scripts/enrich.py $ARGS --collection romans --max-minutes 30 || true
+            python scripts/enrich.py $ARGS --collection mangas --max-minutes 55 || true
+            python scripts/enrich.py $ARGS --collection bd --max-minutes 18 || true
+            python scripts/enrich.py $ARGS --collection romans --max-minutes 25 || true
+            python scripts/enrich.py $ARGS --collection bdadulte --max-minutes 35 || true
           else
             python scripts/enrich.py $ARGS --collection "$COLLECTION"
           fi
@@ -115,7 +116,7 @@ jobs:
         run: |
           git config user.name "suivixo-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          FICHIERS="data/enrich.json data/bd/enrich.json data/romans/enrich.json"
+          FICHIERS="data/enrich.json data/bd/enrich.json data/romans/enrich.json data/bdadulte/enrich.json"
           if [ -z "$(git status --porcelain data couvertures 2>/dev/null | grep -E 'enrich.json|couvertures')" ]; then echo "Rien de nouveau."; exit 0; fi
           mkdir -p /tmp/fusion /tmp/couv
           for f in $FICHIERS; do

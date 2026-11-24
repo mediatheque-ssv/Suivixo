@@ -1120,8 +1120,8 @@ def main() -> int:
     ap.add_argument("--couvertures", action="store_true", help="chercher seulement les couvertures qui manquent (Manga-News compris)")
     ap.add_argument("--series", default="", help="revérifier et enregistrer ces séries (identifiants séparés par des virgules)")
     ap.add_argument("--part", default="", help="k/n : ne traiter qu'une part des séries (plusieurs machines en parallèle)")
-    ap.add_argument("--collection", default="mangas", choices=["mangas", "bd", "romans"],
-                    help="mangas (AniList, Manga-News, BnF) ; bd et romans jeunesse (BnF et couvertures seulement)")
+    ap.add_argument("--collection", default="mangas", choices=["mangas", "bd", "romans", "bdadulte"],
+                    help="mangas (AniList, Manga-News, BnF) ; bd, romans jeunesse et bdadulte (BnF et couvertures seulement)")
     args = ap.parse_args()
 
     global DATA, DOSSIER_COUV
