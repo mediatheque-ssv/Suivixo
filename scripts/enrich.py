@@ -56,6 +56,30 @@ def mots(t: str) -> str:
     return " ".join(w for w in s.split() if len(w) > 1 or w.isdigit())[:120]
 
 
+# « BD Le journal d'Aurélie Laflamme », « Roman Titeuf » : préfixe de rangement d'Orphée pour une adaptation,
+# absent du titre à la BnF. Il dit aussi ce qu'on cherche : la BD (et pas le roman du même nom), ou l'inverse.
+PREFIXE_NATURE = re.compile(r"^(bd|comics?|manga|roman)\s+(?=\S)", re.I)
+
+
+def sans_prefixe(t: str) -> str:
+    return PREFIXE_NATURE.sub("", t or "").strip()
+
+
+def nature_prefixe(t: str) -> str | None:
+    m = PREFIXE_NATURE.match(t or "")
+    return None if not m else ("texte" if m.group(1).lower() == "roman" else "bd")
+
+
+ROMAINS = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8, "ix": 9, "x": 10, "xi": 11, "xii": 12}
+
+
+def cle_c(t: str) -> str:
+    """cle() où « cycle III » vaut « cycle 3 » : Orphée et la BnF ne numérotent pas toujours pareil les parties d'une série."""
+    t = re.sub(r"\b(cycle|tome|livre|partie|saison|volume|[eé]pisode|arc)\s+([ivx]+)\b",
+               lambda m: f"{m.group(1)} {ROMAINS.get(m.group(2).lower(), m.group(2))}", t or "", flags=re.I)
+    return cle(t)
+
+
 def titres_de(serie: dict) -> list[str]:
     out = [serie["titre"], *serie.get("alias", [])]
     for t in list(out):
@@ -609,12 +633,44 @@ def norm_editeur(e: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s)
 
 
+def nature(f: dict) -> str | None:
+    """« bd » ou « texte » d'après la zone 105 (positions 4 à 7, « t » = bande dessinée) ; None si elle n'est pas codée.
+    Sépare une BD du roman du même nom chez le même éditeur (Cherub, Le journal d'Aurélie Laflamme)."""
+    # « z » (autre) se trouve aussi sur des BD : le genre « Bandes dessinées » (608) l'emporte
+    if any(GENRE_BD.match(sans_accents((o.get("a") or [""])[0])) for o in f.get("608", [])):
+        return "bd"
+    a = premier(f, "105", "a")
+    codes = a[4:8].replace("|", "").strip() if len(a) >= 8 else ""
+    return None if not codes else ("bd" if "t" in codes else "texte")
+
+
+GENRE_BD = re.compile(r"(bandes? dessinees?|mangas?|comics|romans? graphiques?)\b", re.I)
+
+
+def assembles(f: dict) -> set[str]:
+    """Titres de sous-série reconstitués : « Walking dead » + « Clementine », « Les 5 terres » + « cycle 1, Angleon »,
+    « Les reines de sang » + « Catherine de Médicis » + « la reine maudite ». Orphée les nomme « Série - Sous-série »."""
+    a, e = premier(f, "200", "a"), premier(f, "200", "e")
+    out = {cle_c(f"{a} {e}")} if e else set()
+    for tag, code in (("461", "t"), ("225", "a")):
+        for o in f.get(tag, []):
+            p = (o.get(code) or [""])[0]
+            if p:
+                out |= {cle_c(f"{p} {a}"), cle_c(f"{p} {a} {e}")} | {cle_c(f"{p} {x}") for x in o.get("e") or [] if x}
+    return out - {""}
+
+
 def lire_notice(rd: ET.Element) -> dict:
     """Les zones utiles d'une notice BnF (UNIMARC)."""
     f = champs(rd)
     ark = next((m.group(0) for el in rd.iter() if sans_ns(el.tag) == "controlfield" and el.get("tag") == "003"
                 for m in [re.search(r"ark:/12148/[a-z0-9]+", el.text or "")] if m), None)
-    return {"titre": premier(f, "200", "a"), "serie": premier(f, "461", "t") or premier(f, "225", "a"),
+    # La série : lien 461, sinon collection numérotée (225 avec un numéro). Une collection sans numéro
+    # (« Urban indies ») est celle de l'éditeur : si le titre porte un numéro (« Worldtr33. Volume 01 »), c'est lui la série.
+    c225 = next(((o.get("a") or [""])[0] for o in f.get("225", []) if (o.get("a") or [""])[0] and (o.get("v") or [""])[0]), "")
+    serie = premier(f, "461", "t") or c225 or (premier(f, "200", "a") if numero(premier(f, "200", "h")) is not None else "") \
+        or premier(f, "225", "a")
+    return {"titre": premier(f, "200", "a"), "serie": serie, "assembles": assembles(f),
             "editeur": premier(f, "214", "c") or premier(f, "210", "c"), "ark": ark,
             "annee": numero_annee(premier(f, "214", "d") or premier(f, "210", "d")),
             "isbn": re.sub(r"[^0-9Xx]", "", premier(f, "010", "a")) or None}
@@ -635,25 +691,61 @@ def notice_par_isbn(isbn: str, debug: bool = False) -> dict | None:
 
 def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
                 isbns_orphee: list[str] | None = None, rattrapage: bool = True,
-                numeros_orphee: dict[str, int] | None = None) -> dict | None:
+                numeros_orphee: dict[str, int] | None = None, cherche: str | None = None) -> dict | None:
     """Tomes parus à la BnF. Avec les ISBN d'Orphée, on garde l'édition qui contient nos exemplaires ;
     si la recherche par titre ne la trouve pas (titre trop courant : « Ambre », « Albert »…), on lit la
-    notice de notre ISBN pour connaître le vrai titre de la série à la BnF, et on cherche avec lui."""
+    notice de notre ISBN pour connaître le vrai titre de la série à la BnF, et on cherche avec lui.
+    `cherche` : autre titre pour la requête (la série mère d'une sous-série, le titre BnF de notre ISBN),
+    reconnu en plus des nôtres."""
     nos_isbn = set(isbns_orphee or [])
-    titres = titres_de(serie)
+    forts = [t for t in [serie["titre"], *serie.get("alias", [])] if t]
+    forts += [sans_prefixe(t) for t in forts if sans_prefixe(t) and sans_prefixe(t) != t]
+    # « BD Bob l'éponge » : « Bob l'éponge, la BD ! » à la BnF
+    forts += [f"{sans_prefixe(t)} {x}" for t in forts[:1] if sans_prefixe(t) != t
+              for x in ("la BD", "la bande dessinée", "le manga", "le roman", "BD")]
+    # `cherche` (le titre de la série à la BnF, donné par la notice de notre ISBN) est aussi reconnu ;
+    # ses notices d'autres sous-séries sont écartées plus bas
+    titres = titres_de({**serie, "alias": forts[1:] + ([cherche] if cherche else [])})
     cles_ok = {cle(t) for t in titres}
-    requete = f'bib.title all "{mots(serie["titre"])}" and (bib.doctype="a")'
+    cles_fortes = {cle(t) for t in forts}
+    cles_sous = {cle_c(t) for t in forts}
+    def req(t: str) -> str:
+        return f'bib.title all "{mots(t)}" and (bib.doctype="a")'
+    # le préfixe « BD », « Roman »… d'Orphée n'est pas dans le titre à la BnF : on cherche sans lui
+    # (avec lui seulement si cela ne donne rien)
+    prefixe = not cherche and sans_prefixe(serie["titre"]) != serie["titre"]
+    titre_cherche = cherche or (sans_prefixe(serie["titre"]) if prefixe else serie["titre"])
+    requete = req(titre_cherche)
     exclus = EXCLUS_ROMANS if DATA.name == "romans" else EXCLUS
     mots_serie = {m.lower() for t in titres for m in exclus.findall(t)}
     tomes: list[dict] = []
     debut, total = 1, None
+    def nb(r: ET.Element) -> int:
+        return int(next((e.text for e in r.iter() if sans_ns(e.tag) == "numberOfRecords"), "0") or 0)
     while True:
         racine = bnf_page(requete, debut)
         if total is None:
-            n = next((e.text for e in racine.iter() if sans_ns(e.tag) == "numberOfRecords"), "0")
-            total = int(n or 0)
+            total = nb(racine)
             if debug:
                 dbg(f"    BnF {requete} -> {total} notices")
+            if not total and prefixe:
+                titre_cherche = serie["titre"]
+                requete = req(titre_cherche)
+                racine = bnf_page(requete, debut)
+                total = nb(racine)
+                if debug:
+                    dbg(f"    BnF {requete} -> {total} notices")
+            # titre trop courant (« Jour J » cherché comme « jour ») : on ne lirait que les 600 premières
+            # notices, sans doute pas les nôtres ; on ajoute l'éditeur d'Orphée
+            jet = [m for m in re.findall(r"[a-z]+", sans_accents((editeur_orphee or "").split("\n")[0]).lower())
+                   if len(m) >= 3 and m not in MOTS_EDITEUR_COURANTS]
+            if total > 600 and jet:
+                q2 = requete.replace(' and (bib.doctype="a")', f' and bib.publisher all "{jet[0]}" and (bib.doctype="a")')
+                r2 = bnf_page(q2, 1)
+                if nb(r2):
+                    requete, racine, total = q2, r2, nb(r2)
+                    if debug:
+                        dbg(f"    BnF {requete} -> {total} notices")
         recs = [e for e in racine.iter() if sans_ns(e.tag) == "recordData"]
         for rd in recs:
             f = champs(rd)
@@ -673,9 +765,21 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
                 continue
             if EDITEURS_KIOSQUE.search(premier(f, "214", "c") or premier(f, "210", "c")):
                 continue
-            if not ({cle(titre), cle(serie_t)} & cles_ok):
+            h = numero(premier(f, "200", "h"))
+            sous_de = None
+            # titre de sous-série reconstitué : « Les 5 terres » + « cycle III, Arnor »
+            asm = bool(assembles(f) & cles_sous)
+            if not ({cle(titre), cle(serie_t)} & cles_ok) and not asm:
                 continue
-            num = (numero(la_notre[1]) if la_notre else None) or numero(premier(f, "200", "h"))
+            if asm:
+                # sous-série (« Walking dead » + « Clementine. Tome 2 ») : son numéro est celui de la zone 200,
+                # sinon celui de la série mère (« Les 5 terres ; 7 », cycle II)
+                num = h or numero(next((v for _, v in occs if v), ""))
+            else:
+                if la_notre and not numero(la_notre[1]) and h is not None and cle(titre) not in cles_ok:
+                    # notre série sans numéro et « Clementine. Tome 2 » : sans doute le numéro d'une de ses sous-séries
+                    sous_de = cle(titre)
+                num = (numero(la_notre[1]) if la_notre else None) or h
             if num is None or num > 300:
                 continue
             editeur = premier(f, "214", "c") or premier(f, "210", "c")
@@ -684,12 +788,59 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
             ark = next((m.group(0) for el in rd.iter() if sans_ns(el.tag) == "controlfield" and el.get("tag") == "003"
                         for m in [re.search(r"ark:/12148/[a-z0-9]+", el.text or "")] if m), None)
             isbn = re.sub(r"[^0-9Xx]", "", premier(f, "010", "a")) or None
-            tomes.append({"n": num, "editeur": editeur, "annee": annee, "creee": creee, "ark": ark, "isbn": isbn})
+            fort = asm or bool({cle(titre), cle(serie_t)} & cles_fortes)
+            tomes.append({"n": num, "editeur": editeur, "annee": annee, "creee": creee, "ark": ark, "isbn": isbn,
+                          "nature": nature(f), "sous": asm, "fort": fort, "sousDe": sous_de, "lien": bool(occs)})
             if debug:
-                dbg(f"      t{num} | {titre} | {serie_t} | {editeur} | {annee} | {creee}")
+                dbg(f"      t{num} | {titre} | {serie_t} | {editeur} | {annee} | {creee} | {nature(f) or '?'}"
+                    f"{' | sous-série' if asm else ''}{' | de ' + sous_de if sous_de else ''}"
+                    f"{' | à nous' if isbn13(isbn) in nos_isbn else ''}")
         debut += 100
         if debut > min(total or 0, 600):
             break
+    # Notre sous-série trouvée : les notices reconnues seulement par un titre raccourci (« Les 5 Terres »
+    # pour « Les 5 Terres : Cycle III - Arnor ») sont celles des autres parties de la série.
+    # Sauf la notice encore incomplète (sans lien de série) d'un tome qui vient de paraître juste après les nôtres.
+    if any(t["sous"] for t in tomes):
+        haut = max(t["n"] for t in tomes if t["fort"])
+        tomes = [t for t in tomes if t["fort"] or isbn13(t["isbn"]) in nos_isbn
+                 or (not t["lien"] and haut < t["n"] <= haut + 2)]
+    # Série mère dont les sous-séries ont leurs propres numéros (« Les reines de sang » + « Isabelle. 2 ») :
+    # si nos exemplaires sont dans une sous-série, on ne garde qu'elle ; s'ils sont numérotés dans la série
+    # mère (Walking dead), on écarte les sous-séries. Un titre qui ne revient qu'une fois est celui d'un tome.
+    nums_de: dict[str, set[int]] = {}
+    for t in tomes:
+        if t["sousDe"]:
+            nums_de.setdefault(t["sousDe"], set()).add(t["n"])
+    vraies = {k for k, v in nums_de.items() if len(v) >= 2}
+    if vraies and nos_isbn:
+        a_nous = [t for t in tomes if isbn13(t["isbn"]) in nos_isbn]
+        dans = {t["sousDe"] for t in a_nous if t["sousDe"] in vraies}
+        if dans and not any(t["sousDe"] not in vraies for t in a_nous):
+            tomes = [t for t in tomes if t["sousDe"] in dans]
+        elif a_nous and not dans:
+            tomes = [t for t in tomes if t["sousDe"] not in vraies]
+        if debug:
+            dbg(f"    BnF : sous-séries {sorted(vraies)}, les nôtres {sorted(dans)}")
+    # BD ou roman : celle de nos exemplaires (ou celle que dit le préfixe d'Orphée). Le roman du même nom
+    # chez le même éditeur (Cherub chez Casterman) reprend les mêmes numéros : on l'écarte. Si les numéros
+    # ne se recouvrent pas, c'est seulement un codage irrégulier d'une même série : on garde tout.
+    nat = [t["nature"] for t in tomes if t["nature"] and isbn13(t["isbn"]) in nos_isbn]
+    defaut = "texte" if DATA.name == "romans" else "bd"
+    voulue = max(sorted(set(nat)), key=lambda x: (nat.count(x), x == defaut)) if nat \
+        else (nature_prefixe(serie["titre"]) if prefixe else None)
+    if voulue:
+        a_nous = {t["n"] for t in tomes if t["nature"] == voulue}
+        autres = {t["n"] for t in tomes if t["nature"] and t["nature"] != voulue}
+        if a_nous and len(a_nous & autres) * 2 >= len(a_nous):
+            if debug:
+                dbg(f"    BnF : on garde les notices « {voulue} » ({len(a_nous)} numéros), pas les autres ({len(autres)})")
+            # le codage n'est pas toujours régulier : on garde nos exemplaires quoi qu'il arrive, et les
+            # numéros manquants avant le dernier de la bonne nature (un tome 2 codé « autre » entre 1 et 3)
+            haut = max(a_nous)
+            garde = {t["n"] for t in tomes if t["nature"] in (None, voulue)}
+            tomes = [t for t in tomes if t["nature"] in (None, voulue) or isbn13(t["isbn"]) in nos_isbn
+                     or (t["n"] < haut and t["n"] not in garde)]
     # Une série peut exister chez plusieurs éditeurs (rééditions) : on garde celle qui contient
     # nos ISBN, sinon celle de l'éditeur d'Orphée, sinon celle qui a le plus de tomes.
     groupes: dict[str, list[dict]] = {}
@@ -717,9 +868,11 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
             if not n:
                 continue
             titre_bnf = n["serie"] or n["titre"]
-            if titre_bnf and cle(titre_bnf) not in {cle(t) for t in titres}:
-                autre = notices_bnf({**serie, "titre": titre_bnf, "alias": []}, n["editeur"] or editeur_orphee, volumes_vo,
-                                    debug, isbns_orphee, rattrapage=False, numeros_orphee=numeros_orphee)
+            # on cherche avec ce titre (« Walking dead » pour « Walking Dead - Clementine », « Bob l'éponge, la BD ! »),
+            # en continuant de reconnaître le nôtre : si c'est une sous-série, on ne gardera qu'elle
+            if titre_bnf and mots(titre_bnf) != mots(titre_cherche):
+                autre = notices_bnf(serie, n["editeur"] or editeur_orphee, volumes_vo, debug, isbns_orphee,
+                                    rattrapage=False, numeros_orphee=numeros_orphee, cherche=titre_bnf)
                 if autre and autre.get("accordIsbn"):
                     autre["titreBnf"] = titre_bnf
                     return autre
@@ -745,8 +898,9 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
     g = groupes[choix]
     if accord:
         # Série reconnue grâce à nos ISBN : on y joint ses autres éditions chez le même éditeur sous un
-        # autre nom (« Castor poche », « Castor poche-Flammarion », « Flammarion » ; « PKJ », « Pocket jeunesse »).
-        famille = {choix}
+        # autre nom (« Castor poche », « Castor poche-Flammarion », « Flammarion » ; « PKJ », « Pocket jeunesse »),
+        # et celles d'un autre éditeur où sont aussi nos exemplaires (Yakari, de Casterman au Lombard).
+        famille = {choix} | {k for k, v in communs.items() if v}
         jetons = {k: {j for t in v for j in jetons_editeur(t["editeur"])} for k, v in groupes.items() if k}
         a_voir = [choix]
         while a_voir:
@@ -805,12 +959,15 @@ def notice_titre_unique(serie: dict, editeur_orphee: str, auteur: str = "", debu
             return {"dernier": 1, "tomes": "1", "dateDernier": str(n["annee"]) if n["annee"] else None, "editeur": n["editeur"], "notices": 1,
                     "ark1": c["ark"], "isbn1": c["isbn"], "candidatsCouv": [c], "accordIsbn": True,
                     "requete": f'bib.isbn all "{i}"'}
-    requete = f'bib.title all "{mots(serie["titre"])}" and (bib.doctype="a")'
     nom = max(jetons_nom(auteur), key=len, default="")
-    if nom:
-        requete += f' and bib.author all "{nom}"'
+    def req(t: str) -> str:
+        return f'bib.title all "{mots(t)}" and (bib.doctype="a")' + (f' and bib.author all "{nom}"' if nom else "")
+    requete = req(serie["titre"])
     racine = bnf_page(requete, 1)
-    cles_ok = {cle(t) for t in titres_de(serie)}
+    if not any(sans_ns(e.tag) == "recordData" for e in racine.iter()) and sans_prefixe(serie["titre"]) != serie["titre"]:
+        requete = req(sans_prefixe(serie["titre"]))  # « BD Le rapport de Brodeck » : « Le rapport de Brodeck » à la BnF
+        racine = bnf_page(requete, 1)
+    cles_ok = {cle(t) for t in titres_de(serie)} | {cle(sans_prefixe(serie["titre"]))}
     eo = norm_editeur(editeur_orphee)
     trouves = []
     for rd in (e for e in racine.iter() if sans_ns(e.tag) == "recordData"):
@@ -1281,6 +1438,8 @@ def main() -> int:
             if not one_shot or not mangas:
                 try:
                     vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
+                    if vo and maxi > vo:
+                        vo = None  # AniList a trouvé une autre série (« Kaitou Lupin », 1 tome, pour nos 2 tomes d'Arsène Lupin)
                     nos = [i for _, i in isbns]
                     if one_shot:
                         e["bnf"] = notice_titre_unique(s, editeur, auteur, debug, nos)
