@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T17:52:54Z",
+ "maj": "2026-11-24T18:17:13Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "1629-ou-l-effrayante-histoire-des-naufrages-du-jakarta": {
@@ -1943,7 +1943,44 @@
    },
    "couvVersion": 4,
    "couvIsbn": "9782847891034,9782847899467,9782756003696",
-   "couvEssai": "2026-11-24"
+   "couvEssai": "2026-11-24",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2009-11",
+    "editeur": "Delcourt",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb39232528t",
+    "isbn1": "284789103X",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39232528t",
+      "isbn": "284789103X"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb40130268f",
+      "isbn": "2847899464"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb41173225v",
+      "isbn": "9782756003696"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb42102532d",
+      "isbn": "9782756012643"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"alim le tanneur\" and (bib.doctype=\"a\")"
+   }
   },
   "alisik": {
    "bnf": {
@@ -2272,6 +2309,40 @@
     "maj": "2026-11-24"
    },
    "couvEssaiMN": ""
+  },
+  "amants-d-herouville": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782413003472",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782413003472",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "Delcourt",
+    "notices": 1,
+    "ark1": "ark:/12148/cb46717743m",
+    "isbn1": "9782413003472",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46717743m",
+      "isbn": "9782413003472"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782413003472\""
+   }
   },
   "amazigh": {
    "couvIsbn": "9782368463369",
@@ -9923,6 +9994,38 @@
     "isbn": "9782803634088",
     "orphee": true,
     "maj": "2026-11-24"
+   },
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2016-01",
+    "editeur": "le Lombard",
+    "notices": 2,
+    "autresEditeurs": [
+     "Ed. de la revue moderne",
+     "Saint-Honoré éditions",
+     "Éditions Baudelaire",
+     "Éditions Saint Honoré"
+    ],
+    "ark1": "ark:/12148/cb43498900v",
+    "isbn1": "9782803634088",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43498900v",
+      "isbn": "9782803634088"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44484644m",
+      "isbn": "9782803635627"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"chant du cygne\" and (bib.doctype=\"a\")"
    }
   },
   "chant-du-monde": {
@@ -11019,6 +11122,40 @@
    "couvVersion": 4,
    "couvIsbn": "9782368463598",
    "bnfVerifie": "2026-11-24"
+  },
+  "chroniques-de-wormwood": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782491374174",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782491374174",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "Komics initiative",
+    "notices": 1,
+    "ark1": "ark:/12148/cb467442287",
+    "isbn1": "9782491374174",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb467442287",
+      "isbn": "9782491374174"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782491374174\""
+   }
   },
   "chroniques-du-monde-emerge": {
    "bnf": {
@@ -13800,6 +13937,27 @@
     "isbn": "9782711200214",
     "orphee": true,
     "maj": "2026-11-24"
+   },
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "les Arènes BD",
+    "notices": 1,
+    "ark1": "ark:/12148/cb45720853k",
+    "isbn1": "9782711200214",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45720853k",
+      "isbn": "9782711200214"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782711200214\""
    }
   },
   "curiosity-shop": {
@@ -14086,7 +14244,44 @@
    },
    "couvVersion": 4,
    "couvIsbn": "9782723427654",
-   "couvEssai": "2026-11-24"
+   "couvEssai": "2026-11-24",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "bnf": {
+    "dernier": 10,
+    "tomes": "1-6,8-10",
+    "dateDernier": "2002",
+    "editeur": "Glénat",
+    "notices": 9,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb34944608p",
+    "isbn1": "2723409147",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb34944608p",
+      "isbn": "2723409147"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb350588576",
+      "isbn": "2723411109"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb356948693",
+      "isbn": "2723414469"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb39064382t",
+      "isbn": "272342765X"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"dampierre\" and (bib.doctype=\"a\")"
+   }
   },
   "dans-la-gueule-du-loup": {
    "bnf": {
@@ -16555,6 +16750,27 @@
    "couvIsbn": "9782330102784",
    "bnfVerifie": "2026-11-24"
   },
+  "ecroees-a-tintin": {
+   "couvFR": {
+    "source": "Decitre",
+    "isbn": "9782906064485",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782906064485",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"ecroees tintin\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
+   }
+  },
   "ecuyere": {
    "bnf": {
     "dernier": 1,
@@ -18855,6 +19071,51 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "feul": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782845659865",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782845659865,9782849467060,9782302002289",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2009-02",
+    "editeur": "Soleil",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb39962092c",
+    "isbn1": "2845659865",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39962092c",
+      "isbn": "2845659865"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb409762412",
+      "isbn": "9782849467060"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb414236452",
+      "isbn": "9782302002289"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"feul\" and (bib.doctype=\"a\")"
+   }
+  },
   "fille-de-l-exposition-universelle": {
    "couvIsbn": "9782818945209,9782818967102,9782818976999",
    "verifie": "2026-11-24",
@@ -19435,6 +19696,56 @@
    "couvVersion": 4,
    "couvIsbn": "9782350782355,9782350782713,9782350783895",
    "bnfVerifie": "2026-11-24"
+  },
+  "foot-furieux": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 14,
+    "isbn": "9782872654819",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782872654819",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 18,
+    "tomes": "4-18",
+    "dateDernier": "2015-04",
+    "editeur": "Joker éditions",
+    "notices": 17,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43461901w",
+    "isbn1": "2872652914",
+    "candidatsCouv": [
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb43461901w",
+      "isbn": "2872652914"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb434625073",
+      "isbn": "2872653163"
+     },
+     {
+      "n": 6,
+      "ark": "ark:/12148/cb43463093c",
+      "isbn": "2872653171"
+     },
+     {
+      "n": 7,
+      "ark": "ark:/12148/cb434635258",
+      "isbn": "2872653414"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"foot furieux\" and (bib.doctype=\"a\")"
+   }
   },
   "forcats": {
    "bnf": {
@@ -22896,7 +23207,28 @@
    },
    "couvVersion": 4,
    "couvIsbn": "9782413022497",
-   "couvEssai": "2026-11-24"
+   "couvEssai": "2026-11-24",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2020",
+    "editeur": "Éditions Delcourt",
+    "notices": 1,
+    "ark1": "ark:/12148/cb46500311n",
+    "isbn1": "9782413022497",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46500311n",
+      "isbn": "9782413022497"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782413022497\""
+   }
   },
   "histoire-s-de-femmes": {
    "bnf": {
@@ -24405,7 +24737,34 @@
    },
    "couvVersion": 4,
    "couvIsbn": "9782226453990,9782226477002",
-   "couvEssai": "2026-11-24"
+   "couvEssai": "2026-11-24",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2022-11",
+    "editeur": "Albin Michel",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47003690m",
+    "isbn1": "9782226453990",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47003690m",
+      "isbn": "9782226453990"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb471327924",
+      "isbn": "9782226477002"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"institutrice\" and (bib.doctype=\"a\")"
+   }
   },
   "intelligences-artificielles": {
    "bnf": {
@@ -25148,6 +25507,40 @@
    "couvVersion": 4,
    "couvIsbn": "9782490735235,9782382331934",
    "bnfVerifie": "2026-11-24"
+  },
+  "jardin-paris": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782413022534",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782413022534",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "Delcourt",
+    "notices": 1,
+    "ark1": "ark:/12148/cb46688315s",
+    "isbn1": "9782413022534",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46688315s",
+      "isbn": "9782413022534"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782413022534\""
+   }
   },
   "jason-brice": {
    "bnf": {
@@ -27544,6 +27937,58 @@
    "couvIsbn": "9782075152594,9782075156318",
    "bnfVerifie": "2026-11-24"
   },
+  "lila": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782756080215",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782756080215,9782756086897,9782413007975",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 9,
+    "tomes": "1-9",
+    "dateDernier": "2025-10",
+    "editeur": "Delcourt",
+    "notices": 9,
+    "autresEditeurs": [
+     "Milena Lopis"
+    ],
+    "ark1": "ark:/12148/cb451207689",
+    "isbn1": "9782756080215",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb451207689",
+      "isbn": "9782756080215"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45358580h",
+      "isbn": "9782756086897"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45573771n",
+      "isbn": "9782413007975"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45796730j",
+      "isbn": "9782413013051"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"lila\" and (bib.doctype=\"a\")"
+   }
+  },
   "lisa-et-mohamed": {
    "bnf": {
     "dernier": 1,
@@ -28128,6 +28573,56 @@
    "couvIsbn": "9782344025543,9782344036853,9782344045329",
    "bnfVerifie": "2026-11-24"
   },
+  "luuna": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782302014381",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782302014381,9782302014398,9782302014404",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 9,
+    "tomes": "1-9",
+    "dateDernier": "2017-10",
+    "editeur": "Soleil",
+    "notices": 21,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb423535054",
+    "isbn1": "9782302014381",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb423535054",
+      "isbn": "9782302014381"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42332379g",
+      "isbn": "9782302012943"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb434724327",
+      "isbn": "9782302002654"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb411584256",
+      "isbn": "9782849469675"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"luuna\" and (bib.doctype=\"a\")"
+   }
+  },
   "lycornes": {
    "bnf": {
     "dernier": 1,
@@ -28533,6 +29028,56 @@
    "couvIsbn": "9782205083750",
    "bnfVerifie": "2026-11-24"
   },
+  "maitres-de-l-orge": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782723414258",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782723414258,9782723416269,9782723417402",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2014-12",
+    "editeur": "Glénat",
+    "notices": 18,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb442376517",
+    "isbn1": "9782344004531",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb442376517",
+      "isbn": "9782344004531"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb388273254",
+      "isbn": "272343334X"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb35543783x",
+      "isbn": "2723414256"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb442376381",
+      "isbn": "9782344004548"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"maitres de orge\" and (bib.doctype=\"a\")"
+   }
+  },
   "maitres-de-white-plain": {
    "bnf": {
     "dernier": 2,
@@ -28714,6 +29259,41 @@
    "couvVersion": 4,
    "couvIsbn": "9782888909439,9782888909446,9782888909484",
    "bnfVerifie": "2026-11-24"
+  },
+  "mamie-n-a-plus-toute-sa-tete": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205204490",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205204490",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2024-06",
+    "editeur": "Dargaud",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb474995654",
+    "isbn1": "9782205204490",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb474995654",
+      "isbn": "9782205204490"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"mamie plus toute sa tete\" and (bib.doctype=\"a\")"
+   }
   },
   "maori": {
    "bnf": {
@@ -28955,6 +29535,57 @@
     "requete": "bib.isbn all \"9782374180427\""
    }
   },
+  "marvel-ultimates": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782809409840",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782809409840",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2024-09",
+    "editeur": "Panini comics",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47467120z",
+    "isbn1": "9791039126038",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47467120z",
+      "isbn": "9791039126038"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42236080n",
+      "isbn": "9782809409840"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb400866247",
+      "isbn": "2845385994"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb475139957",
+      "isbn": "9791039126083"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"ultimates\" and (bib.doctype=\"a\")",
+    "titreBnf": "Ultimates"
+   }
+  },
   "masques": {
    "bnf": {
     "dernier": 4,
@@ -29119,6 +29750,58 @@
     ],
     "accordIsbn": true,
     "requete": "bib.title all \"mayam\" and (bib.doctype=\"a\")"
+   }
+  },
+  "medee": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782203058194",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782203058194,9782203074699,9782203097162",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2019-09",
+    "editeur": "Casterman",
+    "notices": 6,
+    "autresEditeurs": [
+     "Manolosanctis"
+    ],
+    "ark1": "ark:/12148/cb43722801j",
+    "isbn1": "9782203058194",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43722801j",
+      "isbn": "9782203058194"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44255262q",
+      "isbn": "9782203074699"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42222557b",
+      "isbn": "9782203022188"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45118374v",
+      "isbn": "9782203097162"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"medee\" and (bib.doctype=\"a\")"
    }
   },
   "megafauna": {
@@ -29412,7 +30095,44 @@
    },
    "couvVersion": 4,
    "couvIsbn": "9782205066319,9782205070491,9782205072228",
-   "couvEssai": "2026-11-24"
+   "couvEssai": "2026-11-24",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "bnf": {
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2017-02",
+    "editeur": "Dargaud",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb427443922",
+    "isbn1": "9782205066319",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb427443922",
+      "isbn": "9782205066319"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb436111897",
+      "isbn": "9782205070491"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43843372h",
+      "isbn": "9782205072228"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb44474644d",
+      "isbn": "9782205073904"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"mermaid project\" and (bib.doctype=\"a\")"
+   }
   },
   "mes-premieres-fois": {
    "bnf": {
@@ -29480,6 +30200,54 @@
     ],
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782075167789\""
+   }
+  },
+  "metamorphes": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782382332283",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782382332283,9782382332986",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2026-07",
+    "editeur": "Drakoo",
+    "notices": 3,
+    "autresEditeurs": [
+     "Librinova",
+     "Lucioles editions"
+    ],
+    "ark1": "ark:/12148/cb475030450",
+    "isbn1": "9782382332283",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb475030450",
+      "isbn": "9782382332283"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48577571g",
+      "isbn": "9782382332986"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb48812803w",
+      "isbn": "9782382333693"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"metamorphes\" and (bib.doctype=\"a\")"
    }
   },
   "metamorphoses-1858": {
@@ -29688,6 +30456,51 @@
     "accordIsbn": true,
     "requete": "bib.title all \"michel vaillant\" and (bib.doctype=\"a\")",
     "titreBnf": "Michel Vaillant"
+   }
+  },
+  "middlewest": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782381330068",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782381330068,9782381330150",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2021-07",
+    "editeur": "Urban comics",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46612278h",
+    "isbn1": "9782381330068",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46612278h",
+      "isbn": "9782381330068"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46706795d",
+      "isbn": "9782381330150"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46838873n",
+      "isbn": "9782381330198"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"middlewest\" and (bib.doctype=\"a\")"
    }
   },
   "millenaire": {
@@ -29914,6 +30727,58 @@
     "requete": "bib.title all \"mister mammoth\" and (bib.doctype=\"a\")"
    }
   },
+  "mistinguette": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "isbn": "9782874428913",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782874428913,9782822228084,9782822232661",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 15,
+    "tomes": "1-15",
+    "dateDernier": "2024-11",
+    "editeur": "Jungle",
+    "notices": 17,
+    "autresEditeurs": [
+     "Splash !"
+    ],
+    "ark1": "ark:/12148/cb455910186",
+    "isbn1": "9782822226004",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb455910186",
+      "isbn": "9782822226004"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42386073k",
+      "isbn": "9782874427367"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45847205b",
+      "isbn": "9782822228480"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb426055816",
+      "isbn": "9782874428913"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"mistinguette\" and (bib.doctype=\"a\")"
+   }
+  },
   "mitsuo": {
    "bnf": {
     "dernier": 2,
@@ -30042,6 +30907,46 @@
     ],
     "accordIsbn": true,
     "requete": "bib.title all \"moi ce que aime est les monstres\" and (bib.doctype=\"a\")"
+   }
+  },
+  "moi-fadi-le-frere-vole": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782959133725",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782959133725",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2024",
+    "editeur": "les Livres du futur",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47652182f",
+    "isbn1": "9782959133763",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47652182f",
+      "isbn": "9782959133763"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47573921x",
+      "isbn": "9782959133725"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"moi fadi le frere vole\" and (bib.doctype=\"a\")"
    }
   },
   "moi-rene-tardi-prisonnier-de-guerre-au-stalag-ii-b": {
@@ -30336,6 +31241,40 @@
    "couvIsbn": "9782203124202,9782203166684,9782203166691",
    "bnfVerifie": "2026-11-24"
   },
+  "monde-sans-fin": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205088168",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205088168",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "Dargaud",
+    "notices": 1,
+    "ark1": "ark:/12148/cb468897353",
+    "isbn1": "9782205088168",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb468897353",
+      "isbn": "9782205088168"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782205088168\""
+   }
+  },
   "monde-selon-ch-ro": {
    "bnf": {
     "dernier": null,
@@ -30492,6 +31431,28 @@
     ],
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782818967409\""
+   }
+  },
+  "monsieur-leon": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9791038204553",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9791038204553",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"monsieur leon\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    }
   },
   "monstress": {
@@ -30746,6 +31707,40 @@
     ],
     "accordIsbn": true,
     "requete": "bib.title all \"motherfucker\" and (bib.doctype=\"a\")"
+   }
+  },
+  "mots-rumeurs-mots-cutter": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782354882365",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782354882365",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2014",
+    "editeur": "Gulf stream éd.",
+    "notices": 1,
+    "ark1": "ark:/12148/cb43857496z",
+    "isbn1": "9782354882365",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43857496z",
+      "isbn": "9782354882365"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782354882365\""
    }
   },
   "murena": {
@@ -31163,6 +32158,40 @@
     "requete": "bib.title all \"naufrages du metropolitain\" and (bib.doctype=\"a\")"
    }
   },
+  "ne-m-oublie-pas": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782803676231",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782803676231",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "le Lombard",
+    "notices": 1,
+    "ark1": "ark:/12148/cb46697970j",
+    "isbn1": "9782803676231",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46697970j",
+      "isbn": "9782803676231"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782803676231\""
+   }
+  },
   "neandertal": {
    "bnf": {
     "dernier": 3,
@@ -31307,6 +32336,51 @@
     ],
     "accordIsbn": true,
     "requete": "bib.isbn all \"9782803672530\""
+   }
+  },
+  "new-york-trilogie": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782756009513",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782756009513,9782756009520,9782756009537",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2008-11",
+    "editeur": "Delcourt",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb41225535m",
+    "isbn1": "9782756009513",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb41225535m",
+      "isbn": "9782756009513"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb41298826n",
+      "isbn": "9782756009520"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb41371277z",
+      "isbn": "9782756009537"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"new york trilogie\" and (bib.doctype=\"a\")"
    }
   },
   "nico": {
@@ -31463,6 +32537,40 @@
     ],
     "accordIsbn": true,
     "requete": "bib.title all \"noir burlesque\" and (bib.doctype=\"a\")"
+   }
+  },
+  "noir-comme-l-eau-la-nuit": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782357991415",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782357991415",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2024",
+    "editeur": "Kinaye",
+    "notices": 1,
+    "ark1": "ark:/12148/cb47523487f",
+    "isbn1": "9782357991415",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47523487f",
+      "isbn": "9782357991415"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782357991415\""
    }
   },
   "nom-de-la-rose": {
@@ -31715,6 +32823,46 @@
     ],
     "accordIsbn": true,
     "requete": "bib.title all \"notre amerique\" and (bib.doctype=\"a\")"
+   }
+  },
+  "notre-dame": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782723479202",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782723479202,9782723487795",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2014-07",
+    "editeur": "Glénat",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb427052283",
+    "isbn1": "9782723479202",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb427052283",
+      "isbn": "9782723479202"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb438615871",
+      "isbn": "9782723487795"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"notre dame\" and (bib.doctype=\"a\")"
    }
   },
   "nous-aurons-toujours-20-ans": {
@@ -32214,6 +33362,82 @@
    "couvIsbn": "9782302043121,9782302048492,9782302072732",
    "bnfVerifie": "2026-11-24"
   },
+  "oh-les-filles": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782754801324",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782754801324,9782754801898",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2009-07",
+    "editeur": "Futuropolis",
+    "notices": 2,
+    "autresEditeurs": [
+     "Le Lombard"
+    ],
+    "ark1": "ark:/12148/cb41205183z",
+    "isbn1": "9782754801324",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb41205183z",
+      "isbn": "9782754801324"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42014351n",
+      "isbn": "9782754801898"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"oh les filles\" and (bib.doctype=\"a\")"
+   }
+  },
+  "oies-cendrees": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782754841818",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782754841818",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025",
+    "editeur": "Futuropolis",
+    "notices": 1,
+    "ark1": "ark:/12148/cb48596436v",
+    "isbn1": "9782754841818",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48596436v",
+      "isbn": "9782754841818"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782754841818\""
+   }
+  },
   "oiseau-rare": {
    "couvIsbn": "9782818975442,9782818978191",
    "verifie": "2026-11-24",
@@ -32530,6 +33754,51 @@
     ],
     "accordIsbn": true,
     "requete": "bib.isbn all \"9791095397021\""
+   }
+  },
+  "ontophage": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782848102238",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782848102238,9782848103372,9782848104348",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2013-07",
+    "editeur": "EP éd.",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42571776g",
+    "isbn1": "9782848102238",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42571776g",
+      "isbn": "9782848102238"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42608138p",
+      "isbn": "9782848103372"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43636775t",
+      "isbn": "9782848104348"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"ontophage\" and (bib.doctype=\"a\")"
    }
   },
   "operation-copperhead": {
@@ -32945,6 +34214,40 @@
    },
    "couvEssaiMN": ""
   },
+  "orwell": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205072525",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205072525",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "Dargaud",
+    "notices": 1,
+    "ark1": "ark:/12148/cb45755920q",
+    "isbn1": "9782205072525",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45755920q",
+      "isbn": "9782205072525"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782205072525\""
+   }
+  },
   "ou-sont-passes-les-grands-jours": {
    "bnf": {
     "dernier": 2,
@@ -33096,6 +34399,52 @@
     "notices": 0,
     "requete": "bib.title all \"palestine\" and (bib.doctype=\"a\")",
     "accordIsbn": false
+   }
+  },
+  "pandemonium": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782355927607",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782355927607,9782355927980",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2015-03",
+    "editeur": "Ki-oon",
+    "notices": 2,
+    "autresEditeurs": [
+     "Soleil",
+     "Tokebi",
+     "l'Oeil du prince",
+     "les Humanoïdes associés",
+     "Éd. associatives Clapàs"
+    ],
+    "ark1": "ark:/12148/cb44219210m",
+    "isbn1": "9782355927607",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44219210m",
+      "isbn": "9782355927607"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb443031178",
+      "isbn": "9782355927980"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"pandemonium\" and (bib.doctype=\"a\")"
    }
   },
   "paracuellos": {
@@ -33601,6 +34950,40 @@
    "couvIsbn": "9782344038628",
    "bnfVerifie": "2026-11-24"
   },
+  "patient-zero": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782344045350",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782344045350",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "Glénat",
+    "notices": 1,
+    "ark1": "ark:/12148/cb46703208j",
+    "isbn1": "9782344045350",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46703208j",
+      "isbn": "9782344045350"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782344045350\""
+   }
+  },
   "patrie-des-freres-werner": {
    "couvIsbn": "9782754828246",
    "verifie": "2026-11-24",
@@ -33792,6 +35175,40 @@
     "notices": 0,
     "requete": "bib.title all \"pepe carvalho\" and (bib.doctype=\"a\")",
     "accordIsbn": false
+   }
+  },
+  "pepouze": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782095038786",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782095038786",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026",
+    "editeur": "Nathan bande dessinée",
+    "notices": 1,
+    "ark1": "ark:/12148/cb487641813",
+    "isbn1": "9782095038786",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb487641813",
+      "isbn": "9782095038786"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782095038786\""
    }
   },
   "persepolis": {
@@ -34375,6 +35792,40 @@
    "couvIsbn": "9782359103991,9782359107616,9782359109207",
    "bnfVerifie": "2026-11-24"
   },
+  "phagocytose": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782369902553",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782369902553",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2018",
+    "editeur": "Çà et là",
+    "notices": 1,
+    "ark1": "ark:/12148/cb45635765j",
+    "isbn1": "9782369902553",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45635765j",
+      "isbn": "9782369902553"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782369902553\""
+   }
+  },
   "phonogram": {
    "bnf": {
     "dernier": 1,
@@ -34813,6 +36264,85 @@
     "requete": "bib.title all \"playlist\" and (bib.doctype=\"a\")"
    }
   },
+  "pleine-lune": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205068696",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205068696",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2014-02",
+    "editeur": "Dargaud",
+    "notices": 2,
+    "autresEditeurs": [
+     "Marie F.A",
+     "Nathan",
+     "Nathan Jeunesse",
+     "Vanessa Giffaut"
+    ],
+    "ark1": "ark:/12148/cb42768775z",
+    "isbn1": "9782205068696",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42768775z",
+      "isbn": "9782205068696"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43773942p",
+      "isbn": "9782205071535"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"pleine lune\" and (bib.doctype=\"a\")"
+   }
+  },
+  "plongeon": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782818978993",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782818978993",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "Bamboo édition",
+    "notices": 1,
+    "ark1": "ark:/12148/cb466886597",
+    "isbn1": "9782818978993",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb466886597",
+      "isbn": "9782818978993"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782818978993\""
+   }
+  },
   "plunge": {
    "bnf": {
     "dernier": 1,
@@ -35025,6 +36555,40 @@
     "notices": 0,
     "requete": "bib.title all \"poser mon sac\" and (bib.doctype=\"a\")",
     "accordIsbn": false
+   }
+  },
+  "pot-bouille": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9791037500625",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9791037500625",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2020",
+    "editeur": "les Arènes BD",
+    "notices": 1,
+    "ark1": "ark:/12148/cb465356250",
+    "isbn1": "9791037500625",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb465356250",
+      "isbn": "9791037500625"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9791037500625\""
    }
   },
   "potager-rocambole": {
@@ -35515,6 +37079,40 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "protocole-commotion": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782413077794",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782413077794",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2023",
+    "editeur": "Delcourt",
+    "notices": 1,
+    "ark1": "ark:/12148/cb47318112c",
+    "isbn1": "9782413077794",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47318112c",
+      "isbn": "9782413077794"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782413077794\""
+   }
+  },
   "pucelle": {
    "bnf": {
     "dernier": 2,
@@ -35675,6 +37273,28 @@
     ],
     "accordIsbn": true,
     "requete": "bib.title all \"putain de chat\" and (bib.doctype=\"a\")"
+   }
+  },
+  "putain-de-guerre": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782203017399",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782203017399,9782203020405",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"putain de guerre\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    }
   },
   "quand-je-serai-grande-je-serai-patrick-swayze": {
@@ -35994,6 +37614,74 @@
     "requete": "bib.isbn all \"9782205210866\""
    }
   },
+  "quitter-la-baie": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782330141233",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782330141233",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2020",
+    "editeur": "Actes Sud",
+    "notices": 1,
+    "ark1": "ark:/12148/cb46656523v",
+    "isbn1": "9782330141233",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46656523v",
+      "isbn": "9782330141233"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782330141233\""
+   }
+  },
+  "racines-de-la-colere": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782711201266",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782711201266",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "les Arènes",
+    "notices": 1,
+    "ark1": "ark:/12148/cb45703362g",
+    "isbn1": "9782711201266",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45703362g",
+      "isbn": "9782711201266"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782711201266\""
+   }
+  },
   "radium-girls": {
    "bnf": {
     "dernier": 1,
@@ -36303,6 +37991,62 @@
    "couvIsbn": "9782413044482,9782413077220,9782413084846",
    "bnfVerifie": "2026-11-24"
   },
+  "renaissance": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205078022",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205078022,9782205078633,9782205085082",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2023-06",
+    "editeur": "Dargaud",
+    "notices": 6,
+    "autresEditeurs": [
+     "Claire Stride",
+     "Fae Storm",
+     "Rebelle",
+     "Rebelle éditions",
+     "le Lys bleu éditions"
+    ],
+    "ark1": "ark:/12148/cb456362015",
+    "isbn1": "9782205078022",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb456362015",
+      "isbn": "9782205078022"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45812172c",
+      "isbn": "9782205078633"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb466266434",
+      "isbn": "9782205085082"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46849575z",
+      "isbn": "9782205089103"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"renaissance\" and (bib.doctype=\"a\")"
+   }
+  },
   "rencontres-obliques": {
    "bnf": {
     "dernier": 1,
@@ -36607,6 +38351,51 @@
     "requete": "bib.isbn all \"9782369819028\""
    }
   },
+  "retour-au-centre-de-la-terre": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782723495264",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782723495264,9782344001608,9782344010662",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2016-09",
+    "editeur": "Glénat",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43739654g",
+    "isbn1": "9782723495264",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43739654g",
+      "isbn": "9782723495264"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44335808b",
+      "isbn": "9782344001608"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45118244n",
+      "isbn": "9782344010662"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"retour au centre de la terre\" and (bib.doctype=\"a\")"
+   }
+  },
   "retour-sur-aldebaran-cycle-5": {
    "bnf": {
     "dernier": 3,
@@ -36665,6 +38454,29 @@
    "couvVersion": 4,
    "couvIsbn": "9782723482479,9782723492904",
    "couvEssai": "2026-11-24"
+  },
+  "revolution": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782330117375",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782330117375,9782330171094",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"revolution\" and (bib.doctype=\"a\")",
+    "accordIsbn": false,
+    "ecartee": "Vestron, 3 notices"
+   }
   },
   "rip": {
    "bnf": {
@@ -36768,6 +38580,56 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "roger-et-ses-humains": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782800164199",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782800164199,9782800167299",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2020-12",
+    "editeur": "Dupuis",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45593244s",
+    "isbn1": "9791034735716",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45593244s",
+      "isbn": "9791034735716"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb44461689f",
+      "isbn": "9782800164199"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45590081q",
+      "isbn": "9782800167299"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb466716329",
+      "isbn": "9791034743629"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"roger et ses humains\" and (bib.doctype=\"a\")"
+   }
   },
   "roi-des-bourdons": {
    "bnf": {
@@ -36887,6 +38749,41 @@
    "couvVersion": 4,
    "couvIsbn": "9791034746316,9791034753949,9791034767151",
    "bnfVerifie": "2026-11-24"
+  },
+  "roi-meduse": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782330185138",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782330185138",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2024-01",
+    "editeur": "Actes Sud",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47406371x",
+    "isbn1": "9782330185138",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47406371x",
+      "isbn": "9782330185138"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"roi meduse\" and (bib.doctype=\"a\")"
+   }
   },
   "roman-des-goscinny": {
    "bnf": {
@@ -37234,6 +39131,28 @@
     "requete": "bib.title all \"rugbymen\" and (bib.doctype=\"a\")"
    }
   },
+  "s-a-m": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "isbn": "9782205067392",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205067392",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
+   }
+  },
   "sacha-guitry-une-vie-en-bande-dessinee": {
    "bnf": {
     "dernier": 1,
@@ -37267,6 +39186,56 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "saga-valta": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782803630332",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782803630332,9782803632381,9782803636648",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2017-08",
+    "editeur": "le Lombard",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42684989g",
+    "isbn1": "9782803630332",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42684989g",
+      "isbn": "9782803630332"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43482072k",
+      "isbn": "9782803630288"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43871077j",
+      "isbn": "9782803632381"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb453378962",
+      "isbn": "9782803636648"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"saga valta\" and (bib.doctype=\"a\")"
+   }
   },
   "saint-rose": {
    "bnf": {
@@ -37353,6 +39322,59 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "sanctuaire": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782731614589",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782731614589,9782731661446,9782731663082",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2004-09",
+    "editeur": "les Humanoïdes associés",
+    "notices": 4,
+    "autresEditeurs": [
+     "Bragelonne",
+     "Hugo Roman"
+    ],
+    "ark1": "ark:/12148/cb39097698c",
+    "isbn1": "2731614587",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39097698c",
+      "isbn": "2731614587"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb39116043q",
+      "isbn": "2731661445"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb392414097",
+      "isbn": "2731663081"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb392286317",
+      "isbn": "2731663693"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"sanctuaire\" and (bib.doctype=\"a\")"
+   }
   },
   "sang-des-batisseurs": {
    "couvIsbn": "9782749305257,9782749306087",
@@ -37497,6 +39519,56 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "scalped": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9791026810698",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9791026810698,9791026811381,9791026811718",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 10,
+    "tomes": "1-10",
+    "dateDernier": "2014",
+    "editeur": "Urban",
+    "notices": 27,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47652029q",
+    "isbn1": "9782365778992",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47652029q",
+      "isbn": "9782365778992"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb468060573",
+      "isbn": "9791026810698"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb427013888",
+      "isbn": "9782365770354"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42148739n",
+      "isbn": "9782809411041"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"scalped\" and (bib.doctype=\"a\")"
+   }
+  },
   "science-fiction": {
    "bnf": {
     "dernier": 1,
@@ -37615,6 +39687,46 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "secrets-l-ecorche": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "isbn": "9782800139340",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782800139340",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2007-09",
+    "editeur": "Dupuis",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb401534909",
+    "isbn1": "2800137576",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb401534909",
+      "isbn": "2800137576"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb41105610z",
+      "isbn": "9782800139340"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"secrets ecorche\" and (bib.doctype=\"a\")"
+   }
   },
   "secrets-le-serpent-sous-la-glace": {
    "bnf": {
@@ -37857,6 +39969,55 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "sequana": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782848101804",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782848101804,9782848102214,9782848102580",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2009",
+    "editeur": "EP éd.",
+    "notices": 3,
+    "autresEditeurs": [
+     "Grasset",
+     "Société des lettres et des arts",
+     "Société des lettres et des arts, Éditions Sequana"
+    ],
+    "ark1": "ark:/12148/cb412780606",
+    "isbn1": "9782848101804",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb412780606",
+      "isbn": "9782848101804"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb414932411",
+      "isbn": "9782848102214"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42634413t",
+      "isbn": "9782848102580"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"sequana\" and (bib.doctype=\"a\")"
+   }
+  },
   "serment-des-lampions": {
    "bnf": {
     "dernier": 1,
@@ -37941,6 +40102,60 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "seuls": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782800136929",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782800136929,9782800139135,9782800140490",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 13,
+    "tomes": "1-13",
+    "dateDernier": "2021-11",
+    "editeur": "Dupuis",
+    "notices": 26,
+    "autresEditeurs": [
+     "Rue de Sèvres",
+     "[Éd. France loisirs]",
+     "Éd. France loisirs"
+    ],
+    "ark1": "ark:/12148/cb47192828j",
+    "isbn1": "9791034769339",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47192828j",
+      "isbn": "9791034769339"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45729852d",
+      "isbn": "9791034742233"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45183624c",
+      "isbn": "9782800170459"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43406847w",
+      "isbn": "9782800148571"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"seuls\" and (bib.doctype=\"a\")"
+   }
+  },
   "shanghai-dream": {
    "bnf": {
     "dernier": 2,
@@ -37974,6 +40189,56 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "sherman": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782803627660",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782803627660,9782803627677,9782803628179",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2018-07",
+    "editeur": "Le Lombard",
+    "notices": 9,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb434824882",
+    "isbn1": "9782803631797",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb434824882",
+      "isbn": "9782803631797"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb423550324",
+      "isbn": "9782803627660"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42355036h",
+      "isbn": "9782803627677"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42426152t",
+      "isbn": "9782803628179"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"sherman\" and (bib.doctype=\"a\")"
+   }
   },
   "shi": {
    "bnf": {
@@ -38109,6 +40374,56 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "silex-and-the-city": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205061383",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205061383,9782205064513,9782205068160",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 10,
+    "tomes": "1-10",
+    "dateDernier": "2024-09",
+    "editeur": "Dargaud",
+    "notices": 10,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42055032m",
+    "isbn1": "9782205061383",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42055032m",
+      "isbn": "9782205061383"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42348533c",
+      "isbn": "9782205064513"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42733329v",
+      "isbn": "9782205068160"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb436525464",
+      "isbn": "9782205071306"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"silex and the city\" and (bib.doctype=\"a\")"
+   }
+  },
   "simone": {
    "bnf": {
     "dernier": 3,
@@ -38228,6 +40543,59 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "sir-arthur-benton": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782848100791",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782848100791,9782848101170,9782848101460",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2006-12",
+    "editeur": "EP éd.",
+    "notices": 4,
+    "autresEditeurs": [
+     "EP Emmanuel Proust éditions",
+     "Nouveau monde éditions"
+    ],
+    "ark1": "ark:/12148/cb399471588",
+    "isbn1": "2848100796",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb399471588",
+      "isbn": "2848100796"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43546566b",
+      "isbn": "9782848103655"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb400983003",
+      "isbn": "2848101172"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb409535156",
+      "isbn": "2848101466"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"sir arthur benton\" and (bib.doctype=\"a\")"
+   }
+  },
   "sirene-des-pompiers": {
    "bnf": {
     "dernier": 1,
@@ -38345,6 +40713,40 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "soeurs-d-ys": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782810217403",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782810217403",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2020",
+    "editeur": "Rue de Sèvres",
+    "notices": 1,
+    "ark1": "ark:/12148/cb466120481",
+    "isbn1": "9782810217403",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb466120481",
+      "isbn": "9782810217403"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782810217403\""
+   }
   },
   "soeurs-gremillet": {
    "bnf": {
@@ -38475,6 +40877,80 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "songes-du-roi-griffu": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782413024163",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782413024163,9782413048435",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2024-01",
+    "editeur": "Delcourt",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46958162n",
+    "isbn1": "9782413024163",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46958162n",
+      "isbn": "9782413024163"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47397087d",
+      "isbn": "9782413048435"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"songes du roi griffu\" and (bib.doctype=\"a\")"
+   }
+  },
+  "soon": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205078749",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205078749",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "Dargaud",
+    "notices": 1,
+    "ark1": "ark:/12148/cb45833419d",
+    "isbn1": "9782205078749",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45833419d",
+      "isbn": "9782205078749"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782205078749\""
+   }
   },
   "sorcier-de-terremer": {
    "couvIsbn": "9782253130017",
@@ -38634,6 +41110,56 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "space-boy": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782355744730",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782355744730,9782355744761,9782355744969",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 14,
+    "tomes": "1-14",
+    "dateDernier": "2026-03",
+    "editeur": "Akileos",
+    "notices": 14,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46620223z",
+    "isbn1": "9782355744730",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46620223z",
+      "isbn": "9782355744730"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46748157h",
+      "isbn": "9782355744761"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46748274c",
+      "isbn": "9782355744969"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb46787306r",
+      "isbn": "9782355745096"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"space boy\" and (bib.doctype=\"a\")"
+   }
+  },
   "speed-angels": {
    "bnf": {
     "dernier": 2,
@@ -38673,6 +41199,40 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "spinning": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782075092616",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782075092616",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2017",
+    "editeur": "Gallimard",
+    "notices": 1,
+    "ark1": "ark:/12148/cb45390482t",
+    "isbn1": "9782075092616",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45390482t",
+      "isbn": "9782075092616"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782075092616\""
+   }
   },
   "spirou-de": {
    "bnf": {
@@ -38791,6 +41351,46 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "streamliner": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782369815556",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782369815556,9782369815679",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2017-07",
+    "editeur": "Rue de Sèvres",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb452700181",
+    "isbn1": "9782369815556",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb452700181",
+      "isbn": "9782369815556"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45313430n",
+      "isbn": "9782369815679"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"streamliner\" and (bib.doctype=\"a\")"
+   }
+  },
   "superman": {
    "bnf": {
     "dernier": 5,
@@ -38893,6 +41493,40 @@
     "requete": "bib.title all \"sursis\" and (bib.doctype=\"a\")"
    }
   },
+  "suzette-ou-le-grand-amour": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782413036685",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782413036685",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "Éditions Delcourt",
+    "notices": 1,
+    "ark1": "ark:/12148/cb468113139",
+    "isbn1": "9782413036685",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb468113139",
+      "isbn": "9782413036685"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782413036685\""
+   }
+  },
   "sweet-home": {
    "bnf": {
     "dernier": 1,
@@ -38926,6 +41560,58 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "tamara": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782800133300",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782800133300,9782800142609,9782800136387",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 16,
+    "tomes": "1-16",
+    "dateDernier": "2018-06",
+    "editeur": "Dupuis",
+    "notices": 17,
+    "autresEditeurs": [
+     "Évidence éditions"
+    ],
+    "ark1": "ark:/12148/cb39137856x",
+    "isbn1": "2800135654",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39137856x",
+      "isbn": "2800135654"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39014781j",
+      "isbn": "2800133309"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb39120728h",
+      "isbn": "2800134623"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb399142168",
+      "isbn": "2800136383"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"tamara\" and (bib.doctype=\"a\")"
+   }
   },
   "tananarive": {
    "bnf": {
@@ -38995,6 +41681,54 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "tartuffe-de-moliere": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782756010960",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782756010960,9782756010977,9782756010984",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2010-09",
+    "editeur": "Delcourt",
+    "notices": 3,
+    "autresEditeurs": [
+     "AUDECAM"
+    ],
+    "ark1": "ark:/12148/cb413288209",
+    "isbn1": "9782756010960",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb413288209",
+      "isbn": "9782756010960"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42094979b",
+      "isbn": "9782756010977"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb422701495",
+      "isbn": "9782756010984"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"tartuffe\" and (bib.doctype=\"a\")",
+    "titreBnf": "Tartuffe"
+   }
+  },
   "tea-for-two": {
    "bnf": {
     "dernier": 2,
@@ -39034,6 +41768,40 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "telepathes": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782413047933",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782413047933",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2023",
+    "editeur": "Delcourt",
+    "notices": 1,
+    "ark1": "ark:/12148/cb47256762r",
+    "isbn1": "9782413047933",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47256762r",
+      "isbn": "9782413047933"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782413047933\""
+   }
   },
   "tempete": {
    "couvIsbn": "9782490975600",
@@ -39113,6 +41881,40 @@
    "couvVersion": 4,
    "couvIsbn": "9782356480514",
    "bnfVerifie": "2026-11-24"
+  },
+  "temps-des-pivoines": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782344058695",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782344058695",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025",
+    "editeur": "Glénat",
+    "notices": 1,
+    "ark1": "ark:/12148/cb48507270v",
+    "isbn1": "9782344058695",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48507270v",
+      "isbn": "9782344058695"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782344058695\""
+   }
   },
   "temps-du-reve": {
    "bnf": {
@@ -39214,6 +42016,41 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "terre-ou-lune": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782387250087",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782387250087",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-02",
+    "editeur": "Morgen",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48693964x",
+    "isbn1": "9782387250087",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48693964x",
+      "isbn": "9782387250087"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"terre ou lune\" and (bib.doctype=\"a\")"
+   }
+  },
   "terres-d-ogon": {
    "bnf": {
     "dernier": 7,
@@ -39306,6 +42143,41 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "the-nice-house-by-the-sea": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9791026828020",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9791026828020",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025-05",
+    "editeur": "Urban",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48506769s",
+    "isbn1": "9791026828020",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48506769s",
+      "isbn": "9791026828020"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"the nice house by the sea\" and (bib.doctype=\"a\")"
+   }
+  },
   "theo": {
    "bnf": {
     "dernier": 1,
@@ -39340,6 +42212,51 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "therapie-de-groupe": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205084047",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205084047,9782205085228,9782205203394",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2022-11",
+    "editeur": "Dargaud",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb465105075",
+    "isbn1": "9782205084047",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb465105075",
+      "isbn": "9782205084047"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb468113259",
+      "isbn": "9782205085228"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb471374679",
+      "isbn": "9782205203394"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"therapie de groupe\" and (bib.doctype=\"a\")"
+   }
   },
   "thorgal": {
    "bnf": {
@@ -39394,6 +42311,27 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "tisseuse": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9791033530596",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9791033530596",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"tisseuse\" and (bib.doctype=\"a\") and bib.author all \"canaud\""
+   }
   },
   "titeuf": {
    "bnf": {
@@ -39554,6 +42492,40 @@
     ],
     "accordIsbn": true,
     "requete": "bib.title all \"toubibs\" and (bib.doctype=\"a\")"
+   }
+  },
+  "touchees": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782228924481",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782228924481",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "Éditions Payot et rivages",
+    "notices": 1,
+    "ark1": "ark:/12148/cb45802850s",
+    "isbn1": "9782228924481",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45802850s",
+      "isbn": "9782228924481"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782228924481\""
    }
   },
   "tours-de-bois-maury": {
@@ -39764,6 +42736,59 @@
    "couvIsbn": "9782818921579,9782818922217,9782818924105",
    "bnfVerifie": "2026-11-24"
   },
+  "tramp": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205040876",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205040876,9782205040944,9782205043846",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 14,
+    "tomes": "1-14",
+    "dateDernier": "2025-03",
+    "editeur": "Dargaud",
+    "notices": 17,
+    "autresEditeurs": [
+     "Éd. France loisirs",
+     "Éd. du Granit"
+    ],
+    "ark1": "ark:/12148/cb371987247",
+    "isbn1": "2205050850",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb371987247",
+      "isbn": "2205050850"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb35568618t",
+      "isbn": "2205040871"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb40920175m",
+      "isbn": "2205059319"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb357259293",
+      "isbn": "2205040944"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"tramp\" and (bib.doctype=\"a\")"
+   }
+  },
   "traquemage": {
    "bnf": {
     "dernier": 3,
@@ -39936,6 +42961,51 @@
    "couvVersion": 4,
    "couvIsbn": "9782723462853,9782723470773,9782723474801",
    "bnfVerifie": "2026-11-24"
+  },
+  "trois-touches-de-noir": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 2,
+    "isbn": "9782344064092",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782344064092,9782344038109",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2026-08",
+    "editeur": "Glénat",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47450912n",
+    "isbn1": "9782344038109",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47450912n",
+      "isbn": "9782344038109"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47442097n",
+      "isbn": "9782344062531"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48706611j",
+      "isbn": "9782344064092"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"trois touches de noir\" and (bib.doctype=\"a\")"
+   }
   },
   "troisieme-testament": {
    "bnf": {
@@ -40123,6 +43193,40 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "tulipe-et-les-sorciers": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782901000143",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782901000143",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "2024",
+    "notices": 1,
+    "ark1": "ark:/12148/cb458010808",
+    "isbn1": "9782901000143",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb458010808",
+      "isbn": "9782901000143"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782901000143\""
+   }
+  },
   "tuniques-bleues": {
    "bnf": {
     "dernier": 70,
@@ -40228,6 +43332,56 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "umbrella-academy": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782413019749",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782413019749,9782413019732,9782413012962",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2019-10",
+    "editeur": "Delcourt",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45690032p",
+    "isbn1": "9782413019749",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45690032p",
+      "isbn": "9782413019749"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb41447628v",
+      "isbn": "9782756017174"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb456900033",
+      "isbn": "9782413019732"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb42134118v",
+      "isbn": "9782756021508"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"umbrella academy\" and (bib.doctype=\"a\")"
+   }
+  },
   "un-autre-regard": {
    "bnf": {
     "dernier": 2,
@@ -40267,6 +43421,40 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "un-ete-en-apnee": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782848657042",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782848657042",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2014",
+    "editeur": "Sarbacane",
+    "notices": 1,
+    "ark1": "ark:/12148/cb43814547g",
+    "isbn1": "9782848657042",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43814547g",
+      "isbn": "9782848657042"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782848657042\""
+   }
   },
   "un-general-des-generaux": {
    "bnf": {
@@ -40324,6 +43512,40 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "un-monde-terrible-et-beau": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782075139892",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782075139892",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2020",
+    "editeur": "Gallimard bande dessinée",
+    "notices": 1,
+    "ark1": "ark:/12148/cb46852058h",
+    "isbn1": "9782075139892",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46852058h",
+      "isbn": "9782075139892"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782075139892\""
+   }
+  },
   "un-petit-livre-oublie-sur-un-banc": {
    "bnf": {
     "dernier": 2,
@@ -40363,6 +43585,28 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "un-polar-a-barcelone": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782505119777",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782505119777,9782505130796",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"un polar barcelone\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
+   }
   },
   "un-sac-de-billes": {
    "bnf": {
@@ -40408,6 +43652,56 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "undertaker": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782505061373",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782505061373,9782505063544,9782505065388",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 8,
+    "tomes": "1-8",
+    "dateDernier": "2025-09",
+    "editeur": "Dargaud Benelux",
+    "notices": 12,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb442589375",
+    "isbn1": "9782505061373",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb442589375",
+      "isbn": "9782505061373"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44459123v",
+      "isbn": "9782505063544"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb451991479",
+      "isbn": "9782505065388"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb465927384",
+      "isbn": "9782505071471"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"undertaker\" and (bib.doctype=\"a\")"
+   }
   },
   "une-annee-avec-les-raspberry": {
    "bnf": {
@@ -40494,6 +43788,40 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "une-erreur-de-parcours": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205077575",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205077575",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "Dargaud",
+    "notices": 1,
+    "ark1": "ark:/12148/cb458052605",
+    "isbn1": "9782205077575",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb458052605",
+      "isbn": "9782205077575"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782205077575\""
+   }
+  },
   "une-histoire-du-nationalisme-corse": {
    "bnf": {
     "dernier": 1,
@@ -40527,6 +43855,40 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "une-ile-sur-la-volga": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782377312009",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782377312009",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2019",
+    "editeur": "Sarbacane",
+    "notices": 1,
+    "ark1": "ark:/12148/cb45704151h",
+    "isbn1": "9782377312009",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45704151h",
+      "isbn": "9782377312009"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782377312009\""
+   }
   },
   "une-nuit-a-rome": {
    "bnf": {
@@ -40580,6 +43942,58 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "une-vie-avec-alexandra-david-neel": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782818935224",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782818935224,9782818940846,9782818946992",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2020-05",
+    "editeur": "Bamboo édition",
+    "notices": 6,
+    "autresEditeurs": [
+     "Éditions France loisirs"
+    ],
+    "ark1": "ark:/12148/cb455706186",
+    "isbn1": "9782818949788",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb455706186",
+      "isbn": "9782818949788"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45032996m",
+      "isbn": "9782818935224"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45211727x",
+      "isbn": "9782818940846"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb465628212",
+      "isbn": "9782818977545"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"une vie avec alexandra david neel\" and (bib.doctype=\"a\")"
+   }
   },
   "une-vie-d-huissier": {
    "bnf": {
@@ -40755,6 +44169,46 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "vampyria-inquisition": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782302095380",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782302095380,9782302099272",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2023",
+    "editeur": "Soleil",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47108018m",
+    "isbn1": "9782302095380",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47108018m",
+      "isbn": "9782302095380"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb473974776",
+      "isbn": "9782302099272"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"vampyria inquisition\" and (bib.doctype=\"a\")"
+   }
+  },
   "vengeance-de-croc-en-jambe": {
    "bnf": {
     "dernier": 1,
@@ -40928,6 +44382,41 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "vertu-de-st-cyr": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205211504",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205211504",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025-10",
+    "editeur": "Dargaud",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb48611741k",
+    "isbn1": "9782205211504",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb48611741k",
+      "isbn": "9782205211504"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"vertu de st cyr\" and (bib.doctype=\"a\")"
+   }
   },
   "vie-compliquee-de-lea-olivier": {
    "bnf": {
@@ -41258,6 +44747,51 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "visa-transit": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782075130936",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782075130936,9782075130974,9782075152914",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2021-08",
+    "editeur": "Gallimard bande dessinée",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb458051915",
+    "isbn1": "9782075130936",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb458051915",
+      "isbn": "9782075130936"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46630627n",
+      "isbn": "9782075130974"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46851518d",
+      "isbn": "9782075152914"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"visa transit\" and (bib.doctype=\"a\")"
+   }
+  },
   "vol-de-la-cigogne": {
    "couvIsbn": "9782848653778",
    "verifie": "2026-11-24",
@@ -41402,6 +44936,40 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "voyage-avec-bill": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782723471107",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782723471107",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2010",
+    "editeur": "Glénat",
+    "notices": 1,
+    "ark1": "ark:/12148/cb42314897v",
+    "isbn1": "9782723471107",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42314897v",
+      "isbn": "9782723471107"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782723471107\""
+   }
   },
   "voyage-d-abel": {
    "bnf": {
@@ -41566,6 +45134,40 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "wanted-lucky-luke": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782884714778",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782884714778",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2021",
+    "editeur": "Lucky comics",
+    "notices": 1,
+    "ark1": "ark:/12148/cb467613495",
+    "isbn1": "9782884714778",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb467613495",
+      "isbn": "9782884714778"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9782884714778\""
+   }
+  },
   "we-only-find-them-when-they-re-dead": {
    "bnf": {
     "dernier": 2,
@@ -41606,6 +45208,28 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "west-weird-enforcement-special-team": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782205050691",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782205050691,9782205055580,9782205057621",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"west weird enforcement special team\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
+   }
+  },
   "what-a-wonderful-world": {
    "bnf": {
     "dernier": 2,
@@ -41640,6 +45264,42 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "wild-west-dragons": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782344002742",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782344002742",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2018-11",
+    "editeur": "Glénat",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45627885q",
+    "isbn1": "9782344002742",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45627885q",
+      "isbn": "9782344002742"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"black mor chronicles 3e cycle\" and (bib.doctype=\"a\")",
+    "titreBnf": "Black'Mor chronicles, 3e cycle"
+   }
   },
   "wilderman": {
    "bnf": {
@@ -41713,6 +45373,56 @@
    "verifie": "2026-11-24",
    "liensVus": {}
   },
+  "wonderball": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782756039329",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782756039329,9782756039336,9782756065038",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 5,
+    "tomes": "2-5",
+    "dateDernier": "2018-03",
+    "editeur": "Delcourt",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb44316127h",
+    "isbn1": "9782756039336",
+    "candidatsCouv": [
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb44316127h",
+      "isbn": "9782756039336"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb44499541q",
+      "isbn": "9782756065038"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb45193676t",
+      "isbn": "9782756072395"
+     },
+     {
+      "n": 5,
+      "ark": "ark:/12148/cb45471303d",
+      "isbn": "9782756072401"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"wonderball\" and (bib.doctype=\"a\")"
+   }
+  },
   "world-war-wolves": {
    "bnf": {
     "dernier": 4,
@@ -41762,6 +45472,56 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "wormworld-saga": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 3,
+    "isbn": "9782800163284",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782800163284",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2015-11",
+    "editeur": "Dupuis",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43797611z",
+    "isbn1": "9782800161099",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43797611z",
+      "isbn": "9782800161099"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb434978021",
+      "isbn": "9782800161143"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb444591188",
+      "isbn": "9782800163284"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb444284156",
+      "isbn": "9782800166414"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"wormworld saga\" and (bib.doctype=\"a\")"
+   }
   },
   "xiii": {
    "bnf": {
@@ -41891,6 +45651,40 @@
    "couvIsbn": "9782808503273",
    "bnfVerifie": "2026-11-24"
   },
+  "yezidie": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9791034738977",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9791034738977",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2023",
+    "editeur": "Dupuis",
+    "notices": 1,
+    "ark1": "ark:/12148/cb47167873z",
+    "isbn1": "9791034738977",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47167873z",
+      "isbn": "9791034738977"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.isbn all \"9791034738977\""
+   }
+  },
   "yiya": {
    "bnf": {
     "dernier": 2,
@@ -41981,6 +45775,51 @@
    },
    "verifie": "2026-11-24",
    "liensVus": {}
+  },
+  "zombies-nechronologies": {
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "isbn": "9782302038448",
+    "orphee": true,
+    "maj": "2026-11-24"
+   },
+   "couvIsbn": "9782302038448,9782302046573,9782302057845",
+   "couvVersion": 4,
+   "couvEssaiMN": "",
+   "liensVus": {},
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "couvEssai": "2026-11-24",
+   "bnf": {
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2017-01",
+    "editeur": "Soleil",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb434958376",
+    "isbn1": "9782302038448",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb434958376",
+      "isbn": "9782302038448"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb443470420",
+      "isbn": "9782302046573"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb45201265w",
+      "isbn": "9782302057845"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"zombies nechronologies\" and (bib.doctype=\"a\")"
+   }
   }
  }
 }
