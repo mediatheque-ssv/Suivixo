@@ -709,7 +709,7 @@ ul.exemplaires li:last-child { border-bottom: 0; }
   --rayon: 4px; --couv-rayon: 2px; --couv-bord: 1.5px solid #2B1A10;
   --ombre: 7px 7px 0 #2B1A10;
   --ombre-panneau: 3px 3px 0 #2B1A10;
-  --ombre-couv: 3px 3px 0 #4A2A17;
+  --ombre-couv: 3px 3px 0 rgba(74, 42, 23, 0.42); /* ombre nette mais transparente : elle prend la teinte du kraft */
   --ombre-couv-survol: 5px 5px 0 #F28C28;
   /* grain de papier kraft (bruit SVG très léger, sans motif répétitif visible) */
   --fond-motif: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' seed='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.33 0 0 0 0 0.19 0 0 0 0 0.07 0.55 0 0 0 -0.25'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
