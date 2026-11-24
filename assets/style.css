@@ -691,28 +691,29 @@ ul.exemplaires li:last-child { border-bottom: 0; }
   :root[data-collection="romans"] body { background-position: -40px 0, 0 0, 0 0, 0 0; }
 }
 
-/* --- BD ado-adulte : affiche de roman graphique, bandeau orange brûlé sur papier crème, encre brune, hachures --- */
+/* --- BD ado-adulte : affiche de roman graphique, bandeau orange brûlé sur papier kraft, encre brune, hachures --- */
 :root[data-collection="bdadulte"] {
-  --papier: #F8F4EC; --surface: #FFFFFF;
-  --encre: #2B1A10; --encre-2: #5C4130; --encre-3: #7E6553;
-  --filet: #E8DFD2; --filet-fort: #2B1A10;
-  --trame: #C9A585; --trame-fond: #EFE8DC;
-  --prim: #B5400C; --prim-f: #FFE3C7; --jaune: #F28C28; --rouge: #B5400C; --hanko: #A3201C;
-  --nuit: #4A2A17; --survol: #FFF4E8; --focus: #B5400C;
+  --papier: #E8D5B9; --surface: #FBF4E8;
+  --encre: #2B1A10; --encre-2: #5C4130; --encre-3: #6E5644;
+  --filet: #D9C3A2; --filet-fort: #2B1A10;
+  /* pictos « ailleurs dans le réseau » : case claire tramée de brun, bien visible sur le kraft */
+  --trame: #7E5A3C; --trame-fond: #F4E8D6;
+  --prim: #A3380A; --prim-f: #FFE3C7; --jaune: #F28C28; --rouge: #A3380A; --hanko: #A3201C;
+  --nuit: #4A2A17; --survol: #F5E8D3; --focus: #A3380A;
   --s-completer: #A3201C; --s-completer-f: #FBE0DA;
-  --s-continuer: #B5400C; --s-continuer-f: #FFE6D2;
+  --s-continuer: #A3380A; --s-continuer-f: #FFE6D2;
   --s-attente: #2E6E35;   --s-attente-f: #DFF0DD;
   --s-finie: #2B1A10;     --s-finie-f: #EFE3D3;
-  --s-abandonnee: #7E6553; --s-abandonnee-f: #F3EAE0;
+  --s-abandonnee: #6E5644; --s-abandonnee-f: #F3EAE0;
   --s-verifier: #7A5A00;  --s-verifier-f: #FFF0C4;
   --rayon: 4px; --couv-rayon: 2px; --couv-bord: 1.5px solid #2B1A10;
   --ombre: 7px 7px 0 #2B1A10;
   --ombre-panneau: 3px 3px 0 #2B1A10;
   --ombre-couv: 3px 3px 0 #4A2A17;
   --ombre-couv-survol: 5px 5px 0 #F28C28;
-  --fond-motif: repeating-linear-gradient(135deg, rgba(43, 26, 16, 0.045) 0 1px, transparent 1px 7px);
+  --fond-motif: repeating-linear-gradient(135deg, rgba(90, 50, 20, 0.07) 0 1px, transparent 1px 7px);
   --police-titre: "Bebas Neue", var(--police); --titre-graisse: 400; --titre-ombre: 2px 2px 0 #F28C28;
-  --tranche-ici: #B5400C; --tranche-texte: #FFFFFF;
+  --tranche-ici: #A3380A; --tranche-texte: #FFFFFF;
   --entete-fond: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 6px), linear-gradient(100deg, #C9500F, #A8380A);
   --entete-bord: 4px solid #3A2213;
   --entete-texte: #FFFFFF; --entete-texte-2: rgba(255, 255, 255, 0.94); --entete-actif: #FFE0B5;
@@ -733,7 +734,7 @@ ul.exemplaires li:last-child { border-bottom: 0; }
     --papier: #1C130D; --surface: #271A12;
     --encre: #F6E9DA; --encre-2: #D6C4B2; --encre-3: #B09A88;
     --filet: #3C2A1E; --filet-fort: #EDDCC6;
-    --trame: #9A7558; --trame-fond: #33241A;
+    --trame: #C29A72; --trame-fond: #3A2A1E;
     --prim: #FF9C5B; --prim-f: #4A2410; --survol: #33231A; --focus: #FFB57F; --hanko: #FF7A5C;
     --s-completer: #FF8A73; --s-completer-f: #3D1E19;
     --s-continuer: #FF9C5B; --s-continuer-f: #42230F;
