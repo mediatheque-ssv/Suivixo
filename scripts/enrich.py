@@ -525,7 +525,8 @@ def lire_fiche(s: dict, e: dict, forcer: bool = False, debug: bool = False) -> N
 # --------------------------------------------------------------------------- BnF
 
 SRU = "https://catalogue.bnf.fr/api/SRU"
-EXCLUS = re.compile(r"\b(roman|novel|artbook|art book|guide|fanbook|databook|coloriage|anime comics|film|coffret|calendrier|agenda|carnet|light novel)\b", re.I)
+# « roman graphique » (très courant en BD ado-adulte) n'est pas un roman
+EXCLUS = re.compile(r"\b(roman(?!\s+graphique)|(?<!graphic )novel|artbook|art book|guide|fanbook|databook|coloriage|anime comics|film|coffret|calendrier|agenda|carnet|light novel)\b", re.I)
 # romans jeunesse : « roman » est justement ce qu'on cherche (complément de titre « roman » très courant)
 EXCLUS_ROMANS = re.compile(r"\b(artbook|art book|guide|fanbook|databook|coloriage|anime comics|coffret|calendrier|agenda|carnet)\b", re.I)
 # collections vendues en kiosque (« Hachette collections », Altaya…) : numérotation à part, jamais nos livres
@@ -642,6 +643,8 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
     titres = titres_de(serie)
     cles_ok = {cle(t) for t in titres}
     requete = f'bib.title all "{mots(serie["titre"])}" and (bib.doctype="a")'
+    exclus = EXCLUS_ROMANS if DATA.name == "romans" else EXCLUS
+    mots_serie = {m.lower() for t in titres for m in exclus.findall(t)}
     tomes: list[dict] = []
     debut, total = 1, None
     while True:
@@ -665,7 +668,8 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
             la_notre = next(((t, v) for t, v in occs if cle(t) in cles_ok), None)
             serie_t = la_notre[0] if la_notre else (occs[0][0] if occs else "")
             texte = " ".join([titre, premier(f, "200", "e"), premier(f, "200", "i"), serie_t, premier(f, "225", "e")])
-            if (EXCLUS_ROMANS if DATA.name == "romans" else EXCLUS).search(texte):
+            # mot exclu, sauf s'il fait partie du titre de notre série (« Le guide du mauvais père », « Les carnets de Cerise »)
+            if any(m.lower() not in mots_serie for m in exclus.findall(texte)):
                 continue
             if EDITEURS_KIOSQUE.search(premier(f, "214", "c") or premier(f, "210", "c")):
                 continue
