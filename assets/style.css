@@ -691,14 +691,14 @@ ul.exemplaires li:last-child { border-bottom: 0; }
   :root[data-collection="romans"] body { background-position: -40px 0, 0 0, 0 0, 0 0; }
 }
 
-/* --- BD ado-adulte : affiche de roman graphique, orange brûlé et encre brune, hachures, titres d'affiche --- */
+/* --- BD ado-adulte : affiche de roman graphique, bandeau orange brûlé sur papier crème, encre brune, hachures --- */
 :root[data-collection="bdadulte"] {
-  --papier: #FBF0E2; --surface: #FFFAF4;
+  --papier: #F8F4EC; --surface: #FFFFFF;
   --encre: #2B1A10; --encre-2: #5C4130; --encre-3: #7E6553;
-  --filet: #EDDCC6; --filet-fort: #2B1A10;
-  --trame: #C9A585; --trame-fond: #F2E3D0;
+  --filet: #E8DFD2; --filet-fort: #2B1A10;
+  --trame: #C9A585; --trame-fond: #EFE8DC;
   --prim: #B5400C; --prim-f: #FFE3C7; --jaune: #F28C28; --rouge: #B5400C; --hanko: #A3201C;
-  --nuit: #4A2A17; --survol: #FFF1E2; --focus: #B5400C;
+  --nuit: #4A2A17; --survol: #FFF4E8; --focus: #B5400C;
   --s-completer: #A3201C; --s-completer-f: #FBE0DA;
   --s-continuer: #B5400C; --s-continuer-f: #FFE6D2;
   --s-attente: #2E6E35;   --s-attente-f: #DFF0DD;
@@ -710,7 +710,7 @@ ul.exemplaires li:last-child { border-bottom: 0; }
   --ombre-panneau: 3px 3px 0 #2B1A10;
   --ombre-couv: 3px 3px 0 #4A2A17;
   --ombre-couv-survol: 5px 5px 0 #F28C28;
-  --fond-motif: repeating-linear-gradient(135deg, rgba(120, 60, 20, 0.06) 0 1px, transparent 1px 7px);
+  --fond-motif: repeating-linear-gradient(135deg, rgba(43, 26, 16, 0.045) 0 1px, transparent 1px 7px);
   --police-titre: "Bebas Neue", var(--police); --titre-graisse: 400; --titre-ombre: 2px 2px 0 #F28C28;
   --tranche-ici: #B5400C; --tranche-texte: #FFFFFF;
   --entete-fond: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 6px), linear-gradient(100deg, #C9500F, #A8380A);
