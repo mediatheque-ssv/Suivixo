@@ -691,7 +691,7 @@ ul.exemplaires li:last-child { border-bottom: 0; }
   :root[data-collection="romans"] body { background-position: -40px 0, 0 0, 0 0, 0 0; }
 }
 
-/* --- BD ado-adulte : affiche de roman graphique, bandeau orange brûlé sur papier kraft, encre brune, hachures --- */
+/* --- BD ado-adulte : affiche de roman graphique, bandeau orange brûlé sur papier kraft grainé, encre brune --- */
 :root[data-collection="bdadulte"] {
   --papier: #E8D5B9; --surface: #FBF4E8;
   --encre: #2B1A10; --encre-2: #5C4130; --encre-3: #6E5644;
@@ -711,10 +711,11 @@ ul.exemplaires li:last-child { border-bottom: 0; }
   --ombre-panneau: 3px 3px 0 #2B1A10;
   --ombre-couv: 3px 3px 0 #4A2A17;
   --ombre-couv-survol: 5px 5px 0 #F28C28;
-  --fond-motif: repeating-linear-gradient(135deg, rgba(90, 50, 20, 0.07) 0 1px, transparent 1px 7px);
+  /* grain de papier kraft (bruit SVG très léger, sans motif répétitif visible) */
+  --fond-motif: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' seed='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.33 0 0 0 0 0.19 0 0 0 0 0.07 0.55 0 0 0 -0.25'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
   --police-titre: "Bebas Neue", var(--police); --titre-graisse: 400; --titre-ombre: 2px 2px 0 #F28C28;
   --tranche-ici: #A3380A; --tranche-texte: #FFFFFF;
-  --entete-fond: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 6px), linear-gradient(100deg, #C9500F, #A8380A);
+  --entete-fond: linear-gradient(100deg, #C9500F, #A8380A);
   --entete-bord: 4px solid #3A2213;
   --entete-texte: #FFFFFF; --entete-texte-2: rgba(255, 255, 255, 0.94); --entete-actif: #FFE0B5;
   --compteur-fond: #3A2213; --compteur-texte: #FFE9CC;
@@ -725,6 +726,8 @@ ul.exemplaires li:last-child { border-bottom: 0; }
 :root[data-collection="bdadulte"] .fiche-tete h1 { font-size: 2.4rem; }
 /* l'étiquette de collection, crème sur le bandeau orange (orange sur orange se perdait) */
 :root[data-collection="bdadulte"] .choix-collection select { background-color: #FFE0B5; }
+/* la barre de recherche collée en haut garde le grain du papier (un bruit n'a pas besoin d'être aligné) */
+:root[data-collection="bdadulte"] #vue .barre { background: var(--fond-motif), var(--papier); }
 @media (max-width: 760px) {
   :root[data-collection="bdadulte"] h1 { font-size: 2.3rem; }
 }
@@ -745,10 +748,10 @@ ul.exemplaires li:last-child { border-bottom: 0; }
     --ombre-panneau: 3px 3px 0 #000;
     --couv-bord: 1.5px solid #EDDCC6;
     --ombre-couv: 3px 3px 0 #000;
-    --fond-motif: repeating-linear-gradient(135deg, rgba(255, 180, 120, 0.04) 0 1px, transparent 1px 7px);
+    --fond-motif: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' seed='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 0.86 0 0 0 0 0.7 0.4 0 0 0 -0.19'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
     --titre-ombre: 2px 2px 0 #9C3D10;
     --tranche-ici: #FF9C5B; --tranche-texte: #1C130D;
-    --entete-fond: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0 1px, transparent 1px 6px), linear-gradient(100deg, #9C3D10, #6E2A0C);
+    --entete-fond: linear-gradient(100deg, #9C3D10, #6E2A0C);
     --entete-bord: 4px solid #F28C28;
     --compteur-fond: #F28C28; --compteur-texte: #1C130D;
     --logo-manque: #1C130D;
