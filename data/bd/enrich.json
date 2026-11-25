@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T03:43:23Z",
+ "maj": "2026-11-25T04:29:04Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "achille-talon": {
@@ -7149,7 +7149,7 @@
   "kong-kong": {
    "couvEssai": "2026-11-25",
    "couvEssaiMN": "",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvVersion": 4,
    "liensVus": {},
    "bnf": {
@@ -7171,7 +7171,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"kong kong\" and bib.publisher all \"casterman\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -7185,9 +7185,9 @@
    "couvEssai": "2026-11-25",
    "couvEssaiMN": "",
    "couvVersion": 4,
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "liensVus": {},
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -7392,43 +7392,49 @@
    },
    "couvVersion": 4,
    "bnf": {
-    "dernier": 28,
-    "tomes": "19,21-22,25-28",
-    "dateDernier": "1999",
+    "dernier": 57,
+    "tomes": "1-57",
+    "dateDernier": "2026-09",
     "editeur": "Appro",
-    "notices": 8,
-    "autresEditeurs": [],
-    "ark1": "ark:/12148/cb43416686f",
-    "isbn1": "288425000X",
+    "notices": 85,
+    "autresEditeurs": [
+     "Dargaud",
+     "Dargaud éditeur",
+     "France loisirs",
+     "Presses Pocket",
+     "Presses pocket"
+    ],
+    "ark1": "ark:/12148/cb38836903f",
+    "isbn1": "2803615207",
     "candidatsCouv": [
      {
-      "n": 19,
-      "ark": "ark:/12148/cb43416686f",
-      "isbn": "288425000X"
+      "n": 1,
+      "ark": "ark:/12148/cb38836903f",
+      "isbn": "2803615207"
      },
      {
-      "n": 21,
-      "ark": "ark:/12148/cb434166853",
-      "isbn": "2884250026"
+      "n": 2,
+      "ark": "ark:/12148/cb43464122c",
+      "isbn": "2803617005"
      },
      {
-      "n": 22,
-      "ark": "ark:/12148/cb43416684r",
-      "isbn": "2884250034"
+      "n": 3,
+      "ark": "ark:/12148/cb42644679h",
+      "isbn": "9782803630127"
      },
      {
-      "n": 25,
-      "ark": "ark:/12148/cb35798053n",
-      "isbn": "2884250077"
+      "n": 3,
+      "ark": "ark:/12148/cb39232254j",
+      "isbn": "2803617013"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"leonard\" and bib.publisher all \"appro\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"leonard\" and (bib.doctype=\"a\")"
    },
    "couvEssaiMN": "",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "liensVus": {},
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvIsbn": "9782884250030,9782803615001,9782808212106"
   },
   "leonarde": {
@@ -8308,9 +8314,9 @@
   },
   "magic": {
    "couvVersion": 4,
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "liensVus": {},
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvEssai": "2026-11-25",
    "couvFR": {
     "source": "Decitre",
@@ -8718,9 +8724,9 @@
    },
    "couvEssai": "2026-11-25",
    "couvVersion": 4,
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvEssaiMN": "",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvFR": {
     "source": "Decitre",
     "tome": 73,
@@ -8816,7 +8822,7 @@
   },
   "merlin": {
    "couvVersion": 4,
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "liensVus": {},
    "bnf": {
     "dernier": 6,
@@ -8852,7 +8858,7 @@
     "accordIsbn": false,
     "requete": "bib.title all \"merlin\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvEssaiMN": "",
    "couvEssai": "2026-11-25",
    "couvFR": {
@@ -9721,9 +9727,9 @@
    },
    "couvEssai": "2026-11-25",
    "couvVersion": 4,
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvEssaiMN": "",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvFR": {
     "source": "Decitre",
     "tome": 25,
@@ -12336,9 +12342,9 @@
    "couvIsbn": "9782070663804"
   },
   "simpson": {
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvEssaiMN": "",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvEssai": "2026-11-25",
    "bnf": {
     "dernier": 45,
@@ -12428,8 +12434,8 @@
     "orphee": true,
     "maj": "2026-11-25"
    },
-   "bnfVerifie": "2026-11-24",
-   "verifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
+   "verifie": "2026-11-25",
    "liensVus": {},
    "couvVersion": 4,
    "couvEssaiMN": "",
@@ -14411,7 +14417,7 @@
   },
   "trois-mousquetaires": {
    "couvEssaiMN": "",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvEssai": "2026-11-25",
    "liensVus": {},
    "couvFR": {
@@ -14421,7 +14427,7 @@
     "orphee": true,
     "maj": "2026-11-25"
    },
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvVersion": 4,
    "bnf": {
     "dernier": 4,
