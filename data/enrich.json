@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T06:15:47Z",
+ "maj": "2026-11-25T06:41:27Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -2115,7 +2115,7 @@
       "isbn": "235180046X"
      }
     ],
-    "requete": "bib.title all \"anima\" and bib.publisher all \"taifu\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"anima\" and bib.publisher any \"taifu\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -3095,7 +3095,7 @@
       "isbn": "9782756020457"
      }
     ],
-    "requete": "bib.title all \"ascension\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"ascension\" and bib.publisher any \"delcourt\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -4343,7 +4343,7 @@
       "isbn": "9782344067444"
      }
     ],
-    "requete": "bib.title all \"baby\" and bib.publisher all \"glenat\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"baby\" and bib.publisher any \"glenat\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "couvEssai": "2026-11-25",
@@ -8887,7 +8887,7 @@
       "isbn": "9782745930484"
      }
     ],
-    "requete": "bib.title all \"cats\" and bib.publisher all \"milan\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"cats\" and bib.publisher any \"milan\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -11571,7 +11571,7 @@
       "isbn": "9782505112044"
      }
     ],
-    "requete": "bib.title all \"comme les autres\" and bib.publisher all \"kana\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"comme les autres\" and bib.publisher any \"kana dargaud\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -14361,7 +14361,7 @@
       "isbn": "9791043303739"
      }
     ],
-    "requete": "bib.title all \"divines\" and bib.publisher all \"pika\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"divines\" and bib.publisher any \"pika\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "couvEssai": "2026-11-25",
@@ -16084,7 +16084,7 @@
       "isbn": "9782368523858"
      }
     ],
-    "requete": "bib.title all \"en scene\" and bib.publisher all \"kurokawa\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"en scene\" and bib.publisher any \"kurokawa\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -16734,7 +16734,7 @@
       "isbn": "9782369747239"
      }
     ],
-    "requete": "bib.title all \"entre deux\" and bib.publisher all \"akata\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"entre deux\" and bib.publisher any \"akata\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -21911,11 +21911,11 @@
    },
    "anilistVerifie": "2026-11-23",
    "bnf": {
-    "dernier": 21,
-    "tomes": "1-5,7,9-10,13-21",
-    "dateDernier": "2006-03",
+    "dernier": 38,
+    "tomes": "1-5,7,9-11,13-38",
+    "dateDernier": "2025-08",
     "editeur": "Dargaud Bénélux-Kana",
-    "notices": 17,
+    "notices": 35,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb37106919v",
     "isbn1": "2871292663",
@@ -21941,7 +21941,7 @@
       "isbn": "2871292698"
      }
     ],
-    "requete": "bib.title all \"hunter hunter\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"hunter hunter\" and bib.publisher any \"dargaud kana\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -22512,7 +22512,7 @@
       "isbn": "9782384960729"
      }
     ],
-    "requete": "bib.title all \"imago\" and bib.publisher all \"nobi\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"imago\" and bib.publisher any \"nobi\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -22699,7 +22699,7 @@
       "isbn": "9782756071152"
      }
     ],
-    "requete": "bib.title all \"innocent\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"innocent\" and bib.publisher any \"delcourt\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -22863,7 +22863,7 @@
       "isbn": "9782749958187"
      }
     ],
-    "requete": "bib.title all \"instinct\" and bib.publisher all \"michel\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"instinct\" and bib.publisher any \"michel\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -25588,7 +25588,7 @@
       "isbn": "9782382814253"
      }
     ],
-    "requete": "bib.title all \"land\" and bib.publisher all \"mangetsu\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"land\" and bib.publisher any \"mangetsu\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -26527,7 +26527,7 @@
       "isbn": "9782810210237"
      }
     ],
-    "requete": "bib.title all \"louve\" and bib.publisher all \"rue\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"louve\" and bib.publisher any \"rue\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -28141,7 +28141,7 @@
       "isbn": "9782380713480"
      }
     ],
-    "requete": "bib.title all \"arsene lupin\" and bib.publisher all \"kurokawa\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"arsene lupin\" and bib.publisher any \"kurokawa\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -28213,7 +28213,7 @@
       "isbn": "9782368522226"
      }
     ],
-    "requete": "bib.title all \"miserables\" and bib.publisher all \"kurokawa\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"miserables\" and bib.publisher any \"kurokawa\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -28255,11 +28255,11 @@
    "anilist": null,
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 7,
-    "tomes": "1-7",
-    "dateDernier": "2006-06",
+    "dernier": 15,
+    "tomes": "1-15",
+    "dateDernier": "2007-12",
     "editeur": "Dargaud Bénélux-Kana",
-    "notices": 7,
+    "notices": 15,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb40005967f",
     "isbn1": "2871298025",
@@ -28285,7 +28285,7 @@
       "isbn": "2871298491"
      }
     ],
-    "requete": "bib.title all \"mar\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"mar\" and bib.publisher any \"dargaud kana\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -30503,11 +30503,16 @@
     "tomes": "1-18",
     "dateDernier": "2005-01",
     "editeur": "Dargaud Bénélux-Kana",
-    "notices": 18,
+    "notices": 29,
     "autresEditeurs": [],
-    "ark1": "ark:/12148/cb376936149",
-    "isbn1": "287129366X",
+    "ark1": "ark:/12148/cb42320355s",
+    "isbn1": "9782505009993",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb42320355s",
+      "isbn": "9782505009993"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb376936149",
@@ -30515,21 +30520,16 @@
      },
      {
       "n": 2,
+      "ark": "ark:/12148/cb42320357g",
+      "isbn": "9782505010005"
+     },
+     {
+      "n": 2,
       "ark": "ark:/12148/cb388892901",
       "isbn": "2871293678"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb38889295r",
-      "isbn": "2871294135"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb38889301v",
-      "isbn": "2871294259"
      }
     ],
-    "requete": "bib.title all \"monster\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"monster\" and bib.publisher any \"dargaud kana\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -31656,7 +31656,7 @@
       "isbn": "2847890254"
      }
     ],
-    "requete": "bib.title all \"nana\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"nana\" and bib.publisher any \"delcourt\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -31964,7 +31964,7 @@
       "isbn": "9782369740421"
      }
     ],
-    "requete": "bib.title all \"naufrages\" and bib.publisher all \"akata\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"naufrages\" and bib.publisher any \"akata\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -33629,7 +33629,7 @@
       "isbn": "9782369740384"
      }
     ],
-    "requete": "bib.title all \"orange\" and bib.publisher all \"akata\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"orange\" and bib.publisher any \"akata\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -33720,7 +33720,7 @@
       "isbn": "9782372870825"
      }
     ],
-    "requete": "bib.title all \"oublies\" and bib.publisher all \"komikku\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"oublies\" and bib.publisher any \"komikku\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -35430,7 +35430,7 @@
       "isbn": "2845380976"
      }
     ],
-    "requete": "bib.title all \"planetes\" and bib.publisher all \"panini\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"planetes\" and bib.publisher any \"panini\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -36701,7 +36701,7 @@
       "isbn": "9782385694111"
      }
     ],
-    "requete": "bib.title all \"principal\" and bib.publisher all \"akata\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"principal\" and bib.publisher any \"akata\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "couvEssai": "2026-11-25",
@@ -37143,7 +37143,7 @@
       "isbn": "9782355926051"
      }
     ],
-    "requete": "bib.title all \"prophecy\" and bib.publisher all \"oon\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"prophecy\" and bib.publisher any \"oon\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -37918,7 +37918,7 @@
       "isbn": "9782811698164"
      }
     ],
-    "requete": "bib.title all \"reflection\" and bib.publisher all \"pika\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"reflection\" and bib.publisher any \"pika\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "couvEssai": "2026-11-25",
@@ -41117,7 +41117,7 @@
       "isbn": "9782368526385"
      }
     ],
-    "requete": "bib.title all \"sherlock\" and bib.publisher all \"kurokawa\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"sherlock\" and bib.publisher any \"kurokawa\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -41768,7 +41768,7 @@
       "isbn": "9782505126003"
      }
     ],
-    "requete": "bib.title all \"silence\" and bib.publisher all \"kana\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"silence\" and bib.publisher any \"kana dargaud\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -42824,7 +42824,7 @@
       "isbn": "9782413087625"
      }
     ],
-    "requete": "bib.title all \"sorcieres\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"sorcieres\" and bib.publisher any \"delcourt\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-11-25",
    "couvFR": {
@@ -43249,7 +43249,7 @@
       "isbn": "9791039129848"
      }
     ],
-    "requete": "bib.title all \"spider man\" and bib.publisher all \"panini\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"spider man\" and bib.publisher any \"panini\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -45934,7 +45934,7 @@
       "isbn": "9782382750582"
      }
     ],
-    "requete": "bib.title all \"the one\" and bib.publisher all \"meian\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"the one\" and bib.publisher any \"meian\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -47490,7 +47490,7 @@
       "isbn": "9782809402001"
      }
     ],
-    "requete": "bib.title all \"toto\" and bib.publisher all \"panini\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"toto\" and bib.publisher any \"panini\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -48968,7 +48968,7 @@
       "isbn": "2845801157"
      }
     ],
-    "requete": "bib.title all \"vagabond\" and bib.publisher all \"tonkam\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"vagabond\" and bib.publisher any \"tonkam delcourt\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -49178,7 +49178,7 @@
       "isbn": "9782811698027"
      }
     ],
-    "requete": "bib.title all \"versus\" and bib.publisher all \"pika\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"versus\" and bib.publisher any \"pika\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -50487,7 +50487,7 @@
       "isbn": "9782344061725"
      }
     ],
-    "requete": "bib.title all \"yan\" and bib.publisher all \"glenat\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"yan\" and bib.publisher any \"glenat\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
@@ -50710,7 +50710,7 @@
       "isbn": "9782505142737"
      }
     ],
-    "requete": "bib.title all \"yon\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"yon\" and bib.publisher any \"dargaud kana\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "verifie": "2026-11-25",
