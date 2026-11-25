@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T04:12:53Z",
+ "maj": "2026-11-25T04:32:57Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "1629-ou-l-effrayante-histoire-des-naufrages-du-jakarta": {
@@ -522,7 +522,7 @@
     "requete": "bib.title all \"5 terres\" and (bib.doctype=\"a\")",
     "titreBnf": "Les 5 terres"
    },
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvEssai": "2026-11-25",
    "couvVersion": 4,
    "couvIsbn": "9782413081630,9782413081647,9782413081654",
@@ -534,7 +534,7 @@
     "orphee": true,
     "maj": "2026-11-25"
    },
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "liensVus": {}
   },
   "5-terres-cycle-iii-arnor": {
@@ -27127,9 +27127,9 @@
   },
   "jour-ou": {
    "couvIsbn": "9782818936023,9782818941638,9782818946831",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvEssai": "2026-11-25",
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
@@ -29688,9 +29688,9 @@
     "orphee": true,
     "maj": "2026-11-25"
    },
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvVersion": 4,
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "liensVus": {},
    "couvEssai": "2026-11-25",
    "couvEssaiMN": "",
@@ -30696,8 +30696,8 @@
    "couvEssaiMN": "",
    "couvEssai": "2026-11-25",
    "couvIsbn": "9791036327001",
-   "verifie": "2026-11-24",
-   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-25",
+   "bnfVerifie": "2026-11-25",
    "bnf": {
     "dernier": 2,
     "tomes": "1-2",
@@ -31264,14 +31264,14 @@
    "couvEssaiMN": "",
    "couvEssai": "2026-11-25",
    "couvIsbn": "9782754801133,9782754801140,9782754801157",
-   "verifie": "2026-11-24",
-   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-25",
+   "bnfVerifie": "2026-11-25",
    "bnf": {
     "dernier": 6,
     "tomes": "1-6",
     "dateDernier": "2022-12",
     "editeur": "Futuropolis",
-    "notices": 8,
+    "notices": 9,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb435094001",
     "isbn1": "9782754808620",
@@ -31283,6 +31283,11 @@
      },
      {
       "n": 1,
+      "ark": "ark:/12148/cb41418070m",
+      "isbn": "9782754801133"
+     },
+     {
+      "n": 1,
       "ark": "ark:/12148/cb413751002",
       "isbn": "9782754801133"
      },
@@ -31290,15 +31295,10 @@
       "n": 2,
       "ark": "ark:/12148/cb42315862f",
       "isbn": "9782754801140"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb437247770",
-      "isbn": "9782754801157"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"matteo\" and bib.publisher all \"futuropolis\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"matteo\" and (bib.doctype=\"a\")"
    },
    "liensVus": {},
    "couvVersion": 4,
@@ -32621,7 +32621,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"millenaire\" and bib.publisher all \"humanoides\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvEssai": "2026-11-25",
    "couvVersion": 4,
    "couvIsbn": "9782731662733,9782731615630,9782731616712",
@@ -32633,7 +32633,7 @@
     "orphee": true,
     "maj": "2026-11-25"
    },
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "liensVus": {}
   },
   "minecraft-la-bd-officielle": {
@@ -42958,7 +42958,7 @@
    },
    "couvEssai": "2026-11-25",
    "couvEssaiMN": "",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
@@ -42969,7 +42969,7 @@
    "liensVus": {},
    "couvVersion": 4,
    "couvIsbn": "9782803636723,9782803670857",
-   "bnfVerifie": "2026-11-24"
+   "bnfVerifie": "2026-11-25"
   },
   "reines-de-sang": {
    "bnf": {
@@ -44716,8 +44716,8 @@
    "couvVersion": 4,
    "couvEssaiMN": "",
    "liensVus": {},
-   "bnfVerifie": "2026-11-24",
-   "verifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
+   "verifie": "2026-11-25",
    "couvEssai": "2026-11-25",
    "bnf": {
     "dernier": 4,
@@ -44892,9 +44892,9 @@
     "orphee": true,
     "maj": "2026-11-25"
    },
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvVersion": 4,
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "liensVus": {},
    "couvEssai": "2026-11-25",
    "couvEssaiMN": "",
@@ -45182,7 +45182,7 @@
     "accordIsbn": true,
     "requete": "bib.title all \"sambre\" and bib.publisher all \"glenat\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "couvEssai": "2026-11-25",
    "couvVersion": 4,
    "couvIsbn": "9782723435482,9782723444293,9782344002414",
@@ -45194,7 +45194,7 @@
     "orphee": true,
     "maj": "2026-11-25"
    },
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "liensVus": {}
   },
   "sanctuaire": {
@@ -46442,8 +46442,8 @@
    "couvEssaiMN": "",
    "couvEssai": "2026-11-25",
    "couvIsbn": "9782849464229,9782302002142,9782302018938",
-   "verifie": "2026-11-24",
-   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-25",
+   "bnfVerifie": "2026-11-25",
    "bnf": {
     "dernier": 6,
     "tomes": "1-6",
@@ -46915,10 +46915,10 @@
   },
   "short": {
    "couvEssaiMN": "",
-   "couvEssai": "2026-11-24",
+   "couvEssai": "2026-11-25",
    "couvIsbn": "9782330086701",
-   "verifie": "2026-11-24",
-   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-25",
+   "bnfVerifie": "2026-11-25",
    "bnf": {
     "dernier": 1,
     "tomes": "1",
@@ -46944,7 +46944,7 @@
     "source": "Decitre",
     "isbn": "9782330086701",
     "orphee": true,
-    "maj": "2026-11-24"
+    "maj": "2026-11-25"
    }
   },
   "sigi": {
@@ -47246,12 +47246,13 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"simpson\" and bib.publisher all \"loisirs\" and (bib.doctype=\"a\")",
-    "accordIsbn": false
+    "requete": "bib.title all \"simpson\" and (bib.doctype=\"a\")",
+    "accordIsbn": false,
+    "ecartee": "Jungle, 61 notices"
    },
    "couvEssai": "2026-11-25",
    "couvEssaiMN": "",
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvFR": {
     "source": "Open Library",
     "isbn": "9782298021806",
@@ -47261,7 +47262,7 @@
    "liensVus": {},
    "couvVersion": 4,
    "couvIsbn": "9782298021806",
-   "bnfVerifie": "2026-11-24"
+   "bnfVerifie": "2026-11-25"
   },
   "simpson-futurama": {
    "couvFR": {
@@ -48127,10 +48128,10 @@
   },
   "sortileges": {
    "couvEssaiMN": "",
-   "couvEssai": "2026-11-24",
+   "couvEssai": "2026-11-25",
    "couvIsbn": "9782505015017,9782505016717,9782505019985",
-   "verifie": "2026-11-24",
-   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-25",
+   "bnfVerifie": "2026-11-25",
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -48167,7 +48168,7 @@
     "tome": 1,
     "isbn": "9782505015017",
     "orphee": true,
-    "maj": "2026-11-24"
+    "maj": "2026-11-25"
    }
   },
   "soufflevent": {
@@ -49434,10 +49435,10 @@
   },
   "tango": {
    "couvEssaiMN": "",
-   "couvEssai": "2026-11-24",
+   "couvEssai": "2026-11-25",
    "couvIsbn": "9782803637089,9782803672356,9782803673070",
-   "verifie": "2026-11-24",
-   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-25",
+   "bnfVerifie": "2026-11-25",
    "bnf": {
     "dernier": 9,
     "tomes": "1-9",
@@ -49479,7 +49480,7 @@
     "tome": 1,
     "isbn": "9782803637089",
     "orphee": true,
-    "maj": "2026-11-24"
+    "maj": "2026-11-25"
    }
   },
   "tant-pis-pour-l-amour-ou-comment-j-ai-survecu-a-un-manipulateur": {
@@ -50083,18 +50084,18 @@
     "tome": 1,
     "isbn": "9782356740502",
     "orphee": true,
-    "maj": "2026-11-24"
+    "maj": "2026-11-25"
    },
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "couvVersion": 4,
-   "bnfVerifie": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
    "liensVus": {},
-   "couvEssai": "2026-11-24",
+   "couvEssai": "2026-11-25",
    "couvEssaiMN": "",
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"ter\" and bib.publisher all \"daniel\" and (bib.doctype=\"a\")",
+    "requete": "bib.title all \"ter\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
    "couvIsbn": "9782356740502,9782356740526,9782356740656"
@@ -54459,10 +54460,10 @@
   },
   "verdun": {
    "couvEssaiMN": "",
-   "couvEssai": "2026-11-24",
+   "couvEssai": "2026-11-25",
    "couvIsbn": "9791041118076",
-   "verifie": "2026-11-24",
-   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-25",
+   "bnfVerifie": "2026-11-25",
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
@@ -54498,7 +54499,7 @@
     "source": "Decitre",
     "isbn": "9791041118076",
     "orphee": true,
-    "maj": "2026-11-24"
+    "maj": "2026-11-25"
    }
   },
   "vernon-subutex": {
@@ -56652,8 +56653,8 @@
     "accordIsbn": true,
     "requete": "bib.title all \"xiii\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-11-24",
-   "couvEssai": "2026-11-24",
+   "bnfVerifie": "2026-11-25",
+   "couvEssai": "2026-11-25",
    "couvVersion": 4,
    "couvIsbn": "9782871290001,9782871290018,9782871290087",
    "couvEssaiMN": "",
@@ -56662,9 +56663,9 @@
     "tome": 1,
     "isbn": "9782871290001",
     "orphee": true,
-    "maj": "2026-11-24"
+    "maj": "2026-11-25"
    },
-   "verifie": "2026-11-24",
+   "verifie": "2026-11-25",
    "liensVus": {}
   },
   "xiii-mystery": {
