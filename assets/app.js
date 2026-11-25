@@ -144,6 +144,9 @@ function bibliotheques() {
 // ---------------------------------------------------------------------------
 
 function calculer() {
+  // BD et romans jeunesse : seulement Servon. Une autre bibliothèque choisie dans les mangas vidait la page.
+  const bibsCol = etat.fonds.bibliotheques || [];
+  if (!COL.reseau && bibsCol.length && !bibsCol.includes(etat.prefs.bib)) etat.prefs.bib = bibsCol[0];
   const bib = etat.prefs.bib;
   const surMoi = etat.prefs.perimetre === "moi";
   etat.vues = etat.series.map((s) => {
@@ -175,6 +178,14 @@ function calculer() {
     };
   });
   etat.parId = new Map(etat.vues.map((v) => [v.s.id, v]));
+  // Les réglages sont communs aux collections : un genre ou un public choisi ailleurs (« Shonen » dans les
+  // mangas, « Jeunesse ») n'existe pas forcément ici. Absent de la liste, il restait actif sans se voir et
+  // vidait la page : on l'oublie.
+  const p = etat.prefs;
+  if (p.genre && !etat.vues.some((v) => v.genre === p.genre)) p.genre = "";
+  if (p.public && !etat.series.some((s) => s.public === p.public)) p.public = "";
+  // « avec intercalaire » choisi en BD jeunesse : en BD ado-adulte, aucune n'en a encore
+  if (p.intercalaire && (!COL.intercalaires || (p.intercalaire === "avec" && !etat.series.some((s) => s.intercalaire)))) p.intercalaire = "";
 }
 
 const ORDRE_STATUT = ["completer", "continuer", "attente", "finie", "abandonnee", "verifier"];
