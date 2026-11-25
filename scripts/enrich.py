@@ -699,13 +699,13 @@ def notice_par_isbn(isbn: str, debug: bool = False) -> dict | None:
 def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
                 isbns_orphee: list[str] | None = None, rattrapage: bool = True,
                 numeros_orphee: dict[str, int] | None = None, cherche: str | None = None,
-                confirmer: bool = False) -> dict | None:
+                confirmer: bool = False, vo_sur: bool = False) -> dict | None:
     """Tomes parus à la BnF (voir _notices_bnf). Titre trop courant (« Jour J » cherché comme « jour »,
     plus de 600 notices) : on ne lit que les 600 premières, peut-être pas les nôtres ; on cherche aussi
     chez l'éditeur d'Orphée, et on garde la recherche qui trouve le plus de nos exemplaires. Celle qui est
     restreinte à l'éditeur, à égalité : sauf si nos tomes sont aussi chez un autre (Léonard, d'Appro au Lombard)."""
     a = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, rattrapage, numeros_orphee, cherche,
-                     confirmer=confirmer)
+                     confirmer=confirmer, vo_sur=vo_sur)
     total, acc_a = a.pop("_total", None), a.pop("_accords", 0)
     if total == 0:
         a["_vide"] = True  # aucune notice pour ce titre (ou la BnF n'a pas répondu comme il faut)
@@ -717,7 +717,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
     # Orphée dit « Dargaud », la BnF « Kana » (son label manga) : on cherche chez les deux
     restreint = " ".join(dict.fromkeys([jet[0], *([EDITEURS_PROCHES[jet[0]]] if jet[0] in EDITEURS_PROCHES else [])]))
     b = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, False, numeros_orphee, cherche,
-                     restreint=restreint, confirmer=confirmer)
+                     restreint=restreint, confirmer=confirmer, vo_sur=vo_sur)
     acc_b = b.pop("_accords", 0)
     b.pop("_total", None)
     garder_a = not b.get("dernier") or bool(isbns_orphee and acc_a > acc_b)
@@ -750,7 +750,7 @@ def nb_tomes(t: str | None) -> int:
 def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
                  isbns_orphee: list[str] | None = None, rattrapage: bool = True,
                  numeros_orphee: dict[str, int] | None = None, cherche: str | None = None,
-                 restreint: str | None = None, confirmer: bool = False) -> dict:
+                 restreint: str | None = None, confirmer: bool = False, vo_sur: bool = False) -> dict:
     """Tomes parus à la BnF. Avec les ISBN d'Orphée, on garde l'édition qui contient nos exemplaires ;
     si la recherche par titre ne la trouve pas (titre trop courant : « Ambre », « Albert »…), on lit la
     notice de notre ISBN pour connaître le vrai titre de la série à la BnF, et on cherche avec lui.
@@ -942,7 +942,7 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
                 confirmer = not (mots_forts(titre_bnf) & {m for t in titres for m in mots_forts(t)})
                 autre = notices_bnf(serie, n["editeur"] or editeur_orphee, volumes_vo, debug, isbns_orphee,
                                     rattrapage=False, numeros_orphee=numeros_orphee, cherche=titre_bnf,
-                                    confirmer=confirmer)
+                                    confirmer=confirmer, vo_sur=vo_sur)
                 if autre and autre.get("accordIsbn"):
                     autre["titreBnf"] = titre_bnf
                     return autre
@@ -989,12 +989,13 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
     plusieurs_editions = False
     # Plus de tomes en France qu'au Japon : souvent deux éditions mélangées (ex. Akira 14 tomes
     # couleur puis 6 tomes en édition originale). Si tous les tomes de la VO sont là, on s'y tient.
-    # Seulement si un même numéro y a deux notices (deux éditions) : un webtoon découpé autrement en
-    # France (Unordinary 4 tomes, 3 en Corée) ou un nombre de la VO pas à jour n'est pas un mélange.
+    # Seulement si Manga-News donne aussi ce nombre en VF (vo_sur), ou si un même numéro a deux notices
+    # (deux éditions) : sinon, Saga (1 « volume » sur AniList, 12 tomes chez Urban) n'est pas un mélange.
+    # Plus de tomes chez Manga-News qu'en VO (Unordinary, webtoon découpé autrement) : l'appelant ne coupe pas.
     def notices_de(n: int) -> int:
         return len({isbn13(t["isbn"]) or t["ark"] for t in g if t["n"] == n})
     if volumes_vo and dernier > volumes_vo and all(n in nums for n in range(1, volumes_vo + 1)) \
-            and any(notices_de(n) > 1 for n in range(1, volumes_vo + 1)):
+            and (vo_sur or any(notices_de(n) > 1 for n in range(1, volumes_vo + 1))):
         dernier, plusieurs_editions = volumes_vo, True
         nums = [n for n in nums if n <= volumes_vo]
     rec_dernier = max((t for t in g if t["n"] == dernier), key=lambda t: t["creee"] or "")
@@ -1517,11 +1518,18 @@ def main() -> int:
                     vo = (e.get("anilist") or {}).get("volumes") if (e.get("anilist") or {}).get("statut") == "FINISHED" else None
                     if vo and maxi > vo:
                         vo = None  # AniList a trouvé une autre série (« Kaitou Lupin », 1 tome, pour nos 2 tomes d'Arsène Lupin)
+                    # nombre de tomes en VF d'après Manga-News : plus que la VO, le découpage français est autre
+                    # (Unordinary) ; le même, la VO est confirmée (Kingdom Hearts 4 tomes, pas l'intégrale en 7)
+                    mn_vf = (e.get("mangaNews") or {}).get("tomes") if mangas else None
+                    mn_vf = mn_vf if isinstance(mn_vf, int) else None
+                    if vo and mn_vf and mn_vf > vo:
+                        vo = None
                     nos = [i for _, i in isbns]
                     if one_shot:
                         e["bnf"] = notice_titre_unique(s, editeur, auteur, debug, nos)
                     else:
-                        r = notices_bnf(s, editeur, vo, debug, nos, numeros_orphee={i: n for n, i in isbns if n is not None})
+                        r = notices_bnf(s, editeur, vo, debug, nos, numeros_orphee={i: n for n, i in isbns if n is not None},
+                                        vo_sur=bool(vo and mn_vf and mn_vf <= vo))
                         if r.pop("_vide", False) and not r.get("dernier") and (e.get("bnf") or {}).get("dernier"):
                             # la BnF, surchargée, répond parfois qu'elle n'a aucune notice pour un titre déjà trouvé
                             # (Crookhaven) : on garde l'ancien résultat et on réessaiera
