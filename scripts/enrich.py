@@ -692,6 +692,30 @@ def notice_par_isbn(isbn: str, debug: bool = False) -> dict | None:
 def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
                 isbns_orphee: list[str] | None = None, rattrapage: bool = True,
                 numeros_orphee: dict[str, int] | None = None, cherche: str | None = None) -> dict | None:
+    """Tomes parus à la BnF (voir _notices_bnf). Titre trop courant (« Jour J » cherché comme « jour »,
+    plus de 600 notices) : on ne lit que les 600 premières, peut-être pas les nôtres ; on cherche aussi
+    chez l'éditeur d'Orphée, et on garde la recherche qui trouve le plus de nos exemplaires. Celle qui est
+    restreinte à l'éditeur, à égalité : sauf si nos tomes sont aussi chez un autre (Léonard, d'Appro au Lombard)."""
+    a = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, rattrapage, numeros_orphee, cherche)
+    total, acc_a = a.pop("_total", 0), a.pop("_accords", 0)
+    jet = [m for m in re.findall(r"[a-z]+", sans_accents((editeur_orphee or "").split("\n")[0]).lower())
+           if len(m) >= 3 and m not in MOTS_EDITEUR_COURANTS]
+    if total <= 600 or not jet:
+        return a
+    b = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, False, numeros_orphee, cherche, restreint=jet[0])
+    acc_b = b.pop("_accords", 0)
+    b.pop("_total", None)
+    garder_a = not b.get("dernier") or bool(isbns_orphee and acc_a > acc_b)
+    if debug:
+        dbg(f"    BnF : sans éditeur {a.get('dernier')} ({acc_a} des nôtres), chez « {jet[0]} » {b.get('dernier')} ({acc_b}) "
+            f"-> {'sans' if garder_a else 'chez'}")
+    return a if garder_a else b
+
+
+def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
+                 isbns_orphee: list[str] | None = None, rattrapage: bool = True,
+                 numeros_orphee: dict[str, int] | None = None, cherche: str | None = None,
+                 restreint: str | None = None) -> dict:
     """Tomes parus à la BnF. Avec les ISBN d'Orphée, on garde l'édition qui contient nos exemplaires ;
     si la recherche par titre ne la trouve pas (titre trop courant : « Ambre », « Albert »…), on lit la
     notice de notre ISBN pour connaître le vrai titre de la série à la BnF, et on cherche avec lui.
@@ -710,7 +734,8 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
     cles_fortes = {cle(t) for t in forts}
     cles_sous = {cle_c(t) for t in forts}
     def req(t: str) -> str:
-        return f'bib.title all "{mots(t)}" and (bib.doctype="a")'
+        return f'bib.title all "{mots(t)}"' + (f' and bib.publisher all "{restreint}"' if restreint else "") \
+            + ' and (bib.doctype="a")'
     # le préfixe « BD », « Roman »… d'Orphée n'est pas dans le titre à la BnF : on cherche sans lui
     # (avec lui seulement si cela ne donne rien)
     prefixe = not cherche and sans_prefixe(serie["titre"]) != serie["titre"]
@@ -735,17 +760,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
                 total = nb(racine)
                 if debug:
                     dbg(f"    BnF {requete} -> {total} notices")
-            # titre trop courant (« Jour J » cherché comme « jour ») : on ne lirait que les 600 premières
-            # notices, sans doute pas les nôtres ; on ajoute l'éditeur d'Orphée
-            jet = [m for m in re.findall(r"[a-z]+", sans_accents((editeur_orphee or "").split("\n")[0]).lower())
-                   if len(m) >= 3 and m not in MOTS_EDITEUR_COURANTS]
-            if total > 600 and jet:
-                q2 = requete.replace(' and (bib.doctype="a")', f' and bib.publisher all "{jet[0]}" and (bib.doctype="a")')
-                r2 = bnf_page(q2, 1)
-                if nb(r2):
-                    requete, racine, total = q2, r2, nb(r2)
-                    if debug:
-                        dbg(f"    BnF {requete} -> {total} notices")
+            total_brut = total  # plus de 600 : notices_bnf cherche aussi chez l'éditeur
         recs = [e for e in racine.iter() if sans_ns(e.tag) == "recordData"]
         for rd in recs:
             f = champs(rd)
@@ -878,7 +893,8 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
                     return autre
             break
     if not tomes:
-        return {"dernier": None, "notices": 0, "requete": requete, **({"accordIsbn": False} if nos_isbn else {})}
+        return {"dernier": None, "notices": 0, "requete": requete, **({"accordIsbn": False} if nos_isbn else {}),
+                "_total": total_brut}
     eo = norm_editeur(editeur_orphee)
     choix = None
     if accord:
@@ -893,7 +909,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
             if debug:
                 dbg(f"    BnF : écartée, ni nos ISBN ni notre éditeur ({groupes[k][0]['editeur']})")
             return {"dernier": None, "notices": 0, "requete": requete, "accordIsbn": False,
-                    "ecartee": f"{groupes[k][0]['editeur']}, {len(groupes[k])} notices"}
+                    "ecartee": f"{groupes[k][0]['editeur']}, {len(groupes[k])} notices", "_total": total_brut}
         choix = max(groupes, key=lambda k: len({t["n"] for t in groupes[k]}))
     g = groupes[choix]
     if accord:
@@ -945,6 +961,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
         **({"ark1": t1["ark"], "isbn1": t1["isbn"], "candidatsCouv": candidats} if t1 else {}),
         **({"accordIsbn": accord} if accord is not None else {}),
         "requete": requete,
+        "_total": total_brut, "_accords": sum(v for k, v in communs.items() if k in famille) if accord else 0,
     }
 
 
