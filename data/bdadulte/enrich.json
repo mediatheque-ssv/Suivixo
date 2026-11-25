@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T04:32:57Z",
+ "maj": "2026-11-25T06:19:16Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "1629-ou-l-effrayante-histoire-des-naufrages-du-jakarta": {
@@ -6062,11 +6062,11 @@
   },
   "bd-le-journal-d-aurelie-laflamme": {
    "bnf": {
-    "dernier": 9,
-    "tomes": "1-9",
-    "dateDernier": "2020-03",
+    "dernier": 6,
+    "tomes": "1-6",
+    "dateDernier": "2021-10",
     "editeur": "Jungle !",
-    "notices": 16,
+    "notices": 11,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb466426129",
     "isbn1": "9782749944838",
@@ -27211,11 +27211,11 @@
   },
   "journal-d-aurelie-laflamme": {
    "bnf": {
-    "dernier": 9,
-    "tomes": "1-9",
-    "dateDernier": "2020-03",
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2022",
     "editeur": "Michel Lafon",
-    "notices": 14,
+    "notices": 10,
     "autresEditeurs": [
      "Jungle !"
     ],
