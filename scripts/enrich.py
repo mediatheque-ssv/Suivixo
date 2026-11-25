@@ -989,7 +989,12 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
     plusieurs_editions = False
     # Plus de tomes en France qu'au Japon : souvent deux éditions mélangées (ex. Akira 14 tomes
     # couleur puis 6 tomes en édition originale). Si tous les tomes de la VO sont là, on s'y tient.
-    if volumes_vo and dernier > volumes_vo and all(n in nums for n in range(1, volumes_vo + 1)):
+    # Seulement si un même numéro y a deux notices (deux éditions) : un webtoon découpé autrement en
+    # France (Unordinary 4 tomes, 3 en Corée) ou un nombre de la VO pas à jour n'est pas un mélange.
+    def notices_de(n: int) -> int:
+        return len({isbn13(t["isbn"]) or t["ark"] for t in g if t["n"] == n})
+    if volumes_vo and dernier > volumes_vo and all(n in nums for n in range(1, volumes_vo + 1)) \
+            and any(notices_de(n) > 1 for n in range(1, volumes_vo + 1)):
         dernier, plusieurs_editions = volumes_vo, True
         nums = [n for n in nums if n <= volumes_vo]
     rec_dernier = max((t for t in g if t["n"] == dernier), key=lambda t: t["creee"] or "")
