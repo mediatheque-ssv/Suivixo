@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T06:41:27Z",
+ "maj": "2026-11-25T06:48:52Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -24935,15 +24935,14 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 4,
-    "tomes": "1-4",
-    "dateDernier": "2012-10",
+    "dernier": 7,
+    "tomes": "1-7",
+    "dateDernier": "2014-05",
     "editeur": "Pika éd.",
     "notices": 7,
     "autresEditeurs": [
      "Nobi nobi !"
     ],
-    "plusieursEditions": true,
     "ark1": "ark:/12148/cb426958153",
     "isbn1": "9782811606640",
     "candidatsCouv": [
@@ -34218,23 +34217,77 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 1,
-    "tomes": "1",
-    "dateDernier": "2014-11",
-    "editeur": "Ki-oon",
-    "notices": 2,
+    "dernier": 5,
+    "tomes": "1-5",
+    "dateDernier": "2004-05",
+    "editeur": "Tokebi",
+    "notices": 5,
     "autresEditeurs": [
-     "DNI world",
-     "Infinity",
-     "Moonlight",
-     "Plumes du web",
-     "Rivages"
+     "Ki-oon",
+     "Soleil",
+     "l'Oeil du prince",
+     "les Humanoïdes associés",
+     "Éd. associatives Clapàs"
     ],
-    "plusieursEditions": true,
+    "ark1": "ark:/12148/cb39064983t",
+    "isbn1": "2750700078",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39064983t",
+      "isbn": "2750700078"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb390648210",
+      "isbn": "2750700159"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb39100006v",
+      "isbn": "2750700264"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb39126662v",
+      "isbn": "2750700361"
+     }
+    ],
     "requete": "bib.title all \"pandemonium\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "bnfVerifie": "2026-11-25",
+   "verifie": "2026-11-25",
+   "couvEssai": "2026-11-25",
+   "mangaNews": {
+    "tomes": 5,
+    "editeur": "Tokebi",
+    "url": "https://www.manga-news.com/index.php/serie/Pandemonium-tokebi",
+    "date": "2026-08-04",
+    "couv": "https://www.manga-news.com/public/images/series/.pandemonium_01_medium.webp",
+    "manuel": true
+   },
+   "couvVersion": 4,
+   "liensVus": {
+    "mangaNews": "index.php/serie/Pandemonium-tokebi",
+    "bedetheque": "serie-45256-BD-Pandemonium-Shibamoto.html"
+   },
+   "couvEssaiMN": "https://www.manga-news.com/public/images/series/.pandemonium_01_medium.webp",
+   "couvFR": {
+    "source": "Manga-News",
+    "mn": "https://www.manga-news.com/index.php/serie/Pandemonium-tokebi",
+    "maj": "2026-11-25"
+   },
+   "mangaNewsFiche": {
+    "url": "https://www.manga-news.com/index.php/serie/Pandemonium-tokebi",
+    "couv": "https://www.manga-news.com/public/images/series/.pandemonium_01_medium.webp",
+    "vf": 5,
+    "vfStatut": "Terminé",
+    "vo": 5,
+    "voStatut": "Terminé",
+    "vfDernier": 5,
+    "vfDernierDate": "2004-03-23",
+    "verifie": "2026-11-25"
+   }
   },
   "paradis-des-chiens": {
    "anilist": {
@@ -38891,23 +38944,56 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 1,
-    "tomes": "1",
-    "dateDernier": "2013-03",
+    "dernier": 12,
+    "tomes": "1-12",
+    "dateDernier": "2025-06",
     "editeur": "Urban comics",
     "notices": 14,
     "autresEditeurs": [
      "Delcourt",
-     "Mademoiselle a trois ailes éditions",
      "Publibook",
      "Éd. Bénévent",
      "Éditions Saint Honoré"
     ],
-    "plusieursEditions": true,
+    "ark1": "ark:/12148/cb43554902x",
+    "isbn1": "9782365772013",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43554902x",
+      "isbn": "9782365772013"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48849510n",
+      "isbn": "9791026854517"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43685874j",
+      "isbn": "9782365772570"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb43816263c",
+      "isbn": "9782365773744"
+     }
+    ],
     "requete": "bib.title all \"saga\" and (bib.doctype=\"a\")"
    },
-   "bnfVerifie": "2026-10-23",
-   "verifie": "2026-10-23"
+   "bnfVerifie": "2026-11-25",
+   "verifie": "2026-11-25",
+   "couvEssai": "2026-11-25",
+   "couvVersion": 4,
+   "liensVus": {
+    "bedetheque": "serie-37516-BD-Saga-Vaughan-Staples.html"
+   },
+   "couvEssaiMN": "",
+   "couvFR": {
+    "source": "Decitre",
+    "tome": 1,
+    "maj": "2026-11-25"
+   }
   },
   "sahara": {
    "couvVersion": 4,
@@ -43493,13 +43579,12 @@
   },
   "star-strike-it-rich": {
    "bnf": {
-    "dernier": 1,
-    "tomes": "1",
+    "dernier": 3,
+    "tomes": "1-3",
     "dateDernier": "2026-10",
     "editeur": "IDP home video music",
     "notices": 3,
     "autresEditeurs": [],
-    "plusieursEditions": true,
     "ark1": "ark:/12148/cb48854660g",
     "isbn1": "9782385039622",
     "candidatsCouv": [
@@ -43507,6 +43592,16 @@
       "n": 1,
       "ark": "ark:/12148/cb48854660g",
       "isbn": "9782385039622"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb48854718z",
+      "isbn": "9782385039639"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb488544660",
+      "isbn": "9782385039646"
      }
     ],
     "requete": "bib.title all \"star strike it rich\" and (bib.doctype=\"a\")"
@@ -48773,13 +48868,12 @@
   },
   "unordinary": {
    "bnf": {
-    "dernier": 3,
-    "tomes": "1-3",
-    "dateDernier": "2025-07",
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2026-06",
     "editeur": "Hugo neotoon",
     "notices": 4,
     "autresEditeurs": [],
-    "plusieursEditions": true,
     "ark1": "ark:/12148/cb47509458w",
     "isbn1": "9782755675351",
     "candidatsCouv": [
@@ -48797,6 +48891,11 @@
       "n": 3,
       "ark": "ark:/12148/cb48555737z",
       "isbn": "9782755677850"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb48788235k",
+      "isbn": "9782755677867"
      }
     ],
     "requete": "bib.title all \"unordinary\" and (bib.doctype=\"a\")"
