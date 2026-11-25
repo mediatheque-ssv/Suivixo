@@ -852,10 +852,19 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
                 dbg(f"    BnF : on garde les notices « {voulue} » ({len(a_nous)} numéros), pas les autres ({len(autres)})")
             # le codage n'est pas toujours régulier : on garde nos exemplaires quoi qu'il arrive, et les
             # numéros manquants avant le dernier de la bonne nature (un tome 2 codé « autre » entre 1 et 3)
+            # Chez un éditeur de la bonne nature dont les autres notices ne reprennent aucun de ses numéros, ce
+            # n'est pas un autre livre du même nom : c'est un tome tout juste paru, codé « autre » le temps du
+            # catalogage (Elliot au collège 4, Métamorphes 3 chez Drakoo, à côté des romans chez d'autres éditeurs).
             haut = max(a_nous)
             garde = {t["n"] for t in tomes if t["nature"] in (None, voulue)}
+            bons: dict[str, set[int]] = {}
+            mauvais: dict[str, set[int]] = {}
+            for t in tomes:
+                (bons if t["nature"] == voulue else mauvais if t["nature"] else {}).setdefault(
+                    norm_editeur(t["editeur"]), set()).add(t["n"])
+            propres = {k for k, v in bons.items() if not (v & mauvais.get(k, set()))}
             tomes = [t for t in tomes if t["nature"] in (None, voulue) or isbn13(t["isbn"]) in nos_isbn
-                     or (t["n"] < haut and t["n"] not in garde)]
+                     or (t["n"] < haut and t["n"] not in garde) or norm_editeur(t["editeur"]) in propres]
     # Une série peut exister chez plusieurs éditeurs (rééditions) : on garde celle qui contient
     # nos ISBN, sinon celle de l'éditeur d'Orphée, sinon celle qui a le plus de tomes.
     groupes: dict[str, list[dict]] = {}
