@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T06:48:52Z",
+ "maj": "2026-11-25T06:52:47Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte)",
  "series": {
   "10th-a-couper-le-souffle": {
@@ -24935,14 +24935,15 @@
    },
    "anilistVerifie": "2026-10-23",
    "bnf": {
-    "dernier": 7,
-    "tomes": "1-7",
-    "dateDernier": "2014-05",
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2012-10",
     "editeur": "Pika éd.",
     "notices": 7,
     "autresEditeurs": [
      "Nobi nobi !"
     ],
+    "plusieursEditions": true,
     "ark1": "ark:/12148/cb426958153",
     "isbn1": "9782811606640",
     "candidatsCouv": [
