@@ -16,7 +16,7 @@ const COLLECTIONS = {
   bd: { nom: "BD jeunesse", des: "des BD jeunesse", titre: "Les BD jeunesse", dossier: "data/bd/", couv: "couvertures/bd/", reseau: false, intercalaires: true },
   romans: { nom: "Romans jeunesse", des: "des romans jeunesse", titre: "Les romans jeunesse", dossier: "data/romans/", couv: "couvertures/romans/", reseau: false },
   // BD ado-adulte : tout le réseau (comme les mangas), sources de la BD jeunesse (BnF, Decitre, ePagine)
-  bdadulte: { nom: "BD ado-adulte", des: "des BD ado-adulte du réseau", titre: "Les BD ado-adulte", dossier: "data/bdadulte/", couv: "couvertures/bdadulte/", reseau: true, intercalaires: true },
+  bdadulte: { nom: "BD ado-adulte", des: "des BD ado-adulte du réseau", titre: "Les BD ado-adulte", dossier: "data/bdadulte/", couv: "couvertures/bdadulte/", reseau: true },
 };
 const COL_ID = (() => {
   try {
