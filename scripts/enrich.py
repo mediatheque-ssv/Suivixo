@@ -714,15 +714,37 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
            if len(m) >= 3 and m not in MOTS_EDITEUR_COURANTS]
     if total <= 600 or not jet:
         return a
+    # Orphée dit « Dargaud », la BnF « Kana » (son label manga) : on cherche chez les deux
+    restreint = " ".join(dict.fromkeys([jet[0], *([EDITEURS_PROCHES[jet[0]]] if jet[0] in EDITEURS_PROCHES else [])]))
     b = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, False, numeros_orphee, cherche,
-                     restreint=jet[0], confirmer=confirmer)
+                     restreint=restreint, confirmer=confirmer)
     acc_b = b.pop("_accords", 0)
     b.pop("_total", None)
     garder_a = not b.get("dernier") or bool(isbns_orphee and acc_a > acc_b)
+    if not isbns_orphee and a.get("dernier") and b.get("dernier") \
+            and norm_editeur(a.get("editeur")) == norm_editeur(b.get("editeur")):
+        # sans ISBN pour départager, chez le même éditeur : on garde la recherche qui voit le plus de tomes
+        # (Hunter x Hunter : 38 tomes chez Kana, 21 seulement sous le nom « Dargaud Bénélux-Kana »)
+        garder_a = nb_tomes(a.get("tomes")) > nb_tomes(b.get("tomes"))
     if debug:
-        dbg(f"    BnF : sans éditeur {a.get('dernier')} ({acc_a} des nôtres), chez « {jet[0]} » {b.get('dernier')} ({acc_b}) "
+        dbg(f"    BnF : sans éditeur {a.get('dernier')} ({acc_a} des nôtres), chez « {restreint} » {b.get('dernier')} ({acc_b}) "
             f"-> {'sans' if garder_a else 'chez'}")
     return a if garder_a else b
+
+
+# labels d'un même groupe : Orphée et la BnF n'indiquent pas toujours le même
+EDITEURS_PROCHES = {"dargaud": "kana", "kana": "dargaud", "tonkam": "delcourt", "kaze": "crunchyroll",
+                    "crunchyroll": "kaze", "sakka": "casterman", "neotoon": "hugo"}
+
+
+def nb_tomes(t: str | None) -> int:
+    """Nombre de tomes d'une liste compacte (« 1-5,7,9-38 » → 36)."""
+    n = 0
+    for p in (t or "").split(","):
+        a, _, b = p.strip().partition("-")
+        if a.isdigit():
+            n += (int(b) - int(a) + 1) if b.isdigit() else 1
+    return n
 
 
 def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
@@ -747,7 +769,7 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
     cles_fortes = {cle(t) for t in forts}
     cles_sous = {cle_c(t) for t in forts}
     def req(t: str) -> str:
-        return f'bib.title all "{mots(t)}"' + (f' and bib.publisher all "{restreint}"' if restreint else "") \
+        return f'bib.title all "{mots(t)}"' + (f' and bib.publisher any "{restreint}"' if restreint else "") \
             + ' and (bib.doctype="a")'
     # le préfixe « BD », « Roman »… d'Orphée n'est pas dans le titre à la BnF : on cherche sans lui
     # (avec lui seulement si cela ne donne rien)
