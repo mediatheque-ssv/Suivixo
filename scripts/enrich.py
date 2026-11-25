@@ -73,6 +73,13 @@ def nature_prefixe(t: str) -> str | None:
 ROMAINS = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8, "ix": 9, "x": 10, "xi": 11, "xii": 12}
 
 
+MOTS_VIDES = {"les", "des", "une", "aux", "the", "and", "pour", "dans", "sur", "avec", "par", "est", "qui", "que"}
+
+
+def mots_forts(t: str) -> set[str]:
+    return {m for m in mots(t).split() if len(m) >= 3 and m not in MOTS_VIDES}
+
+
 def cle_c(t: str) -> str:
     """cle() où « cycle III » vaut « cycle 3 » : Orphée et la BnF ne numérotent pas toujours pareil les parties d'une série."""
     t = re.sub(r"\b(cycle|tome|livre|partie|saison|volume|[eé]pisode|arc)\s+([ivx]+)\b",
@@ -691,18 +698,24 @@ def notice_par_isbn(isbn: str, debug: bool = False) -> dict | None:
 
 def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
                 isbns_orphee: list[str] | None = None, rattrapage: bool = True,
-                numeros_orphee: dict[str, int] | None = None, cherche: str | None = None) -> dict | None:
+                numeros_orphee: dict[str, int] | None = None, cherche: str | None = None,
+                confirmer: bool = False) -> dict | None:
     """Tomes parus à la BnF (voir _notices_bnf). Titre trop courant (« Jour J » cherché comme « jour »,
     plus de 600 notices) : on ne lit que les 600 premières, peut-être pas les nôtres ; on cherche aussi
     chez l'éditeur d'Orphée, et on garde la recherche qui trouve le plus de nos exemplaires. Celle qui est
     restreinte à l'éditeur, à égalité : sauf si nos tomes sont aussi chez un autre (Léonard, d'Appro au Lombard)."""
-    a = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, rattrapage, numeros_orphee, cherche)
-    total, acc_a = a.pop("_total", 0), a.pop("_accords", 0)
+    a = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, rattrapage, numeros_orphee, cherche,
+                     confirmer=confirmer)
+    total, acc_a = a.pop("_total", None), a.pop("_accords", 0)
+    if total == 0:
+        a["_vide"] = True  # aucune notice pour ce titre (ou la BnF n'a pas répondu comme il faut)
+    total = total or 0
     jet = [m for m in re.findall(r"[a-z]+", sans_accents((editeur_orphee or "").split("\n")[0]).lower())
            if len(m) >= 3 and m not in MOTS_EDITEUR_COURANTS]
     if total <= 600 or not jet:
         return a
-    b = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, False, numeros_orphee, cherche, restreint=jet[0])
+    b = _notices_bnf(serie, editeur_orphee, volumes_vo, debug, isbns_orphee, False, numeros_orphee, cherche,
+                     restreint=jet[0], confirmer=confirmer)
     acc_b = b.pop("_accords", 0)
     b.pop("_total", None)
     garder_a = not b.get("dernier") or bool(isbns_orphee and acc_a > acc_b)
@@ -715,7 +728,7 @@ def notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None,
 def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None, debug: bool = False,
                  isbns_orphee: list[str] | None = None, rattrapage: bool = True,
                  numeros_orphee: dict[str, int] | None = None, cherche: str | None = None,
-                 restreint: str | None = None) -> dict:
+                 restreint: str | None = None, confirmer: bool = False) -> dict:
     """Tomes parus à la BnF. Avec les ISBN d'Orphée, on garde l'édition qui contient nos exemplaires ;
     si la recherche par titre ne la trouve pas (titre trop courant : « Ambre », « Albert »…), on lit la
     notice de notre ISBN pour connaître le vrai titre de la série à la BnF, et on cherche avec lui.
@@ -880,7 +893,7 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
             if i in nos_isbn:
                 if i in nums_o and nums_o[i] != t["n"]:
                     non += 1
-                else:
+                elif i in nums_o or not confirmer:
                     oui += 1
         return oui if oui > non else 0
     communs = {k: accords(v) for k, v in groupes.items()} if nos_isbn else {}
@@ -895,8 +908,12 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
             # on cherche avec ce titre (« Walking dead » pour « Walking Dead - Clementine », « Bob l'éponge, la BD ! »),
             # en continuant de reconnaître le nôtre : si c'est une sous-série, on ne gardera qu'elle
             if titre_bnf and mots(titre_bnf) != mots(titre_cherche):
+                # un titre sans aucun mot du nôtre est peut-être la collection de l'éditeur (« J'aime lire » pour
+                # Vampirette) : on ne la suit que si ses numéros sont ceux d'Orphée (« Ainsi va la vie » pour Max et Lili)
+                confirmer = not (mots_forts(titre_bnf) & {m for t in titres for m in mots_forts(t)})
                 autre = notices_bnf(serie, n["editeur"] or editeur_orphee, volumes_vo, debug, isbns_orphee,
-                                    rattrapage=False, numeros_orphee=numeros_orphee, cherche=titre_bnf)
+                                    rattrapage=False, numeros_orphee=numeros_orphee, cherche=titre_bnf,
+                                    confirmer=confirmer)
                 if autre and autre.get("accordIsbn"):
                     autre["titreBnf"] = titre_bnf
                     return autre
@@ -1470,7 +1487,12 @@ def main() -> int:
                     if one_shot:
                         e["bnf"] = notice_titre_unique(s, editeur, auteur, debug, nos)
                     else:
-                        e["bnf"] = notices_bnf(s, editeur, vo, debug, nos, numeros_orphee={i: n for n, i in isbns if n is not None})
+                        r = notices_bnf(s, editeur, vo, debug, nos, numeros_orphee={i: n for n, i in isbns if n is not None})
+                        if r.pop("_vide", False) and not r.get("dernier") and (e.get("bnf") or {}).get("dernier"):
+                            # la BnF, surchargée, répond parfois qu'elle n'a aucune notice pour un titre déjà trouvé
+                            # (Crookhaven) : on garde l'ancien résultat et on réessaiera
+                            raise RuntimeError("aucune notice cette fois pour un titre déjà trouvé")
+                        e["bnf"] = r
                     e["bnfVerifie"] = AUJOURDHUI.isoformat()
                 except Exception as ex:
                     pannes.append(f"BnF : {ex}")
