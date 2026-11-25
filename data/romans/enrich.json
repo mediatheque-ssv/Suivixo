@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T03:00:18Z",
+ "maj": "2026-11-25T04:25:36Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "100-bio": {
@@ -961,7 +961,7 @@
      }
     ],
     "accordIsbn": false,
-    "requete": "bib.title all \"alice\" and bib.publisher all \"hachette\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"alice\" and bib.publisher any \"hachette\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-25",
    "liensVus": {},
@@ -14161,7 +14161,7 @@
     "dernier": 52,
     "tomes": "1-21,23-25,28-32,35-36,40-49,51-52",
     "dateDernier": "2026-09",
-    "editeur": "Castor poche-Flammarion",
+    "editeur": "Flammarion jeunesse",
     "notices": 53,
     "autresEditeurs": [
      "Père Castor"
@@ -19743,8 +19743,7 @@
     "editeur": "Bayard jeunesse",
     "notices": 4,
     "autresEditeurs": [
-     "Mr Tan & Co",
-     "Mr Tan & co"
+     "Mr Tan & Co"
     ],
     "ark1": "ark:/12148/cb46529760j",
     "isbn1": "9791027608621",
@@ -27065,7 +27064,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"star wars\" and bib.publisher all \"hachette\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"star wars\" and bib.publisher any \"hachette\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-11-25",
    "bnfVerifie": "2026-11-25",
