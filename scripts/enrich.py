@@ -865,9 +865,9 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
                 dbg(f"    BnF : on garde les notices « {voulue} » ({len(a_nous)} numéros), pas les autres ({len(autres)})")
             # le codage n'est pas toujours régulier : on garde nos exemplaires quoi qu'il arrive, et les
             # numéros manquants avant le dernier de la bonne nature (un tome 2 codé « autre » entre 1 et 3)
-            # Chez un éditeur de la bonne nature dont les autres notices ne reprennent aucun de ses numéros, ce
-            # n'est pas un autre livre du même nom : c'est un tome tout juste paru, codé « autre » le temps du
-            # catalogage (Elliot au collège 4, Métamorphes 3 chez Drakoo, à côté des romans chez d'autres éditeurs).
+            # Chez un éditeur de la bonne nature dont les autres notices ne reprennent aucun de ses numéros, le
+            # tome suivant n'est pas un autre livre du même nom : c'est un tome tout juste paru, codé « autre » le
+            # temps du catalogage (Elliot au collège 4, Métamorphes 3 chez Drakoo, à côté des romans chez d'autres éditeurs).
             haut = max(a_nous)
             garde = {t["n"] for t in tomes if t["nature"] in (None, voulue)}
             bons: dict[str, set[int]] = {}
@@ -876,8 +876,15 @@ def _notices_bnf(serie: dict, editeur_orphee: str, volumes_vo: int | None = None
                 (bons if t["nature"] == voulue else mauvais if t["nature"] else {}).setdefault(
                     norm_editeur(t["editeur"]), set()).add(t["n"])
             propres = {k for k, v in bons.items() if not (v & mauvais.get(k, set()))}
+            # seulement le tome qui suit les nôtres, catalogué depuis moins d'un an : chez Michel Lafon, les
+            # romans d'Aurélie Laflamme 7 et 9 (2018, 2023) ne sont pas la suite de la BD (6 tomes)
+            def frais(t: dict) -> bool:
+                c = t["creee"] or ""
+                return haut < t["n"] <= haut + 2 and len(c) == 8 and c.isdigit() \
+                    and age_jours(f"{c[:4]}-{c[4:6]}-{c[6:]}") <= 400
             tomes = [t for t in tomes if t["nature"] in (None, voulue) or isbn13(t["isbn"]) in nos_isbn
-                     or (t["n"] < haut and t["n"] not in garde) or norm_editeur(t["editeur"]) in propres]
+                     or (t["n"] < haut and t["n"] not in garde)
+                     or (norm_editeur(t["editeur"]) in propres and frais(t))]
     # Une série peut exister chez plusieurs éditeurs (rééditions) : on garde celle qui contient
     # nos ISBN, sinon celle de l'éditeur d'Orphée, sinon celle qui a le plus de tomes.
     groupes: dict[str, list[dict]] = {}
