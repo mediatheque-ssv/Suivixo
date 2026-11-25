@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T01:27:19Z",
+ "maj": "2026-11-25T01:38:19Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "1629-ou-l-effrayante-histoire-des-naufrages-du-jakarta": {
@@ -432,36 +432,34 @@
    "couvEssai": "2026-11-24",
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 17,
-    "tomes": "1-17",
-    "dateDernier": "2026-07",
-    "editeur": "Delcourt",
-    "notices": 21,
-    "autresEditeurs": [
-     "Éditions de Noyelles"
-    ],
-    "ark1": "ark:/12148/cb458126497",
-    "isbn1": "9782413002284",
+    "dernier": 12,
+    "tomes": "7-12",
+    "dateDernier": "2023",
+    "editeur": "Éditions Delcourt",
+    "notices": 8,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47378785g",
+    "isbn1": "9782413082071",
     "candidatsCouv": [
      {
-      "n": 1,
-      "ark": "ark:/12148/cb458126497",
-      "isbn": "9782413002284"
+      "n": 7,
+      "ark": "ark:/12148/cb47378785g",
+      "isbn": "9782413082071"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb458105097",
-      "isbn": "9782413022398"
+      "n": 7,
+      "ark": "ark:/12148/cb46932598w",
+      "isbn": "9782413040620"
      },
      {
-      "n": 2,
-      "ark": "ark:/12148/cb45869272c",
-      "isbn": "9782413007937"
+      "n": 7,
+      "ark": "ark:/12148/cb469312515",
+      "isbn": "9782413040637"
      },
      {
-      "n": 3,
-      "ark": "ark:/12148/cb465589358",
-      "isbn": "9782413010739"
+      "n": 8,
+      "ark": "ark:/12148/cb470283687",
+      "isbn": "9782413043065"
      }
     ],
     "accordIsbn": true,
@@ -644,7 +642,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"9 11\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"9 11\" and bib.publisher all \"bis\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -1134,7 +1132,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"accidentmajeur\" and (bib.doctype=\"a\") and bib.author all \"julliard\""
+    "requete": "bib.title all \"accidentmajeur\" and (bib.doctype=\"a\") and bib.author all \"francois\""
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -2570,16 +2568,11 @@
     "tomes": "1-2",
     "dateDernier": "2011-09",
     "editeur": "Dupuis",
-    "notices": 4,
+    "notices": 2,
     "autresEditeurs": [],
-    "ark1": "ark:/12148/cb43480009b",
-    "isbn1": "9782800152691",
+    "ark1": "ark:/12148/cb391293842",
+    "isbn1": "9782800140070",
     "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb43480009b",
-      "isbn": "9782800152691"
-     },
      {
       "n": 1,
       "ark": "ark:/12148/cb391293842",
@@ -2589,11 +2582,6 @@
       "n": 2,
       "ark": "ark:/12148/cb42515350d",
       "isbn": "9782800148069"
-     },
-     {
-      "n": 2,
-      "ark": "ark:/12148/cb43480010j",
-      "isbn": "9782800150338"
      }
     ],
     "accordIsbn": true,
@@ -2954,7 +2942,7 @@
     "dernier": 3,
     "tomes": "2-3",
     "dateDernier": "2014-04",
-    "editeur": "Audie-\"Fluide glacial\"",
+    "editeur": "\"Fluide glacial\"",
     "notices": 2,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb42667206b",
@@ -4921,7 +4909,7 @@
     "dernier": 9,
     "tomes": "1-9",
     "dateDernier": "2015-06",
-    "editeur": "Fei",
+    "editeur": "les Éditions Fei",
     "notices": 18,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb46928836d",
@@ -5188,7 +5176,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"banque\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"banque\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
    },
    "verifie": "2026-11-24"
   },
@@ -5542,11 +5530,11 @@
   },
   "batman-robin-annee-un": {
    "bnf": {
-    "dernier": 7,
-    "tomes": "1-7",
-    "dateDernier": "2017-03",
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2025",
     "editeur": "Urban comics",
-    "notices": 11,
+    "notices": 1,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb48681204f",
     "isbn1": "9791026824527",
@@ -5555,26 +5543,10 @@
       "n": 1,
       "ark": "ark:/12148/cb48681204f",
       "isbn": "9791026824527"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb456099496",
-      "isbn": "9791026815327"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb43872585s",
-      "isbn": "9782365773553"
-     },
-     {
-      "n": 2,
-      "ark": "ark:/12148/cb45731115j",
-      "isbn": "9791026818731"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"batman robin\" and (bib.doctype=\"a\")",
-    "titreBnf": "Batman & Robin"
+    "requete": "bib.title all \"batman robin annee un\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -5807,11 +5779,8 @@
     "tomes": "1,4-7",
     "dateDernier": "2017-06",
     "editeur": "Delcourt",
-    "notices": 5,
-    "autresEditeurs": [
-     "Elvifrance",
-     "Lucca éditions"
-    ],
+    "notices": 6,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb43835004g",
     "isbn1": "9782756034973",
     "candidatsCouv": [
@@ -5819,6 +5788,11 @@
       "n": 1,
       "ark": "ark:/12148/cb43835004g",
       "isbn": "9782756034973"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43494933v",
+      "isbn": "9782756062709"
      },
      {
       "n": 4,
@@ -5829,16 +5803,10 @@
       "n": 5,
       "ark": "ark:/12148/cb44492179m",
       "isbn": "9782756063836"
-     },
-     {
-      "n": 6,
-      "ark": "ark:/12148/cb45109662q",
-      "isbn": "9782756079448"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"detectives\" and (bib.doctype=\"a\")",
-    "titreBnf": "Détectives"
+    "requete": "bib.title all \"detectives\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -6018,9 +5986,7 @@
     "dateDernier": "2021-05",
     "editeur": "Glénat",
     "notices": 6,
-    "autresEditeurs": [
-     "Rageot"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb45028271k",
     "isbn1": "9782344011843",
     "candidatsCouv": [
@@ -6201,11 +6167,8 @@
     "tomes": "1-4",
     "dateDernier": "2023-11",
     "editeur": "Glénat",
-    "notices": 5,
-    "autresEditeurs": [
-     "Librairie générale française",
-     "Rageot"
-    ],
+    "notices": 4,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb46646461x",
     "isbn1": "9782344037737",
     "candidatsCouv": [
@@ -6226,13 +6189,12 @@
      },
      {
       "n": 4,
-      "ark": "ark:/12148/cb473685146",
+      "ark": "ark:/12148/cb47360178d",
       "isbn": "9782344057506"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"mondes ewilan\" and (bib.doctype=\"a\")",
-    "titreBnf": "Les mondes d'Ewilan"
+    "requete": "bib.title all \"mondes ewilan\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -6401,7 +6363,7 @@
     "dernier": 3,
     "tomes": "1-3",
     "dateDernier": "2015-04",
-    "editeur": "Panini comics",
+    "editeur": "Urban comics",
     "notices": 5,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb43781655x",
@@ -6429,8 +6391,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"northlanders\" and (bib.doctype=\"a\")",
-    "titreBnf": "Northlanders"
+    "requete": "bib.title all \"northlanders\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -7265,11 +7226,11 @@
   },
   "bienvenue-chez-les-loud": {
    "bnf": {
-    "dernier": 49,
-    "tomes": "1-42,46-49",
-    "dateDernier": "2024-11",
+    "dernier": 21,
+    "tomes": "1-21",
+    "dateDernier": "2025-08",
     "editeur": "Hachette",
-    "notices": 74,
+    "notices": 27,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47056320c",
     "isbn1": "9782017168676",
@@ -7290,9 +7251,9 @@
       "isbn": "9782012905078"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb45497765x",
-      "isbn": "9782017048657"
+      "n": 2,
+      "ark": "ark:/12148/cb46645815m",
+      "isbn": "9782016284025"
      }
     ],
     "accordIsbn": true,
@@ -8285,15 +8246,12 @@
   },
   "bouncer": {
    "bnf": {
-    "dernier": 7,
-    "tomes": "1-7",
-    "dateDernier": "2009-12",
+    "dernier": 12,
+    "tomes": "1-12",
+    "dateDernier": "2023",
     "editeur": "les Humanoïdes associés",
-    "notices": 15,
-    "autresEditeurs": [
-     "Editions Glénat",
-     "Glénat"
-    ],
+    "notices": 21,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb42783822v",
     "isbn1": "9782731656435",
     "candidatsCouv": [
@@ -9171,7 +9129,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"campbell\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"campbell\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782800160108,9782800160917,9782800163543"
   },
@@ -9391,7 +9349,7 @@
     "dernier": 16,
     "tomes": "1-16",
     "dateDernier": "2026-01",
-    "editeur": "Humanoïdes Associés",
+    "editeur": "les Humanoïdes associés",
     "notices": 18,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb45839971b",
@@ -9818,7 +9776,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"celle que\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"celle que\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -10961,36 +10919,34 @@
   },
   "cherub": {
    "bnf": {
-    "dernier": 17,
-    "tomes": "1-17",
-    "dateDernier": "2018-08",
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2019-08",
     "editeur": "Casterman",
-    "notices": 41,
-    "autresEditeurs": [
-     "Éd. France loisirs"
-    ],
-    "ark1": "ark:/12148/cb47647987c",
-    "isbn1": "9782203284401",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb42661284p",
+    "isbn1": "9782203048386",
     "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb47647987c",
-      "isbn": "9782203284401"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb437179741",
-      "isbn": "9782203066304"
-     },
      {
       "n": 1,
       "ark": "ark:/12148/cb42661284p",
       "isbn": "9782203048386"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb426393321",
-      "isbn": "9782203026506"
+      "n": 2,
+      "ark": "ark:/12148/cb45322196q",
+      "isbn": "9782203132467"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb455097709",
+      "isbn": "9782203148895"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb457873267",
+      "isbn": "9782203178960"
      }
     ],
     "accordIsbn": true,
@@ -11207,7 +11163,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"choc\" and (bib.doctype=\"a\")",
+    "requete": "bib.title all \"choc\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
    "bnfVerifie": "2026-11-24",
@@ -11478,10 +11434,7 @@
     "dateDernier": "2011-08",
     "editeur": "12 bis",
     "notices": 2,
-    "autresEditeurs": [
-     "Pocket Jeunesse-PKJ",
-     "Pocket jeunesse"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb42434548d",
     "isbn1": "9782356482983",
     "candidatsCouv": [
@@ -12308,7 +12261,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"cognac\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"cognac\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -13701,14 +13654,17 @@
     "dernier": 3,
     "tomes": "1-3",
     "dateDernier": "2021-09",
-    "editeur": "Quadrants boussole",
-    "notices": 3,
-    "autresEditeurs": [
-     "Soleil"
-    ],
-    "ark1": "ark:/12148/cb45435397q",
-    "isbn1": "9782302066311",
+    "editeur": "Soleil",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb465147933",
+    "isbn1": "9782302082595",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb465147933",
+      "isbn": "9782302082595"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb45435397q",
@@ -14621,7 +14577,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"dali\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"dali\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -16632,11 +16588,9 @@
     "tomes": "1-13",
     "dateDernier": "2021",
     "editeur": "Dargaud",
-    "notices": 34,
+    "notices": 25,
     "autresEditeurs": [
-     "Pocket",
      "Éd. France loisirs",
-     "Éd. des Écrivains",
      "Éditions France loisirs"
     ],
     "ark1": "ark:/12148/cb47005742h",
@@ -17755,16 +17709,12 @@
   },
   "elliot-au-college": {
    "bnf": {
-    "dernier": 4,
-    "tomes": "1-4",
-    "dateDernier": "2026-06",
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2024-09",
     "editeur": "Dupuis",
-    "notices": 4,
-    "autresEditeurs": [
-     "Pocket Jeunesse",
-     "Pocket jeunesse",
-     "Pocket jeunesse-PKJ"
-    ],
+    "notices": 3,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb471679001",
     "isbn1": "9791034757787",
     "candidatsCouv": [
@@ -17782,11 +17732,6 @@
       "n": 3,
       "ark": "ark:/12148/cb475628305",
       "isbn": "9782808503334"
-     },
-     {
-      "n": 4,
-      "ark": "ark:/12148/cb487826477",
-      "isbn": "9782808510288"
      }
     ],
     "accordIsbn": true,
@@ -23279,34 +23224,34 @@
   },
   "guerre-des-sambre-hugo-iris": {
    "bnf": {
-    "dernier": 1,
-    "tomes": "1",
+    "dernier": 3,
+    "tomes": "1-3",
     "dateDernier": "2009",
     "editeur": "Futuropolis",
     "notices": 3,
     "autresEditeurs": [
      "Glénat"
     ],
-    "ark1": "ark:/12148/cb421386871",
-    "isbn1": "9782754801096",
+    "ark1": "ark:/12148/cb42034400f",
+    "isbn1": "9782754800570",
     "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb421386871",
-      "isbn": "9782754801096"
-     },
      {
       "n": 1,
       "ark": "ark:/12148/cb42034400f",
       "isbn": "9782754800570"
      },
      {
-      "n": 1,
+      "n": 2,
       "ark": "ark:/12148/cb41352535p",
       "isbn": "9782754801089"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb421386871",
+      "isbn": "9782754801096"
      }
     ],
-    "accordIsbn": false,
+    "accordIsbn": true,
     "requete": "bib.title all \"guerre des sambre hugo iris\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
@@ -24472,9 +24417,7 @@
     "dateDernier": "2020-11",
     "editeur": "Delcourt",
     "notices": 5,
-    "autresEditeurs": [
-     "Black mony"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb45053678h",
     "isbn1": "9782756042176",
     "candidatsCouv": [
@@ -24500,8 +24443,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"homicide\" and (bib.doctype=\"a\")",
-    "titreBnf": "Homicide"
+    "requete": "bib.title all \"homicide une annee dans les rues de baltimore\" and (bib.doctype=\"a\")"
    },
    "liensVus": {}
   },
@@ -25054,9 +24996,7 @@
     "dateDernier": "2015-12",
     "editeur": "Dargaud",
     "notices": 1,
-    "autresEditeurs": [
-     "Éditions Baudelaire"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb44464008p",
     "isbn1": "9782205072631",
     "candidatsCouv": [
@@ -26029,7 +25969,7 @@
     "dernier": 7,
     "tomes": "1-7",
     "dateDernier": "2011-06",
-    "editeur": "le Lombard",
+    "editeur": "Lombard",
     "notices": 8,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb458006873",
@@ -27039,10 +26979,7 @@
     "dateDernier": "2010-10",
     "editeur": "J.-C. Gawsewitch",
     "notices": 2,
-    "autresEditeurs": [
-     "Delcourt",
-     "Librairie générale française"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb42076908w",
     "isbn1": "9782350131825",
     "candidatsCouv": [
@@ -27058,7 +26995,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"josephine\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"josephine\" and bib.publisher all \"gawsewitch\" and (bib.doctype=\"a\")"
    }
   },
   "jour-d-avant": {
@@ -28644,7 +28581,7 @@
     "tomes": "1-8",
     "dateDernier": "2008",
     "editeur": "Soleil",
-    "notices": 22,
+    "notices": 18,
     "autresEditeurs": [
      "Éd. France loisirs"
     ],
@@ -28663,13 +28600,13 @@
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb434737371",
-      "isbn": "9782302003859"
+      "ark": "ark:/12148/cb400947038",
+      "isbn": "2849463396"
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb434724160",
-      "isbn": "9782302002623"
+      "ark": "ark:/12148/cb39902566z",
+      "isbn": "2849461253"
      }
     ],
     "accordIsbn": true,
@@ -29533,12 +29470,8 @@
     "tomes": "1-8",
     "dateDernier": "2018-11",
     "editeur": "Glénat",
-    "notices": 12,
-    "autresEditeurs": [
-     "Dupuis",
-     "Grasset et Fasquelle",
-     "Éditions Élixyria"
-    ],
+    "notices": 14,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb47183678k",
     "isbn1": "9782344054963",
     "candidatsCouv": [
@@ -29559,12 +29492,12 @@
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb43489140x",
-      "isbn": "2723442756"
+      "ark": "ark:/12148/cb43699132v",
+      "isbn": "9782723498500"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"lou\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"lou\" and bib.publisher all \"glenat\" and (bib.doctype=\"a\")"
    },
    "liensVus": {},
    "couvVersion": 4,
@@ -29734,13 +29667,7 @@
     "dateDernier": "2000-07",
     "editeur": "les Humanoïdes associés",
     "notices": 9,
-    "autresEditeurs": [
-     "\"Fluide glacial\"",
-     "Audie-\"Fluide glacial\"",
-     "Fluide glacial",
-     "Éd. France loisirs",
-     "Éditions Audie-\"Fluide glacial\""
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb369875683",
     "isbn1": "2731613165",
     "candidatsCouv": [
@@ -29766,7 +29693,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"lucien\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"lucien\" and bib.publisher all \"humanoides\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782731613162,9782731613179,9782731613193"
   },
@@ -30744,13 +30671,7 @@
     "dateDernier": "2023-09",
     "editeur": "Bande d'ados",
     "notices": 2,
-    "autresEditeurs": [
-     "Bayard",
-     "Bayard jeunesse",
-     "Édilivre",
-     "Éditions France loisirs",
-     "Éditions les Incorruptibles"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb47020405p",
     "isbn1": "9791036327001",
     "candidatsCouv": [
@@ -30766,7 +30687,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"manoir\" and (bib.doctype=\"a\")",
+    "requete": "bib.title all \"manoir\" and bib.publisher all \"bande\" and (bib.doctype=\"a\")",
     "titreBnf": "Le manoir"
    },
    "liensVus": {},
@@ -31318,9 +31239,7 @@
     "dateDernier": "2022-12",
     "editeur": "Futuropolis",
     "notices": 8,
-    "autresEditeurs": [
-     "Éd. France loisirs"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb435094001",
     "isbn1": "9782754808620",
     "candidatsCouv": [
@@ -31346,7 +31265,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"matteo\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"matteo\" and bib.publisher all \"futuropolis\" and (bib.doctype=\"a\")"
    },
    "liensVus": {},
    "couvVersion": 4,
@@ -31879,7 +31798,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"mercy\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"mercy\" and bib.publisher all \"glenat\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782344041505,9782344044889,9782344046852"
   },
@@ -32204,15 +32123,12 @@
    "verifie": "2026-11-24",
    "couvEssai": "2026-11-24",
    "bnf": {
-    "dernier": 3,
-    "tomes": "1-3",
-    "dateDernier": "2026-07",
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2025-10",
     "editeur": "Drakoo",
-    "notices": 3,
-    "autresEditeurs": [
-     "Librinova",
-     "Lucioles editions"
-    ],
+    "notices": 2,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb475030450",
     "isbn1": "9782382332283",
     "candidatsCouv": [
@@ -32225,11 +32141,6 @@
       "n": 2,
       "ark": "ark:/12148/cb48577571g",
       "isbn": "9782382332986"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb48812803w",
-      "isbn": "9782382333693"
      }
     ],
     "accordIsbn": true,
@@ -33519,7 +33430,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"mondaine\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"mondaine\" and bib.publisher all \"dargaud\" and (bib.doctype=\"a\")"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -33777,10 +33688,7 @@
     "dateDernier": "2023-11",
     "editeur": "Glénat",
     "notices": 5,
-    "autresEditeurs": [
-     "Librairie générale française",
-     "Rageot"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb46646461x",
     "isbn1": "9782344037737",
     "candidatsCouv": [
@@ -33986,9 +33894,7 @@
     "dateDernier": "2016-08",
     "editeur": "Delcourt",
     "notices": 2,
-    "autresEditeurs": [
-     "M. Lafon"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb43658351m",
     "isbn1": "9782756017501",
     "candidatsCouv": [
@@ -35183,14 +35089,75 @@
    "couvEssai": "2026-11-24",
    "couvEssaiMN": "",
    "couvVersion": 4,
-   "couvIsbn": "9782822235785"
+   "couvIsbn": "9782822235785",
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2022-12",
+    "editeur": "Jungle",
+    "notices": 4,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb46773241t",
+    "isbn1": "9782822232593",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb46773241t",
+      "isbn": "9782822232593"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46901891f",
+      "isbn": "9782822233774"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb47048500k",
+      "isbn": "9782822235662"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb47150159k",
+      "isbn": "9782822235785"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"neo\" and bib.publisher all \"jungle\" and (bib.doctype=\"a\")"
+   },
+   "liensVus": {}
   },
   "neoforest": {
    "bnf": {
-    "dernier": null,
-    "notices": 0,
-    "requete": "bib.title all \"neoforest\" and (bib.doctype=\"a\")",
-    "accordIsbn": false
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2025-04",
+    "editeur": "Dargaud",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47217875s",
+    "isbn1": "9782205208481",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47217875s",
+      "isbn": "9782205208481"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb471788602",
+      "isbn": "9782205203288"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb47703076m",
+      "isbn": "9782205206425"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"neo forest\" and (bib.doctype=\"a\")",
+    "titreBnf": "Neo forest"
    },
    "bnfVerifie": "2026-11-24",
    "couvEssai": "2026-11-24",
@@ -36999,7 +36966,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"olive\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"olive\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")"
    }
   },
   "ombre-des-lumieres-lettres-du-chevalier-de-saint-sauveur": {
@@ -37412,7 +37379,7 @@
     "dernier": 4,
     "tomes": "1-4",
     "dateDernier": "2023-08",
-    "editeur": "Jungle",
+    "editeur": "Steinkis Groupe Jungle",
     "notices": 4,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb470386417",
@@ -38128,7 +38095,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"palestine\" and (bib.doctype=\"a\")",
+    "requete": "bib.title all \"palestine\" and bib.publisher all \"vertige\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    }
   },
@@ -38294,10 +38261,7 @@
     "dateDernier": "2008-06",
     "editeur": "Casterman",
     "notices": 4,
-    "autresEditeurs": [
-     "Micro application",
-     "le Livre de poche jeunesse"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb400721987",
     "isbn1": "2203374063",
     "candidatsCouv": [
@@ -38323,7 +38287,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"paradise\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"paradise\" and bib.publisher all \"casterman\" and (bib.doctype=\"a\")"
    }
   },
   "parasites": {
@@ -38365,10 +38329,7 @@
     "dateDernier": "2023-11",
     "editeur": "Drakoo",
     "notices": 3,
-    "autresEditeurs": [
-     "Bragelonne",
-     "Gallimard"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb48626410w",
     "isbn1": "9782382332245",
     "candidatsCouv": [
@@ -38632,11 +38593,11 @@
   },
   "passe-miroir": {
    "bnf": {
-    "dernier": 4,
-    "tomes": "1-4",
-    "dateDernier": "2026-08",
-    "editeur": "Gallimard bande dessinée",
-    "notices": 15,
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2026-10",
+    "editeur": "Gallimard jeunesse",
+    "notices": 2,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb48850120w",
     "isbn1": "9782075163743",
@@ -38648,18 +38609,8 @@
      },
      {
       "n": 1,
-      "ark": "ark:/12148/cb48807082t",
-      "isbn": "9782075215466"
-     },
-     {
-      "n": 1,
       "ark": "ark:/12148/cb48699235v",
       "isbn": "9782075163743"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb450426600",
-      "isbn": "9782070582617"
      }
     ],
     "accordIsbn": true,
@@ -39299,9 +39250,7 @@
     "dateDernier": "2010-05",
     "editeur": "Delcourt",
     "notices": 2,
-    "autresEditeurs": [
-     "E. Flammarion"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb414707538",
     "isbn1": "9782756013718",
     "candidatsCouv": [
@@ -40644,9 +40593,7 @@
     "dateDernier": "2012-11",
     "editeur": "BD kids",
     "notices": 2,
-    "autresEditeurs": [
-     "[Universal music kiosks]"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb426835654",
     "isbn1": "9782747039260",
     "candidatsCouv": [
@@ -40932,10 +40879,10 @@
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 24,
-    "tomes": "1-21,23-24",
+    "tomes": "1-24",
     "dateDernier": "2025-11",
     "editeur": "Bamboo édition",
-    "notices": 29,
+    "notices": 30,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb43497329p",
     "isbn1": "9782818931899",
@@ -40962,7 +40909,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"pompiers\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"pompiers\" and bib.publisher all \"bamboo\" and (bib.doctype=\"a\")"
    },
    "couvIsbn": "9782350781068"
   },
@@ -43049,42 +42996,33 @@
    "bnfVerifie": "2026-11-24",
    "couvIsbn": "9782756060781",
    "bnf": {
-    "dernier": 6,
-    "tomes": "1-6",
-    "dateDernier": "2017-09",
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2020-02",
     "editeur": "Delcourt",
-    "notices": 47,
-    "autresEditeurs": [
-     "Éditions France loisirs",
-     "Éditions de Noyelles"
-    ],
-    "ark1": "ark:/12148/cb48548563g",
-    "isbn1": "9782413042297",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45588496k",
+    "isbn1": "9782756060781",
     "candidatsCouv": [
      {
       "n": 1,
-      "ark": "ark:/12148/cb48548563g",
-      "isbn": "9782413042297"
+      "ark": "ark:/12148/cb45588496k",
+      "isbn": "9782756060781"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb48525774j",
-      "isbn": "9782413029816"
+      "n": 2,
+      "ark": "ark:/12148/cb456797311",
+      "isbn": "9782413005308"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb47289809x",
-      "isbn": "9782413039600"
-     },
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb47225852v",
-      "isbn": "9782413044482"
+      "n": 3,
+      "ark": "ark:/12148/cb465246068",
+      "isbn": "9782413023746"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"reines de sang\" and (bib.doctype=\"a\")",
-    "titreBnf": "Les reines de sang"
+    "requete": "bib.title all \"reines de sang catherine de medicis la reine maudite\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-11-24",
    "verifie": "2026-11-24",
@@ -43609,10 +43547,7 @@
     "dateDernier": "2019-04",
     "editeur": "Dargaud",
     "notices": 10,
-    "autresEditeurs": [
-     "Denoël",
-     "Encre bleue éditeur"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb423605733",
     "isbn1": "9782205065183",
     "candidatsCouv": [
@@ -43790,9 +43725,8 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"revanche\" and (bib.doctype=\"a\")",
-    "accordIsbn": false,
-    "ecartee": "Sandra-Wannes, 1 notices"
+    "requete": "bib.title all \"revanche\" and bib.publisher all \"treize\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    },
    "liensVus": {}
   },
@@ -44879,12 +44813,7 @@
     "dateDernier": "2025",
     "editeur": "Urban",
     "notices": 3,
-    "autresEditeurs": [
-     "",
-     "ASB",
-     "Anne-Sophie Billet",
-     "Entreprise Individuelle Céline MASSON (Pseudonyme : Smoly Plume)"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb47489050h",
     "isbn1": "9791026828471",
     "candidatsCouv": [
@@ -44905,7 +44834,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"sacrifice\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"sacrifice\" and bib.publisher all \"urban\" and (bib.doctype=\"a\")"
    },
    "liensVus": {},
    "couvVersion": 4,
@@ -45055,7 +44984,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"saint barthelemy\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"saint barthelemy\" and bib.publisher all \"arenes\" and (bib.doctype=\"a\")"
    },
    "couvEssai": "2026-11-24",
    "verifie": "2026-11-24",
@@ -45251,10 +45180,7 @@
     "dateDernier": "2004-09",
     "editeur": "les Humanoïdes associés",
     "notices": 4,
-    "autresEditeurs": [
-     "Bragelonne",
-     "Hugo Roman"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb39097698c",
     "isbn1": "2731614587",
     "candidatsCouv": [
@@ -45280,7 +45206,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"sanctuaire\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"sanctuaire\" and bib.publisher all \"humanoides\" and (bib.doctype=\"a\")"
    }
   },
   "sang-des-batisseurs": {
@@ -45548,7 +45474,7 @@
     "dernier": 10,
     "tomes": "1-10",
     "dateDernier": "2014",
-    "editeur": "Urban",
+    "editeur": "Urban Comics",
     "notices": 27,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47652029q",
@@ -46594,11 +46520,7 @@
     "dateDernier": "2021-11",
     "editeur": "Dupuis",
     "notices": 26,
-    "autresEditeurs": [
-     "Rue de Sèvres",
-     "[Éd. France loisirs]",
-     "Éd. France loisirs"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb47192828j",
     "isbn1": "9791034769339",
     "candidatsCouv": [
@@ -46624,7 +46546,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"seuls\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"seuls\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")"
    }
   },
   "shades-of-magic-the-steel-prince-trilogy": {
@@ -46922,11 +46844,23 @@
    "verifie": "2026-11-24",
    "bnfVerifie": "2026-11-24",
    "bnf": {
-    "dernier": null,
-    "notices": 0,
-    "requete": "bib.title all \"short\" and (bib.doctype=\"a\")",
+    "dernier": 1,
+    "tomes": "1",
+    "dateDernier": "2004",
+    "editeur": "Actes Sud",
+    "notices": 1,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb39969566w",
+    "isbn1": "2742753532",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb39969566w",
+      "isbn": "2742753532"
+     }
+    ],
     "accordIsbn": false,
-    "ecartee": "Webcomics.fr, 1 notices"
+    "requete": "bib.title all \"short\" and bib.publisher all \"actes\" and (bib.doctype=\"a\")"
    },
    "liensVus": {},
    "couvVersion": 4,
@@ -47412,7 +47346,6 @@
     "editeur": "EP éd.",
     "notices": 4,
     "autresEditeurs": [
-     "EP Emmanuel Proust éditions",
      "Nouveau monde éditions"
     ],
     "ark1": "ark:/12148/cb399471588",
@@ -48860,22 +48793,17 @@
    "bnf": {
     "dernier": 3,
     "tomes": "1-3",
-    "dateDernier": "2024-11",
-    "editeur": "Nathan bande dessinée",
-    "notices": 6,
+    "dateDernier": "2011-11",
+    "editeur": "Nathan",
+    "notices": 4,
     "autresEditeurs": [
      "PKJ",
      "les Incorruptibles",
      "Éd. France loisirs"
     ],
-    "ark1": "ark:/12148/cb47175262c",
-    "isbn1": "9782092494509",
+    "ark1": "ark:/12148/cb42239729j",
+    "isbn1": "9782092023105",
     "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb47175262c",
-      "isbn": "9782092494509"
-     },
      {
       "n": 1,
       "ark": "ark:/12148/cb42239729j",
@@ -48890,6 +48818,11 @@
       "n": 2,
       "ark": "ark:/12148/cb42379429q",
       "isbn": "9782092529683"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb42557888s",
+      "isbn": "9782092529706"
      }
     ],
     "accordIsbn": true,
@@ -49465,7 +49398,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"tango\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"tango\" and bib.publisher all \"lombard\" and (bib.doctype=\"a\")"
    },
    "liensVus": {},
    "couvVersion": 4,
@@ -50089,7 +50022,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"ter\" and (bib.doctype=\"a\")",
+    "requete": "bib.title all \"ter\" and bib.publisher all \"daniel\" and (bib.doctype=\"a\")",
     "accordIsbn": false
    },
    "couvIsbn": "9782356740502,9782356740526,9782356740656"
@@ -50912,9 +50845,7 @@
     "dateDernier": "2016-11",
     "editeur": "Bamboo édition",
     "notices": 2,
-    "autresEditeurs": [
-     "Ronde du Tournesol"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb450043390",
     "isbn1": "9782818934593",
     "candidatsCouv": [
@@ -54808,9 +54739,7 @@
     "dateDernier": "2012",
     "editeur": "l'Association",
     "notices": 2,
-    "autresEditeurs": [
-     "les Livres du futur"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb42180177f",
     "isbn1": "9782844143952",
     "candidatsCouv": [
