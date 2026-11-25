@@ -431,13 +431,24 @@ function rendreSeries() {
   const titre = p.presence === "moi" ? `${COL.titre} de ${h(bib)}` : p.presence === "reseau" ? `${COL.titre} du réseau` : "Toutes les séries";
   const tomesIci = base.reduce((a, v) => a + v.ici.length, 0);
   const total = base.length || 1;
+  // séries et one shots comptés à part (« titres uniques » pour les romans)
+  const uniques = base.filter((v) => v.s.type === "One shot");
+  const nbSeries = base.length - uniques.length;
+  const tomesSeries = tomesIci - uniques.reduce((a, v) => a + v.ici.length, 0);
+  const motUnique = COL.dossier === "data/romans/" ? ["titre unique", "titres uniques"] : ["one shot", "one shots"];
+  const enRayon = p.presence === "moi";
+  const fort = (n, s, pl) => `<strong>${nf.format(n)}</strong> ${n > 1 ? pl : s}`;
+  const resume = [
+    nbSeries || !uniques.length ? `${fort(nbSeries, "série", "séries")}${enRayon && nbSeries ? ` (${fort(tomesSeries, "tome", "tomes")})` : ""}` : "",
+    uniques.length ? fort(uniques.length, ...motUnique) : "",
+  ].filter(Boolean).join(" et ") + (enRayon ? " en rayon" : "");
   const grille = p.affichage !== "liste";
 
   $("#vue").innerHTML = `
     <div class="accueil">
       <div class="accueil-texte">
         <h1>${titre}</h1>
-        <p class="chapo"><strong>${nf.format(base.length)}</strong> séries${p.presence === "moi" ? `, <strong>${nf.format(tomesIci)}</strong> tomes en rayon` : ""}${p.q || p.public || p.genre ? " pour cette recherche" : ""}.</p>
+        <p class="chapo">${resume}${p.q || p.public || p.genre ? " pour cette recherche" : ""}.</p>
       </div>
       <div class="vues" role="group" aria-label="Affichage">
         <button type="button" data-affichage="couvertures" aria-pressed="${grille}">Couvertures</button>
