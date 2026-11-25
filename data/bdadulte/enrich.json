@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T01:38:19Z",
+ "maj": "2026-11-25T01:38:26Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "1629-ou-l-effrayante-histoire-des-naufrages-du-jakarta": {
@@ -127,10 +127,28 @@
    "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": null,
-    "notices": 0,
-    "requete": "bib.title all \"22\" and (bib.doctype=\"a\")",
-    "accordIsbn": false
+    "dernier": 2,
+    "tomes": "1-2",
+    "dateDernier": "2014-05",
+    "editeur": "Delcourt",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb43747868f",
+    "isbn1": "9782756039480",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb43747868f",
+      "isbn": "9782756039480"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb43831434j",
+      "isbn": "9782756049564"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"22\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
    }
   },
   "273-amis": {
@@ -1405,17 +1423,16 @@
     "tomes": "1-2",
     "dateDernier": "2020-12",
     "editeur": "Dupuis",
-    "notices": 4,
-    "autresEditeurs": [
-     "CSD éd.",
-     "Casterman",
-     "Flammarion",
-     "Fontaine",
-     "Soleil"
-    ],
-    "ark1": "ark:/12148/cb45571528g",
-    "isbn1": "9791034732593",
+    "notices": 5,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45853197s",
+    "isbn1": "9791034742783",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45853197s",
+      "isbn": "9791034742783"
+     },
      {
       "n": 1,
       "ark": "ark:/12148/cb45571528g",
@@ -1430,15 +1447,10 @@
       "n": 2,
       "ark": "ark:/12148/cb46667650g",
       "isbn": "9791034748044"
-     },
-     {
-      "n": 2,
-      "ark": "ark:/12148/cb466624919",
-      "isbn": "9791034732647"
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"age or\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"age or\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")"
    }
   },
   "agito-cosmos": {
@@ -1660,11 +1672,8 @@
     "tomes": "1-4",
     "dateDernier": "2023-07",
     "editeur": "Dupuis",
-    "notices": 77,
-    "autresEditeurs": [
-     "",
-     "Depuis"
-    ],
+    "notices": 79,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb474642702",
     "isbn1": "9782808505093",
     "candidatsCouv": [
@@ -1690,7 +1699,7 @@
      }
     ],
     "accordIsbn": false,
-    "requete": "bib.title all \"aire libre\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"aire libre\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")"
    }
   },
   "alchimiste": {
@@ -4072,10 +4081,7 @@
     "dateDernier": "2022-05",
     "editeur": "Dupuis",
     "notices": 3,
-    "autresEditeurs": [
-     "PKJ",
-     "Pocket jeunesse-PKJ"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb465400407",
     "isbn1": "9782800174259",
     "candidatsCouv": [
@@ -4372,7 +4378,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"autres gens\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"autres gens\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")"
    }
   },
   "avec-ou-sans-moustache": {
@@ -5424,36 +5430,10 @@
    "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": 3,
-    "tomes": "1-3",
-    "dateDernier": "2014-04",
-    "editeur": "Dupuis",
-    "notices": 3,
-    "autresEditeurs": [
-     "[Association Billom-Bataille]",
-     "«L'Arc»"
-    ],
-    "ark1": "ark:/12148/cb42641699d",
-    "isbn1": "9782800151526",
-    "candidatsCouv": [
-     {
-      "n": 1,
-      "ark": "ark:/12148/cb42641699d",
-      "isbn": "9782800151526"
-     },
-     {
-      "n": 2,
-      "ark": "ark:/12148/cb43583624s",
-      "isbn": "9782800155081"
-     },
-     {
-      "n": 3,
-      "ark": "ark:/12148/cb43808094c",
-      "isbn": "9782800155340"
-     }
-    ],
-    "accordIsbn": true,
-    "requete": "bib.title all \"bataille\" and (bib.doctype=\"a\")"
+    "dernier": null,
+    "notices": 0,
+    "requete": "bib.title all \"bataille\" and bib.publisher all \"grasset\" and (bib.doctype=\"a\")",
+    "accordIsbn": false
    }
   },
   "batman": {
@@ -5727,10 +5707,38 @@
    "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": null,
-    "notices": 0,
-    "requete": "bib.title all \"bd agatha christie\" and (bib.doctype=\"a\")",
-    "accordIsbn": false
+    "dernier": 24,
+    "tomes": "1-24",
+    "dateDernier": "2013-07",
+    "editeur": "EP éd.",
+    "notices": 24,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb38957671x",
+    "isbn1": "2848100060",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb38957671x",
+      "isbn": "2848100060"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb38957686z",
+      "isbn": "2848100079"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb38957695x",
+      "isbn": "2848100087"
+     },
+     {
+      "n": 4,
+      "ark": "ark:/12148/cb389954335",
+      "isbn": "2848100133"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"agatha christie\" and (bib.doctype=\"a\")"
    }
   },
   "bd-calpurnia": {
@@ -5895,7 +5903,7 @@
     "dernier": 9,
     "tomes": "1-9",
     "dateDernier": "2015-06",
-    "editeur": "Fei",
+    "editeur": "les Éditions Fei",
     "notices": 18,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb46928836d",
@@ -5923,8 +5931,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"balade de yaya\" and (bib.doctype=\"a\")",
-    "titreBnf": "La balade de Yaya"
+    "requete": "bib.title all \"balade de yaya\" and (bib.doctype=\"a\")"
    }
   },
   "bd-la-quete-d-ewilan": {
@@ -6117,8 +6124,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"rapport de brodeck\" and (bib.doctype=\"a\")",
-    "titreBnf": "Le rapport de Brodeck"
+    "requete": "bib.title all \"rapport de brodeck\" and (bib.doctype=\"a\")"
    }
   },
   "bd-le-temple-du-passe": {
@@ -6272,11 +6278,7 @@
     "dateDernier": "2022-12",
     "editeur": "Jungle",
     "notices": 4,
-    "autresEditeurs": [
-     "Pocket jeunesse-PKJ",
-     "À vue d'oeil",
-     "Éditions de Noyelles"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb46773241t",
     "isbn1": "9782822232593",
     "candidatsCouv": [
@@ -6302,8 +6304,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"neo\" and (bib.doctype=\"a\")",
-    "titreBnf": "NÉO"
+    "requete": "bib.title all \"neo\" and bib.publisher all \"jungle\" and (bib.doctype=\"a\")"
    }
   },
   "bd-niourk": {
@@ -6478,13 +6479,10 @@
     "tomes": "1-18",
     "dateDernier": "2023-09",
     "editeur": "Glénat",
-    "notices": 31,
+    "notices": 30,
     "autresEditeurs": [
      "Bannoù-heol",
-     "Hachette",
-     "Hachette Jeunesse",
-     "Hachette jeunesse",
-     "Hachette livre"
+     "Éditions France loisirs"
     ],
     "ark1": "ark:/12148/cb42435097g",
     "isbn1": "9782723483728",
@@ -6511,8 +6509,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"titeuf\" and (bib.doctype=\"a\")",
-    "titreBnf": "Titeuf"
+    "requete": "bib.title all \"titeuf\" and (bib.doctype=\"a\")"
    }
   },
   "bd-travis": {
@@ -8376,7 +8373,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"bourreau\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"bourreau\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
    }
   },
   "brigade-d-outre-tombe": {
@@ -8919,10 +8916,34 @@
    "couvVersion": 4,
    "couvEssaiMN": "",
    "bnf": {
-    "dernier": null,
-    "notices": 0,
-    "requete": "bib.title all \"cagoule un fascisme la francaise\" and (bib.doctype=\"a\")",
-    "accordIsbn": false
+    "dernier": 3,
+    "tomes": "1-3",
+    "dateDernier": "2020-04",
+    "editeur": "Glénat",
+    "notices": 3,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45824694r",
+    "isbn1": "9782344023402",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45824694r",
+      "isbn": "9782344023402"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb46506261c",
+      "isbn": "9782344028841"
+     },
+     {
+      "n": 3,
+      "ark": "ark:/12148/cb46541940z",
+      "isbn": "9782344028858"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"cagoule\" and (bib.doctype=\"a\")",
+    "titreBnf": "La Cagoule"
    }
   },
   "cahier-a-fleurs": {
@@ -10352,7 +10373,7 @@
    "bnf": {
     "dernier": null,
     "notices": 0,
-    "requete": "bib.title all \"chapeau mysterieux de monsieur pinon\" and (bib.doctype=\"a\") and bib.author all \"bartosz\""
+    "requete": "bib.title all \"chapeau mysterieux de monsieur pinon\" and (bib.doctype=\"a\") and bib.author all \"sztybor\""
    }
   },
   "chaplin": {
@@ -11995,13 +12016,10 @@
    "bnf": {
     "dernier": 6,
     "tomes": "1-6",
-    "dateDernier": "2026-10",
-    "editeur": "Gallimard bande dessinée",
-    "notices": 22,
-    "autresEditeurs": [
-     "[France loisirs]",
-     "le Grand livre du mois"
-    ],
+    "dateDernier": "2026-07",
+    "editeur": "Gallimard",
+    "notices": 6,
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb46720531k",
     "isbn1": "9782075123341",
     "candidatsCouv": [
@@ -12011,19 +12029,19 @@
       "isbn": "9782075123341"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb45350411g",
-      "isbn": "9782075088107"
+      "n": 2,
+      "ark": "ark:/12148/cb469118909",
+      "isbn": "9782075123389"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb43499863q",
-      "isbn": "9782070662494"
+      "n": 3,
+      "ark": "ark:/12148/cb47118625r",
+      "isbn": "9782075123426"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb390606564",
-      "isbn": "207030258X"
+      "n": 4,
+      "ark": "ark:/12148/cb47430397s",
+      "isbn": "9782075197007"
      }
     ],
     "accordIsbn": true,
@@ -12508,16 +12526,19 @@
    "couvEssaiMN": "",
    "bnf": {
     "dernier": 2,
-    "tomes": "2",
+    "tomes": "1-2",
     "dateDernier": "2024-11",
     "editeur": "Vega",
-    "notices": 1,
-    "autresEditeurs": [
-     "Dupuis"
-    ],
-    "ark1": "ark:/12148/cb475946014",
-    "isbn1": "9782808505802",
+    "notices": 2,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb47366397p",
+    "isbn1": "9782808504379",
     "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb47366397p",
+      "isbn": "9782808504379"
+     },
      {
       "n": 2,
       "ark": "ark:/12148/cb475946014",
@@ -14279,7 +14300,7 @@
     "dernier": 2,
     "tomes": "1-2",
     "dateDernier": "2024",
-    "editeur": "Gallimard bande dessinée",
+    "editeur": "Gallimard",
     "notices": 8,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb47660553p",
@@ -16489,7 +16510,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"dickens dickens\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"dickens dickens\" and bib.publisher all \"vents\" and (bib.doctype=\"a\")"
    }
   },
   "dieu-n-a-pas-reponse-a-tout": {
@@ -18178,7 +18199,6 @@
     "editeur": "le Lombard",
     "notices": 10,
     "autresEditeurs": [
-     "Rageot",
      "Éditions France loisirs",
      "Éditions de Noyelles-France loisirs"
     ],
@@ -18549,9 +18569,7 @@
     "editeur": "Bande d'ados",
     "notices": 1,
     "autresEditeurs": [
-     "Bayard Jeunesse",
-     "Bayard jeunesse",
-     "Éd. France loisirs"
+     "Bayard jeunesse"
     ],
     "ark1": "ark:/12148/cb473302484",
     "isbn1": "9791036340628",
@@ -20455,9 +20473,7 @@
     "dateDernier": "2010",
     "editeur": "Casterman",
     "notices": 2,
-    "autresEditeurs": [
-     "Valérie FILUNCROCHET"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb421319488",
     "isbn1": "9782203022485",
     "candidatsCouv": [
@@ -20473,7 +20489,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"foret\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"foret\" and bib.publisher all \"casterman\" and (bib.doctype=\"a\")"
    },
    "liensVus": {}
   },
@@ -21407,8 +21423,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"geisha\" and (bib.doctype=\"a\")",
-    "titreBnf": "Geisha"
+    "requete": "bib.title all \"geisha ou le jeu du shamisen\" and (bib.doctype=\"a\")"
    }
   },
   "gen-z-girl": {
@@ -24026,7 +24041,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"helena\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"helena\" and bib.publisher all \"bamboo\" and (bib.doctype=\"a\")"
    }
   },
   "hell-school": {
@@ -25780,7 +25795,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"institutrice\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"institutrice\" and bib.publisher all \"albin\" and (bib.doctype=\"a\")"
    }
   },
   "intelligences-artificielles": {
@@ -27103,9 +27118,7 @@
     "dateDernier": "2025-09",
     "editeur": "Bamboo édition",
     "notices": 11,
-    "autresEditeurs": [
-     "Auzou"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb47568439m",
     "isbn1": "9791041108206",
     "candidatsCouv": [
@@ -27131,7 +27144,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"jour ou\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"jour ou\" and bib.publisher all \"bamboo\" and (bib.doctype=\"a\")"
    }
   },
   "journal-d-anne-frank": {
@@ -28493,7 +28506,7 @@
     "tomes": "1-8,10-17",
     "dateDernier": "2024-09",
     "editeur": "Dupuis",
-    "notices": 20,
+    "notices": 21,
     "autresEditeurs": [],
     "ark1": "ark:/12148/cb45621977x",
     "isbn1": "9791034735532",
@@ -28520,7 +28533,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"lady\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"lady\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")"
    }
   },
   "lanfeust-de-troy": {
@@ -28922,11 +28935,7 @@
     "dateDernier": "2012-03",
     "editeur": "Delcourt",
     "notices": 4,
-    "autresEditeurs": [
-     "\"La Licorne\"",
-     "Presses universitaires de Rennes",
-     "la Licorne"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb40238848k",
     "isbn1": "2756004154",
     "candidatsCouv": [
@@ -28952,7 +28961,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"licorne\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"licorne\" and bib.publisher all \"delcourt\" and (bib.doctype=\"a\")"
    }
   },
   "life-is-strange-integrale": {
@@ -29580,11 +29589,7 @@
     "dateDernier": "2025-10",
     "editeur": "Dupuis",
     "notices": 19,
-    "autresEditeurs": [
-     "",
-     "Books on Demand",
-     "Rageot"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb473548992",
     "isbn1": "9791034753772",
     "candidatsCouv": [
@@ -31558,9 +31563,7 @@
     "dateDernier": "2026-11",
     "editeur": "Dargaud Bénélux",
     "notices": 3,
-    "autresEditeurs": [
-     "Édilivre"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb47321560v",
     "isbn1": "9782505113522",
     "candidatsCouv": [
@@ -36780,9 +36783,7 @@
     "dateDernier": "2021-01",
     "editeur": "Bamboo édition",
     "notices": 2,
-    "autresEditeurs": [
-     "Filigranes"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb466120032",
     "isbn1": "9782818975442",
     "candidatsCouv": [
@@ -40100,11 +40101,7 @@
     "dateDernier": "2014",
     "editeur": "Dupuis",
     "notices": 6,
-    "autresEditeurs": [
-     "Komikku",
-     "Komikku éditions",
-     "Éditions Manucius"
-    ],
+    "autresEditeurs": [],
     "ark1": "ark:/12148/cb45548181w",
     "isbn1": "9782800156392",
     "candidatsCouv": [
@@ -40130,7 +40127,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"photographe\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"photographe\" and bib.publisher all \"dupuis\" and (bib.doctype=\"a\")"
    }
   },
   "pico-bogue": {
@@ -40403,7 +40400,7 @@
      }
     ],
     "accordIsbn": true,
-    "requete": "bib.title all \"pionniers\" and (bib.doctype=\"a\")"
+    "requete": "bib.title all \"pionniers\" and bib.publisher all \"rue\" and (bib.doctype=\"a\")"
    }
   },
   "pitcairn-l-ile-des-revoltes-du-bounty": {
@@ -42385,7 +42382,7 @@
     "tomes": "1-5",
     "dateDernier": "1998-11",
     "editeur": "Dargaud",
-    "notices": 13,
+    "notices": 10,
     "autresEditeurs": [
      "Presses pocket"
     ],
@@ -42408,9 +42405,9 @@
       "isbn": "220502406X"
      },
      {
-      "n": 1,
-      "ark": "ark:/12148/cb349118949",
-      "isbn": "2205029908"
+      "n": 2,
+      "ark": "ark:/12148/cb46554955x",
+      "isbn": "220504799X"
      }
     ],
     "accordIsbn": true,
@@ -45313,7 +45310,44 @@
    "couvIsbn": "9782302053724,9782302062849,9782302095021",
    "couvEssaiMN": "",
    "couvEssai": "2026-11-24",
-   "couvVersion": 4
+   "couvVersion": 4,
+   "bnf": {
+    "dernier": 4,
+    "tomes": "1-4",
+    "dateDernier": "2023-12",
+    "editeur": "Soleil",
+    "notices": 7,
+    "autresEditeurs": [],
+    "ark1": "ark:/12148/cb45145027d",
+    "isbn1": "9782302053717",
+    "candidatsCouv": [
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb45145027d",
+      "isbn": "9782302053717"
+     },
+     {
+      "n": 1,
+      "ark": "ark:/12148/cb451433012",
+      "isbn": "9782302053724"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45370474s",
+      "isbn": "9782302062849"
+     },
+     {
+      "n": 2,
+      "ark": "ark:/12148/cb45370455h",
+      "isbn": "9782302064430"
+     }
+    ],
+    "accordIsbn": true,
+    "requete": "bib.title all \"sangre\" and (bib.doctype=\"a\")"
+   },
+   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-24",
+   "liensVus": {}
   },
   "sant-fieg": {
    "couvEssaiMN": "",
@@ -46142,10 +46176,8 @@
     "notices": 8,
     "autresEditeurs": [
      "Bibli'o",
-     "Milady",
-     "P. Téqui",
-     "Pierre Téqui",
-     "Pierre Téqui éditeur"
+     "R. Laffont",
+     "Éditions Bibli'o"
     ],
     "ark1": "ark:/12148/cb486271438",
     "isbn1": "9782413087403",
@@ -48961,11 +48993,7 @@
     "editeur": "Dupuis",
     "notices": 2,
     "autresEditeurs": [
-     "",
-     "Bookelis",
-     "GOMB-R éd.",
-     "Marguerite Julia",
-     "les Éditions Chapitre.com"
+     "GOMB-R éd."
     ],
     "ark1": "ark:/12148/cb361963711",
     "isbn1": "2800123257",
