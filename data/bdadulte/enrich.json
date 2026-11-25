@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T06:19:16Z",
+ "maj": "2026-11-25T10:24:42Z",
  "sources": "AniList (anilist.co) ; BnF, catalogue général (Licence Ouverte) ; Manga-News via data.gouv.fr (ODbL) ; couvertures : BnF, Open Library",
  "series": {
   "1629-ou-l-effrayante-histoire-des-naufrages-du-jakarta": {
@@ -14503,16 +14503,16 @@
   },
   "dad": {
    "couvIsbn": "9782800163451,9782800164267,9782800167008",
-   "verifie": "2026-11-24",
-   "couvEssai": "2026-11-24",
-   "bnfVerifie": "2026-11-24",
+   "verifie": "2026-11-25",
+   "couvEssai": "2026-11-25",
+   "bnfVerifie": "2026-11-25",
    "liensVus": {},
    "couvFR": {
     "source": "Decitre",
     "tome": 1,
     "isbn": "9782800163451",
     "orphee": true,
-    "maj": "2026-11-24"
+    "maj": "2026-11-25"
    },
    "couvVersion": 4,
    "couvEssaiMN": "",
